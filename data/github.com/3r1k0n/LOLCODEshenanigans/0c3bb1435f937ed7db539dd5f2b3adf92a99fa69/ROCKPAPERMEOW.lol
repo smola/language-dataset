@@ -1,0 +1,65 @@
+OBTW 
+  This is my first LOLCODE program
+  I don't know what it does..yet
+TLDR
+
+HAI 1.2
+
+I HAS A INPUTSTR
+I HAS A BAI ITZ FAIL
+I HAS A MYPICK ITZ "ROCK"
+
+VISIBLE "GIMME ROCK PAPER OR SCISSORS PLS "
+GIMMEH INPUTSTR
+
+INPUTSTR, WTF?
+  OMG "ROCK"
+    VISIBLE SMOOSH "I HAS A " MYPICK MKAY
+    MYPICK, WTF?
+      OMG "PAPER"
+        VISIBLE "FAIL."
+        GTFO
+      OMG "ROCK"
+        VISIBLE "TIE"
+        GTFO
+      OMG "SCISSORS"
+        VISIBLE "U WIN"
+        GTFO
+    OIC
+    GTFO
+  OMG "PAPER"
+    VISIBLE SMOOSH "I HAS A " MYPICK MKAY
+    MYPICK, WTF?
+      OMG "PAPER"
+        VISIBLE "TIE"
+        GTFO
+      OMG "ROCK"
+        VISIBLE "U WIN"
+        GTFO
+      OMG "SCISSORS"
+        VISIBLE "FAIL"
+        GTFO
+    OIC
+    GTFO
+  OMG "SCISSORS"
+    VISIBLE SMOOSH "I HAS A " MYPICK MKAY
+    MYPICK, WTF?
+      OMG "PAPER"
+        VISIBLE "U WIN"
+        GTFO
+      OMG "ROCK"
+        VISIBLE "FAIL"
+        GTFO
+      OMG "SCISSORS"
+        VISIBLE "TIE"
+        GTFO
+    OIC
+    GTFO
+  OMG "BAI"
+    VISIBLE "KTHXBAI."
+    I HAS A BAI ITZ WIN
+    GTFO
+  OMGWTF
+    VISIBLE "LOL."
+    GTFO
+OIC

@@ -1,0 +1,443 @@
+{- «•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»
+
+    Copyright © 2011 - 2015, Ingo Wechsung
+    All rights reserved.
+
+    Redistribution and use in source and binary forms, with or
+    without modification, are permitted provided that the following
+    conditions are met:
+
+        Redistributions of source code must retain the above copyright
+        notice, this list of conditions and the following disclaimer.
+
+        Redistributions in binary form must reproduce the above
+        copyright notice, this list of conditions and the following
+        disclaimer in the documentation and/or other materials provided
+        with the distribution. Neither the name of the copyright holder
+        nor the names of its contributors may be used to endorse or
+        promote products derived from this software without specific
+        prior written permission.
+
+    THIS SOFTWARE IS PROVIDED BY THE
+    COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR
+    IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+    WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+    PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER
+    OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+    SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+    LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF
+    USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+    AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+    LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+    IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+    THE POSSIBILITY OF SUCH DAMAGE.
+
+    «•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•»«•» -}
+{--
+    Kind inference
+ -}
+
+module frege.compiler.Kinds where
+
+import frege.Prelude hiding(<+>, break)
+
+import  Compiler.enums.Flags as Compilerflags(TRACEK)
+
+import  Compiler.types.Positions(Positioned)
+import  Compiler.types.QNames
+import  Compiler.types.Types
+import  Compiler.types.Symbols
+import  Compiler.types.Global as G
+
+import  Compiler.common.Errors as E()
+import  Compiler.common.SymbolTable
+import  Compiler.common.Types as T(unifySigma, substSigma)
+
+import  Compiler.classes.Nice
+import  Compiler.instances.Nicer
+
+import Lib.PP(group, break, text, <+>, <>)
+import frege.compiler.Utilities as U()
+
+import Data.TreeMap as TM(TreeMap, keys, values, each, including, 
+    lookup, insert, delete)
+    
+import Data.Graph (stronglyConnectedComponents tsort)
+
+
+
+--- do kind inference on type symbols
+kiTypes = do
+    g <- getST
+    let tsyms = typeSyms g
+        deps  = map (typeDep g) tsyms
+        tdeps = zip (map Symbol.name tsyms) deps
+        groups = tsort tdeps
+    foreach groups kiTypeGroup
+    return ()
+
+--- do kind inference on a group of types 
+kiTypeGroup qns = do
+    types <- mapM U.findT qns
+    let vartypes = filter (varKind . Symbol.kind) types  -- with kinds that contain KVar
+        names    = map Symbol.name vartypes
+    foreach vartypes (kiTypeSym names)
+
+-- refresh :: Symbol -> StG Symbol
+-- refresh sym = getST >>= (return . unJust . sym.name.findit)
+
+ 
+
+kiTypeSym :: [QName] -> Symbol -> StG ()
+kiTypeSym names sym = do
+    g <- getST
+    E.logmsg TRACEK (Symbol.pos sym) (text ("kind check for " ++ nice sym g))
+    -- kind check all constructor sigmas
+    let cons = [ con | con@SymD{typ} <- values sym.env ]
+    foreach cons (kiConSym names)
+    g ← getST
+    sym ← U.findT sym.name
+    let kflat (KApp k ks) = k : kflat ks
+        kflat ks          = [ks]
+        typ = ForAll (zipWith Tau.{kind=} (sym.typ.bound) (kflat sym.kind)) sym.typ.rho
+        showbnds = text . joined " " . map (flip nice g)
+    changeSym sym.{typ}
+    E.logmsg TRACEK (Symbol.pos sym) (text "type is now ∀"
+            <+> showbnds typ.bound <+> text "." <+> text (nicer typ.rho g)
+        )
+    
+
+kiConSym names con = do
+    g <- getST
+    E.logmsg TRACEK (Symbol.pos con) (text ("kind check for " ++ nice con g))
+    (sigma,_) <- kiSigma names [] con.typ
+    changeSym con.{typ=sigma}
+
+-- kind inference on a 'Sigma' type where something else than 'KType' is expected
+kiSigmaX :: Sigma -> Kind -> StG (Sigma, Kind)
+kiSigmaX sigma kind = do
+    g <- getST
+    E.logmsg TRACEK (getpos sigma) (text ("kind check " ++ nice sigma g ++ " for " ++ show kind))
+    let e = Tau.kind <$> sigma.extendEnv empty
+    (rho, envs, kind) <- kiRhoX sigma.rho [e] kind
+    let e' = fmap repKVar (head envs) 
+    return (substSigmaBound sigma.{rho = substRhoKind e' rho} e', repKVar kind)
+
+substSigmaBound (ForAll bound rho) e = ForAll new rho
+    where
+        new = [ tv.{kind=k} | tv ← bound, k ← lookup tv.var e ]
+
+kiRhoX :: Rho -> Envs -> Kind -> StG (Rho, Envs, Kind)
+kiRhoX (it@RhoTau{}) env kind = do
+    env <- foldM (kiCtx []) env it.context
+    (kind, env) <- unifyTauKind [] env it.tau kind
+    return (it, env, kind)
+kiRhoX it env kind = do            -- it is a RhoFun, and this a type
+    (rho, env) <- kiRho [] env it
+    case unifyKind KType kind of
+        Just k -> return (rho, env, KType)
+        Nothing -> do
+            g <- getST
+            E.error (getpos it) (text ("kind error: type "
+                ++ nicer it g
+                ++ "  used where kind " ++ show kind
+                ++ "  is expected."))
+            return (rho, env, kind)
+
+--- kind inference on a 'Sigma' type where a certain variable is already known.
+kiSigmaC :: String -> Kind -> Sigma -> StG (Sigma, Envs)
+kiSigmaC name kind sigma = do
+    g <- getST
+    E.logmsg TRACEK (getpos sigma) (text ("kind check " ++ nice sigma g))
+    let se = Tau.kind <$> sigma.extendEnv empty
+        e  = case kind of KVar -> se ; _ -> insert name kind se
+    -- the sub rho is checked with an extended env, i.e. one that is 1 longer than the
+    -- one passed in.
+    -- If kiRho always returns an env with the same length as passed,
+    -- then kiSigma will also behave this way, since it drops the new one again.
+    -- Given that unifyTauKind and updenv do not change the length,
+    -- this is indeed so. Hence we can use head and tail safely on envs,
+    -- as it is 1 longer than env (which may be the empty list). 
+    (rho, envs) <- kiRho [] (e:[]) sigma.rho
+    let e' = fmap repKVar (head envs)
+    return (substSigmaBound sigma.{rho = substRhoKind e' rho} e', tail envs)
+    
+--- kind inference on a 'Sigma' type
+kiSigma :: [QName] -> Envs -> Sigma -> StG (Sigma, Envs)
+kiSigma names env sigma = do
+    g <- getST
+    E.logmsg TRACEK (getpos sigma) (text ("kind check " ++ nice sigma g))
+    let e = Tau.kind <$> sigma.extendEnv empty
+    -- the sub rho is checked with an extended env, i.e. one that is 1 longer than the
+    -- one passed in.
+    -- If kiRho always returns an env with the same length as passed,
+    -- then kiSigma will also behave this way, since it drops the new one again.
+    -- Given that unifyTauKind and updenv do not change the length,
+    -- this is indeed so. Hence we can use head and tail safely on envs,
+    -- as it is 1 longer than env (which may be the empty list). 
+    (rho, envs) <- kiRho names (e:env) sigma.rho
+    let e' = fmap repKVar (head envs)
+    return (substSigmaBound sigma.{rho = substRhoKind e' rho} e', tail envs)
+
+-- unVar KVar = KVar
+-- unVar x    = repKVar x
+repKVar KVar = KType
+repKVar (KApp a b) = KApp (repKVar a) (repKVar b)
+repKVar x = x
+    
+substRhoKind env (it@RhoTau{}) = it.{
+    context <- map (substCtxKind env),
+    tau     <- substTauKind env}
+substRhoKind env (it@RhoFun{}) = it.{
+        context <- map (substCtxKind env),
+        sigma   <- Sigma.{rho <- substRhoKind env'},
+        rho     <- substRhoKind env}
+    where
+        -- the bound variables except the ones bound here
+        env' = foldr delete env it.sigma.vars    
+
+substCtxKind :: TreeMap String (KindT β) -> ContextT β -> ContextT β
+substCtxKind env it = it.{tau <- substTauKind env}
+
+substTauKind :: TreeMap String (KindT β) -> TauT β -> TauT β
+substTauKind env (it@TVar{}) = case env.lookup it.var of
+    Just kind -> it.{kind}
+    _         -> it    
+substTauKind env (TApp a b)  = TApp (substTauKind env a) (substTauKind env b)
+substTauKind env tau         = tau
+
+--- kind inference on a 'Rho' type
+kiRho :: [QName] -> Envs -> Rho -> StG (Rho, Envs)
+kiRho names env (it@RhoTau{context,tau}) = do
+    env <- foldM (kiCtx names) env context
+    (_, env) <- unifyTauKind names env tau KType
+    return (it, env)
+kiRho names env (it@RhoFun{context,sigma,rho}) = do
+    env <- foldM (kiCtx names) env context
+    (sig, env) <- kiSigma names env sigma
+    (rho, env) <- kiRho   names env rho  
+    return (it.{sigma=sig, rho}, env)    
+
+--- kind inference on a 'Ctx', takes into account kind checked classes only
+kiCtx names env Ctx{cname, tau} = do
+    cls <- U.findC cname
+    case cls.tau.kind of
+        KVar -> return env          -- not yet kind checked
+        k    -> do
+            (_, env) <- unifyTauKind names env tau k
+            return env    
+
+
+type Envs = [TreeMap String Kind]
+
+{--
+    Kind inference on a 'Tau' type.
+    
+    [usage] @unifyTauKind names env tau exp@
+    [arguments] A list of 'QName's whose kinds may be updated, a list of
+    mappings from 'String's (type variable names) to 'Kind's, a 'Tau' whose
+    kind is to be inferred and an expected 'Kind'.
+    [returns]  The 'Kind' detected and an updated environment.
+    
+    When a type constructor is encountered whose 'QName' appears in the list,
+    the 'Global' state will be updated to remember the inferred kind.
+    
+    If kind errors are detected, error messages will be written.  
+    -}
+unifyTauKind :: [QName] -> Envs -> Tau -> Kind -> StG (Kind, Envs)
+unifyTauKind names env (tvar@TVar{}) exp 
+    | Just _ ← tvar.wildTau, 
+      KGen taus ← tvar.kind = do  
+              env' ← foldM (\env t ->  snd <$> unifyTauKind names env t KType) env taus
+              case unifyKind tvar.kind exp of
+                Nothing → do 
+                    g ← getST
+                    E.error tvar.pos (text ("kind error, wildcard `" 
+                                        ++ "` has kind " 
+                                        ++ nicer tvar.kind g
+                                        ++ ", expected was " ++ nicer exp g))
+                    pure (tvar.kind, env')
+                Just _ → pure (tvar.kind, env')                   
+unifyTauKind names env (TVar{pos,var,kind}) exp = do
+        g <- getST
+        E.logmsg TRACEK pos (text ("unifyTauKind: " ++ var
+            ++ "  initial "  ++ nicer varkind g 
+            ++ "  expected " ++ nicer exp g))
+        case unifyKind varkind exp of
+            Just (KGen ts) → do
+                let subst = fold (\tm tv -> TreeMap.insert tm tv.var tv.{var,pos,kind=KVar}) empty
+                                [ftv | t ← ts, ftv ← U.freeTVars [] (RhoTau [] t)]
+                    ts'    = map (T.substTau subst) ts
+                pure (KGen ts', updenv env var (KGen ts'))
+            Just k  -> do
+                -- let k = unVar kn
+                E.logmsg TRACEK pos (text ("unifyTauKind: " ++ var ++ "  result " ++ nicer k g))
+                --if (varkind == KGen && k == KType)
+                --then return (k, updenv env var varkind)
+                --else return (k, updenv env var k)
+                pure (k, updenv env var k) 
+            Nothing -> 
+                {- if (varkind == KType && exp == KGen) 
+                then return (KGen, updenv env var KGen)
+                else -} do
+                    E.error pos (text ("kind error, type variable `" 
+                                        ++ var 
+                                        ++ "` has kind " 
+                                        ++ nicer varkind g
+                                        ++ ", expected was " ++ nicer exp g))
+                    pure (varkind, updenv env var varkind)
+    where varkind = fromMaybe kind (findenv env var)
+
+
+
+unifyTauKind names env (TCon{pos,name}) exp = do
+    g <- getST
+    sym <- U.findT name
+    
+    E.logmsg TRACEK pos (text ("unifyTauKind: " ++ nice name g
+        ++ "  initial "  ++ show sym.kind 
+        ++ "  expected " ++ show exp))
+    
+    case unifyKind sym.kind exp of
+        Just k -> do
+            when (! (k `keq` sym.kind) && sym.name `elem` names) do 
+                changeSym sym.{kind=k}
+            E.logmsg TRACEK pos (text ("unifyTauKind: " ++ nice name g ++ "  result " ++ show k))
+            return (k, env)
+        Nothing -> do
+            g <- getST
+            E.error pos (text ("kind error, type constructor `" ++ name.nice g 
+                                ++ "` has kind " 
+                                ++ show sym.kind
+                                ++ ", expected was " ++ show exp))
+            return (sym.kind, env)                                    
+
+-- TCon b ~ exp  => check TCon for kb -> exp and b for kb
+unifyTauKind names env (it@TApp a b) exp = do
+    g <- getST
+    E.logmsg TRACEK (getpos it) (text ("unifyTauKind: " ++ nice it g ++ " expected " ++ show exp))
+    (ka, env) <- unifyTauKind names env a (KApp KVar exp)
+    case ka of
+        KApp kb kx = do
+            E.logmsg TRACEK (getpos it) (text ("unifyTauKind: " ++ nice it g ++ " result " ++ show kx))
+            (kb2, env) <- unifyTauKind names env b kb
+            if kb2 `keq` kb
+                then return (kx, env)
+                else do
+                    (kr, env) <- unifyTauKind names env a (KApp kb2 kx)
+                    case kr of
+                        KApp _ ki -> return (ki, env)
+                        other     -> return (exp, env)     
+        other -> do
+            return (exp, env)
+
+unifyTauKind names env (meta@Meta tv) exp = do
+    g <- getST
+    E.logmsg TRACEK (getpos meta) (text ("unifyTauKind: " ++ nice meta g ++ " expected " ++ show exp))
+    case unifyKind tv.kind exp of
+        Just k -> do
+            E.logmsg TRACEK (getpos meta) (text ("unifyTauKind: " ++ nice meta g ++ "  result " ++ show k))
+            return (k, env)
+        Nothing -> do
+            E.error (getpos meta) (text ("kind error, type " ++ meta.nicer g 
+                                ++ " has kind " 
+                                ++ show tv.kind
+                                ++ ", expected was " ++ show exp))
+            return (tv.kind, env)
+
+unifyTauKind names env (TSig s) exp = do
+    g <- getST
+    E.logmsg TRACEK (getpos s) (text ("unifyTauKind: " ++ nice s g ++ " expected " ++ show exp))
+    kiSigma names env s           -- ??? the changed sigma gets lost ???
+    case unifyKind KType exp of
+        Just k -> do
+            E.logmsg TRACEK (getpos s) (text ("unifyTauKind: " ++ nice s g ++ "  result " ++ show k))
+            return (k, env)
+        Nothing -> do
+            E.error (getpos s) (text ("kind error, type " ++ nicer s g
+                                ++ " has kind "
+                                ++ show KType
+                                ++ ", expected was " ++ show exp))
+            return (KType, env)
+
+--- Update a value in a list of environments
+--- This is designed to fail if the key is not present in any env. 
+updenv :: (Show α, Ord α) => [TreeMap α β] -> α -> β -> [TreeMap α β]
+updenv [e] k v = [e.insert k v]
+updenv (e:es) k v = case e.lookup k of
+    Just _  ->  e.insert k v : es
+    Nothing -> e : updenv es k v
+updenv _ k v = error ("key not present: " ++ show k)     
+
+--- Find a value in a list of trees
+findenv :: Ord α => [TreeMap α γ] -> α -> Maybe γ
+findenv (e:es) k = case e.lookup k of
+    Nothing -> findenv es k
+    just    -> just
+findenv [] k = Nothing
+        
+
+unifyKind :: Kind -> Kind -> Maybe Kind
+unifyKind (a@KGen{}) KType = Just a
+--- take care that @extends T1 & T2@ and @extends T2 & T1@ match
+unifyKind (a@KGen xs) (b@KGen ys) = if matches xs ys then Just a else Nothing
+    where 
+        matches (x:xs) ys = case filter (eq x) ys of
+            [y] → matches xs (filter (not . eq y) ys)
+            _   → false
+        matches [] ys = null ys
+        
+        eq x y = x'.textualEq y
+            where
+                subst = T.unifyTau empty x y
+                x'    = T.substTau subst x
+ 
+unifyKind KType KType = Just KType
+unifyKind KType (b@KGen{}) = Just b
+unifyKind KVar x = Just x
+unifyKind x KVar = Just x
+unifyKind (KApp a b) (KApp c d) = do
+    left  <- unifyKind a c
+    right <- unifyKind b d
+    return (KApp left right)
+unifyKind _ _ = Nothing    
+                                                        
+        
+--- tell whether a kind contains any 'KVar's
+varKind KVar       = true
+varKind (KApp a b) = varKind a || varKind b
+varKind _          = false
+   
+--- find the 'Sigmas' of all constructors of the given type 'Symbol'
+conSigmas SymT{env} = [ typ | SymD{typ} <- values env ] 
+conSigmas _ = []
+
+--- give the direct dependencies of a type symbol
+typeDep g = ourNames g . sigmasTCons . conSigmas
+    
+--- find our type symbols
+typeSyms :: Global -> [Symbol]
+typeSyms g = filter isOurT (values g.thisTab) where 
+    isOurT SymT{name} = g.our name 
+    isOurT _          = false
+
+--- find all our 'QNames'  from a 'OrdSet'
+ourNames :: Global -> TreeMap QName β -> [QName]
+ourNames g = filter (g.our) . keys
+
+--- all type denoting 'QNames' from a list of 'Sigma's
+sigmasTCons = fold rhoTCons TreeMap.empty . map Sigma.rho
+
+--- find all 'QName's that denote types in a 'Sigma' type
+sigmaTCons (ForAll _ rho) = keys (rhoTCons TreeMap.empty rho)
+
+--- find all 'QName's that denote types in a 'Rho' type
+rhoTCons set (rho@RhoFun{}) = rhoTCons sigset rho.rho where
+    sigset = rhoTCons set rho.sigma.rho
+rhoTCons set (rho@RhoTau{}) = tauTCons set rho.tau
+
+--- find all 'QName's that denote types in a 'Tau' type
+tauTCons set (TCon{name}) = set `including` name
+tauTCons set (TApp a b)   = tauTCons (tauTCons set a) b
+tauTCons set _            = set
+   

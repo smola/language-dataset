@@ -1,0 +1,18 @@
+﻿using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+
+[assembly: Nemerle.Macro.Resource(@"Properties/Resources.resx")]
+[assembly: Nemerle.Macro.Settings(@"Properties/Settings.settings")]
+[assembly: AssemblyTitle("Nitra_Mini_C")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("RSDN")]
+[assembly: AssemblyProduct("Nitra-Mini-C")]
+[assembly: AssemblyCopyright("Copyright ©RSDN 2016")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+[assembly: ComVisible(false)]
+[assembly: Guid("6762e367-20c3-4a1d-80e3-257d80fbe993")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]

@@ -1,0 +1,68 @@
+using System;
+using System.IO;
+
+namespace LogGrok.LogParserBase
+{
+    public class ReadSubStream : Stream
+    {
+        public this(stream : Stream, beginOffset: long, endOffset : long = -1)
+        {
+            _stream = stream;
+            _beginOffset = beginOffset;
+            _ = _stream.Seek(beginOffset, SeekOrigin.Begin);
+            _size = (if(endOffset == -1) _stream.Length else endOffset) - beginOffset;
+        }
+        
+       	public override Read(buffer : array[byte], offset : int, count : int) : int
+       	{
+       	    if (_position >= _size)
+       	        0
+       	    else
+       	    {
+                def toRead = Math.Min(count, (_size - _position) :> int);
+                def read = _stream.Read(buffer, offset, toRead);
+                _position += (read :> uint);
+                read
+           	}
+       	}
+       	
+		public override Seek(offset : long, origin : System.IO.SeekOrigin) : long 
+		{
+		    match (origin)
+		    {
+		        | SeekOrigin.Begin => 
+		            assert(offset < _size);
+		            _position = offset;
+		            _stream.Seek(_beginOffset + offset, origin)
+		        | SeekOrigin.Current =>
+		            assert(_position + offset > 0 && _position + offset < _size);
+		            _position += offset;
+		            _stream.Seek(offset, origin)
+		        | SeekOrigin.End =>
+		            assert(-offset <= _size);
+		            _position = _size + offset;
+		            _stream.Seek(-_stream.Length + _size + _beginOffset + offset, origin)
+		    }
+		}
+       	
+		public override Close() : void { _stream.Close(); }
+		public override Flush() : void { throw NotSupportedException(); }
+		public override SetLength(_value : long) : void{ throw NotSupportedException(); }
+		public override Write(_buffer : array[byte], _offset : int, _count : int) : void{ throw NotSupportedException(); }
+		
+		public override CanRead : bool { get { true } }
+		public override CanSeek : bool { get { false } } 
+		public override CanWrite : bool { get { false } }
+		public override Length : long { get { _size } }
+		public override Position : long 
+        { 
+		    get { _position } 
+		    set { _ = Seek(value, System.IO.SeekOrigin.Begin); } 
+		}
+		
+		private _stream : Stream;
+		private _size : long;
+		private _beginOffset : long;
+		private mutable _position : long = 0;
+    }
+}

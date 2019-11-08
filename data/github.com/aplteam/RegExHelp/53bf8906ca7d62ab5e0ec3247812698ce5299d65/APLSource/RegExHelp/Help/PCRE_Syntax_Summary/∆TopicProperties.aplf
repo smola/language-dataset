@@ -1,0 +1,43 @@
+ ∆TopicProperties←{
+⍝ This function is needed by the Markdown2Help system.
+⍝ You can edit this function from the Markdown2Help GUI via the context menu.
+⍝ *** NOTE:
+⍝     Make only changes to this function that affect the explicit result.
+⍝     Any other changes will eventually disappear because these functions are rebuild
+⍝     under program control from their explicit result under certain circumstances.
+⍝        This is also the reason why you should use the `active` flag to hide a topic
+⍝     temporarily because although just putting a `⍝` symbol in front of its line
+⍝     seems to have the same effect, in the long run that's not true because the
+⍝     commented line will disappear in the event of a rebuild.
+⍝ ----------------------------------
+⍝ r gets a table with these columns:
+⍝ [;0] namespace or function name.
+⍝ [;1] caption in the tree view. If empty the namespace/fns name is taken.
+⍝ [;2] active flag.
+⍝ [;3] developmentOnly flag; 1=the corresponding node does not show in user mode.
+     r←0 4⍴''
+     r⍪←'Quoting' '' 1 0
+     r⍪←'Characters' '' 1 0
+     r⍪←'Character_types' 'Character types' 1 0
+     r⍪←'General_category_properties_p_and_P' 'General category properties `\p` and `\P`' 1 0
+     r⍪←'Special_category_properties_p_and_P' 'PCRE special category properties for `\p` and `\P`' 1 0
+     r⍪←'Script_names_for_p_and_P' 'Script names for `\p` and `\P`' 1 0
+     r⍪←'Character_classes' 'Character classes' 1 0
+     r⍪←'Quantifiers' '' 1 0
+     r⍪←'Anchors_and_simple_assertions' 'Anchors and simple assertions' 1 0
+     r⍪←'Match_point_reset' 'Match point reset' 1 0
+     r⍪←'Alternations' 'Alternation' 1 0
+     r⍪←'Capturing' '' 1 0
+     r⍪←'Atomic_groups' 'Atomic groups' 1 0
+     r⍪←'Comments' '' 1 0
+     r⍪←'Options_settings' 'Option setting' 1 0
+     r⍪←'New_conventions' 'Newline convention' 1 0
+     r⍪←'What_R_matches' 'What `\R` matches' 1 0
+     r⍪←'Lookahead_and_Lookbehind_assertions' 'Lookahead and lookbehind assertions' 1 0
+     r⍪←'Backreferences' '' 1 0
+     r⍪←'Subroutine_reference' 'Subroutine reference (possibly recursive)' 1 0
+     r⍪←'Conditional_patterns' 'Conditional patterns ' 1 0
+     r⍪←'Backtracking_control' 'Backtracking control' 1 0
+     r⍪←'Callouts' '' 1 0
+     r
+ }

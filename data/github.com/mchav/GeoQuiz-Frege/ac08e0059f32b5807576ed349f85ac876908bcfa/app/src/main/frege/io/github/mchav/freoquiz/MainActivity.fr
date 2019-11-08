@@ -1,0 +1,182 @@
+module io.github.mchav.freoquiz.MainActivity where
+
+import froid.app.Activity
+import froid.content.Context
+import froid.content.Intent
+import froid.os.Bundle
+import froid.util.Log
+import froid.view.View
+import froid.widget.Button
+import froid.widget.TextView
+import froid.widget.Toast
+
+import io.github.mchav.freoquiz.CheatActivity as CheatActivity()
+
+import Control.Concurrent
+import Data.List
+
+native module type Activity where {}
+
+requestCheatCode :: Int
+requestCheatCode = 0
+
+currentQuestionTag :: String
+currentQuestionTag = "io.github.mchav.freoquiz.CURRENT_QUESTION"
+
+questionsCheatedTag :: String
+questionsCheatedTag = "io.github.mchav.freoquiz.QUESTIONS_CHEATED"
+
+pure native activityMain "io.github.mchav.freoquiz.R.layout.activity_main" :: Int
+pure native btnPrevId "io.github.mchav.freoquiz.R.id.btnPrev" :: Int
+pure native btnNextId "io.github.mchav.freoquiz.R.id.btnNext" :: Int
+pure native btnFalseId "io.github.mchav.freoquiz.R.id.btnFalse" :: Int
+pure native btnTrueId "io.github.mchav.freoquiz.R.id.btnTrue" :: Int
+pure native btnCheatId "io.github.mchav.freoquiz.R.id.btnCheat" :: Int
+pure native questionText "io.github.mchav.freoquiz.R.id.question_text" :: Int
+
+-- model
+
+data Question = Question { text :: String, answer :: Bool }
+
+data Navigation = Back | Forward
+derive Eq Navigation
+
+questions :: [Question]
+questions = [ Question { text = "The Pacific Ocean is larger than the Atlantic Ocean", answer = True}
+            , Question { text = "The Suez Canal connects the Red Sea and the Indian Ocean", answer = False}
+            , Question { text = "The source of the Nile river is in Egypt", answer = False}
+            , Question { text = "The Amazon river is the longest river in the Americas", answer = True}
+            , Question { text = "Lake Baikal is the world\'s oldest and deepest freshwater lake", answer = True}
+            , Question { text = "The capital of Zimbabwe is Bulawayo", answer = False}
+            , Question { text = "Ghana is Africa\'s fastest growing economy", answer = True}]
+
+-- controller
+
+nextQuestion :: String -> String
+nextQuestion !q = maybe q id (lookup q (sequenceQuestions questions))
+
+previousQuestion :: String -> String
+previousQuestion !q = maybe q id (lookup q (sequenceQuestions (reverse questions) ))
+
+sequenceQuestions :: [Question] -> [(String, String)]
+sequenceQuestions qs = zip (questionStrings) ((tail questionStrings) ++ [head questionStrings])
+            where questionStrings = map (\x -> x.text) qs
+
+-- view
+
+data UI = UI { context :: MutableIO Context,
+               textView :: MutableIO TextView,
+               buttonTrue :: MutableIO Button,
+               buttonFalse :: MutableIO Button,
+               buttonCheat :: MutableIO Button
+             }
+
+checkAnswer :: UI -> Bool -> MutableIO View -> IO ()
+checkAnswer ui b v = do
+    q <- getTextString ui.textView
+    let ans = maybe False id (fmap (\x -> x.answer) (find (\x -> x.text == q) questions))
+    let toastText = if ans == b then "You got it right!" else "Wrong!"
+    (Toast.makeText ui.context toastText Toast.lengthShort >>= \t -> t.show)
+    ui.textView.setText (nextQuestion q)
+
+cheat :: MutableIO Activity -> UI -> MutableIO View -> IO ()
+cheat this ui v = do
+    q <- getTextString ui.textView
+    let ansIsTrue = maybe False id (fmap (\x -> x.answer) (find (\x -> x.text == q) questions))
+    i <- CheatActivity.newIntent ui.context ansIsTrue
+    this.startActivityForResult i requestCheatCode
+
+navigate :: MVar String -> UI -> Navigation -> MutableIO View -> IO ()
+navigate cheated ui b v = do
+    q <- getTextString ui.textView
+    case b of
+        Forward -> switchQuestion (nextQuestion q) cheated ui
+        Back    -> switchQuestion (previousQuestion q) cheated ui
+
+switchQuestion :: String -> MVar String -> UI -> IO ()
+switchQuestion question cheated ui = do
+    ui.textView.setText question
+    cheatedStr <- takeMVar cheated
+    hideIfCheated ui question cheatedStr
+    putMVar cheated cheatedStr
+
+hideIfCheated :: UI -> String -> String -> IO ()
+hideIfCheated ui question cheatedStr = case (cheatedStr.contains question) of
+                                            True  -> showHideButtons ui View.invisible
+                                            False -> showHideButtons ui View.visible
+
+showHideButtons :: UI -> Int -> IO ()
+showHideButtons ui visibility = do
+    ui.buttonTrue.setVisibility visibility
+    ui.buttonFalse.setVisibility visibility
+    ui.buttonCheat.setVisibility visibility
+
+onSaveInstanceState :: MVar String -> MutableIO TextView -> MutableIO Bundle -> IO ()
+onSaveInstanceState c tv b = do
+    cs <- tv.getText
+    b.putCharSequence currentQuestionTag cs
+    cheated <- takeMVar c
+    b.putCharSequence questionsCheatedTag cheated
+    putMVar c cheated
+
+getQuestionsCheated :: Maybe (MutableIO Bundle) -> IO String
+getQuestionsCheated b = case b of
+    Nothing -> return ""
+    Just b  -> do
+        mcs <- b.getCharSequence questionsCheatedTag
+        return $ maybe "" (\cs -> (cs.toString)) mcs
+
+
+onActivityResult :: UI -> IO String ->
+                    MVar String ->
+                    Int -> Int ->
+                    Maybe (MutableIO Intent) -> IO ()
+onActivityResult ui str cheated requestCode resultCode intent
+    | resultCode /= (Activity.resultOk) = return ()
+    | requestCode == requestCheatCode   = recordCheating ui str cheated intent
+    | otherwise                         = return ()
+
+recordCheating :: UI -> IO String -> MVar String -> Maybe (MutableIO Intent) -> IO ()
+recordCheating ui str cheated intent = case intent of
+        Nothing -> return ()
+        Just i  -> do
+            Just shown <- CheatActivity.wasAnswerShown i
+            q <- str
+            cl <- takeMVar cheated
+            let update = if (shown && (not $ cl.contains q)) then q else ""
+            putMVar cheated (cl ++ update)
+            ui.buttonFalse.setVisibility (View.invisible)
+            ui.buttonTrue.setVisibility (View.invisible)
+
+setupUI :: MutableIO Activity -> IO UI
+setupUI this = do
+    this.setContentView activityMain
+    context <- this.getApplicationContext
+    txt <- asTextView this questionText
+    btnTrue <- asButton this btnTrueId
+    btnFalse <- asButton this btnFalseId
+    btnCheat <- asButton this btnCheatId
+    return UI { context = context, textView = txt, buttonTrue = btnTrue, buttonFalse = btnFalse, buttonCheat = btnCheat }
+
+initialQuestion :: Maybe (MutableIO Bundle) -> IO String
+initialQuestion b = case b of
+                    	    Nothing -> return $ (head questions).text
+                    	    Just s  -> liftM (\(Just cs) -> cs.toString) (s.getCharSequence currentQuestionTag)
+
+onCreate :: MutableIO Activity -> Maybe (MutableIO Bundle) -> IO ()
+onCreate this savedInstanceState = do
+    ui <- setupUI this
+    firstQuestion <- (initialQuestion savedInstanceState)
+    ui.textView.setText firstQuestion
+    c <- getQuestionsCheated savedInstanceState
+    let hide = if c.contains firstQuestion then View.invisible else View.visible
+    showHideButtons ui hide
+    cheated <- newMVar $ c -- used string because words function throws exception
+    this.setOnActivityResult (onActivityResult ui (getTextString ui.textView) cheated)
+    this.setOnSavedInstanceState (onSaveInstanceState cheated (ui.textView))
+    setButtonOnClick ui.buttonFalse (checkAnswer ui False)
+    setButtonOnClick ui.buttonTrue (checkAnswer ui True)
+    setButtonOnClick ui.buttonCheat (cheat this ui)
+    buttons <- mapM (asButton this) [btnNextId, btnPrevId]
+    zipWithM_ setButtonOnClick buttons [(navigate cheated ui Forward), (navigate cheated ui Back)]
+

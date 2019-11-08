@@ -1,0 +1,37 @@
+module helloplay.FregeApplication where
+
+import Data.JSON
+import helloplay.Play
+
+data GreetingRequest = GreetingRequest { name :: String }
+
+data GreetingResponse = GreetingResponse { message :: String }
+
+instance FromJSON GreetingRequest where
+   fromJSON (Struct fs)  = do
+        name <- field "name" fs
+        pure $ GreetingRequest name
+   fromJSON invalid = fail ("Invalid JSON for Greeting Request: " ++ show invalid)
+
+instance ToJSON GreetingResponse where
+    toJSON (GreetingResponse message) = Struct [ assoc "message" message ]
+
+greet :: GreetingRequest -> GreetingResponse
+greet request = GreetingResponse $ "Hello, " ++ request.name
+
+webMain :: Request -> IO ResultStatus
+webMain request = do
+  let jsonRequest = parseJSON request.body.asJson.toString
+  return $ either badRequest (ok . show . toJSON . greet) jsonRequest
+
+{-
+ - This makes the Frege module extend Play Controller class so that it can be configured to handle a route.
+ -}
+native module type PlayController where {
+    public static play.mvc.Result greet() {
+        return frege.runtime.Delayed.forced(
+          frege.prelude.PreludeBase.TST.performUnsafe(webMain(request()))
+        );
+    }
+}
+

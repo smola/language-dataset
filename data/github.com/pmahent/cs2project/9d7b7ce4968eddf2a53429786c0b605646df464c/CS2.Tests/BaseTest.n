@@ -1,0 +1,26 @@
+using Castle.Windsor;
+using Castle.Windsor.Configuration.Interpreters;
+using NUnit.Framework;
+using Rhino.Mocks;
+
+namespace CS2.Tests
+{
+    public abstract class BaseTest
+    {
+        protected mutable container : IWindsorContainer;
+        protected mutable mocks : MockRepository;
+
+        [TestFixtureSetUp]
+        public FixtureSetup() : void
+        {
+            container = WindsorContainer(XmlInterpreter());
+            mocks = MockRepository();
+        }
+
+        [TestFixtureTearDown]
+        public FixtureTeardown() : void
+        {
+            container.Dispose();
+        }
+    }
+}

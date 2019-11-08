@@ -1,0 +1,512 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     19767,        503]
+NotebookOptionsPosition[     18434,        452]
+NotebookOutlinePosition[     18849,        469]
+CellTagsIndexPosition[     18806,        466]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["CaffeLink", "Title",
+ CellChangeTimes->{{3.6286167009686193`*^9, 3.628616705353096*^9}, {
+  3.628626423243058*^9, 3.628626438634693*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["LibLink test", "Chapter",
+ CellChangeTimes->{{3.62861672363321*^9, 3.628616729321156*^9}, {
+  3.6286182071179743`*^9, 3.628618207989902*^9}, {3.6287118654359283`*^9, 
+  3.628711866035581*^9}, {3.628717312225256*^9, 3.628717317457108*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Requirements and Initialization", "Section",
+ CellChangeTimes->{{3.628619311403955*^9, 3.628619333729766*^9}, {
+   3.628626296938178*^9, 3.628626307578312*^9}, {3.62862634230451*^9, 
+   3.628626346353798*^9}, 3.628706794516664*^9}],
+
+Cell[TextData[{
+ "Compiled CaffeLink library must be somewhere in ",
+ StyleBox["$LibraryPath", "Input"],
+ " so that ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " can find it."
+}], "Text",
+ CellChangeTimes->{{3.628718425306878*^9, 3.628718511187456*^9}, {
+  3.6287185996524*^9, 3.6287186000852633`*^9}}],
+
+Cell[BoxData["$LibraryPath"], "Input"],
+
+Cell[TextData[{
+ "Check it with ",
+ StyleBox["FindLibrary", "Input"],
+ "."
+}], "Text",
+ CellChangeTimes->{3.628718608829934*^9}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"FindLibrary", "[", "\"\<libcaffeLink\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.628718497514213*^9, 3.628718526830739*^9}}],
+
+Cell[BoxData["\<\"/home/kerhy/.Mathematica/SystemFiles/LibraryResources/Linux-\
+x86-64/libcaffeLink.so\"\>"], "Output",
+ CellChangeTimes->{{3.628718545140374*^9, 3.628718573656456*^9}}]
+}, Open  ]],
+
+Cell[TextData[{
+ "CaffeLink depends on numerous other libraries, especially on libcaffe. \
+These libraries do not have to be in ",
+ StyleBox["$LibraryPath", "Input"],
+ " but should be loadable in your system."
+}], "Text",
+ CellChangeTimes->{{3.628718647289814*^9, 3.628718722437767*^9}, {
+  3.6287187631260977`*^9, 3.628718805670025*^9}, {3.6287193282930613`*^9, 
+  3.628719340405506*^9}, {3.628745719341028*^9, 3.628745719492669*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Initialize CaffeLink", "Subsection",
+ CellChangeTimes->{{3.628619135237503*^9, 3.628619142452895*^9}}],
+
+Cell[TextData[{
+ "Normally you would initialize module and load all functions at once with\n  \
+",
+ StyleBox["Needs[\[OpenCurlyDoubleQuote]CaffeLink`\[CloseCurlyDoubleQuote],\
+FileNameJoin[{NotebookDirectory[],\[CloseCurlyDoubleQuote]..\
+\[CloseCurlyDoubleQuote],\[CloseCurlyDoubleQuote]caffeLink.m\
+\[CloseCurlyDoubleQuote]}]];", "Input"],
+ StyleBox["\n \
+InitCaffeLinkModule[\[OpenCurlyDoubleQuote]caffe-root/src/caffe/proto/caffe.\
+proto\[CloseCurlyDoubleQuote]];\n", "Input"],
+ "but for test one function is enough."
+}], "Text",
+ CellChangeTimes->{{3.628619167569005*^9, 3.628619223869854*^9}, {
+   3.628708795306896*^9, 3.6287088134024067`*^9}, {3.628719056344322*^9, 
+   3.628719181569992*^9}, 3.6287193431731863`*^9, 3.62872167114476*^9}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"testLibLink", "=", 
+  RowBox[{"LibraryFunctionLoad", "[", 
+   RowBox[{"\"\<libcaffeLink\>\"", ",", "\"\<testLibLink\>\"", ",", 
+    RowBox[{"{", 
+     RowBox[{"{", 
+      RowBox[{"Real", ",", "2"}], "}"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"Real", ",", "2"}], "}"}]}], "]"}]}]], "Input"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["LibraryFunction",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False}, 
+    PanelBox[
+     PaneSelectorBox[{False->GridBox[{
+        {
+         PaneBox[
+          ButtonBox[
+           
+           DynamicBox[FEPrivate`FrontEndResource[
+            "FEBitmaps", "SquarePlusIconMedium"],
+            ImageSizeCache->{12., {0., 12.}}],
+           Appearance->None,
+           ButtonFunction:>(Typeset`open$$ = True),
+           Evaluator->Automatic,
+           Method->"Preemptive"],
+          Alignment->{Center, Center},
+          
+          ImageSize->
+           Dynamic[{
+            Automatic, 3.5 CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+             Magnification]}]], 
+         GraphicsBox[
+          {Thickness[0.038461538461538464`], 
+           {FaceForm[{GrayLevel[0.93], Opacity[1.]}], 
+            FilledCurveBox[{{{1, 4, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 
+             3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}}}, {{{25.499999999999996`,
+              2.5}, {25.499999999999996`, 1.3953100000000003`}, {
+             24.604699999999998`, 0.49999999999999994`}, {23.5, 
+             0.49999999999999994`}, {2.5, 0.49999999999999994`}, {
+             1.3953100000000003`, 0.49999999999999994`}, {
+             0.49999999999999994`, 1.3953100000000003`}, {
+             0.49999999999999994`, 2.5}, {0.49999999999999994`, 23.5}, {
+             0.49999999999999994`, 24.604699999999998`}, {1.3953100000000003`,
+              25.499999999999996`}, {2.5, 25.499999999999996`}, {23.5, 
+             25.499999999999996`}, {24.604699999999998`, 
+             25.499999999999996`}, {25.499999999999996`, 
+             24.604699999999998`}, {25.499999999999996`, 23.5}, {
+             25.499999999999996`, 2.5}}}]}, 
+           {FaceForm[{RGBColor[0.5, 0.5, 0.5], Opacity[1.]}], 
+            FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 
+             1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{20.5426, 
+             19.116799999999998`}, {16.3832, 21.876199999999997`}, {16.3832, 
+             20.021499999999996`}, {6.930469999999999, 20.021499999999996`}, {
+             6.930469999999999, 18.212100000000003`}, {16.3832, 
+             18.212100000000003`}, {16.3832, 16.357399999999995`}, {20.5426, 
+             19.116799999999998`}}}], 
+            FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 
+             1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{5.30508, 13.8391}, {9.46445, 
+             11.079700000000003`}, {9.46445, 12.933999999999997`}, {
+             18.917199999999998`, 12.933999999999997`}, {18.917199999999998`, 
+             14.7438}, {9.46445, 14.7438}, {9.46445, 16.598}, {5.30508, 
+             13.8391}}}], 
+            FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {0, 
+             1, 0}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1,
+              3, 3}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {1, 3, 3}, {
+             1, 3, 3}, {1, 3, 3}}}, CompressedData["
+1:eJxTTMoPSmVmYGBgBGJjIGYCYq4u+eR3VWoOxhkv5j+Qk3SA8fu/r5rKOVHM
+Yd2vmNyjZ9Qcrt9QXbW9S8RBg59767IidQcPMYPGaHFhB+Nn61SfiGo4xBwp
+T7o2V9Dh0Iolfg6/NBxEHv/x1Xgi4FB1XNNqkqQWnP+axUTQjFkbzn+oO2HB
+j/3aDg/Xn5T6WiDoYLs3aJpiqI7DrHN+bO6tQg4zfUR7vF7pQOyfIQyRd9d1
+WLL0U1kLoyjEPdm6DpoTXfQX7xBzKPjQejLkhDacL5J4+LL2Gm2HtNnSl4Vf
+iELM69J2qPZM3tLnJerQX1oozZugDfHPUxGI/4W1HQ5p3TthoyDi4D7lG1v8
+Mi2HgqL9zoEHhB1inOxe3BRG8MH62zXhfIbN1Z82CGhC/GMg4nCm3mN/7TYN
+iHlCUPdGakDc/1kUEr46GhD/eYnD+d9iBf/kC0vC+TuCrSL+X5Vy2HGR4R5T
+uAbEfxYykPBYp+HQqsCuesZAFhL+rJoQ/2rIQdxTpwkJ7yVycPfD+GDzVqLx
+xbUd5HYt2JfqBdWfpA2Jj9mykPDpgYaXtaxDy7yzq86vg8qvlIHE5ylY/Eo7
+XAt7o787TxfOB5ufqesQ9PbyxxkPZSDhZ6nrMAGU3u7LQtLLEx2HN2253UbX
+ofZ76jis/Pay4oynAsT8QG0HKZMv/gW7FCDyTFpwPsz/MD44/Mw1HFjb1uR9
+TVVwWKy880/7FHWIexrkIfLX1RzOMDZZVjHIOaDkh3vSDuj5AwCF11Vc
+             "]]}},
+          AspectRatio->1,
+          Axes->False,
+          Background->GrayLevel[0.93],
+          Frame->True,
+          FrameStyle->Directive[
+            Thickness[Tiny], 
+            GrayLevel[0.7]],
+          FrameTicks->None,
+          ImageSize->{Automatic, 
+            Dynamic[
+            3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+              Magnification]), ImageSizeCache -> {45., {0., 9.}}]}], 
+         GridBox[{
+           {
+            RowBox[{
+             TagBox["\<\"Function name: \"\>",
+              "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+             TagBox["\<\"testLibLink\"\>",
+              "SummaryItem"]}]},
+           {
+            RowBox[{
+             TagBox["\<\"Argument count: \"\>",
+              "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+             TagBox["1",
+              "SummaryItem"]}]}
+          },
+          AutoDelete->False,
+          
+          BaseStyle->{
+           ShowStringCharacters -> False, NumberMarks -> False, 
+            PrintPrecision -> 3, ShowSyntaxStyles -> False},
+          GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Automatic}}},
+          
+          GridBoxItemSize->{
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+          GridBoxSpacings->{"Columns" -> {{2}}, "Rows" -> {{Automatic}}}]}
+       },
+       AutoDelete->False,
+       BaselinePosition->{1, 1},
+       GridBoxAlignment->{"Rows" -> {{Top}}},
+       GridBoxItemSize->{
+        "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], True->
+      GridBox[{
+        {
+         PaneBox[
+          ButtonBox[
+           
+           DynamicBox[FEPrivate`FrontEndResource[
+            "FEBitmaps", "SquareMinusIconMedium"]],
+           Appearance->None,
+           ButtonFunction:>(Typeset`open$$ = False),
+           Evaluator->Automatic,
+           Method->"Preemptive"],
+          Alignment->{Center, Center},
+          
+          ImageSize->
+           Dynamic[{
+            Automatic, 3.5 CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+             Magnification]}]], 
+         GraphicsBox[
+          {Thickness[0.038461538461538464`], 
+           {FaceForm[{GrayLevel[0.93], Opacity[1.]}], 
+            FilledCurveBox[{{{1, 4, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 
+             3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}}}, {{{25.499999999999996`,
+              2.5}, {25.499999999999996`, 1.3953100000000003`}, {
+             24.604699999999998`, 0.49999999999999994`}, {23.5, 
+             0.49999999999999994`}, {2.5, 0.49999999999999994`}, {
+             1.3953100000000003`, 0.49999999999999994`}, {
+             0.49999999999999994`, 1.3953100000000003`}, {
+             0.49999999999999994`, 2.5}, {0.49999999999999994`, 23.5}, {
+             0.49999999999999994`, 24.604699999999998`}, {1.3953100000000003`,
+              25.499999999999996`}, {2.5, 25.499999999999996`}, {23.5, 
+             25.499999999999996`}, {24.604699999999998`, 
+             25.499999999999996`}, {25.499999999999996`, 
+             24.604699999999998`}, {25.499999999999996`, 23.5}, {
+             25.499999999999996`, 2.5}}}]}, 
+           {FaceForm[{RGBColor[0.5, 0.5, 0.5], Opacity[1.]}], 
+            FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 
+             1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{20.5426, 
+             19.116799999999998`}, {16.3832, 21.876199999999997`}, {16.3832, 
+             20.021499999999996`}, {6.930469999999999, 20.021499999999996`}, {
+             6.930469999999999, 18.212100000000003`}, {16.3832, 
+             18.212100000000003`}, {16.3832, 16.357399999999995`}, {20.5426, 
+             19.116799999999998`}}}], 
+            FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 
+             1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{5.30508, 13.8391}, {9.46445, 
+             11.079700000000003`}, {9.46445, 12.933999999999997`}, {
+             18.917199999999998`, 12.933999999999997`}, {18.917199999999998`, 
+             14.7438}, {9.46445, 14.7438}, {9.46445, 16.598}, {5.30508, 
+             13.8391}}}], 
+            FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {0, 
+             1, 0}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {1,
+              3, 3}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {1, 3, 3}, {
+             1, 3, 3}, {1, 3, 3}}}, CompressedData["
+1:eJxTTMoPSmVmYGBgBGJjIGYCYq4u+eR3VWoOxhkv5j+Qk3SA8fu/r5rKOVHM
+Yd2vmNyjZ9Qcrt9QXbW9S8RBg59767IidQcPMYPGaHFhB+Nn61SfiGo4xBwp
+T7o2V9Dh0Iolfg6/NBxEHv/x1Xgi4FB1XNNqkqQWnP+axUTQjFkbzn+oO2HB
+j/3aDg/Xn5T6WiDoYLs3aJpiqI7DrHN+bO6tQg4zfUR7vF7pQOyfIQyRd9d1
+WLL0U1kLoyjEPdm6DpoTXfQX7xBzKPjQejLkhDacL5J4+LL2Gm2HtNnSl4Vf
+iELM69J2qPZM3tLnJerQX1oozZugDfHPUxGI/4W1HQ5p3TthoyDi4D7lG1v8
+Mi2HgqL9zoEHhB1inOxe3BRG8MH62zXhfIbN1Z82CGhC/GMg4nCm3mN/7TYN
+iHlCUPdGakDc/1kUEr46GhD/eYnD+d9iBf/kC0vC+TuCrSL+X5Vy2HGR4R5T
+uAbEfxYykPBYp+HQqsCuesZAFhL+rJoQ/2rIQdxTpwkJ7yVycPfD+GDzVqLx
+xbUd5HYt2JfqBdWfpA2Jj9mykPDpgYaXtaxDy7yzq86vg8qvlIHE5ylY/Eo7
+XAt7o787TxfOB5ufqesQ9PbyxxkPZSDhZ6nrMAGU3u7LQtLLEx2HN2253UbX
+ofZ76jis/Pay4oynAsT8QG0HKZMv/gW7FCDyTFpwPsz/MD44/Mw1HFjb1uR9
+TVVwWKy880/7FHWIexrkIfLX1RzOMDZZVjHIOaDkh3vSDuj5AwCF11Vc
+             "]]}},
+          AspectRatio->1,
+          Axes->False,
+          Background->GrayLevel[0.93],
+          Frame->True,
+          FrameStyle->Directive[
+            Thickness[Tiny], 
+            GrayLevel[0.7]],
+          FrameTicks->None,
+          ImageSize->{Automatic, 
+            Dynamic[
+            3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+              Magnification]), ImageSizeCache -> {45., {0., 9.}}]}], 
+         GridBox[{
+           {
+            RowBox[{
+             TagBox["\<\"Function name: \"\>",
+              "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+             TagBox["\<\"testLibLink\"\>",
+              "SummaryItem"]}]},
+           {
+            RowBox[{
+             TagBox["\<\"Argument count: \"\>",
+              "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+             TagBox["1",
+              "SummaryItem"]}]},
+           {
+            RowBox[{
+             TagBox["\<\"Argument types: \"\>",
+              "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+             TagBox[
+              PaneBox[
+               RowBox[{"{", 
+                RowBox[{"{", 
+                 RowBox[{"Real", ",", "2"}], "}"}], "}"}],
+               BaselinePosition->Baseline,
+               ContentPadding->False,
+               FrameMargins->0,
+               ImageSize->{{1, 500}, Automatic},
+               StripOnInput->True],
+              "SummaryItem"]}]},
+           {
+            RowBox[{
+             TagBox["\<\"Return type: \"\>",
+              "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+             TagBox[
+              PaneBox[
+               RowBox[{"{", 
+                RowBox[{"Real", ",", "2"}], "}"}],
+               BaselinePosition->Baseline,
+               ContentPadding->False,
+               FrameMargins->0,
+               ImageSize->{{1, 500}, Automatic},
+               StripOnInput->True],
+              "SummaryItem"]}]},
+           {
+            RowBox[{
+             TagBox["\<\"Library: \"\>",
+              "SummaryItemAnnotation"], "\[InvisibleSpace]", 
+             TagBox["\<\"libcaffeLink.so\"\>",
+              "SummaryItem"]}]}
+          },
+          AutoDelete->False,
+          
+          BaseStyle->{
+           ShowStringCharacters -> False, NumberMarks -> False, 
+            PrintPrecision -> 3, ShowSyntaxStyles -> False},
+          GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Automatic}}},
+          
+          GridBoxItemSize->{
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+          GridBoxSpacings->{"Columns" -> {{2}}, "Rows" -> {{Automatic}}}]}
+       },
+       AutoDelete->False,
+       BaselinePosition->{1, 1},
+       GridBoxAlignment->{"Rows" -> {{Top}}},
+       GridBoxItemSize->{
+        "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}]}, Dynamic[
+      Typeset`open$$],
+      ImageSize->Automatic],
+     BaselinePosition->Baseline],
+    DynamicModuleValues:>{}], "]"}],
+  LibraryFunction[
+  "/home/kerhy/.Mathematica/SystemFiles/LibraryResources/Linux-x86-64/\
+libcaffeLink.so", "testLibLink", {{Real, 2}}, {Real, 2}],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{3.6287191952634563`*^9, 3.6287193788139277`*^9}]
+}, Open  ]],
+
+Cell["Should anything go wrong, check", "Text",
+ CellChangeTimes->{{3.6286343923985662`*^9, 3.6286345244155293`*^9}, {
+   3.628634570911632*^9, 3.628634578951747*^9}, 3.628708887859647*^9, {
+   3.6287089337321033`*^9, 3.628708946020158*^9}, {3.6287192014496813`*^9, 
+   3.628719210497307*^9}, {3.62871986275898*^9, 3.628719864518695*^9}, {
+   3.6287200978492527`*^9, 3.628720098097443*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["LibraryLink`$LibraryError"], "Input",
+ InitializationCell->True,
+ CellChangeTimes->{{3.628634527533304*^9, 3.62863456453273*^9}, {
+   3.628695965176127*^9, 3.628695965998765*^9}, {3.628704926285433*^9, 
+   3.628704926812426*^9}, 3.628706884246049*^9, 3.628719230158777*^9}],
+
+Cell[BoxData["\<\"/home/kerhy/.Mathematica/SystemFiles/LibraryResources/Linux-\
+x86-64/libcaffeLink.so: undefined symbol: \
+WolframCompileLibrary_wrapper\"\>"], "Output",
+ CellChangeTimes->{3.6287192316300087`*^9, 3.6287193822414722`*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "and try resolving the error. Message ",
+ StyleBox["undefined symbol: WolframCompileLibrary_wrapper", "Output"],
+ " seems to be fine."
+}], "Text",
+ CellChangeTimes->{{3.628634589377369*^9, 3.628634638432069*^9}, {
+   3.628708955947938*^9, 3.628708956907789*^9}, 3.628711991150771*^9, {
+   3.628719237905466*^9, 3.628719247417884*^9}, 3.6287193502691593`*^9, 
+   3.628719404347487*^9, {3.628719434779977*^9, 3.6287194416595383`*^9}, {
+   3.628719590221293*^9, 3.628719590476479*^9}, {3.6287203170188303`*^9, 
+   3.628720322867412*^9}}],
+
+Cell["Else you should be ready to go.", "Text",
+ CellChangeTimes->{{3.6287192635291653`*^9, 3.628719280842279*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"testLibLink", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"3", ",", "4", ",", "5"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "2", ",", "6"}], "}"}]}], "}"}], "]"}], " ", 
+  RowBox[{"(*", " ", 
+   RowBox[{"returns", " ", "each", " ", "element", " ", "squared"}], " ", 
+   "*)"}]}]], "Input",
+ CellChangeTimes->{{3.6287194870017548`*^9, 3.6287195121544237`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"9.`", ",", "16.`", ",", "25.`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1.`", ",", "4.`", ",", "36.`"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.6287192959671593`*^9, 3.6287194760003843`*^9}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowToolbars->"EditBar",
+WindowSize->{1049, 990},
+WindowMargins->{{Automatic, 0}, {Automatic, 0}},
+SpellingDictionaries->{"CorrectWords"->{"Caffe"}},
+FrontEndVersion->"10.0 for Linux x86 (64-bit) (September 9, 2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 143, 2, 117, "Title"],
+Cell[CellGroupData[{
+Cell[748, 28, 244, 3, 85, "Chapter"],
+Cell[CellGroupData[{
+Cell[1017, 35, 237, 3, 81, "Section"],
+Cell[1257, 40, 311, 9, 68, "Text"],
+Cell[1571, 51, 38, 0, 37, "Input"],
+Cell[1612, 53, 128, 5, 39, "Text"],
+Cell[CellGroupData[{
+Cell[1765, 62, 149, 2, 37, "Input"],
+Cell[1917, 66, 185, 2, 66, "Output"]
+}, Open  ]],
+Cell[2117, 71, 435, 8, 67, "Text"],
+Cell[CellGroupData[{
+Cell[2577, 83, 108, 1, 56, "Subsection"],
+Cell[2688, 86, 745, 14, 120, "Text"],
+Cell[CellGroupData[{
+Cell[3458, 104, 321, 8, 66, "Input"],
+Cell[3782, 114, 12208, 269, 76, "Output"]
+}, Open  ]],
+Cell[16005, 386, 390, 5, 39, "Text"],
+Cell[CellGroupData[{
+Cell[16420, 395, 287, 4, 37, "Input",
+ InitializationCell->True],
+Cell[16710, 401, 238, 3, 66, "Output"]
+}, Open  ]],
+Cell[16963, 407, 551, 10, 67, "Text"],
+Cell[17517, 419, 115, 1, 39, "Text"],
+Cell[CellGroupData[{
+Cell[17657, 424, 436, 12, 66, "Input"],
+Cell[18096, 438, 274, 7, 37, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

@@ -1,0 +1,55 @@
+﻿using System;
+using System.Console;
+using System.IO;
+
+using MacroIntroLibrary;
+
+namespace MyNamespace
+{
+  [assembly: AddClassInsideNamespace(A.B.C)]
+  [assembly: AddClassInsideNamespace(X.Y.Z)]
+}
+
+[Disposable(WriteLine("Dispose managed resources."), WriteLine("Dispose unmanaged resources."), Close)]
+class Base
+{
+}
+
+[Record]
+[Disposable]
+class Derived[T] : Base
+{
+  private FileStream : FileStream;
+  private Str : string;
+  public Reader : TextReader { get; private set; }
+}
+
+[AddNestedClass(Nested)]
+class A
+{
+  public F() : void { Nested().Test() }
+  private Field : int = 1;
+
+  /*
+  class Nested
+  {
+    public Test(a : A) : void
+    {
+      WriteLine(a.Field);
+    }
+  }
+  */
+}
+
+module Program
+{
+  Main() : void
+  {
+    A.B.C.MyType().Test();
+    X.Y.Z.MyType().Test();
+    A().F();
+    def x = Derived(null, "", null);
+    x.Close();
+    _ = ReadLine();
+  }
+}

@@ -1,0 +1,17 @@
+(= extensions* (table))
+
+(mac extend (name label test func)
+  `(do (unless (extensions* ',name)
+         (= (extensions* ',name) `((original (nil ,,name)))))
+       (aif (assoc ',label (extensions* ',name))
+             (do (prn "*** redefining " ',name " extension " ',label)
+                 (= (cadr it) (list ,test ,func)))
+             (push (list ',label (list ,test ,func)) (extensions* ',name)))
+       (= ,name (fn args
+                  ((afn (al)
+                     (let (label (test func)) (car al)
+                       (if (or (no test) (apply test args))
+                            (apply func args)
+                            (self (cdr al)))))
+                   (or (extensions* ',name)
+                       (err "no extension defined for" ',name)))))))

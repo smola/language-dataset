@@ -1,0 +1,23 @@
+module me.fornever.jtray.Application where
+
+import me.fornever.jtray.Config (readConfig)
+import me.fornever.jtray.Data (CCProject)
+import me.fornever.jtray.Network (withNetworkStream)
+import me.fornever.jtray.Parser (readStream)
+
+jenkinsUrl :: String
+jenkinsUrl = "http://localhost:3500/cc.xml"
+
+configFileName :: String
+configFileName = "jtray.properties"
+
+openStream :: String -> IO InputStream
+openStream path = FileInputStream.new path
+
+main :: [String] -> IO ()
+main _ = do
+    stream <- openStream configFileName
+    config <- readConfig stream
+    println $ show config
+    projects <- withNetworkStream jenkinsUrl readStream
+    println $ show projects

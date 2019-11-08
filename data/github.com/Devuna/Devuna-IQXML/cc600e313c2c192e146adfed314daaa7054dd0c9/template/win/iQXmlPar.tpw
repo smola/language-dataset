@@ -1,0 +1,805 @@
+#!region Copyright and License
+#! ================================================================================
+#!                                       IQXML
+#! ================================================================================
+#! Notice : Copyright (C) 2017, Paresi
+#!          Distributed under the MIT License (https://opensource.org/licenses/MIT)
+#!
+#!    This file is part of Devuna-IQXML (https://github.com/Devuna/Devuna-IQXML)
+#!
+#!    Devuna-IQXML is free software: you can redistribute it and/or modify
+#!    it under the terms of the MIT License as published by
+#!    the Open Source Initiative.
+#!
+#!    Devuna-IQXML is distributed in the hope that it will be useful,
+#!    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#!    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#!    MIT License for more details.
+#!
+#!    You should have received a copy of the MIT License
+#!    along with Devuna-IQXML.  If not, see <https://opensource.org/licenses/MIT>.
+#! ================================================================================
+#!endRegion
+#!-----------------------------------------------------------------------------------
+#!ADD -ons to TEMPLATE
+#!-----------------------------------------------------------------------------------
+#Code(ImportFromXML,'Import from XML')
+#!-----------------------------------------------------------------------------------
+#SHEET,ADJUST
+#TAB(' General ')
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Imports selected nodes from an XML file in to a Clarion')
+  #DISPLAY('Queue structure.')
+  #DISPLAY(' ')
+  #DISPLAY('Only STRING fields should be used in the Queue!')
+ #ENDBOXED
+#BOXED(' Import File Name ')
+#Prompt('XML Filename Variable:',FIELD),%iQXMLFileName,REQ
+#PROMPT('Show a Progress Window',Check),%iQShowProgress,at(10)
+#PROMPT('Make Load Errors Silent',Check),%iQQuietMode,at(10)
+#PROMPT('File is Encoded as UTF-8',Check),%iQASUTF8,at(10)
+#ENDBOXED
+#BOXED(' Import Destination ')
+#Prompt('Destination Queue:',FIELD),%iQQueuename,REQ
+#PROMPT('Number of Records:',FIELD),%iQNoRecords,REQ
+#ENDBOXED
+#ENDTAB
+#TAB(' Nodes ')
+#BOXED(' FindNextNode - Node(s) where data starts ')
+#Prompt('Base Tag',@s100),%iQElementTag1,REQ
+#Prompt('Sub Element (Optional)',@s100),%iQElementTag2
+#Prompt('Sub Element (Optional)',@s100),%iQElementTag3
+#Prompt('Sub Element (Optional)',@s100),%iQElementTag4
+#Prompt('Sub Element (Optional)',@s100),%iQElementTag5
+#DISPLAY(' ')
+#PROMPT('Data also exists in Child Nodes',Check),%iQIncludeChild,at(10)
+#ENDBOXED
+#ENDTAB
+#TAB(' Qualified Fields ')
+#BOXED(' QualifyFieldSet - Fields to Qualify with Parent ')
+#BUTTON('Qualified Fields'),MULTI(%IQQualLinkFields,%IQQualField),INLINE
+  #PROMPT('Element Name:',@s35),%IQQualField,REQ
+  #PROMPT(' Field Qualification ',OPTION),%iQQualFieldP,DEFAULT(0),at(,,,40)
+  #PROMPT('Do not futher qualify field',RADIO),VALUE(0),at(17)
+  #PROMPT('Qualify to GrandparentParent',RADIO),VALUE(1),at(17)
+  #PROMPT('Qualify to GreatGrandparentParent',RADIO),VALUE(2),at(17)
+#ENDBUTTON
+#ENDBOXED
+#ENDTAB
+#TAB(' Attribute Fields ')
+#BOXED(' AttributeFieldSet - Define Writing Fields to Queue ')
+#BUTTON('Attribute Fields'),MULTI(%IQAttrLinkFields,%IQAttrField),INLINE
+  #PROMPT('Queue Field Name:',FIELD),%IQAttrField,REQ
+  #DISPLAY(' ')
+  #PROMPT(' Insert Queue Qualification ',OPTION),%IQAttrOption,DEFAULT(0),at(,,,55)
+  #PROMPT('None - No Write Qualification for this field',RADIO),VALUE(0),at(17)
+  #PROMPT('Required - Data must exists to Add(Queue)',RADIO),VALUE(1),at(17)
+  #PROMPT('Optional - Other data must exists for Add(Queue)',RADIO),VALUE(2),at(17)
+  #PROMPT('ForceWrite - Add(Queue) after field is found',RADIO),VALUE(100),at(17)
+  #DISPLAY(' ')
+  #PROMPT('Field Format Picture:',PICTURE),%IQAttrPicture
+#ENDBUTTON
+#ENDBOXED
+#ENDTAB
+#TAB(' Cascade Fields ')
+#BOXED(' PrimaryKeyCascade - Fields to Cascade ')
+#BUTTON('Cascade Fields'),MULTI(%IQCascLinkFields,%IQCascField),INLINE
+  #PROMPT('Cascade Field Name:',@s35),%IQCascField
+  #PROMPT(' Parameter ',OPTION),%iQCascFieldP,DEFAULT(0),at(,,,40)
+  #PROMPT('CASCADE_DEFAULT - Clear on Sibling ',RADIO),VALUE(0),at(17)
+  #PROMPT('CASCADE_PARENT - Clear on Parent',RADIO),VALUE(1),at(17)
+  #PROMPT('CASCADE_SAVE - Never Clear',RADIO),VALUE(2),at(17)
+#ENDBUTTON
+#ENDBOXED
+#ENDTAB
+#ENDSHEET
+#INSERT(%iQSourceComment)
+#IF(%IQShowProgress)
+   XML:SetProgressWindow(1)
+#ENDIF
+#IF(%iQASUTF8)
+    XML:SetEncoding('UTF-8')
+#ENDIF
+    IF NOT XML:LoadFromFile(%iQXMLFilename,,%iQQuietMode)
+       IF NOT XML:FindNextNode('%iQElementTag1','%iQElementTag2','%iQElementTag3','%iQElementTag4','%iQElementTag5')
+#FOR(%IQQualLinkFields)
+          XML:QualifyFieldSet('%IQQualField',%IQQualFieldP)
+#ENDFOR
+#FOR(%IQAttrLinkFields)
+    #IF(%IQAttrPicture)
+          XML:AttributeFieldSet('%IQAttrField',%IQAttrOption,'%IQAttrPicture')
+    #ELSE
+          XML:AttributeFieldSet('%IQAttrField',%IQAttrOption)
+    #ENDIF
+#ENDFOR
+#FOR(%IQCascLinkFields)
+          XML:PrimaryKeyCascade('%IQCascField',%iQCascFieldP)
+#ENDFOR
+          %IQNoRecords = XML:LoadQueue(%iQQueuename,%iQIncludeChild,True)
+       END
+    XML:Free()
+    END
+#!-----------------------------------------------------------------------------------
+#Code(ExportQueueToXML,'Export Queue to XML')
+#!-----------------------------------------------------------------------------------
+#SHEET
+#TAB(' General ')
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Exports selected queue to create an XML document.')
+ #ENDBOXED
+#BOXED(' Export Source ')
+#Prompt('Source Queue:',FIELD),%iQQueuename,REQ
+#ENDBOXED
+#BOXED(' Export Options ')
+#Prompt('XML Filename Variable:',FIELD),%iQXMLFileName,REQ
+#Prompt('Version (Optional):',@s32),%iQXMLVersion
+#Prompt('Encoding (Optional):',@s32),%iQXMLEncoding
+#PROMPT('Add XML Comment with Date/TimeStamp',Check),%iQDateStamp,at(10)
+#PROMPT('Export as Attribute Based',Check),%iQAsAttribute,at(10)
+#PROMPT('Auto-Close Group Tags',Check),%iQAutoCloseTag,at(10)
+#PROMPT('Export tags in LowerCase',Check),%iQAsLower,at(10)
+#ENDBOXED
+#ENDTAB
+#TAB(' Root Tag ')
+#BOXED(' Root Tag Options ')
+#Prompt('Root Tag',@s100),%iQRootTag,REQ
+#BOXED(' Attributes ')
+#BUTTON('Root Tag Attributes'),MULTI(%IQAttribLinkFields,%IQRootAttribute & ' > ' & %IQRootValue),INLINE
+  #PROMPT('Attribute Name:',@s35),%iQRootAttribute
+  #PROMPT('Attribute Value:',@s128),%iQRootValue
+#ENDBUTTON
+#ENDBOXED
+#ENDBOXED
+#ENDTAB
+#TAB(' Row Tag ')
+#BOXED(' Row Tag Options ')
+#Prompt('Row Tag',@s100),%iQRowTag,REQ
+#Prompt('Element Prefix (Optional):',@s32),%iQXMLPrefix
+#ENDBOXED
+#ENDTAB
+#TAB(' Comment ')
+#BOXED(' Comment in XML File ')
+#PROMPT(' ',TEXT),%iQAddComment
+#ENDBOXED
+#ENDTAB
+#ENDSHEET
+#INSERT(%iQSourceComment)
+    IF NOT XML:CreateXMLFile(%IQXMLFilename,'%iQXMLVersion','%iQXMLEncoding',%iQDateStamp)
+#IF(%iQAddComment)
+       XML:AddComment('%iQAddComment')
+#ENDIF
+       XML:CreateParent('%iQRootTag')
+#FOR(%IQAttribLinkFields)
+       XML:CreateAttribute('%iQRootAttribute','%iQRootValue')
+#ENDFOR
+       XML:AddParent()
+#IF(%iQXMLPrefix)
+       XML:SetElementPrefix('%iQXMLPrefix')
+#ENDIF
+       XML:AddFromQueue(%iQQueueName,'%iQRowTag',%iQAsAttribute,%iQAutoCloseTag,%iQAsLower)
+#IF(%iQXMLPrefix)
+      XML:SetElementPrefix(' ')
+#ENDIF
+       XML:CloseParent()
+       XML:CloseXMLFile()
+    ELSE
+       MESSAGE('Error Occurred Creating XML File.||Error: ' & ERROR(),'Error!',icon:Exclamation)
+    END
+#!-----------------------------------------------------------------------------------
+#!PARSER FUNCTIONS
+#!-----------------------------------------------------------------------------------
+#!-----------------------------------------------------------------------------------
+#CODE(XML_AutoRootClear,'iQ-XML - Auto Root Clear')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Clears the AutoRoot pointer so XML:LoadQueue no')
+  #DISPLAY('longer will position to a set location.')
+ #ENDBOXED
+#INSERT(%iQSourceComment)
+  XML:AutoRootClear()
+#!-----------------------------------------------------------------------------------
+#CODE(XML_AutoRootSet,'iQ-XML - Auto Root Set')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Instructs the system to mark the current node pointer as')
+  #DISPLAY(' the proper "pivot" location to always return to, after a')
+  #DISPLAY('XML:LoadQueue statement. This is usually used when')
+  #DISPLAY('processing structures with multiple XML:FindNextNode and')
+  #DISPLAY('XML:LoadQueue functions. The system will always return')
+  #DISPLAY('the current record pointer and node pointer to the set')
+  #DISPLAY('location after allXML:LoadQueue statements until it')
+  #DISPLAY('has been cleared with XML:AutoRootClear or has been')
+  #DISPLAY('cleared by XML:Free.')
+ #ENDBOXED
+  #INSERT(%iQSourceComment)
+  XML:AutoRootSet()
+#!-----------------------------------------------------------------------------------
+#CODE(XML_DebugMyQueue,'iQ-XML - Debug My Queue')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Shows the contents of the passed queue for debug')
+  #DISPLAY('purposes.')
+ #ENDBOXED
+ #BOXED('Variable Names')
+  #PROMPT('Queue Name',FIELD),%iQDebugMyQueueVar,req
+  #PROMPT('Window Title',@s128),%iQDebugMyQueueTitleVar
+ #ENDBOXED
+ #INSERT(%iQSourceComment)
+    XML:DebugMyQueue(%iQDebugMyQueueVar,'%iQDebugMyQueueTitleVar')
+#!-----------------------------------------------------------------------------------
+#CODE(XML_DebugQueue,'iQ-XML - Debug Queue')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Shows the currently loaded XML files in an Internal')
+  #DISPLAY('structure.')
+ #ENDBOXED
+#INSERT(%iQSourceComment)
+  XML:DebugQueue()
+#!-----------------------------------------------------------------------------------
+#CODE(XML_FindNextNode,'iQ-XML - Find Next Node')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Sets the current Node Pointer to the next match of')
+  #DISPLAY('element(s) passed, setting the new parent. Using this')
+  #DISPLAY('function will always start at the current cursor')
+  #DISPLAY('location. If a "next node" is found, the cursor')
+  #DISPLAY('location is updated to the new position. If the')
+  #DISPLAY('"next node" is not found, the cursor will not change.')
+ #ENDBOXED
+#PROMPT('Add This before Find Next Node',OPTION),%iQFindNextNodeAddThis,CHOICE,default(3)
+#PROMPT('IF...',RADIO)
+#PROMPT('IF NOT...',RADIO)
+#PROMPT('No Code...',RADIO)
+ #BOXED('WARNING!!!'),where(%iQFindNextNodeAddThis <> 3)
+  #INSERT(%ElseEndWarning)
+ #ENDBOXED
+#PROMPT('Element Name ',@s100),%iQFindNextNodeElement,req
+#PROMPT('Optional Element 2 ',@s100),%iQFindNextNodeElement2
+ #IF(%iQFindNextNodeAddThis=1)
+   IF Xml:FindNextNode('%iQFindNextNodeElement','%iQFindNextNodeElement2')
+ #ELSIF (%iQFindNextNodeAddThis=2)
+   IF NOT Xml:FindNextNode('%iQFindNextNodeElement','%iQFindNextNodeElement2')
+ #ELSIF (%iQFindNextNodeAddThis=3)
+   Xml:FindNextNode('%iQFindNextNodeElement','%iQFindNextNodeElement2')
+ #ENDIF
+#!-----------------------------------------------------------------------------------
+#CODE(XML_FindNextContent,'iQ-XML - Find Next Content')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Start from the current node pointer and look for content that')
+  #DISPLAY('matches the value passed. Use can then use the')
+  #DISPLAY('XML:ReadCurrentRecord function if the function returns ')
+  #DISPLAY('successful to determine the exact value and node returned')
+  #DISPLAY('if needed.')
+ #ENDBOXED
+#PROMPT('Add This before Find Next Content',OPTION),%iQFindNextContentAddThis,CHOICE,default(3)
+#PROMPT('IF...',RADIO)
+#PROMPT('IF NOT...',RADIO)
+#PROMPT('No Code...',RADIO)
+ #BOXED('WARNING!!!'),where(%iQFindNextContentAddThis <> 3)
+  #INSERT(%ElseEndWarning)
+ #ENDBOXED
+#PROMPT('Content text string ',@s100),%iQFindNextContentString,req
+#PROMPT('Exact Match without Instring',Check),%iQFindNextContentExact
+#PROMPT('Exact Case Match',Check),%iQFindNextContentCase
+ #IF(%iQFindNextContentAddThis=1)
+   IF Xml:FindNextContent('%iQFindNextContentString',%iQFindNextContentExact,%iQFindNextContentCase)
+ #ELSIF (%iQFindNextContentAddThis=2)
+   IF NOT Xml:FindNextContent('%iQFindNextContentString',%iQFindNextContentExact,%iQFindNextContentCase)
+ #ELSIF (%iQFindNextContentAddThis=3)
+   Xml:FindNextContent('%iQFindNextContentString',%iQFindNextContentExact,%iQFindNextContentCase)
+ #ENDIF
+#!-----------------------------------------------------------------------------------
+#CODE(XML_FREE,'iQ-XML - Free')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Clears the loaded XML document and frees all memory')
+  #DISPLAY('used. This also includes all Saved States, Node')
+  #DISPLAY('Pointers, Primary Keys and Primary Fields which may')
+  #DISPLAY('have been set.')
+ #ENDBOXED
+#INSERT(%iQSourceComment)
+  XML:FREE()
+#!-----------------------------------------------------------------------------------
+#CODE(XML_FreeState,'iQ-XML - Free State')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Used to free the resources used to store a previously')
+  #DISPLAY('saved state. The system can handle up to 10 different')
+  #DISPLAY('saved states at once.')
+ #ENDBOXED
+#PROMPT('Unique State Pointer from XML:SaveState',Field),%iQFreeStateVar
+#INSERT(%iQSourceComment)
+  XML:FreeState(%iQFreeStateVar)
+#!-----------------------------------------------------------------------------------
+#CODE(XML_GetError,'iQ-XML - Get Error')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Used to return the error text of an error code returned')
+  #DISPLAY('from other iQ-XML functions.')
+ #ENDBOXED
+#PROMPT('Variable that Holder the ErrorCode',from(%LocalData)),%IOGetErrorCodeVar,req
+#PROMPT('Variable To Return Error Message',from(%LocalData)),%IOGetErrorMessageVar,req
+ #INSERT(%iQSourceComment)
+ IOGetErrorMessageVar = XML:GetError(%IOGetErrorCodeVar)
+#!-----------------------------------------------------------------------------------
+#CODE(XML_GetPointer,'iQ-XML - GetPointer')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Used to retrieve the current cursor location to resume')
+  #DISPLAY('sequential processing.')
+ #ENDBOXED
+#PROMPT('Current Cursor Location Variable',from(%LocalData)),%iQGetPointerVar
+ #INSERT(%iQSourceComment)
+  %iQGetPointerVar = XML:GetPointer()
+#!-----------------------------------------------------------------------------------
+#CODE(XML_GotoTop,'iQ-XML - GotoTop')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Sets the cursor location to the beginning of the XML')
+  #DISPLAY('document. This function also clears the current Node')
+  #DISPLAY('Pointer values.')
+ #ENDBOXED
+ #INSERT(%iQSourceComment)
+  XML:GotoTop()
+#!-----------------------------------------------------------------------------------
+#CODE(XML_GotoChild,'iQ-XML - Goto Child')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Advances the cursor location to the child node. If the')
+  #DISPLAY('child is not found, the cursor location is not changed')
+  #DISPLAY('and an error is returned indicating no children.')
+ #ENDBOXED
+  #INSERT(%iQSourceComment)
+  if XML:GotoChild().
+  #INSERT(%iQErrorsMes)
+#!-----------------------------------------------------------------------------------
+#CODE(XML_GotoParent,'iQ-XML - Goto Parent')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Advances the cursor location to the parent node. If the')
+  #DISPLAY('parent is not found, the cursor location is not changed')
+  #DISPLAY('and an error is returned indicating top of XML file.')
+ #ENDBOXED
+  #INSERT(%iQSourceComment)
+  if XML:GotoParent().
+  #INSERT(%iQErrorsMes)
+#!-----------------------------------------------------------------------------------
+#CODE(XML_GotoSibling,'iQ-XML - Goto Sibling')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Advances the cursor location to the next exact like node.')
+  #DISPLAY('If the sibling is not found, the cursor location is not')
+  #DISPLAY('changed and an error is returned indicating no more siblings.')
+  #DISPLAY('If there is a node attached to the parent, with a different')
+  #DISPLAY('sibling name, the function will return an error.')
+ #ENDBOXED
+#PROMPT('Add This before Load From File',OPTION),%iQGotoSiblingAddThis,CHOICE,default(3)
+#PROMPT('IF...',RADIO)
+#PROMPT('IF NOT...',RADIO)
+#PROMPT('No Code...',RADIO)
+ #BOXED('WARNING!!!'),where(%iQGotoSiblingAddThis <> 3)
+  #INSERT(%ElseEndWarning)
+ #ENDBOXED
+   #IF(%iQGotoSiblingAddThis=1)
+     IF xml:GotoSibling()
+   #ELSIF (%iQGotoSiblingAddThis=2)
+     IF NOT xml:GotoSibling()
+   #ELSIF (%iQGotoSiblingAddThis=3)
+     XML:GotoSibling()
+   #ENDIF
+#!-----------------------------------------------------------------------------------
+#CODE(XML_LoadFromFile,'iQ-XML - Load From File')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Loads an XML Document from a valid file for processing.')
+ #ENDBOXED
+#PROMPT('Add This before Load From File',OPTION),%iQLoadFromFileAddThis,CHOICE,default(3)
+#PROMPT('IF...',RADIO)
+#PROMPT('IF NOT...',RADIO)
+#PROMPT('No Code...',RADIO)
+ #BOXED('WARNING!!!'),where(%iQLoadFromFileAddThis <> 3)
+  #INSERT(%ElseEndWarning)
+ #ENDBOXED
+#PROMPT('Load From File',OPTION),%iQLoadFromFile,CHOICE
+#PROMPT('Variable',RADIO)
+#PROMPT('Manual Entry',RADIO)
+ #BOXED('Variable Name'),where(%iQLoadFromFile=1)
+  #PROMPT('Variable for Filename',FIELD),%iQLoadFromFileVariable
+ #ENDBOXED
+ #BOXED('Manual Entry'),where(%iQLoadFromFile=2)
+  #PROMPT('Enter Filename',@s100),%iQLoadFromFileName
+ #ENDBOXED
+ #BOXED('')
+  #PROMPT('Check to Append with existing file in Memory',check),%iQLoadFromFileAppendMem,at(10)
+  #PROMPT('Check to make all errors silent (No Window)',check),%iQLoadFromFileNoWin,at(10)
+ #ENDBOXED
+#INSERT(%iQSourceComment)
+   #IF (%iQLoadFromFile=1)
+     #IF(%iQLoadFromFileAddThis=1)
+       IF Xml:LoadFromFile(%iQLoadFromFileVariable,%iQLoadFromFileAppendMem,%iQLoadFromFileNoWin)
+     #ELSIF (%iQLoadFromFileAddThis=2)
+       IF NOT Xml:LoadFromFile(%iQLoadFromFileVariable,%iQLoadFromFileAppendMem,%iQLoadFromFileNoWin)
+     #ELSIF (%iQLoadFromFileAddThis=3)
+       Xml:LoadFromFile(%iQLoadFromFileVariable,%iQLoadFromFileAppendMem,%iQLoadFromFileNoWin)
+     #ENDIF
+   #ELSIF (%iQLoadFromFile=2)
+     #IF(%iQLoadFromFileAddThis=1)
+        IF Xml:LoadFromFile('%iQLoadFromFileName',%iQLoadFromFileAppendMem,%iQLoadFromFileNoWin)
+     #ELSIF (%iQLoadFromFileAddThis=2)
+        IF NOT Xml:LoadFromFile('%iQLoadFromFileName',%iQLoadFromFileAppendMem,%iQLoadFromFileNoWin)
+     #ELSIF (%iQLoadFromFileAddThis=3)
+        Xml:LoadFromFile('%iQLoadFromFileName',%iQLoadFromFileAppendMem,%iQLoadFromFileNoWin)
+     #ENDIF
+   #ENDIF
+
+#!-----------------------------------------------------------------------------------
+#CODE(XML_LoadFromString,'iQ-XML - Load From String')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Loads an XML Document from passed string text for processing..')
+ #ENDBOXED
+#PROMPT('Add This before Load From String',OPTION),%iQLoadFromStringAddThis,CHOICE,default(3)
+#PROMPT('IF...',RADIO)
+#PROMPT('IF NOT...',RADIO)
+#PROMPT('No Code...',RADIO)
+ #BOXED('WARNING!!!'),where(%iQLoadFromStringAddThis <> 3)
+  #INSERT(%ElseEndWarning)
+ #ENDBOXED
+#PROMPT('Load From String',OPTION),%iQLoadFromString,CHOICE
+#PROMPT('Variable',RADIO)
+#PROMPT('Manual Entry',RADIO)
+ #BOXED('Variable Name'),where(%iQLoadFromString=1)
+  #PROMPT('Variable StringField',FIELD),%iQLoadFromStringVariable
+ #ENDBOXED
+ #BOXED('Manual Entry'),where(%iQLoadFromFile=2)
+  #PROMPT('Enter String',@s100),%iQLoadFromStringInfo
+ #ENDBOXED
+ #BOXED('')
+  #PROMPT('Check to Append with existing file in Memory',check),%iQLoadFromStringAppendMem,at(10)
+  #PROMPT('Check to make all errors silent (No Window)',check),%iQLoadFromStringNoWin,at(10)
+ #ENDBOXED
+#INSERT(%iQSourceComment)
+   #IF (%iQLoadFromString=1)
+     #IF(%iQLoadFromStringAddThis=1)
+       IF Xml:LoadFromString(%iQLoadFromStringVariable,%iQLoadFromStringAppendMem,%iQLoadFromStringNoWin)
+     #ELSIF (%iQLoadFromStringAddThis=2)
+       IF NOT Xml:LoadFromString(%iQLoadFromStringVariable,%iQLoadFromStringAppendMem,%iQLoadFromStringNoWin)
+     #ELSIF (%iQLoadFromStringAddThis=3)
+       Xml:LoadFromString(%iQLoadFromStringVariable,%iQLoadFromStringAppendMem,%iQLoadFromStringNoWin)
+     #ENDIF
+   #ELSIF (%iQLoadFromString=2)
+     #IF (%iQLoadFromStringAddThis=1)
+        IF Xml:LoadFromString('%iQLoadFromStringInfo',%iQLoadFromStringAppendMem,%iQLoadFromStringNoWin)
+     #ELSIF (%iQLoadFromStringAddThis=2)
+        IF NOT Xml:LoadFromString('%iQLoadFromStringInfo',%iQLoadFromStringAppendMem,%iQLoadFromStringNoWin)
+     #ELSIF (%iQLoadFromStringAddThis=3)
+        Xml:LoadFromString('%iQLoadFromStringInfo',%iQLoadFromStringAppendMem,%iQLoadFromStringNoWin)
+     #ENDIF
+   #ENDIF
+#!-----------------------------------------------------------------------------------
+#CODE(XML_LoadQueue,'iQ-XML - Load Queue')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Used to retrieve values from the loaded XML file and store')
+  #DISPLAY('them in the queue with matching field names.')
+ #ENDBOXED
+#BOXED('Import Destination')
+#Prompt('Destination Queue:',FIELD),%iQQueuename,REQ
+#PROMPT('Number of Records:',FIELD),%iQNoRecords,REQ
+#ENDBOXED
+#BOXED('Node Options')
+#PROMPT('Process all Child nodes',CHECK),%iQLoadQueueAllChildNodes,at(10)
+#PROMPT('Process all Sibling nodes',CHECK),%iQLoadQueueAllSiblingNodes,at(10)
+#PROMPT('Include field prefixes (QUE:)',CHECK),%iQLoadQueueIncludePrefix,at(10)
+#ENDBOXED
+ #INSERT(%iQSourceComment)
+    %iQNoRecords = XML:LoadQueue(%iQLoadQueueName,%iQLoadQueueAllChildNodes,%iQLoadQueueAllSiblingNodes,%iQLoadQueueIncludePrefix)
+#!-----------------------------------------------------------------------------------
+#CODE(XML_PrimaryKeyCascade,'iQ-XML - :Primary Key Cascade')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Used to tell the XML:LoadQueue function to not clear')
+  #DISPLAY('these fields when adding new "child" entries to the queue.')
+ #ENDBOXED
+#PROMPT('Field to cascade to new queue fields',@s50),%iQPrimaryKeyCascadeField1,req
+#INSERT(%iQSourceComment)
+    XML:PrimaryKeyCascade('%iQPrimaryKeyCascadeField1')
+
+#!-----------------------------------------------------------------------------------
+#CODE(XML_PrimaryFieldCascade,'iQ-XML - :Primary Field Cascade')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Used to tell the XML:LoadQueue function to prime these')
+  #DISPLAY('fields with a certain value when adding new "child"')
+  #DISPLAY('and sibling" entries to the queue.')
+ #ENDBOXED
+#PROMPT('Field Name to Prime in Queue',@s100),%iQPrimaryFieldCascadePrime,req
+#PROMPT('Default Value for Field Name',@s100),%iQPrimaryKeyCascadeDefault,req
+#INSERT(%iQSourceComment)
+  Xml:PrimaryFieldCascade('%iQPrimaryFieldCascadePrime',%iQPrimaryKeyCascadeDefault)
+
+
+#!-----------------------------------------------------------------------------------
+#CODE(XML_PrimaryKeyClear,'iQ-XML - Primary Key Clear')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Clears all the Primed Fields recorded to the buffer')
+  #DISPLAY('set in the XML:PrimaryKeyCascade() function.')
+ #ENDBOXED
+   #INSERT(%iQSourceComment)
+   XML:PrimaryKeyClear()
+
+#!-----------------------------------------------------------------------------------
+#CODE(XML_PrimaryFieldClear,'iQ-XML - Primary Field Clear')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Clears all the Primed Fields recorded to the buffer')
+  #DISPLAY('set in the XML:PrimaryFieldCascade() function.')
+ #ENDBOXED
+   #INSERT(%iQSourceComment)
+   XML:PrimaryFieldClear()
+
+#!-----------------------------------------------------------------------------------
+#CODE(XML_ReadCurrentRecord,'iQ-XML - Read Current Record')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Used to read the XML record at the current cursor')
+  #DISPLAY('location. The Queue will contain a record for each')
+  #DISPLAY('element and the data value will contain the value.')
+ #ENDBOXED
+#PROMPT('Add This before Read Curretn Record',OPTION),%iQReadCurRecordAddThis,CHOICE,default(3)
+#PROMPT('IF...',RADIO)
+#PROMPT('IF NOT...',RADIO)
+#PROMPT('No Code...',RADIO)
+ #BOXED('WARNING!!!'),where(%iQReadCurRecordAddThis <> 3)
+  #INSERT(%ElseEndWarning)
+ #ENDBOXED
+#PROMPT('Read Current Record',OPTION),%iQReadCurrentRecord,CHOICE
+#PROMPT('Variable',RADIO)
+#PROMPT('Manual Entry',RADIO)
+ #BOXED('Variables'),where(%iQReadCurrentRecord=1)
+  #PROMPT('Queue to contain elements at current record',FIELD),%iQReadCurRecordQueueVar
+  #PROMPT('Data value at current location',FIELD),%iQReadCurRecordValueVar
+ #ENDBOXED
+ #BOXED('ManualEntries'),where(%iQReadCurrentRecord=2)
+  #PROMPT('Queue to contain elements at current record',@s100),%iQReadCurRecordQueue
+  #PROMPT('Data value at current location',@s100),%iQReadCurRecordValue
+ #ENDBOXED
+#INSERT(%iQSourceComment)
+  #IF(%iQReadCurrentRecord=1)
+    #IF(%iQReadCurRecordAddThis=1)
+       IF xml:ReadCurrentRecord(%iQReadCurRecordQueueVar,%iQReadCurRecordValueVar)
+    #ELSIF (%iQReadCurRecordAddThis=2)
+       IF NOT xml:ReadCurrentRecord(%iQReadCurRecordQueueVar,%iQReadCurRecordValueVar)
+    #ELSIF (%iQReadCurRecordAddThis=3)
+       xml:ReadCurrentRecord(%iQReadCurRecordQueueVar,%iQReadCurRecordValueVar)
+    #ENDIF
+  #ELSIF (%iQReadCurrentRecord=2)
+    #IF(%iQReadCurRecordAddThis=1)
+       IF xml:ReadCurrentRecord('%iQReadCurRecordQueue','%iQReadCurRecordValue')
+    #ELSIF (%iQReadCurRecordAddThis=2)
+       IF NOT xml:ReadCurrentRecord('%iQReadCurRecordQueue','%iQReadCurRecordValue')
+    #ELSIF (%iQReadCurRecordAddThis=3)
+       xml:ReadCurrentRecord('%iQReadCurRecordQueue','%iQReadCurRecordValue')
+    #ENDIF
+  #ENDIF
+
+#!-----------------------------------------------------------------------------------
+#CODE(XML_ReadNextRecord,'iQ-XML - Read Next Record')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Used to read the next relative record and return the')
+  #DISPLAY('values. The Queue will contain a record for each')
+  #DISPLAY('element and the data value will contain the value.')
+ #ENDBOXED
+#PROMPT('Add This before Read Next Record',OPTION),%iQReadNextRecordAddThis,CHOICE,default(3)
+#PROMPT('IF...',RADIO)
+#PROMPT('IF NOT...',RADIO)
+#PROMPT('No Code...',RADIO)
+ #BOXED('WARNING!!!'),where(%iQReadNextRecordAddThis <> 3)
+  #INSERT(%ElseEndWarning)
+ #ENDBOXED
+#PROMPT('Read Next Record',OPTION),%iQReadNextRecord,CHOICE
+#PROMPT('Variable',RADIO)
+#PROMPT('Manual Entry',RADIO)
+ #BOXED('Variables'),where(%iQReadNextRecord=1)
+  #PROMPT('Queue to contain elements at current record',FIELD),%iQReadNextRecordQueueVar
+  #PROMPT('Data value at current location',FIELD),%iQReadNextRecordValueVar
+ #ENDBOXED
+ #BOXED('ManualEntries'),where(%iQReadNextRecord=2)
+  #PROMPT('Queue to contain elements at current record',@s100),%iQReadNextRecordQueue
+  #PROMPT('Data value at current location',@s100),%iQReadNextRecordValue
+ #ENDBOXED
+ #INSERT(%iQSourceComment)
+  #IF(%iQReadNextRecord=1)
+    #IF(%iQReadNextRecordAddThis=1)
+       IF xml:ReadNextRecord(%iQReadNextRecordQueueVar,%iQReadNextRecordValueVar)
+    #ELSIF (%iQReadNextRecordAddThis=2)
+       IF NOT xml:ReadNextRecord(%iQReadNextRecordQueueVar,%iQReadNextRecordValueVar)
+    #ELSIF (%iQReadNextRecordAddThis=3)
+       xml:ReadNextRecord(%iQReadNextRecordQueueVar,%iQReadNextRecordValueVar)
+    #ENDIF
+  #ELSIF (%iQReadNextRecord=2)
+    #IF(%iQReadNextRecordAddThis=1)
+       IF xml:ReadNextRecord('%iQReadNextRecordQueue','%iQReadNextRecordValue')
+    #ELSIF (%iQReadNextRecordAddThis=2)
+       IF NOT xml:ReadNextRecord('%iQReadNextRecordQueue','%iQReadNextRecordValue')
+    #ELSIF (%iQReadNextRecordAddThis=3)
+       xml:ReadNextRecord('%iQReadNextRecordQueue','%iQReadNextRecordValue')
+    #ENDIF
+  #ENDIF
+#!-----------------------------------------------------------------------------------
+#CODE(XML_ReadPreviousRecord,'iQ-XML - Read Previous Record')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Used to read the Previous relative record and return')
+  #DISPLAY('the values. The Queue will contain a record for each')
+  #DISPLAY('element and the data value will contain the value.')
+ #ENDBOXED
+#PROMPT('Add This before Read Previous Record',OPTION),%iQReadPreviousRecordAddThis,CHOICE,default(3)
+#PROMPT('IF...',RADIO)
+#PROMPT('IF NOT...',RADIO)
+#PROMPT('No Code...',RADIO)
+ #BOXED('WARNING!!!'),where(%iQReadPreviousRecordAddThis <> 3)
+  #INSERT(%ElseEndWarning)
+ #ENDBOXED
+#PROMPT('Read Previous Record',OPTION),%iQReadPreviousRecord,CHOICE
+#PROMPT('Variable',RADIO)
+#PROMPT('Manual Entry',RADIO)
+ #BOXED('Variables'),where(%iQReadPreviousRecord=1)
+  #PROMPT('Queue to contain elements at current record',FIELD),%iQReadPreviousRecordQueueVar
+  #PROMPT('Data value at current location',FIELD),%iQReadPreviousRecordValueVar
+ #ENDBOXED
+ #BOXED('ManualEntries'),where(%iQReadPreviousRecord=2)
+  #PROMPT('Queue to contain elements at current record',@s100),%iQReadPreviousRecordQueue
+  #PROMPT('Data value at current location',@s100),%iQReadPreviousRecordValue
+ #ENDBOXED
+ #INSERT(%iQSourceComment)
+  #IF(%iQReadPreviousRecord=1)
+    #IF(%iQReadPreviousRecordAddThis=1)
+       IF xml:ReadPreviousRecord(%iQReadPreviousRecordQueueVar,%iQReadPreviousRecordValueVar)
+    #ELSIF (%iQReadPreviousRecordAddThis=2)
+       IF NOT xml:ReadPreviousRecord(%iQReadPreviousRecordQueueVar,%iQReadPreviousRecordValueVar)
+    #ELSIF (%iQReadPreviousRecordAddThis=3)
+       xml:ReadPreviousRecord(%iQReadPreviousRecordQueueVar,%iQReadPreviousRecordValueVar)
+    #ENDIF
+  #ELSIF (%iQReadPreviousRecord=2)
+    #IF(%iQReadPreviousRecordAddThis=1)
+       IF xml:ReadPreviousRecord('%iQReadPreviousRecordQueue','%iQReadPreviousRecordValue')
+    #ELSIF (%iQReadPreviousRecordAddThis=2)
+       IF NOT xml:ReadPreviousRecord('%iQReadPreviousRecordQueue','%iQReadPreviousRecordValue')
+    #ELSIF (%iQReadPreviousRecordAddThis=3)
+       xml:ReadPreviousRecord('%iQReadPreviousRecordQueue','%iQReadPreviousRecordValue')
+    #ENDIF
+  #ENDIF
+#!-----------------------------------------------------------------------------------
+#CODE(XML_RestoreState,'iQ-XML - Restore State')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Used to restore the cursor location, Node Pointer')
+  #DISPLAY('and datafor sub-processing, so the program can return.')
+  #DISPLAY('back to the original state.')
+ #ENDBOXED
+#PROMPT('Add This before Load From File',OPTION),%iQRestoreStateAddThis,CHOICE,default(3)
+#PROMPT('IF...',RADIO)
+#PROMPT('IF NOT...',RADIO)
+#PROMPT('No Code...',RADIO)
+ #BOXED('WARNING!!!'),where(%iQRestoreStateAddThis <> 3)
+  #INSERT(%ElseEndWarning)
+ #ENDBOXED
+#PROMPT('Unique State Pointer from XML:SaveState',Field),%iQRestoreStateVar
+  #INSERT(%iQSourceComment)
+  #IF(%iQRestoreStateAddThis=1)
+     IF XML:RestoreState(%iQRestoreStateVar)
+  #ELSIF (%iQRestoreStateAddThis=2)
+     IF NOT XML:RestoreState(%iQRestoreStateVar)
+  #ELSIF (%iQRestoreStateAddThis=3)
+     XML:RestoreState(%iQRestoreStateVar)
+  #ENDIF
+#!-----------------------------------------------------------------------------------
+#CODE(XML_SaveState,'iQ-XML - Save State')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Used to save the cursor location, Node Pointer and data')
+  #DISPLAY('for sub-processing, so the program can return back to')
+  #DISPLAY('the original state. A maximum of 16 states can be in use')
+  #DISPLAY('at one time. If there are more than 16 states saved at')
+  #DISPLAY('one time this function will return 0 as an Unique')
+  #DISPLAY('State Pointer.')
+ #ENDBOXED
+#PROMPT('Unique State Pointer Variable',Field),%iQSaveStateVar
+ #INSERT(%iQSourceComment)
+  %iQSaveStateVar = XML:SaveState()
+
+#!-----------------------------------------------------------------------------------
+#CODE(XML_SavePointer,'iQ-XML - Save Pointer')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Sets the cursor location within the XML document.')
+ #ENDBOXED
+#PROMPT('Positive value containing cursor location',OPTION),%iQSavePointerOption,CHOICE
+#PROMPT('Variable',RADIO)
+#PROMPT('Manual Entry',RADIO)
+ #BOXED('Variable Name'),where(%iQSavePointerOption=1)
+  #PROMPT('Variable for Cursor Location',From(%Localdata)),%iQSavePointerVar
+ #ENDBOXED
+ #BOXED('Manual Entries'),where(%iQOpenFile=2)
+  #PROMPT('Value for Cursor Location',@n10),%iQSavePointerValue
+ #ENDBOXED
+ #INSERT(%iQSourceComment)
+ #IF(%iQSavePointerOption=1)
+  if XML:SavePointer(%iQSavePointerVar).
+ #ELSIF (%iQSavePointerOption=2)
+  if XML:SavePointer(%iQSavePointerValue).
+ #ENDIF
+ #INSERT(%iQErrorsMes)
+#!-----------------------------------------------------------------------------------
+#CODE(XML_SkipDebug,'iQ-XML - Skip Debug')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Setting this value will skip all DebugQueue and')
+  #DISPLAY('DebugMyQueue functions called. Setting this value')
+  #DISPLAY('is Global Not Threaded.')
+ #ENDBOXED
+ #PROMPT('Set skip Debug to "On"',check),%iQSkipDebug,default(0),at(10)
+ #INSERT(%iQSourceComment)
+ #if(%iQSkipDebug)
+  XML:SKIPDEBUG(%iQSkipDebug)
+ #END
+#!-----------------------------------------------------------------------------------
+#CODE(XML_ViewFile,'iQ-XML - View XML File in Browser')
+#!-----------------------------------------------------------------------------------
+#INSERT(%iQWelcomeShort)
+ #BOXED('Help')
+  #DISPLAY('Send a file name to this function and the system will')
+  #DISPLAY('open the file with the assigned Windows application. Your')
+  #DISPLAY('XML file type should be set as a Windows registered')
+  #DISPLAY('file type to XMLSpy or Internet Explorer.')
+ #ENDBOXED
+#PROMPT('File Options',OPTION),%iQOpenFile,CHOICE
+#PROMPT('Variable',RADIO)
+#PROMPT('Manual Entry',RADIO)
+ #BOXED('Variable Name'),where(%iQOpenFile=1)
+  #PROMPT('Variable for File',FIELD),%iQFileVariable
+ #ENDBOXED
+ #BOXED('Manual Entries'),where(%iQOpenFile=2)
+  #DISPLAY('Do not add Quotes')
+  #PROMPT('Type Filename',@s100),%iQFileVariableName
+ #ENDBOXED
+#INSERT(%iQSourceComment)
+ #if(%iQOpenFile=1)
+  XML:ViewFile(%iQFileVariable)
+ #ELSIF (%iQOpenFile=2)
+  XML:ViewFile('%iQFileVariableName')
+ #ENDIF

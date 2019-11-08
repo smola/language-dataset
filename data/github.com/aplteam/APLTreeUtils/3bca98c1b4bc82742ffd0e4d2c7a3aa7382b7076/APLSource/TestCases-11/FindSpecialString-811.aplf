@@ -1,0 +1,11 @@
+ r←{startIn}FindSpecialString what;⎕IO;⎕ML
+⍝ Use this to search for stuff like "CHECK" or "TODO" enclosed between `⍝` (⍵).
+⍝ Without left argument the search starts in #.
+⍝ However, at the time of writing the user command ]locate does not work on #.
+⍝ Reported as bug <01355> to Dyalog on 2017-04-24.
+ ⎕IO←0 ⋄ ⎕ML←3
+ startIn←{0<⎕NC ⍵:⍎⍵ ⋄ '#'}'startIn'
+ r←⍉1↓[1]⎕SE.UCMD'locate ',what,' -return=count -objects=',⍕startIn
+ :If 0<1↑⍴r←(0<r[;1])⌿r                             ⍝ Drop those with no hits
+     r[;0]←{2>'#'+.=⍵:⍵ ⋄ {⌽⍵↑⍨1+⍵⍳'#'}⌽⍵}¨r[;0]    ⍝ Circumvent bug <01356>
+ :EndIf

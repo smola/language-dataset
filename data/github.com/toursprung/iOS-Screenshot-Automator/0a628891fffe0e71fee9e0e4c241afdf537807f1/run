@@ -1,0 +1,193 @@
+#!/usr/bin/env osascript
+
+on run argv
+	-- Set all devices you want to use for screenshots here 
+	-- (has to match the name of the menu items of the iOS Simulator)
+	set allDevices to {"iPhone Retina (3.5-inch)" , "iPhone Retina (4-inch)", "iPad Retina"}
+	-- Set all languages your app is translated to. 
+	set allLanguages to {"en", "de" }
+	
+
+
+
+--	set allDevices to {"iPhone (Retina 4-inch)"}
+	-- Set all languages your app is translated to. 
+--	set allLanguages to {"en"}
+
+
+
+	set iOSVersion to "7.0.3"
+	
+	setupFolders()
+	
+	set userName to short user name of (system info)
+	
+	if count of argv < 2 then
+		logEvent("Usage: ./run TestScript.js AppName")
+		error number -128
+	end
+	
+	set scriptName to item 1 of argv
+	set appName to item 2 of argv
+	
+	set automationTemplate to "instruments -t /Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/AutomationInstrument.bundle/Contents/Resources/Automation.tracetemplate"
+	set applicationsFolder to "/Users/" & userName & "/Library/Application Support/iPhone Simulator/" & iOSVersion & "/Applications/"
+	
+	
+	set applicationsFolderPosix to POSIX file applicationsFolder
+	tell application "Finder"
+		set subFolders to every folder of folder applicationsFolderPosix
+	end tell
+	
+	repeat with currentFolder in subFolders
+		tell application "Finder"
+	    	set subFiles to every file of currentFolder
+		end tell
+		
+		repeat with currentSubfolder in subFiles
+			-- inside the app
+			if (currentSubFolder as string) contains (appName & ".app") then
+				set appFolderName to currentSubFolder
+			end if
+		end repeat
+	end repeat
+	
+	if not appFolderName as string = "" then
+		logEvent("Found the app: " & appFolderName)
+	else
+		logEvent("Couldn't find the app you were looking for")
+		error number -128
+	end if
+	
+	set unixPathToApplication to (the POSIX path of (appFolderName as alias))
+	
+	logEvent("Unix Path: " & unixPathToApplication)
+
+	set errorLog to " "
+	
+	try
+	-- save the actual value of "UIDeviceFamily" field
+	changeInfoPlist(unixPathToApplication, "Copy :UIDeviceFamily :UIDeviceFamily_backup")
+	on error
+	-- ignore any "Entry Already Exists" error. It may happen when this command exits
+	-- without in the middle of the execution. In this case we can just ignore the 
+	-- the value of UIDeviceFamily because the correct value is aler
+	end
+	
+	changeInfoPlist(unixPathToApplication, "Delete :UIDeviceFamily")
+	repeat with currentDevice in allDevices
+		-- make the app support only iPhone or iPad because universal apps don't work 
+		-- well with the Instruments. (Instruments always opens them with iPad simulator)
+		set deviceFamily to "1"
+		if currentDevice contains "iPad"
+		  set deviceFamily to "2"
+		end if
+		changeInfoPlist(unixPathToApplication, "Add :UIDeviceFamily array")
+		changeInfoPlist(unixPathToApplication, "Add :UIDeviceFamily:0 integer " & deviceFamily)
+		
+		changeDevice(currentDevice)
+		
+		repeat with currentLang in allLanguages
+			do shell script "./changeLanguage " & currentLang
+			logEvent("Changed language to " & currentLang)
+			
+			logEvent("Executing " &  automationTemplate & " \"" & unixPathToApplication & "\" -e UIASCRIPT \"" & scriptName & "\" -e UIARESULTSPATH Results")
+			set currentResults to do shell script automationTemplate & " \"" & unixPathToApplication & "\" -e UIASCRIPT \"" & scriptName & "\" -e UIARESULTSPATH Results"
+			
+			if (currentResults as string) contains "Fail:" then
+				set errorLog to (errorLog & currentResults)
+			end if
+			
+			
+			logEvent("Results: " & currentResults)
+			
+			try
+				do shell script "mv Results/Run\\ 1/* Latest/"
+				do shell script "rm -rf Results/Run\\ 1"
+			on error errMsg
+			    logEvent(errMsg)
+			end try
+			
+			tell application "iPhone Simulator" to quit
+		end repeat
+		changeInfoPlist(unixPathToApplication, "Delete :UIDeviceFamily")
+	end repeat
+	
+	-- restore the value of "UIDeviceFamily" field
+	changeInfoPlist(unixPathToApplication, "Copy :UIDeviceFamily_backup :UIDeviceFamily")
+	changeInfoPlist(unixPathToApplication, "Delete :UIDeviceFamily_backup")
+	
+	do shell script "rm -rf ./instrumentscli*"
+
+	if length of errorLog > 10 then
+		logEvent("Some errors occurred: " & errorLog)
+		do shell script "echo '" & errorLog & "' > Latest/errorLog.txt"
+	end if
+end run
+
+
+on logEvent(themessage)
+	-- All the recent events, results and error can be found at the give path
+	-- It can easily be opened with the regular "Console" app
+	set theLine to (do shell script "date  +'%Y-%m-%d %H:%M:%S'" as string) & " " & themessage
+	do shell script "echo '" & theLine & "' >> ~/Library/Logs/AppleScript-events.log"
+end logEvent
+
+on changeInfoPlist(appPath, plistCommand)
+	do shell script "/usr/libexec/PlistBuddy -c '" & plistCommand & "' '" & appPAth & "/Info.plist'"
+end changeInfoPlist
+
+on setupFolders()
+	-- Clear useless instrumentscli files and copy the screenshots to the proper folder
+	-- If you prefer other folder names, just change it here.
+	do shell script "rm -rf ./instrumentscli*"
+	
+	try
+		do shell script "mkdir Results"
+	on error errMsg -- to ignore errors when the folder already exists
+	end try
+	
+	do shell script "rm -rf Results/Run*"
+	
+	do shell script "mkdir Results/Build-" & (do shell script "date  +'%Y.%m.%d-%H:%M:%S'" as string)
+	
+	-- Create the link to the latest build
+	try
+		do shell script "rm Latest"
+	on error errMsg -- to ignore errors when the folder was not yet created
+	end try
+	
+	do shell script "ln -s Results/Build-" & (do shell script "date  +'%Y.%m.%d-%H:%M:%S'" as string) & " Latest"
+	try
+		do shell script "mv Results/Run* Results/Build-" & (do shell script "date  +'%Y.%m.%d-%H:%M:%S'" as string) & "/"
+	on error errMsg
+	    logEvent(errMsg)
+	end try
+end setupFolders
+
+on changeDevice(deviceName)
+	delay (1)
+	logEvent("Start changing device to " & deviceName)
+	
+	tell application "iPhone Simulator" to activate
+	tell application "System Events"
+		tell process "iPhone Simulator"
+			tell menu bar 1
+				tell menu bar item 5
+					-- Hardware menu
+					tell menu 1
+						-- Device
+						tell menu item 1
+							-- Device sub menu
+							tell menu 1
+								click menu item deviceName
+							end tell
+						end tell
+          			end tell
+        		end tell
+      		end tell
+    	end tell
+  	end tell
+	
+	logEvent("Changed device to " & deviceName)
+end changeDevice

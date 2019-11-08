@@ -1,0 +1,384 @@
+module frege.nativegen.NativeGen where
+
+import frege.Prelude hiding (Class, ClassLoader)
+import frege.nativegen.java.Reflect
+import frege.nativegen.java.Lang
+import frege.nativegen.java.IO
+import Data.TreeMap as M()
+import Data.List (intercalate, groupBy, sortBy)
+
+{-- 
+Frege representation for a native type 
+-}
+data FregeType = FregeType
+    { name :: String
+    , jtype :: RawClass
+    , purity :: Purity
+    } 
+
+
+data Purity = Pure | ST | IO
+derive Show Purity
+derive Eq Purity
+
+{-- Frege representation for a native method -}
+data FunctionType = FunctionType 
+    { params :: [FregeType] 
+    , returns :: FregeType 
+    , exceptions :: [FregeType] 
+    , name :: String
+    , jname :: String
+    }
+  where
+  
+    guessPurity (f :: FunctionType) 
+      | f.returns.purity == IO = IO
+      | any ((==) IO . FregeType.purity) f.params = IO
+      | not $ null f.exceptions = ST
+      | f.returns.purity == ST = ST
+      | any ((==) ST . FregeType.purity) f.params = ST
+      | otherwise = Pure
+    
+    withPurity :: FunctionType -> FunctionType
+    withPurity f = 
+        if purityGuess == Pure 
+          then f 
+          else f.{params = paramsWithPurity, returns = returnWithPurity purityGuess f}
+      where
+        purityGuess = guessPurity f
+        
+        paramsWithPurity = map addPurity f.params 
+          where
+            paramType p = (if purityGuess == IO then "MutableIO " else "Mutable s ") ++ addParens p.name
+            addPurity p
+              | p.purity == Pure = p
+              | p.purity == ST = FregeType (paramType p) p.jtype purityGuess
+              | otherwise =  FregeType p.name p.jtype purityGuess
+              
+    returnWithPurity :: Purity -> FunctionType -> FregeType
+    returnWithPurity purity f = FregeType (monad ++ " " ++ addParens f.returns.name) f.returns.jtype purity 
+          where
+            monad 
+              | f.returns.purity == Pure = if purity == ST then "ST s" else "IO"
+              | otherwise = if purity == ST then "STMutable s" else "IO"
+              
+    showSignature :: FunctionType -> String
+    showSignature f = ptypes ++ retType ++ exceps
+      where
+        ptypes = intercalate " -> " $ map _.name f.params
+        retType = if null f.params then f.returns.name else " -> " ++ f.returns.name
+        exceps | (x:xs) <- f.exceptions = " throws " ++ (intercalate ", " $ map _.name f.exceptions)
+             | otherwise = ""
+             
+    showName :: FunctionType -> String
+    showName f = purity ++ name ++ nativename
+      where
+        purity = if f.returns.purity == Purity.Pure then "pure native " else "native "
+        name = escape f.name
+        nativename = if name == f.jname then "" else " \"" ++ f.jname ++ "\""
+
+    escape :: String -> String
+    escape s | s `elem` keywords = "j" ++ s ++ "'"
+             | otherwise         = s
+
+instance Show FunctionType where
+  show f = FunctionType.showName f ++ " :: " ++ FunctionType.showSignature f
+
+{-- turns a Java generic type variable into a frege type by just converting into lowercase -}
+typeVarToFregeType :: M.TreeMap String FregeType -> TypeVariable -> FregeType
+typeVarToFregeType m typeVar = FregeType {
+                    name = typeVar.getName.toLowerCase,
+                    jtype = Class.asRaw objectClass,
+                    purity = Pure
+                  }    
+
+{--
+turns a Java wildcard type into a frege type by keeping
+either the first lower bound or the first upper bound
+-}
+wildcardToFregeType :: M.TreeMap String FregeType -> WildcardType -> FregeType
+wildcardToFregeType m wildcard 
+  | wildcard.getLowerBounds.length != 0 = typeToFregeType m wildcard.getLowerBounds.[0]
+  | otherwise = typeToFregeType m wildcard.getUpperBounds.[0]
+
+{--
+converts a Java generic array to Frege. All arrays are assumed to be in ST.
+-}
+genericArrayTypeToFregeType :: M.TreeMap String FregeType -> GenericArrayType -> FregeType
+genericArrayTypeToFregeType m arrayType = FregeType 
+  { name = typeName
+  , jtype = Class.asRaw objectArrayClass
+  , purity = ST
+  } 
+    where
+      compType = arrayType.getGenericComponentType
+      compFregeType = typeToFregeType m compType
+      typeName 
+        | compType <:? TypeVariable.getClass = let typeVar = compType `asInstanceOf` TypeVariable.getClass
+                                               in "JArray " ++ typeVar.getName.toLowerCase
+        | otherwise = "JArray " ++ addParens compFregeType.name
+
+{--
+converts a generic Java class to Frege type including its type variables.
+-}
+parameterizedTypeToFregeType :: M.TreeMap String FregeType -> ParameterizedType -> FregeType
+parameterizedTypeToFregeType m ptype = pFregeType.{name <- (\t -> t ++ " " ++ typeParams)} 
+  where
+    pFregeType = typeToFregeType m ptype.getRawType
+    typeParams = unwords $ map fmt ptype.getActualTypeArguments.toList
+    fmt = addParens . FregeType.name . typeToFregeType m
+
+{--
+converts a Java class to Frege type using the passed Map to identify an existing
+Frege type for that class. If the class is not already known, it is assumed to be pure
+unless it is an array.
+-}
+classToFregeType :: M.TreeMap String FregeType -> Class a -> FregeType
+classToFregeType m clazz = maybe unknown f $ m.lookup clazz.getName
+  where
+    unknown = FregeType name (Class.asRaw clazz) purity
+      where
+        purity = if clazz.isEnum then Pure else ST
+        name = fregeName m clazz
+
+    f :: FregeType -> FregeType
+    f fregeType = FregeType fregeType.name (Class.asRaw clazz) purity
+      where
+        purity = if clazz.isArray then ST else fregeType.purity
+
+typeToFregeType :: M.TreeMap String FregeType -> Type -> FregeType
+typeToFregeType m jtype
+  | jtype <:? TypeVariable.getClass = typeVarToFregeType m $ jtype `asInstanceOf` TypeVariable.getClass
+  | jtype <:? WildcardType.getClass = wildcardToFregeType m $ jtype `asInstanceOf` WildcardType.getClass
+  | jtype <:? GenericArrayType.getClass = genericArrayTypeToFregeType m $ jtype `asInstanceOf` GenericArrayType.getClass
+  | jtype <:? ParameterizedType.getClass = parameterizedTypeToFregeType m $ jtype `asInstanceOf` ParameterizedType.getClass
+  | jtype <:? Class.getClass = classToFregeType m $ jtype `asInstanceOf` Class.getClass
+  | otherwise = FregeType "Object" (Class.asRaw objectClass) Pure
+
+constructorToFregeFunction :: M.TreeMap String FregeType -> Constructor -> FunctionType
+constructorToFregeFunction m constructor = FunctionType params returns exceps "new" "new" 
+  where
+    thisType = fregeTypeWithTypeParams m clazz
+    paramTypes = map (typeToFregeType m) constructor.getGenericParameterTypes.toList
+    exceps = map (typeToFregeType m) . filter checked $ constructor.getGenericExceptionTypes.toList
+    clazz = constructor.getDeclaringClass
+    returns = thisType
+    params = case paramTypes of
+      [] -> [FregeType "()" (Class.asRaw voidClass) Pure]
+      _ -> paramTypes  
+    
+methodToFregeFunction :: M.TreeMap String FregeType -> Method -> FunctionType
+methodToFregeFunction m method = FunctionType params returns exceps name jname 
+  where
+    isStatic = Modifier.isStatic method.getModifiers
+    paramTypes = map (typeToFregeType m) method.getGenericParameterTypes.toList
+    thisType = fregeTypeWithTypeParams m clazz
+    clazz = method.getDeclaringClass
+    
+    params 
+      | not isStatic = thisType : paramTypes
+      | [] <- paramTypes = [FregeType "()" (Class.asRaw voidClass) Pure]
+      | otherwise = paramTypes
+      
+    returns = typeToFregeType m method.getGenericReturnType
+    exceps = map (typeToFregeType m) . filter checked $ method.getGenericExceptionTypes.toList
+    name = packed . applyHead _.toLowerCase . toList $ method.getName
+      
+    jname
+      | isStatic = clazz.getCanonicalName ++ "." ++ method.getName
+      | otherwise = method.getName
+          
+fieldToFregeType :: M.TreeMap String FregeType -> Field -> FunctionType
+fieldToFregeType m field = FunctionType params returns [] field.getName.toLowerCase jname 
+  where
+    isStatic = Modifier.isStatic field.getModifiers
+    clazz = field.getDeclaringClass
+    thisType = fregeTypeWithTypeParams m clazz
+    params = if isStatic then [] else [thisType]
+    returns = typeToFregeType m field.getGenericType
+    jname 
+      | isStatic = clazz.getCanonicalName ++ "." ++ field.getName
+      | otherwise = "\"." ++ field.getName ++ "\"" 
+
+checked typ
+    | typ <:? Class.getClass = isException && not isRuntimeException 
+    | otherwise = false
+  where
+    exception = typ `asInstanceOf` Class.getClass
+    isException = exceptionClass.isAssignableFrom exception
+    isRuntimeException  = runtimeExceptionClass.isAssignableFrom exception
+        
+fregeName :: M.TreeMap String FregeType -> Class a -> String
+fregeName m clazz 
+  | clazz.isArray = "JArray " ++ addParens (classToFregeType m clazz.getComponentType).name 
+  | clazz.isMemberClass = replace (unqualifiedName clazz) "$" "_"
+  | otherwise = unqualifiedName clazz 
+
+fregeTypeWithTypeParams :: M.TreeMap String FregeType -> Class a -> FregeType
+fregeTypeWithTypeParams m cls 
+    | null typeParams = fregeTypeForClass
+    | otherwise = fregeTypeForClass.{name <- (\t -> t ++ " " ++ fregeTypeParams)}
+  where
+    fregeTypeForClass = typeToFregeType m cls.asType
+    fregeTypeParams = fregeTypeNames m typeParams
+    typeParams = cls.getTypeParameters.toList
+
+fregeTypeNames :: M.TreeMap String FregeType -> [TypeVariable] -> String
+fregeTypeNames m types = unwords $ map (FregeType.name . typeVarToFregeType m) types
+                   
+constructorsToFregeTypes :: M.TreeMap String FregeType -> Class a -> [FunctionType]
+constructorsToFregeTypes _ clazz | Modifier.isAbstract clazz.getModifiers = []
+constructorsToFregeTypes m clazz = 
+  takeFirst . groupOverloaded . map toFunction . filter wanted $ clazz.getDeclaredConstructors.toList 
+    where
+      wanted c = not c.isSynthetic && Modifier.isPublic c.getModifiers
+      toFunction = FunctionType.withPurity . constructorToFregeFunction m
+      takeFirst (xs:xss) = xs
+      takeFirst [] = []
+  
+fieldsToFregeTypes :: M.TreeMap String FregeType -> Class a -> [FunctionType]
+fieldsToFregeTypes m clazz = map toFunction . filter wanted $ clazz.getDeclaredFields.toList 
+  where
+    wanted f = not f.isSynthetic && Modifier.isPublic f.getModifiers
+    toFunction = FunctionType.withPurity . fieldToFregeType m  
+
+methodsToFregeTypes :: M.TreeMap String FregeType -> Class a -> [[FunctionType]]
+methodsToFregeTypes m clazz = 
+  groupOverloaded . disambiguate . map toFunction . filter wanted $ clazz.getDeclaredMethods.toList
+    where
+      wanted method = not method.isSynthetic && not method.isBridge && Modifier.isPublic method.getModifiers
+      toFunction = FunctionType.withPurity . methodToFregeFunction m
+
+      -- Disambiguate static and instance methods with same name; if any, appends apostrophe to the static method.
+      disambiguate fs = concat
+                        . reverse
+                        . fold f []
+                        . groupBy ((==) `on` FunctionType.name)
+                        . sortBy (comparing FunctionType.name)
+                        $ fs
+
+      f acc fs | anyDifferent fs = (map appendAposForStatic fs): acc
+               | otherwise = fs:acc
+
+      appendAposForStatic f | f.jname ~ '\.' = f.{name<-(\n -> n ++ "'")}
+                            | otherwise = f
+      anyDifferent [] = false
+      anyDifferent (x:xs) = any (\f -> f.jname != x.jname) xs
+
+groupOverloaded :: [FunctionType] -> [[FunctionType]]
+groupOverloaded functions =
+  map updatePurity . groupBy sameName . sortBy (comparing FunctionType.name) $ functions
+    where
+      sameName f1 f2 = f1.name == f2.name && f1.jname == f2.jname
+
+updatePurity :: [FunctionType] -> [FunctionType]
+updatePurity fs
+    | allPure fs = fs
+    | otherwise  = map changePurity fs
+  where
+    allPure = all (\f -> f.returns.purity == Pure)
+    changePurity g =
+      if g.returns.purity == Pure
+        then g.{returns = FunctionType.returnWithPurity ST g}
+        else g
+
+
+                
+genFrege :: M.TreeMap String FregeType -> Class a -> (String, [RawClass])
+genFrege m clazz = (code, dependencies)
+    where
+      code = "data " ++ dataName ++ " = " ++ purity ++ "native " ++ className ++ whr ++
+              fieldsStr ++ constructorsStr ++ methodsStr ++ derives
+      indentSpace = 2
+      
+      dataName = thisType.name
+      className = clazz.getCanonicalName
+      thisPackage = packageName clazz.getName
+      
+      thisType = fregeTypeWithTypeParams m clazz
+      
+      purity = case thisType.purity of
+                  Pure -> "pure "
+                  IO -> "mutable "
+                  _ -> ""
+      
+      whr = if hasMembers then " where\n\n" else ""
+      hasMembers = not $ null constructors && null methods && null fields
+      
+      constructors = constructorsToFregeTypes m clazz
+      methods = methodsToFregeTypes m clazz
+      fields = fieldsToFregeTypes m clazz
+
+      dependencies :: [RawClass]
+      dependencies = functionTypes >>= (\f -> map (\typ -> typ.jtype) (jdeps f)) where
+          jdeps :: FunctionType -> [FregeType]
+          jdeps f = filter wanted $ f.params ++ [f.returns] ++ f.exceptions
+
+          wanted :: FregeType -> Bool
+          wanted f = lastIndexOf name "." > 0 && pkgName /= "java.lang" && pkgName /= thisPackage where
+            pkgName = packageName name
+            name = Class.getName $ asClass f.jtype
+
+          functionTypes :: [FunctionType]
+          functionTypes = constructors ++ fields ++ concat methods
+      
+      fieldsStr = case fields of
+                    [] -> ""
+                    _ -> (unlines $ indentLines indentSpace $ map show fields) ++ "\n"
+
+      constructorsStr = case constructors of
+                          [] -> ""
+                          _ -> (genFunctions constructors) ++ "\n"
+
+      methodsStr = unlines $ map genFunctions methods
+      
+      genFunctions [] = ""
+      genFunctions (x:xs) = unlines $ indentLines indentSpace $ (prefix ++ " " ++ x.showSignature) : restSig
+          where
+            prefix = FunctionType.showName x ++ " ::"
+            restSig = map (\f -> indent (prefix.length - 1) $ "| " ++ f.showSignature) xs 
+            
+      derives :: String
+      derives = exceptional ++ serializable
+        where
+          exceptional
+            | throwableClass.isAssignableFrom clazz = "derive Exceptional " ++ addParens thisType.name ++ "\n"
+            | otherwise = "" 
+           
+          serializable
+            | JSerializable.javaClass.isAssignableFrom clazz =
+                "derive Serializable " ++ addParens thisType.name ++ "\n"
+            | JCloneable.javaClass.isAssignableFrom clazz =
+                "derive Cloneable " ++ addParens thisType.name ++ "\n"
+            | otherwise = ""
+           
+unqualifiedName :: Class a -> String
+unqualifiedName cls = packed . reverse . fst $ break (== '.') $ reverse cls.getName.toList
+
+packageName :: String -> String
+packageName clsName = substring clsName . succ $ lastIndexOf clsName "."
+
+pure native substring :: String -> Int -> String
+
+pure native lastIndexOf :: String -> String -> Int
+
+pure native asClass "(Class)" :: a -> (Class b)
+
+addParens s
+    | ('(': _) <- chars = s
+    | not $ ' ' `elem` chars = s
+    | otherwise = "(" ++ s ++ ")"
+  where
+    chars = s.toList
+
+indentLines n = let spaces = packed (replicate n ' ') in map (\s -> spaces ++ s)
+
+indent n s = let spaces = packed (replicate n ' ') in spaces ++ s 
+
+applyHead _ [] = []
+applyHead f (x: xs) = f x : xs
+
+keywords = ["abstract", "case", "class", "data", "derive", "do", "else", "false", "forall",
+            "if", "import", "in", "infix", "infixl", "infixr", "instance", "let", "mutable",
+            "native", "of", "package", "module", "private", "protected", "pure", "public",
+            "then", "throws", "true", "type", "where"]

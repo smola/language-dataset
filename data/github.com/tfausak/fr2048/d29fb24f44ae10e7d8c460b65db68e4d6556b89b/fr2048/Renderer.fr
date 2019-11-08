@@ -1,0 +1,44 @@
+module fr2048.Renderer where
+
+import fr2048.Board as B (Board)
+import fr2048.Tile as T (Tile)
+
+center :: Int -> String -> String
+center w s = prefix ++ s ++ suffix
+  where
+    prefix = packed (replicate n ' ')
+    suffix = packed (replicate m ' ')
+    (n, m) = case (w - length s) `quotRem` 2 of
+        (q, 0) = (q, q)
+        (q, _) = (q + 1, q)
+
+color :: Tile -> Int
+color t = 30 + x
+  where
+    x = if r > 6 then r + 4 else r
+    r = T.score t
+
+renderBoard :: Board -> String
+renderBoard b = unlines (fmap unwords vs')
+  where
+    vs' = fmap (fmap (center l)) vs
+    vs = fmap (fmap renderTile) b
+    l = maximum ls
+    ls = vs >>= fmap length
+
+renderGame :: Board -> String
+renderGame b = concat
+    [ "Score: "
+    , show (B.score b)
+    , "\n"
+    , renderBoard b
+    ]
+
+renderTile :: Tile -> String
+renderTile t = concat
+    [ "\u001b["
+    , show (color t)
+    , "m"
+    , T.render t
+    , "\u001b[0m"
+    ]

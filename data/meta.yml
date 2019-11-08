@@ -1,0 +1,4066 @@
+datasets:
+  linguist:
+    version: aac6731f2c1e30321fcfc58ac95d8203c041ee04
+languages:
+  0815:
+    maps_to:
+      rosetta_code:
+      - 0815
+  1C Enterprise:
+    maps_to:
+      linguist:
+      - 1C Enterprise
+  360 Assembly:
+    maps_to:
+      rosetta_code:
+      - 360 Assembly
+  4D:
+    maps_to:
+      rosetta_code:
+      - 4D
+  4DOS Batch:
+    maps_to:
+      rosetta_code:
+      - 4DOS Batch
+  6502 Assembly:
+    maps_to:
+      rosetta_code:
+      - 6502 Assembly
+  6800 Assembly:
+    maps_to:
+      rosetta_code:
+      - 6800 Assembly
+  68000 Assembly:
+    maps_to:
+      rosetta_code:
+      - 68000 Assembly
+  8051 Assembly:
+    maps_to:
+      rosetta_code:
+      - 8051 Assembly
+  8080 Assembly:
+    maps_to:
+      rosetta_code:
+      - 8080 Assembly
+  8086 Assembly:
+    maps_to:
+      rosetta_code:
+      - 8086 Assembly
+  8th:
+    maps_to:
+      rosetta_code:
+      - 8th
+  ABAP:
+    maps_to:
+      linguist:
+      - ABAP
+      rosetta_code:
+      - ABAP
+  ABNF:
+    maps_to:
+      linguist:
+      - ABNF
+  ACL2:
+    maps_to:
+      rosetta_code:
+      - ACL2
+  AGS Script:
+    maps_to:
+      linguist:
+      - AGS Script
+  ALGOL 60:
+    maps_to:
+      rosetta_code:
+      - ALGOL 60
+  ALGOL 68:
+    maps_to:
+      rosetta_code:
+      - ALGOL 68
+  ALGOL W:
+    maps_to:
+      rosetta_code:
+      - ALGOL W
+  ALGOL-M:
+    maps_to:
+      rosetta_code:
+      - ALGOL-M
+  AMPL:
+    maps_to:
+      linguist:
+      - AMPL
+      rosetta_code:
+      - AMPL
+  ANTLR:
+    maps_to:
+      linguist:
+      - ANTLR
+      rosetta_code:
+      - ANTLR
+  API Blueprint:
+    maps_to:
+      linguist:
+      - API Blueprint
+  APL:
+    maps_to:
+      linguist:
+      - APL
+      rosetta_code:
+      - APL
+  ARM Assembly:
+    maps_to:
+      rosetta_code:
+      - ARM Assembly
+  ASN.1:
+    maps_to:
+      linguist:
+      - ASN.1
+  ASP:
+    maps_to:
+      linguist:
+      - ASP
+  ATS:
+    maps_to:
+      linguist:
+      - ATS
+      rosetta_code:
+      - ATS
+  ActionScript:
+    maps_to:
+      linguist:
+      - ActionScript
+      rosetta_code:
+      - ActionScript
+  Ada:
+    maps_to:
+      linguist:
+      - Ada
+      rosetta_code:
+      - Ada
+  Adobe Font Metrics:
+    maps_to:
+      linguist:
+      - Adobe Font Metrics
+  Agda:
+    maps_to:
+      linguist:
+      - Agda
+      rosetta_code:
+      - Agda
+  Agena:
+    maps_to:
+      rosetta_code:
+      - Agena
+  Aikido:
+    maps_to:
+      rosetta_code:
+      - Aikido
+  Aime:
+    maps_to:
+      rosetta_code:
+      - Aime
+  Algae:
+    maps_to:
+      rosetta_code:
+      - Algae
+  Alloy:
+    maps_to:
+      linguist:
+      - Alloy
+  Alore:
+    maps_to:
+      rosetta_code:
+      - Alore
+  Alpine Abuild:
+    maps_to:
+      linguist:
+      - Alpine Abuild
+  Altium Designer:
+    maps_to:
+      linguist:
+      - Altium Designer
+  AmbientTalk:
+    maps_to:
+      rosetta_code:
+      - AmbientTalk
+  AmigaE:
+    maps_to:
+      rosetta_code:
+      - AmigaE
+  AngelScript:
+    maps_to:
+      linguist:
+      - AngelScript
+  Ant Build System:
+    maps_to:
+      linguist:
+      - Ant Build System
+  AntLang:
+    maps_to:
+      rosetta_code:
+      - AntLang
+  ApacheConf:
+    maps_to:
+      linguist:
+      - ApacheConf
+  Apex:
+    maps_to:
+      linguist:
+      - Apex
+      rosetta_code:
+      - Apex
+  Apollo Guidance Computer:
+    maps_to:
+      linguist:
+      - Apollo Guidance Computer
+  App Inventor:
+    maps_to:
+      rosetta_code:
+      - App Inventor
+  AppleScript:
+    maps_to:
+      linguist:
+      - AppleScript
+      rosetta_code:
+      - AppleScript
+  Applesoft BASIC:
+    maps_to:
+      rosetta_code:
+      - Applesoft BASIC
+  Apricot:
+    maps_to:
+      rosetta_code:
+      - Apricot
+  Arbre:
+    maps_to:
+      rosetta_code:
+      - Arbre
+  Arc:
+    maps_to:
+      linguist:
+      - Arc
+      rosetta_code:
+      - Arc
+  Argile:
+    maps_to:
+      rosetta_code:
+      - Argile
+  AsciiDoc:
+    maps_to:
+      linguist:
+      - AsciiDoc
+  AspectJ:
+    maps_to:
+      linguist:
+      - AspectJ
+      rosetta_code:
+      - AspectJ
+  Assembly:
+    maps_to:
+      linguist:
+      - Assembly
+      rosetta_code:
+      - Assembly
+  Astro:
+    maps_to:
+      rosetta_code:
+      - Astro
+  Asymptote:
+    maps_to:
+      linguist:
+      - Asymptote
+      rosetta_code:
+      - Asymptote
+  Augeas:
+    maps_to:
+      linguist:
+      - Augeas
+  AutoHotkey:
+    maps_to:
+      linguist:
+      - AutoHotkey
+      rosetta_code:
+      - AutoHotkey
+  AutoIt:
+    maps_to:
+      linguist:
+      - AutoIt
+      rosetta_code:
+      - AutoIt
+  AutoLISP:
+    maps_to:
+      rosetta_code:
+      - AutoLISP
+  Awk:
+    maps_to:
+      linguist:
+      - Awk
+      rosetta_code:
+      - AWK
+  Axe:
+    maps_to:
+      rosetta_code:
+      - Axe
+  Axiom:
+    maps_to:
+      rosetta_code:
+      - Axiom
+  B:
+    maps_to:
+      rosetta_code:
+      - B
+  B4J:
+    maps_to:
+      rosetta_code:
+      - B4J
+  BASIC:
+    maps_to:
+      rosetta_code:
+      - BASIC
+  BASIC256:
+    maps_to:
+      rosetta_code:
+      - BASIC256
+  BBC BASIC:
+    maps_to:
+      rosetta_code:
+      - BBC BASIC
+  BCPL:
+    maps_to:
+      rosetta_code:
+      - BCPL
+  BML:
+    maps_to:
+      rosetta_code:
+      - BML
+  BaCon:
+    maps_to:
+      rosetta_code:
+      - BaCon
+  Babel:
+    maps_to:
+      rosetta_code:
+      - Babel
+  Ballerina:
+    maps_to:
+      linguist:
+      - Ballerina
+  Batch File:
+    maps_to:
+      rosetta_code:
+      - Batch File
+  Batchfile:
+    maps_to:
+      linguist:
+      - Batchfile
+  Battlestar:
+    maps_to:
+      rosetta_code:
+      - Battlestar
+  Bc:
+    maps_to:
+      rosetta_code:
+      - Bc
+  Beeswax:
+    maps_to:
+      rosetta_code:
+      - Beeswax
+  Befunge:
+    maps_to:
+      linguist:
+      - Befunge
+      rosetta_code:
+      - Befunge
+  BibTeX:
+    maps_to:
+      linguist:
+      - BibTeX
+  Biferno:
+    maps_to:
+      rosetta_code:
+      - Biferno
+  Bison:
+    maps_to:
+      linguist:
+      - Bison
+  BitBake:
+    maps_to:
+      linguist:
+      - BitBake
+  Blade:
+    maps_to:
+      linguist:
+      - Blade
+  Blast:
+    maps_to:
+      rosetta_code:
+      - Blast
+  BlitzBasic:
+    maps_to:
+      linguist:
+      - BlitzBasic
+  BlitzMax:
+    maps_to:
+      linguist:
+      - BlitzMax
+      rosetta_code:
+      - BlitzMax
+  Bluespec:
+    maps_to:
+      linguist:
+      - Bluespec
+  Boo:
+    maps_to:
+      linguist:
+      - Boo
+      rosetta_code:
+      - Boo
+  Bori:
+    maps_to:
+      rosetta_code:
+      - Bori
+  Brace:
+    maps_to:
+      rosetta_code:
+      - Brace
+  Bracmat:
+    maps_to:
+      rosetta_code:
+      - Bracmat
+  Brainfuck:
+    maps_to:
+      linguist:
+      - Brainfuck
+      rosetta_code:
+      - Brainf***
+  Brat:
+    maps_to:
+      rosetta_code:
+      - Brat
+  Brightscript:
+    maps_to:
+      linguist:
+      - Brightscript
+  Brlcad:
+    maps_to:
+      rosetta_code:
+      - Brlcad
+  Burlesque:
+    maps_to:
+      rosetta_code:
+      - Burlesque
+  C:
+    maps_to:
+      linguist:
+      - C
+      rosetta_code:
+      - C
+  C#:
+    maps_to:
+      linguist:
+      - C#
+      rosetta_code:
+      - C sharp
+  C++:
+    maps_to:
+      linguist:
+      - C++
+      rosetta_code:
+      - C++
+  C++/CLI:
+    maps_to:
+      rosetta_code:
+      - C++/CLI
+  C-ObjDump:
+    maps_to:
+      linguist:
+      - C-ObjDump
+  C1R:
+    maps_to:
+      rosetta_code:
+      - C1R
+  C2hs Haskell:
+    maps_to:
+      linguist:
+      - C2hs Haskell
+  CLIPS:
+    maps_to:
+      linguist:
+      - CLIPS
+      rosetta_code:
+      - CLIPS
+  CMake:
+    maps_to:
+      linguist:
+      - CMake
+      rosetta_code:
+      - CMake
+  COBOL:
+    maps_to:
+      linguist:
+      - COBOL
+      rosetta_code:
+      - COBOL
+  COLLADA:
+    maps_to:
+      linguist:
+      - COLLADA
+  CSON:
+    maps_to:
+      linguist:
+      - CSON
+  CSS:
+    maps_to:
+      linguist:
+      - CSS
+  CSV:
+    maps_to:
+      linguist:
+      - CSV
+  CWeb:
+    maps_to:
+      linguist:
+      - CWeb
+  Cabal Config:
+    maps_to:
+      linguist:
+      - Cabal Config
+  "Cach\xE9 ObjectScript":
+    maps_to:
+      rosetta_code:
+      - "Cach\xE9 ObjectScript"
+  CafeOBJ:
+    maps_to:
+      rosetta_code:
+      - CafeOBJ
+  Cap'n Proto:
+    maps_to:
+      linguist:
+      - Cap'n Proto
+  CartoCSS:
+    maps_to:
+      linguist:
+      - CartoCSS
+  Cat:
+    maps_to:
+      rosetta_code:
+      - Cat
+  Cduce:
+    maps_to:
+      rosetta_code:
+      - Cduce
+  Ceylon:
+    maps_to:
+      linguist:
+      - Ceylon
+      rosetta_code:
+      - Ceylon
+  Chapel:
+    maps_to:
+      linguist:
+      - Chapel
+      rosetta_code:
+      - Chapel
+  Charity:
+    maps_to:
+      linguist:
+      - Charity
+  Chef:
+    maps_to:
+      rosetta_code:
+      - Chef
+  ChucK:
+    maps_to:
+      linguist:
+      - ChucK
+      rosetta_code:
+      - ChucK
+  Cirru:
+    maps_to:
+      linguist:
+      - Cirru
+  Clarion:
+    maps_to:
+      linguist:
+      - Clarion
+      rosetta_code:
+      - Clarion
+  Clay:
+    maps_to:
+      rosetta_code:
+      - Clay
+  Clean:
+    maps_to:
+      linguist:
+      - Clean
+      rosetta_code:
+      - Clean
+  Click:
+    maps_to:
+      linguist:
+      - Click
+  Clipper:
+    maps_to:
+      rosetta_code:
+      - Clipper
+  Clipper/XBase++:
+    maps_to:
+      rosetta_code:
+      - Clipper/XBase++
+  Clojure:
+    maps_to:
+      linguist:
+      - Clojure
+      rosetta_code:
+      - Clojure
+  Closure Templates:
+    maps_to:
+      linguist:
+      - Closure Templates
+  Cloud Firestore Security Rules:
+    maps_to:
+      linguist:
+      - Cloud Firestore Security Rules
+  CoNLL-U:
+    maps_to:
+      linguist:
+      - CoNLL-U
+  Cobra:
+    maps_to:
+      rosetta_code:
+      - Cobra
+  Coco:
+    maps_to:
+      rosetta_code:
+      - Coco
+  CoffeeScript:
+    maps_to:
+      linguist:
+      - CoffeeScript
+      rosetta_code:
+      - CoffeeScript
+  ColdFusion:
+    maps_to:
+      linguist:
+      - ColdFusion
+      rosetta_code:
+      - ColdFusion
+  ColdFusion CFC:
+    maps_to:
+      linguist:
+      - ColdFusion CFC
+  Comal:
+    maps_to:
+      rosetta_code:
+      - Comal
+  Comefrom0x10:
+    maps_to:
+      rosetta_code:
+      - Comefrom0x10
+  Commodore BASIC:
+    maps_to:
+      rosetta_code:
+      - Commodore BASIC
+  Common Lisp:
+    maps_to:
+      linguist:
+      - Common Lisp
+      rosetta_code:
+      - Common Lisp
+  Common Workflow Language:
+    maps_to:
+      linguist:
+      - Common Workflow Language
+  Component Pascal:
+    maps_to:
+      linguist:
+      - Component Pascal
+      rosetta_code:
+      - Component Pascal
+  Computer/zero Assembly:
+    maps_to:
+      rosetta_code:
+      - Computer/zero Assembly
+  Cool:
+    maps_to:
+      linguist:
+      - Cool
+  Coq:
+    maps_to:
+      linguist:
+      - Coq
+      rosetta_code:
+      - Coq
+  Cpp-ObjDump:
+    maps_to:
+      linguist:
+      - Cpp-ObjDump
+  Crack:
+    maps_to:
+      rosetta_code:
+      - Crack
+  Creole:
+    maps_to:
+      linguist:
+      - Creole
+  Crystal:
+    maps_to:
+      linguist:
+      - Crystal
+      rosetta_code:
+      - Crystal
+  Csound:
+    maps_to:
+      linguist:
+      - Csound
+  Csound Document:
+    maps_to:
+      linguist:
+      - Csound Document
+  Csound Score:
+    maps_to:
+      linguist:
+      - Csound Score
+  Cuda:
+    maps_to:
+      linguist:
+      - Cuda
+  Curry:
+    maps_to:
+      rosetta_code:
+      - Curry
+  Cycript:
+    maps_to:
+      linguist:
+      - Cycript
+  Cython:
+    maps_to:
+      linguist:
+      - Cython
+  D:
+    maps_to:
+      linguist:
+      - D
+      rosetta_code:
+      - D
+  D-ObjDump:
+    maps_to:
+      linguist:
+      - D-ObjDump
+  DCL:
+    maps_to:
+      rosetta_code:
+      - DCL
+  DDNC:
+    maps_to:
+      rosetta_code:
+      - DDNC
+  DIGITAL Command Language:
+    maps_to:
+      linguist:
+      - DIGITAL Command Language
+  DIV Games Studio:
+    maps_to:
+      rosetta_code:
+      - DIV Games Studio
+  DM:
+    maps_to:
+      linguist:
+      - DM
+      rosetta_code:
+      - DM
+  DMS:
+    maps_to:
+      rosetta_code:
+      - DMS
+  DNS Zone:
+    maps_to:
+      linguist:
+      - DNS Zone
+  DTrace:
+    maps_to:
+      linguist:
+      - DTrace
+  DUP:
+    maps_to:
+      rosetta_code:
+      - DUP
+  DWScript:
+    maps_to:
+      rosetta_code:
+      - DWScript
+  Dafny:
+    maps_to:
+      rosetta_code:
+      - Dafny
+  Dao:
+    maps_to:
+      rosetta_code:
+      - Dao
+  Darcs Patch:
+    maps_to:
+      linguist:
+      - Darcs Patch
+  Dart:
+    maps_to:
+      linguist:
+      - Dart
+      rosetta_code:
+      - Dart
+  DataWeave:
+    maps_to:
+      linguist:
+      - DataWeave
+  Dc:
+    maps_to:
+      rosetta_code:
+      - Dc
+  Deluge:
+    maps_to:
+      rosetta_code:
+      - Deluge
+  Dhall:
+    maps_to:
+      linguist:
+      - Dhall
+  Diff:
+    maps_to:
+      linguist:
+      - Diff
+  DirectX 3D File:
+    maps_to:
+      linguist:
+      - DirectX 3D File
+  Dockerfile:
+    maps_to:
+      linguist:
+      - Dockerfile
+  Dodo0:
+    maps_to:
+      rosetta_code:
+      - Dodo0
+  Dogescript:
+    maps_to:
+      linguist:
+      - Dogescript
+  Dylan:
+    maps_to:
+      linguist:
+      - Dylan
+      rosetta_code:
+      - Dylan
+  Dylan.NET:
+    maps_to:
+      rosetta_code:
+      - Dylan.NET
+  "D\xE9j\xE0 Vu":
+    maps_to:
+      rosetta_code:
+      - "D\xE9j\xE0 Vu"
+  E:
+    maps_to:
+      linguist:
+      - E
+      rosetta_code:
+      - E
+  EBNF:
+    maps_to:
+      linguist:
+      - EBNF
+  ECL:
+    maps_to:
+      linguist:
+      - ECL
+      rosetta_code:
+      - ECL
+  ECLiPSe:
+    maps_to:
+      linguist:
+      - ECLiPSe
+  EDSAC order code:
+    maps_to:
+      rosetta_code:
+      - EDSAC order code
+  EGL:
+    maps_to:
+      rosetta_code:
+      - EGL
+  EJS:
+    maps_to:
+      linguist:
+      - EJS
+  ELLA:
+    maps_to:
+      rosetta_code:
+      - ELLA
+  EML:
+    maps_to:
+      linguist:
+      - EML
+  EQ:
+    maps_to:
+      linguist:
+      - EQ
+  ERRE:
+    maps_to:
+      rosetta_code:
+      - ERRE
+  ESQL:
+    maps_to:
+      rosetta_code:
+      - ESQL
+  Eagle:
+    maps_to:
+      linguist:
+      - Eagle
+  Easybuild:
+    maps_to:
+      linguist:
+      - Easybuild
+  Ecere Projects:
+    maps_to:
+      linguist:
+      - Ecere Projects
+  EchoLisp:
+    maps_to:
+      rosetta_code:
+      - EchoLisp
+  EditorConfig:
+    maps_to:
+      linguist:
+      - EditorConfig
+  Edje Data Collection:
+    maps_to:
+      linguist:
+      - Edje Data Collection
+  Eero:
+    maps_to:
+      rosetta_code:
+      - Eero
+  Efene:
+    maps_to:
+      rosetta_code:
+      - Efene
+  Egison:
+    maps_to:
+      rosetta_code:
+      - Egison
+  Eiffel:
+    maps_to:
+      linguist:
+      - Eiffel
+      rosetta_code:
+      - Eiffel
+  Ela:
+    maps_to:
+      rosetta_code:
+      - Ela
+  ElastiC:
+    maps_to:
+      rosetta_code:
+      - ElastiC
+  Elena:
+    maps_to:
+      rosetta_code:
+      - Elena
+  Elisa:
+    maps_to:
+      rosetta_code:
+      - Elisa
+  Elixir:
+    maps_to:
+      linguist:
+      - Elixir
+      rosetta_code:
+      - Elixir
+  Elm:
+    maps_to:
+      linguist:
+      - Elm
+      rosetta_code:
+      - Elm
+  Emacs Lisp:
+    maps_to:
+      linguist:
+      - Emacs Lisp
+      rosetta_code:
+      - Emacs Lisp
+  EmberScript:
+    maps_to:
+      linguist:
+      - EmberScript
+  Erlang:
+    maps_to:
+      linguist:
+      - Erlang
+      rosetta_code:
+      - Erlang
+  Euler Math Toolbox:
+    maps_to:
+      rosetta_code:
+      - Euler Math Toolbox
+  Euphoria:
+    maps_to:
+      rosetta_code:
+      - Euphoria
+  Excel:
+    maps_to:
+      rosetta_code:
+      - Excel
+  Ezhil:
+    maps_to:
+      rosetta_code:
+      - Ezhil
+  F#:
+    maps_to:
+      linguist:
+      - F#
+      rosetta_code:
+      - F Sharp
+  F*:
+    maps_to:
+      linguist:
+      - F*
+  'FALSE':
+    maps_to:
+      rosetta_code:
+      - 'FALSE'
+  FBSL:
+    maps_to:
+      rosetta_code:
+      - FBSL
+  FIGlet Font:
+    maps_to:
+      linguist:
+      - FIGlet Font
+  FLUX:
+    maps_to:
+      linguist:
+      - FLUX
+  FOCAL:
+    maps_to:
+      rosetta_code:
+      - FOCAL
+  FP:
+    maps_to:
+      rosetta_code:
+      - FP
+  FRISC Assembly:
+    maps_to:
+      rosetta_code:
+      - FRISC Assembly
+  FUZE BASIC:
+    maps_to:
+      rosetta_code:
+      - FUZE BASIC
+  Factor:
+    maps_to:
+      linguist:
+      - Factor
+      rosetta_code:
+      - Factor
+  Falcon:
+    maps_to:
+      rosetta_code:
+      - Falcon
+  Fan:
+    maps_to:
+      rosetta_code:
+      - Fan
+  Fancy:
+    maps_to:
+      linguist:
+      - Fancy
+      rosetta_code:
+      - Fancy
+  Fantom:
+    maps_to:
+      linguist:
+      - Fantom
+      rosetta_code:
+      - Fantom
+  Felix:
+    maps_to:
+      rosetta_code:
+      - Felix
+  Ferite:
+    maps_to:
+      rosetta_code:
+      - Ferite
+  Fexl:
+    maps_to:
+      rosetta_code:
+      - Fexl
+  Filebench WML:
+    maps_to:
+      linguist:
+      - Filebench WML
+  Filterscript:
+    maps_to:
+      linguist:
+      - Filterscript
+  Formatted:
+    maps_to:
+      linguist:
+      - Formatted
+  FormulaOne:
+    maps_to:
+      rosetta_code:
+      - FormulaOne
+  Forth:
+    maps_to:
+      linguist:
+      - Forth
+      rosetta_code:
+      - Forth
+  Fortran:
+    maps_to:
+      linguist:
+      - Fortran
+      rosetta_code:
+      - Fortran
+  Fortress:
+    maps_to:
+      rosetta_code:
+      - Fortress
+  FreeBASIC:
+    maps_to:
+      rosetta_code:
+      - FreeBASIC
+  FreeMarker:
+    maps_to:
+      linguist:
+      - FreeMarker
+  Frege:
+    maps_to:
+      linguist:
+      - Frege
+      rosetta_code:
+      - Frege
+  Friendly interactive shell:
+    maps_to:
+      rosetta_code:
+      - Friendly interactive shell
+  Frink:
+    maps_to:
+      rosetta_code:
+      - Frink
+  FunL:
+    maps_to:
+      rosetta_code:
+      - FunL
+  Futhark:
+    maps_to:
+      rosetta_code:
+      - Futhark
+  FutureBasic:
+    maps_to:
+      rosetta_code:
+      - FutureBasic
+  G-code:
+    maps_to:
+      linguist:
+      - G-code
+  GAML:
+    maps_to:
+      linguist:
+      - GAML
+  GAMS:
+    maps_to:
+      linguist:
+      - GAMS
+  GAP:
+    maps_to:
+      linguist:
+      - GAP
+      rosetta_code:
+      - GAP
+  GCC Machine Description:
+    maps_to:
+      linguist:
+      - GCC Machine Description
+  GDB:
+    maps_to:
+      linguist:
+      - GDB
+  GDScript:
+    maps_to:
+      linguist:
+      - GDScript
+  GEORGE:
+    maps_to:
+      rosetta_code:
+      - GEORGE
+  GFA Basic:
+    maps_to:
+      rosetta_code:
+      - GFA Basic
+  GLBasic:
+    maps_to:
+      rosetta_code:
+      - GLBasic
+  GLSL:
+    maps_to:
+      linguist:
+      - GLSL
+      rosetta_code:
+      - GLSL
+  GML:
+    maps_to:
+      rosetta_code:
+      - GML
+  GN:
+    maps_to:
+      linguist:
+      - GN
+  GUISS:
+    maps_to:
+      rosetta_code:
+      - GUISS
+  GW-BASIC:
+    maps_to:
+      rosetta_code:
+      - GW-BASIC
+  Gambas:
+    maps_to:
+      rosetta_code:
+      - Gambas
+  Game Maker Language:
+    maps_to:
+      linguist:
+      - Game Maker Language
+  Gastona:
+    maps_to:
+      rosetta_code:
+      - Gastona
+  Gdl:
+    maps_to:
+      rosetta_code:
+      - Gdl
+  Gecho:
+    maps_to:
+      rosetta_code:
+      - Gecho
+  Gema:
+    maps_to:
+      rosetta_code:
+      - Gema
+  Genie:
+    maps_to:
+      linguist:
+      - Genie
+  Genshi:
+    maps_to:
+      linguist:
+      - Genshi
+  Gentee:
+    maps_to:
+      rosetta_code:
+      - Gentee
+  Gentoo Ebuild:
+    maps_to:
+      linguist:
+      - Gentoo Ebuild
+  Gentoo Eclass:
+    maps_to:
+      linguist:
+      - Gentoo Eclass
+  Genyris:
+    maps_to:
+      rosetta_code:
+      - Genyris
+  Gerber Image:
+    maps_to:
+      linguist:
+      - Gerber Image
+  Gettext Catalog:
+    maps_to:
+      linguist:
+      - Gettext Catalog
+  Gherkin:
+    maps_to:
+      linguist:
+      - Gherkin
+  Git Attributes:
+    maps_to:
+      linguist:
+      - Git Attributes
+  Git Config:
+    maps_to:
+      linguist:
+      - Git Config
+  Glagol:
+    maps_to:
+      rosetta_code:
+      - Glagol
+  Glee:
+    maps_to:
+      rosetta_code:
+      - Glee
+  Glyph:
+    maps_to:
+      linguist:
+      - Glyph
+  Glyph Bitmap Distribution Format:
+    maps_to:
+      linguist:
+      - Glyph Bitmap Distribution Format
+  Gnuplot:
+    maps_to:
+      linguist:
+      - Gnuplot
+      rosetta_code:
+      - Gnuplot
+  Go:
+    maps_to:
+      linguist:
+      - Go
+      rosetta_code:
+      - Go
+  Golfscript:
+    maps_to:
+      rosetta_code:
+      - Golfscript
+  Golo:
+    maps_to:
+      linguist:
+      - Golo
+      rosetta_code:
+      - Golo
+  Gosu:
+    maps_to:
+      linguist:
+      - Gosu
+      rosetta_code:
+      - Gosu
+  Grace:
+    maps_to:
+      linguist:
+      - Grace
+  Gradle:
+    maps_to:
+      linguist:
+      - Gradle
+  Grammatical Framework:
+    maps_to:
+      linguist:
+      - Grammatical Framework
+  Graph Modeling Language:
+    maps_to:
+      linguist:
+      - Graph Modeling Language
+  GraphQL:
+    maps_to:
+      linguist:
+      - GraphQL
+  Graphviz (DOT):
+    maps_to:
+      linguist:
+      - Graphviz (DOT)
+  Gri:
+    maps_to:
+      rosetta_code:
+      - Gri
+  Groovy:
+    maps_to:
+      linguist:
+      - Groovy
+      rosetta_code:
+      - Groovy
+  Groovy Server Pages:
+    maps_to:
+      linguist:
+      - Groovy Server Pages
+  HAProxy:
+    maps_to:
+      linguist:
+      - HAProxy
+  HCL:
+    maps_to:
+      linguist:
+      - HCL
+  HLA:
+    maps_to:
+      rosetta_code:
+      - HLA
+  HLSL:
+    maps_to:
+      linguist:
+      - HLSL
+  HPPPL:
+    maps_to:
+      rosetta_code:
+      - HPPPL
+  HQ9+:
+    maps_to:
+      rosetta_code:
+      - HQ9+
+  HTML:
+    maps_to:
+      linguist:
+      - HTML
+  HTML+Django:
+    maps_to:
+      linguist:
+      - HTML+Django
+  HTML+ECR:
+    maps_to:
+      linguist:
+      - HTML+ECR
+  HTML+EEX:
+    maps_to:
+      linguist:
+      - HTML+EEX
+  HTML+ERB:
+    maps_to:
+      linguist:
+      - HTML+ERB
+  HTML+PHP:
+    maps_to:
+      linguist:
+      - HTML+PHP
+  HTML+Razor:
+    maps_to:
+      linguist:
+      - HTML+Razor
+  HTTP:
+    maps_to:
+      linguist:
+      - HTTP
+  HXML:
+    maps_to:
+      linguist:
+      - HXML
+  Hack:
+    maps_to:
+      linguist:
+      - Hack
+      rosetta_code:
+      - Hack
+  Halon:
+    maps_to:
+      rosetta_code:
+      - Halon
+  Haml:
+    maps_to:
+      linguist:
+      - Haml
+  Handlebars:
+    maps_to:
+      linguist:
+      - Handlebars
+  Harbour:
+    maps_to:
+      linguist:
+      - Harbour
+      rosetta_code:
+      - Harbour
+  Haskell:
+    maps_to:
+      linguist:
+      - Haskell
+      rosetta_code:
+      - Haskell
+  Haxe:
+    maps_to:
+      linguist:
+      - Haxe
+      rosetta_code:
+      - Haxe
+  Heron:
+    maps_to:
+      rosetta_code:
+      - Heron
+  HicEst:
+    maps_to:
+      rosetta_code:
+      - HicEst
+  HiveQL:
+    maps_to:
+      linguist:
+      - HiveQL
+  HolyC:
+    maps_to:
+      linguist:
+      - HolyC
+      rosetta_code:
+      - HolyC
+  Hoon:
+    maps_to:
+      rosetta_code:
+      - Hoon
+  Hope:
+    maps_to:
+      rosetta_code:
+      - Hope
+  Hy:
+    maps_to:
+      linguist:
+      - Hy
+      rosetta_code:
+      - Hy
+  HyPhy:
+    maps_to:
+      linguist:
+      - HyPhy
+  HyperTalk:
+    maps_to:
+      rosetta_code:
+      - HyperTalk
+  I:
+    maps_to:
+      rosetta_code:
+      - I
+  IDL:
+    maps_to:
+      linguist:
+      - IDL
+      rosetta_code:
+      - IDL
+  IGOR Pro:
+    maps_to:
+      linguist:
+      - IGOR Pro
+  INI:
+    maps_to:
+      linguist:
+      - INI
+  IRC log:
+    maps_to:
+      linguist:
+      - IRC log
+  IWBASIC:
+    maps_to:
+      rosetta_code:
+      - IWBASIC
+  Icon:
+    maps_to:
+      rosetta_code:
+      - Icon
+  Idris:
+    maps_to:
+      linguist:
+      - Idris
+      rosetta_code:
+      - Idris
+  Ignore List:
+    maps_to:
+      linguist:
+      - Ignore List
+  Inform 6:
+    maps_to:
+      rosetta_code:
+      - Inform 6
+  Inform 7:
+    maps_to:
+      linguist:
+      - Inform 7
+      rosetta_code:
+      - Inform 7
+  Informix 4GL:
+    maps_to:
+      rosetta_code:
+      - Informix 4GL
+  Inno Setup:
+    maps_to:
+      linguist:
+      - Inno Setup
+  Integer BASIC:
+    maps_to:
+      rosetta_code:
+      - Integer BASIC
+  Intercal:
+    maps_to:
+      rosetta_code:
+      - Intercal
+  Io:
+    maps_to:
+      linguist:
+      - Io
+      rosetta_code:
+      - Io
+  Ioke:
+    maps_to:
+      linguist:
+      - Ioke
+      rosetta_code:
+      - Ioke
+  Iptscrae:
+    maps_to:
+      rosetta_code:
+      - Iptscrae
+  Isabelle:
+    maps_to:
+      linguist:
+      - Isabelle
+  Isabelle ROOT:
+    maps_to:
+      linguist:
+      - Isabelle ROOT
+  J:
+    maps_to:
+      linguist:
+      - J
+      rosetta_code:
+      - J
+  JAMES II/Rule-based Cellular Automata:
+    maps_to:
+      rosetta_code:
+      - JAMES II/Rule-based Cellular Automata
+  JCL:
+    maps_to:
+      rosetta_code:
+      - JCL
+  JFlex:
+    maps_to:
+      linguist:
+      - JFlex
+  JOVIAL:
+    maps_to:
+      rosetta_code:
+      - JOVIAL
+  JSON:
+    maps_to:
+      linguist:
+      - JSON
+  JSON with Comments:
+    maps_to:
+      linguist:
+      - JSON with Comments
+  JSON5:
+    maps_to:
+      linguist:
+      - JSON5
+  JSONLD:
+    maps_to:
+      linguist:
+      - JSONLD
+  JSONiq:
+    maps_to:
+      linguist:
+      - JSONiq
+  JSX:
+    maps_to:
+      linguist:
+      - JSX
+  JScript.NET:
+    maps_to:
+      rosetta_code:
+      - JScript.NET
+  Jack:
+    maps_to:
+      rosetta_code:
+      - Jack
+  Jacquard Loom:
+    maps_to:
+      rosetta_code:
+      - Jacquard Loom
+  Jasmin:
+    maps_to:
+      linguist:
+      - Jasmin
+  Java:
+    maps_to:
+      linguist:
+      - Java
+      rosetta_code:
+      - Java
+  Java Properties:
+    maps_to:
+      linguist:
+      - Java Properties
+  Java Server Pages:
+    maps_to:
+      linguist:
+      - Java Server Pages
+  JavaFX Script:
+    maps_to:
+      rosetta_code:
+      - JavaFX Script
+  JavaScript:
+    maps_to:
+      linguist:
+      - JavaScript
+      rosetta_code:
+      - JavaScript
+  JavaScript+ERB:
+    maps_to:
+      linguist:
+      - JavaScript+ERB
+  Jison:
+    maps_to:
+      linguist:
+      - Jison
+  Jison Lex:
+    maps_to:
+      linguist:
+      - Jison Lex
+  JoCaml:
+    maps_to:
+      rosetta_code:
+      - JoCaml
+  Jolie:
+    maps_to:
+      linguist:
+      - Jolie
+  Joy:
+    maps_to:
+      rosetta_code:
+      - Joy
+  Jq:
+    maps_to:
+      rosetta_code:
+      - Jq
+  Jsonnet:
+    maps_to:
+      linguist:
+      - Jsonnet
+  JudoScript:
+    maps_to:
+      rosetta_code:
+      - JudoScript
+  Julia:
+    maps_to:
+      linguist:
+      - Julia
+      rosetta_code:
+      - Julia
+  Jupyter Notebook:
+    maps_to:
+      linguist:
+      - Jupyter Notebook
+  K:
+    maps_to:
+      rosetta_code:
+      - K
+  KRL:
+    maps_to:
+      linguist:
+      - KRL
+  Kamailio Script:
+    maps_to:
+      rosetta_code:
+      - Kamailio Script
+  Kaya:
+    maps_to:
+      rosetta_code:
+      - Kaya
+  KiCad Layout:
+    maps_to:
+      linguist:
+      - KiCad Layout
+  KiCad Legacy Layout:
+    maps_to:
+      linguist:
+      - KiCad Legacy Layout
+  KiCad Schematic:
+    maps_to:
+      linguist:
+      - KiCad Schematic
+  Kit:
+    maps_to:
+      linguist:
+      - Kit
+  Kite:
+    maps_to:
+      rosetta_code:
+      - Kite
+  Kitten:
+    maps_to:
+      rosetta_code:
+      - Kitten
+  Klong:
+    maps_to:
+      rosetta_code:
+      - Klong
+  KonsolScript:
+    maps_to:
+      rosetta_code:
+      - KonsolScript
+  Kotlin:
+    maps_to:
+      linguist:
+      - Kotlin
+      rosetta_code:
+      - Kotlin
+  L++:
+    maps_to:
+      rosetta_code:
+      - L++
+  LC3 Assembly:
+    maps_to:
+      rosetta_code:
+      - LC3 Assembly
+  LFE:
+    maps_to:
+      linguist:
+      - LFE
+      rosetta_code:
+      - LFE
+  LLVM:
+    maps_to:
+      linguist:
+      - LLVM
+      rosetta_code:
+      - LLVM
+  LOLCODE:
+    maps_to:
+      linguist:
+      - LOLCODE
+      rosetta_code:
+      - LOLCODE
+  LSE64:
+    maps_to:
+      rosetta_code:
+      - LSE64
+  LSL:
+    maps_to:
+      linguist:
+      - LSL
+      rosetta_code:
+      - LSL
+  LTspice Symbol:
+    maps_to:
+      linguist:
+      - LTspice Symbol
+  LaTeX:
+    maps_to:
+      rosetta_code:
+      - LaTeX
+  LabVIEW:
+    maps_to:
+      linguist:
+      - LabVIEW
+      rosetta_code:
+      - LabVIEW
+  Lambda Prolog:
+    maps_to:
+      rosetta_code:
+      - Lambda Prolog
+  Lambdatalk:
+    maps_to:
+      rosetta_code:
+      - Lambdatalk
+  Lang5:
+    maps_to:
+      rosetta_code:
+      - Lang5
+  Lasso:
+    maps_to:
+      linguist:
+      - Lasso
+      rosetta_code:
+      - Lasso
+  Latte:
+    maps_to:
+      linguist:
+      - Latte
+  Lean:
+    maps_to:
+      linguist:
+      - Lean
+  Less:
+    maps_to:
+      linguist:
+      - Less
+  Lex:
+    maps_to:
+      linguist:
+      - Lex
+  Lhogho:
+    maps_to:
+      rosetta_code:
+      - Lhogho
+  Liberty BASIC:
+    maps_to:
+      rosetta_code:
+      - Liberty BASIC
+  LibreOffice Basic:
+    maps_to:
+      rosetta_code:
+      - LibreOffice Basic
+  Lily:
+    maps_to:
+      rosetta_code:
+      - Lily
+  LilyPond:
+    maps_to:
+      linguist:
+      - LilyPond
+  Lilypond:
+    maps_to:
+      rosetta_code:
+      - Lilypond
+  Limbo:
+    maps_to:
+      linguist:
+      - Limbo
+      rosetta_code:
+      - Limbo
+  Lingo:
+    maps_to:
+      rosetta_code:
+      - Lingo
+  Linker Script:
+    maps_to:
+      linguist:
+      - Linker Script
+  Linux Kernel Module:
+    maps_to:
+      linguist:
+      - Linux Kernel Module
+  Liquid:
+    maps_to:
+      linguist:
+      - Liquid
+  Lisaac:
+    maps_to:
+      rosetta_code:
+      - Lisaac
+  Lisp:
+    maps_to:
+      rosetta_code:
+      - Lisp
+  Literate Agda:
+    maps_to:
+      linguist:
+      - Literate Agda
+  Literate CoffeeScript:
+    maps_to:
+      linguist:
+      - Literate CoffeeScript
+  Literate Haskell:
+    maps_to:
+      linguist:
+      - Literate Haskell
+  LiveCode:
+    maps_to:
+      rosetta_code:
+      - LiveCode
+  LiveScript:
+    maps_to:
+      linguist:
+      - LiveScript
+      rosetta_code:
+      - LiveScript
+  Lobster:
+    maps_to:
+      rosetta_code:
+      - Lobster
+  Locomotive Basic:
+    maps_to:
+      rosetta_code:
+      - Locomotive Basic
+  Logo:
+    maps_to:
+      rosetta_code:
+      - Logo
+  Logos:
+    maps_to:
+      linguist:
+      - Logos
+  Logtalk:
+    maps_to:
+      linguist:
+      - Logtalk
+      rosetta_code:
+      - Logtalk
+  LookML:
+    maps_to:
+      linguist:
+      - LookML
+  LoomScript:
+    maps_to:
+      linguist:
+      - LoomScript
+  LotusScript:
+    maps_to:
+      rosetta_code:
+      - LotusScript
+  Lua:
+    maps_to:
+      linguist:
+      - Lua
+      rosetta_code:
+      - Lua
+  Lucid:
+    maps_to:
+      rosetta_code:
+      - Lucid
+  Luck:
+    maps_to:
+      rosetta_code:
+      - Luck
+  Lush:
+    maps_to:
+      rosetta_code:
+      - Lush
+  M:
+    maps_to:
+      linguist:
+      - M
+  M4:
+    maps_to:
+      linguist:
+      - M4
+      rosetta_code:
+      - M4
+  M4Sugar:
+    maps_to:
+      linguist:
+      - M4Sugar
+  MATLAB:
+    maps_to:
+      linguist:
+      - MATLAB
+      rosetta_code:
+      - MATLAB
+  MAXScript:
+    maps_to:
+      linguist:
+      - MAXScript
+      rosetta_code:
+      - MAXScript
+  MBS:
+    maps_to:
+      rosetta_code:
+      - MBS
+  MEL:
+    maps_to:
+      rosetta_code:
+      - MEL
+  MINIL:
+    maps_to:
+      rosetta_code:
+      - MINIL
+  MIPS Assembly:
+    maps_to:
+      rosetta_code:
+      - MIPS Assembly
+  MIRC Scripting Language:
+    maps_to:
+      rosetta_code:
+      - MIRC Scripting Language
+  ML/I:
+    maps_to:
+      rosetta_code:
+      - ML/I
+  MLIR:
+    maps_to:
+      linguist:
+      - MLIR
+  MLite:
+    maps_to:
+      rosetta_code:
+      - MLite
+  MMIX:
+    maps_to:
+      rosetta_code:
+      - MMIX
+  MOO:
+    maps_to:
+      rosetta_code:
+      - MOO
+  MQL4:
+    maps_to:
+      linguist:
+      - MQL4
+  MQL5:
+    maps_to:
+      linguist:
+      - MQL5
+  MTML:
+    maps_to:
+      linguist:
+      - MTML
+  MUF:
+    maps_to:
+      linguist:
+      - MUF
+      rosetta_code:
+      - MUF
+  MUMPS:
+    maps_to:
+      rosetta_code:
+      - MUMPS
+  Makefile:
+    maps_to:
+      linguist:
+      - Makefile
+      rosetta_code:
+      - Make
+  Mako:
+    maps_to:
+      linguist:
+      - Mako
+  Malbolge:
+    maps_to:
+      rosetta_code:
+      - Malbolge
+  Maple:
+    maps_to:
+      rosetta_code:
+      - Maple
+  Markdown:
+    maps_to:
+      linguist:
+      - Markdown
+  Marko:
+    maps_to:
+      linguist:
+      - Marko
+  Mask:
+    maps_to:
+      linguist:
+      - Mask
+  Mathematica:
+    maps_to:
+      linguist:
+      - Mathematica
+      rosetta_code:
+      - Mathematica
+  Mathprog:
+    maps_to:
+      rosetta_code:
+      - Mathprog
+  Maude:
+    maps_to:
+      rosetta_code:
+      - Maude
+  Maven POM:
+    maps_to:
+      linguist:
+      - Maven POM
+  Max:
+    maps_to:
+      linguist:
+      - Max
+  Maxima:
+    maps_to:
+      rosetta_code:
+      - Maxima
+  MediaWiki:
+    maps_to:
+      linguist:
+      - MediaWiki
+  Mercury:
+    maps_to:
+      linguist:
+      - Mercury
+      rosetta_code:
+      - Mercury
+  Meson:
+    maps_to:
+      linguist:
+      - Meson
+  Metafont:
+    maps_to:
+      rosetta_code:
+      - Metafont
+  Metal:
+    maps_to:
+      linguist:
+      - Metal
+  Metapost:
+    maps_to:
+      rosetta_code:
+      - Metapost
+  MiniD:
+    maps_to:
+      linguist:
+      - MiniD
+  Mirah:
+    maps_to:
+      linguist:
+      - Mirah
+      rosetta_code:
+      - Mirah
+  Modelica:
+    maps_to:
+      linguist:
+      - Modelica
+  Modula-2:
+    maps_to:
+      linguist:
+      - Modula-2
+      rosetta_code:
+      - Modula-2
+  Modula-3:
+    maps_to:
+      linguist:
+      - Modula-3
+      rosetta_code:
+      - Modula-3
+  Module Management System:
+    maps_to:
+      linguist:
+      - Module Management System
+  Mond:
+    maps_to:
+      rosetta_code:
+      - Mond
+  Monicelli:
+    maps_to:
+      rosetta_code:
+      - Monicelli
+  Monkey:
+    maps_to:
+      linguist:
+      - Monkey
+      rosetta_code:
+      - Monkey
+  Monte:
+    maps_to:
+      rosetta_code:
+      - Monte
+  Moocode:
+    maps_to:
+      linguist:
+      - Moocode
+  MoonScript:
+    maps_to:
+      linguist:
+      - MoonScript
+  Moonscript:
+    maps_to:
+      rosetta_code:
+      - Moonscript
+  Morfa:
+    maps_to:
+      rosetta_code:
+      - Morfa
+  Motorola 68K Assembly:
+    maps_to:
+      linguist:
+      - Motorola 68K Assembly
+  Muse:
+    maps_to:
+      linguist:
+      - Muse
+  MySQL:
+    maps_to:
+      rosetta_code:
+      - MySQL
+  Myghty:
+    maps_to:
+      linguist:
+      - Myghty
+  MyrtleScript:
+    maps_to:
+      rosetta_code:
+      - MyrtleScript
+  Mythryl:
+    maps_to:
+      rosetta_code:
+      - Mythryl
+  N/t/roff:
+    maps_to:
+      rosetta_code:
+      - N/t/roff
+  NASL:
+    maps_to:
+      rosetta_code:
+      - NASL
+  NCL:
+    maps_to:
+      linguist:
+      - NCL
+  NESL:
+    maps_to:
+      rosetta_code:
+      - NESL
+  NGS:
+    maps_to:
+      rosetta_code:
+      - NGS
+  NL:
+    maps_to:
+      linguist:
+      - NL
+  NPM Config:
+    maps_to:
+      linguist:
+      - NPM Config
+  NSIS:
+    maps_to:
+      linguist:
+      - NSIS
+      rosetta_code:
+      - NSIS
+  Nearley:
+    maps_to:
+      linguist:
+      - Nearley
+  Neat:
+    maps_to:
+      rosetta_code:
+      - Neat
+  Neko:
+    maps_to:
+      rosetta_code:
+      - Neko
+  Nemerle:
+    maps_to:
+      linguist:
+      - Nemerle
+      rosetta_code:
+      - Nemerle
+  NetLinx:
+    maps_to:
+      linguist:
+      - NetLinx
+  NetLinx+ERB:
+    maps_to:
+      linguist:
+      - NetLinx+ERB
+  NetLogo:
+    maps_to:
+      linguist:
+      - NetLogo
+      rosetta_code:
+      - NetLogo
+  NetRexx:
+    maps_to:
+      rosetta_code:
+      - NetRexx
+  NewLisp:
+    maps_to:
+      linguist:
+      - NewLisp
+      rosetta_code:
+      - NewLISP
+  NewtonScript:
+    maps_to:
+      rosetta_code:
+      - NewtonScript
+  Nextflow:
+    maps_to:
+      linguist:
+      - Nextflow
+  Nginx:
+    maps_to:
+      linguist:
+      - Nginx
+  Nial:
+    maps_to:
+      rosetta_code:
+      - Nial
+  Nickle:
+    maps_to:
+      rosetta_code:
+      - Nickle
+  Nim:
+    maps_to:
+      linguist:
+      - Nim
+      rosetta_code:
+      - Nim
+  Ninja:
+    maps_to:
+      linguist:
+      - Ninja
+  Nit:
+    maps_to:
+      linguist:
+      - Nit
+      rosetta_code:
+      - Nit
+  Niue:
+    maps_to:
+      rosetta_code:
+      - Niue
+  Nix:
+    maps_to:
+      linguist:
+      - Nix
+      rosetta_code:
+      - Nix
+  Nu:
+    maps_to:
+      linguist:
+      - Nu
+  NumPy:
+    maps_to:
+      linguist:
+      - NumPy
+  OASYS:
+    maps_to:
+      rosetta_code:
+      - OASYS
+  OASYS Assembler:
+    maps_to:
+      rosetta_code:
+      - OASYS Assembler
+  OCaml:
+    maps_to:
+      linguist:
+      - OCaml
+      rosetta_code:
+      - OCaml
+  OPL:
+    maps_to:
+      rosetta_code:
+      - OPL
+  Oberon-2:
+    maps_to:
+      rosetta_code:
+      - Oberon-2
+  ObjDump:
+    maps_to:
+      linguist:
+      - ObjDump
+  Objeck:
+    maps_to:
+      rosetta_code:
+      - Objeck
+  ObjectScript:
+    maps_to:
+      linguist:
+      - ObjectScript
+  Objective-C:
+    maps_to:
+      linguist:
+      - Objective-C
+      rosetta_code:
+      - Objective-C
+  Objective-C++:
+    maps_to:
+      linguist:
+      - Objective-C++
+  Objective-J:
+    maps_to:
+      linguist:
+      - Objective-J
+  Occam:
+    maps_to:
+      rosetta_code:
+      - Occam
+  Octave:
+    maps_to:
+      rosetta_code:
+      - Octave
+  Oforth:
+    maps_to:
+      rosetta_code:
+      - Oforth
+  Ol:
+    maps_to:
+      rosetta_code:
+      - Ol
+  Omgrofl:
+    maps_to:
+      linguist:
+      - Omgrofl
+  Onyx:
+    maps_to:
+      rosetta_code:
+      - Onyx
+  OoRexx:
+    maps_to:
+      rosetta_code:
+      - OoRexx
+  Opa:
+    maps_to:
+      linguist:
+      - Opa
+      rosetta_code:
+      - Opa
+  Opal:
+    maps_to:
+      linguist:
+      - Opal
+  Open Policy Agent:
+    maps_to:
+      linguist:
+      - Open Policy Agent
+  OpenCL:
+    maps_to:
+      linguist:
+      - OpenCL
+  OpenEdge ABL:
+    maps_to:
+      linguist:
+      - OpenEdge ABL
+  OpenEdge/Progress:
+    maps_to:
+      rosetta_code:
+      - OpenEdge/Progress
+  OpenLisp:
+    maps_to:
+      rosetta_code:
+      - OpenLisp
+  OpenRC runscript:
+    maps_to:
+      linguist:
+      - OpenRC runscript
+  OpenSCAD:
+    maps_to:
+      linguist:
+      - OpenSCAD
+      rosetta_code:
+      - Openscad
+  OpenStep Property List:
+    maps_to:
+      linguist:
+      - OpenStep Property List
+  OpenType Feature File:
+    maps_to:
+      linguist:
+      - OpenType Feature File
+  Order:
+    maps_to:
+      rosetta_code:
+      - Order
+  Org:
+    maps_to:
+      linguist:
+      - Org
+  Ox:
+    maps_to:
+      linguist:
+      - Ox
+  OxygenBasic:
+    maps_to:
+      rosetta_code:
+      - OxygenBasic
+  Oxygene:
+    maps_to:
+      linguist:
+      - Oxygene
+      rosetta_code:
+      - Oxygene
+  Oz:
+    maps_to:
+      linguist:
+      - Oz
+      rosetta_code:
+      - Oz
+  P4:
+    maps_to:
+      linguist:
+      - P4
+  PARI/GP:
+    maps_to:
+      rosetta_code:
+      - PARI/GP
+  PASM:
+    maps_to:
+      rosetta_code:
+      - PASM
+  PDP-11 Assembly:
+    maps_to:
+      rosetta_code:
+      - PDP-11 Assembly
+  PHL:
+    maps_to:
+      rosetta_code:
+      - PHL
+  PHP:
+    maps_to:
+      linguist:
+      - PHP
+      rosetta_code:
+      - PHP
+  PILOT:
+    maps_to:
+      rosetta_code:
+      - PILOT
+  PIR:
+    maps_to:
+      rosetta_code:
+      - PIR
+  PL/I:
+    maps_to:
+      rosetta_code:
+      - PL/I
+  PL/M:
+    maps_to:
+      rosetta_code:
+      - PL/M
+  PL/SQL:
+    maps_to:
+      linguist:
+      - PLSQL
+      rosetta_code:
+      - PL/SQL
+  PL/pgSQL:
+    maps_to:
+      linguist:
+      - PLpgSQL
+      rosetta_code:
+      - PL/pgSQL
+  POV-Ray SDL:
+    maps_to:
+      linguist:
+      - POV-Ray SDL
+      rosetta_code:
+      - POV-Ray
+  PSQL:
+    maps_to:
+      rosetta_code:
+      - PSQL
+  Pan:
+    maps_to:
+      linguist:
+      - Pan
+  Panda:
+    maps_to:
+      rosetta_code:
+      - Panda
+  Papyrus:
+    maps_to:
+      linguist:
+      - Papyrus
+  Pare:
+    maps_to:
+      rosetta_code:
+      - Pare
+  Parrot:
+    maps_to:
+      linguist:
+      - Parrot
+  Parrot Assembly:
+    maps_to:
+      linguist:
+      - Parrot Assembly
+  Parrot Internal Representation:
+    maps_to:
+      linguist:
+      - Parrot Internal Representation
+  Pascal:
+    maps_to:
+      linguist:
+      - Pascal
+      rosetta_code:
+      - Delphi
+      - Free Pascal
+      - Object Pascal
+      - Pascal
+  Pawn:
+    maps_to:
+      linguist:
+      - Pawn
+  Peloton:
+    maps_to:
+      rosetta_code:
+      - Peloton
+  PeopleCode:
+    maps_to:
+      rosetta_code:
+      - PeopleCode
+  Pep8:
+    maps_to:
+      linguist:
+      - Pep8
+  Perl:
+    maps_to:
+      linguist:
+      - Perl
+      rosetta_code:
+      - Perl
+  Perl 6:
+    maps_to:
+      linguist:
+      - Perl 6
+      rosetta_code:
+      - Perl 6
+  Perl5i:
+    maps_to:
+      rosetta_code:
+      - Perl5i
+  Phix:
+    maps_to:
+      rosetta_code:
+      - Phix
+  Pic:
+    maps_to:
+      linguist:
+      - Pic
+  Picat:
+    maps_to:
+      rosetta_code:
+      - Picat
+  Pickle:
+    maps_to:
+      linguist:
+      - Pickle
+  PicoLisp:
+    maps_to:
+      linguist:
+      - PicoLisp
+      rosetta_code:
+      - PicoLisp
+  Pict:
+    maps_to:
+      rosetta_code:
+      - Pict
+  Piet:
+    maps_to:
+      rosetta_code:
+      - Piet
+  PigLatin:
+    maps_to:
+      linguist:
+      - PigLatin
+  Pike:
+    maps_to:
+      linguist:
+      - Pike
+      rosetta_code:
+      - Pike
+  PlainTeX:
+    maps_to:
+      rosetta_code:
+      - PlainTeX
+  Pod:
+    maps_to:
+      linguist:
+      - Pod
+  Pod 6:
+    maps_to:
+      linguist:
+      - Pod 6
+  PogoScript:
+    maps_to:
+      linguist:
+      - PogoScript
+  Pony:
+    maps_to:
+      linguist:
+      - Pony
+      rosetta_code:
+      - Pony
+  Pop11:
+    maps_to:
+      rosetta_code:
+      - Pop11
+  PostCSS:
+    maps_to:
+      linguist:
+      - PostCSS
+  PostScript:
+    maps_to:
+      linguist:
+      - PostScript
+      rosetta_code:
+      - PostScript
+  Potion:
+    maps_to:
+      rosetta_code:
+      - Potion
+  PowerBASIC:
+    maps_to:
+      rosetta_code:
+      - PowerBASIC
+  PowerBuilder:
+    maps_to:
+      linguist:
+      - PowerBuilder
+      rosetta_code:
+      - Powerbuilder
+  PowerShell:
+    maps_to:
+      linguist:
+      - PowerShell
+      rosetta_code:
+      - PowerShell
+  Prisma:
+    maps_to:
+      linguist:
+      - Prisma
+  ProDOS:
+    maps_to:
+      rosetta_code:
+      - ProDOS
+  Processing:
+    maps_to:
+      linguist:
+      - Processing
+      rosetta_code:
+      - Processing
+  Prolog:
+    maps_to:
+      linguist:
+      - Prolog
+      rosetta_code:
+      - Prolog
+  Propeller Spin:
+    maps_to:
+      linguist:
+      - Propeller Spin
+  Protocol Buffer:
+    maps_to:
+      linguist:
+      - Protocol Buffer
+  Public Key:
+    maps_to:
+      linguist:
+      - Public Key
+  Pug:
+    maps_to:
+      linguist:
+      - Pug
+  Puppet:
+    maps_to:
+      linguist:
+      - Puppet
+  Pure:
+    maps_to:
+      rosetta_code:
+      - Pure
+  Pure Data:
+    maps_to:
+      linguist:
+      - Pure Data
+      rosetta_code:
+      - Pure Data
+  PureBasic:
+    maps_to:
+      linguist:
+      - PureBasic
+      rosetta_code:
+      - PureBasic
+  PureScript:
+    maps_to:
+      linguist:
+      - PureScript
+  Purity:
+    maps_to:
+      rosetta_code:
+      - Purity
+  Pyret:
+    maps_to:
+      rosetta_code:
+      - Pyret
+  Python:
+    maps_to:
+      linguist:
+      - Python
+      rosetta_code:
+      - Python
+  Python console:
+    maps_to:
+      linguist:
+      - Python console
+  Python traceback:
+    maps_to:
+      linguist:
+      - Python traceback
+  QML:
+    maps_to:
+      linguist:
+      - QML
+  QMake:
+    maps_to:
+      linguist:
+      - QMake
+  Qi:
+    maps_to:
+      rosetta_code:
+      - Qi
+  Qore:
+    maps_to:
+      rosetta_code:
+      - Qore
+  Quake:
+    maps_to:
+      linguist:
+      - Quake
+  Quill:
+    maps_to:
+      rosetta_code:
+      - Quill
+  R:
+    maps_to:
+      linguist:
+      - R
+      rosetta_code:
+      - R
+  RAML:
+    maps_to:
+      linguist:
+      - RAML
+  RDoc:
+    maps_to:
+      linguist:
+      - RDoc
+  REALbasic:
+    maps_to:
+      linguist:
+      - REALbasic
+      rosetta_code:
+      - REALbasic
+  REXX:
+    maps_to:
+      linguist:
+      - REXX
+      rosetta_code:
+      - REXX
+  RHTML:
+    maps_to:
+      linguist:
+      - RHTML
+  RLaB:
+    maps_to:
+      rosetta_code:
+      - RLaB
+  RMarkdown:
+    maps_to:
+      linguist:
+      - RMarkdown
+  RPC:
+    maps_to:
+      linguist:
+      - RPC
+  RPG:
+    maps_to:
+      rosetta_code:
+      - RPG
+  RPGIV:
+    maps_to:
+      rosetta_code:
+      - RPGIV
+  RPL:
+    maps_to:
+      rosetta_code:
+      - RPL
+  RPL/2:
+    maps_to:
+      rosetta_code:
+      - RPL/2
+  RPM Spec:
+    maps_to:
+      linguist:
+      - RPM Spec
+  RTL/2:
+    maps_to:
+      rosetta_code:
+      - RTL/2
+  RUNOFF:
+    maps_to:
+      linguist:
+      - RUNOFF
+  Ra:
+    maps_to:
+      rosetta_code:
+      - Ra
+  Racket:
+    maps_to:
+      linguist:
+      - Racket
+      rosetta_code:
+      - Racket
+  Ragel:
+    maps_to:
+      linguist:
+      - Ragel
+  RapidQ:
+    maps_to:
+      rosetta_code:
+      - RapidQ
+  Rapira:
+    maps_to:
+      rosetta_code:
+      - Rapira
+  Rascal:
+    maps_to:
+      linguist:
+      - Rascal
+      rosetta_code:
+      - Rascal
+  Raven:
+    maps_to:
+      rosetta_code:
+      - Raven
+  Raw token data:
+    maps_to:
+      linguist:
+      - Raw token data
+  Readline Config:
+    maps_to:
+      linguist:
+      - Readline Config
+  Reason:
+    maps_to:
+      linguist:
+      - Reason
+  Rebol:
+    maps_to:
+      linguist:
+      - Rebol
+      rosetta_code:
+      - REBOL
+  Red:
+    maps_to:
+      linguist:
+      - Red
+      rosetta_code:
+      - Red
+  Redcode:
+    maps_to:
+      linguist:
+      - Redcode
+  Regular Expression:
+    maps_to:
+      linguist:
+      - Regular Expression
+  Ren'Py:
+    maps_to:
+      linguist:
+      - Ren'Py
+  RenderScript:
+    maps_to:
+      linguist:
+      - RenderScript
+  Retro:
+    maps_to:
+      rosetta_code:
+      - Retro
+  Rhope:
+    maps_to:
+      rosetta_code:
+      - Rhope
+  Rich Text Format:
+    maps_to:
+      linguist:
+      - Rich Text Format
+  Ring:
+    maps_to:
+      linguist:
+      - Ring
+      rosetta_code:
+      - Ring
+  Riot:
+    maps_to:
+      linguist:
+      - Riot
+  RobotFramework:
+    maps_to:
+      linguist:
+      - RobotFramework
+  Robotic:
+    maps_to:
+      rosetta_code:
+      - Robotic
+  Roff:
+    maps_to:
+      linguist:
+      - Roff
+  Roff Manpage:
+    maps_to:
+      linguist:
+      - Roff Manpage
+  Rouge:
+    maps_to:
+      linguist:
+      - Rouge
+  Ruby:
+    maps_to:
+      linguist:
+      - Ruby
+      rosetta_code:
+      - Ruby
+  Run BASIC:
+    maps_to:
+      rosetta_code:
+      - Run BASIC
+  Rust:
+    maps_to:
+      linguist:
+      - Rust
+      rosetta_code:
+      - Rust
+  S-lang:
+    maps_to:
+      rosetta_code:
+      - S-lang
+  SAS:
+    maps_to:
+      linguist:
+      - SAS
+      rosetta_code:
+      - SAS
+  SCSS:
+    maps_to:
+      linguist:
+      - SCSS
+  SETL:
+    maps_to:
+      rosetta_code:
+      - SETL
+  SIMPOL:
+    maps_to:
+      rosetta_code:
+      - SIMPOL
+  SMEQL:
+    maps_to:
+      rosetta_code:
+      - SMEQL
+  SMT:
+    maps_to:
+      linguist:
+      - SMT
+  SNOBOL4:
+    maps_to:
+      rosetta_code:
+      - SNOBOL4
+  SNUSP:
+    maps_to:
+      rosetta_code:
+      - SNUSP
+  SPAD:
+    maps_to:
+      rosetta_code:
+      - SPAD
+  SPARC Assembly:
+    maps_to:
+      rosetta_code:
+      - SPARC Assembly
+  SPARK:
+    maps_to:
+      rosetta_code:
+      - SPARK
+  SPARQL:
+    maps_to:
+      linguist:
+      - SPARQL
+  SPL:
+    maps_to:
+      rosetta_code:
+      - SPL
+  SQF:
+    maps_to:
+      linguist:
+      - SQF
+  SQL:
+    maps_to:
+      linguist:
+      - SQL
+      rosetta_code:
+      - SQL
+  SQLPL:
+    maps_to:
+      linguist:
+      - SQLPL
+  SRecode Template:
+    maps_to:
+      linguist:
+      - SRecode Template
+  SSEM:
+    maps_to:
+      rosetta_code:
+      - SSEM
+  SSH Config:
+    maps_to:
+      linguist:
+      - SSH Config
+  STON:
+    maps_to:
+      linguist:
+      - STON
+  SVG:
+    maps_to:
+      linguist:
+      - SVG
+  Sage:
+    maps_to:
+      linguist:
+      - Sage
+      rosetta_code:
+      - Sage
+  Salmon:
+    maps_to:
+      rosetta_code:
+      - Salmon
+  SaltStack:
+    maps_to:
+      linguist:
+      - SaltStack
+  Sass:
+    maps_to:
+      linguist:
+      - Sass
+  Sather:
+    maps_to:
+      rosetta_code:
+      - Sather
+  Scala:
+    maps_to:
+      linguist:
+      - Scala
+      rosetta_code:
+      - Scala
+  Scaml:
+    maps_to:
+      linguist:
+      - Scaml
+  Scheme:
+    maps_to:
+      linguist:
+      - Scheme
+      rosetta_code:
+      - Scheme
+  Scilab:
+    maps_to:
+      linguist:
+      - Scilab
+      rosetta_code:
+      - Scilab
+  ScriptBasic:
+    maps_to:
+      rosetta_code:
+      - ScriptBasic
+  Seed7:
+    maps_to:
+      rosetta_code:
+      - Seed7
+  Self:
+    maps_to:
+      linguist:
+      - Self
+      rosetta_code:
+      - Self
+  SequenceL:
+    maps_to:
+      rosetta_code:
+      - SequenceL
+  Set lang:
+    maps_to:
+      rosetta_code:
+      - Set lang
+  Setl4:
+    maps_to:
+      rosetta_code:
+      - Setl4
+  ShaderLab:
+    maps_to:
+      linguist:
+      - ShaderLab
+  SheerPower 4GL:
+    maps_to:
+      rosetta_code:
+      - SheerPower 4GL
+  Shell:
+    maps_to:
+      linguist:
+      - Shell
+  ShellSession:
+    maps_to:
+      linguist:
+      - ShellSession
+  Shen:
+    maps_to:
+      linguist:
+      - Shen
+      rosetta_code:
+      - Shen
+  Shiny:
+    maps_to:
+      rosetta_code:
+      - Shiny
+  Sidef:
+    maps_to:
+      rosetta_code:
+      - Sidef
+  Simula:
+    maps_to:
+      rosetta_code:
+      - Simula
+  Sinclair ZX81 BASIC:
+    maps_to:
+      rosetta_code:
+      - Sinclair ZX81 BASIC
+  Sisal:
+    maps_to:
+      rosetta_code:
+      - Sisal
+  SkookumScript:
+    maps_to:
+      rosetta_code:
+      - SkookumScript
+  Slash:
+    maps_to:
+      linguist:
+      - Slash
+  Slate:
+    maps_to:
+      rosetta_code:
+      - Slate
+  Slice:
+    maps_to:
+      linguist:
+      - Slice
+  Slim:
+    maps_to:
+      linguist:
+      - Slim
+  SmPL:
+    maps_to:
+      linguist:
+      - SmPL
+  Smali:
+    maps_to:
+      linguist:
+      - Smali
+  Smalltalk:
+    maps_to:
+      linguist:
+      - Smalltalk
+      rosetta_code:
+      - Smalltalk
+  Smart BASIC:
+    maps_to:
+      rosetta_code:
+      - Smart BASIC
+  Smarty:
+    maps_to:
+      linguist:
+      - Smarty
+  SmileBASIC:
+    maps_to:
+      rosetta_code:
+      - SmileBASIC
+  Snobol:
+    maps_to:
+      rosetta_code:
+      - Snobol
+  Soar:
+    maps_to:
+      rosetta_code:
+      - Soar
+  Solidity:
+    maps_to:
+      linguist:
+      - Solidity
+  SoneKing Assembly:
+    maps_to:
+      rosetta_code:
+      - SoneKing Assembly
+  SourcePawn:
+    maps_to:
+      linguist:
+      - SourcePawn
+  Sparkling:
+    maps_to:
+      rosetta_code:
+      - Sparkling
+  Spin:
+    maps_to:
+      rosetta_code:
+      - Spin
+  Spline Font Database:
+    maps_to:
+      linguist:
+      - Spline Font Database
+  Squirrel:
+    maps_to:
+      linguist:
+      - Squirrel
+      rosetta_code:
+      - Squirrel
+  Stan:
+    maps_to:
+      linguist:
+      - Stan
+  Standard ML:
+    maps_to:
+      linguist:
+      - Standard ML
+      rosetta_code:
+      - Standard ML
+  Stata:
+    maps_to:
+      linguist:
+      - Stata
+      rosetta_code:
+      - Stata
+  StreamIt:
+    maps_to:
+      rosetta_code:
+      - StreamIt
+  Stylus:
+    maps_to:
+      linguist:
+      - Stylus
+  SubRip Text:
+    maps_to:
+      linguist:
+      - SubRip Text
+  SugarSS:
+    maps_to:
+      linguist:
+      - SugarSS
+  Suneido:
+    maps_to:
+      rosetta_code:
+      - Suneido
+  SuperCollider:
+    maps_to:
+      linguist:
+      - SuperCollider
+      rosetta_code:
+      - SuperCollider
+  Supernova:
+    maps_to:
+      rosetta_code:
+      - Supernova
+  Svelte:
+    maps_to:
+      linguist:
+      - Svelte
+  Swift:
+    maps_to:
+      linguist:
+      - Swift
+      rosetta_code:
+      - Swift
+  Symsyn:
+    maps_to:
+      rosetta_code:
+      - Symsyn
+  SystemVerilog:
+    maps_to:
+      linguist:
+      - SystemVerilog
+      rosetta_code:
+      - SystemVerilog
+  TI Program:
+    maps_to:
+      linguist:
+      - TI Program
+  TI-83 BASIC:
+    maps_to:
+      rosetta_code:
+      - TI-83 BASIC
+  TI-83 Hex Assembly:
+    maps_to:
+      rosetta_code:
+      - TI-83 Hex Assembly
+  TI-89 BASIC:
+    maps_to:
+      rosetta_code:
+      - TI-89 BASIC
+  TIScript:
+    maps_to:
+      rosetta_code:
+      - TIScript
+  TLA:
+    maps_to:
+      linguist:
+      - TLA
+  TOML:
+    maps_to:
+      linguist:
+      - TOML
+  TPP:
+    maps_to:
+      rosetta_code:
+      - TPP
+  TSE SAL:
+    maps_to:
+      rosetta_code:
+      - TSE SAL
+  TSQL:
+    maps_to:
+      linguist:
+      - TSQL
+  TSX:
+    maps_to:
+      linguist:
+      - TSX
+  TUSCRIPT:
+    maps_to:
+      rosetta_code:
+      - TUSCRIPT
+  TXL:
+    maps_to:
+      linguist:
+      - TXL
+  TXR:
+    maps_to:
+      rosetta_code:
+      - TXR
+  Tcl:
+    maps_to:
+      linguist:
+      - Tcl
+      rosetta_code:
+      - Tcl
+  Tcsh:
+    maps_to:
+      linguist:
+      - Tcsh
+  TeX:
+    maps_to:
+      linguist:
+      - TeX
+  Tea:
+    maps_to:
+      linguist:
+      - Tea
+  TechBASIC:
+    maps_to:
+      rosetta_code:
+      - TechBASIC
+  Teco:
+    maps_to:
+      rosetta_code:
+      - Teco
+  Terra:
+    maps_to:
+      linguist:
+      - Terra
+      rosetta_code:
+      - Terra
+  TestML:
+    maps_to:
+      rosetta_code:
+      - TestML
+  Texinfo:
+    maps_to:
+      linguist:
+      - Texinfo
+  Text:
+    maps_to:
+      linguist:
+      - Text
+  Textile:
+    maps_to:
+      linguist:
+      - Textile
+  Thrift:
+    maps_to:
+      linguist:
+      - Thrift
+  ToffeeScript:
+    maps_to:
+      rosetta_code:
+      - ToffeeScript
+  Toka:
+    maps_to:
+      rosetta_code:
+      - Toka
+  TorqueScript:
+    maps_to:
+      rosetta_code:
+      - TorqueScript
+  TransFORTH:
+    maps_to:
+      rosetta_code:
+      - TransFORTH
+  Transact-SQL:
+    maps_to:
+      rosetta_code:
+      - Transact-SQL
+  Trith:
+    maps_to:
+      rosetta_code:
+      - Trith
+  True BASIC:
+    maps_to:
+      rosetta_code:
+      - True BASIC
+  Turing:
+    maps_to:
+      linguist:
+      - Turing
+      rosetta_code:
+      - Turing
+  Turtle:
+    maps_to:
+      linguist:
+      - Turtle
+  Twig:
+    maps_to:
+      linguist:
+      - Twig
+  Type Language:
+    maps_to:
+      linguist:
+      - Type Language
+  TypeScript:
+    maps_to:
+      linguist:
+      - TypeScript
+      rosetta_code:
+      - TypeScript
+  UBASIC:
+    maps_to:
+      rosetta_code:
+      - UBASIC
+  UNIX Shell:
+    maps_to:
+      rosetta_code:
+      - UNIX Shell
+  Unicon:
+    maps_to:
+      rosetta_code:
+      - Unicon
+  Uniface:
+    maps_to:
+      rosetta_code:
+      - Uniface
+  Unified Parallel C:
+    maps_to:
+      linguist:
+      - Unified Parallel C
+  Unity3D Asset:
+    maps_to:
+      linguist:
+      - Unity3D Asset
+  Unix Assembly:
+    maps_to:
+      linguist:
+      - Unix Assembly
+  UnixPipes:
+    maps_to:
+      rosetta_code:
+      - UnixPipes
+  Unlambda:
+    maps_to:
+      rosetta_code:
+      - Unlambda
+  Uno:
+    maps_to:
+      linguist:
+      - Uno
+  UnrealScript:
+    maps_to:
+      linguist:
+      - UnrealScript
+  UrWeb:
+    maps_to:
+      linguist:
+      - UrWeb
+  Ursa:
+    maps_to:
+      rosetta_code:
+      - Ursa
+  Ursala:
+    maps_to:
+      rosetta_code:
+      - Ursala
+  V:
+    maps_to:
+      linguist:
+      - V
+      rosetta_code:
+      - V
+  VAX Assembly:
+    maps_to:
+      rosetta_code:
+      - VAX Assembly
+  VCL:
+    maps_to:
+      linguist:
+      - VCL
+  VHDL:
+    maps_to:
+      linguist:
+      - VHDL
+      rosetta_code:
+      - VHDL
+  Vala:
+    maps_to:
+      linguist:
+      - Vala
+      rosetta_code:
+      - Vala
+  Vedit macro language:
+    maps_to:
+      rosetta_code:
+      - Vedit macro language
+  Verilog:
+    maps_to:
+      linguist:
+      - Verilog
+      rosetta_code:
+      - Verilog
+  Vim Snippet:
+    maps_to:
+      linguist:
+      - Vim Snippet
+  Vim script:
+    maps_to:
+      linguist:
+      - Vim script
+      rosetta_code:
+      - Vim Script
+  Visual Basic:
+    maps_to:
+      linguist:
+      - Visual Basic
+      rosetta_code:
+      - VBA
+      - VBScript
+      - Visual Basic
+      - Visual Basic .NET
+  Visual FoxPro:
+    maps_to:
+      rosetta_code:
+      - Visual FoxPro
+  Visual Objects:
+    maps_to:
+      rosetta_code:
+      - Visual Objects
+  Visual Prolog:
+    maps_to:
+      rosetta_code:
+      - Visual Prolog
+  Viua VM assembly:
+    maps_to:
+      rosetta_code:
+      - Viua VM assembly
+  Volt:
+    maps_to:
+      linguist:
+      - Volt
+  Vorpal:
+    maps_to:
+      rosetta_code:
+      - Vorpal
+  Vox:
+    maps_to:
+      rosetta_code:
+      - Vox
+  Vue:
+    maps_to:
+      linguist:
+      - Vue
+  Wart:
+    maps_to:
+      rosetta_code:
+      - Wart
+  Wavefront Material:
+    maps_to:
+      linguist:
+      - Wavefront Material
+  Wavefront Object:
+    maps_to:
+      linguist:
+      - Wavefront Object
+  Web Ontology Language:
+    maps_to:
+      linguist:
+      - Web Ontology Language
+  WebAssembly:
+    maps_to:
+      linguist:
+      - WebAssembly
+  WebIDL:
+    maps_to:
+      linguist:
+      - WebIDL
+  WebVTT:
+    maps_to:
+      linguist:
+      - WebVTT
+  Wget Config:
+    maps_to:
+      linguist:
+      - Wget Config
+  Whenever:
+    maps_to:
+      rosetta_code:
+      - Whenever
+  Whitespace:
+    maps_to:
+      rosetta_code:
+      - Whitespace
+  Windows Registry Entries:
+    maps_to:
+      linguist:
+      - Windows Registry Entries
+  Wolfram Language:
+    maps_to:
+      rosetta_code:
+      - Wolfram Language
+  Wollok:
+    maps_to:
+      linguist:
+      - Wollok
+      rosetta_code:
+      - Wollok
+  World of Warcraft Addon Data:
+    maps_to:
+      linguist:
+      - World of Warcraft Addon Data
+  Wortel:
+    maps_to:
+      rosetta_code:
+      - Wortel
+  Wrapl:
+    maps_to:
+      rosetta_code:
+      - Wrapl
+  Wren:
+    maps_to:
+      rosetta_code:
+      - Wren
+  X BitMap:
+    maps_to:
+      linguist:
+      - X BitMap
+  X Font Directory Index:
+    maps_to:
+      linguist:
+      - X Font Directory Index
+  X PixMap:
+    maps_to:
+      linguist:
+      - X PixMap
+  X10:
+    maps_to:
+      linguist:
+      - X10
+  X86 Assembly:
+    maps_to:
+      rosetta_code:
+      - X86 Assembly
+  XC:
+    maps_to:
+      linguist:
+      - XC
+  XCompose:
+    maps_to:
+      linguist:
+      - XCompose
+  XEec:
+    maps_to:
+      rosetta_code:
+      - XEec
+  XL:
+    maps_to:
+      rosetta_code:
+      - XL
+  XLISP:
+    maps_to:
+      rosetta_code:
+      - XLISP
+  XML:
+    maps_to:
+      linguist:
+      - XML
+  XML Property List:
+    maps_to:
+      linguist:
+      - XML Property List
+  XPL0:
+    maps_to:
+      rosetta_code:
+      - XPL0
+  XPages:
+    maps_to:
+      linguist:
+      - XPages
+  XPath 2.0:
+    maps_to:
+      rosetta_code:
+      - XPath 2.0
+  XProc:
+    maps_to:
+      linguist:
+      - XProc
+      rosetta_code:
+      - XProc
+  XQuery:
+    maps_to:
+      linguist:
+      - XQuery
+      rosetta_code:
+      - XQuery
+  XS:
+    maps_to:
+      linguist:
+      - XS
+  XSLT:
+    maps_to:
+      linguist:
+      - XSLT
+      rosetta_code:
+      - XSLT
+      - XSLT 1.0
+      - XSLT 2.0
+  XTalk:
+    maps_to:
+      rosetta_code:
+      - XTalk
+  XUL:
+    maps_to:
+      rosetta_code:
+      - XUL
+  Xanadu:
+    maps_to:
+      rosetta_code:
+      - Xanadu
+  Xojo:
+    maps_to:
+      linguist:
+      - Xojo
+      rosetta_code:
+      - Xojo
+  Xtend:
+    maps_to:
+      linguist:
+      - Xtend
+  YAML:
+    maps_to:
+      linguist:
+      - YAML
+  YANG:
+    maps_to:
+      linguist:
+      - YANG
+  YARA:
+    maps_to:
+      linguist:
+      - YARA
+  YASnippet:
+    maps_to:
+      linguist:
+      - YASnippet
+  Ya:
+    maps_to:
+      rosetta_code:
+      - Ya
+  Yacas:
+    maps_to:
+      rosetta_code:
+      - Yacas
+  Yacc:
+    maps_to:
+      linguist:
+      - Yacc
+  Yorick:
+    maps_to:
+      rosetta_code:
+      - Yorick
+  Z80 Assembly:
+    maps_to:
+      rosetta_code:
+      - Z80 Assembly
+  ZAP:
+    maps_to:
+      linguist:
+      - ZAP
+  ZED:
+    maps_to:
+      rosetta_code:
+      - ZED
+  ZIL:
+    maps_to:
+      linguist:
+      - ZIL
+  ZPL:
+    maps_to:
+      rosetta_code:
+      - ZPL
+  ZX Spectrum Basic:
+    maps_to:
+      rosetta_code:
+      - ZX Spectrum Basic
+  Zeek:
+    maps_to:
+      linguist:
+      - Zeek
+  ZenScript:
+    maps_to:
+      linguist:
+      - ZenScript
+  Zephir:
+    maps_to:
+      linguist:
+      - Zephir
+  Zig:
+    maps_to:
+      linguist:
+      - Zig
+  Zimpl:
+    maps_to:
+      linguist:
+      - Zimpl
+  Zkl:
+    maps_to:
+      rosetta_code:
+      - Zkl
+  cURL Config:
+    maps_to:
+      linguist:
+      - cURL Config
+  desktop:
+    maps_to:
+      linguist:
+      - desktop
+  eC:
+    maps_to:
+      linguist:
+      - eC
+      rosetta_code:
+      - EC
+  edn:
+    maps_to:
+      linguist:
+      - edn
+  fish:
+    maps_to:
+      linguist:
+      - fish
+      rosetta_code:
+      - Fish
+  mIRC Script:
+    maps_to:
+      linguist:
+      - mIRC Script
+  mcfunction:
+    maps_to:
+      linguist:
+      - mcfunction
+  moonscript:
+    maps_to:
+      rosetta_code:
+      - MoonScript
+  mupad:
+    maps_to:
+      linguist:
+      - mupad
+  nanorc:
+    maps_to:
+      linguist:
+      - nanorc
+  nesC:
+    maps_to:
+      linguist:
+      - nesC
+  ooc:
+    maps_to:
+      linguist:
+      - ooc
+      rosetta_code:
+      - OOC
+  q:
+    maps_to:
+      linguist:
+      - q
+      rosetta_code:
+      - Q
+  reStructuredText:
+    maps_to:
+      linguist:
+      - reStructuredText
+  sed:
+    maps_to:
+      linguist:
+      - sed
+      rosetta_code:
+      - Sed
+  wdl:
+    maps_to:
+      linguist:
+      - wdl
+  wisp:
+    maps_to:
+      linguist:
+      - wisp
+  xBase:
+    maps_to:
+      linguist:
+      - xBase

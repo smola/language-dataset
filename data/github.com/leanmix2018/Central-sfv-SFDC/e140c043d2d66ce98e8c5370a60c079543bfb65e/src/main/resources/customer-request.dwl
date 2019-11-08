@@ -1,0 +1,4 @@
+%dw 1.0
+%output application/java
+---
+"SELECT AccountId,AssistantName,AssistantPhone,Birthdate,CleanStatus,CreatedById,CreatedDate,Department,Description,Email,EmailBouncedDate,EmailBouncedReason,Fax,FirstName,HomePhone,Id,IsDeleted,IsEmailBounced,Jigsaw,JigsawContactId,Languages__c,LastActivityDate,LastCURequestDate,LastCUUpdateDate,LastModifiedById,LastModifiedDate,LastName,LastReferencedDate,LastViewedDate,LeadSource,Level__c,MailingAddress,MailingCity,MailingCountry,MailingLatitude,MailingLongitude,MailingPostalCode,MailingState,MailingStreet,MasterRecordId,MobilePhone,Name,OtherAddress,OtherCity,OtherCountry,OtherLatitude,OtherLongitude,OtherPhone,OtherPostalCode,OtherState,OtherStreet,OwnerId,Phone,PhotoUrl,ReportsToId,Salutation,SystemModstamp,Title FROM Contact WHERE Id = '" ++ sessionVars.customerId ++ "'"

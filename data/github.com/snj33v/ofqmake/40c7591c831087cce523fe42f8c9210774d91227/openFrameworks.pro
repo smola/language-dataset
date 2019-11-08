@@ -1,0 +1,131 @@
+
+OF = $$PWD/openFrameworks
+
+TEMPLATE  = lib
+CONFIG   += staticlib
+TARGET    = openFrameworks
+DESTDIR   = $$OF/libs/openFrameworksCompiled/lib/linux64
+
+CONFIG -= qt
+CONFIG -= warn_on
+
+QMAKE_CXXFLAGS += -std=c++11
+QMAKE_CXXFLAGS += -W
+
+QMAKE_CXXFLAGS_DEBUG   = -O0 -g
+QMAKE_CXXFLAGS_RELEASE = -O3
+
+INCLUDEPATH *= $$OF/libs/cairo/include
+INCLUDEPATH *= $$OF/libs/cairo/include/libpng15
+INCLUDEPATH *= $$OF/libs/cairo/include/pixman-1
+INCLUDEPATH *= $$OF/libs/cairo/include/cairo
+INCLUDEPATH *= $$OF/libs/fmodex/include
+INCLUDEPATH *= $$OF/libs/glfw/include
+INCLUDEPATH *= $$OF/libs/glfw/include/GLFW
+INCLUDEPATH *= $$OF/libs/kiss/include
+INCLUDEPATH *= $$OF/libs/openssl/include
+INCLUDEPATH *= $$OF/libs/openssl/include/openssl
+INCLUDEPATH *= $$OF/libs/poco/include
+INCLUDEPATH *= $$OF/libs/portaudio/include
+INCLUDEPATH *= $$OF/libs/rtAudio/include
+INCLUDEPATH *= $$OF/libs/tess2/include
+INCLUDEPATH *= $$OF/libs/openFrameworks
+INCLUDEPATH *= $$OF/libs/openFrameworks/types
+INCLUDEPATH *= $$OF/libs/openFrameworks/sound
+INCLUDEPATH *= $$OF/libs/openFrameworks/video
+INCLUDEPATH *= $$OF/libs/openFrameworks/3d
+INCLUDEPATH *= $$OF/libs/openFrameworks/math
+INCLUDEPATH *= $$OF/libs/openFrameworks/events
+INCLUDEPATH *= $$OF/libs/openFrameworks/utils
+INCLUDEPATH *= $$OF/libs/openFrameworks/gl
+INCLUDEPATH *= $$OF/libs/openFrameworks/app
+INCLUDEPATH *= $$OF/libs/openFrameworks/graphics
+INCLUDEPATH *= $$OF/libs/openFrameworks/communication
+
+# Arch Linux
+INCLUDEPATH *= /usr/include/gstreamer-1.0
+INCLUDEPATH *= /usr/include/AL
+INCLUDEPATH *= /usr/include/alsa
+INCLUDEPATH *= /usr/include/GL
+INCLUDEPATH *= /usr/include/gtk-2.0
+INCLUDEPATH *= /usr/lib/gtk-2.0/include
+INCLUDEPATH *= /usr/include/pango-1.0
+INCLUDEPATH *= /usr/include/atk-1.0
+INCLUDEPATH *= /usr/include/cairo
+INCLUDEPATH *= /usr/include/pixman-1
+INCLUDEPATH *= /usr/include/libdrm
+INCLUDEPATH *= /usr/include/libpng16
+INCLUDEPATH *= /usr/include/gdk-pixbuf-2.0
+INCLUDEPATH *= /usr/include/harfbuzz
+INCLUDEPATH *= /usr/include/glib-2.0
+INCLUDEPATH *= /usr/lib/glib-2.0/include
+INCLUDEPATH *= /usr/include/freetype2
+
+# Debian
+INCLUDEPATH *= /usr/lib/x86_64-linux-gnu/glib-2.0/include
+INCLUDEPATH *= /usr/lib/x86_64-linux-gnu/gtk-2.0/include
+
+SOURCES *= $$OF/libs/openFrameworks/math/ofQuaternion.cpp
+SOURCES *= $$OF/libs/openFrameworks/math/ofVec2f.cpp
+SOURCES *= $$OF/libs/openFrameworks/math/ofMatrix4x4.cpp
+SOURCES *= $$OF/libs/openFrameworks/math/ofVec4f.cpp
+SOURCES *= $$OF/libs/openFrameworks/math/ofMath.cpp
+SOURCES *= $$OF/libs/openFrameworks/math/ofMatrix3x3.cpp
+SOURCES *= $$OF/libs/openFrameworks/app/ofAppRunner.cpp
+SOURCES *= $$OF/libs/openFrameworks/app/ofAppGlutWindow.cpp
+SOURCES *= $$OF/libs/openFrameworks/app/ofAppNoWindow.cpp
+SOURCES *= $$OF/libs/openFrameworks/app/ofAppGLFWWindow.cpp
+SOURCES *= $$OF/libs/openFrameworks/gl/ofGLProgrammableRenderer.cpp
+SOURCES *= $$OF/libs/openFrameworks/gl/ofFbo.cpp
+SOURCES *= $$OF/libs/openFrameworks/gl/ofMaterial.cpp
+SOURCES *= $$OF/libs/openFrameworks/gl/ofVboMesh.cpp
+SOURCES *= $$OF/libs/openFrameworks/gl/ofGLUtils.cpp
+SOURCES *= $$OF/libs/openFrameworks/gl/ofShader.cpp
+SOURCES *= $$OF/libs/openFrameworks/gl/ofTexture.cpp
+SOURCES *= $$OF/libs/openFrameworks/gl/ofGLRenderer.cpp
+SOURCES *= $$OF/libs/openFrameworks/gl/ofLight.cpp
+SOURCES *= $$OF/libs/openFrameworks/gl/ofVbo.cpp
+SOURCES *= $$OF/libs/openFrameworks/video/ofGstUtils.cpp
+SOURCES *= $$OF/libs/openFrameworks/video/ofVideoPlayer.cpp
+SOURCES *= $$OF/libs/openFrameworks/video/ofGstVideoGrabber.cpp
+SOURCES *= $$OF/libs/openFrameworks/video/ofGstVideoPlayer.cpp
+SOURCES *= $$OF/libs/openFrameworks/video/ofVideoGrabber.cpp
+SOURCES *= $$OF/libs/openFrameworks/sound/ofOpenALSoundPlayer.cpp
+SOURCES *= $$OF/libs/openFrameworks/sound/ofRtAudioSoundStream.cpp
+SOURCES *= $$OF/libs/openFrameworks/sound/ofSoundPlayer.cpp
+SOURCES *= $$OF/libs/openFrameworks/sound/ofSoundStream.cpp
+SOURCES *= $$OF/libs/openFrameworks/sound/ofFmodSoundPlayer.cpp
+SOURCES *= $$OF/libs/openFrameworks/events/ofEvents.cpp
+SOURCES *= $$OF/libs/openFrameworks/types/ofBaseTypes.cpp
+SOURCES *= $$OF/libs/openFrameworks/types/ofRectangle.cpp
+SOURCES *= $$OF/libs/openFrameworks/types/ofParameterGroup.cpp
+SOURCES *= $$OF/libs/openFrameworks/types/ofColor.cpp
+SOURCES *= $$OF/libs/openFrameworks/types/ofParameter.cpp
+SOURCES *= $$OF/libs/openFrameworks/communication/ofSerial.cpp
+SOURCES *= $$OF/libs/openFrameworks/communication/ofArduino.cpp
+SOURCES *= $$OF/libs/openFrameworks/3d/of3dPrimitives.cpp
+SOURCES *= $$OF/libs/openFrameworks/3d/ofMesh.cpp
+SOURCES *= $$OF/libs/openFrameworks/3d/ofNode.cpp
+SOURCES *= $$OF/libs/openFrameworks/3d/ofCamera.cpp
+SOURCES *= $$OF/libs/openFrameworks/3d/of3dUtils.cpp
+SOURCES *= $$OF/libs/openFrameworks/3d/ofEasyCam.cpp
+SOURCES *= $$OF/libs/openFrameworks/graphics/ofTessellator.cpp
+SOURCES *= $$OF/libs/openFrameworks/graphics/ofCairoRenderer.cpp
+SOURCES *= $$OF/libs/openFrameworks/graphics/ofImage.cpp
+SOURCES *= $$OF/libs/openFrameworks/graphics/ofRendererCollection.cpp
+SOURCES *= $$OF/libs/openFrameworks/graphics/ofPixels.cpp
+SOURCES *= $$OF/libs/openFrameworks/graphics/of3dGraphics.cpp
+SOURCES *= $$OF/libs/openFrameworks/graphics/ofGraphics.cpp
+SOURCES *= $$OF/libs/openFrameworks/graphics/ofTrueTypeFont.cpp
+SOURCES *= $$OF/libs/openFrameworks/graphics/ofPath.cpp
+SOURCES *= $$OF/libs/openFrameworks/graphics/ofBitmapFont.cpp
+SOURCES *= $$OF/libs/openFrameworks/graphics/ofPolyline.cpp
+SOURCES *= $$OF/libs/openFrameworks/utils/ofURLFileLoader.cpp
+SOURCES *= $$OF/libs/openFrameworks/utils/ofUtils.cpp
+SOURCES *= $$OF/libs/openFrameworks/utils/ofLog.cpp
+SOURCES *= $$OF/libs/openFrameworks/utils/ofSystemUtils.cpp
+SOURCES *= $$OF/libs/openFrameworks/utils/ofFileUtils.cpp
+SOURCES *= $$OF/libs/openFrameworks/utils/ofXml.cpp
+SOURCES *= $$OF/libs/openFrameworks/utils/ofMatrixStack.cpp
+SOURCES *= $$OF/libs/openFrameworks/utils/ofThread.cpp
+

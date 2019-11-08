@@ -1,0 +1,80 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. "PARSE-IRC-MSG".
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01 WORK-PARAMETER.
+           03 WORK PIC X(999).
+               88 BLANK-PARAM VALUE SPACES.
+           03 WORK-1 REDEFINES WORK PIC X(6).
+               88 REST-PARAMETER VALUE "$COLN$".
+           03 WORK-DELIM PIC X(6).
+               88 IDENT-SPEC VALUE "$EXC$".
+               88 HOST-SPEC VALUE "$AT$".
+               88 PREFIX-END VALUE ALL SPACES.
+       01 MSG-POINTER PIC 999.
+       01 LOOP-STATE PIC 99.
+           88 DONE VALUE 99.
+
+       LINKAGE SECTION.
+       01 BUFFER.
+           03 MSG-BODY PIC X(999).
+           03 MSG-BODY-1 REDEFINES MSG-BODY PIC X(6).
+               88 HAS-PREFIX VALUE "$COLN$".
+       01 IRC-PARAMS.
+           03 NUM-PARAMS PIC 99.
+           03 PREFIX.
+               05 MSG-SRC PIC 999.
+               05 IDENT PIC 999.
+               05 HOST PIC 999.
+           03 COMMAND PIC 999.
+           03 PARAM PIC 999 OCCURS 15 TIMES.
+
+       PROCEDURE DIVISION USING BUFFER, IRC-PARAMS.
+           MOVE 0 TO IRC-PARAMS.
+           MOVE SPACES TO WORK.
+           MOVE 1 TO MSG-POINTER.
+           IF HAS-PREFIX THEN
+               PERFORM WITH-PREFIX
+           ELSE
+               MOVE 0 TO MSG-SRC
+               MOVE 1 TO MSG-POINTER.
+           MOVE MSG-POINTER TO COMMAND.
+           UNSTRING MSG-BODY DELIMITED BY SPACES
+                    INTO WORK
+                    WITH POINTER MSG-POINTER.
+           MOVE 0 TO LOOP-STATE.
+           PERFORM GET-PARAMETER
+                   VARYING NUM-PARAMS FROM 1, BY 1
+                   UNTIL DONE OR
+                         NUM-PARAMS IS NOT LESS THAN 15.
+           SUBTRACT 1 FROM NUM-PARAMS.
+           EXIT PROGRAM.
+
+       GET-PARAMETER.
+           MOVE MSG-POINTER TO PARAM(NUM-PARAMS).
+           MOVE SPACES TO WORK.
+           UNSTRING MSG-BODY DELIMITED BY SPACES
+                    INTO WORK
+                    WITH POINTER MSG-POINTER.
+           IF BLANK-PARAM OR REST-PARAMETER THEN
+               MOVE 99 TO LOOP-STATE.
+           IF BLANK-PARAM THEN
+               SUBTRACT 1 FROM NUM-PARAMS
+           ELSE IF REST-PARAMETER THEN
+               ADD 6 TO PARAM(NUM-PARAMS).
+
+       WITH-PREFIX.
+           MOVE 7 TO MSG-POINTER, MSG-SRC.
+           MOVE 0 TO LOOP-STATE.
+           PERFORM GET-PREFIX-PART UNTIL DONE.
+
+       GET-PREFIX-PART.
+           MOVE SPACES TO WORK-DELIM.
+           UNSTRING MSG-BODY,
+                    DELIMITED BY "$EXC$", OR "$AT$", OR SPACES,
+                    INTO WORK, DELIMITER IN WORK-DELIM,
+                    WITH POINTER MSG-POINTER.
+           IF IDENT-SPEC THEN MOVE MSG-POINTER TO IDENT.
+           IF HOST-SPEC THEN MOVE MSG-POINTER TO HOST.
+           IF PREFIX-END THEN MOVE 99 TO LOOP-STATE.
