@@ -431,8 +431,9 @@ files:
       vote: Modula-3
   ? github.com/CCTV-404/Zigbee/af227896803ef7891952487be42cbff8487d3001/Projects/zstack/Samples/GenericApp/CC2530DB/CoordinatorEB/Obj/zmac_cb.pbi
   : annotations:
+      human-smola: Unknown
       linguist: PureBasic
-      vote: PureBasic
+      vote: Unknown
   github.com/CFCommunity/CFScript-Community-Components/7141081569f266b4e79062f879d49f1e26e1d8f8/search.cfc:
     annotations:
       linguist: ColdFusion
@@ -1078,8 +1079,9 @@ files:
       vote: PowerBuilder
   ? github.com/HauyuChen/Parking-System/171034f27df89d7c3e60a78b8dd163389c21bb85/Parking-ZigBee/ParkingSystem/CC2530DB/CoordinatorEB/Obj/hal_assert.pbi
   : annotations:
+      human-smola: Unknown
       linguist: PureBasic
-      vote: PureBasic
+      vote: Unknown
   github.com/HaxeFlixel/flixel-addons/19ae61b4688e03ae6aa6ccbc1997148adf50b564/flixel/addons/display/FlxTiledSprite.hx:
     annotations:
       linguist: Haxe
@@ -2459,8 +2461,9 @@ files:
       vote: F#
   github.com/Solido/awesome-flutter/2c9fa49cee71a4455412f66534a61e7abcad7362/contributing.md:
     annotations:
+      human-smola: Markdown
       linguist: Dart
-      vote: Dart
+      vote: Markdown
   ? github.com/SoloMornington/Solos-Script-Repository/58b469186ecfb2b3dfb7fb73beab33a1f3bdd0ac/very_basic/[solo] Donation Box 1.3.lsl
   : annotations:
       linguist: LSL
@@ -4249,6 +4252,7 @@ files:
       vote: Jsonnet
   github.com/brandonlw/Psychson/4522989aac27aada5f522675b33a2bde63a13b30/EmbedPayload/EmbedPayload/Properties/AssemblyInfo.cs:
     annotations:
+      human-smola: C#
       linguist: C#
       vote: C#
   github.com/brendangregg/FlameGraph/1a0dc6985aad06e76857cf2a354bd5ba0c9ce96b/stackcollapse-aix.pl:
@@ -6729,6 +6733,7 @@ files:
       vote: PL/SQL
   github.com/gleetbone/picolisp-fp/b65c846e193d31f309a267f35e12b1f72cd0c904/inline/fp.l:
     annotations:
+      human-smola: PicoLisp
       linguist: PicoLisp
       vote: PicoLisp
   github.com/gmwitz/Substitution_cipher_ECL/06028e73b6457e0ecef0458ef371f82c049eff9e/Substitution_cipher.ecl:
@@ -8336,8 +8341,9 @@ files:
       vote: Pony
   github.com/klayoutmatthias/si4all/51bff19ee59377e46fc373b6c3b74fd153c6e53a/process.xs:
     annotations:
+      human-smola: Unknown
       linguist: XS
-      vote: XS
+      vote: Unknown
   github.com/klemensj/Pollinators/e06b2e51070c914c6684015f23209d755cc8ed1f/Greenroofs.nlogo:
     annotations:
       linguist: NetLogo
@@ -8987,8 +8993,9 @@ files:
       vote: Crystal
   github.com/mandosrex/AoE3ImpMod_Base/69b6d477f39f45f54689d0b6104d544756248924/RMM/sonoraLarge.xs:
     annotations:
+      human-smola: Unknown
       linguist: XS
-      vote: XS
+      vote: Unknown
   github.com/manoloide/AllSketchs/b5ad40b0f5bd0b43ab77777e3246d28b5347ecb8/2013/animator/animator01/animator01.pde:
     annotations:
       linguist: Processing
@@ -10511,6 +10518,7 @@ files:
       vote: TypeScript
   github.com/peewpw/Invoke-WCMDump/ca23612be2275fbb1982d5fbd578cbabd072fdc8/Invoke-WCMDump.ps1:
     annotations:
+      human-smola: PowerShell
       linguist: PowerShell
       vote: PowerShell
   github.com/pekabon/LogGrok/4d6528754c8ad49acec5d267e89ac16cb65badce/LogGrok.LogParserBase/ReadSubStream.n:
@@ -12787,6 +12795,7 @@ files:
       vote: ECL
   github.com/tobyink/p5-type-tiny-xs/ca90f2ff9e42d85af77d50ba92ea138f5b51e6be/XS.xs:
     annotations:
+      human-smola: XS
       linguist: XS
       vote: XS
   github.com/toeb/cmakepp/b96fd0578e614b3212c71f57ae0b1feb8f32c183/cmake/package/require_package_binary.cmake:

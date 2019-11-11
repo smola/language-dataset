@@ -4,8 +4,8 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 207 |
-| **Total samples** | 3395 |
-| **Samples labeled by humans** | 57 |
+| **Total samples** | 3391 |
+| **Samples labeled by humans** | 62 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -42,7 +42,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Boo | 17 | 0 |
 | Brainfuck | 14 | 0 |
 | C | 20 | 6 |
-| C# | 20 | 1 |
+| C# | 20 | 2 |
 | C++ | 20 | 0 |
 | CLIPS | 19 | 0 |
 | CMake | 20 | 0 |
@@ -64,7 +64,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | D | 20 | 0 |
 | DM | 19 | 0 |
 | DNS Zone | 1 | 1 |
-| Dart | 20 | 0 |
+| Dart | 19 | 0 |
 | DataWeave | 15 | 0 |
 | Diff | 1 | 1 |
 | Dylan | 20 | 0 |
@@ -126,7 +126,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | MATLAB | 20 | 6 |
 | MAXScript | 17 | 0 |
 | Makefile | 18 | 0 |
-| Markdown | 14 | 3 |
+| Markdown | 15 | 4 |
 | Mathematica | 14 | 0 |
 | Mercury | 12 | 0 |
 | Mirah | 15 | 0 |
@@ -155,15 +155,15 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Pascal | 20 | 0 |
 | Perl | 20 | 1 |
 | Perl 6 | 11 | 0 |
-| PicoLisp | 20 | 0 |
+| PicoLisp | 20 | 1 |
 | Pike | 20 | 0 |
 | Pony | 20 | 0 |
 | PostScript | 8 | 0 |
 | PowerBuilder | 17 | 0 |
-| PowerShell | 17 | 0 |
+| PowerShell | 17 | 1 |
 | Processing | 20 | 0 |
 | Prolog | 18 | 1 |
-| PureBasic | 14 | 0 |
+| PureBasic | 12 | 0 |
 | PureScript | 20 | 0 |
 | Python | 20 | 1 |
 | QMake | 1 | 1 |
@@ -208,7 +208,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | XML | 2 | 2 |
 | XProc | 19 | 0 |
 | XQuery | 20 | 0 |
-| XS | 16 | 0 |
+| XS | 14 | 1 |
 | XSLT | 17 | 0 |
 | Xojo | 19 | 0 |
 | YAML | 1 | 1 |
