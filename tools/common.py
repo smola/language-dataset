@@ -3,11 +3,7 @@ import os.path
 import subprocess
 from typing import Sequence, Union
 import yaml
-
-try:
-    from yaml import CLoader as Loader, CDumper as Dumper
-except ImportError:
-    from yaml import Loader, Dumper
+from yaml import CLoader as Loader, CDumper as Dumper
 
 DATA_DIR = "data"
 META_PATH = os.path.join(DATA_DIR, "meta.yml")
@@ -96,7 +92,7 @@ def load_yaml_from_steam(f):
 
 def save_yaml(data, path):
     with open(path, "w") as f:
-        yaml.dump(data, f, Dumper=Dumper)
+        yaml.dump(data, f, Dumper=Dumper, width=10000)
 
 
 def clone_tmp_repo(repo, commit=None):
