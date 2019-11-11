@@ -4,8 +4,8 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 209 |
-| **Total samples** | 3387 |
-| **Samples labeled by humans** | 68 |
+| **Total samples** | 3386 |
+| **Samples labeled by humans** | 76 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -44,7 +44,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | C | 20 | 6 |
 | C# | 20 | 2 |
 | C++ | 20 | 0 |
-| CLIPS | 19 | 0 |
+| CLIPS | 18 | 0 |
 | CMake | 20 | 0 |
 | COBOL | 18 | 0 |
 | CSS | 1 | 1 |
@@ -107,7 +107,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Ioke | 15 | 0 |
 | J | 19 | 0 |
 | JSON | 1 | 1 |
-| Java | 20 | 0 |
+| Java | 21 | 1 |
 | JavaScript | 20 | 0 |
 | Jsonnet | 20 | 0 |
 | Julia | 18 | 0 |
@@ -124,12 +124,12 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Logtalk | 20 | 0 |
 | Lua | 20 | 1 |
 | M4 | 16 | 0 |
-| MATLAB | 20 | 6 |
+| MATLAB | 22 | 8 |
 | MAXScript | 17 | 0 |
 | Makefile | 18 | 0 |
 | Markdown | 15 | 4 |
 | Mathematica | 14 | 0 |
-| Mercury | 12 | 0 |
+| Mercury | 9 | 0 |
 | Mirah | 15 | 0 |
 | Modula-2 | 20 | 0 |
 | Modula-3 | 11 | 1 |
@@ -148,13 +148,13 @@ For each language, the table reports total number of samples (_Samples_) and how
 | OpenEdge ABL | 20 | 0 |
 | OpenSCAD | 19 | 0 |
 | Oxygene | 1 | 0 |
-| Oz | 18 | 0 |
+| Oz | 18 | 1 |
 | PHP | 20 | 0 |
 | PL/SQL | 15 | 0 |
 | PL/pgSQL | 15 | 0 |
 | POV-Ray SDL | 2 | 0 |
 | Pascal | 20 | 0 |
-| Perl | 20 | 1 |
+| Perl | 20 | 2 |
 | Perl 6 | 11 | 0 |
 | PicoLisp | 20 | 1 |
 | Pike | 20 | 0 |
@@ -179,12 +179,12 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Roff | 1 | 1 |
 | Ruby | 20 | 0 |
 | Rust | 20 | 0 |
-| SAS | 20 | 0 |
+| SAS | 20 | 1 |
 | SQL | 5 | 3 |
 | Scala | 20 | 0 |
 | Scheme | 20 | 1 |
 | Scilab | 12 | 0 |
-| Self | 9 | 0 |
+| Self | 8 | 0 |
 | Shell | 20 | 1 |
 | Shen | 20 | 0 |
 | Smalltalk | 20 | 0 |
@@ -201,13 +201,13 @@ For each language, the table reports total number of samples (_Samples_) and how
 | TypeScript | 20 | 0 |
 | V | 18 | 0 |
 | VHDL | 18 | 0 |
-| Vala | 20 | 0 |
+| Vala | 20 | 1 |
 | Verilog | 20 | 5 |
 | Vim script | 20 | 2 |
 | Visual Basic | 1 | 0 |
 | WebAssembly | 7 | 0 |
 | Wollok | 20 | 0 |
-| XML | 2 | 2 |
+| XML | 3 | 3 |
 | XProc | 19 | 0 |
 | XQuery | 20 | 0 |
 | XS | 14 | 1 |
