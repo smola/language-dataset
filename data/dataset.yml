@@ -167,6 +167,7 @@ files:
       vote: PureBasic
   github.com/AlgorexHealth/hcc-python/807b5be06741e4a74cac23342425fa1f20bfef11/CMS-sas/F211690R.ICD9.SAS:
     annotations:
+      human-smola: SAS
       linguist: SAS
       vote: SAS
   github.com/All-World/ZTE-channel-estimate-competition2019/8cd17e547a60757be7b8ca9bd66071f7ad5168db/ZTEcode/DATA111.m:
@@ -3528,8 +3529,9 @@ files:
       vote: PL/pgSQL
   github.com/araujokth/kth-wsn/e7d6cb37ddfe7864160989ea122f8c6018d2cad9/kth-wsn/apps.crane/MatlabFiles/outputs/data_201102100054.m:
     annotations:
+      human-smola: MATLAB
       linguist: Mercury
-      vote: Mercury
+      vote: MATLAB
   ? github.com/arbp/WFS/6e9187b724115f3ebc1398ecca2ed52d9134745e/Windows Functionality Suite/Process Management/Interfaces/HeapEntryLoadedCallbackWFS.rbbas
   : annotations:
       linguist: REALbasic
@@ -5847,8 +5849,9 @@ files:
       vote: Monkey
   ? "github.com/eni-causer-a/m.m2l/f91ef418c1fc379f57d9c84cb5f7ecdd74fcdcf1/analyse-projet/diagrammes et modeles/D\xE9finition de cas d'utilisation RESERVATIONS.moo"
   : annotations:
+      human-smola: XML
       linguist: Mercury
-      vote: Mercury
+      vote: XML
   github.com/enigma0x3/Generate-Macro/a8e2004ba9eabebb46bec839e8ffe2d85dd364ed/Generate-Macro.ps1:
     annotations:
       linguist: PowerShell
@@ -5887,6 +5890,7 @@ files:
       vote: PicoLisp
   github.com/eregon/mozart-graal/ca762ad12d505647a8a872b4993ff76b92ea643a/lib/main/base/Port.oz:
     annotations:
+      human-smola: Oz
       linguist: Oz
       vote: Oz
   github.com/ericscharff/ProjectOberon/383ab65985d992d3f5a8825c924af48abf0569d1/Oberon.Mod:
@@ -7482,6 +7486,7 @@ files:
       vote: Squirrel
   github.com/innotop/innotop/935e1df8d105fc44c674395cb5dd1e5f6c6e7dc3/Makefile.PL:
     annotations:
+      human-smola: Perl
       linguist: Perl
       vote: Perl
   github.com/input-output-hk/cardano-sl/2a5b5769799fd220e2ff6a6b09a1832d8e6f06c0/networking/src/Node/Message/Decoder.hs:
@@ -8323,8 +8328,9 @@ files:
       vote: Processing
   github.com/kimjaemin0407/ex_project/7b86593a47cc69b2804c5b6a50b9341b6957c126/4.Self:
     annotations:
+      human-smola: Java
       linguist: Self
-      vote: Self
+      vote: Java
   github.com/kingj5/iOSKit/98bf5776ca706d38df4e8eacdbe1f23078167d8a/ExampleViews/MainView.xojo_code:
     annotations:
       linguist: Xojo
@@ -10814,8 +10820,9 @@ files:
       vote: JavaScript
   github.com/potassco/asprilo-encodings/0bd438fe8b25df11bd33926490729b817f1550d2/abc/quantities.clp:
     annotations:
+      human-smola: Unknown
       linguist: CLIPS
-      vote: CLIPS
+      vote: Unknown
   github.com/potigol/potigol-grammar/383b2bcae94a0a741705eedb42b97cfda3670340/potigol.g4:
     annotations:
       linguist: ANTLR
@@ -12401,6 +12408,7 @@ files:
       vote: q
   github.com/stsdc/monitor/81c10e6f2f9c40b5799880d8353a6aea458dc0a3/vapi/libgtop-2.0.vapi:
     annotations:
+      human-smola: Vala
       linguist: Vala
       vote: Vala
   github.com/studio/studio/b653144046b775ea8bddc391a4ba29625936e282/frontend/Studio-RaptorJIT/RJITBlIRFragment.class.st:
@@ -13762,8 +13770,9 @@ files:
       vote: Mirah
   github.com/zaraanry/simple-neural/7d47d832ec3e161934ba768ea758dd753649ff23/mendez.m:
     annotations:
+      human-smola: MATLAB
       linguist: Mercury
-      vote: Mercury
+      vote: MATLAB
   github.com/zchen09/self-driving-vehicles/0699379227677f9deacd7bb86e248857fc323b03/main.nlogo:
     annotations:
       linguist: NetLogo
