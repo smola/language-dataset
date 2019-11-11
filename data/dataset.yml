@@ -266,8 +266,7 @@ files:
   : annotations:
       linguist: DataWeave
       vote: DataWeave
-  ? github.com/ArztSamuel/Applying_EANNs/1f48f6d0f10a084673c8d7181ffabf49073e4fa3/Build/Applying
-    EANNs_Data/Mono/etc/mono/1.0/DefaultWsdlHelpGenerator.aspx
+  ? github.com/ArztSamuel/Applying_EANNs/1f48f6d0f10a084673c8d7181ffabf49073e4fa3/Build/Applying EANNs_Data/Mono/etc/mono/1.0/DefaultWsdlHelpGenerator.aspx
   : annotations:
       linguist: ASP
       vote: ASP
@@ -312,8 +311,7 @@ files:
   : annotations:
       linguist: Squirrel
       vote: Squirrel
-  ? github.com/BEEmod/BEE2.2-Resources/51414026cf8bf307bbc4cfd67afcede4878f0132/portal
-    2/portal2_dlc2/scripts/vscripts/fg/braid_platform.nut
+  ? github.com/BEEmod/BEE2.2-Resources/51414026cf8bf307bbc4cfd67afcede4878f0132/portal 2/portal2_dlc2/scripts/vscripts/fg/braid_platform.nut
   : annotations:
       linguist: Squirrel
       vote: Squirrel
@@ -325,8 +323,7 @@ files:
     annotations:
       linguist: Gosu
       vote: Gosu
-  ? github.com/BSData/wh40k-heralds-of-ruin/adc97aabbfc3201a851635b3c1c08c8c2977289f/Warhammer
-    40,000 Heralds of Ruin 8th Edition.gst
+  ? github.com/BSData/wh40k-heralds-of-ruin/adc97aabbfc3201a851635b3c1c08c8c2977289f/Warhammer 40,000 Heralds of Ruin 8th Edition.gst
   : annotations:
       linguist: Gosu
       vote: Gosu
@@ -440,8 +437,7 @@ files:
     annotations:
       linguist: ColdFusion
       vote: ColdFusion
-  ? github.com/CHEF-KOCH/regtweaks/9eb080ab2890d05a1c5fd967cb7983427a97bd02/Win 10/RS
-    3 (1709)/Apps/Disable Apps Autolaunch/disable_app_autolaunch.cmd
+  ? github.com/CHEF-KOCH/regtweaks/9eb080ab2890d05a1c5fd967cb7983427a97bd02/Win 10/RS 3 (1709)/Apps/Disable Apps Autolaunch/disable_app_autolaunch.cmd
   : annotations:
       linguist: Batchfile
       vote: Batchfile
@@ -829,8 +825,7 @@ files:
     annotations:
       linguist: Perl 6
       vote: Perl 6
-  ? github.com/FabLabWgtn/material-profiles/5448010c3c613ebdd18ea43b635fb15b8944fa0a/Laser
-    Settings 105W/Leather/Leather 0.84 no charcoal.las
+  ? github.com/FabLabWgtn/material-profiles/5448010c3c613ebdd18ea43b635fb15b8944fa0a/Laser Settings 105W/Leather/Leather 0.84 no charcoal.las
   : annotations:
       linguist: Lasso
       vote: Lasso
@@ -1195,8 +1190,7 @@ files:
   : annotations:
       linguist: Kotlin
       vote: Kotlin
-  ? github.com/IntelligentVisibility/CalendarTimeChooser/abbc61d673dbc23877e1e6ff0047a7991cdf21c3/3_Cal-Time
-    Chooser Custom Classes/Calendar.xojo_code
+  ? github.com/IntelligentVisibility/CalendarTimeChooser/abbc61d673dbc23877e1e6ff0047a7991cdf21c3/3_Cal-Time Chooser Custom Classes/Calendar.xojo_code
   : annotations:
       linguist: Xojo
       vote: Xojo
@@ -1667,8 +1661,7 @@ files:
       human-smola: Eiffel
       linguist: E
       vote: Eiffel
-  ? github.com/Makiah/BotW-SBFRES-to-FBX/d6552301e27eb147610afdc1ba19df9816d26d7b/fbxextraction/Libraries/WiiU_BFRESImporter/BFRES
-    Script_R4_Debug.ms
+  ? github.com/Makiah/BotW-SBFRES-to-FBX/d6552301e27eb147610afdc1ba19df9816d26d7b/fbxextraction/Libraries/WiiU_BFRESImporter/BFRES Script_R4_Debug.ms
   : annotations:
       linguist: MAXScript
       vote: MAXScript
@@ -1700,8 +1693,7 @@ files:
     annotations:
       linguist: COBOL
       vote: COBOL
-  ? github.com/MartynEcc0/Custom-Light-Bars/20ce516e8ad07015087b640d3e740b34634a6286/Pakistan
-    v1.2 - Copy/Pakistan Master/Previous/v1_08/Include/expressions_primary_verbose_front_rear.ec
+  ? github.com/MartynEcc0/Custom-Light-Bars/20ce516e8ad07015087b640d3e740b34634a6286/Pakistan v1.2 - Copy/Pakistan Master/Previous/v1_08/Include/expressions_primary_verbose_front_rear.ec
   : annotations:
       linguist: eC
       vote: eC
@@ -1990,8 +1982,7 @@ files:
     annotations:
       linguist: Zimpl
       vote: Zimpl
-  ? github.com/PSLmodels/taxdata/c3d35a627a3a1fd96b49671ebd2874f43df0194a/cps_data/State
-    Database - 2015/Production File/Programs/CreateProductionFile2015V1.SAS
+  ? github.com/PSLmodels/taxdata/c3d35a627a3a1fd96b49671ebd2874f43df0194a/cps_data/State Database - 2015/Production File/Programs/CreateProductionFile2015V1.SAS
   : annotations:
       linguist: SAS
       vote: SAS
@@ -2027,8 +2018,7 @@ files:
     annotations:
       linguist: DM
       vote: DM
-  ? github.com/ParadoxChains/BScFunctionalProgramming-2019-Fall/8c6cfe6082907867d7b1a7b1890e23631fc34261/Sample
-    Tests/SampleMidterm2.icl
+  ? github.com/ParadoxChains/BScFunctionalProgramming-2019-Fall/8c6cfe6082907867d7b1a7b1890e23631fc34261/Sample Tests/SampleMidterm2.icl
   : annotations:
       linguist: Clean
       vote: Clean
@@ -2184,8 +2174,7 @@ files:
     annotations:
       linguist: Fortran
       vote: Fortran
-  ? github.com/QWaveSystems/QwaveSys-Raspberry-Pi-Package/9dd7b4350b984bc5434addbc2568bc5523f4cc03/@Examples/Ex_OpenCV_Object_Tracking3.0_Display/Example
-    OpenCV Object Tracking3.0.lvproj
+  ? github.com/QWaveSystems/QwaveSys-Raspberry-Pi-Package/9dd7b4350b984bc5434addbc2568bc5523f4cc03/@Examples/Ex_OpenCV_Object_Tracking3.0_Display/Example OpenCV Object Tracking3.0.lvproj
   : annotations:
       linguist: LabVIEW
       vote: LabVIEW
@@ -2472,8 +2461,7 @@ files:
     annotations:
       linguist: Dart
       vote: Dart
-  ? github.com/SoloMornington/Solos-Script-Repository/58b469186ecfb2b3dfb7fb73beab33a1f3bdd0ac/very_basic/[solo]
-    Donation Box 1.3.lsl
+  ? github.com/SoloMornington/Solos-Script-Repository/58b469186ecfb2b3dfb7fb73beab33a1f3bdd0ac/very_basic/[solo] Donation Box 1.3.lsl
   : annotations:
       linguist: LSL
       vote: LSL
@@ -2628,8 +2616,7 @@ files:
     annotations:
       linguist: BlitzMax
       vote: BlitzMax
-  ? github.com/TadasBaltrusaitis/OpenFace/ad1b3cc45ca05c762b87356c18ad030fcf0f746e/matlab_runners/Head
-    Pose Experiments/calcBUerror.m
+  ? github.com/TadasBaltrusaitis/OpenFace/ad1b3cc45ca05c762b87356c18ad030fcf0f746e/matlab_runners/Head Pose Experiments/calcBUerror.m
   : annotations:
       linguist: MATLAB
       vote: MATLAB
@@ -2681,8 +2668,7 @@ files:
     annotations:
       linguist: HiveQL
       vote: HiveQL
-  ? github.com/Thomas-George-T/HackerRank-SQL-Challenges-Solutions/c5fb14ca91355e55db24c8ea54ccb2008d8b40c0/Basic
-    Join/Ollivander's Inventory.sql
+  ? github.com/Thomas-George-T/HackerRank-SQL-Challenges-Solutions/c5fb14ca91355e55db24c8ea54ccb2008d8b40c0/Basic Join/Ollivander's Inventory.sql
   : annotations:
       linguist: SQL
       vote: SQL
@@ -2957,8 +2943,7 @@ files:
     annotations:
       linguist: ANTLR
       vote: ANTLR
-  ? github.com/ZGIS/spatial-simulation/1b5d8d73c2dbdfafb4fab4ddd879184e5c50a3bf/PublishedModels/Wallentin
-    & Neuwirth 2017/003_agent-stock - stock-stock.nlogo
+  ? github.com/ZGIS/spatial-simulation/1b5d8d73c2dbdfafb4fab4ddd879184e5c50a3bf/PublishedModels/Wallentin & Neuwirth 2017/003_agent-stock - stock-stock.nlogo
   : annotations:
       linguist: NetLogo
       vote: NetLogo
@@ -3011,8 +2996,7 @@ files:
     annotations:
       linguist: AutoHotkey
       vote: AutoHotkey
-  ? github.com/aaronfreimark/Apple-ID-AppleScript/a1457690a6f98d9f4045ecaa152df85393384a6d/Enterprise
-    iOS Apple ID Creator.applescript
+  ? github.com/aaronfreimark/Apple-ID-AppleScript/a1457690a6f98d9f4045ecaa152df85393384a6d/Enterprise iOS Apple ID Creator.applescript
   : annotations:
       linguist: AppleScript
       vote: AppleScript
@@ -3068,8 +3052,7 @@ files:
     annotations:
       linguist: Coq
       vote: Coq
-  ? github.com/achoczaj/CPD--SAS--Statistics_1-Introduction_to_ANOVA_Regression_and_Logistic_Regression/d2da58ea3a849b9b53a37870eef447edfbdc6ecc/notes/L6_
-    Model_Building_and_Scoring_for_Prediction.sas
+  ? github.com/achoczaj/CPD--SAS--Statistics_1-Introduction_to_ANOVA_Regression_and_Logistic_Regression/d2da58ea3a849b9b53a37870eef447edfbdc6ecc/notes/L6_ Model_Building_and_Scoring_for_Prediction.sas
   : annotations:
       linguist: SAS
       vote: SAS
@@ -3537,8 +3520,7 @@ files:
     annotations:
       linguist: Mercury
       vote: Mercury
-  ? github.com/arbp/WFS/6e9187b724115f3ebc1398ecca2ed52d9134745e/Windows Functionality
-    Suite/Process Management/Interfaces/HeapEntryLoadedCallbackWFS.rbbas
+  ? github.com/arbp/WFS/6e9187b724115f3ebc1398ecca2ed52d9134745e/Windows Functionality Suite/Process Management/Interfaces/HeapEntryLoadedCallbackWFS.rbbas
   : annotations:
       linguist: REALbasic
       vote: REALbasic
@@ -4005,8 +3987,7 @@ files:
     annotations:
       linguist: Opa
       vote: Opa
-  ? github.com/bdrister/AquaticPrime/4d7d521f288234fb2a91b14e530b3b82b8ce114d/Source/RealBasic/TT's
-    SmartPreferences/MacOSLib (partial)/CoreFoundation/CFDictionary.rbbas
+  ? github.com/bdrister/AquaticPrime/4d7d521f288234fb2a91b14e530b3b82b8ce114d/Source/RealBasic/TT's SmartPreferences/MacOSLib (partial)/CoreFoundation/CFDictionary.rbbas
   : annotations:
       linguist: REALbasic
       vote: REALbasic
@@ -5361,8 +5342,7 @@ files:
     annotations:
       linguist: Shell
       vote: Shell
-  ? github.com/dolphinsmalltalk/Dolphin/1444c854e9fa57527ec69c27b8b7a49f17d36749/Core/Object
-    Arts/Dolphin/MVP/Presenters/Collection/SequenceableCollectionPresenter.cls
+  ? github.com/dolphinsmalltalk/Dolphin/1444c854e9fa57527ec69c27b8b7a49f17d36749/Core/Object Arts/Dolphin/MVP/Presenters/Collection/SequenceableCollectionPresenter.cls
   : annotations:
       linguist: Smalltalk
       vote: Smalltalk
@@ -5808,8 +5788,7 @@ files:
     annotations:
       linguist: M4
       vote: M4
-  ? github.com/eme64/Hobby-Projects-Archive/91b6ca78a6e710955c6266fba16d79cedf01e22b/BlitzMax
-    Projects/Simulations/cellular automaton - water and life/simulation/water_1.bmx
+  ? github.com/eme64/Hobby-Projects-Archive/91b6ca78a6e710955c6266fba16d79cedf01e22b/BlitzMax Projects/Simulations/cellular automaton - water and life/simulation/water_1.bmx
   : annotations:
       linguist: BlitzMax
       vote: BlitzMax
@@ -5853,8 +5832,7 @@ files:
     annotations:
       linguist: Monkey
       vote: Monkey
-  ? "github.com/eni-causer-a/m.m2l/f91ef418c1fc379f57d9c84cb5f7ecdd74fcdcf1/analyse-projet/diagrammes
-    et modeles/D\xE9finition de cas d'utilisation RESERVATIONS.moo"
+  ? "github.com/eni-causer-a/m.m2l/f91ef418c1fc379f57d9c84cb5f7ecdd74fcdcf1/analyse-projet/diagrammes et modeles/D\xE9finition de cas d'utilisation RESERVATIONS.moo"
   : annotations:
       linguist: Mercury
       vote: Mercury
@@ -6020,8 +5998,7 @@ files:
     annotations:
       linguist: Haskell
       vote: Haskell
-  ? github.com/evshiron/nwjs-builder-phoenix/e9c26b61669589e599da95ee82ac3bb489c6dd04/assets/nsis/Contrib/Language
-    files/Romanian.nsh
+  ? github.com/evshiron/nwjs-builder-phoenix/e9c26b61669589e599da95ee82ac3bb489c6dd04/assets/nsis/Contrib/Language files/Romanian.nsh
   : annotations:
       linguist: NSIS
       vote: NSIS
@@ -7162,8 +7139,7 @@ files:
     annotations:
       linguist: Hack
       vote: Hack
-  ? github.com/hilanmiao/NSIS-UI/d3ec4cba0f6a30073fb966420af035fd7fc64a2d/Niuniu_NSIS_SetupSkin/NSIS/Contrib/Language
-    files/Russian.nsh
+  ? github.com/hilanmiao/NSIS-UI/d3ec4cba0f6a30073fb966420af035fd7fc64a2d/Niuniu_NSIS_SetupSkin/NSIS/Contrib/Language files/Russian.nsh
   : annotations:
       linguist: NSIS
       vote: NSIS
@@ -7831,8 +7807,7 @@ files:
       human-smola: Unknown
       linguist: E
       vote: Unknown
-  ? github.com/jgilfillan/Niz-Plum-84EC-S-Pro-Ble-Non-RGB-manual/37ccc61a1745b2fb295d931a29a097bb722751fe/custom
-    keymaps/my_customer_mapping.pro
+  ? github.com/jgilfillan/Niz-Plum-84EC-S-Pro-Ble-Non-RGB-manual/37ccc61a1745b2fb295d931a29a097bb722751fe/custom keymaps/my_customer_mapping.pro
   : annotations:
       human-smola: XML
       linguist: Prolog
@@ -8074,8 +8049,7 @@ files:
     annotations:
       linguist: Pascal
       vote: Pascal
-  ? github.com/jsebean/IlluminationSoftwareCreator/3d9977829e5ee070b8616960045ab54ea5155bcf/RadThumbnailView
-    Folder/RadThumbnailPicture.rbbas
+  ? github.com/jsebean/IlluminationSoftwareCreator/3d9977829e5ee070b8616960045ab54ea5155bcf/RadThumbnailView Folder/RadThumbnailPicture.rbbas
   : annotations:
       linguist: REALbasic
       vote: REALbasic
@@ -8734,8 +8708,7 @@ files:
     annotations:
       linguist: Stata
       vote: Stata
-  ? github.com/lhb5883/LabVIEW/129c22c55a35e62310bb0143502e3ed50b1e6162/Actor Framework/Simple
-    Actor Example/Simple Actor Example.lvproj
+  ? github.com/lhb5883/LabVIEW/129c22c55a35e62310bb0143502e3ed50b1e6162/Actor Framework/Simple Actor Example/Simple Actor Example.lvproj
   : annotations:
       linguist: LabVIEW
       vote: LabVIEW
@@ -9851,8 +9824,7 @@ files:
     annotations:
       linguist: AspectJ
       vote: AspectJ
-  ? github.com/neilcosgrove/LNX_Studio/a6b4c05b7eed6e710487c417b3b9115ddcdcc4e5/SCClassLibrary/LNX_Studio
-    Library/10. by others/wslib_reduced/Various/SegWarp.sc
+  ? github.com/neilcosgrove/LNX_Studio/a6b4c05b7eed6e710487c417b3b9115ddcdcc4e5/SCClassLibrary/LNX_Studio Library/10. by others/wslib_reduced/Various/SegWarp.sc
   : annotations:
       linguist: SuperCollider
       vote: SuperCollider
@@ -10890,8 +10862,7 @@ files:
     annotations:
       linguist: Julia
       vote: Julia
-  ? github.com/probe-scope/Probe-Scope-PCB/f5a3add610575115ad71bc815e6f6577f5d11894/Project
-    Outputs for Probe-Scope v1.0/Probe-Scope v1.0.G4
+  ? github.com/probe-scope/Probe-Scope-PCB/f5a3add610575115ad71bc815e6f6577f5d11894/Project Outputs for Probe-Scope v1.0/Probe-Scope v1.0.G4
   : annotations:
       linguist: ANTLR
       vote: ANTLR
@@ -11535,8 +11506,7 @@ files:
     annotations:
       linguist: Assembly
       vote: Assembly
-  ? github.com/rogera24/Programming_Projects/977284258a50587ec9bcb1018ac707c927117272/School
-    Work/Multi-Agent_Modeling/Telemarketer/Telemarketer 2x Reserve with neighboor.nlogo
+  ? github.com/rogera24/Programming_Projects/977284258a50587ec9bcb1018ac707c927117272/School Work/Multi-Agent_Modeling/Telemarketer/Telemarketer 2x Reserve with neighboor.nlogo
   : annotations:
       linguist: NetLogo
       vote: NetLogo
@@ -11684,8 +11654,7 @@ files:
     annotations:
       linguist: Rust
       vote: Rust
-  ? github.com/rustymyers/scripts/37f2737b6d00d8760a7d17da0a2b5ad74a0c56ae/Xojo/PrefTest/macoslib/ImageKit
-    & ImageCapture/ICCameraItem.xojo_code
+  ? github.com/rustymyers/scripts/37f2737b6d00d8760a7d17da0a2b5ad74a0c56ae/Xojo/PrefTest/macoslib/ImageKit & ImageCapture/ICCameraItem.xojo_code
   : annotations:
       linguist: Xojo
       vote: Xojo
@@ -12175,8 +12144,7 @@ files:
     annotations:
       linguist: Perl
       vote: Perl
-  ? github.com/soapyigu/Swift-30-Projects/70fa254298352558220fc250c268b1b9e5128321/Project
-    12 - Tumblr/Tumblr/TransitionManager.swift
+  ? github.com/soapyigu/Swift-30-Projects/70fa254298352558220fc250c268b1b9e5128321/Project 12 - Tumblr/Tumblr/TransitionManager.swift
   : annotations:
       linguist: Swift
       vote: Swift
@@ -12606,8 +12574,7 @@ files:
   : annotations:
       linguist: REALbasic
       vote: REALbasic
-  ? github.com/tempelmann/rb-tcmportmapper/50bd46be1cc60457795b124bf1bc2c43a7766aaf/TCMPortMapper
-    Lib/From MacOSLib/CoreFoundation/CFType.rbbas
+  ? github.com/tempelmann/rb-tcmportmapper/50bd46be1cc60457795b124bf1bc2c43a7766aaf/TCMPortMapper Lib/From MacOSLib/CoreFoundation/CFType.rbbas
   : annotations:
       linguist: REALbasic
       vote: REALbasic
@@ -13330,8 +13297,7 @@ files:
     annotations:
       linguist: Idris
       vote: Idris
-  ? github.com/voc/intro-outro-generator/b1b14c5a4860329837267590f3d126a679822dee/35c3-chaoswest/outro
-    folder/(Footage)/statics/logos/creative commons Logo.eps
+  ? github.com/voc/intro-outro-generator/b1b14c5a4860329837267590f3d126a679822dee/35c3-chaoswest/outro folder/(Footage)/statics/logos/creative commons Logo.eps
   : annotations:
       linguist: PostScript
       vote: PostScript
