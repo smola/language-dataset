@@ -3,9 +3,9 @@
 
 | Metric | Value |
 | ------ | ----- |
-| **Languages** | 207 |
-| **Total samples** | 3391 |
-| **Samples labeled by humans** | 62 |
+| **Languages** | 209 |
+| **Total samples** | 3387 |
+| **Samples labeled by humans** | 68 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -61,7 +61,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Component Pascal | 1 | 0 |
 | Coq | 18 | 1 |
 | Crystal | 19 | 0 |
-| D | 20 | 0 |
+| D | 20 | 1 |
 | DM | 19 | 0 |
 | DNS Zone | 1 | 1 |
 | Dart | 19 | 0 |
@@ -106,6 +106,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Io | 17 | 0 |
 | Ioke | 15 | 0 |
 | J | 19 | 0 |
+| JSON | 1 | 1 |
 | Java | 20 | 0 |
 | JavaScript | 20 | 0 |
 | Jsonnet | 20 | 0 |
@@ -131,7 +132,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Mercury | 12 | 0 |
 | Mirah | 15 | 0 |
 | Modula-2 | 20 | 0 |
-| Modula-3 | 16 | 0 |
+| Modula-3 | 11 | 1 |
 | Monkey | 20 | 0 |
 | NSIS | 20 | 0 |
 | Nemerle | 14 | 0 |
@@ -142,7 +143,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Nit | 20 | 0 |
 | Nix | 18 | 0 |
 | OCaml | 19 | 0 |
-| Objective-C | 20 | 0 |
+| Objective-C | 20 | 1 |
 | Opa | 19 | 0 |
 | OpenEdge ABL | 20 | 0 |
 | OpenSCAD | 19 | 0 |
@@ -169,7 +170,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | QMake | 1 | 1 |
 | R | 20 | 0 |
 | REALbasic | 20 | 0 |
-| REXX | 17 | 0 |
+| REXX | 18 | 1 |
 | Racket | 20 | 0 |
 | Rascal | 20 | 0 |
 | Rebol | 18 | 0 |
@@ -183,7 +184,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Scala | 20 | 0 |
 | Scheme | 20 | 1 |
 | Scilab | 12 | 0 |
-| Self | 11 | 0 |
+| Self | 9 | 0 |
 | Shell | 20 | 1 |
 | Shen | 20 | 0 |
 | Smalltalk | 20 | 0 |
@@ -195,6 +196,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | TSQL | 1 | 1 |
 | Tcl | 19 | 0 |
 | Terra | 7 | 0 |
+| Text | 1 | 1 |
 | Turing | 8 | 0 |
 | TypeScript | 20 | 0 |
 | V | 18 | 0 |

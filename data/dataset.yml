@@ -98,6 +98,7 @@ files:
       vote: D
   github.com/Actinium-project/ln-plugin-m3/c9b5c8d1d1e06f3b91f9fee3e403103194a276e1/LNPlugin.m3:
     annotations:
+      human-smola: Modula-3
       linguist: Modula-3
       vote: Modula-3
   github.com/AdaCore/Ada_Drivers_Library/b1b3d1dfe2756e43a2eceb667d242f0f82e65dd3/boards/stm32_common/common/stm32-user_button.adb:
@@ -395,6 +396,7 @@ files:
       vote: Assembly
   github.com/BradLarson/GPUImage/167b0389bc6e9dc4bb0121550f91d8d5d6412c53/framework/Source/GPUImageRGBFilter.m:
     annotations:
+      human-smola: Objective-C
       linguist: Objective-C
       vote: Objective-C
   github.com/BraulioV/Sistema-Inversor-en-Bolsa/d57d56cfc59ee4de871b9666c58586119f389f22/src/sistemaInversor.clp:
@@ -509,8 +511,9 @@ files:
       vote: Forth
   github.com/Cherifabk/ArabTAG-XMG/1f83391a59ca936a9002d95521014b374cf2161b/Verbal.mg:
     annotations:
+      human-smola: Unknown
       linguist: Modula-3
-      vote: Modula-3
+      vote: Unknown
   ? github.com/Choose-by-Speed/choosebyspeed_v1/551ace3a31cde9b0160ee3393fd1f2887b841157/cbs/src/main/java/com/epam/hack/choosebyspeed/domain/Promotion_Roo_Jpa_Entity.aj
   : annotations:
       linguist: AspectJ
@@ -775,8 +778,9 @@ files:
       vote: Fortran
   github.com/Endurance-Robotics/ChatBots/9e957067c84fe36d517220255947a88a3bf4d910/botabout/botlibre/scripts/Orders.self:
     annotations:
+      human-smola: Unknown
       linguist: Self
-      vote: Self
+      vote: Unknown
   github.com/Enyby/APK-Info/e84671b3fc993c2c0b10c042e55d70c31d0360ef/Application-source/APK-Info.au3:
     annotations:
       linguist: AutoIt
@@ -1681,8 +1685,9 @@ files:
       vote: AGS Script
   github.com/Manitary/advent-of-code/803f38a11d2e7980d46b42bb80bc5e0cc2c31830/2018/18_11.mg:
     annotations:
+      human-smola: Unknown
       linguist: Modula-3
-      vote: Modula-3
+      vote: Unknown
   github.com/MarkGoldberg/ClarionCommunity/245397dfa3374aad578559d352659fb27cc8a43f/CW/Demos/CopyConstructor/CopyConstructor.clw:
     annotations:
       linguist: Clarion
@@ -2094,6 +2099,7 @@ files:
       vote: PL/SQL
   github.com/PhilippeSigaud/Pegged/dc2a85b9c026878920c3bbbe5ced68c0fa5f07a2/pegged/examples/c.d:
     annotations:
+      human-smola: D
       linguist: D
       vote: D
   ? github.com/PipelineAI/pipeline/599f7747907fccb797fcd6013f8071f768d0f388/eks/demo/.cache/kubeflow/kubeflow-9804feb9fc23fc30075632a857087f4b529294e2/components/k8s-model-server/images/releaser/environments/prow/.metadata/k.libsonnet
@@ -3291,8 +3297,9 @@ files:
       vote: Crystal
   github.com/ambidexter-unity/Match3Engine/67276f7f13021f56d18a0ba5f15b34132aa3b4e7/ConvertedM3/Level_0019.m3:
     annotations:
+      human-smola: JSON
       linguist: Modula-3
-      vote: Modula-3
+      vote: JSON
   github.com/amchagas/Flypi/e7d725636b38c346398118e11f229b1fb8726d8f/3D_print_files/v1.0/not_tested_yet/library/tilted_stick.scad:
     annotations:
       linguist: OpenSCAD
@@ -3803,8 +3810,9 @@ files:
       vote: NetLinx
   github.com/ayoul3/Privesc/96c5f6554cb4c6902302781ef0c971bd24f6c5ad/ELV.SELF:
     annotations:
+      human-smola: REXX
       linguist: Self
-      vote: Self
+      vote: REXX
   github.com/azac/cobol-on-wheelchair/6bce149786c3d4d29b4440be21e7695892f1ce42/cow.cbl:
     annotations:
       linguist: COBOL
@@ -3815,8 +3823,9 @@ files:
       vote: Golo
   github.com/b-cakir/hecke-operator/6d6b57400ed54ef637c2b49550448000e999eab2/optimized.mg:
     annotations:
+      human-smola: Unknown
       linguist: Modula-3
-      vote: Modula-3
+      vote: Unknown
   github.com/b4b4r07/manyawk/fcc3ba31c0331165545152ccd5cb524ed82cd48f/path/filepath.awk:
     annotations:
       linguist: Awk
@@ -6192,8 +6201,9 @@ files:
       vote: NewLisp
   ? github.com/fewnew/art74-fall2019/ed0d36ebf696148109dde5746cf1b4b21074b210/readings/reading01/responses/Benjamin_Revell_reading01.mg
   : annotations:
+      human-smola: Text
       linguist: Modula-3
-      vote: Modula-3
+      vote: Text
   github.com/fgeorges/cxan/8c80ade9f20f3d41da0c340975e606420bfc3a60/client/src/tools.xpl:
     annotations:
       linguist: XProc
