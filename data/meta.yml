@@ -1,5 +1,7 @@
 datasets:
   linguist:
+    version: 10c20c7286a4b56c17253e8aab044debfe9f0dbe
+  rosetta_code:
     version: aac6731f2c1e30321fcfc58ac95d8203c041ee04
 languages:
   0815:
@@ -2112,12 +2114,6 @@ languages:
     maps_to:
       linguist:
       - Mask
-  Mathematica:
-    maps_to:
-      linguist:
-      - Mathematica
-      rosetta_code:
-      - Mathematica
   Mathprog:
     maps_to:
       rosetta_code:
@@ -3772,7 +3768,10 @@ languages:
       - Windows Registry Entries
   Wolfram Language:
     maps_to:
+      linguist:
+      - Mathematica
       rosetta_code:
+      - Mathematica
       - Wolfram Language
   Wollok:
     maps_to:

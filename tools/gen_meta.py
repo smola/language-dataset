@@ -23,6 +23,7 @@ def add_linguist_languages(commit: str, meta: Meta):
     norm_langs = {
         "PLSQL": "PL/SQL",
         "PLpgSQL": "PL/pgSQL",
+        "Mathematica": "Wolfram Language",
     }
 
     langs = get_linguist_languages(commit=commit)
@@ -57,6 +58,7 @@ def add_rosetta_code_languages(commit: str, meta: Meta):
         "Fish": "fish",
         "lilypond": "LilyPond",
         "Make": "Makefile",
+        "Mathematica": "Wolfram Language",
         "MoonScript": "moonscript",
         "NewLISP": "NewLisp",
         "OOC": "ooc",
@@ -100,7 +102,7 @@ def get_rosetta_code_languages(commit: str) -> Sequence[str]:
 
 
 def main():
-    meta = Meta()
+    meta = Meta(load=False)
     add_linguist_languages(LINGUIST_COMMIT, meta)
     add_rosetta_code_languages(ROSETTA_CODE_DATA_COMMIT, meta)
     meta.save()

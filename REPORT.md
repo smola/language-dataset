@@ -129,7 +129,6 @@ For each language, the table reports total number of samples (_Samples_) and how
 | MAXScript | 17 | 0 |
 | Makefile | 18 | 0 |
 | Markdown | 15 | 4 |
-| Mathematica | 11 | 1 |
 | Mercury | 9 | 0 |
 | Mirah | 15 | 0 |
 | Modula-2 | 20 | 0 |
@@ -207,6 +206,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Vim script | 20 | 2 |
 | Visual Basic | 1 | 0 |
 | WebAssembly | 7 | 0 |
+| Wolfram Language | 11 | 1 |
 | Wollok | 20 | 0 |
 | XML | 3 | 3 |
 | XProc | 19 | 0 |
