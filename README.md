@@ -7,14 +7,14 @@ A dataset for programming language identification.
 * Available languages are fetched from [github/linguist](https://github.com/github/linguist/)'s [languages.yml](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) and [acmeism/RosettaCodeData](https://github.com/acmeism/RosettaCodeData)'s [Lang.yaml](https://github.com/acmeism/RosettaCodeData/blob/master/Meta/Lang.yaml).
 * For each language, initial samples are fetched from GitHub as follows:
   * [GitHub Search API](https://developer.github.com/v4/query/#search) is used to get a list of repositories.
-  * Each repository is cloned and languages are detected with [github/linguist](https://github.com/github/linguist/].
+  * Each repository is cloned and languages are detected with [github/linguist](https://github.com/github/linguist/).
   * One sample is added from each repository.
 * Samples are later reviewed by humans.
 
 Rules for sample inclusion are:
 
 * No more than one sample from each repository.
-* Sample is at least 500 bytes and at most 100 kylobytes.
+* Sample is at least 500b and at most 100kb.
 
 ## Dataset
 
