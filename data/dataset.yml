@@ -310,7 +310,7 @@ files:
   github.com/Azure/ccodashboard/9740e2fc9f26ac4490d7a5fd7523abe0ac2a67d6/queries/AKS.m:
     annotations:
       human-smola: Unknown
-      linguist: Mathematica
+      linguist: Wolfram Language
       vote: Unknown
   ? github.com/BEEmod/BEE2-items/f2955185f09645db6c4cdf8b7962e1b8f7dd85bb/packages/valve/clean_style/resources/scripts/vscripts/BEE2/video_splitter_rand.nut
   : annotations:
@@ -718,8 +718,8 @@ files:
       vote: CLIPS
   ? github.com/DrWaleedAYousef/Teaching/18a0f7a4afe1020c10009f44adcfa80e60d07bbb/Probability/Code/Mathematica/Ch3_TheBivariateNormalAndConditionalDistributionsMODIFIED.nb
   : annotations:
-      linguist: Mathematica
-      vote: Mathematica
+      linguist: Wolfram Language
+      vote: Wolfram Language
   github.com/Dridi/libvmod-querystring/f4497725b8952c2b32b2cd9dd4e85b2f3030ab04/configure.ac:
     annotations:
       linguist: M4
@@ -2384,8 +2384,8 @@ files:
       vote: Smalltalk
   github.com/Seilim/CaffeLink/efd16474e3a19e73ed091fffa98aa062259cd33f/module/demo/liblink-test.nb:
     annotations:
-      linguist: Mathematica
-      vote: Mathematica
+      linguist: Wolfram Language
+      vote: Wolfram Language
   github.com/SelfBatteries/crc32/e0cc5a49e766442c09bef8a5db90796f2df7e726/crc32.self:
     annotations:
       linguist: Self
@@ -2876,7 +2876,7 @@ files:
   ? github.com/WebGLSamples/WebGLSamples.github.io/79a3ef4783f8d97b3d0332b7cbd16ffe5dfbc2f9/aquarium/source_assets/Scenes/GlobeInner.ma
   : annotations:
       human-smola: Unknown
-      linguist: Mathematica
+      linguist: Wolfram Language
       vote: Unknown
   github.com/Whispe/Zzz/a97920633783841d34f1b87c8b32420f1a59a03f/schedule.zpl:
     annotations:
@@ -2901,8 +2901,8 @@ files:
       vote: Batchfile
   ? github.com/WolframResearch/WolframLanguageForJupyter/6dab4f757685583a181972bbe42507b626657942/WolframLanguageForJupyter/Resources/EvaluationUtilities.wl
   : annotations:
-      linguist: Mathematica
-      vote: Mathematica
+      linguist: Wolfram Language
+      vote: Wolfram Language
   github.com/WordPress/secure-swfupload/25531ecc4d2345abf6df86dcb6996877fdb8d72a/core/Flash/FileItem.as:
     annotations:
       linguist: ActionScript
@@ -3456,8 +3456,8 @@ files:
       vote: Kotlin
   github.com/antononcube/MathematicaForPrediction/f08498dc68c5bc987d1f53763b69cca06f19f7c4/DocumentTermMatrixConstruction.m:
     annotations:
-      linguist: Mathematica
-      vote: Mathematica
+      linguist: Wolfram Language
+      vote: Wolfram Language
   github.com/apache/couchdb/d60551d89100dccb5c649dd6cad3b7c7ec1371e0/src/fabric/src/fabric_dict.erl:
     annotations:
       linguist: Erlang
@@ -4810,7 +4810,7 @@ files:
   github.com/corywalker/expreduce/0a346d0d4ef1800bf7762f4cba0fb7e9cee0101a/expreduce/resources/time.m:
     annotations:
       human-smola: Unknown
-      linguist: Mathematica
+      linguist: Wolfram Language
       vote: Unknown
   github.com/couchbase/geocouch/92def13f6b049553da1aa1488ce0bde6b7d0f459/vtree/src/vtree_io.erl:
     annotations:
@@ -7044,7 +7044,7 @@ files:
   ? github.com/haggi/OpenMaya/746e0740f480d9ef8d2173f31b3c99b9b0ea0d24/src/mayaToCorona/mayaToCoronaExamples/scenes/simpleShadingNetwork.ma
   : annotations:
       human-smola: Unknown
-      linguist: Mathematica
+      linguist: Wolfram Language
       vote: Unknown
   github.com/hakank/hakank/fc6ba6444041981c442db4fdddd1bbeb243e5a33/swi_prolog/magic_hexagon.pl:
     annotations:
@@ -7056,8 +7056,8 @@ files:
       vote: LiveScript
   github.com/halirutan/Mathematica-Source-Highlighting/3f9ec387b0a975e580263594acf0fc47bbe88285/resources/NamedCharacters.m:
     annotations:
-      linguist: Mathematica
-      vote: Mathematica
+      linguist: Wolfram Language
+      vote: Wolfram Language
   github.com/hamsternz/FPGA_Webserver/5cd8b05b0a1453a2b57a532a9bcb87a938c50f2e/testbenches/tb_FPGA_webserver.vhd:
     annotations:
       linguist: VHDL
@@ -7273,8 +7273,8 @@ files:
       vote: ECL
   github.com/hpd/DigitalEmily/8bb2583fb41e40c58ee2da8bb7988732e2031624/maya/scenes/Emily_2_1_Lightstage_Cameras_Animated.ma:
     annotations:
-      linguist: Mathematica
-      vote: Mathematica
+      linguist: Wolfram Language
+      vote: Wolfram Language
   github.com/hq450/fancyss/735a6439a8b69cbef76ec527fd0205b398c86a02/fancyss_hnd/shadowsocks/webs/Module_shadowsocks_local.asp:
     annotations:
       linguist: ASP
@@ -7895,8 +7895,8 @@ files:
       vote: Forth
   ? github.com/jkuczm/MathematicaCellsToTeX/20439c054ebf249cec1ee3b6750813adc29589c4/CellsToTeX/Tests/Integration/extractCellOptionsProcessor.mt
   : annotations:
-      linguist: Mathematica
-      vote: Mathematica
+      linguist: Wolfram Language
+      vote: Wolfram Language
   github.com/jlas/ml.q/bb0c8ca39717023de951351127342ad96dbb0f26/ml.q:
     annotations:
       linguist: q
@@ -11794,8 +11794,8 @@ files:
       vote: Coq
   github.com/samuelpmish/RLUtilities/7c645db1c7450ee793510c3acbb8bc61f8825b74/extras/analysis/jumping/jumping.nb:
     annotations:
-      linguist: Mathematica
-      vote: Mathematica
+      linguist: Wolfram Language
+      vote: Wolfram Language
   github.com/samueltardieu/aforth/2187371cc712b0e9cd130de25095168d06e8ba9c/forth-interpreter.adb:
     annotations:
       linguist: Ada
@@ -11943,8 +11943,8 @@ files:
       vote: Mercury
   github.com/sebh/HLSL-Spherical-Harmonics/7d6c4550b8f762c5372a1258b633f7a196d8bba3/sh2.nb:
     annotations:
-      linguist: Mathematica
-      vote: Mathematica
+      linguist: Wolfram Language
+      vote: Wolfram Language
   github.com/sebkirche/pbnilist/233e080985bdfdc4f2b78394d911e5ec73d9f5c1/pb_src/115/listdemo.sra:
     annotations:
       linguist: PowerBuilder
@@ -12117,9 +12117,9 @@ files:
       vote: Ruby
   github.com/skidvision/wolfram-language/6ad074c5c593b3280745f22bd495310606be7f8b/tools/test.wl:
     annotations:
-      human-smola: Mathematica
-      linguist: Mathematica
-      vote: Mathematica
+      human-smola: Wolfram Language
+      linguist: Wolfram Language
+      vote: Wolfram Language
   github.com/skilion/onedrive/945251f7f2e95ae85001efb6eab85d6176bac75e/src/itemdb.d:
     annotations:
       linguist: D
@@ -13841,8 +13841,8 @@ files:
       vote: LLVM
   github.com/zhuwenzhen/instance-segmentation/fc395b8f60ae518379bfd5959ff868d2766c8148/src/Utility.wl:
     annotations:
-      linguist: Mathematica
-      vote: Mathematica
+      linguist: Wolfram Language
+      vote: Wolfram Language
   github.com/zick/FactorLisp/9069bbee2358b82707b745263208a9d6842e0b58/lisp.factor:
     annotations:
       linguist: Factor

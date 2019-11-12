@@ -15,10 +15,13 @@ SAMPLES_PER_LANGUAGE = 20
 
 
 class ConfObject:
-    def __init__(self, path):
+    def __init__(self, path, load=True):
         self.path = path
         self.data = None
-        self.load()
+        if load:
+            self.load()
+        else:
+            self.data = self._default_value()
 
     def save(self):
         save_yaml(self.data, self.path)
@@ -34,8 +37,8 @@ class ConfObject:
 
 
 class Meta(ConfObject):
-    def __init__(self, path=META_PATH):
-        super().__init__(path=path)
+    def __init__(self, path=META_PATH, load=True):
+        super().__init__(path=path, load=load)
 
     def _default_value(self):
         return {"datasets": {}, "languages": {}}
@@ -74,8 +77,8 @@ class Meta(ConfObject):
 
 
 class Dataset(ConfObject):
-    def __init__(self, path=DATASET_PATH):
-        super().__init__(path=path)
+    def __init__(self, path=DATASET_PATH, load=True):
+        super().__init__(path=path, load=load)
 
     def _default_value(self):
         return {"files": {}}
