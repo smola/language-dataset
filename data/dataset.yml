@@ -181,8 +181,9 @@ files:
       vote: PostScript
   ? github.com/Allensmile/cs229_MachineLearning_AndrewNg_Coursera/4af5b0eb4acae65e63a6783aadd0020c48398534/MLMaterial/ListsTXT/list_Kannada_Fnt.m
   : annotations:
+      human-smola: MATLAB
       linguist: Limbo
-      vote: Limbo
+      vote: MATLAB
   github.com/Alpha698/Tetris_v0.1/3f5b92732e2f04ccba646b176ccf3eb8ae17be47/tetris/Tetris.clw:
     annotations:
       linguist: Clarion
@@ -254,6 +255,7 @@ files:
       vote: q
   ? github.com/Archinamon/AndroidAspectJExample/ec3a40603f24c361e04c976a57fabe9394d7b8e3/libAjProfiler/src/main/aspectj/com/archinamon/profiler/core/AnnotationProfiler.aj
   : annotations:
+      human-smola: AspectJ
       linguist: AspectJ
       vote: AspectJ
   github.com/ArctosDB/arctos/7092c8a896e70318abdf84fd7ae402d1508e7c6c/fix/test.cfm:
@@ -307,8 +309,9 @@ files:
       vote: PowerShell
   github.com/Azure/ccodashboard/9740e2fc9f26ac4490d7a5fd7523abe0ac2a67d6/queries/AKS.m:
     annotations:
+      human-smola: Unknown
       linguist: Mathematica
-      vote: Mathematica
+      vote: Unknown
   ? github.com/BEEmod/BEE2-items/f2955185f09645db6c4cdf8b7962e1b8f7dd85bb/packages/valve/clean_style/resources/scripts/vscripts/BEE2/video_splitter_rand.nut
   : annotations:
       linguist: Squirrel
@@ -678,6 +681,7 @@ files:
       vote: J
   github.com/Devuna/Devuna-IQXML/cc600e313c2c192e146adfed314daaa7054dd0c9/template/win/iQXmlPar.tpw:
     annotations:
+      human-smola: Clarion
       linguist: Clarion
       vote: Clarion
   ? github.com/DiegoCoronel/ceylon-jboss-swarm/419b3181d7a5fb1e43a3e39f8246c63bbdeb9564/ceylon-wildfly-swarm-jaxrs/source/jaxrs/example/resource/EmployeeResource.ceylon
@@ -2096,6 +2100,7 @@ files:
       vote: OpenEdge ABL
   github.com/PhilippSalvisberg/plscope-utils/6314afd7232fd039ea26e19584fb670a31890028/database/test/package/test_dd_util.pks:
     annotations:
+      human-smola: PL/SQL
       linguist: PL/SQL
       vote: PL/SQL
   github.com/PhilippeSigaud/Pegged/dc2a85b9c026878920c3bbbe5ced68c0fa5f07a2/pegged/examples/c.d:
@@ -2546,6 +2551,7 @@ files:
       vote: MAXScript
   github.com/SukkaW/Koolshare-Clash/34e5b6769b379f1c5b5d647904fbfbb7a7309264/koolclash/webs/Module_koolclash.asp:
     annotations:
+      human-smola: ASP
       linguist: ASP
       vote: ASP
   ? github.com/Summer-Summer/ComputerArchitectureLab/8ad310416c1909d1e3bc42500b2dd870a675c592/1_VerilogSourceCode/1_CPUCore_src/EXSegReg.v
@@ -2780,6 +2786,7 @@ files:
       vote: VHDL
   github.com/VSoftTechnologies/DUnitX/96199b34ca5726c4ac0871bf1943fb1712eb4dae/Expert/DUnitX.Expert.Forms.NewProjectWizard.dfm:
     annotations:
+      human-smola: Pascal
       linguist: Pascal
       vote: Pascal
   github.com/VU-Programming/pad-skeleton-c/8fa1edff0992c83f85be7311a371510f327e70d5/files/bonus/brainfuck/mandelbrot.b:
@@ -4276,8 +4283,9 @@ files:
       vote: Nim
   github.com/breuleux/quaint/8c538dfde32183f1116f6c661835f35f6c249d21/scaffold/index.q:
     annotations:
+      human-smola: Unknown
       linguist: q
-      vote: q
+      vote: Unknown
   github.com/briangu/chearch/69d795d9c3f095a72a83cdf651471e9a6b34ac17/test/helloworld.chpl:
     annotations:
       linguist: Chapel
@@ -4801,8 +4809,9 @@ files:
       vote: NewLisp
   github.com/corywalker/expreduce/0a346d0d4ef1800bf7762f4cba0fb7e9cee0101a/expreduce/resources/time.m:
     annotations:
+      human-smola: Unknown
       linguist: Mathematica
-      vote: Mathematica
+      vote: Unknown
   github.com/couchbase/geocouch/92def13f6b049553da1aa1488ce0bde6b7d0f459/vtree/src/vtree_io.erl:
     annotations:
       linguist: Erlang
@@ -4825,8 +4834,9 @@ files:
       vote: Vala
   github.com/cran/boot/07ba70f8a27e323f428a1017d68b0ff809453abf/R/bootpracs.q:
     annotations:
+      human-smola: R
       linguist: q
-      vote: q
+      vote: R
   github.com/crocodile2u/zhandlersocket/226018a2cd1393a629dca2f968918d1c9010acfa/zhandlersocket/Command.zep:
     annotations:
       linguist: Zephir
@@ -4970,8 +4980,9 @@ files:
       vote: ABAP
   github.com/damonmiller/esapi4cf/8674e6bd4dfa9dc425bad902c5e47bb349f7f71d/org/owasp/esapi/crypto/KeyDerivationFunction.cfc:
     annotations:
+      human-smola: ColdFusion CFC
       linguist: ColdFusion
-      vote: ColdFusion
+      vote: ColdFusion CFC
   github.com/dan-atilio/AdvPL/f96a7fee50841e6d466978ffb846215e61a705fc/Fontes/zCmbDesc.prw:
     annotations:
       linguist: xBase
@@ -5107,10 +5118,12 @@ files:
       vote: AppleScript
   github.com/dda/stegano-fs/cab4d51ac7cc26f17119c8d893da5aa1a12939ac/Window1.rbfrm:
     annotations:
+      human-smola: REALbasic
       linguist: REALbasic
       vote: REALbasic
   github.com/dda/tc-rb/b9ca7ec5ac392eabbcc7cbcd8376cf3d5443aa70/Window1.rbfrm:
     annotations:
+      human-smola: REALbasic
       linguist: REALbasic
       vote: REALbasic
   github.com/ddoRotolo/antarc.tk/e48e5bab076e8bfc6f9a1207189c241cd19bb008/classes.l:
@@ -5749,6 +5762,7 @@ files:
       vote: Vala
   github.com/eliranwong/OpenGNT/2b09bb954185d4bb838a43d895bbe9bc2ea545b2/Script/OTLA_abb2bkNo.sh:
     annotations:
+      human-smola: sed
       linguist: sed
       vote: sed
   github.com/elixir-ecto/ecto/28e7d36d5d495cff2fea3f27f1a5ae457c960091/lib/ecto/adapter/transaction.ex:
@@ -5928,6 +5942,7 @@ files:
       vote: Squirrel
   github.com/ertdfgcvb/CMYK/a8100c0678f09c78624ac151e1395b898a615c82/cmyk/PDF.pde:
     annotations:
+      human-smola: Processing
       linguist: Processing
       vote: Processing
   github.com/erwijet/BrainF.Net/20bbce54e838640427861792d95a4656fecd8b0f/BrainF_Test/bin/Debug/script.bf:
@@ -7028,8 +7043,9 @@ files:
       vote: LFE
   ? github.com/haggi/OpenMaya/746e0740f480d9ef8d2173f31b3c99b9b0ea0d24/src/mayaToCorona/mayaToCoronaExamples/scenes/simpleShadingNetwork.ma
   : annotations:
+      human-smola: Unknown
       linguist: Mathematica
-      vote: Mathematica
+      vote: Unknown
   github.com/hakank/hakank/fc6ba6444041981c442db4fdddd1bbeb243e5a33/swi_prolog/magic_hexagon.pl:
     annotations:
       linguist: Prolog
@@ -10752,8 +10768,9 @@ files:
       vote: IGOR Pro
   github.com/plotnick/clweb/4c736b4c8b4c0afbdd939eefbcb986c16c24c1e3/test.clw:
     annotations:
+      human-smola: Unknown
       linguist: Clarion
-      vote: Clarion
+      vote: Unknown
   github.com/plum-umd/cgc/511fa41d8b635bbfe5779fa7fb24d5777dbcaaa5/Prelude/Data/Natural.agda:
     annotations:
       linguist: Agda
@@ -12100,6 +12117,7 @@ files:
       vote: Ruby
   github.com/skidvision/wolfram-language/6ad074c5c593b3280745f22bd495310606be7f8b/tools/test.wl:
     annotations:
+      human-smola: Mathematica
       linguist: Mathematica
       vote: Mathematica
   github.com/skilion/onedrive/945251f7f2e95ae85001efb6eab85d6176bac75e/src/itemdb.d:

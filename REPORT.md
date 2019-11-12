@@ -3,9 +3,9 @@
 
 | Metric | Value |
 | ------ | ----- |
-| **Languages** | 209 |
-| **Total samples** | 3386 |
-| **Samples labeled by humans** | 76 |
+| **Languages** | 210 |
+| **Total samples** | 3381 |
+| **Samples labeled by humans** | 89 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -18,7 +18,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | ANTLR | 20 | 1 |
 | API Blueprint | 5 | 0 |
 | APL | 20 | 0 |
-| ASP | 20 | 0 |
+| ASP | 20 | 1 |
 | ATS | 20 | 0 |
 | ActionScript | 20 | 0 |
 | Ada | 20 | 0 |
@@ -28,7 +28,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Apex | 20 | 0 |
 | AppleScript | 20 | 0 |
 | Arc | 20 | 0 |
-| AspectJ | 20 | 0 |
+| AspectJ | 20 | 1 |
 | Assembly | 20 | 0 |
 | Asymptote | 16 | 0 |
 | Augeas | 20 | 0 |
@@ -52,11 +52,12 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Ceylon | 20 | 0 |
 | Chapel | 18 | 0 |
 | ChucK | 19 | 0 |
-| Clarion | 19 | 0 |
+| Clarion | 18 | 1 |
 | Clean | 20 | 0 |
 | Clojure | 19 | 0 |
 | CoffeeScript | 20 | 0 |
-| ColdFusion | 20 | 0 |
+| ColdFusion | 19 | 0 |
+| ColdFusion CFC | 1 | 1 |
 | Common Lisp | 15 | 1 |
 | Component Pascal | 1 | 0 |
 | Coq | 18 | 1 |
@@ -119,16 +120,16 @@ For each language, the table reports total number of samples (_Samples_) and how
 | LSL | 20 | 0 |
 | LabVIEW | 19 | 0 |
 | Lasso | 10 | 0 |
-| Limbo | 18 | 0 |
+| Limbo | 17 | 0 |
 | LiveScript | 20 | 0 |
 | Logtalk | 20 | 0 |
 | Lua | 20 | 1 |
 | M4 | 16 | 0 |
-| MATLAB | 22 | 8 |
+| MATLAB | 23 | 9 |
 | MAXScript | 17 | 0 |
 | Makefile | 18 | 0 |
 | Markdown | 15 | 4 |
-| Mathematica | 14 | 0 |
+| Mathematica | 11 | 1 |
 | Mercury | 9 | 0 |
 | Mirah | 15 | 0 |
 | Modula-2 | 20 | 0 |
@@ -150,10 +151,10 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Oxygene | 1 | 0 |
 | Oz | 18 | 1 |
 | PHP | 20 | 0 |
-| PL/SQL | 15 | 0 |
+| PL/SQL | 15 | 1 |
 | PL/pgSQL | 15 | 0 |
 | POV-Ray SDL | 2 | 0 |
-| Pascal | 20 | 0 |
+| Pascal | 20 | 1 |
 | Perl | 20 | 2 |
 | Perl 6 | 11 | 0 |
 | PicoLisp | 20 | 1 |
@@ -162,14 +163,14 @@ For each language, the table reports total number of samples (_Samples_) and how
 | PostScript | 8 | 0 |
 | PowerBuilder | 17 | 0 |
 | PowerShell | 17 | 1 |
-| Processing | 20 | 0 |
+| Processing | 20 | 1 |
 | Prolog | 18 | 1 |
 | PureBasic | 12 | 0 |
 | PureScript | 20 | 0 |
 | Python | 20 | 1 |
 | QMake | 1 | 1 |
-| R | 20 | 0 |
-| REALbasic | 20 | 0 |
+| R | 21 | 1 |
+| REALbasic | 20 | 2 |
 | REXX | 18 | 1 |
 | Racket | 20 | 0 |
 | Rascal | 20 | 0 |
@@ -218,6 +219,6 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Zimpl | 20 | 0 |
 | eC | 15 | 0 |
 | ooc | 19 | 0 |
-| q | 17 | 0 |
-| sed | 14 | 0 |
+| q | 15 | 0 |
+| sed | 14 | 1 |
 | xBase | 14 | 0 |
