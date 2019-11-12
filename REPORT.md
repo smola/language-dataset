@@ -3,9 +3,9 @@
 
 | Metric | Value |
 | ------ | ----- |
-| **Languages** | 210 |
-| **Total samples** | 3381 |
-| **Samples labeled by humans** | 89 |
+| **Languages** | 212 |
+| **Total samples** | 3380 |
+| **Samples labeled by humans** | 98 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -23,7 +23,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | ActionScript | 20 | 0 |
 | Ada | 20 | 0 |
 | Agda | 20 | 0 |
-| Alloy | 20 | 0 |
+| Alloy | 19 | 0 |
 | AngelScript | 3 | 0 |
 | Apex | 20 | 0 |
 | AppleScript | 20 | 0 |
@@ -43,7 +43,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Brainfuck | 14 | 0 |
 | C | 20 | 6 |
 | C# | 20 | 2 |
-| C++ | 20 | 0 |
+| C++ | 20 | 3 |
 | CLIPS | 18 | 0 |
 | CMake | 20 | 0 |
 | COBOL | 18 | 0 |
@@ -86,7 +86,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | G-code | 1 | 1 |
 | GAP | 7 | 0 |
 | GDScript | 2 | 2 |
-| GLSL | 17 | 0 |
+| GLSL | 17 | 1 |
 | Gnuplot | 14 | 0 |
 | Go | 20 | 1 |
 | Golo | 20 | 0 |
@@ -100,7 +100,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | HiveQL | 17 | 0 |
 | HolyC | 9 | 0 |
 | Hy | 20 | 0 |
-| IDL | 14 | 0 |
+| IDL | 13 | 1 |
 | IGOR Pro | 20 | 0 |
 | INI | 1 | 1 |
 | Idris | 20 | 0 |
@@ -142,7 +142,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Nim | 20 | 0 |
 | Nit | 20 | 0 |
 | Nix | 18 | 0 |
-| OCaml | 19 | 0 |
+| OCaml | 17 | 1 |
 | Objective-C | 20 | 1 |
 | Opa | 19 | 0 |
 | OpenEdge ABL | 20 | 0 |
@@ -173,6 +173,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | REXX | 18 | 1 |
 | Racket | 20 | 0 |
 | Rascal | 20 | 0 |
+| Reason | 2 | 2 |
 | Rebol | 18 | 0 |
 | Red | 19 | 0 |
 | Ring | 20 | 0 |
@@ -206,6 +207,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Vim script | 20 | 2 |
 | Visual Basic | 1 | 0 |
 | WebAssembly | 7 | 0 |
+| WebIDL | 1 | 1 |
 | Wolfram Language | 11 | 1 |
 | Wollok | 20 | 0 |
 | XML | 3 | 3 |
