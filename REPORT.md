@@ -4,8 +4,8 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 212 |
-| **Total samples** | 3380 |
-| **Samples labeled by humans** | 98 |
+| **Total samples** | 3377 |
+| **Samples labeled by humans** | 115 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -17,7 +17,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | AMPL | 20 | 3 |
 | ANTLR | 20 | 1 |
 | API Blueprint | 5 | 0 |
-| APL | 20 | 0 |
+| APL | 19 | 0 |
 | ASP | 20 | 1 |
 | ATS | 20 | 0 |
 | ActionScript | 20 | 0 |
@@ -29,20 +29,20 @@ For each language, the table reports total number of samples (_Samples_) and how
 | AppleScript | 20 | 0 |
 | Arc | 20 | 0 |
 | AspectJ | 20 | 1 |
-| Assembly | 20 | 0 |
+| Assembly | 20 | 2 |
 | Asymptote | 16 | 0 |
 | Augeas | 20 | 0 |
 | AutoHotkey | 20 | 0 |
 | AutoIt | 20 | 0 |
 | Awk | 20 | 0 |
 | Ballerina | 20 | 0 |
-| Batchfile | 14 | 0 |
+| Batchfile | 14 | 1 |
 | Befunge | 2 | 0 |
 | BlitzMax | 20 | 0 |
 | Boo | 17 | 0 |
 | Brainfuck | 14 | 0 |
 | C | 20 | 6 |
-| C# | 20 | 2 |
+| C# | 21 | 3 |
 | C++ | 20 | 3 |
 | CLIPS | 18 | 0 |
 | CMake | 20 | 0 |
@@ -53,7 +53,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Chapel | 18 | 0 |
 | ChucK | 19 | 0 |
 | Clarion | 18 | 1 |
-| Clean | 20 | 0 |
+| Clean | 19 | 1 |
 | Clojure | 19 | 0 |
 | CoffeeScript | 20 | 0 |
 | ColdFusion | 19 | 0 |
@@ -76,7 +76,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Elm | 20 | 0 |
 | Emacs Lisp | 20 | 0 |
 | Erlang | 19 | 0 |
-| F# | 20 | 0 |
+| F# | 20 | 2 |
 | Factor | 18 | 0 |
 | Fancy | 19 | 0 |
 | Fantom | 20 | 0 |
@@ -97,7 +97,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Harbour | 12 | 0 |
 | Haskell | 19 | 0 |
 | Haxe | 20 | 0 |
-| HiveQL | 17 | 0 |
+| HiveQL | 16 | 1 |
 | HolyC | 9 | 0 |
 | Hy | 20 | 0 |
 | IDL | 13 | 1 |
@@ -128,7 +128,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | MATLAB | 23 | 9 |
 | MAXScript | 17 | 0 |
 | Makefile | 18 | 0 |
-| Markdown | 15 | 4 |
+| Markdown | 15 | 7 |
 | Mercury | 9 | 0 |
 | Mirah | 15 | 0 |
 | Modula-2 | 20 | 0 |
@@ -145,7 +145,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | OCaml | 17 | 1 |
 | Objective-C | 20 | 1 |
 | Opa | 19 | 0 |
-| OpenEdge ABL | 20 | 0 |
+| OpenEdge ABL | 20 | 1 |
 | OpenSCAD | 19 | 0 |
 | Oxygene | 1 | 0 |
 | Oz | 18 | 1 |
@@ -181,14 +181,14 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Ruby | 20 | 0 |
 | Rust | 20 | 0 |
 | SAS | 20 | 1 |
-| SQL | 5 | 3 |
+| SQL | 6 | 4 |
 | Scala | 20 | 0 |
 | Scheme | 20 | 1 |
 | Scilab | 12 | 0 |
 | Self | 8 | 0 |
 | Shell | 20 | 1 |
 | Shen | 20 | 0 |
-| Smalltalk | 20 | 0 |
+| Smalltalk | 19 | 0 |
 | Squirrel | 20 | 0 |
 | Stata | 19 | 0 |
 | SuperCollider | 19 | 0 |
@@ -210,12 +210,12 @@ For each language, the table reports total number of samples (_Samples_) and how
 | WebIDL | 1 | 1 |
 | Wolfram Language | 11 | 1 |
 | Wollok | 20 | 0 |
-| XML | 3 | 3 |
-| XProc | 19 | 0 |
+| XML | 4 | 4 |
+| XProc | 17 | 0 |
 | XQuery | 20 | 0 |
 | XS | 14 | 1 |
 | XSLT | 17 | 0 |
-| Xojo | 19 | 0 |
+| Xojo | 19 | 3 |
 | YAML | 1 | 1 |
 | Zephir | 20 | 0 |
 | Zimpl | 20 | 0 |

@@ -801,6 +801,7 @@ files:
       vote: Unknown
   github.com/ErinvanderVeen/Saga/ccfcfe45248ccc081814de217062bd10326ac49b/Character.dcl:
     annotations:
+      human-smola: Clean
       linguist: Clean
       vote: Clean
   ? github.com/Everteam-Software/xforms-manager/d67dc3d07fd6a0e8d3492847d6a4685a4cae4b3e/src/main/webapp/WEB-INF/workflow/config/prologue-portlet.xpl
@@ -1204,6 +1205,7 @@ files:
       vote: Kotlin
   ? github.com/IntelligentVisibility/CalendarTimeChooser/abbc61d673dbc23877e1e6ff0047a7991cdf21c3/3_Cal-Time Chooser Custom Classes/Calendar.xojo_code
   : annotations:
+      human-smola: Xojo
       linguist: Xojo
       vote: Xojo
   github.com/IoLanguage/eerie/882524741add116efa8575b0a48876b458654a42/io/Eerie/PackageInstaller/File.io:
@@ -1328,6 +1330,7 @@ files:
       vote: OpenEdge ABL
   ? github.com/JinyangRao/spark_sql_perf/aaa088a516ef06ecc036566f590c802dfa1bad81/querys/spark-suit-clientpositive-whitelist-533/udf_bitmap_or.q
   : annotations:
+      human-smola: HiveQL
       linguist: HiveQL
       vote: HiveQL
   github.com/JochenHeizmann/ld28/5757c43c9022d1919d53778d0eb4963861fe7607/src/level.monkey:
@@ -1417,6 +1420,7 @@ files:
       vote: NetLinx
   "github.com/KaiserY/rust-book-chinese/6fce7ce2042fd5e47b1bd4b3c16ef7f35277be91/content/Borrow and AsRef Borrow \u548C AsRef.md":
     annotations:
+      human-smola: Markdown
       linguist: Markdown
       vote: Markdown
   github.com/KaiserY/trpl-zh-cn/c5e422c00166c9d20829478e3306b2786f0870db/src/ch06-02-match.md:
@@ -2026,6 +2030,7 @@ files:
       vote: OpenEdge ABL
   github.com/Panaedra/panaedra_oe_platform_base/e66ac57d037087c14fe059db1110bbb81d63be49/src/paninui/mdiwindow/sc_mdiwindow.cls:
     annotations:
+      human-smola: OpenEdge ABL
       linguist: OpenEdge ABL
       vote: OpenEdge ABL
   github.com/ParadiseSS13/Paradise/8b9f6632038bbc98f93ce1c0740c3d7ea5f0f9cc/code/modules/nano/subsystem.dm:
@@ -2900,6 +2905,7 @@ files:
       vote: PowerShell
   github.com/WindowsLies/BlockWindows/1d719fec48cc2610987abbc11107feeca82ddd1c/unblock.bat:
     annotations:
+      human-smola: Batchfile
       linguist: Batchfile
       vote: Batchfile
   ? github.com/WolframResearch/WolframLanguageForJupyter/6dab4f757685583a181972bbe42507b626657942/WolframLanguageForJupyter/Resources/EvaluationUtilities.wl
@@ -3168,6 +3174,7 @@ files:
       vote: Java
   github.com/airbnb/swift/096797e8b7cf4b4893a161b8e658305f76177e86/README.md:
     annotations:
+      human-smola: Markdown
       linguist: Markdown
       vote: Markdown
   github.com/ajholanda/nixus/b17119a0274f1fed07da305b55169b1760f4c43f/nixus.w:
@@ -3520,6 +3527,7 @@ files:
       vote: C++
   ? github.com/apple/swift-evolution/065d5c930d0acec341872aecda7abbcd1642dbe6/proposals/0190-target-environment-platform-condition.md
   : annotations:
+      human-smola: Markdown
       linguist: Markdown
       vote: Markdown
   github.com/apple/swift-llvm/7ade6a3e01d02275bcc9ee5a39142b5c9269d108/test/Transforms/Inline/inline-invoke-with-asm-call.ll:
@@ -4578,6 +4586,7 @@ files:
       vote: AGS Script
   github.com/chrislgarry/Apollo-11/e7bf183694150b77d30bdb9a8ca16a49b205993f/Luminary099/DAPIDLER_PROGRAM.agc:
     annotations:
+      human-smola: Assembly
       linguist: Assembly
       vote: Assembly
   github.com/christianguenter2/sitFRA_2016/b6fadfbda61033d70b6b3d19ca10c15cf1bec4fa/z_sitfra_2016_.prog.abap:
@@ -4626,6 +4635,7 @@ files:
       vote: Scheme
   ? github.com/cjdelisle/cjdns/45cdd8b3eebb18b6239feeef3b787e40d773edfb/node_build/dependencies/cnacl/crypto_stream/salsa20/e/sparc/salsa20.s
   : annotations:
+      human-smola: Assembly
       linguist: Assembly
       vote: Assembly
   github.com/cjharris02892/dwGUI/323958d5563002f44d44b4a52de80498e467a8d2/w_dwgui_response.srw:
@@ -4762,8 +4772,9 @@ files:
       vote: Haskell
   ? github.com/compomics/colims/4936195068337ba0c5236830f7f5f84e05d73ae5/colims-distributed/src/test/resources/data/maxquant/maxquant_SILAC_integration/combined/andromeda/allSpectra.CID.ITMS.iso_2.apl
   : annotations:
+      human-smola: Unknown
       linguist: APL
-      vote: APL
+      vote: Unknown
   ? github.com/composer/composer/4e4c38795a0814db2b9222871a63714f674fd1d9/tests/Composer/Test/DependencyResolver/RuleSetIteratorTest.php
   : annotations:
       linguist: PHP
@@ -6494,6 +6505,7 @@ files:
       vote: F#
   github.com/fsharp/fsharp/24c798bfcee5d6f91ae2c19888baeb9946744c3a/src/fsharp/InternalCollections.fsi:
     annotations:
+      human-smola: F#
       linguist: F#
       vote: F#
   github.com/fsprojects/FSharpPlus/649bf19d2c0b70c4d6b2c4123fdf393270ca176d/src/FSharpPlus/Option.fs:
@@ -6502,6 +6514,7 @@ files:
       vote: F#
   github.com/fsprojects/FsReveal/2995b52d5c076f019a6fb8a2848c44a4e8c634ba/slides/sample.fsx:
     annotations:
+      human-smola: F#
       linguist: F#
       vote: F#
   github.com/fsprojects/FsUnit/77a234f23d21c0bed3d58276fc94adb970205b99/tests/FsUnit.Xunit.Test/beEmptyStringTests.fs:
@@ -7016,8 +7029,9 @@ files:
       vote: Hy
   github.com/h31h31/H31DHTMgr/e1085dafd23fedfaddeb39c4c61707db8b3a24f9/MainForm.cs:
     annotations:
+      human-smola: C#
       linguist: Smalltalk
-      vote: Smalltalk
+      vote: C#
   github.com/h4cc/awesome-elixir/db02b06ba95c1a623be212cb7effa8e518908488/tests/mix.lock:
     annotations:
       linguist: Elixir
@@ -7298,8 +7312,9 @@ files:
       vote: MATLAB
   github.com/huangpujj/cs492_final/a5ad77bc454b67648a6f64325433702e6c0e30a7/test.q:
     annotations:
+      human-smola: SQL
       linguist: HiveQL
-      vote: HiveQL
+      vote: SQL
   github.com/huangyz0918/TankLogo/44704c398f6a5c1f1bc28d440ceb9690be4e34cb/TankLogo.nlogo:
     annotations:
       linguist: NetLogo
@@ -7860,8 +7875,9 @@ files:
       vote: Haskell
   github.com/jgstew/bigfix-content/bc047a90d0d836507f2e000c19dc88eb0a226f95/dashboards/SessionRelevanceProperties.ojo:
     annotations:
+      human-smola: XML
       linguist: XProc
-      vote: XProc
+      vote: XML
   github.com/jhmaloney/GP-Mods/36044f3cca7770c0b7f983c176b56926a8b72bcd/runtime/lib/Menu.gp:
     annotations:
       human-smola: Unknown
@@ -8489,6 +8505,7 @@ files:
       vote: Xojo
   github.com/ktekinay/M_Crypto/7202121d56a787602550f4f6295208ed667e14a0/Shared Classes/Bcrypt_MTC.xojo_code:
     annotations:
+      human-smola: Xojo
       linguist: Xojo
       vote: Xojo
   ? github.com/kubeflow/examples/7a2977ef119239d6e2a131c1ca5ee1727d0db5ce/code_search/demo/cs-demo-1103/ks_app/components/params.libsonnet
@@ -8992,8 +9009,9 @@ files:
       vote: Crystal
   github.com/madison-traynham/OrcadParts/538540ffc5a82af6ddb72910f4ea016fe017e2a0/pcb_lib/x7r_0603.caps.dcl:
     annotations:
+      human-smola: Unknown
       linguist: Clean
-      vote: Clean
+      vote: Unknown
   github.com/maduce/fosscad-repo/5b946f7d623b29914461182fa815e6a1c9f4146e/Rifles/AR-15_Magazine_Catch/Mag_catch_finger.scad:
     annotations:
       linguist: OpenSCAD
@@ -10566,8 +10584,9 @@ files:
       vote: Nemerle
   ? github.com/pengdev/home-networking/9dd139aed3ee3bd5caa0c3dec1218d88e104bf88/data/build/tmp/oneMoreTime_dlna_android_bw_700k/traffic_long.xpl
   : annotations:
+      human-smola: Unknown
       linguist: XProc
-      vote: XProc
+      vote: Unknown
   github.com/pepdiz/newlisp/57d5e88a3243a7f2a5a4225170708363800081ee/composition.lsp:
     annotations:
       linguist: NewLisp
@@ -12742,6 +12761,7 @@ files:
       vote: PureScript
   github.com/thommcgrath/ArtisanKit/f33c2e4d255525f27f0d9cde2ed71051bb3f06ec/Project/ArtisanKit/Control.xojo_code:
     annotations:
+      human-smola: Xojo
       linguist: Xojo
       vote: Xojo
   github.com/thommcgrath/Beacon/b7b35c079b209ed894d7df21389dbc3161e3adec/Project/Modules/NotificationKit/Invocation.xojo_code:
