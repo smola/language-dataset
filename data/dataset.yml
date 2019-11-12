@@ -901,8 +901,9 @@ files:
       vote: Frege
   github.com/FormidableLabs/seattlejsconf-app/6cee2cd9bcfd926a0010e3d00e781161455f5c53/re/types/GraphQLTag.re:
     annotations:
+      human-smola: Reason
       linguist: OCaml
-      vote: OCaml
+      vote: Reason
   ? github.com/FortAwesome/Font-Awesome/1c1b102b2ba19518d77e60e97cf1b4ebf133bba0/js-packages/@fortawesome/free-solid-svg-icons/faBlender.js
   : annotations:
       linguist: JavaScript
@@ -1440,6 +1441,7 @@ files:
       vote: Ioke
   github.com/KhronosGroup/SPIRV-Cross/b56c2f4271e139ab6db68315a4c0d6e24b0fe788/reference/shaders-msl/tese/quad.tese:
     annotations:
+      human-smola: GLSL
       linguist: GLSL
       vote: GLSL
   github.com/KhronosGroup/glTF-Sample-Models/18912e96c60245f71a3775d365c990009307a11a/1.0/VC/glTF/VC5FS.glsl:
@@ -2803,6 +2805,7 @@ files:
       vote: Vala
   github.com/ValveSoftware/Proton/71d463772997f4b2cc2c5eabbd99883fbdc538a6/lsteamclient/steamworks_sdk_118/matchmakingtypes.h:
     annotations:
+      human-smola: C++
       linguist: C++
       vote: C++
   ? github.com/VerificationExcellence/SystemVerilogReference/ee380e02a487527df6e7b5d11c52966b98cb8688/projects/DualPortRam/dualport_ram.sv
@@ -3512,6 +3515,7 @@ files:
       vote: PowerBuilder
   github.com/apple/foundationdb/ae34999dceece6fa91146f07f0a401dd8c4030c7/flow/serialize.cpp:
     annotations:
+      human-smola: C++
       linguist: C++
       vote: C++
   ? github.com/apple/swift-evolution/065d5c930d0acec341872aecda7abbcd1642dbe6/proposals/0190-target-environment-platform-condition.md
@@ -4098,6 +4102,7 @@ files:
       vote: IDL
   github.com/bitcoin/bitcoin/224c19645fa0478112ea0129a75ba0097caa55ad/src/qt/bitcoinstrings.cpp:
     annotations:
+      human-smola: C++
       linguist: C++
       vote: C++
   github.com/bitcoinops/scaling-book/dfa8d912e3e0e3d32797c214c335f3df6eaec8ac/x.payment_batching/img/batching.plot:
@@ -7362,6 +7367,7 @@ files:
       vote: Markdown
   github.com/ianan/demreg/084fb37c75c8303d00f1222a78909cd02dda5914/util/example_making_eps_out.pro:
     annotations:
+      human-smola: IDL
       linguist: IDL
       vote: IDL
   github.com/ianfitzpatrick/popuparcade/08e084fa7048d70bdf95d073ac09b2d4585e4501/.attract/layouts/popuparcade/layout.nut:
@@ -8939,8 +8945,9 @@ files:
       vote: Agda
   ? github.com/ma-ath/Amplificador-de-Potencia/eb5828dd4ff27abb62e4369cfa17e55c920f02dd/eletronica-iv-trabalho-PSpiceFiles/Trabalho/Trabalho.ALS
   : annotations:
+      human-smola: Language
       linguist: Alloy
-      vote: Alloy
+      vote: Language
   github.com/macgregor/kol-telegram/33bc04925bebbaa29da77b376dab99fe3544c4e1/Release/scripts/telegram/__telegram_data.ash:
     annotations:
       linguist: AGS Script
@@ -11370,8 +11377,9 @@ files:
       vote: Rebol
   github.com/revery-ui/revery/4a37510cc8ca436e69fc8e77e9930126ca633b33/src/Draw/FontShader.re:
     annotations:
+      human-smola: Reason
       linguist: OCaml
-      vote: OCaml
+      vote: Reason
   github.com/rexim/fantom2048/958a85d9d063287b1beeafb81d0c40d716092d25/src/fan/Board.fan:
     annotations:
       linguist: Fantom
@@ -13085,6 +13093,7 @@ files:
       vote: Clean
   github.com/uber/NEAL/7789fcef09f05c2aff1df7622b8ebed2bfbdb881/src/providers/swift/swift_provider.ml:
     annotations:
+      human-smola: OCaml
       linguist: OCaml
       vote: OCaml
   github.com/ucb-bar/fpga-zynq/726eb97185a74014ef3af059458db56d9ca25755/zc706/src/tcl/zc706_bd.tcl:
@@ -13440,8 +13449,9 @@ files:
       vote: Clojure
   github.com/web-dom/web-dom/09eb388a4adfaee8e4ade0c7122486b703164f5c/webidl/UDPSocket.webidl:
     annotations:
+      human-smola: WebIDL
       linguist: IDL
-      vote: IDL
+      vote: WebIDL
   github.com/web3space/web3t/f908e4351037314401ba1448ae3fe06c94396675/plugins/qiwi-rs.ls:
     annotations:
       linguist: LiveScript
