@@ -7592,8 +7592,9 @@ files:
       vote: Logtalk
   github.com/italosanntoss/exercicio-pilha/02e1ad3c3c02d7daaeb12b438ea3b9a7d9ea36a7/questao3.fy:
     annotations:
+      human-ajnavarro: Python
       linguist: Fancy
-      vote: Fancy
+      vote: Python
   github.com/itsFrank/MinecraftHDL/ae4c632ab695437e387eb4830f598a348bf401df/verilog/windows/autoyosys/share/ice40/brams_init3.vh:
     annotations:
       linguist: SystemVerilog
@@ -8988,6 +8989,7 @@ files:
       vote: Tcl
   github.com/macports/macports-ports/64f94ba5263135f2f0b1c5b5f1e2a88e340d5d26/lang/scheme48/Portfile:
     annotations:
+      human-ajnavarro: Tcl
       linguist: Tcl
       vote: Tcl
   github.com/macropeople/macrocore/b1efcfc0d465e98f0ff5148d9bee0c05d74c9796/meta/mm_gettree.sas:
@@ -12671,8 +12673,9 @@ files:
       vote: ASP
   github.com/texmacs/texmacs/106de6e055fd0b3054e7a1246fef42535680ec51/TeXmacs/doc/main/text/man-structure.zh.tm:
     annotations:
+      human-ajnavarro: Unknown
       linguist: Tcl
-      vote: Tcl
+      vote: Unknown
   github.com/tfaoliveira/libjc/b28765f6b6099c12764de16fd2e911f978a21aa9/proof/crypto_hash/keccak1600/EclibExtra.ec:
     annotations:
       human-smola: Coq
