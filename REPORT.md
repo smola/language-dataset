@@ -4,8 +4,8 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 212 |
-| **Total samples** | 3376 |
-| **Samples labeled by humans** | 117 |
+| **Total samples** | 3373 |
+| **Samples labeled by humans** | 124 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -15,11 +15,11 @@ For each language, the table reports total number of samples (_Samples_) and how
 | ABAP | 20 | 0 |
 | AGS Script | 20 | 0 |
 | AMPL | 20 | 3 |
-| ANTLR | 20 | 1 |
+| ANTLR | 19 | 2 |
 | API Blueprint | 5 | 0 |
 | APL | 19 | 0 |
 | ASP | 20 | 1 |
-| ATS | 20 | 0 |
+| ATS | 20 | 2 |
 | ActionScript | 20 | 0 |
 | Ada | 20 | 0 |
 | Agda | 20 | 0 |
@@ -88,7 +88,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | GDScript | 2 | 2 |
 | GLSL | 17 | 1 |
 | Gnuplot | 14 | 0 |
-| Go | 20 | 1 |
+| Go | 20 | 2 |
 | Golo | 20 | 0 |
 | Gosu | 8 | 0 |
 | Groovy | 20 | 0 |
@@ -121,7 +121,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | LabVIEW | 19 | 0 |
 | Lasso | 10 | 0 |
 | Limbo | 17 | 0 |
-| LiveScript | 20 | 0 |
+| LiveScript | 20 | 1 |
 | Logtalk | 20 | 0 |
 | Lua | 20 | 1 |
 | M4 | 16 | 0 |
@@ -157,7 +157,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Perl | 20 | 2 |
 | Perl 6 | 11 | 0 |
 | PicoLisp | 20 | 1 |
-| Pike | 20 | 0 |
+| Pike | 20 | 1 |
 | Pony | 20 | 0 |
 | PostScript | 8 | 0 |
 | PowerBuilder | 17 | 0 |
@@ -190,7 +190,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Shen | 20 | 0 |
 | Smalltalk | 19 | 0 |
 | Squirrel | 20 | 0 |
-| Stata | 19 | 0 |
+| Stata | 17 | 1 |
 | SuperCollider | 19 | 0 |
 | Swift | 19 | 0 |
 | SystemVerilog | 19 | 0 |
