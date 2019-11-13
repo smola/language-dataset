@@ -4,8 +4,8 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 212 |
-| **Total samples** | 3377 |
-| **Samples labeled by humans** | 115 |
+| **Total samples** | 3376 |
+| **Samples labeled by humans** | 117 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -78,7 +78,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Erlang | 19 | 0 |
 | F# | 20 | 2 |
 | Factor | 18 | 0 |
-| Fancy | 19 | 0 |
+| Fancy | 18 | 0 |
 | Fantom | 20 | 0 |
 | Forth | 19 | 0 |
 | Fortran | 20 | 0 |
@@ -166,7 +166,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Prolog | 18 | 1 |
 | PureBasic | 12 | 0 |
 | PureScript | 20 | 0 |
-| Python | 20 | 1 |
+| Python | 21 | 2 |
 | QMake | 1 | 1 |
 | R | 21 | 1 |
 | REALbasic | 20 | 2 |
@@ -195,7 +195,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Swift | 19 | 0 |
 | SystemVerilog | 19 | 0 |
 | TSQL | 1 | 1 |
-| Tcl | 19 | 0 |
+| Tcl | 18 | 1 |
 | Terra | 7 | 0 |
 | Text | 1 | 1 |
 | Turing | 8 | 0 |
