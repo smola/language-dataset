@@ -1745,6 +1745,7 @@ files:
       vote: Mercury
   github.com/MetaCell/NEURON-UI/2a642c78a127a500ba139b83bb8d263035b52be7/neuron_ui/models/PTCell/mod/hsyn.mod:
     annotations:
+      human-ajnavarro: AMPL
       linguist: AMPL
       vote: AMPL
   github.com/Michael-Kelley/CABAL-Online-3ds-Scripts/51cbd3dd919e75106ad11c9c9a405620a1d75454/export_ebm_cabal.ms:
@@ -2191,6 +2192,7 @@ files:
       vote: Swift
   github.com/Ptujec/LaunchBar/a5d8da916a8e2970ea217e7780ec8d805cee2038/iTunes - Fade in out.applescript:
     annotations:
+      human-ajnavarro: AppleScript
       linguist: AppleScript
       vote: AppleScript
   github.com/Pulover/PuloversMacroCreator/15f44d68f7cdf6b79df43c6871761c0773981272/LIB/Class_ObjIni.ahk:
@@ -2358,6 +2360,7 @@ files:
       vote: Prolog
   github.com/Safecast/Solarcast/47e183c6914bd4001a5e97be3722c66a07cf82af/geiger-module/kicad/OPENHARDWARE_small.mod:
     annotations:
+      human-ajnavarro: AMPL
       linguist: AMPL
       vote: AMPL
   github.com/Saizan/miller/17637ec5267fac2f2072f8c5d5e2a82d11505a46/Injections.agda:
@@ -3231,6 +3234,7 @@ files:
       vote: Clojure
   github.com/alecmuffett/eotk/d6021400df94479fe28d928aecacff98d1bc7822/templates.d/nginx.conf.txt:
     annotations:
+      human-ajnavarro: Awk
       linguist: Awk
       vote: Awk
   github.com/alex-ren/MTVeri/240ecd6ae18d9e8cb75a74ba27f1f748ab67bb46/scratch/ATS-parse-emit/CIL/TEST/queens.dats:
@@ -6884,6 +6888,7 @@ files:
       vote: Jsonnet
   github.com/google/lisp-koans/46fb766618ccc2e10fb7ff398a653d10aeff0a23/koans/macros.lsp:
     annotations:
+      human-ajnavarro: Common Lisp
       linguist: Common Lisp
       vote: Common Lisp
   github.com/google/protobuf-gradle-plugin/8f78c0f220ace0d460c5320181aaf4a23e5eebf0/src/main/groovy/com/google/protobuf/gradle/ProtobufPlugin.groovy:
@@ -8672,6 +8677,7 @@ files:
       vote: COBOL
   github.com/lazerwalker/hubot-imessage/ec1163b4779b75174f46d16c04bb768378295075/src/Hubot Event Handler.applescript:
     annotations:
+      human-ajnavarro: AppleScript
       linguist: AppleScript
       vote: AppleScript
   github.com/lboasso/oberonc/688da3d12b2b04c25f6f3d7f132543aa488fe0e5/tests/base/TestByteType.Mod:
@@ -9305,8 +9311,9 @@ files:
       vote: Unknown
   github.com/mcimini/TypeSoundnessCertifier/321d1367339421b650557eb3b1745995fde4a369/repo/stlc_par_letrecWithType.mod:
     annotations:
+      human-ajnavarro: Unknown
       linguist: AMPL
-      vote: AMPL
+      vote: Unknown
   github.com/mconnell/expect/bcebe24fa7fbb2c61d0c48940f551116be7d5307/test/matchers_test.mirah:
     annotations:
       linguist: Mirah
@@ -11978,8 +11985,9 @@ files:
       vote: XQuery
   github.com/sctb/lumen/2d272b2cc78b23b0b23a69a08fc625240e545ebc/main.l:
     annotations:
+      human-ajnavarro: Unknown
       linguist: Common Lisp
-      vote: Common Lisp
+      vote: Unknown
   github.com/scurty-labs/weel/45598a5a7318de6692e26c84f441af8cf78dba1c/project.monkey2:
     annotations:
       linguist: Monkey
@@ -12115,6 +12123,7 @@ files:
       vote: PureScript
   github.com/sharplispers/cormanlisp/6ff68633ed730dbd1500f06639dd093513b4278e/Sys/auto-update.lisp:
     annotations:
+      human-ajnavarro: Common Lisp
       linguist: Common Lisp
       vote: Common Lisp
   github.com/sheganinans/pfpl-shen/26bc29a573038e6e2171cd22b10438bc0d4b9766/pfpl-4.shen:
@@ -12217,6 +12226,7 @@ files:
       vote: GLSL
   github.com/slime/slime/2b9feb2fef764c6713ce433a6318cc412127172d/swank/clisp.lisp:
     annotations:
+      human-ajnavarro: Common Lisp
       linguist: Common Lisp
       vote: Common Lisp
   github.com/smmankad/float/c20b44e342dee91736e4f1cfd076bb85a13a0e8b/src/Ribbons/botao.pde:
