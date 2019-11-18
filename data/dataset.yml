@@ -1822,8 +1822,9 @@ files:
       vote: Shen
   github.com/NIDCD/lsnm_in_python/c244ba39627840485919ca395c08287eded3cf2c/visual_model/subject_19/lgnsev1h.w:
     annotations:
+      human-ajnavarro: Unknown
       linguist: CWeb
-      vote: CWeb
+      vote: Unknown
   github.com/NISystemsEngineering/FrontPanelLayout/01dae98e23e6550075da82ad2f26d03920d111d5/trunk/source/Panel Layout.lvproj:
     annotations:
       linguist: LabVIEW
@@ -2091,8 +2092,9 @@ files:
       vote: PL/SQL
   github.com/Pebaz/RGB/6736ea0f3898a334050589fdc1074022a27273c3/example/multiple_struct_variable_declarations.reds:
     annotations:
+      human-ajnavarro: C
       linguist: Red
-      vote: Red
+      vote: C
   github.com/Peltoche/lsd/c4d5f5ea0b1ee9ae549438b58df79f00fa209023/src/meta/windows_utils.rs:
     annotations:
       linguist: Rust
@@ -2975,6 +2977,7 @@ files:
       vote: NetLogo
   github.com/Zamlox/red-tools/6b760535636c5589ae437b27e0ec4756f90a2bdf/svg/agent.red:
     annotations:
+      human-ajnavarro: Red
       linguist: Red
       vote: Red
   github.com/Zeroloop/l-unit8/cb7038949aab93e494660a1e7a37cdd5198e87e3/index.lasso:
@@ -6280,6 +6283,7 @@ files:
       vote: PowerBuilder
   github.com/fish-shell/fish-shell/ac2eed2ffa71aa6db08dad2ea6f6b0dd89f815d6/share/completions/iex.fish:
     annotations:
+      human-ajnavarro: Shell
       linguist: Shell
       vote: Shell
   github.com/fjqingyou/PotPlayer_Subtitle_Translate_Baidu/bc51d64d18bf21c0399150e8843253b7a5c585ee/SubtitleTranslate - baidu.as:
@@ -6460,6 +6464,7 @@ files:
       vote: ooc
   github.com/fredyouhanaie/etclface/8ab61bb48e8f02d4c4d8a4766177eb8ac60bc4f6/boilerplate.w:
     annotations:
+      human-ajnavarro: CWeb
       linguist: CWeb
       vote: CWeb
   github.com/freeCodeCamp/devdocs/58c44bf332d6fca75b1d249439f8ea19c81f5326/lib/docs/filters/d/entries.rb:
@@ -7455,8 +7460,9 @@ files:
       vote: CWeb
   github.com/igorw/reasoned-php/d84eaee1894b03e1d4d425fce1d71fa683d07e1e/clause-and-effect/28-linearising-efficiently.php:
     annotations:
+      human-ajnavarro: PHP
       linguist: Hack
-      vote: Hack
+      vote: PHP
   github.com/igorwfaoro/keyboard-autocomplete/4117bb813d46ad85f8aa4c1f16ba7f5695731822/data - Copia/keys.ik:
     annotations:
       linguist: Ioke
@@ -10471,8 +10477,9 @@ files:
       vote: VHDL
   ? github.com/parallella/parallella-hw/a6bcdf844c56366525bef73d3355c75bba19e3f5/archive/fpga/ip/xilinx/fifo_async_103x32/fifo_generator_v12_0/hdl/builtin/builtin_top_v6.vhd
   : annotations:
+      human-ajnavarro: Unknown
       linguist: VHDL
-      vote: VHDL
+      vote: Unknown
   github.com/paras16jul1991/aws-Emr/5559f31d69ea171da20571e334faf1c79e5cea01/hive_emr_script.q:
     annotations:
       linguist: HiveQL
@@ -10961,8 +10968,9 @@ files:
       vote: Pascal
   ? github.com/progranism/Open-Source-FPGA-Bitcoin-Miner/fd76bc932ae04be2b27be769871105c4678af9dc/projects/KC705_experimental/KC705_experimental.srcs/sources_1/ip/golden_ticket_fifo/fifo_generator_v10_0/fifo16_patch/fifo_generator_v10_0_fifo16_patch.vhd
   : annotations:
+      human-ajnavarro: Unknown
       linguist: VHDL
-      vote: VHDL
+      vote: Unknown
   github.com/proofcert/fpccheck/6de59990bfb7762f869e0d3a4c5d0fad453a86c2/fpc/lprolog/pair.mod:
     annotations:
       human-smola: Unknown
@@ -13453,8 +13461,9 @@ files:
       vote: LLVM
   github.com/wasplang/std/44a681aaca4c1f30287c9a41ecda48ccfff47ac2/strings.w:
     annotations:
+      human-ajnavarro: Unknown
       linguist: CWeb
-      vote: CWeb
+      vote: Unknown
   github.com/watabou/TownGeneratorOS/7fbc87a9398cc508af24de93f79cf2ad027f352b/Source/com/watabou/utils/Observable.hx:
     annotations:
       linguist: Haxe
@@ -13551,8 +13560,9 @@ files:
       vote: Scheme
   github.com/wintercoder/datamaker/08aae336badbabf8800b6e939973abddb70b5c30/index.php:
     annotations:
+      human-ajnavarro: HTML
       linguist: Hack
-      vote: Hack
+      vote: HTML
   ? github.com/wireapp/wire-android/0e59fcda5b31e2ccaf9c3f7787eb9453f9487475/wire-android-sync-engine/zmessaging/src/main/scala/com/waz/utils/Serialized.scala
   : annotations:
       linguist: Scala

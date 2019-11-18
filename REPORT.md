@@ -4,8 +4,8 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 212 |
-| **Total samples** | 3373 |
-| **Samples labeled by humans** | 124 |
+| **Total samples** | 3369 |
+| **Samples labeled by humans** | 130 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -41,14 +41,14 @@ For each language, the table reports total number of samples (_Samples_) and how
 | BlitzMax | 20 | 0 |
 | Boo | 17 | 0 |
 | Brainfuck | 14 | 0 |
-| C | 20 | 6 |
+| C | 21 | 7 |
 | C# | 21 | 3 |
 | C++ | 20 | 3 |
 | CLIPS | 18 | 0 |
 | CMake | 20 | 0 |
 | COBOL | 18 | 0 |
 | CSS | 1 | 1 |
-| CWeb | 20 | 0 |
+| CWeb | 18 | 1 |
 | Ceylon | 20 | 0 |
 | Chapel | 18 | 0 |
 | ChucK | 19 | 0 |
@@ -92,8 +92,8 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Golo | 20 | 0 |
 | Gosu | 8 | 0 |
 | Groovy | 20 | 0 |
-| HTML | 1 | 1 |
-| Hack | 18 | 0 |
+| HTML | 2 | 2 |
+| Hack | 16 | 0 |
 | Harbour | 12 | 0 |
 | Haskell | 19 | 0 |
 | Haxe | 20 | 0 |
@@ -149,7 +149,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | OpenSCAD | 19 | 0 |
 | Oxygene | 1 | 0 |
 | Oz | 18 | 1 |
-| PHP | 20 | 0 |
+| PHP | 21 | 1 |
 | PL/SQL | 15 | 1 |
 | PL/pgSQL | 15 | 0 |
 | POV-Ray SDL | 2 | 0 |
@@ -175,7 +175,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Rascal | 20 | 0 |
 | Reason | 2 | 2 |
 | Rebol | 18 | 0 |
-| Red | 19 | 0 |
+| Red | 18 | 1 |
 | Ring | 20 | 0 |
 | Roff | 1 | 1 |
 | Ruby | 20 | 0 |
@@ -186,7 +186,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Scheme | 20 | 1 |
 | Scilab | 12 | 0 |
 | Self | 8 | 0 |
-| Shell | 20 | 1 |
+| Shell | 20 | 2 |
 | Shen | 20 | 0 |
 | Smalltalk | 19 | 0 |
 | Squirrel | 20 | 0 |
@@ -201,7 +201,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Turing | 8 | 0 |
 | TypeScript | 20 | 0 |
 | V | 18 | 0 |
-| VHDL | 18 | 0 |
+| VHDL | 16 | 0 |
 | Vala | 20 | 1 |
 | Verilog | 20 | 5 |
 | Vim script | 20 | 2 |
