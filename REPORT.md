@@ -4,8 +4,8 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 212 |
-| **Total samples** | 3368 |
-| **Samples labeled by humans** | 139 |
+| **Total samples** | 3367 |
+| **Samples labeled by humans** | 148 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -92,8 +92,8 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Golo | 20 | 0 |
 | Gosu | 8 | 0 |
 | Groovy | 20 | 0 |
-| HTML | 2 | 2 |
-| Hack | 16 | 0 |
+| HTML | 4 | 4 |
+| Hack | 15 | 1 |
 | Harbour | 12 | 0 |
 | Haskell | 19 | 0 |
 | Haxe | 20 | 0 |
@@ -138,7 +138,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Nemerle | 14 | 0 |
 | NetLinx | 20 | 0 |
 | NetLogo | 19 | 0 |
-| NewLisp | 15 | 0 |
+| NewLisp | 14 | 6 |
 | Nim | 20 | 0 |
 | Nit | 20 | 0 |
 | Nix | 18 | 0 |
@@ -149,7 +149,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | OpenSCAD | 19 | 0 |
 | Oxygene | 1 | 0 |
 | Oz | 18 | 1 |
-| PHP | 21 | 1 |
+| PHP | 20 | 0 |
 | PL/SQL | 15 | 1 |
 | PL/pgSQL | 15 | 0 |
 | POV-Ray SDL | 2 | 0 |
@@ -203,7 +203,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | V | 18 | 0 |
 | VHDL | 16 | 0 |
 | Vala | 20 | 1 |
-| Verilog | 20 | 5 |
+| Verilog | 20 | 6 |
 | Vim script | 20 | 2 |
 | Visual Basic | 2 | 1 |
 | WebAssembly | 7 | 0 |
