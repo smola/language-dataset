@@ -2,8 +2,21 @@ import os
 import os.path
 import subprocess
 from typing import Sequence, Union
+
+# XXX: long keys (>128 characters) will be prefixed with '?'
+#     This workaround prevents this behavior with Dumper.
+#     Note that CDumper has a similar (but not fully consistent)
+#     behavior, so we strictly rely on the slower pure Python implementation.
 import yaml
-from yaml import CLoader as Loader, CDumper as Dumper
+
+yaml.emitter.Emitter.check_simple_key = lambda x: True
+
+from yaml import Dumper
+
+try:
+    from yaml import CLoader as Loader
+except ImportError:
+    from yaml import Loader
 
 DATA_DIR = "data"
 META_PATH = os.path.join(DATA_DIR, "meta.yml")
@@ -95,7 +108,16 @@ def load_yaml_from_steam(f):
 
 def save_yaml(data, path):
     with open(path, "w") as f:
-        yaml.dump(data, f, Dumper=Dumper, width=10000)
+        yaml.dump(
+            data,
+            f,
+            Dumper=Dumper,
+            width=10000,
+            line_break="\n",
+            canonical=False,
+            sort_keys=True,
+            default_flow_style=False,
+        )
 
 
 def clone_tmp_repo(repo, commit=None):
