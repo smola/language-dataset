@@ -1257,6 +1257,7 @@ files:
       vote: LabVIEW
   github.com/JOfTheAncientGermanSpear/Simple-Time-Stretcher-Scilab/638360ea04ee4951f9a4e550d45fcea0bc01c867/src/scilab/timeStretch.sci:
     annotations:
+      human-smola: Scilab
       linguist: Scilab
       vote: Scilab
   github.com/Jack000/Expose/257d6b1bf39493e65a3b955fca50231516495875/Markdown_1.0.1/Markdown.pl:
@@ -2514,6 +2515,7 @@ files:
       vote: Unknown
   github.com/SortableJS/Vue.Draggable/2df59aecda6901d56a83bfd299e67973482271c5/src/vuedraggable.js:
     annotations:
+      human-smola: JavaScript
       linguist: JavaScript
       vote: JavaScript
   github.com/SpaceAceMonkey/simpletrie/6b40bfcd7f6b52b1cd0bd54b948a2b8ff1eb93ff/modules/spaceace/simpletrie/cTrie.monkey:
@@ -2579,6 +2581,7 @@ files:
       vote: Verilog
   github.com/SumrainChan/Numerical-Calculation-Collection/d583df6ba68ba25962c7f08985c0f0c70e53b051/Item01/Item01.sce:
     annotations:
+      human-smola: Scilab
       linguist: Scilab
       vote: Scilab
   github.com/SunnyLi/MapleTuring/340e2955a2a6dc389bfe386154d10a421b4c782a/MapleTuring (Final).t:
@@ -4057,8 +4060,9 @@ files:
       vote: Rascal
   github.com/begoon/acm/05472eaa0fff7abb6679826085da5e0c990df4cb/ch24.org/2011/Pre-round, 2011.02.12/R/text05.tst:
     annotations:
+      human-smola: Unknown
       linguist: Scilab
-      vote: Scilab
+      vote: Unknown
   github.com/bekkopen/jasmineio/4988aadfa028bdaa3c11c9431eb4277dcecbf88d/io/spy_spec.io:
     annotations:
       linguist: Io
@@ -4089,6 +4093,7 @@ files:
       vote: Nix
   github.com/benweet/stackedit/2fdbb67c67159c4ccfddbe51fc9303c6c799dbe0/src/services/providers/helpers/zendeskHelper.js:
     annotations:
+      human-smola: JavaScript
       linguist: JavaScript
       vote: JavaScript
   github.com/bernerdschaefer/sgheme/5007b2763c8280668d3bb72b9e50c17a057bc8ee/sicp.lisp:
@@ -4184,8 +4189,9 @@ files:
       vote: ANTLR
   github.com/bkiers/sqlite-parser/9adf75ff5eca36f6e541594d2e062349f9ced654/src/test/resources/tkt3493.test_1.sql:
     annotations:
+      human-smola: SQL
       linguist: PL/pgSQL
-      vote: PL/pgSQL
+      vote: SQL
   github.com/blackcata/1D-RANS/cdf7efa59778749b0f492cfa1cabda342327ec6f/DATA/CHANNEL_0180_mean_prof.plt:
     annotations:
       linguist: Gnuplot
@@ -10398,8 +10404,9 @@ files:
       vote: LSL
   github.com/openstack-attic/akanda/49976b089a75e315233ab251bb9c591cfa5ed86d/specs/template.tst:
     annotations:
+      human-smola: reStructuredText
       linguist: Scilab
-      vote: Scilab
+      vote: reStructuredText
   github.com/openthings/kubernetes-tools/46d04f6809e55c4ae43c374a658cd1375d484557/ksonnet/guestbook/components/guestbook-ui.jsonnet:
     annotations:
       linguist: Jsonnet
@@ -10986,8 +10993,9 @@ files:
       vote: Unknown
   github.com/procaconsul/sociologic/dcec734783f92ad04d118376131f162fddf55670/experiments/narrow-passage-one-person.las:
     annotations:
+      human-smola: Unknown
       linguist: Lasso
-      vote: Lasso
+      vote: Unknown
   github.com/processone/ejabberd/bb26d7c379f65fa3c6363a43a8f821a7f38b371d/src/mod_mam_mnesia.erl:
     annotations:
       linguist: Erlang
@@ -11552,6 +11560,7 @@ files:
       vote: Ring
   github.com/riot/riot/fc0cc802ab67baf10196dcd1433e6597ccb5b723/src/core/component.js:
     annotations:
+      human-smola: JavaScript
       linguist: JavaScript
       vote: JavaScript
   github.com/riscy/shx-for-emacs/298f96e68068d6891d20e6188e918ab55ac56b30/shx.el:
@@ -13111,6 +13120,7 @@ files:
       vote: PicoLisp
   github.com/twbs/bootstrap/258a56b473edea843eb20e80bbc7bf49eb040a32/js/tests/unit/dom/selector-engine.spec.js:
     annotations:
+      human-smola: JavaScript
       linguist: JavaScript
       vote: JavaScript
   github.com/tweag/asterius/beb0b82786de8ce2daaad4aed3c594065a6311db/ghc-toolkit/boot-libs/text/Data/Text/Internal/IO.hs:

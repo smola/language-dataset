@@ -3,9 +3,9 @@
 
 | Metric | Value |
 | ------ | ----- |
-| **Languages** | 213 |
-| **Total samples** | 3363 |
-| **Samples labeled by humans** | 164 |
+| **Languages** | 214 |
+| **Total samples** | 3361 |
+| **Samples labeled by humans** | 172 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -109,7 +109,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | J | 19 | 0 |
 | JSON | 1 | 1 |
 | Java | 21 | 1 |
-| JavaScript | 20 | 0 |
+| JavaScript | 20 | 4 |
 | Jsonnet | 20 | 0 |
 | Julia | 18 | 0 |
 | KiCad Layout | 2 | 2 |
@@ -120,7 +120,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | LSL | 20 | 0 |
 | LTspice Symbol | 1 | 1 |
 | LabVIEW | 19 | 0 |
-| Lasso | 10 | 2 |
+| Lasso | 9 | 2 |
 | Limbo | 17 | 0 |
 | LiveScript | 20 | 1 |
 | Logtalk | 20 | 0 |
@@ -152,7 +152,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Oz | 18 | 1 |
 | PHP | 20 | 0 |
 | PL/SQL | 15 | 1 |
-| PL/pgSQL | 15 | 0 |
+| PL/pgSQL | 14 | 0 |
 | POV-Ray SDL | 2 | 0 |
 | Pascal | 20 | 1 |
 | Perl | 20 | 2 |
@@ -182,10 +182,10 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Ruby | 20 | 0 |
 | Rust | 20 | 0 |
 | SAS | 20 | 1 |
-| SQL | 6 | 4 |
+| SQL | 7 | 5 |
 | Scala | 20 | 0 |
 | Scheme | 20 | 1 |
-| Scilab | 12 | 0 |
+| Scilab | 10 | 2 |
 | Self | 8 | 0 |
 | Shell | 20 | 2 |
 | Shen | 20 | 0 |
@@ -223,5 +223,6 @@ For each language, the table reports total number of samples (_Samples_) and how
 | eC | 13 | 0 |
 | ooc | 19 | 0 |
 | q | 15 | 0 |
+| reStructuredText | 1 | 1 |
 | sed | 14 | 1 |
 | xBase | 14 | 0 |
