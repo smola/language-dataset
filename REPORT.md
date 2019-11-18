@@ -4,8 +4,8 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 212 |
-| **Total samples** | 3367 |
-| **Samples labeled by humans** | 148 |
+| **Total samples** | 3365 |
+| **Samples labeled by humans** | 156 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -14,7 +14,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | -------- | ------- | ------|
 | ABAP | 20 | 0 |
 | AGS Script | 20 | 0 |
-| AMPL | 20 | 3 |
+| AMPL | 19 | 5 |
 | ANTLR | 19 | 2 |
 | API Blueprint | 5 | 0 |
 | APL | 19 | 0 |
@@ -26,7 +26,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Alloy | 19 | 0 |
 | AngelScript | 3 | 0 |
 | Apex | 20 | 0 |
-| AppleScript | 20 | 0 |
+| AppleScript | 20 | 2 |
 | Arc | 20 | 0 |
 | AspectJ | 20 | 1 |
 | Assembly | 20 | 2 |
@@ -34,7 +34,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Augeas | 20 | 0 |
 | AutoHotkey | 20 | 0 |
 | AutoIt | 20 | 0 |
-| Awk | 20 | 0 |
+| Awk | 20 | 1 |
 | Ballerina | 20 | 0 |
 | Batchfile | 14 | 1 |
 | Befunge | 2 | 0 |
@@ -58,7 +58,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | CoffeeScript | 20 | 0 |
 | ColdFusion | 19 | 0 |
 | ColdFusion CFC | 1 | 1 |
-| Common Lisp | 15 | 1 |
+| Common Lisp | 14 | 4 |
 | Component Pascal | 1 | 0 |
 | Coq | 18 | 1 |
 | Crystal | 19 | 0 |
