@@ -4,8 +4,8 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 212 |
-| **Total samples** | 3369 |
-| **Samples labeled by humans** | 130 |
+| **Total samples** | 3368 |
+| **Samples labeled by humans** | 139 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -41,7 +41,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | BlitzMax | 20 | 0 |
 | Boo | 17 | 0 |
 | Brainfuck | 14 | 0 |
-| C | 21 | 7 |
+| C | 22 | 8 |
 | C# | 21 | 3 |
 | C++ | 20 | 3 |
 | CLIPS | 18 | 0 |
@@ -74,15 +74,15 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Eiffel | 20 | 2 |
 | Elixir | 20 | 0 |
 | Elm | 20 | 0 |
-| Emacs Lisp | 20 | 0 |
+| Emacs Lisp | 20 | 1 |
 | Erlang | 19 | 0 |
 | F# | 20 | 2 |
 | Factor | 18 | 0 |
 | Fancy | 18 | 0 |
 | Fantom | 20 | 0 |
 | Forth | 19 | 0 |
-| Fortran | 20 | 0 |
-| Frege | 17 | 0 |
+| Fortran | 20 | 3 |
+| Frege | 17 | 1 |
 | G-code | 1 | 1 |
 | GAP | 7 | 0 |
 | GDScript | 2 | 2 |
@@ -97,7 +97,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Harbour | 12 | 0 |
 | Haskell | 19 | 0 |
 | Haxe | 20 | 0 |
-| HiveQL | 16 | 1 |
+| HiveQL | 15 | 1 |
 | HolyC | 9 | 0 |
 | Hy | 20 | 0 |
 | IDL | 13 | 1 |
@@ -124,7 +124,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | LiveScript | 20 | 1 |
 | Logtalk | 20 | 0 |
 | Lua | 20 | 1 |
-| M4 | 16 | 0 |
+| M4 | 16 | 2 |
 | MATLAB | 23 | 9 |
 | MAXScript | 17 | 0 |
 | Makefile | 18 | 0 |
@@ -205,7 +205,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Vala | 20 | 1 |
 | Verilog | 20 | 5 |
 | Vim script | 20 | 2 |
-| Visual Basic | 1 | 0 |
+| Visual Basic | 2 | 1 |
 | WebAssembly | 7 | 0 |
 | WebIDL | 1 | 1 |
 | Wolfram Language | 11 | 1 |
@@ -219,7 +219,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | YAML | 1 | 1 |
 | Zephir | 20 | 0 |
 | Zimpl | 20 | 0 |
-| eC | 15 | 0 |
+| eC | 13 | 0 |
 | ooc | 19 | 0 |
 | q | 15 | 0 |
 | sed | 14 | 1 |

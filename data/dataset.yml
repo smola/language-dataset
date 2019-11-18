@@ -665,6 +665,7 @@ files:
       vote: Nit
   github.com/DennisYurichev/challenges.re/a9ba2b6db442d408bb00266abef3431e3d403a2a/9/index.m4:
     annotations:
+      human-smola: M4
       linguist: M4
       vote: M4
   ? github.com/DestructHub/computer-programs-paradigms/b2f4dd285cf61d351b8ee0fc151b627f7edba2f7/05_tree_and_computational_complexity/01_trees/02_sort_with_tree.oz
@@ -1218,6 +1219,7 @@ files:
       vote: COBOL
   github.com/IonicaBizau/node-fortran/f3155f0b767c70377fca4cb19550432cf9dd991b/fortran-samples/john-backus.f:
     annotations:
+      human-smola: Fortran
       linguist: Fortran
       vote: Fortran
   github.com/IonicaBizau/node.cobol/d180cc957ed925c1b38ba5e980d1f9e2e0fa2130/lib/node-exec.cbl:
@@ -2332,6 +2334,7 @@ files:
       vote: ABAP
   github.com/SCM-NV/ftl/ae537ca0ea6f24e597c2871fdd67354df04c269a/instantiations/ftlDynArrayInt.F90:
     annotations:
+      human-smola: Fortran
       linguist: Fortran
       vote: Fortran
   ? github.com/SCons/scons/c6ca3bdd2ad8e9a6ceea398934d84def9ba7c497/src/engine/SCons/Tool/docbook/docbook-xsl-1.76.1/xhtml-1_1/graphics.xsl
@@ -3758,8 +3761,9 @@ files:
       vote: Pony
   github.com/avais25/Lustre-examples/2dd06a0bed855bba1a1aa0e5685d9fbc8cfae4a9/Question2/ROADS.ec:
     annotations:
+      human-smola: Unknown
       linguist: eC
-      vote: eC
+      vote: Unknown
   github.com/avelino/awesome-go/11ec240b27e3facf3e0612cee425f25dd0d8e739/repo_test.go:
     annotations:
       linguist: Go
@@ -8202,6 +8206,7 @@ files:
       vote: Opa
   github.com/jvm-operators/haskell-example-operator/a0af1f69ed11917a2554ebf60b089d58a9a68779/src/main/frege/Brainfuck.fr:
     annotations:
+      human-smola: Frege
       linguist: Frege
       vote: Frege
   github.com/jwiegley/category-theory/d39ddffef514d2c541708c4779fb75b58d63af3d/Structure/Closed.v:
@@ -9405,6 +9410,7 @@ files:
       vote: LLVM
   github.com/microsoft/php-sdk-binary-tools/050caa59e5f3ba952a8f3dc22b62f78a06352502/msys2/usr/share/bison/skeletons/lalr1.java:
     annotations:
+      human-smola: M4
       linguist: M4
       vote: M4
   github.com/microsoft/terminal/9dc922fc37a479dd560675ac4ea1ce3713ae0ada/src/host/inputBuffer.hpp:
@@ -9736,8 +9742,9 @@ files:
       vote: OpenEdge ABL
   github.com/msatyan/InformixESQLC/9461a1504dc95945a3be98b253689579d5be4c58/EsqlcSample/SimpleConnect.ec:
     annotations:
+      human-smola: C
       linguist: eC
-      vote: eC
+      vote: C
   github.com/mschuldt/rtx2000_simulator/407c0be3cc1d774fdbbd90162121de045cabc3cf/RTX2000/TESTS/example.4th:
     annotations:
       linguist: Forth
@@ -10164,6 +10171,7 @@ files:
       vote: Shell
   github.com/nwchemgit/nwchem/14c0e445f2101ccc50e6ff10e383863e43840e78/src/tce/ccsdt_beta/ccsdt_lr_beta_4_4_21_4.F:
     annotations:
+      human-smola: Fortran
       linguist: Fortran
       vote: Fortran
   ? github.com/oarevalo/BugLogHQ/980766d65fadffec56860cadcd751a0cb63a751d/install/named-instance-template/config/buglog-config.xml.cfm
@@ -11574,6 +11582,7 @@ files:
       vote: Emacs Lisp
   github.com/rocky/emacs-load-relative/dbcd7cbcca6503ef93f4b8d19bf7a9efd7f6bf9b/test/load-file2.el:
     annotations:
+      human-smola: Emacs Lisp
       linguist: Emacs Lisp
       vote: Emacs Lisp
   github.com/rodjek/puppet-haproxy/c95446aa111fee4e4b0d0e31b4817952f2640c60/files/usr/share/augeas/lenses/haproxy.aug:
@@ -13573,8 +13582,9 @@ files:
       vote: IDL
   github.com/wlasd4622/lcx58/51a067333240fe289e6f8b3cda4ca46fef96297c/spirit/main_bak.Q:
     annotations:
+      human-smola: Visual Basic
       linguist: HiveQL
-      vote: HiveQL
+      vote: Visual Basic
   github.com/wo52616111/capslock-plus/60b4ec05d27ad317602f376726aabb905959700f/CapsLock+.ahk:
     annotations:
       linguist: AutoHotkey
