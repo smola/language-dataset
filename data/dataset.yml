@@ -3957,8 +3957,9 @@ files:
       vote: Ballerina
   github.com/bambenek/block-doh/57e3698b959b8eda5df6b8698a0187b4ad1df074/db.doh:
     annotations:
+      human-ajnavarro: Unknown
       linguist: Stata
-      vote: Stata
+      vote: Unknown
   github.com/bamboo/boojay/37c4e3f2ecb869d0dac34ef37786e9c934739c27/src/Boojay.Compilation/Steps/BoojayEmitter.boo:
     annotations:
       linguist: Boo
@@ -4275,6 +4276,7 @@ files:
       vote: ColdFusion
   github.com/bquistorff/synth_runner/38d18ae94121ae5d5475d2108a51c874c0c455ca/code/ado/parallel_clean_setclusters.ado:
     annotations:
+      human-ajnavarro: Stata
       linguist: Stata
       vote: Stata
   github.com/brancz/kubernetes-grafana/539a90dbf63c812ad0194d8078dd776868a11c81/grafana/grafana.libsonnet:
@@ -5871,6 +5873,7 @@ files:
       vote: Racket
   github.com/endstation/EasyGL/7f7296c3dc13cb9008ad8be5ff8cc9763b2fe172/src/Sprite_sheet.pmod:
     annotations:
+      human-ajnavarro: Pike
       linguist: Pike
       vote: Pike
   github.com/engor/Ted2Go/e1f6d469335575a17bc45d71333f989968a0629e/document/PlainTextDocument.monkey2:
@@ -6764,6 +6767,7 @@ files:
       vote: AspectJ
   github.com/gkz/LiveScript/bc1c188f01298567bc689c979147829c6ac57213/test/oo.ls:
     annotations:
+      human-ajnavarro: LiveScript
       linguist: LiveScript
       vote: LiveScript
   github.com/gkz/grasp/42de4eab84c51597173e44de88142d5bf45b5721/test/errors-warnings.ls:
@@ -7858,6 +7862,7 @@ files:
       vote: Apex
   github.com/jesseduffield/lazydocker/5348d2f82190d1d15d0d6df547c9b55fd9db7700/pkg/i18n/turkish.go:
     annotations:
+      human-ajnavarro: Go
       linguist: Go
       vote: Go
   github.com/jgallowa07/SLiMSimulations/fda6455968359235cf4dcb443b3be4984708e3e3/MyRecipes1/MyRecipe9_0_1.E:
@@ -7926,8 +7931,9 @@ files:
       vote: q
   github.com/jldbc/gunsandcrime/547aee98349ae2f9b9a2116cfe60ccfebc5c80e7/Moody Replication and Improvements.do:
     annotations:
+      human-ajnavarro: Unknown
       linguist: Stata
-      vote: Stata
+      vote: Unknown
   github.com/jlepak/factor-work/58ade57c41a942ff7434c1eaf07c20168b0b8a17/math/lapack/ffi/ffi.factor:
     annotations:
       linguist: Factor
@@ -10934,8 +10940,9 @@ files:
       vote: Julia
   ? github.com/probe-scope/Probe-Scope-PCB/f5a3add610575115ad71bc815e6f6577f5d11894/Project Outputs for Probe-Scope v1.0/Probe-Scope v1.0.G4
   : annotations:
+      human-ajnavarro: Unknown
       linguist: ANTLR
-      vote: ANTLR
+      vote: Unknown
   github.com/procaconsul/sociologic/dcec734783f92ad04d118376131f162fddf55670/experiments/narrow-passage-one-person.las:
     annotations:
       linguist: Lasso
@@ -12391,6 +12398,7 @@ files:
       vote: REXX
   github.com/steinwaywhw/ats-redis/78096ca66c397d73ce73005545193538529e89a7/redis.hats:
     annotations:
+      human-ajnavarro: ATS
       linguist: ATS
       vote: ATS
   github.com/steinwaywhw/ats-session-playground/c7979e0f9baf0de2b6520ac80cf11e6123a660f3/dependent/tests/simple.dats:
@@ -13364,6 +13372,7 @@ files:
       vote: V
   github.com/vmchale/polyglot/30c007c50e127d624959759f36cf4e910bfb6d05/DATS/shared.dats:
     annotations:
+      human-ajnavarro: ATS
       linguist: ATS
       vote: ATS
   github.com/vmchale/recursion/dba6fbdbcc2596ad3568b03aeba02f8b370b9993/test/recursion.dats:
@@ -13505,6 +13514,7 @@ files:
       vote: SystemVerilog
   github.com/wevrem/wry/12c40f95896ad100baea044acf8338d560babd07/references/PHPLexer.g4:
     annotations:
+      human-ajnavarro: ANTLR
       linguist: ANTLR
       vote: ANTLR
   github.com/wey-yu/poks-server/220cb9881b6b253bf0ccc2d1a9311deb2120ef08/src/main/golo/main.golo:
