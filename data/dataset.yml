@@ -1665,8 +1665,9 @@ files:
       vote: Unknown
   github.com/MagicLu550/MyIdealLang/9768acdc36cc6209a38497bd81b9f41c5c1a9d06/program.nl:
     annotations:
+      human-ajnavarro: Unknown
       linguist: NewLisp
-      vote: NewLisp
+      vote: Unknown
   github.com/MahmoudFayed/WeightHistory/a57ac374af1287c28df80a164ee52a2a69c4690f/weighthistory.ring:
     annotations:
       linguist: Ring
@@ -1735,8 +1736,9 @@ files:
       vote: Nit
   github.com/Mayank-Khurmai/Html-Css-PHP-Login/826de60c623991cfaecf4f585c8442c6d2c33f6d/Index.php:
     annotations:
+      human-ajnavarro: HTML
       linguist: Hack
-      vote: Hack
+      vote: HTML
   github.com/Mercury-Language/mercury/0a1f289b6d4f464822f853f982d319032b4f17f6/tests/valid/instance_unconstrained_tvar.m:
     annotations:
       linguist: Mercury
@@ -3399,6 +3401,7 @@ files:
       vote: Kotlin
   github.com/androlo/EthereumContracts/8e6ce108ed3f140ca1cd5b8823ab0d139e89df29/actions/bank/awardsovereigns.lsp:
     annotations:
+      human-ajnavarro: NewLisp
       linguist: NewLisp
       vote: NewLisp
   github.com/angryip/ipscan/dcf28fc757fe5583ba920485c61a3a5ebd13ab4a/ext/win-installer/NSISPortable/App/NSIS/Include/LangFile.nsh:
@@ -4082,6 +4085,7 @@ files:
       vote: JavaScript
   github.com/bernerdschaefer/sgheme/5007b2763c8280668d3bb72b9e50c17a057bc8ee/sicp.lisp:
     annotations:
+      human-ajnavarro: NewLisp
       linguist: NewLisp
       vote: NewLisp
   github.com/bfad/Lasso-HTTP/9f3b55820e5f2c1837c614cc00723f831165e23f/http_response.lasso:
@@ -5177,8 +5181,9 @@ files:
       vote: Io
   github.com/defuse/crackstation/53c1747c6d3fdf1be8089cd4344559d5b2c6544d/src/pages/legal-privacy.php:
     annotations:
+      human-ajnavarro: HTML
       linguist: Hack
-      vote: Hack
+      vote: HTML
   github.com/dekz/augeas_nginx/93386177e017c9498d352fa28e1ee9b731043b00/tests/test_nginx.aug:
     annotations:
       linguist: Augeas
@@ -6242,6 +6247,7 @@ files:
       vote: PureScript
   github.com/fernandocanizo/newlisp-hin/e2cdea3256298e8351aaca4c30239940d48a8a4d/hin.nl:
     annotations:
+      human-ajnavarro: NewLisp
       linguist: NewLisp
       vote: NewLisp
   ? github.com/fewnew/art74-fall2019/ed0d36ebf696148109dde5746cf1b4b21074b210/readings/reading01/responses/Benjamin_Revell_reading01.mg
@@ -7464,9 +7470,9 @@ files:
       vote: CWeb
   github.com/igorw/reasoned-php/d84eaee1894b03e1d4d425fce1d71fa683d07e1e/clause-and-effect/28-linearising-efficiently.php:
     annotations:
-      human-ajnavarro: PHP
+      human-ajnavarro: Hack
       linguist: Hack
-      vote: PHP
+      vote: Hack
   github.com/igorwfaoro/keyboard-autocomplete/4117bb813d46ad85f8aa4c1f16ba7f5695731822/data - Copia/keys.ik:
     annotations:
       linguist: Ioke
@@ -7909,6 +7915,7 @@ files:
       vote: Vim script
   github.com/jiaodaxiaozi/npphighlight/84d93dda2fdbc327403c73b94d57031895135578/localsolver/test/kmeans.lsp:
     annotations:
+      human-ajnavarro: NewLisp
       linguist: NewLisp
       vote: NewLisp
   github.com/jiesoul/Concepts-Techniques-and-Models-of-Computer-Programming/fa19b5f3da764d3d1b40a2607c29528cf241f949/src/ch01.oz:
@@ -8729,6 +8736,7 @@ files:
       vote: Idris
   github.com/leonardocarvalho/sicp/5dd4833e5f1c1261bd1d5aa80a4de9eaf25a0115/chapter1/7-8.lisp:
     annotations:
+      human-ajnavarro: NewLisp
       linguist: NewLisp
       vote: NewLisp
   github.com/lepinekong/redlang.red/371040193337d1ca50d42d49be099a410d822ec3/lib-ext.red:
@@ -9020,6 +9028,7 @@ files:
       vote: MATLAB
   github.com/madcowswe/ODriveHardware/079f30ac58f193226fcc552e4d6ba24553027ee1/v2/10M08SAE144.V:
     annotations:
+      human-ajnavarro: Verilog
       linguist: Verilog
       vote: Verilog
   github.com/madeindjs/Crystagiri/f43ce36c8cb3ac2eb066d0f3478162c686946fc3/src/crystagiri/tag.cr:
@@ -11815,6 +11824,7 @@ files:
       vote: xBase
   github.com/sakamitz/Quizer/a3d8b8f7badae4ad440d26bb8ab46a75945c0a49/main.lsp:
     annotations:
+      human-ajnavarro: NewLisp
       linguist: NewLisp
       vote: NewLisp
   github.com/sakra/cotire/391bf6b7609e14f5976bd5247b68d63cbf8d4d12/src/CMakeLists.txt:
