@@ -835,6 +835,7 @@ files:
       vote: Batchfile
   github.com/FROGGS/p6-File-Spec/636c7a24d1ff9cb68c0b7fa65c4f44100cde6b69/lib/File/Spec/Win32.pm:
     annotations:
+      human-smola: Perl 6
       linguist: Perl 6
       vote: Perl 6
   github.com/FabLabWgtn/material-profiles/5448010c3c613ebdd18ea43b635fb15b8944fa0a/Laser Settings 105W/Leather/Leather 0.84 no charcoal.las:
@@ -1410,8 +1411,9 @@ files:
       vote: Julia
   github.com/KIRPAT/keyboard-macros/e8f5c5294bafc70927b1609e4903fecf8c850968/my_keyboard/G800V-AHK.ASC:
     annotations:
+      human-smola: XML
       linguist: AGS Script
-      vote: AGS Script
+      vote: XML
   github.com/KONEY/octamed-arexx-repo/da1f635fe68d082570e137df68289974c65ea739/calc_playtime.rexx:
     annotations:
       linguist: REXX
@@ -2990,6 +2992,7 @@ files:
       vote: Red
   github.com/Zeroloop/l-unit8/cb7038949aab93e494660a1e7a37cdd5198e87e3/index.lasso:
     annotations:
+      human-smola: Lasso
       linguist: Lasso
       vote: Lasso
   github.com/Zetaphor/second-life-lsl/9c85f0b55b4fc77ce48c34cb314919584909fa46/HyperMedia Toolkit/_Storage Controller.lsl:
@@ -3438,8 +3441,9 @@ files:
       vote: Rust
   github.com/anotherkeebler/DiceGen/fc63e355eb881b894984420151d0db3169205508/diceware.wordlist.asc:
     annotations:
+      human-smola: Unknown
       linguist: AGS Script
-      vote: AGS Script
+      vote: Unknown
   github.com/ansible/ansible/008a95073dc05d6474a028bc5e078edda0faf4cd/test/units/modules/source_control/gitlab.py:
     annotations:
       linguist: Python
@@ -4094,6 +4098,7 @@ files:
       vote: NewLisp
   github.com/bfad/Lasso-HTTP/9f3b55820e5f2c1837c614cc00723f831165e23f/http_response.lasso:
     annotations:
+      human-smola: Lasso
       linguist: Lasso
       vote: Lasso
   github.com/bgeraghty/RunProcessAsUser-ScreenConnect/bdb5cfbaffe558019aa902096373a2a87cb29062/Source/rpau.pb:
@@ -4599,8 +4604,9 @@ files:
       vote: Nix
   github.com/chrishwiggins/orly/990dc81d1b7cb228f57929a0b62c76de5b354cb2/screendump.asc:
     annotations:
+      human-smola: Unknown
       linguist: AGS Script
-      vote: AGS Script
+      vote: Unknown
   github.com/chrislgarry/Apollo-11/e7bf183694150b77d30bdb9a8ca16a49b205993f/Luminary099/DAPIDLER_PROGRAM.agc:
     annotations:
       human-smola: Assembly
@@ -7703,6 +7709,7 @@ files:
       vote: Ada
   github.com/japhb/perl6-bench/89d9cadbcd568e05417b0b8e70cc99bb3e06bc13/microbenchmarks.pl:
     annotations:
+      human-smola: Perl 6
       linguist: Perl 6
       vote: Perl 6
   github.com/jarchuleta/node_instagram/54e18d690696a9dda2162ced833af2ece250a444/views/login.hb:
@@ -8110,8 +8117,9 @@ files:
       vote: XQuery
   github.com/jpfutalef/Current-Measurement-Board/94be28fd9e500bd32391bee9598597e3923c1f01/ltspice/v2_max4239_lt624X.asc:
     annotations:
+      human-smola: LTspice Symbol
       linguist: AGS Script
-      vote: AGS Script
+      vote: LTspice Symbol
   github.com/jpginc/windows10DesktopManager/6dd6c214b4013e003a4cda38f2e52b49f84811b1/windowMover.ahk:
     annotations:
       linguist: AutoHotkey
@@ -9169,6 +9177,7 @@ files:
       vote: Ioke
   github.com/masak/temporal-flux-perl6syn/dae2d68c1d2cf98b21d3031bfdc6fb7a22dcc3ba/S26-documentation.pod:
     annotations:
+      human-smola: Perl 6
       linguist: Perl 6
       vote: Perl 6
   github.com/masak/web/783673f94cdd745399366c7bee805818ebf922e6/lib/Ratel.pm:
@@ -10636,6 +10645,7 @@ files:
       vote: Gnuplot
   github.com/perl6/ecosystem/c0513b95f7b6794bb3efef2da15a445b821628fc/.travis/testpackagemeta.p6:
     annotations:
+      human-smola: Perl 6
       linguist: Perl 6
       vote: Perl 6
   github.com/permissions-dispatcher/PermissionsDispatcher/fa5133fda48fcedc10018f31ad7055f4df9f80fc/processor/src/test/java/permissions/dispatcher/processor/base/BaseTest.java:

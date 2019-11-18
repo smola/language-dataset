@@ -3,9 +3,9 @@
 
 | Metric | Value |
 | ------ | ----- |
-| **Languages** | 212 |
-| **Total samples** | 3365 |
-| **Samples labeled by humans** | 156 |
+| **Languages** | 213 |
+| **Total samples** | 3363 |
+| **Samples labeled by humans** | 164 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -13,7 +13,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Language | Samples | Human |
 | -------- | ------- | ------|
 | ABAP | 20 | 0 |
-| AGS Script | 20 | 0 |
+| AGS Script | 16 | 0 |
 | AMPL | 19 | 5 |
 | ANTLR | 19 | 2 |
 | API Blueprint | 5 | 0 |
@@ -118,8 +118,9 @@ For each language, the table reports total number of samples (_Samples_) and how
 | LLVM | 19 | 0 |
 | LOLCODE | 16 | 0 |
 | LSL | 20 | 0 |
+| LTspice Symbol | 1 | 1 |
 | LabVIEW | 19 | 0 |
-| Lasso | 10 | 0 |
+| Lasso | 10 | 2 |
 | Limbo | 17 | 0 |
 | LiveScript | 20 | 1 |
 | Logtalk | 20 | 0 |
@@ -155,7 +156,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | POV-Ray SDL | 2 | 0 |
 | Pascal | 20 | 1 |
 | Perl | 20 | 2 |
-| Perl 6 | 11 | 0 |
+| Perl 6 | 11 | 4 |
 | PicoLisp | 20 | 1 |
 | Pike | 20 | 1 |
 | Pony | 20 | 0 |
@@ -210,7 +211,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | WebIDL | 1 | 1 |
 | Wolfram Language | 11 | 1 |
 | Wollok | 20 | 0 |
-| XML | 4 | 4 |
+| XML | 5 | 5 |
 | XProc | 17 | 0 |
 | XQuery | 20 | 0 |
 | XS | 14 | 1 |
