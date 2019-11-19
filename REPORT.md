@@ -4,8 +4,8 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 214 |
-| **Total samples** | 3361 |
-| **Samples labeled by humans** | 172 |
+| **Total samples** | 3357 |
+| **Samples labeled by humans** | 196 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -39,9 +39,9 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Batchfile | 14 | 1 |
 | Befunge | 2 | 0 |
 | BlitzMax | 20 | 0 |
-| Boo | 17 | 0 |
+| Boo | 16 | 0 |
 | Brainfuck | 14 | 0 |
-| C | 22 | 8 |
+| C | 22 | 12 |
 | C# | 21 | 3 |
 | C++ | 20 | 3 |
 | CLIPS | 18 | 0 |
@@ -58,7 +58,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | CoffeeScript | 20 | 0 |
 | ColdFusion | 19 | 0 |
 | ColdFusion CFC | 1 | 1 |
-| Common Lisp | 14 | 4 |
+| Common Lisp | 13 | 4 |
 | Component Pascal | 1 | 0 |
 | Coq | 18 | 1 |
 | Crystal | 19 | 0 |
@@ -128,7 +128,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | M4 | 16 | 2 |
 | MATLAB | 23 | 9 |
 | MAXScript | 17 | 0 |
-| Makefile | 18 | 0 |
+| Makefile | 17 | 0 |
 | Markdown | 15 | 7 |
 | Mercury | 9 | 0 |
 | Mirah | 15 | 0 |
@@ -136,7 +136,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Modula-3 | 11 | 1 |
 | Monkey | 20 | 0 |
 | NSIS | 20 | 0 |
-| Nemerle | 14 | 0 |
+| Nemerle | 14 | 2 |
 | NetLinx | 20 | 0 |
 | NetLogo | 19 | 0 |
 | NewLisp | 14 | 6 |
@@ -152,7 +152,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Oz | 18 | 1 |
 | PHP | 20 | 0 |
 | PL/SQL | 15 | 1 |
-| PL/pgSQL | 14 | 0 |
+| PL/pgSQL | 13 | 1 |
 | POV-Ray SDL | 2 | 0 |
 | Pascal | 20 | 1 |
 | Perl | 20 | 2 |
@@ -161,7 +161,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Pike | 20 | 1 |
 | Pony | 20 | 0 |
 | PostScript | 8 | 0 |
-| PowerBuilder | 17 | 0 |
+| PowerBuilder | 15 | 0 |
 | PowerShell | 17 | 1 |
 | Processing | 20 | 1 |
 | Prolog | 18 | 1 |
@@ -179,22 +179,22 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Red | 18 | 1 |
 | Ring | 20 | 0 |
 | Roff | 1 | 1 |
-| Ruby | 20 | 0 |
+| Ruby | 20 | 2 |
 | Rust | 20 | 0 |
 | SAS | 20 | 1 |
-| SQL | 7 | 5 |
+| SQL | 8 | 6 |
 | Scala | 20 | 0 |
-| Scheme | 20 | 1 |
+| Scheme | 20 | 2 |
 | Scilab | 10 | 2 |
 | Self | 8 | 0 |
-| Shell | 20 | 2 |
+| Shell | 21 | 3 |
 | Shen | 20 | 0 |
 | Smalltalk | 19 | 0 |
 | Squirrel | 20 | 0 |
 | Stata | 17 | 1 |
 | SuperCollider | 19 | 0 |
 | Swift | 19 | 0 |
-| SystemVerilog | 19 | 0 |
+| SystemVerilog | 19 | 5 |
 | TSQL | 1 | 1 |
 | Tcl | 18 | 1 |
 | Terra | 7 | 0 |
@@ -225,4 +225,4 @@ For each language, the table reports total number of samples (_Samples_) and how
 | q | 15 | 0 |
 | reStructuredText | 1 | 1 |
 | sed | 14 | 1 |
-| xBase | 14 | 0 |
+| xBase | 14 | 7 |
