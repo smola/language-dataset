@@ -4,8 +4,8 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 215 |
-| **Total samples** | 3335 |
-| **Samples labeled by humans** | 278 |
+| **Total samples** | 3336 |
+| **Samples labeled by humans** | 279 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -133,7 +133,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Markdown | 15 | 7 |
 | Mercury | 9 | 0 |
 | Mirah | 15 | 1 |
-| Modula-2 | 20 | 0 |
+| Modula-2 | 21 | 1 |
 | Modula-3 | 9 | 1 |
 | Monkey | 20 | 0 |
 | NSIS | 20 | 0 |

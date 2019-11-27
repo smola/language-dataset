@@ -6835,6 +6835,11 @@ files:
     annotations:
       linguist: PicoLisp
       vote: PicoLisp
+  github.com/gitGNU/gnu_gm2/e743eb0703328c4f0a1500a9898d7e30deda8147/gcc-versionno/gcc/gm2/gm2-compiler/P1SymBuild.def:
+    annotations:
+      human-smola: Modula-2
+      linguist: Text
+      vote: Modula-2
   github.com/gitbucket/gitbucket/f35ecce3c7b08e9579408252f80674b5b4ae7c43/src/main/scala/gitbucket/core/controller/api/ApiGitReferenceControllerBase.scala:
     annotations:
       linguist: Scala
