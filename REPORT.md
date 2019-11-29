@@ -3,9 +3,9 @@
 
 | Metric | Value |
 | ------ | ----- |
-| **Languages** | 215 |
-| **Total samples** | 3336 |
-| **Samples labeled by humans** | 279 |
+| **Languages** | 217 |
+| **Total samples** | 3327 |
+| **Samples labeled by humans** | 406 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -15,21 +15,21 @@ For each language, the table reports total number of samples (_Samples_) and how
 | ABAP | 20 | 0 |
 | AGS Script | 14 | 1 |
 | AMPL | 19 | 5 |
-| ANTLR | 19 | 2 |
+| ANTLR | 19 | 3 |
 | API Blueprint | 5 | 0 |
 | APL | 19 | 0 |
 | ASP | 20 | 2 |
 | ATS | 20 | 2 |
 | ActionScript | 20 | 0 |
-| Ada | 20 | 0 |
+| Ada | 20 | 20 |
 | Agda | 20 | 0 |
 | Alloy | 19 | 0 |
 | AngelScript | 3 | 0 |
 | Apex | 20 | 1 |
 | AppleScript | 20 | 2 |
 | Arc | 19 | 3 |
-| AspectJ | 20 | 1 |
-| Assembly | 20 | 3 |
+| AspectJ | 20 | 2 |
+| Assembly | 16 | 3 |
 | Asymptote | 16 | 0 |
 | Augeas | 19 | 0 |
 | AutoHotkey | 20 | 0 |
@@ -39,30 +39,30 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Batchfile | 14 | 1 |
 | Befunge | 2 | 0 |
 | BlitzMax | 20 | 0 |
-| Boo | 16 | 0 |
+| Boo | 15 | 0 |
 | Brainfuck | 14 | 1 |
 | C | 22 | 12 |
 | C# | 22 | 4 |
 | C++ | 20 | 3 |
-| CLIPS | 18 | 0 |
+| CLIPS | 18 | 2 |
 | CMake | 20 | 0 |
-| COBOL | 18 | 0 |
+| COBOL | 18 | 2 |
 | CSS | 1 | 1 |
 | CWeb | 16 | 1 |
 | Ceylon | 20 | 1 |
 | Chapel | 18 | 0 |
 | ChucK | 19 | 1 |
 | Clarion | 17 | 1 |
-| Clean | 19 | 2 |
-| Clojure | 19 | 0 |
-| CoffeeScript | 20 | 1 |
+| Clean | 9 | 9 |
+| Clojure | 19 | 2 |
+| CoffeeScript | 19 | 2 |
 | ColdFusion | 13 | 1 |
 | ColdFusion CFC | 7 | 7 |
-| Common Lisp | 14 | 7 |
+| Common Lisp | 14 | 8 |
 | Component Pascal | 1 | 0 |
 | Coq | 18 | 1 |
 | Crystal | 19 | 0 |
-| D | 20 | 3 |
+| D | 20 | 4 |
 | DM | 18 | 1 |
 | DNS Zone | 1 | 1 |
 | Dart | 19 | 1 |
@@ -91,25 +91,25 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Go | 20 | 2 |
 | Golo | 20 | 0 |
 | Gosu | 8 | 0 |
-| Groovy | 20 | 0 |
+| Groovy | 20 | 1 |
 | HTML | 4 | 4 |
-| Hack | 14 | 1 |
+| Hack | 14 | 2 |
 | Handlebars | 1 | 1 |
 | Harbour | 10 | 0 |
-| Haskell | 19 | 0 |
-| Haxe | 20 | 0 |
+| Haskell | 19 | 1 |
+| Haxe | 20 | 1 |
 | HiveQL | 14 | 2 |
 | HolyC | 9 | 0 |
 | Hy | 20 | 0 |
 | IDL | 13 | 1 |
 | IGOR Pro | 20 | 0 |
 | INI | 2 | 2 |
-| Idris | 20 | 0 |
+| Idris | 20 | 1 |
 | Io | 17 | 0 |
 | Ioke | 14 | 0 |
 | J | 19 | 0 |
 | JSON | 1 | 1 |
-| Java | 21 | 1 |
+| Java | 21 | 2 |
 | JavaScript | 20 | 5 |
 | Jsonnet | 20 | 0 |
 | Julia | 18 | 0 |
@@ -118,16 +118,17 @@ For each language, the table reports total number of samples (_Samples_) and how
 | LFE | 17 | 0 |
 | LLVM | 19 | 0 |
 | LOLCODE | 16 | 0 |
-| LSL | 20 | 0 |
+| LSL | 20 | 1 |
 | LTspice Symbol | 1 | 1 |
 | LabVIEW | 19 | 0 |
 | Lasso | 9 | 2 |
 | Limbo | 17 | 0 |
-| LiveScript | 20 | 1 |
+| Literate CoffeeScript | 1 | 1 |
+| LiveScript | 20 | 2 |
 | Logtalk | 20 | 1 |
-| Lua | 20 | 1 |
+| Lua | 20 | 2 |
 | M4 | 16 | 3 |
-| MATLAB | 23 | 9 |
+| MATLAB | 23 | 16 |
 | MAXScript | 17 | 0 |
 | Makefile | 17 | 0 |
 | Markdown | 15 | 7 |
@@ -135,95 +136,96 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Mirah | 15 | 1 |
 | Modula-2 | 21 | 1 |
 | Modula-3 | 9 | 1 |
-| Monkey | 20 | 0 |
+| Monkey | 20 | 2 |
 | NSIS | 20 | 0 |
 | Nemerle | 14 | 2 |
-| NetLinx | 20 | 0 |
+| NetLinx | 20 | 1 |
 | NetLogo | 19 | 0 |
-| NewLisp | 11 | 9 |
+| NewLisp | 11 | 10 |
 | Nim | 20 | 0 |
 | Nit | 19 | 0 |
 | Nix | 18 | 0 |
 | OCaml | 17 | 2 |
-| Objective-C | 20 | 1 |
+| Objective-C | 20 | 2 |
 | Opa | 19 | 0 |
 | OpenEdge ABL | 20 | 4 |
-| OpenSCAD | 19 | 0 |
+| OpenSCAD | 19 | 1 |
 | Oxygene | 1 | 0 |
 | Oz | 18 | 1 |
-| PHP | 21 | 2 |
+| PHP | 21 | 3 |
 | PL/SQL | 15 | 1 |
 | PL/pgSQL | 13 | 1 |
 | POV-Ray SDL | 2 | 0 |
 | Pascal | 20 | 1 |
 | Perl | 20 | 2 |
-| Perl 6 | 11 | 5 |
-| PicoLisp | 20 | 3 |
+| Perl 6 | 11 | 8 |
+| PicoLisp | 20 | 4 |
 | Pike | 20 | 1 |
 | Pony | 20 | 0 |
 | PostScript | 8 | 0 |
 | PowerBuilder | 15 | 0 |
-| PowerShell | 17 | 1 |
-| Processing | 20 | 1 |
-| Prolog | 18 | 1 |
+| PowerShell | 17 | 2 |
+| Processing | 20 | 2 |
+| Prolog | 18 | 2 |
 | PureBasic | 9 | 0 |
 | PureScript | 20 | 0 |
 | Python | 22 | 3 |
 | QMake | 1 | 1 |
-| R | 21 | 1 |
-| REALbasic | 20 | 2 |
+| R | 21 | 2 |
+| REALbasic | 20 | 9 |
 | REXX | 18 | 2 |
 | Racket | 20 | 0 |
 | Rascal | 20 | 0 |
 | Reason | 2 | 2 |
-| Rebol | 18 | 0 |
+| Rebol | 18 | 6 |
 | Red | 18 | 1 |
 | Ring | 20 | 0 |
 | Roff | 1 | 1 |
-| Ruby | 20 | 2 |
+| Ruby | 20 | 3 |
 | Rust | 20 | 1 |
 | SAS | 20 | 3 |
 | SQL | 9 | 7 |
-| Scala | 20 | 2 |
-| Scheme | 21 | 4 |
+| Scala | 20 | 3 |
+| Scheme | 21 | 21 |
 | Scilab | 10 | 2 |
 | Self | 8 | 0 |
-| Shell | 22 | 4 |
+| Shell | 22 | 6 |
 | Shen | 19 | 2 |
 | Smalltalk | 18 | 0 |
 | Squirrel | 20 | 1 |
 | Stata | 17 | 1 |
-| SuperCollider | 19 | 0 |
+| SuperCollider | 19 | 3 |
 | Swift | 19 | 1 |
 | SystemVerilog | 19 | 6 |
 | TSQL | 1 | 1 |
-| Tcl | 18 | 1 |
+| Tcl | 18 | 3 |
 | Terra | 7 | 0 |
 | Text | 1 | 1 |
 | Turing | 8 | 0 |
-| TypeScript | 20 | 1 |
+| TypeScript | 20 | 4 |
+| Unix Assembly | 4 | 4 |
 | V | 18 | 2 |
-| VHDL | 16 | 1 |
+| VHDL | 16 | 2 |
 | Vala | 20 | 1 |
-| Verilog | 20 | 6 |
+| Verilog | 20 | 8 |
 | Vim script | 20 | 2 |
 | Visual Basic | 2 | 1 |
 | WebAssembly | 7 | 0 |
 | WebIDL | 1 | 1 |
 | Wolfram Language | 10 | 2 |
 | Wollok | 20 | 0 |
-| XML | 6 | 6 |
+| XML | 9 | 9 |
 | XProc | 17 | 0 |
-| XQuery | 20 | 1 |
+| XQuery | 20 | 3 |
 | XS | 14 | 1 |
-| XSLT | 17 | 0 |
+| XSLT | 17 | 1 |
 | Xojo | 19 | 3 |
 | YAML | 4 | 4 |
 | Zephir | 20 | 2 |
 | Zimpl | 17 | 0 |
-| eC | 11 | 0 |
+| eC | 11 | 1 |
 | ooc | 19 | 1 |
 | q | 15 | 2 |
 | reStructuredText | 1 | 1 |
-| sed | 14 | 1 |
-| xBase | 14 | 7 |
+| sed | 13 | 1 |
+| xBase | 14 | 8 |
