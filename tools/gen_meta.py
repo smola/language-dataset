@@ -60,6 +60,7 @@ def add_rosetta_code_languages(commit: str, meta: Meta):
         "Make": "Makefile",
         "Mathematica": "Wolfram Language",
         "MoonScript": "moonscript",
+        "68000 Assembly": "Motorola 68K Assembly",
         "NewLISP": "NewLisp",
         "OOC": "ooc",
         "Openscad": "OpenSCAD",
