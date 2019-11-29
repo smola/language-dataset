@@ -32,10 +32,6 @@ languages:
     maps_to:
       rosetta_code:
       - 6800 Assembly
-  68000 Assembly:
-    maps_to:
-      rosetta_code:
-      - 68000 Assembly
   8051 Assembly:
     maps_to:
       rosetta_code:
@@ -2228,6 +2224,8 @@ languages:
     maps_to:
       linguist:
       - Motorola 68K Assembly
+      rosetta_code:
+      - 68000 Assembly
   Muse:
     maps_to:
       linguist:
