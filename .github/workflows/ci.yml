@@ -63,6 +63,7 @@ jobs:
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: '2.4.x'
+      - run: sudo apt update
       - run: sudo apt install libyaml-dev cmake pkg-config libicu-dev zlib1g-dev libcurl4-openssl-dev libssl-dev ruby-dev
       - run: gem install --no-rdoc --no-ri github-linguist
       - run: pip install pipenv
