@@ -4,7 +4,7 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 253 |
-| **Total samples** | 3842 |
+| **Total samples** | 3839 |
 | **Samples labeled by humans** | 542 |
 
 ## Per Language
@@ -227,7 +227,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Swift | 19 | 1 |
 | SystemVerilog | 19 | 9 |
 | TLA | 20 | 0 |
-| TSQL | 8 | 5 |
+| TSQL | 5 | 5 |
 | TSX | 2 | 2 |
 | TXL | 18 | 0 |
 | Tcl | 18 | 3 |

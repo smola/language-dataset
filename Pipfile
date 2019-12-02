@@ -16,6 +16,7 @@ requests = "*"
 pyyaml = "*"
 pandas = "*"
 scikit-learn = "*"
+pygments = "*"
 
 [requires]
 python_version = "3.8"
