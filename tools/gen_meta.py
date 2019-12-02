@@ -21,9 +21,13 @@ def add_linguist_languages(commit: str, meta: Meta):
     meta.add_dataset(name="linguist", data={"version": commit,})
 
     norm_langs = {
+        "Cuda": "CUDA",
+        "JSONLD": "JSON-LD",
         "PLSQL": "PL/SQL",
         "PLpgSQL": "PL/pgSQL",
         "Mathematica": "Wolfram Language",
+        "Moocode": "MOO",
+        "mupad": "MuPAD",
     }
 
     langs = get_linguist_languages(commit=commit)
@@ -50,16 +54,19 @@ def add_rosetta_code_languages(commit: str, meta: Meta):
 
     norm_langs = {
         "AWK": "Awk",
-        "Batchfile": "Batchfile",
+        "Batch File": "Batchfile",
         "Brainf***": "Brainfuck",
+        "Bc": "bc",
         "C sharp": "C#",
         "EC": "eC",
         "F Sharp": "F#",
         "Fish": "fish",
         "lilypond": "LilyPond",
+        "Lilypond": "LilyPond",
         "Make": "Makefile",
         "Mathematica": "Wolfram Language",
-        "MoonScript": "moonscript",
+        "MIRC Scripting Language": "mIRC Script",
+        "Moonscript": "MoonScript",
         "68000 Assembly": "Motorola 68K Assembly",
         "NewLISP": "NewLisp",
         "OOC": "ooc",

@@ -342,22 +342,16 @@ languages:
     maps_to:
       linguist:
       - Ballerina
-  Batch File:
-    maps_to:
-      rosetta_code:
-      - Batch File
   Batchfile:
     maps_to:
       linguist:
       - Batchfile
+      rosetta_code:
+      - Batch File
   Battlestar:
     maps_to:
       rosetta_code:
       - Battlestar
-  Bc:
-    maps_to:
-      rosetta_code:
-      - Bc
   Beeswax:
     maps_to:
       rosetta_code:
@@ -514,6 +508,10 @@ languages:
     maps_to:
       linguist:
       - CSV
+  CUDA:
+    maps_to:
+      linguist:
+      - Cuda
   CWeb:
     maps_to:
       linguist:
@@ -718,10 +716,6 @@ languages:
     maps_to:
       linguist:
       - Csound Score
-  Cuda:
-    maps_to:
-      linguist:
-      - Cuda
   Curry:
     maps_to:
       rosetta_code:
@@ -1624,14 +1618,14 @@ languages:
     maps_to:
       linguist:
       - JSON with Comments
+  JSON-LD:
+    maps_to:
+      linguist:
+      - JSONLD
   JSON5:
     maps_to:
       linguist:
       - JSON5
-  JSONLD:
-    maps_to:
-      linguist:
-      - JSONLD
   JSONiq:
     maps_to:
       linguist:
@@ -1884,8 +1878,6 @@ languages:
     maps_to:
       linguist:
       - LilyPond
-  Lilypond:
-    maps_to:
       rosetta_code:
       - Lilypond
   Limbo:
@@ -2034,10 +2026,6 @@ languages:
     maps_to:
       rosetta_code:
       - MIPS Assembly
-  MIRC Scripting Language:
-    maps_to:
-      rosetta_code:
-      - MIRC Scripting Language
   ML/I:
     maps_to:
       rosetta_code:
@@ -2056,6 +2044,8 @@ languages:
       - MMIX
   MOO:
     maps_to:
+      linguist:
+      - Moocode
       rosetta_code:
       - MOO
   MQL4:
@@ -2204,17 +2194,12 @@ languages:
     maps_to:
       rosetta_code:
       - Monte
-  Moocode:
-    maps_to:
-      linguist:
-      - Moocode
   MoonScript:
     maps_to:
       linguist:
       - MoonScript
-  Moonscript:
-    maps_to:
       rosetta_code:
+      - MoonScript
       - Moonscript
   Morfa:
     maps_to:
@@ -2226,6 +2211,10 @@ languages:
       - Motorola 68K Assembly
       rosetta_code:
       - 68000 Assembly
+  MuPAD:
+    maps_to:
+      linguist:
+      - mupad
   Muse:
     maps_to:
       linguist:
@@ -3979,6 +3968,10 @@ languages:
     maps_to:
       rosetta_code:
       - Zkl
+  bc:
+    maps_to:
+      rosetta_code:
+      - Bc
   cURL Config:
     maps_to:
       linguist:
@@ -4007,18 +4000,12 @@ languages:
     maps_to:
       linguist:
       - mIRC Script
+      rosetta_code:
+      - MIRC Scripting Language
   mcfunction:
     maps_to:
       linguist:
       - mcfunction
-  moonscript:
-    maps_to:
-      rosetta_code:
-      - MoonScript
-  mupad:
-    maps_to:
-      linguist:
-      - mupad
   nanorc:
     maps_to:
       linguist:
