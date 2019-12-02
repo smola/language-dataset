@@ -4,7 +4,7 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 217 |
-| **Total samples** | 3327 |
+| **Total samples** | 3328 |
 | **Samples labeled by humans** | 406 |
 
 ## Per Language
@@ -23,7 +23,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | ActionScript | 20 | 0 |
 | Ada | 20 | 20 |
 | Agda | 20 | 0 |
-| Alloy | 19 | 0 |
+| Alloy | 20 | 0 |
 | AngelScript | 3 | 0 |
 | Apex | 20 | 1 |
 | AppleScript | 20 | 2 |

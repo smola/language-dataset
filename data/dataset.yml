@@ -9199,9 +9199,8 @@ files:
       vote: Agda
   github.com/ma-ath/Amplificador-de-Potencia/eb5828dd4ff27abb62e4369cfa17e55c920f02dd/eletronica-iv-trabalho-PSpiceFiles/Trabalho/Trabalho.ALS:
     annotations:
-      human-smola: Language
       linguist: Alloy
-      vote: Language
+      vote: Alloy
   github.com/macgregor/kol-telegram/33bc04925bebbaa29da77b376dab99fe3544c4e1/Release/scripts/telegram/__telegram_data.ash:
     annotations:
       human-smola: AGS Script

@@ -59,13 +59,26 @@ def samples_are_within_size_limits(dataset):
     return errors
 
 
+def labels_are_valid(meta, dataset):
+    errors = []
+    for path, data in dataset.data["files"].items():
+        for v in data["annotations"].values():
+            if v == "Unknown":
+                continue
+            if v not in meta.data["languages"]:
+                errors.append("invalid language %s in %s" % (v, path))
+    return errors
+
+
 def main():
+    meta = Meta()
     dataset = Dataset()
     errors = []
     errors += max_samples_per_repositories(dataset, max_samples=1)
     errors += declared_samples_are_present(dataset)
     errors += present_samples_are_declared(dataset)
     errors += samples_are_within_size_limits(dataset)
+    errors += labels_are_valid(meta, dataset)
     for error in errors:
         print("ERROR: %s" % error)
     return 1 if errors else 0
