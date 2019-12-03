@@ -1,0 +1,23 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: Creates a React pure component class with PropTypes and ES6 module system
+# key: rncp
+# uuid: rncp
+# --
+import React, { PureComponent } from 'react'`(js-react-redux-yasnippets-semicolon)`
+import PropTypes from 'prop-types'`(js-react-redux-yasnippets-semicolon)`
+
+class ${1:`(js-react-redux-yasnippets-filename-base)`} extends PureComponent {
+ render() {
+  return (
+   <div>
+    $0
+   </div>
+  )`(js-react-redux-yasnippets-semicolon)`
+ }
+}
+
+$1.propTypes = {
+
+}`(js-react-redux-yasnippets-semicolon)`
+
+export default $1`(js-react-redux-yasnippets-semicolon)`

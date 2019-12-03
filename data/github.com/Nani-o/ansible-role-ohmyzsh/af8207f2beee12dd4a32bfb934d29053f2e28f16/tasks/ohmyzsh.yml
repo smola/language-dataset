@@ -1,0 +1,30 @@
+---
+- name: Get users home folders
+  shell: "grep '^{{ user }}:' /etc/passwd | awk -F ':' '{print $6}'"
+  register: home_folder
+  changed_when: false
+
+- name: Set home folders variable
+  set_fact:
+    home_folder: "{{ home_folder.stdout }}"
+
+- name: Checkout git repo
+  git:
+    repo: https://github.com/robbyrussell/oh-my-zsh
+    dest: "{{ home_folder }}/.oh-my-zsh"
+  register: git_update
+
+- name: Backup old zsh config
+  copy:
+    remote_src: yes
+    src: "{{ home_folder }}/.oh-my-zsh/templates/zshrc.zsh-template"
+    dest: "{{ home_folder }}/.zshrc"
+    backup: yes
+  when:
+    - "not git_update.before"
+    - "ohmyzsh_install_default_zshrc"
+
+- name: Change user shell to zsh
+  user:
+    name: "{{ user }}"
+    shell: /bin/zsh

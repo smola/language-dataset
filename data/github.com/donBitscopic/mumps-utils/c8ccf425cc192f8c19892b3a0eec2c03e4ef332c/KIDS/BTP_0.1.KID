@@ -1,0 +1,1000 @@
+KIDS Distribution saved on Jul 17, 2015@15:53:17
+First release of Bitscopic mumps to json serializers
+**KIDS**:BTP 0.1^
+
+**INSTALL NAME**
+BTP 0.1
+"BLD",7928,0)
+BTP 0.1^^0^3150717^y
+"BLD",7928,1,0)
+^^1^1^3070521^
+"BLD",7928,1,1,0)
+SAGG v2.0
+"BLD",7928,4,0)
+^9.64PA^^0
+"BLD",7928,6)
+^
+"BLD",7928,6.3)
+9
+"BLD",7928,"KRN",0)
+^9.67PA^779.2^20
+"BLD",7928,"KRN",.4,0)
+.4
+"BLD",7928,"KRN",.401,0)
+.401
+"BLD",7928,"KRN",.402,0)
+.402
+"BLD",7928,"KRN",.403,0)
+.403
+"BLD",7928,"KRN",.5,0)
+.5
+"BLD",7928,"KRN",.84,0)
+.84
+"BLD",7928,"KRN",3.6,0)
+3.6
+"BLD",7928,"KRN",3.8,0)
+3.8
+"BLD",7928,"KRN",9.2,0)
+9.2
+"BLD",7928,"KRN",9.8,0)
+9.8
+"BLD",7928,"KRN",9.8,"NM",0)
+^9.68A^1^1
+"BLD",7928,"KRN",9.8,"NM",1,0)
+BTPSER1^^0^B2499
+"BLD",7928,"KRN",9.8,"NM","B","BTPSER1",1)
+
+"BLD",7928,"KRN",19,0)
+19
+"BLD",7928,"KRN",19.1,0)
+19.1
+"BLD",7928,"KRN",101,0)
+101
+"BLD",7928,"KRN",409.61,0)
+409.61
+"BLD",7928,"KRN",771,0)
+771
+"BLD",7928,"KRN",779.2,0)
+779.2
+"BLD",7928,"KRN",870,0)
+870
+"BLD",7928,"KRN",8989.51,0)
+8989.51
+"BLD",7928,"KRN",8989.52,0)
+8989.52
+"BLD",7928,"KRN",8994,0)
+8994
+"BLD",7928,"KRN",8994,"NM",0)
+^9.68A^4^4
+"BLD",7928,"KRN",8994,"NM",1,0)
+BTP DESERIALIZE^^0
+"BLD",7928,"KRN",8994,"NM",2,0)
+BTP KILL^^0
+"BLD",7928,"KRN",8994,"NM",3,0)
+BTP SERIALIZE^^0
+"BLD",7928,"KRN",8994,"NM",4,0)
+BTP SET^^0
+"BLD",7928,"KRN",8994,"NM","B","BTP DESERIALIZE",1)
+
+"BLD",7928,"KRN",8994,"NM","B","BTP KILL",2)
+
+"BLD",7928,"KRN",8994,"NM","B","BTP SERIALIZE",3)
+
+"BLD",7928,"KRN",8994,"NM","B","BTP SET",4)
+
+"BLD",7928,"KRN","B",.4,.4)
+
+"BLD",7928,"KRN","B",.401,.401)
+
+"BLD",7928,"KRN","B",.402,.402)
+
+"BLD",7928,"KRN","B",.403,.403)
+
+"BLD",7928,"KRN","B",.5,.5)
+
+"BLD",7928,"KRN","B",.84,.84)
+
+"BLD",7928,"KRN","B",3.6,3.6)
+
+"BLD",7928,"KRN","B",3.8,3.8)
+
+"BLD",7928,"KRN","B",9.2,9.2)
+
+"BLD",7928,"KRN","B",9.8,9.8)
+
+"BLD",7928,"KRN","B",19,19)
+
+"BLD",7928,"KRN","B",19.1,19.1)
+
+"BLD",7928,"KRN","B",101,101)
+
+"BLD",7928,"KRN","B",409.61,409.61)
+
+"BLD",7928,"KRN","B",771,771)
+
+"BLD",7928,"KRN","B",779.2,779.2)
+
+"BLD",7928,"KRN","B",870,870)
+
+"BLD",7928,"KRN","B",8989.51,8989.51)
+
+"BLD",7928,"KRN","B",8989.52,8989.52)
+
+"BLD",7928,"KRN","B",8994,8994)
+
+"BLD",7928,"QDEF")
+^^^^NO^^^^NO^^NO
+"BLD",7928,"QUES",0)
+^9.62^^
+"BLD",7928,"REQB",0)
+^9.611^^0
+"KRN",8994,2932,-1)
+0^4
+"KRN",8994,2932,0)
+BTP SET^SET^BTPSER1^1^P^^^^.1
+"KRN",8994,2932,1,0)
+^8994.01^1^1^3150714^^^
+"KRN",8994,2932,1,1,0)
+MY FIRST RPC
+"KRN",8994,2932,2,0)
+^8994.02A^2^2
+"KRN",8994,2932,2,1,0)
+GLOBAL^1^255^1^1
+"KRN",8994,2932,2,1,1,0)
+^^1^1^3150602^
+"KRN",8994,2932,2,1,1,1,0)
+THE GLOBAL TO SET
+"KRN",8994,2932,2,2,0)
+VALUE^1^255^1^2
+"KRN",8994,2932,2,2,1,0)
+^8994.021^1^1^3150714^^^
+"KRN",8994,2932,2,2,1,1,0)
+THE VALUE OF THE GLOBAL
+"KRN",8994,2932,2,"B","GLOBAL",1)
+
+"KRN",8994,2932,2,"B","VALUE",2)
+
+"KRN",8994,2932,2,"PARAMSEQ",1,1)
+
+"KRN",8994,2932,2,"PARAMSEQ",2,2)
+
+"KRN",8994,2932,3,0)
+^8994.03^1^1^3150714^^^
+"KRN",8994,2932,3,1,0)
+RETURNS ERRORS ONLY - BLANK ON SUCCESS
+"KRN",8994,2933,-1)
+0^1
+"KRN",8994,2933,0)
+BTP DESERIALIZE^JSNTOM^BTPSER1^1
+"KRN",8994,2933,1,0)
+^8994.01^1^1^3150717^^^^
+"KRN",8994,2933,1,1,0)
+TAKES JSON AS STRING AND MAPS TO MUMPS OBJECT
+"KRN",8994,2933,2,0)
+^8994.02A^2^2
+"KRN",8994,2933,2,1,0)
+OBJ^1^32000^1^1
+"KRN",8994,2933,2,1,1,0)
+^8994.021^1^1^3150717^^
+"KRN",8994,2933,2,1,1,1,0)
+THE JSON OBJECT
+"KRN",8994,2933,2,2,0)
+NAME^1^255^1^2
+"KRN",8994,2933,2,2,1,0)
+^8994.021^1^1^3150717^^^^
+"KRN",8994,2933,2,2,1,1,0)
+NAME OF THE FIRST SUBSCIPT
+"KRN",8994,2933,2,"B","NAME",2)
+
+"KRN",8994,2933,2,"B","OBJ",1)
+
+"KRN",8994,2933,2,"PARAMSEQ",1,1)
+
+"KRN",8994,2933,2,"PARAMSEQ",2,2)
+
+"KRN",8994,2934,-1)
+0^3
+"KRN",8994,2934,0)
+BTP SERIALIZE^MTOJSN^BTPSER1^2^^^^^1
+"KRN",8994,2934,2,0)
+^8994.02A^1^1
+"KRN",8994,2934,2,1,0)
+OBJ^1^255^1
+"KRN",8994,2934,2,"B","OBJ",1)
+
+"KRN",8994,2935,-1)
+0^2
+"KRN",8994,2935,0)
+BTP KILL^KILL^BTPSER1^1^^^^^1
+"KRN",8994,2935,1,0)
+^8994.01^1^1^3150714^^
+"KRN",8994,2935,1,1,0)
+Kills global
+"KRN",8994,2935,2,0)
+^8994.02A^1^1
+"KRN",8994,2935,2,1,0)
+ROOT^1^255^1
+"KRN",8994,2935,2,1,1,0)
+^8994.021^1^1^3150714^^
+"KRN",8994,2935,2,1,1,1,0)
+Globa root name
+"KRN",8994,2935,2,"B","ROOT",1)
+
+"MBREQ")
+0
+"ORD",16,8994)
+8994;16;1;;;;;;;RPCDEL^XPDIA1
+"ORD",16,8994,0)
+REMOTE PROCEDURE
+"QUES","XPF1",0)
+Y
+"QUES","XPF1","??")
+^D REP^XPDH
+"QUES","XPF1","A")
+Shall I write over your |FLAG| File
+"QUES","XPF1","B")
+YES
+"QUES","XPF1","M")
+D XPF1^XPDIQ
+"QUES","XPF2",0)
+Y
+"QUES","XPF2","??")
+^D DTA^XPDH
+"QUES","XPF2","A")
+Want my data |FLAG| yours
+"QUES","XPF2","B")
+YES
+"QUES","XPF2","M")
+D XPF2^XPDIQ
+"QUES","XPI1",0)
+YO
+"QUES","XPI1","??")
+^D INHIBIT^XPDH
+"QUES","XPI1","A")
+Want KIDS to INHIBIT LOGONs during the install
+"QUES","XPI1","B")
+NO
+"QUES","XPI1","M")
+D XPI1^XPDIQ
+"QUES","XPM1",0)
+PO^VA(200,:EM
+"QUES","XPM1","??")
+^D MG^XPDH
+"QUES","XPM1","A")
+Enter the Coordinator for Mail Group '|FLAG|'
+"QUES","XPM1","B")
+
+"QUES","XPM1","M")
+D XPM1^XPDIQ
+"QUES","XPO1",0)
+Y
+"QUES","XPO1","??")
+^D MENU^XPDH
+"QUES","XPO1","A")
+Want KIDS to Rebuild Menu Trees Upon Completion of Install
+"QUES","XPO1","B")
+NO
+"QUES","XPO1","M")
+D XPO1^XPDIQ
+"QUES","XPZ1",0)
+Y
+"QUES","XPZ1","??")
+^D OPT^XPDH
+"QUES","XPZ1","A")
+Want to DISABLE Scheduled Options, Menu Options, and Protocols
+"QUES","XPZ1","B")
+NO
+"QUES","XPZ1","M")
+D XPZ1^XPDIQ
+"QUES","XPZ2",0)
+Y
+"QUES","XPZ2","??")
+^D RTN^XPDH
+"QUES","XPZ2","A")
+Want to MOVE routines to other CPUs
+"QUES","XPZ2","B")
+NO
+"QUES","XPZ2","M")
+D XPZ2^XPDIQ
+"RTN")
+1
+"RTN","BTPSER1")
+0^1^B2499
+"RTN","BTPSER1",1,0)
+BTPSER1 ; BTP - JSON to M API; 07/17/2015
+"RTN","BTPSER1",2,0)
+ ;;0.1;BTP TOOLS;**1**;07/17/15;Build 9
+"RTN","BTPSER1",3,0)
+ ; JSNTOM is the entry point for Deserialization
+"RTN","BTPSER1",4,0)
+ ; Ex Call: D JSNTOM(.RETURN,"{"myJsonStringKey":"myJsonStringVal"}","^MYGlOBAL()") W ^MYGLOBAL("myJsonKey") --> myJsonStringVal
+"RTN","BTPSER1",5,0)
+ ; Saves OBJ under the NAME global root
+"RTN","BTPSER1",6,0)
+ ;  |-------------------  Variables KEY  -------------------|
+"RTN","BTPSER1",7,0)
+ ;  |                                                       |
+"RTN","BTPSER1",8,0)
+ ;  |   OBJ --> The json string passed in                   |
+"RTN","BTPSER1",9,0)
+ ;  |   NAME --> The global root passed in                  |
+"RTN","BTPSER1",10,0)
+ ;  |   RETURN --> The return object for the RPC broker     |
+"RTN","BTPSER1",11,0)
+ ;  |   LEN --> The length of the json string               |
+"RTN","BTPSER1",12,0)
+ ;  |   SPOT --> The index position in the json string      |
+"RTN","BTPSER1",13,0)
+ ;  |   SCOPE --> The global root and current subscript     |
+"RTN","BTPSER1",14,0)
+ ;  |   CHAR --> The charachter at SPOT in the json string  |
+"RTN","BTPSER1",15,0)
+ ;  |   RET --> The return value of the function            |
+"RTN","BTPSER1",16,0)
+ ;  |                                                       |
+"RTN","BTPSER1",17,0)
+ ;  |-------------------------------------------------------|
+"RTN","BTPSER1",18,0)
+ ;
+"RTN","BTPSER1",19,0)
+ ;
+"RTN","BTPSER1",20,0)
+JSNTOM(RETURN,OBJ,NAME)
+"RTN","BTPSER1",21,0)
+ N LEN,CHAR,SPOT,SCOPE,PASS,ARR,COUNT,LSCOPE 
+"RTN","BTPSER1",22,0)
+ S LEN=$LENGTH(NAME)
+"RTN","BTPSER1",23,0)
+ I (")"=$E(NAME,LEN)),("("=$E(NAME,LEN-1)) S NAME=$E(NAME,0,LEN-2) ;handles subscripts being passed with the name ie. EXAMPLE("EXSUB1","EXSUB2")
+"RTN","BTPSER1",24,0)
+ S RETURN=NAME,ARR=0,COUNT=0,LSCOPE=0
+"RTN","BTPSER1",25,0)
+ S SCOPE=NAME ;scope will be used as the current global and subscript path as we parse
+"RTN","BTPSER1",26,0)
+ S SPOT=1 ;Our current index of the string
+"RTN","BTPSER1",27,0)
+ S LEN=$LENGTH(OBJ)
+"RTN","BTPSER1",28,0)
+ F i=1:1:LEN D ;no real need for loop hear bracket or getarr should only be called once, the loop helps with white space
+"RTN","BTPSER1",29,0)
+ . S CHAR=$EXTRACT(OBJ,SPOT)
+"RTN","BTPSER1",30,0)
+ . S SPOT=SPOT+1
+"RTN","BTPSER1",31,0)
+ . I CHAR="{" S i=LEN D BRACKET(OBJ,.SPOT,SCOPE,LEN) 
+"RTN","BTPSER1",32,0)
+ . I CHAR="[" S i=LEN D GETARR(OBJ,.SPOT,LEN,SCOPE,LSCOPE)
+"RTN","BTPSER1",33,0)
+ . I CHAR=" "
+"RTN","BTPSER1",34,0)
+ Q
+"RTN","BTPSER1",35,0)
+ ;
+"RTN","BTPSER1",36,0)
+ ; BRACKET is a recursicve function that handles dictionaries on the JSON String
+"RTN","BTPSER1",37,0)
+ ; Ex Call: D BRACKET("{"myJsonString":"myJsonString"}",1,LEN,"^MYGLOBAL","^MYGLOBAL(MYSUB)")
+"RTN","BTPSER1",38,0)
+ ; Returns once it has finsihed reading the entire dictionary that it was called on 
+"RTN","BTPSER1",39,0)
+BRACKET(OBJ,SPOT,SCOPE,LEN) 
+"RTN","BTPSER1",40,0)
+ N CHAR,COMMA,LSCOPE,DICT,FLAG ;
+"RTN","BTPSER1",41,0)
+ S COMMA=1,LSCOPE="",CHAR="",FLAG=0 
+"RTN","BTPSER1",42,0)
+ F i=1:1:LEN D  Q:FLAG
+"RTN","BTPSER1",43,0)
+ . I (COMMA=1) D
+"RTN","BTPSER1",44,0)
+ . . S DICT=$$KEY(OBJ,.SPOT,LEN),COMMA=0 ; Set DICT equal to the name of the next key in the JSON string
+"RTN","BTPSER1",45,0)
+ . S CHAR=$EXTRACT(OBJ,SPOT)
+"RTN","BTPSER1",46,0)
+ . I CHAR=":" D COLON(OBJ,.SPOT,LEN,.SCOPE,DICT) S CHAR=$EXTRACT(OBJ,SPOT) ;get the value after the colon unless it is a dictionary or array
+"RTN","BTPSER1",47,0)
+ . I CHAR="{" S SPOT=SPOT+1 S LSCOPE=$NAME(@SCOPE@(DICT)) D BRACKET(OBJ,.SPOT,LSCOPE,LEN) S CHAR=$EXTRACT(OBJ,SPOT)
+"RTN","BTPSER1",48,0)
+ . I CHAR="[" S SPOT=SPOT+1 S LSCOPE=$NAME(@SCOPE@(DICT)) D GETARR(OBJ,.SPOT,LEN,LSCOPE,LSCOPE) S CHAR=$EXTRACT(OBJ,SPOT)
+"RTN","BTPSER1",49,0)
+ . I CHAR="}" S FLAG=1
+"RTN","BTPSER1",50,0)
+ . I CHAR="," S COMMA=1
+"RTN","BTPSER1",51,0)
+ . S SPOT=SPOT+1
+"RTN","BTPSER1",52,0)
+ Q
+"RTN","BTPSER1",53,0)
+ ;
+"RTN","BTPSER1",54,0)
+ ; GETARR is a recursive function that handles arrays on the JSON String
+"RTN","BTPSER1",55,0)
+ ; Ex Call: D GETARR("{"myJsonString":"myJsonString"}",1,LEN,"^MYGLOBAL","^MYGLOBAL(MYSUB)")
+"RTN","BTPSER1",56,0)
+ ; Returns once it has finsihed reading the entire dictionary that it was called on 
+"RTN","BTPSER1",57,0)
+GETARR(OBJ,SPOT,LEN,SCOPE,LSCOPE)
+"RTN","BTPSER1",58,0)
+ N DIST,COUNT,FLAG,CDIST,BDIST,OBJTWO,PART,SQDIST,SDIST
+"RTN","BTPSER1",59,0)
+ S COUNT=0,FLAG=0,COMMA=1
+"RTN","BTPSER1",60,0)
+ F i=SPOT:1:LEN D  Q:FLAG
+"RTN","BTPSER1",61,0)
+ . S CHAR=$EXTRACT(OBJ,SPOT)
+"RTN","BTPSER1",62,0)
+ . I CHAR=" " S SPOT=SPOT+1 S CHAR=$EXTRACT(OBJ,SPOT)
+"RTN","BTPSER1",63,0)
+ . I CHAR="[" S SPOT=SPOT+1 S LSCOPE=$NAME(@SCOPE@(COUNT)) D GETARR(OBJ,.SPOT,LEN,LSCOPE,LSCOPE) S CHAR=$EXTRACT(OBJ,SPOT)
+"RTN","BTPSER1",64,0)
+ . I CHAR="{" S SPOT=SPOT+1 S LSCOPE=$NAME(@SCOPE@(COUNT)) D BRACKET(OBJ,.SPOT,LSCOPE,LEN) S CHAR=$EXTRACT(OBJ,SPOT)
+"RTN","BTPSER1",65,0)
+ . I CHAR="]" S FLAG=1
+"RTN","BTPSER1",66,0)
+ . I CHAR="," S COMMA=1,COUNT=COUNT+1,SPOT=SPOT+1
+"RTN","BTPSER1",67,0)
+ . I (COMMA=1) D ;if comma is true we set the global at SCOPE(COUNT) equal to the next value in the JSON string
+"RTN","BTPSER1",68,0)
+ . . S OBJTWO=$E(OBJ,SPOT,LEN)
+"RTN","BTPSER1",69,0)
+ . . S CDIST=$F(OBJTWO,","),BDIST=$F(OBJTWO,"{"),SQDIST=$F(OBJTWO,"]"),SDIST=$F(OBJTWO,"[") ;this is for handling all types of arrays
+"RTN","BTPSER1",70,0)
+ . . I (CDIST<BDIST)!(BDIST=0),(CDIST'=0),((CDIST<SQDIST)!(SQDIST=0)),(CDIST<SDIST)!(SDIST=0) D ;if a comma is the
+"RTN","BTPSER1",71,0)
+ . . . S PART=$P(OBJTWO,",",1)
+"RTN","BTPSER1",72,0)
+ . . . I (PART="") S PART=$P(OBJTWO,",",2)
+"RTN","BTPSER1",73,0)
+ . . . I (1=$F(PART,"""")) D
+"RTN","BTPSER1",74,0)
+ . . . . S PART=$P(PART,"""",2)
+"RTN","BTPSER1",75,0)
+ . . . S SPOT=SPOT+$L(PART)
+"RTN","BTPSER1",76,0)
+ . . . D TRIMQ(.PART)
+"RTN","BTPSER1",77,0)
+ . . . S @SCOPE@(COUNT)=PART 
+"RTN","BTPSER1",78,0)
+ . . I (SQDIST<CDIST)!(CDIST=0),(SQDIST'=0),(SQDIST<SDIST)!(SDIST=0) D
+"RTN","BTPSER1",79,0)
+ . . . S PART=$P(OBJTWO,"]",1)
+"RTN","BTPSER1",80,0)
+ . . . S SPOT=SPOT+$L(PART)
+"RTN","BTPSER1",81,0)
+ . . . D TRIMQ(.PART)
+"RTN","BTPSER1",82,0)
+ . . . S @SCOPE@(COUNT)=PART 
+"RTN","BTPSER1",83,0)
+ . . S COMMA=0
+"RTN","BTPSER1",84,0)
+ . E  S SPOT=SPOT+1
+"RTN","BTPSER1",85,0)
+ Q
+"RTN","BTPSER1",86,0)
+ ;
+"RTN","BTPSER1",87,0)
+ ; COLON is a function that is called when BRACKET encounters a ":".
+"RTN","BTPSER1",88,0)
+ ;  It handles getting the corresponding value after the ":"
+"RTN","BTPSER1",89,0)
+ ;  and also setting the global root at the current subscript equal to that value
+"RTN","BTPSER1",90,0)
+ ; Ex Call: D COLON("{"myJsonKey":"myJsonVal"}",16,LEN,"^MYGLOBAL","myJsonKey") W ^MYGLOBAL("myJsonKey") --> myJsonVal
+"RTN","BTPSER1",91,0)
+ ; Returns once it gets the value and adjust spot accorddingly 
+"RTN","BTPSER1",92,0)
+COLON(OBJ,SPOT,LEN,SCOPE,DICT) 
+"RTN","BTPSER1",93,0)
+ N CHEK,RET
+"RTN","BTPSER1",94,0)
+ S RET=$$POSTCOL(OBJ,.SPOT,LEN)
+"RTN","BTPSER1",95,0)
+ I (RET=1) D ;QUOTE CAME UP NEXT
+"RTN","BTPSER1",96,0)
+ . S OBJTWO=$EXTRACT(OBJ,SPOT+1,LEN)
+"RTN","BTPSER1",97,0)
+ . D RMVWS(.OBJTWO)
+"RTN","BTPSER1",98,0)
+ . S CHEK=$$CHECK(OBJTWO)
+"RTN","BTPSER1",99,0)
+ . I (CHEK=1) D
+"RTN","BTPSER1",100,0)
+ . . S PART=$PIECE(OBJTWO,"""",1)
+"RTN","BTPSER1",101,0)
+ . . I PART="" S PART=$PIECE(OBJTWO,"""",2)
+"RTN","BTPSER1",102,0)
+ . . D RMVWS(.PART)
+"RTN","BTPSER1",103,0)
+ . . S @SCOPE@(DICT)=PART
+"RTN","BTPSER1",104,0)
+ . . S SPOT=SPOT+$LENGTH(PART)+1
+"RTN","BTPSER1",105,0)
+ . I (CHEK=2) D
+"RTN","BTPSER1",106,0)
+ . . S PART=$PIECE(OBJTWO,"}",1)
+"RTN","BTPSER1",107,0)
+ . . I PART="" S SPOT=SPOT+1 S OBJTWO=$EXTRACT(OBJ,SPOT+1,LEN) S PART=$PIECE(OBJTWO,"}",1)
+"RTN","BTPSER1",108,0)
+ . . D RMVWS(.PART)
+"RTN","BTPSER1",109,0)
+ . . S @SCOPE@(DICT)=PART
+"RTN","BTPSER1",110,0)
+ . . S SPOT=SPOT+$LENGTH(PART)+1
+"RTN","BTPSER1",111,0)
+ . I (CHEK=3) D
+"RTN","BTPSER1",112,0)
+ . . S PART=$PIECE(OBJTWO,",",1)
+"RTN","BTPSER1",113,0)
+ . . I PART="" S SPOT=SPOT+1 S OBJTWO=$EXTRACT(OBJ,SPOT+1,LEN) S PART=$PIECE(OBJTWO,",",1)
+"RTN","BTPSER1",114,0)
+ . . D RMVWS(.PART)
+"RTN","BTPSER1",115,0)
+ . . S @SCOPE@(DICT)=PART
+"RTN","BTPSER1",116,0)
+ . . S SPOT=SPOT+$LENGTH(PART)+1
+"RTN","BTPSER1",117,0)
+ Q
+"RTN","BTPSER1",118,0)
+ ;
+"RTN","BTPSER1",119,0)
+ ; KEY is a function that is called in BRACKET when BRACKET needs to retrieve the next key from the json string
+"RTN","BTPSER1",120,0)
+ ; Ex Call: S MYKEY=KEY("{"myJsonKey":"myJsonVal"}",16,LEN) W MYKEY --> "myJsonKey"
+"RTN","BTPSER1",121,0)
+ ; Returns the DICT value and updates the SPOT
+"RTN","BTPSER1",122,0)
+KEY(OBJ,SPOT,LEN)
+"RTN","BTPSER1",123,0)
+ S OBJTWO=$EXTRACT(OBJ,SPOT,LEN)
+"RTN","BTPSER1",124,0)
+ S DICT=$PIECE(OBJTWO,":",1)
+"RTN","BTPSER1",125,0)
+ S SPOT=SPOT+$LENGTH(DICT)
+"RTN","BTPSER1",126,0)
+ D TRIMQ(.DICT)
+"RTN","BTPSER1",127,0)
+ Q DICT
+"RTN","BTPSER1",128,0)
+ ;
+"RTN","BTPSER1",129,0)
+ ; POSTCOL is a function that is called in COLON when COLON is looking for what type of value the key has. 
+"RTN","BTPSER1",130,0)
+ ; Ex Call: S RETVAL=CHECK("{""myJsonKey"":""myJsonVal""}",16,LEN) W RETVAL --> 1
+"RTN","BTPSER1",131,0)
+ ; Returns a 1 if the value is not a Dictionary or an Array, otherwise 0
+"RTN","BTPSER1",132,0)
+POSTCOL(OBJ,SPOT,LEN)
+"RTN","BTPSER1",133,0)
+ N RET
+"RTN","BTPSER1",134,0)
+ S RET=0
+"RTN","BTPSER1",135,0)
+ S CHAR=$EXTRACT(OBJ,SPOT)
+"RTN","BTPSER1",136,0)
+ F x=1:1:LEN
+"RTN","BTPSER1",137,0)
+ . I CHAR'=" " S i=LEN Q
+"RTN","BTPSER1",138,0)
+ . S SPOT=SPOT+1
+"RTN","BTPSER1",139,0)
+ . S CHAR=$EXTRACT(OBJ,SPOT)
+"RTN","BTPSER1",140,0)
+ S QUOTE=$F(OBJ,"""",SPOT)
+"RTN","BTPSER1",141,0)
+ S BRACK=$F(OBJ,"{",SPOT)
+"RTN","BTPSER1",142,0)
+ S ARRB=$F(OBJ,"[",SPOT)
+"RTN","BTPSER1",143,0)
+ S COMMA=$F(OBJ,",",SPOT)
+"RTN","BTPSER1",144,0)
+ S RBRACK=$F(OBJ,"}",SPOT)
+"RTN","BTPSER1",145,0)
+ I QUOTE'=0 D
+"RTN","BTPSER1",146,0)
+ . I ((QUOTE<BRACK)!(BRACK=0)),((QUOTE<ARRB)!(ARRB=0)) D
+"RTN","BTPSER1",147,0)
+ . . S RET=1
+"RTN","BTPSER1",148,0)
+ I (COMMA'=0) D
+"RTN","BTPSER1",149,0)
+ . I ((COMMA<QUOTE)!(QUOTE=0)),((COMMA<BRACK)!(BRACK=0)),((COMMA<ARRB)!(ARRB=0)) D
+"RTN","BTPSER1",150,0)
+ . . S RET=1
+"RTN","BTPSER1",151,0)
+ I (RBRACK'=0) D
+"RTN","BTPSER1",152,0)
+ . I ((RBRACK<QUOTE)!(QUOTE=0)),((RBRACK<BRACK)!(BRACK=0)),((RBRACK<ARRB)!(ARRB=0)) D
+"RTN","BTPSER1",153,0)
+ . . S RET=1
+"RTN","BTPSER1",154,0)
+ Q RET
+"RTN","BTPSER1",155,0)
+ ;
+"RTN","BTPSER1",156,0)
+ ; CHECK is a function that is called when COLON is looking for where the value its retrieving ends 
+"RTN","BTPSER1",157,0)
+ ; Ex Call: S RETVAL=CHECK(":""myJsonVal""}") W RETVAL --> 1
+"RTN","BTPSER1",158,0)
+ ; Returns a 1 if value surronded by quotes, 2 if brackets and 3 if a comma
+"RTN","BTPSER1",159,0)
+CHECK(OBJ)
+"RTN","BTPSER1",160,0)
+ N RET
+"RTN","BTPSER1",161,0)
+ S RET=0
+"RTN","BTPSER1",162,0)
+ S BRACK=$F(OBJ,"}")
+"RTN","BTPSER1",163,0)
+ S QUOTE=$F(OBJ,"""")
+"RTN","BTPSER1",164,0)
+ S COMMA=$F(OBJ,",")
+"RTN","BTPSER1",165,0)
+ I QUOTE'=0 D
+"RTN","BTPSER1",166,0)
+ . I ((QUOTE<BRACK)!(BRACK=0)),((QUOTE<COMMA)!(COMMA=0)) D
+"RTN","BTPSER1",167,0)
+ . . S RET=1
+"RTN","BTPSER1",168,0)
+ I BRACK'=0 D
+"RTN","BTPSER1",169,0)
+ . I ((BRACK<QUOTE)!(QUOTE=0)),((BRACK<COMMA)!(COMMA=0)) D
+"RTN","BTPSER1",170,0)
+ . . S RET=2
+"RTN","BTPSER1",171,0)
+ I COMMA'=0 D
+"RTN","BTPSER1",172,0)
+ . I ((COMMA<BRACK)!(BRACK=0)),((COMMA<QUOTE)!(QUOTE=0)) D
+"RTN","BTPSER1",173,0)
+ . . S RET=3
+"RTN","BTPSER1",174,0)
+ Q RET
+"RTN","BTPSER1",175,0)
+ ;
+"RTN","BTPSER1",176,0)
+ ; TRIMQ is called in GETARR and KEY, it trims the quotes off the front and back of DICT
+"RTN","BTPSER1",177,0)
+ ; Ex Call: S DICT="""dict""" D TRIMQ(DICT) W DICT -->  "dict"
+"RTN","BTPSER1",178,0)
+ ; Modfiies DICT string without any leading or trailing quotes or whitespace 
+"RTN","BTPSER1",179,0)
+TRIMQ(DICT)
+"RTN","BTPSER1",180,0)
+ N CHAR,FRONT,BACK,LEN
+"RTN","BTPSER1",181,0)
+ S LEN=$LENGTH(DICT)
+"RTN","BTPSER1",182,0)
+ S FRONT=1
+"RTN","BTPSER1",183,0)
+ S BACK=LEN
+"RTN","BTPSER1",184,0)
+ F z=1:1:LEN D
+"RTN","BTPSER1",185,0)
+ . S CHAR=$E(DICT,z)
+"RTN","BTPSER1",186,0)
+ . I (CHAR="""") ! (CHAR=" ") S FRONT=z+1
+"RTN","BTPSER1",187,0)
+ . E  S z=LEN
+"RTN","BTPSER1",188,0)
+ F z=LEN:-1:1 D
+"RTN","BTPSER1",189,0)
+ . S CHAR=$E(DICT,z)
+"RTN","BTPSER1",190,0)
+ . I (CHAR="""") ! (CHAR=" ") S BACK=z-1
+"RTN","BTPSER1",191,0)
+ . E  S z=1
+"RTN","BTPSER1",192,0)
+ S DICT=$EXTRACT(DICT,FRONT,BACK)
+"RTN","BTPSER1",193,0)
+ Q
+"RTN","BTPSER1",194,0)
+ ;
+"RTN","BTPSER1",195,0)
+ ; RMVWS is called in COLON and remoces leading and trailing whitespace
+"RTN","BTPSER1",196,0)
+ ; Ex Call: D RMVWS("  myquotesurronedval ") --> "myquotesurronedval"
+"RTN","BTPSER1",197,0)
+ ; Modifies DICT without any leading or trailing quotes or whitespace
+"RTN","BTPSER1",198,0)
+RMVWS(DICT)
+"RTN","BTPSER1",199,0)
+ N CHAR,FRONT,BACK,LEN
+"RTN","BTPSER1",200,0)
+ S LEN=$LENGTH(DICT)
+"RTN","BTPSER1",201,0)
+ S FRONT=1
+"RTN","BTPSER1",202,0)
+ S BACK=LEN
+"RTN","BTPSER1",203,0)
+ F z=1:1:LEN D
+"RTN","BTPSER1",204,0)
+ . S CHAR=$E(DICT,z)
+"RTN","BTPSER1",205,0)
+ . I CHAR=" " S FRONT=z+1
+"RTN","BTPSER1",206,0)
+ . I CHAR'=" " S z=LEN Q
+"RTN","BTPSER1",207,0)
+ F z=LEN:-1:1 D
+"RTN","BTPSER1",208,0)
+ . S CHAR=$E(DICT,z)
+"RTN","BTPSER1",209,0)
+ . I CHAR=" " S BACK=z-1
+"RTN","BTPSER1",210,0)
+ . I CHAR'=" " S z=1 Q
+"RTN","BTPSER1",211,0)
+ S DICT=$EXTRACT(DICT,FRONT,BACK)
+"RTN","BTPSER1",212,0)
+ Q
+"RTN","BTPSER1",213,0)
+ ;
+"RTN","BTPSER1",214,0)
+ ; MTOJSN is the entry point for Serialization
+"RTN","BTPSER1",215,0)
+ ; Ex Call: D MTOJSN(.RETURN,"^MYGlOBAL()") 
+"RTN","BTPSER1",216,0)
+ ; Parses the object ^MYGLOBAL into a JSON string and stores it in RETURN
+"RTN","BTPSER1",217,0)
+MTOJSN(RETURN,OBJ)
+"RTN","BTPSER1",218,0)
+ N LAST,PASS,SUBTWO,LEN,JSN,DATVAL,RETCNT,TESTT,NUMSUB
+"RTN","BTPSER1",219,0)
+ S LEN=$L(OBJ)
+"RTN","BTPSER1",220,0)
+ S RETURN(0)="" ;set up return obj incase Mump obj is empty
+"RTN","BTPSER1",221,0)
+ I ")"'=$E(OBJ,LEN) S OBJ=OBJ_"()" ;Handling ^EXGLOBAL as opposed to ^EXGLOBAL() syntax
+"RTN","BTPSER1",222,0)
+ S JSN="{",RETCNT=0,LEN=$L(OBJ),LEN=LEN-1,SUBTWO=$E(OBJ,1,LEN) ;get rid of last ) ie ^EXGLOBAL() --> ^EXGLOBAL(
+"RTN","BTPSER1",223,0)
+ I "("'=$E(OBJ,LEN) S SUBTWO=SUBTWO_"," ;add comma if subscript present ie ^EXGLOBAL("sub" --> ^EXGLOBAL("sub",
+"RTN","BTPSER1",224,0)
+ S PASS=SUBTWO_""""")" ;Pass is what we will pass into our $ORDER to get the next subscript, we add an empty quote ie ^EXGLOBAL("sub", --> ^EXGLOBAL("sub",""
+"RTN","BTPSER1",225,0)
+ S LAST=$O(@PASS,1) ;get next subscript
+"RTN","BTPSER1",226,0)
+ I LAST="" S RETURN(RETCNT)="{"""_$RE($P($RE(SUBTWO),"""",2))_""":"""_$GET(@OBJ)_"""}" Q  ;quit and return value of OBJ if no subscript on next level
+"RTN","BTPSER1",227,0)
+ S PASS=SUBTWO_""""_LAST_""")" ;if subscript not empty add on SUB
+"RTN","BTPSER1",228,0)
+ D DOWNLVL(.RETURN,PASS,LAST,.JSN,OBJ,.RETCNT) ;start recursive work horse
+"RTN","BTPSER1",229,0)
+ S RETURN(RETCNT)=JSN ;RPC is extecing an array, this puts the last JSON from JSN into the return object
+"RTN","BTPSER1",230,0)
+ Q
+"RTN","BTPSER1",231,0)
+ ;
+"RTN","BTPSER1",232,0)
+ ; DOWNLVL is driver function in MTOJSN 
+"RTN","BTPSER1",233,0)
+ ; 
+"RTN","BTPSER1",234,0)
+DOWNLVL(RETURN,SUB,LAST,JSN,OLDSUB,RETCNT)
+"RTN","BTPSER1",235,0)
+ N PASS,SUBTWO,LEN,NEXTLVL,NEXT,STOP,FIRST,LEFT,RIGHT,VAL,QHELP,CHAHELP
+"RTN","BTPSER1",236,0)
+ S STOP=0,FIRST=0,DATVAL=0
+"RTN","BTPSER1",237,0)
+ S LEN=$L(JSN)
+"RTN","BTPSER1",238,0)
+ I LEN>7000  S RETURN(RETCNT)=JSN S JSN="" S RETCNT=RETCNT+1 ;Handles max string length of mump value
+"RTN","BTPSER1",239,0)
+ F i=0:0:1 D  I (STOP=1) Q  ;keeps going until stop is flipped
+"RTN","BTPSER1",240,0)
+ . S LEN=($L(SUB)-1)  ;to eliminate the ) at the end of the script
+"RTN","BTPSER1",241,0)
+ . S SUBTWO=$E(SUB,1,LEN) ;get the global and subs without the last )
+"RTN","BTPSER1",242,0)
+ . S SUBTWO=SUBTWO_","""")" ; add on the empty string to get the next subscript
+"RTN","BTPSER1",243,0)
+ . S DATVAL=$D(@SUB) ;$D returns 1 if there is data at the subscript
+"RTN","BTPSER1",244,0)
+ . I 1=DATVAL  D
+"RTN","BTPSER1",245,0)
+ . . I (FIRST=1) D ;if first time coming through at this recursive call add comma to JSN string
+"RTN","BTPSER1",246,0)
+ . . . S JSN=JSN_","
+"RTN","BTPSER1",247,0)
+ . . I ($F(LAST,"\")) D
+"RTN","BTPSER1",248,0)
+ . . . S QHELP=""
+"RTN","BTPSER1",249,0)
+ . . . S LEN=$L(LAST)
+"RTN","BTPSER1",250,0)
+ . . . FOR I=1:1:LEN D
+"RTN","BTPSER1",251,0)
+ . . . . S CHAHELP=$E(LAST,I)
+"RTN","BTPSER1",252,0)
+ . . . . I (CHAHELP="\") D
+"RTN","BTPSER1",253,0)
+ . . . . . S QHELP=QHELP_"\"_CHAHELP
+"RTN","BTPSER1",254,0)
+ . . . . E  D
+"RTN","BTPSER1",255,0)
+ . . . . . S QHELP=QHELP_CHAHELP
+"RTN","BTPSER1",256,0)
+ . . . S LAST=QHELP
+"RTN","BTPSER1",257,0)
+ . . . S LEN=$L(JSN)
+"RTN","BTPSER1",258,0)
+ . . I ($F(LAST,"""")) D ;handles qoutes by inserting \in front of them for the C# layer
+"RTN","BTPSER1",259,0)
+ . . . S LEN=$L(LAST)
+"RTN","BTPSER1",260,0)
+ . . . S QHELP=$E(LAST,0,$F(LAST,"""")-1)
+"RTN","BTPSER1",261,0)
+ . . . S QHELP=QHELP_"\"
+"RTN","BTPSER1",262,0)
+ . . . S QHELP=QHELP_$E(LAST,$F(LAST,"""")-1,LEN)
+"RTN","BTPSER1",263,0)
+ . . . S LAST=QHELP
+"RTN","BTPSER1",264,0)
+ . . . S LEN=$L(JSN)
+"RTN","BTPSER1",265,0)
+ . . S JSN=JSN_""""_LAST_""":"
+"RTN","BTPSER1",266,0)
+ . . S VAL=$GET(@SUB)
+"RTN","BTPSER1",267,0)
+ . . I ($F(VAL,"\")) D
+"RTN","BTPSER1",268,0)
+ . . . S QHELP=""
+"RTN","BTPSER1",269,0)
+ . . . S LEN=$L(VAL)
+"RTN","BTPSER1",270,0)
+ . . . FOR I=1:1:LEN D
+"RTN","BTPSER1",271,0)
+ . . . . S CHAHELP=$E(VAL,I)
+"RTN","BTPSER1",272,0)
+ . . . . I (CHAHELP="\") D
+"RTN","BTPSER1",273,0)
+ . . . . . S QHELP=QHELP_"\"_CHAHELP
+"RTN","BTPSER1",274,0)
+ . . . . E  D
+"RTN","BTPSER1",275,0)
+ . . . . . S QHELP=QHELP_CHAHELP
+"RTN","BTPSER1",276,0)
+ . . . S VAL=QHELP
+"RTN","BTPSER1",277,0)
+ . . . S LEN=$L(JSN)
+"RTN","BTPSER1",278,0)
+ . . I ($F(VAL,"""")) D
+"RTN","BTPSER1",279,0)
+ . . . S QHELP=""
+"RTN","BTPSER1",280,0)
+ . . . S LEN=$L(VAL)
+"RTN","BTPSER1",281,0)
+ . . . FOR I=1:1:LEN D
+"RTN","BTPSER1",282,0)
+ . . . . S CHAHELP=$E(VAL,I)
+"RTN","BTPSER1",283,0)
+ . . . . I (CHAHELP="""")  ; S CHAHELP="\"_CHAHELP
+"RTN","BTPSER1",284,0)
+ . . . . S QHELP=QHELP_CHAHELP
+"RTN","BTPSER1",285,0)
+ . . . S VAL=QHELP
+"RTN","BTPSER1",286,0)
+ . . . S LEN=$L(JSN)
+"RTN","BTPSER1",287,0)
+ . . I (VAL=+VAL) S JSN=JSN_VAL
+"RTN","BTPSER1",288,0)
+ . . E  S JSN=JSN_""""_VAL_""""
+"RTN","BTPSER1",289,0)
+ . . S FIRST=1
+"RTN","BTPSER1",290,0)
+ . S NEXTLVL=$O(@SUBTWO,1) ;get subscript below our current level
+"RTN","BTPSER1",291,0)
+ . I (NEXTLVL'="") D ;if subscript is not empty add it on to our current one and make the recursive call
+"RTN","BTPSER1",292,0)
+ . . S PASS=$E(SUB,1,LEN)
+"RTN","BTPSER1",293,0)
+ . . I +NEXTLVL=NEXTLVL S PASS=PASS_","_NEXTLVL_")"
+"RTN","BTPSER1",294,0)
+ . . E  S PASS=PASS_","""_NEXTLVL_""")"
+"RTN","BTPSER1",295,0)
+ . . I (FIRST=1) D
+"RTN","BTPSER1",296,0)
+ . . . S JSN=JSN_","
+"RTN","BTPSER1",297,0)
+ . . I ($F(LAST,"\")) D
+"RTN","BTPSER1",298,0)
+ . . . S QHELP=""
+"RTN","BTPSER1",299,0)
+ . . . S LEN=$L(LAST)
+"RTN","BTPSER1",300,0)
+ . . . FOR I=1:1:LEN D
+"RTN","BTPSER1",301,0)
+ . . . . S CHAHELP=$E(LAST,I)
+"RTN","BTPSER1",302,0)
+ . . . . I (CHAHELP="\") D
+"RTN","BTPSER1",303,0)
+ . . . . . S QHELP=QHELP_"\"_CHAHELP
+"RTN","BTPSER1",304,0)
+ . . . . E  D
+"RTN","BTPSER1",305,0)
+ . . . . . S QHELP=QHELP_CHAHELP
+"RTN","BTPSER1",306,0)
+ . . . S LAST=QHELP
+"RTN","BTPSER1",307,0)
+ . . . S LEN=$L(JSN)
+"RTN","BTPSER1",308,0)
+ . . I ($F(LAST,"""")) D
+"RTN","BTPSER1",309,0)
+ . . . S QHELP=""
+"RTN","BTPSER1",310,0)
+ . . . S LEN=$L(LAST)
+"RTN","BTPSER1",311,0)
+ . . . FOR I=1:1:LEN D
+"RTN","BTPSER1",312,0)
+ . . . . S CHAHELP=$E(LAST,I)
+"RTN","BTPSER1",313,0)
+ . . . . I (CHAHELP="""") S CHAHELP="\"_CHAHELP
+"RTN","BTPSER1",314,0)
+ . . . . S QHELP=QHELP_CHAHELP
+"RTN","BTPSER1",315,0)
+ . . . S LAST=QHELP
+"RTN","BTPSER1",316,0)
+ . . . S LEN=$L(JSN)
+"RTN","BTPSER1",317,0)
+ . . S JSN=JSN_""""_LAST_""":"
+"RTN","BTPSER1",318,0)
+ . . S JSN=JSN_"{"
+"RTN","BTPSER1",319,0)
+ . . S FIRST=1
+"RTN","BTPSER1",320,0)
+ . . D DOWNLVL(.RETURN,PASS,NEXTLVL,.JSN,SUB,.RETCNT) ; recursive call on our newly added subscript
+"RTN","BTPSER1",321,0)
+ . S NEXT=$O(@SUB,1) ;get next subscript at current level for next loop
+"RTN","BTPSER1",322,0)
+ . I NEXT'="" D
+"RTN","BTPSER1",323,0)
+ . . S LEN=($L(OLDSUB)-1)  ;to elimitae the ) at the end of the script
+"RTN","BTPSER1",324,0)
+ . . S SUBTWO=$E(OLDSUB,1,LEN)
+"RTN","BTPSER1",325,0)
+ . . S LEFT=$F(OLDSUB,"(")
+"RTN","BTPSER1",326,0)
+ . . S RIGHT=$F(OLDSUB,")")
+"RTN","BTPSER1",327,0)
+ . . I (RIGHT-LEFT=1) D
+"RTN","BTPSER1",328,0)
+ . . . I +NEXT=NEXT S SUBTWO=SUBTWO_NEXT_")"
+"RTN","BTPSER1",329,0)
+ . . . E  S SUBTWO=SUBTWO_""""_NEXT_""")"
+"RTN","BTPSER1",330,0)
+ . . I (RIGHT-LEFT'=1) D  
+"RTN","BTPSER1",331,0)
+ . . . I +NEXT=NEXT S SUBTWO=SUBTWO_","_NEXT_")"
+"RTN","BTPSER1",332,0)
+ . . . E  S SUBTWO=SUBTWO_","""_NEXT_""")"
+"RTN","BTPSER1",333,0)
+ . . S SUB=SUBTWO
+"RTN","BTPSER1",334,0)
+ . . S LAST=NEXT
+"RTN","BTPSER1",335,0)
+ . I NEXT="" S STOP=1 Q ;$Order returns an empty string we have traversed all subscripts at this level so end loop and quit
+"RTN","BTPSER1",336,0)
+ S JSN=JSN_"}" ; if leaving close dictionary for that level
+"RTN","BTPSER1",337,0)
+ Q
+"RTN","BTPSER1",338,0)
+ ;
+"RTN","BTPSER1",339,0)
+SET(RETURN,GLOBAL,VALUE)
+"RTN","BTPSER1",340,0)
+ S @GLOBAL=VALUE
+"RTN","BTPSER1",341,0)
+ Q VALUE
+"RTN","BTPSER1",342,0)
+ ;
+"RTN","BTPSER1",343,0)
+KILL(RETURN,GLOBAL)
+"RTN","BTPSER1",344,0)
+ K @GLOBAL
+"RTN","BTPSER1",345,0)
+ S RETURN="Success"
+"RTN","BTPSER1",346,0)
+ Q 
+"RTN","BTPSER1",347,0)
+ ;
+"VER")
+8.0^22.0
+**END**
+**END**

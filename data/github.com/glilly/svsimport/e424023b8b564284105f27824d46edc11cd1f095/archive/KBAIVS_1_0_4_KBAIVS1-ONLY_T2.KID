@@ -1,0 +1,736 @@
+KIDS Distribution saved on Jul 26, 2013@19:02:12
+second try to fix VMS file names
+**KIDS**:KBAIVS*1.0*4^
+
+**INSTALL NAME**
+KBAIVS*1.0*4
+"BLD",678,0)
+KBAIVS*1.0*4^^0^3130726^n
+"BLD",678,4,0)
+^9.64PA^^0
+"BLD",678,6.3)
+9
+"BLD",678,"KRN",0)
+^9.67PA^779.2^20
+"BLD",678,"KRN",.4,0)
+.4
+"BLD",678,"KRN",.401,0)
+.401
+"BLD",678,"KRN",.402,0)
+.402
+"BLD",678,"KRN",.403,0)
+.403
+"BLD",678,"KRN",.5,0)
+.5
+"BLD",678,"KRN",.84,0)
+.84
+"BLD",678,"KRN",3.6,0)
+3.6
+"BLD",678,"KRN",3.8,0)
+3.8
+"BLD",678,"KRN",9.2,0)
+9.2
+"BLD",678,"KRN",9.8,0)
+9.8
+"BLD",678,"KRN",9.8,"NM",0)
+^9.68A^1^1
+"BLD",678,"KRN",9.8,"NM",1,0)
+KBAIVS1^^0^B78475985
+"BLD",678,"KRN",9.8,"NM","B","KBAIVS1",1)
+
+"BLD",678,"KRN",19,0)
+19
+"BLD",678,"KRN",19.1,0)
+19.1
+"BLD",678,"KRN",101,0)
+101
+"BLD",678,"KRN",409.61,0)
+409.61
+"BLD",678,"KRN",771,0)
+771
+"BLD",678,"KRN",779.2,0)
+779.2
+"BLD",678,"KRN",870,0)
+870
+"BLD",678,"KRN",8989.51,0)
+8989.51
+"BLD",678,"KRN",8989.52,0)
+8989.52
+"BLD",678,"KRN",8994,0)
+8994
+"BLD",678,"KRN","B",.4,.4)
+
+"BLD",678,"KRN","B",.401,.401)
+
+"BLD",678,"KRN","B",.402,.402)
+
+"BLD",678,"KRN","B",.403,.403)
+
+"BLD",678,"KRN","B",.5,.5)
+
+"BLD",678,"KRN","B",.84,.84)
+
+"BLD",678,"KRN","B",3.6,3.6)
+
+"BLD",678,"KRN","B",3.8,3.8)
+
+"BLD",678,"KRN","B",9.2,9.2)
+
+"BLD",678,"KRN","B",9.8,9.8)
+
+"BLD",678,"KRN","B",19,19)
+
+"BLD",678,"KRN","B",19.1,19.1)
+
+"BLD",678,"KRN","B",101,101)
+
+"BLD",678,"KRN","B",409.61,409.61)
+
+"BLD",678,"KRN","B",771,771)
+
+"BLD",678,"KRN","B",779.2,779.2)
+
+"BLD",678,"KRN","B",870,870)
+
+"BLD",678,"KRN","B",8989.51,8989.51)
+
+"BLD",678,"KRN","B",8989.52,8989.52)
+
+"BLD",678,"KRN","B",8994,8994)
+
+"BLD",678,"QUES",0)
+^9.62^^
+"MBREQ")
+0
+"QUES","XPF1",0)
+Y
+"QUES","XPF1","??")
+^D REP^XPDH
+"QUES","XPF1","A")
+Shall I write over your |FLAG| File
+"QUES","XPF1","B")
+YES
+"QUES","XPF1","M")
+D XPF1^XPDIQ
+"QUES","XPF2",0)
+Y
+"QUES","XPF2","??")
+^D DTA^XPDH
+"QUES","XPF2","A")
+Want my data |FLAG| yours
+"QUES","XPF2","B")
+YES
+"QUES","XPF2","M")
+D XPF2^XPDIQ
+"QUES","XPI1",0)
+YO
+"QUES","XPI1","??")
+^D INHIBIT^XPDH
+"QUES","XPI1","A")
+Want KIDS to INHIBIT LOGONs during the install
+"QUES","XPI1","B")
+NO
+"QUES","XPI1","M")
+D XPI1^XPDIQ
+"QUES","XPM1",0)
+PO^VA(200,:EM
+"QUES","XPM1","??")
+^D MG^XPDH
+"QUES","XPM1","A")
+Enter the Coordinator for Mail Group '|FLAG|'
+"QUES","XPM1","B")
+
+"QUES","XPM1","M")
+D XPM1^XPDIQ
+"QUES","XPO1",0)
+Y
+"QUES","XPO1","??")
+^D MENU^XPDH
+"QUES","XPO1","A")
+Want KIDS to Rebuild Menu Trees Upon Completion of Install
+"QUES","XPO1","B")
+NO
+"QUES","XPO1","M")
+D XPO1^XPDIQ
+"QUES","XPZ1",0)
+Y
+"QUES","XPZ1","??")
+^D OPT^XPDH
+"QUES","XPZ1","A")
+Want to DISABLE Scheduled Options, Menu Options, and Protocols
+"QUES","XPZ1","B")
+NO
+"QUES","XPZ1","M")
+D XPZ1^XPDIQ
+"QUES","XPZ2",0)
+Y
+"QUES","XPZ2","??")
+^D RTN^XPDH
+"QUES","XPZ2","A")
+Want to MOVE routines to other CPUs
+"QUES","XPZ2","B")
+NO
+"QUES","XPZ2","M")
+D XPZ2^XPDIQ
+"RTN")
+1
+"RTN","KBAIVS1")
+0^1^B78475985
+"RTN","KBAIVS1",1,0)
+KBAIVS1 ; GPL - NLM Valueset import routines  ;2/20/13  17:05
+"RTN","KBAIVS1",2,0)
+ ;;0.1;C0X;nopatch;noreleasedate;Build 9
+"RTN","KBAIVS1",3,0)
+ ;Copyright 2013 George Lilly.  Licensed Apache 2
+"RTN","KBAIVS1",4,0)
+ ;
+"RTN","KBAIVS1",5,0)
+ Q
+"RTN","KBAIVS1",6,0)
+ ;
+"RTN","KBAIVS1",7,0)
+tree(where,prefix) ; show a tree starting at a node in MXML. node is passed by name
+"RTN","KBAIVS1",8,0)
+ ; 
+"RTN","KBAIVS1",9,0)
+ i $g(prefix)="" s prefix="|--" ; starting prefix
+"RTN","KBAIVS1",10,0)
+ ;i '$d(C0XJOB) s C0XJOB=$J
+"RTN","KBAIVS1",11,0)
+ n node s node=$na(^KBAI("KBAIVS","DOM",where))
+"RTN","KBAIVS1",12,0)
+ n txt s txt=$$CLEAN($$ALLTXT(node))
+"RTN","KBAIVS1",13,0)
+ w !,prefix_@node_" "_txt
+"RTN","KBAIVS1",14,0)
+ n zi s zi=""
+"RTN","KBAIVS1",15,0)
+ f  s zi=$o(@node@("A",zi)) q:zi=""  d  ;
+"RTN","KBAIVS1",16,0)
+ . w !,prefix_"  : "_zi_"^"_$g(@node@("A",zi))
+"RTN","KBAIVS1",17,0)
+ f  s zi=$o(@node@("C",zi)) q:zi=""  d  ;
+"RTN","KBAIVS1",18,0)
+ . d tree(zi,"|  "_prefix)
+"RTN","KBAIVS1",19,0)
+ q
+"RTN","KBAIVS1",20,0)
+ ;
+"RTN","KBAIVS1",21,0)
+show(what) ;
+"RTN","KBAIVS1",22,0)
+ ;S C0XJOB=26295
+"RTN","KBAIVS1",23,0)
+ I '$D(C0XJOB) S C0XJOB=$J
+"RTN","KBAIVS1",24,0)
+ d tree(what)
+"RTN","KBAIVS1",25,0)
+ q
+"RTN","KBAIVS1",26,0)
+ ; 
+"RTN","KBAIVS1",27,0)
+tree2(where,prefix) ; show a tree starting at a node in MXML. node is passed by name
+"RTN","KBAIVS1",28,0)
+ ; tree2 handles ConceptLists as tables
+"RTN","KBAIVS1",29,0)
+ i $g(prefix)="" s prefix="|--" ; starting prefix
+"RTN","KBAIVS1",30,0)
+ i '$d(C0XJOB) s C0XJOB=$J
+"RTN","KBAIVS1",31,0)
+ n node s node=$na(^KBAI("KBAIVS","DOM",where))
+"RTN","KBAIVS1",32,0)
+ ;n txt s txt=$$CLEAN($$ALLTXT(node))
+"RTN","KBAIVS1",33,0)
+ n txt d alltxt(.txt,node)
+"RTN","KBAIVS1",34,0)
+ ;w !,prefix_@node_" "_txt
+"RTN","KBAIVS1",35,0)
+ n zk s zk=""
+"RTN","KBAIVS1",36,0)
+ f  s zk=$o(txt(zk)) q:zk=""  d  ;
+"RTN","KBAIVS1",37,0)
+ . i zk=1 d out(prefix_@node_" "_txt(zk))  q  ;
+"RTN","KBAIVS1",38,0)
+ . d out(prefix_txt(zk))
+"RTN","KBAIVS1",39,0)
+ i @node["ns0:ConceptList" d  q  ;
+"RTN","KBAIVS1",40,0)
+ . d clist(where,prefix)
+"RTN","KBAIVS1",41,0)
+ n zi s zi=""
+"RTN","KBAIVS1",42,0)
+ f  s zi=$o(@node@("A",zi)) q:zi=""  d  ;
+"RTN","KBAIVS1",43,0)
+ . ;w !,prefix_"  : "_zi_"^"_$g(@node@("A",zi))
+"RTN","KBAIVS1",44,0)
+ . d out(prefix_"  : "_zi_"^"_$g(@node@("A",zi)))
+"RTN","KBAIVS1",45,0)
+ n grpstart s grpstart=0
+"RTN","KBAIVS1",46,0)
+ f  s zi=$o(@node@("C",zi)) q:zi=""  d  ;
+"RTN","KBAIVS1",47,0)
+ . i @node@("C",zi)="ns0:RevisionDate" d newgrp
+"RTN","KBAIVS1",48,0)
+ . i @node@("C",zi)="ns0:Group" d group(zi)  q  ;
+"RTN","KBAIVS1",49,0)
+ . d tree2(zi,"|  "_prefix)
+"RTN","KBAIVS1",50,0)
+ d:grpstart grpout
+"RTN","KBAIVS1",51,0)
+ q
+"RTN","KBAIVS1",52,0)
+ ;
+"RTN","KBAIVS1",53,0)
+newgrp ; kill the group array for a new group
+"RTN","KBAIVS1",54,0)
+ ;W !,"NEW GROUP"
+"RTN","KBAIVS1",55,0)
+ k ^KBAI("KBAIVS","GROUP")
+"RTN","KBAIVS1",56,0)
+ q
+"RTN","KBAIVS1",57,0)
+ ;
+"RTN","KBAIVS1",58,0)
+group(where) ; add a group node to the group array
+"RTN","KBAIVS1",59,0)
+ s grpstart=1
+"RTN","KBAIVS1",60,0)
+ n gn s gn=$na(^KBAI("KBAIVS","GROUP"))
+"RTN","KBAIVS1",61,0)
+ n node s node=$na(^KBAI("KBAIVS","DOM"))
+"RTN","KBAIVS1",62,0)
+ n gnum s gnum=$g(@node@(where,"A","ID"))
+"RTN","KBAIVS1",63,0)
+ i gnum="" d  q  ;
+"RTN","KBAIVS1",64,0)
+ . w !,"error finding group number ",where
+"RTN","KBAIVS1",65,0)
+ n var s var=@node@(where,"A","displayName")
+"RTN","KBAIVS1",66,0)
+ n valref s valref=$o(@node@(where,"C",""))
+"RTN","KBAIVS1",67,0)
+ i valref="" d  q  ;
+"RTN","KBAIVS1",68,0)
+ . w !,"error finding value reference ",where
+"RTN","KBAIVS1",69,0)
+ n val s val=@node@(valref,"T",1)
+"RTN","KBAIVS1",70,0)
+ s @gn@(gnum,var)=val
+"RTN","KBAIVS1",71,0)
+ q
+"RTN","KBAIVS1",72,0)
+ ;
+"RTN","KBAIVS1",73,0)
+grpout ; output the group array
+"RTN","KBAIVS1",74,0)
+ n gn s gn=$na(^KBAI("KBAIVS","GROUP"))
+"RTN","KBAIVS1",75,0)
+ n grp s grp=""
+"RTN","KBAIVS1",76,0)
+ f  s grp=$o(@gn@(grp)) q:grp=""  d  ;
+"RTN","KBAIVS1",77,0)
+ . d out("--------------------------------------------------------------")
+"RTN","KBAIVS1",78,0)
+ . n attr s attr=""
+"RTN","KBAIVS1",79,0)
+ . f  s attr=$o(@gn@(grp,attr)) q:attr=""  d  ;
+"RTN","KBAIVS1",80,0)
+ . . d out(attr_": "_@gn@(grp,attr))
+"RTN","KBAIVS1",81,0)
+ q
+"RTN","KBAIVS1",82,0)
+ ;
+"RTN","KBAIVS1",83,0)
+out(txt) ; add line to output array
+"RTN","KBAIVS1",84,0)
+ s c0xout=$na(^KBAI("KBAIOUT",$J))
+"RTN","KBAIVS1",85,0)
+ n cnt
+"RTN","KBAIVS1",86,0)
+ s cnt=$o(@c0xout@(""),-1)
+"RTN","KBAIVS1",87,0)
+ i cnt="" s cnt=0
+"RTN","KBAIVS1",88,0)
+ s @c0xout@(cnt+1)=txt
+"RTN","KBAIVS1",89,0)
+ q
+"RTN","KBAIVS1",90,0)
+ ;
+"RTN","KBAIVS1",91,0)
+clist(where,prefix,nohead) 
+"RTN","KBAIVS1",92,0)
+ n nd s nd=$na(^KBAI("KBAIVS","DOM"))
+"RTN","KBAIVS1",93,0)
+ ;i '$d(nohead) s nohead=0
+"RTN","KBAIVS1",94,0)
+ ;i 'nohead d  ;
+"RTN","KBAIVS1",95,0)
+ d out($j("Code",20)_$j("System",10)_$j("Description",20))
+"RTN","KBAIVS1",96,0)
+ n zzi s zzi=""
+"RTN","KBAIVS1",97,0)
+ f  s zzi=$o(@nd@(where,"C",zzi)) q:zzi=""  d  ;
+"RTN","KBAIVS1",98,0)
+ . n code,system,desc
+"RTN","KBAIVS1",99,0)
+ . s code=$g(@nd@(zzi,"A","code"))
+"RTN","KBAIVS1",100,0)
+ . s system=$g(@nd@(zzi,"A","codeSystemName"))
+"RTN","KBAIVS1",101,0)
+ . s desc=$g(@nd@(zzi,"A","displayName"))
+"RTN","KBAIVS1",102,0)
+ . d out($j(code,20)_$j(system,10)_"  "_desc)
+"RTN","KBAIVS1",103,0)
+ ;w @nd,":",@nd@("T",1)  
+"RTN","KBAIVS1",104,0)
+ q
+"RTN","KBAIVS1",105,0)
+ ;
+"RTN","KBAIVS1",106,0)
+alltxt(rtn,node) ; handle arrays of text
+"RTN","KBAIVS1",107,0)
+ m rtn=@node@("T")
+"RTN","KBAIVS1",108,0)
+ n zj s zj=""
+"RTN","KBAIVS1",109,0)
+ f  s zj=$o(rtn(zj)) q:zj=""  d  ;
+"RTN","KBAIVS1",110,0)
+ . s rtn(zj)=$$CLEAN(rtn(zj))
+"RTN","KBAIVS1",111,0)
+ . s rtn(zj)=$$LDBLNKS(rtn(zj))
+"RTN","KBAIVS1",112,0)
+ . i rtn(zj)="" k rtn(zj)
+"RTN","KBAIVS1",113,0)
+ . i (rtn(zj)=" ")&(zj>1) k rtn(zj)
+"RTN","KBAIVS1",114,0)
+ q
+"RTN","KBAIVS1",115,0)
+ ;
+"RTN","KBAIVS1",116,0)
+ALLTXT(where) ; extrinsic which returns all text lines from the node .. concatinated 
+"RTN","KBAIVS1",117,0)
+ ; together
+"RTN","KBAIVS1",118,0)
+ n zti s zti=""
+"RTN","KBAIVS1",119,0)
+ n ztr s ztr=""
+"RTN","KBAIVS1",120,0)
+ f  s zti=$o(@where@("T",zti)) q:zti=""  d  ;
+"RTN","KBAIVS1",121,0)
+ . s ztr=ztr_$g(@where@("T",zti))
+"RTN","KBAIVS1",122,0)
+ q ztr
+"RTN","KBAIVS1",123,0)
+ ;
+"RTN","KBAIVS1",124,0)
+CLEAN(STR) ; extrinsic function; returns string - gpl borrowed from the CCR package
+"RTN","KBAIVS1",125,0)
+ ;; Removes all non printable characters from a string.
+"RTN","KBAIVS1",126,0)
+ ;; STR by Value
+"RTN","KBAIVS1",127,0)
+ N TR,I
+"RTN","KBAIVS1",128,0)
+ F I=0:1:31 S TR=$G(TR)_$C(I)
+"RTN","KBAIVS1",129,0)
+ S TR=TR_$C(127)
+"RTN","KBAIVS1",130,0)
+ N ZR S ZR=$TR(STR,TR)
+"RTN","KBAIVS1",131,0)
+ S ZR=$$LDBLNKS(ZR) ; get rid of leading blanks
+"RTN","KBAIVS1",132,0)
+ QUIT ZR
+"RTN","KBAIVS1",133,0)
+ ;
+"RTN","KBAIVS1",134,0)
+LDBLNKS(st) ; extrinsic which removes leading blanks from a string
+"RTN","KBAIVS1",135,0)
+ n pos f pos=1:1:$l(st)  q:$e(st,pos)'=" "
+"RTN","KBAIVS1",136,0)
+ q $e(st,pos,$l(st))
+"RTN","KBAIVS1",137,0)
+ ;
+"RTN","KBAIVS1",138,0)
+contents(zrtn,ids) ; produce an agenda for the docId 1 in the MXML dom
+"RTN","KBAIVS1",139,0)
+ ; generally, a first level index to the document
+"RTN","KBAIVS1",140,0)
+ ; set C0XJOB if you want to use a different $J to locate the dom
+"RTN","KBAIVS1",141,0)
+ ; zrtn passed by name
+"RTN","KBAIVS1",142,0)
+ ; ids=1 names them by number ids=0 or null names them by displayname
+"RTN","KBAIVS1",143,0)
+ n zi s zi=""
+"RTN","KBAIVS1",144,0)
+ n dom s dom=$na(^KBAI("KBAIVS","DOM"))
+"RTN","KBAIVS1",145,0)
+ f  s zi=$o(@dom@(1,"C",zi)) q:zi=""  d  ;
+"RTN","KBAIVS1",146,0)
+ . n zn ;
+"RTN","KBAIVS1",147,0)
+ . d:$g(ids)  ;
+"RTN","KBAIVS1",148,0)
+ . . s zn=$tr($g(@dom@(zi,"A","ID")),".","-")_".txt"
+"RTN","KBAIVS1",149,0)
+ . . s @zrtn@(zn,zi)=""
+"RTN","KBAIVS1",150,0)
+ . d:'$g(ids)  ;
+"RTN","KBAIVS1",151,0)
+ . . s zn=$tr($g(@dom@(zi,"A","displayName"))," ","_")_".txt"
+"RTN","KBAIVS1",152,0)
+ . . s zn=$tr(zn,"()","") ; get rid of parens for valid filename
+"RTN","KBAIVS1",153,0)
+ . . s zn=$tr(zn,"/","-") ; get rid of slash for valid filename
+"RTN","KBAIVS1",154,0)
+ . . s @zrtn@(zn,zi)=""
+"RTN","KBAIVS1",155,0)
+ q
+"RTN","KBAIVS1",156,0)
+ ;
+"RTN","KBAIVS1",157,0)
+contents2(zrtn) ; produce an agenda for the docId 1 in the MXML dom
+"RTN","KBAIVS1",158,0)
+ ; generally, a first level index to the document
+"RTN","KBAIVS1",159,0)
+ ; set C0XJOB if you want to use a different $J to locate the dom
+"RTN","KBAIVS1",160,0)
+ ; zrtn passed by name
+"RTN","KBAIVS1",161,0)
+ n zi s zi=""
+"RTN","KBAIVS1",162,0)
+ n dom s dom=$na(^KBAI("KBAIVS","DOM"))
+"RTN","KBAIVS1",163,0)
+ f  s zi=$o(@dom@(1,"C",zi)) q:zi=""  d  ;
+"RTN","KBAIVS1",164,0)
+ . n zn,zid,zidfile,zfile ;
+"RTN","KBAIVS1",165,0)
+ . s zid=$g(@dom@(zi,"A","ID"))
+"RTN","KBAIVS1",166,0)
+ . s @zrtn@("ID",zid,zi)=""
+"RTN","KBAIVS1",167,0)
+ . s @zrtn@(zi,"ID")=zid
+"RTN","KBAIVS1",168,0)
+ . s zidfile=$tr($g(@dom@(zi,"A","ID")),".","-")_".txt"
+"RTN","KBAIVS1",169,0)
+ . s @zrtn@("IDFILE",zidfile,zi)=""
+"RTN","KBAIVS1",170,0)
+ . s @zrtn@(zi,"IDFILE")=zidfile
+"RTN","KBAIVS1",171,0)
+ . s zn=$g(@dom@(zi,"A","displayName"))
+"RTN","KBAIVS1",172,0)
+ . s @zrtn@("NAME",zn,zi)=""
+"RTN","KBAIVS1",173,0)
+ . s @zrtn@(zi,"NAME")=zn
+"RTN","KBAIVS1",174,0)
+ . n sid s sid=$$SID^KBAISID(zn,zid)
+"RTN","KBAIVS1",175,0)
+ . s @zrtn@(zi,"SID")=sid
+"RTN","KBAIVS1",176,0)
+ . s @zrtn@("SID",sid,zi)=""
+"RTN","KBAIVS1",177,0)
+ . s zfile=$tr($g(@dom@(zi,"A","displayName"))," ","_")_"-"_sid_".txt"
+"RTN","KBAIVS1",178,0)
+ . s zfile=$tr(zfile,"<>=()","") ; get rid of parens for valid filename
+"RTN","KBAIVS1",179,0)
+ . s zfile=$tr(zfile,"/","-") ; get rid of slash for valid filename
+"RTN","KBAIVS1",180,0)
+ . n zfile2 ; for VMS filename
+"RTN","KBAIVS1",181,0)
+ . n fnlen s fnlen=$L(zfile)
+"RTN","KBAIVS1",182,0)
+ . s zfile2=zfile ;  for VMS compatatibility
+"RTN","KBAIVS1",183,0)
+ . i fnlen>35 s zfile2=$e(zfile,1,20)_$e(zfile,fnlen-14,fnlen-4)_".txt" ;
+"RTN","KBAIVS1",184,0)
+ . s @zrtn@("VMSFILE",zfile2,zi)=""
+"RTN","KBAIVS1",185,0)
+ . s @zrtn@(zi,"VMSFILE")=zfile2
+"RTN","KBAIVS1",186,0)
+ . s @zrtn@("FILE",zfile,zi)=""
+"RTN","KBAIVS1",187,0)
+ . s @zrtn@(zi,"FILE")=zfile
+"RTN","KBAIVS1",188,0)
+ s zi=""
+"RTN","KBAIVS1",189,0)
+ ;f  s zi=$o(@zrtn@("ID",zi)) q:zi=""  d  ;
+"RTN","KBAIVS1",190,0)
+ ;. n zien s zien=$o(@zrtn@("ID",zi,""))
+"RTN","KBAIVS1",191,0)
+ ;. n sid s sid=$$SID^KBAISID(@zrtn@(zien,"NAME"),zi)
+"RTN","KBAIVS1",192,0)
+ ;. s @zrtn@(zien,"SID")=sid
+"RTN","KBAIVS1",193,0)
+ ;. s @zrtn@("SID",sid,zien)=""
+"RTN","KBAIVS1",194,0)
+ q
+"RTN","KBAIVS1",195,0)
+ ;
+"RTN","KBAIVS1",196,0)
+dispfn ;
+"RTN","KBAIVS1",197,0)
+ n g,zzi
+"RTN","KBAIVS1",198,0)
+ d contents2("g")
+"RTN","KBAIVS1",199,0)
+ s zzi=0
+"RTN","KBAIVS1",200,0)
+ f  s zzi=$o(g(zzi)) q:+zzi=0  d  ;
+"RTN","KBAIVS1",201,0)
+ . n fnlen,vmsfnlen
+"RTN","KBAIVS1",202,0)
+ . s fnlen=$l(g(zzi,"FILE"))
+"RTN","KBAIVS1",203,0)
+ . s vmsfnlen=$l(g(zzi,"VMSFILE"))
+"RTN","KBAIVS1",204,0)
+ . w !,g(zzi,"FILE")," len= "_fnlen
+"RTN","KBAIVS1",205,0)
+ . w !,g(zzi,"VMSFILE")," len="_vmsfnlen
+"RTN","KBAIVS1",206,0)
+ q
+"RTN","KBAIVS1",207,0)
+ ;
+"RTN","KBAIVS1",208,0)
+export ; exports separate files for each value set
+"RTN","KBAIVS1",209,0)
+ ; one copy in a file with a text name based on the displayName
+"RTN","KBAIVS1",210,0)
+ n g,zi,fname,fname2,where,dirname,dirname2,gn
+"RTN","KBAIVS1",211,0)
+ s gn=$na(^KBAI("KBAIOUT",$J))
+"RTN","KBAIVS1",212,0)
+ w !,"Please enter directory name for valueset files by name"
+"RTN","KBAIVS1",213,0)
+ q:'$$GETDIR(.dirname,"/home/vista/valuesets/by-name/")
+"RTN","KBAIVS1",214,0)
+ w !,"Please enter directory name for valueset files by id"
+"RTN","KBAIVS1",215,0)
+ q:'$$GETDIR(.dirname2,"/home/vista/valuesets/by-id/")
+"RTN","KBAIVS1",216,0)
+ s zi=""
+"RTN","KBAIVS1",217,0)
+ d contents2("g") ; 
+"RTN","KBAIVS1",218,0)
+ f  s zi=$o(g(zi)) q:+zi=0  d  ;
+"RTN","KBAIVS1",219,0)
+ . s fname=g(zi,"FILE")
+"RTN","KBAIVS1",220,0)
+ . s fname=g(zi,"VMSFILE") ;comment this out if on linux
+"RTN","KBAIVS1",221,0)
+ . s fname2=g(zi,"IDFILE")
+"RTN","KBAIVS1",222,0)
+ . s where=zi
+"RTN","KBAIVS1",223,0)
+ . k @gn
+"RTN","KBAIVS1",224,0)
+ . ;b
+"RTN","KBAIVS1",225,0)
+ . d tree2(where,"| ")
+"RTN","KBAIVS1",226,0)
+ . n gn2 s gn2=$na(@gn@(1)) ; name for gtf
+"RTN","KBAIVS1",227,0)
+ . s ok1=$$GTF^%ZISH(gn2,3,dirname,fname)
+"RTN","KBAIVS1",228,0)
+ . s ok2=$$GTF^%ZISH(gn2,3,dirname2,fname2)
+"RTN","KBAIVS1",229,0)
+ . w !,ok1," ",dirname," ",fname
+"RTN","KBAIVS1",230,0)
+ . w !,ok2," ",dirname2," ",fname2
+"RTN","KBAIVS1",231,0)
+ q
+"RTN","KBAIVS1",232,0)
+ ;
+"RTN","KBAIVS1",233,0)
+FILEIN ; import the valueset xml file, parse with MXML, and put the dom in ^TMP
+"RTN","KBAIVS1",234,0)
+ ;
+"RTN","KBAIVS1",235,0)
+ N FNAME,DIRNAME
+"RTN","KBAIVS1",236,0)
+ W !,"Please enter the directory and file name for the NLM Valueset XML file"
+"RTN","KBAIVS1",237,0)
+ Q:'$$GETDIR(.DIRNAME,"/home/glilly/nlm-vs") ; prompt the user for the directory
+"RTN","KBAIVS1",238,0)
+ Q:'$$GETFN(.FNAME,"ep_eh_unique_vs_20130401.xml") ; prompt user for filename
+"RTN","KBAIVS1",239,0)
+ N GN S GN=$NA(^KBAI("KBAIVS")) ; root to store xml and dom
+"RTN","KBAIVS1",240,0)
+ K @GN ; clear the area
+"RTN","KBAIVS1",241,0)
+ N GN1 S GN1=$NA(@GN@("XML",1)) ; place to put the xml file
+"RTN","KBAIVS1",242,0)
+ W !,"Reading in file ",FNAME," from directory ",DIRNAME
+"RTN","KBAIVS1",243,0)
+ Q:$$FTG^%ZISH(DIRNAME,FNAME,GN1,3)=""
+"RTN","KBAIVS1",244,0)
+ N KBAIDID
+"RTN","KBAIVS1",245,0)
+ W !,"Parsing file ",FNAME
+"RTN","KBAIVS1",246,0)
+ S KBAIDID=$$EN^MXMLDOM($NA(@GN@("XML")),"W")
+"RTN","KBAIVS1",247,0)
+ I KBAIDID=0 D  Q  ;
+"RTN","KBAIVS1",248,0)
+ . ZWRITE ^TMP("MXMLERR",$J,*)
+"RTN","KBAIVS1",249,0)
+ K @GN@("XML")
+"RTN","KBAIVS1",250,0)
+ W !,"Merging MXMLDOM to TMP"
+"RTN","KBAIVS1",251,0)
+ M @GN@("DOM")=^TMP("MXMLDOM",$J,KBAIDID)
+"RTN","KBAIVS1",252,0)
+ K ^TMP("MXMLDOM",$J)
+"RTN","KBAIVS1",253,0)
+ Q
+"RTN","KBAIVS1",254,0)
+ ;
+"RTN","KBAIVS1",255,0)
+GETDIR(KBAIDIR,KBAIDEF) ; extrinsic which prompts for directory
+"RTN","KBAIVS1",256,0)
+ ; returns true if the user gave values
+"RTN","KBAIVS1",257,0)
+ S DIR(0)="F^3:240"
+"RTN","KBAIVS1",258,0)
+ S DIR("A")="File Directory"
+"RTN","KBAIVS1",259,0)
+ I '$D(KBAIDEF) S KBAIDEF="/home/glilly/nlm-vs"
+"RTN","KBAIVS1",260,0)
+ S DIR("B")=KBAIDEF
+"RTN","KBAIVS1",261,0)
+ D ^DIR
+"RTN","KBAIVS1",262,0)
+ I Y="^" Q 0 ;
+"RTN","KBAIVS1",263,0)
+ S KBAIDIR=Y
+"RTN","KBAIVS1",264,0)
+ Q 1
+"RTN","KBAIVS1",265,0)
+ ;
+"RTN","KBAIVS1",266,0)
+GETFN(KBAIFN,KBAIDEF) ; extrinsic which prompts for filename
+"RTN","KBAIVS1",267,0)
+ ; returns true if the user gave values
+"RTN","KBAIVS1",268,0)
+ S DIR(0)="F^3:240"
+"RTN","KBAIVS1",269,0)
+ S DIR("A")="File Name"
+"RTN","KBAIVS1",270,0)
+ I '$D(KBAIDEF) S KBAIDEF="valuesets.xml"
+"RTN","KBAIVS1",271,0)
+ S DIR("B")=KBAIDEF
+"RTN","KBAIVS1",272,0)
+ D ^DIR
+"RTN","KBAIVS1",273,0)
+ I Y="" Q 0 ;
+"RTN","KBAIVS1",274,0)
+ I Y="^" Q 0 ;
+"RTN","KBAIVS1",275,0)
+ S KBAIFN=Y
+"RTN","KBAIVS1",276,0)
+ Q 1
+"RTN","KBAIVS1",277,0)
+ ;
+"VER")
+8.0^22.0
+**END**
+**END**

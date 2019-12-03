@@ -1,0 +1,53 @@
+---
+
+- name: Install required linux packages
+  package:
+    name: "{{ item }}"
+    state: present
+  with_items:
+    - unzip
+    - screen
+    - tmux
+
+- name: Prepare install path '{{ terraria_install_path }}'
+  file:
+    path: '{{ terraria_install_path }}'
+    state: directory
+    mode: 0755
+
+- name: Create server user
+  user:
+    name: "{{ terraria_user }}"
+    createhome: yes
+    comment: "Terraria Service User"
+    home: "{{ terraria_install_path }}"
+    system: yes
+    shell: "/bin/false"
+
+- name: Create global directory structure
+  file: 
+    path: '{{ terraria_install_path }}/{{ item }}'
+    state: directory
+    mode: 0755
+  with_items: '{{ terraria_install_path_components }}'
+
+- name: Create world directory
+  file: 
+    path: '{{ worlds_dir }}/{{ world_name }}'
+    state: directory
+    mode: 0755
+
+- name: Create world directory structure
+  file: 
+    path: '{{ worlds_dir }}/{{ world_name }}/{{ item }}'
+    state: directory
+    mode: 0755
+  with_items: "{{ world_install_path_components }}"
+
+- name: Recursively set permissions
+  file:
+    path: '{{ terraria_install_path }}'
+    state: directory
+    owner: '{{ terraria_user }}'
+    group: '{{ terraria_user }}'
+    recurse: yes

@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+		<head>
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+			<!--[if !mso]><!-->
+			<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+			<!--<![endif]-->
+			<meta name="viewport" content="width=device-width" />
+
+			<title>WeeMail</title>
+
+<!-- @import "variables.kit" -->
+
+			<style type="text/css">
+
+				/* Forces Outlook.com to display emails at full width */
+				.ExternalClass {
+					width:100%;
+				}
+				/* Forces Outlook.com to display normal line spacing */
+				.ExternalClass,
+				.ExternalClass p,
+				.ExternalClass span,
+				.ExternalClass font,
+				.ExternalClass td,
+				.ExternalClass div {
+					line-height: 100%;
+				}
+
+				a,
+				a:link,
+				a:active,
+				a:visited {
+					padding: 0;
+					color: <!-- $color_text_body -->;
+				}
+				body {
+					width: 100% !important;
+					-webkit-text-size-adjust: 100%;
+					-ms-text-size-adjust: 100%;
+					margin: 0;
+					padding: 0;
+					background-color: <!-- $color_back_out -->;
+				}
+
+				#wrappertable {
+					margin: 0;
+					padding: 0;
+					width: 100%;
+					min-width: 100%;
+					font-family: <!-- $font_body -->;
+					font-size: <!-- $font_body_size -->px;
+					line-height: <!-- $font_body_line -->px;
+					color: <!-- $color_text_head -->;
+					background-color: <!-- $color_back_out -->;
+				}
+
+				#containertable {
+					width: <!-- $width_2col -->px;
+					min-width: <!-- $width_1col -->px;
+					color: <!-- $color_text_body -->;
+					background-color: <!-- $color_back_in -->;
+				}
+
+				img {
+					border:none;
+					outline:none;
+					text-decoration:none;
+					-ms-interpolation-mode:bicubic;
+				}
+				.img-fix {
+					display:block;
+				}
+
+				table {
+					border-collapse:collapse;
+					table-layout:fixed;
+					mso-table-lspace:0pt;
+					mso-table-rspace:0pt;
+				}
+
+				table td {
+					border-collapse:collapse;
+					font-family: <!-- $font_body -->;
+					font-size: <!-- $font_body_size -->px;
+					line-height: <!-- $font_body_line -->px;
+				}
+
+				.header {
+					background-color: <!-- $color_back_out -->;
+					color: <!-- $color_text_head -->;
+					font-size: 12px;
+				}
+				.header-link {
+					font-family: <!-- $font_body -->;
+					color: <!-- $color_text_head -->;
+					font-size: 12px;
+				}
+				.header-link:active,
+				.header-link:visited {
+					color: <!-- $color_text_head -->;
+				}
+
+				.main-content {
+					font-family: <!-- $font_body -->;
+					font-size: <!-- $font_body_size -->px;
+					line-height: <!-- $font_body_line -->px;
+				}
+
+				.btn-table {
+					table-layout:auto !important;
+				}
+				.btn-cell {
+					-webkit-border-radius: 4px;
+					-moz-border-radius: 4px;
+					border-radius: 4px;
+					background-color: <!-- $color_btn -->;
+					height: 45px;
+				}
+				.btn-link {
+					border: 1px solid <!-- $color_btn -->;
+					font-size: 16px;
+					font-family: <!-- $font_btn -->;
+					font-weight: bold;
+					color: <!-- $color_btn_text -->;
+					text-decoration: none;
+					-webkit-border-radius: 3px;
+					-moz-border-radius: 3px;
+					border-radius: 3px;
+					padding: 9px 29px !important;
+					-webkit-border-radius: 4px;
+					-moz-border-radius: 4px;
+					border-radius: 4px;
+					display: inline-block;
+				}
+				.btn-link:active,
+				.btn-link:visited {
+					color: <!-- $color_btn_text -->;
+					text-decoration: none;
+				}
+
+				.ruler {
+					width: 100%;
+					margin: 0;
+					padding: 0;
+				}
+				.ruler td {
+					height: 1px;
+					line-height: 1px;
+					font-size: 1px;
+					border-top: 1px solid <!-- $color_ruler -->;
+					margin: 0;
+					padding: 0;
+				}
+				.border-top {
+					border-top: 1px solid <!-- $color_ruler -->;
+				}
+
+				.footer {
+					font-family: <!-- $font_body -->;
+					background-color: <!-- $color_back_out -->;
+					font-size: 12px;
+					line-height: 14px;
+					color: <!-- $color_text_body -->;
+				}
+				.footer a,
+				.footer a:active,
+				.footer a:visited {
+					color: <!-- $color_text_body -->;
+				}
+				.footer p {
+					font-family: <!-- $font_body -->;
+					padding: 0;
+					margin: 0;
+				}
+
+				h1 {
+					font-family: <!-- $font_title -->;
+					font-size: 24px;
+					font-weight: bold;
+					line-height: 32px;
+					color: <!-- $color_text_title -->;
+					padding: 0 0 10px 0;
+					margin: 0;
+				}
+
+				h2 {
+					font-family: <!-- $font_title -->;
+					font-size: 16px;
+					font-weight: bold;
+					color: <!-- $color_text_title -->;
+					padding: 0;
+					margin: 0;
+				}
+
+				/* Outlook does not suppoprt padding on p */
+				p {
+					font-family: <!-- $font_body -->;
+					padding: 0;
+					margin: 0;
+				}
+
+				.gutter {
+					padding-left: 10px;
+					padding-right: 10px;
+				}
+
+				.pad-top-m {
+					padding-top: 10px;
+				}
+				.pad-top-l {
+					padding-top: 20px;
+				}
+				.pad-top-xl {
+					padding-top: 40px;
+				}
+				.pad-bot-m {
+					padding-bottom: 10px;
+				}
+				.pad-bot-l {
+					padding-bottom: 20px;
+				}
+				.pad-bot-xl {
+					padding-bottom: 40px;
+				}
+
+				.column-2 {
+					width: <!-- $width_2col -->px;
+				}
+
+				.column-1 {
+					width: <!-- $width_1col -->px;
+					float: left;
+				}
+
+				.column-2 img,
+				.column-1 img {
+					width: 100%;
+				}
+
+				.profile-img {
+					border-radius: 50%;
+				}
+
+				@media screen and (max-device-width: 639px), screen and (max-width: 639px) {
+					#containertable {
+						width: <!-- $width_1col -->px !important;
+					}
+
+					.column-2 {
+						width: <!-- $width_1col -->px !important;
+					}
+				}
+
+			</style>
+
+<!-- @import "fix_outlook_images.kit" -->
+
+		</head>

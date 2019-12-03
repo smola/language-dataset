@@ -1,0 +1,42 @@
+import arguments.helperfunctions;
+import arguments.choice;
+import arguments.argument;
+import arguments.arguments;
+import arguments.command;
+
+
+trait Handler {
+    function nothing(cmd: Command): Void;
+    function extra(choice: Choice, args: Arguments): Void;
+    function end(cmd: Command): Void;
+    function arg(choice: Choice, arg: Argument, args: Arguments): Void;
+}
+
+
+struct DefaultHandler {
+    var a: Int;
+    static function new(): DefaultHandler {
+        return struct Self {
+            a: 0
+        };
+    }
+}
+
+
+implement Handler for DefaultHandler {
+    function nothing(cmd: Command): Void {
+        printf("`DefaultHandler.nothing()`\n");
+    }
+
+    function extra(choice: Choice, args: Arguments): Void {
+        printf("`DefaultHandler.extra()`\n");
+    }
+
+    function end(cmd: Command): Void {
+        printf("`DefaultHandler.end()`\n");
+    }
+
+    function arg(choice: Choice, arg: Argument, args: Arguments): Void {
+        printf("`DefaultHandler.arg()`\n");
+    }
+}

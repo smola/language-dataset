@@ -1,0 +1,149 @@
+import kitten.xs_Rounding;
+
+
+struct MapChar {
+    var x: Int;
+    var y: Int;
+    var chars: Ptr[Char];
+    var w: Int;
+    var h: Int;
+    var len: Int;
+    var collide: Bool;
+    var breakable: Bool;
+    var target: Bool;
+
+    public static function new(x: Int, y: Int, chars: Ptr[Char], w: Int = -1, h: Int = -1, collide: Bool = false, breakable: Bool = false, target: Bool = false): MapChar {
+        var len: Int = strlen(chars);
+        return struct Self {
+            x,
+            y,
+            chars,
+            w,
+            h,
+            len,
+            collide,
+            breakable,
+            target
+        };
+    }
+
+    function getTextArray(w: Int = -1, h: Int = -1): Array[Ptr[Char]] {
+        if w <= 0 {
+            w = this.w;
+        }
+        if h <= 0 {
+            h = this.h;
+        }
+        var out: Array[Ptr[Char]];
+        if w == -1 && h == -1 {
+            out = Array.new(2);
+            out[0] = this.chars;
+            return out;
+        } else {
+            if h < 0 {
+                out = Array.new(xs_CeilToInt(this.len / w) + 1);
+            } else {
+                out = Array.new(xs_MinInt(xs_CeilToInt(this.len / w), h));
+            }
+            var linecounter: Int = 0;
+            var charcounter: Int = 0;
+            var line: Ptr[Char] = *(mallocator.calloc(this.w + 1)): Ptr[Char];
+            for n in 0 ... this.len {
+                if charcounter < w {
+                    strncat(line, this.chars + charcounter + linecounter * w, 1);
+                    // printf("[%d+%d*%d, = %c] ", charcounter, linecounter, w, *(this.chars + charcounter + linecounter * w));
+                    charcounter++;
+                } else {
+                    strncat(line, "\x00"[0], 1);
+                    if linecounter < out.length {
+                        out[linecounter] = line;
+                    }
+                    linecounter++;
+                    charcounter = 0;
+                    line = *(mallocator.calloc(w + 1)): Ptr[Char];
+                    // printf("\n");
+                    n--;
+                }
+            }
+            strncat(line, "\x00"[0], 1);
+            if linecounter < out.length {
+                out[linecounter] = line;
+            }
+            // printf("\n");
+            return out;
+        }
+    }
+
+    function getTextArrayStr(w: Int = -1, h: Int = -1): CString {
+        if w <= 0 {
+            w = this.w;
+        }
+        if h <= 0 {
+            h = this.h;
+        }
+        var out: Ptr[Char];
+        if w == -1 && h == -1 {
+            return this.chars;
+        } else {
+            var outlen: Int;
+            if h < 0 {
+                outlen = xs_CeilToInt(this.len / w) + 1;
+                out = *(mallocator.calloc(outlen)): Ptr[Char];
+            } else {
+                outlen = xs_MinInt(xs_CeilToInt(this.len / w), h);
+                out = *(mallocator.calloc(outlen)): Ptr[Char];
+            }
+            var linecounter: Int = 0;
+            var charcounter: Int = 0;
+            var line: Ptr[Char] = *(mallocator.calloc(this.w + 1)): Ptr[Char];
+            for n in 0 ... this.len {
+                if charcounter < w {
+                    strncat(line, this.chars + charcounter + linecounter * w, 1);
+                    // printf("[%d+%d*%d, = %c] ", charcounter, linecounter, w, *(this.chars + charcounter + linecounter * w));
+                    charcounter++;
+                } else {
+                    strncat(line, c'\n', 1);
+                    if linecounter < outlen {
+                        strncat(out, line, w + 1);
+                    }
+                    linecounter++;
+                    charcounter = 0;
+                    line = *(mallocator.calloc(w + 1)): Ptr[Char];
+                    // printf("\n");
+                    n--;
+                }
+            }
+            strncat(line, c'\n', 1);
+            if linecounter < outlen {
+                strncat(out, line, w + 1);
+            }
+            // printf("\n");
+            return out: CString;
+        }
+    }
+}
+
+
+function main() {
+    var mc: MapChar; // = MapChar.new(0, 0, "hello world!");
+    var output: Array[Ptr[Char]]; // = mc.getText();
+    // printf("%zu\n", output.length);
+    // printf("\n");
+    // for n in 0 ... output.length {
+    //     if output[n] != null {
+    //         printf("%s\n", output[n]);
+    //     }
+    // }
+    for n in 1 ... 12 {
+        mc: MapChar = MapChar.new(0, 0, "hello world!", n, 20);
+        output: Array[Ptr[Char]] = mc.getTextArray();
+        printf("%d, %zu\n", n, output.length);
+        for n in 0 ... output.length {
+            if output[n] != null {
+                printf("%s\n", output[n]);
+            }
+        }
+        printf("%s", mc.getTextArrayStr());
+        printf("\n");
+    }
+}

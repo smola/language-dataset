@@ -1,0 +1,20 @@
+---
+- name: "Get artifact url"
+  uri:
+    url: "https://github.com/junegunn/fzf-bin/releases/{{ fzf_version }}/"
+  register: webpage
+
+- name: "Set version from artifact url"
+  set_fact:
+    fzf_version: "{% if fzf_version == 'latest' %}{{ webpage.url.split('/')[7] }}{% else %}{{ fzf_version }}{% endif %}"
+
+- name: "Forge final url"
+  set_fact:
+    fzf_release_url: "{{ webpage.url | replace('tag', 'download') }}/fzf-{{ fzf_version }}-linux_amd64.tgz"
+
+- name: "Unarchive fzf to /usr/local/bin"
+  unarchive:
+    src: "{{ fzf_release_url }}"
+    dest: /usr/local/bin/
+    remote_src: true
+...

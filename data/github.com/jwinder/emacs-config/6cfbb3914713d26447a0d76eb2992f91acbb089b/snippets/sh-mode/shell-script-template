@@ -1,0 +1,62 @@
+# -*- mode: snippet -*-
+# name: shell script template
+# key: shell-script-template_
+# --
+#!/usr/bin/env bash
+set -euo pipefail
+IFS=$'\n\t'
+
+#/
+#/ Usage:
+#/
+#/ Description:
+#/
+#/ Examples:
+#/
+#/ Options:
+#/   --help: Display this help message
+#/
+
+usage() { grep '^#/' "\$0" | cut -c4- ; exit 0 ; }
+expr "$*" : ".*--help" > /dev/null && usage
+
+log_debug_on=true
+
+iso_date() { local d=\`date -u +"%Y-%m-%dT%H:%M:%SZ"\`;  echo "$d"; }
+
+readonly LOGS_DIR="/tmp/shell-script-logs"
+readonly LOG_FILE="$LOGS_DIR/$(basename "\$0").log"
+mkdir -p $LOGS_DIR
+debug() { if [ "$log_debug_on" = true ] ; then printf "[DEBUG] [$(iso_date)]  $@\n" | tee -a "$LOG_FILE" >&2 ; fi ; }
+info()  { printf "[INFO]  [$(iso_date)]  $@\n" | tee -a "$LOG_FILE" >&2 ; }
+warn()  { printf "[WARN]  [$(iso_date)]  $@\n" | tee -a "$LOG_FILE" >&2 ; }
+error() { printf "[ERROR] [$(iso_date)]  $@\n" | tee -a "$LOG_FILE" >&2 ; }
+fatal() { printf "[FATAL] [$(iso_date)]  $@\n" | tee -a "$LOG_FILE" >&2 ; exit 1 ; }
+
+main() {
+    debug "starting main function"
+
+    # main script runs here
+
+    debug "finishing main function"
+}
+
+cleanup() {
+    debug "starting cleanup"
+
+    # Remove temporary files
+    # Restart services
+    # ...
+
+    debug "finishing cleanup"
+}
+
+# run this way if this script can be run from another script
+# trap cleanup EXIT
+# main
+
+# run this way to verify the script is executed directly
+if [[ "\${BASH_SOURCE[0]}" = "\$0" ]]; then
+    trap cleanup EXIT
+    main
+fi

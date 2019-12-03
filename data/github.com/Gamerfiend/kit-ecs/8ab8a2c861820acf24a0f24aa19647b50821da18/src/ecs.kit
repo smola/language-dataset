@@ -1,0 +1,405 @@
+/**
+ *  An ECS library written in kit
+ *  @author Tyler Bezera
+ */
+
+import kit.hash;
+import kit.map;
+import kit.set;
+
+/**
+ * Used as flags when notifying the engine when one of it's entites have changed.p
+ */
+enum EntityState{
+    COMPONENT_ADDED;
+    COMPONENT_REMOVED;
+    TAG_ADDED;
+    TAG_REMOVED;
+
+    public function toString(): CString{
+        match this{
+            COMPONENT_ADDED => return "added";
+            COMPONENT_REMOVED => return "removed";
+            TAG_ADDED => return "addedTag";
+            TAG_REMOVED => return "removedTag";
+        }
+    }
+}
+
+/**
+ * Component trait, any component struct must implement
+ */
+trait Component {
+
+    /**
+     * Return the unique type for this component, i.e "Position"
+     * @return {CString}
+     */
+    function typeIdentifier(): CString;
+
+    /**
+     * Returns a pointer to the base component hidden by this trait, when this
+     * is used with casting to a type, as PositionComponent, you can access underlying component fields
+     * @return {Ptr[Void]}
+     */
+    public function base(): Ptr[Void]{
+        return &this;
+    }
+}
+
+/**
+ * System trait, any system must implement this
+ */
+trait System {
+    public static var engine: Ptr[Engine]; 
+
+    /**
+     * Update function once per iteration, based on delta time passed to engine.
+     * @param {Float} delta - The time since the last frame
+     * @param {Ptr[Engine]} engine - Reference to the engine this system belongs to, used for querying components
+     */
+    public function update(delta: Float, engine: Ptr[Engine]): Void;
+
+    /**
+     * Return the unique type for this component, i.e "Position"
+     * @return {CString}
+     */
+    public function typeIdentifier(): CString;
+
+    /**
+     * Returns a pointer to the base system hidden by this trait, when this
+     * is used with casting to a type, as MovementSystem, you can access underlying system field
+     * @return {Ptr[Void]}
+     */
+    public function base(): Ptr[Void]{
+        return &this;
+    }
+}
+
+/**
+ * An Entity is represented by a collection of components and a uniqueID, and name. These are held in a struct, so that an Entity can be decoupled from an
+ * Engine at no cost.
+ */
+struct Entity {
+    private var components: Map[CString, Box[Component]]; 
+    private var allocator: Box[Allocator];
+    public var uniqueID: Int;
+    public var name: CString;
+    private var tags: Set[CString];
+    private var engine: Ptr[Engine];
+    
+    private static var id: Int = 0;
+
+    /**
+     * Constructor for an Entity
+     * @param {Box[Allocator]} allocator - If not provided, will use implicit allocator. (stack)
+     * @param {CString} name - The Entity name, note this should be unique as an engine will not allow adding a duplicate named entity
+     */
+    public static function new(allocator: Box[Allocator], name: CString): Entity using implicit allocator {
+        var components = Map.new(10);
+        var uniqueID: Int = Entity.id++;
+        var tags = Set.new();
+
+        return struct Self {
+            components,
+            allocator,
+            uniqueID,
+            name,
+            tags
+        };
+    }
+
+    /**
+     * The addComponent method on Entity adds a component, duplicate or not, to the Entities components based on it's type.
+     * @param {Box[Component]} component - Component to be added, will replace an existing component with the same type
+     */
+    public function addComponent(component: Box[Component]) {
+        if !this.containsComponent(component.typeIdentifier())  {
+            this.components.put(component.typeIdentifier(), component);
+        }
+        else {
+            this.components.remove(component.typeIdentifier());
+            this.components.put(component.typeIdentifier(), component);
+        }
+        this.notifiyChange(EntityState.COMPONENT_ADDED, component.typeIdentifier());
+    }
+
+    /**
+     * Method takes precaution by using an Option as the return method for components. The base Box[Component]
+     * can be unwrapped by calling .unwrap() on the returned object. 
+     * @param {CString} typeIdentifier - The type of component that should be retrieved from this entity.
+     * @return {Option[Box[Component]]} Objects are wrapped in an Option to keep safe, passing unsafe behavior to caller
+     */
+    public function getComponent(typeIdentifier: CString): Option[Box[Component]] {
+        if this.components.exists(typeIdentifier) {
+            return this.components.get(typeIdentifier);
+        }
+        return None;
+    }
+
+    /**
+     * For quick iteration of components, this returns an array of component types.
+     * @return {Array[CString]} An array of the component types that this entity contains
+     */
+    public function getComponents(): Array[CString] {
+        return this.components.keys();
+    }
+
+    /**
+     * Unique set of tags belonging to this entity.
+     * @return {Set[CString]} The tags the entity has
+     */
+    public function getTags(): Set[CString] {
+        return this.tags;
+    }
+
+    /**
+     * Check whether component of type exists
+     * @param {CString} type - The type of the component, such as "Position"
+     * @return {Bool} Does this entity contain the component?
+     */
+    public function containsComponent(type: CString): Bool {
+        return this.components.exists(type);
+    }
+
+    /**
+     * Remove a component from this entity by type.
+     * @param {CString} typeIdentifier - The type of component to remove, such as "Position"
+     */
+    public function removeComponent(typeIdentifier: CString): Void {
+        if(this.containsComponent(typeIdentifier)){
+            this.components.remove(typeIdentifier);
+            this.notifiyChange(EntityState.COMPONENT_REMOVED, typeIdentifier);
+        }
+    }
+
+    /**
+     * Internal function for an Entity, notifies the engine when an entity has changed state. 
+     * @param {EntityState} change - An enum value representing the state of change
+     * @param {CString} typeIdentifier - Type of component
+     */
+    private function notifiyChange(change: EntityState, typeIdentifier: CString){
+        this.engine.entityHasChanged(change, typeIdentifier, this.uniqueID);
+    }
+
+    /**
+     * Add a tag to this Entity
+     * @param {CString} tagName - the name of the tag
+     */
+    public function addTagByName(tagName: CString) {
+        this.tags.put(tagName);
+        this.notifiyChange(EntityState.TAG_ADDED, tagName);
+    }
+
+    /**
+     * Remove a tag from this entity
+     * @param {CString} tagName - the name of the tag we want to remove
+     */
+    public function removeTagByName(tagName: CString) {
+        this.tags.remove(tagName);
+        this.notifiyChange(EntityState.TAG_REMOVED, tagName);
+    }
+}
+
+struct Engine {
+    private var entities: Map[Int, Ptr[Entity]];
+    private var systems: Map[CString, Box[System]];
+    private var entitesToComponent: Map[CString, Set[Int]];
+    private var entitesToTag: Map[CString, Set[Int]];
+    private var entityNames: Set[CString];
+    private var allocator: Box[Allocator];
+
+    public static function new(allocator: Box[Allocator]): Engine using implicit allocator {
+        var entities: Map[Int, Ptr[Entity]] = Map.new(10);
+        var systems: Map[CString, Box[System]] = Map.new(10);
+        var entitesToComponent: Map[CString, Set[Int]] = Map.new(10);
+        var entitesToTag: Map[CString, Set[Int]] = Map.new(10);
+        var entityNames: Set[CString] = Set.new(10);
+
+        return struct Self {
+            entities,
+            systems,
+            entitesToComponent,
+            entitesToTag,
+            entityNames,
+            allocator
+        };
+    }
+
+    public function addEntity(entity: Ptr[Entity]): Bool {
+        if(!this.entities.exists(entity.uniqueID) && !this.entityNames.exists(entity.name)) {
+            this.entities.put(entity.uniqueID, entity);
+            entity.engine = &this;
+
+            var list = entity.getComponents();
+            for type in list{
+                if(!this.entitesToComponent.exists(type)) {
+                    this.entitesToComponent.put(type, Set.new());
+                }
+                this.addComponentFromEntity(type, entity.uniqueID);
+            }
+
+            var tagList = entity.getTags();
+            for type in tagList {
+                if !this.entitesToTag.exists(type) {
+                    this.entitesToTag.put(type, Set.new());
+                }
+                this.addTagFromEntity(type, entity.uniqueID);
+            }
+
+            return true; 
+        }
+
+        return false;
+    }
+
+    public function removeEntity(entity: Entity) {
+        if(this.entities.exists(entity.uniqueID)) {
+            this.entities.remove(entity.uniqueID);
+
+            var list = entity.getComponents();
+
+            for type in list{
+                if(this.entitesToComponent.exists(type)) {
+                    this.removeComponentFromEntity(type, entity.uniqueID);
+                }
+            }
+
+            var tagList = entity.getTags();
+
+            for type in tagList {
+                if this.entitesToTag.exists(type) {
+                    this.removeTagFromEntity(type, entity.uniqueID);
+                }
+            }
+        }
+    }
+
+    /**
+     * Retrieve an Entity by it's name, note this runs in O(n) so use with care.
+     */
+    public function getEntityByName(name: CString): Ptr[Entity] {
+        var entityArray: Array[Int] = this.entities.keys();
+
+        for i in 0 ... entityArray.length {
+            if this.entities.get(entityArray[i]).unwrap().name == name {
+                return this.entities.get(entityArray[i]).unwrap();
+            }
+        }
+    }
+    
+    public function getEntitesByTag(tagName: CString): Array[Ptr[Entity]] {
+        if(this.entitesToTag.exists(tagName)) {
+            var entitySet = this.entitesToTag.get(tagName).unwrap();
+            var entityArray: Array[Ptr[Entity]] = Array.new(entitySet.length); 
+            var i = 0;
+            for key in entitySet{
+                entityArray[i] = this.entities.get(key).unwrap();
+                i++;
+            }
+
+            return entityArray;
+        }
+    }
+    
+    public function entityHasChanged(change: EntityState, typeIdentifier: CString, entityID: Int){
+        printf("Entity: %i, has %s, Component: %s\n", entityID, change.toString(), typeIdentifier);
+
+        match(change.toString()){
+            "added" => this.addComponentFromEntity(typeIdentifier, entityID);
+            "removed" => this.removeComponentFromEntity(typeIdentifier, entityID);
+            "addedTag" => this.addTagFromEntity(typeIdentifier, entityID);
+            "removedTag" => this.removeTagFromEntity(typeIdentifier, entityID);
+        }
+    }
+
+    private function addTagFromEntity(tagName: CString, entityID: Int) {
+        if this.entitesToTag.exists(tagName) {
+            var entitySet: Set[Int] = this.entitesToTag.get(tagName).unwrap();
+            entitySet.put(entityID);
+        } else {
+            var entitySet: Set[Int] = Set.new();
+            entitySet.put(entityID);
+            this.entitesToTag.put(tagName, entitySet);
+        }
+    }
+
+    private function removeTagFromEntity(tagName: CString, entityID: Int) {
+        if this.entitesToTag.exists(tagName) {
+            var entitySet: Set[Int] = this.entitesToTag.get(tagName).unwrap();
+            entitySet.remove(entityID);
+        }
+    }
+
+    private function addComponentFromEntity(type: CString, en: Int){
+        if(this.entitesToComponent.exists(type)){
+            var entitySet: Set[Int] = this.entitesToComponent.get(type).unwrap();
+            entitySet.put(en);
+        }
+        else {
+            var entitySet: Set[Int] = Set.new();
+            entitySet.put(en);
+            this.entitesToComponent.put(type,entitySet);
+        }
+    }
+
+    private function removeComponentFromEntity(type: CString, en: Int){
+        if(this.entitesToComponent.exists(type)){
+            var entitySet: Set[Int] = this.entitesToComponent.get(type).unwrap();
+            entitySet.remove(en);
+        }
+    }
+
+    public function addSystem(type: CString, system: Box[System]) {
+        if(!this.systems.exists(type)){
+            this.systems.put(type, system);
+        }
+    }
+
+    public function removeSystem(type: CString, system: Box[System]) {
+        if(!this.systems.exists(type)){
+            this.systems.remove(type);
+        }
+    }
+
+    public function entitiesForComponents(components: Int, types...): Array[Ptr[Entity]] {
+
+        var entitySet: Set[Int] = Set.new();
+        for i in 0 ... components{
+            var component: CString = types;
+            var setRef = this.entitesToComponent.get(component).unwrap();
+            
+            entitySet.unionSet(setRef);
+        } 
+
+        var entityArray: Array[Ptr[Entity]] = Array.new(entitySet.length);
+        
+        var i = 0;
+        for entity in entitySet{
+            entityArray[i] = this.entities.get(entity).unwrap();
+            i++;
+        }
+
+        return entityArray;
+    }
+
+    public function entitiesForComponent(type: CString): Array[Ptr[Entity]] {
+        if(this.entitesToComponent.exists(type)) {
+            var entitySet = this.entitesToComponent.get(type).unwrap();
+            var entityArray: Array[Ptr[Entity]] = Array.new(entitySet.length); 
+            var i = 0;
+            for key in entitySet{
+                entityArray[i] = this.entities.get(key).unwrap();
+                i++;
+            }
+
+            return entityArray;
+        }
+    }
+
+    public function update(delta: Float) {
+        for key in this.systems {
+            this.systems.get(key).unwrap().update(delta, this);
+        }
+    }
+}

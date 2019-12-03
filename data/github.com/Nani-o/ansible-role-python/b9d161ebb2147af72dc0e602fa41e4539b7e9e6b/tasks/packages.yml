@@ -1,0 +1,21 @@
+---
+- name: Install packages
+  package:
+    name: "{{ item.package }}"
+    state: latest
+  when: "item.condition"
+  with_items:
+    - package: "{{ python2_package }}"
+      condition: "{{ python2_install }}"
+    - package: "{{ python2_pip_package }}"
+      condition: "{{ python2_pip_install }}"
+    - package: "{{ python3_package }}"
+      condition: "{{ python3_install }}"
+    - package: "{{ python3_pip_package }}"
+      condition: "{{ python3_pip_install }}"
+
+- name: Install virtualenv
+  pip:
+    name: virtualenv
+    state: latest
+  when: "python_venv_install or python_venvs is defined"

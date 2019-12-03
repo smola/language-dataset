@@ -36,6 +36,10 @@ files:
     annotations:
       linguist: PowerShell
       vote: PowerShell
+  github.com/4dn-dcic/pipelines-cwl/46dbd4c38119ef8a2d00b44678e45dafd430f5fa/cwl_awsem_v1/addfragtopairs.cwl:
+    annotations:
+      linguist: Common Workflow Language
+      vote: Common Workflow Language
   github.com/6dreams/stream-reader/e5757aa4ed54923aecbb94d7a57322246d92f94c/sixdreams/StreamReader/XmlStreamReader.zep:
     annotations:
       linguist: Zephir
@@ -97,6 +101,10 @@ files:
     annotations:
       linguist: D
       vote: D
+  github.com/AcroMace/brainfoge/11567b7923ad48ee3b810b011ac36f93c7fb803a/brainfoge.djs:
+    annotations:
+      linguist: Dogescript
+      vote: Dogescript
   github.com/Actinium-project/ln-plugin-m3/c9b5c8d1d1e06f3b91f9fee3e403103194a276e1/LNPlugin.m3:
     annotations:
       human-smola: Modula-3
@@ -126,6 +134,14 @@ files:
     annotations:
       linguist: Self
       vote: Self
+  github.com/Adams123/OrgArquivos/44e237ded68ac94b146e0224c8d0b4b237db12b8/T2/T2/dragon.rl:
+    annotations:
+      linguist: Ragel
+      vote: Ragel
+  github.com/Adobe-Marketing-Cloud/media-sdks/952c7edb25ef9b7cfe9ed3b089a79d0eb5552698/sdks/roku/samples/adoberokudemo/source/sampleAdobeFeed.brs:
+    annotations:
+      linguist: Brightscript
+      vote: Brightscript
   github.com/Akagi201/learning-cmake/a3b8b104ab16db6c9e515f22b6bdbcd69ce5c3e6/hello-world-lib/src/CMakeLists.txt:
     annotations:
       linguist: CMake
@@ -162,6 +178,18 @@ files:
     annotations:
       linguist: Oz
       vote: Oz
+  github.com/AlexPoulsen/Kitten/3b8f82fbef468420a388e2bc9b6d0a661aacc9fd/src/arguments/handler.kit:
+    annotations:
+      linguist: Kit
+      vote: Kit
+  github.com/AlexPoulsen/rogue/31490146b0c585f26b88af5e09227bd2c6641eb8/src/mapchar.kit:
+    annotations:
+      linguist: Kit
+      vote: Kit
+  github.com/AlexPoulsen/string-builder/d5734b8114b9d512a559b8b30e5074f90b32edbf/src/xs_Rounding.kit:
+    annotations:
+      linguist: Kit
+      vote: Kit
   github.com/AlexTheMagnus/GEMS/7914d48489edb5d89a2c0d5d958eda6fcfe94f5f/code/GEMS.clp:
     annotations:
       linguist: CLIPS
@@ -202,10 +230,18 @@ files:
     annotations:
       linguist: Processing
       vote: Processing
+  github.com/AnEmortalKid/such-interview/d05dc4854d00c079403a00133386c87d2a7ce358/cards.djs:
+    annotations:
+      linguist: Dogescript
+      vote: Dogescript
   github.com/Ana06/AI/2e94a2bb64536a7db3237399bd196c3315541035/Travel recommender - Jess/TravelRecommendation.clp:
     annotations:
       linguist: CLIPS
       vote: CLIPS
+  github.com/AndreaCrotti/yasnippet-snippets/2cc5f35cd43941175981c8774debc8303d90c101/snippets/swift-mode/uiviewcontrollerlifecycle:
+    annotations:
+      linguist: YASnippet
+      vote: YASnippet
   github.com/AndrewD2/DragonAGE/efe16a6e517bc8bf8ef4f3327dd8e43f8f68800c/system_resources.aug:
     annotations:
       linguist: Augeas
@@ -232,6 +268,10 @@ files:
     annotations:
       linguist: sed
       vote: sed
+  github.com/ApacheThunder/bfheroes42/9552615e0ffe6212a8d2cf5269bd906ed8586a6d/bf1942/levels/City_of_Aegean/StandardMesh/City_Scenery01_m1.rs:
+    annotations:
+      linguist: RenderScript
+      vote: RenderScript
   github.com/ApexSQL/Article-scripts/26d563b22e8a44f575d39796fbd75abce135a19e/sql-server-auditing-how-to-be-alerted-about-important-auditing-events/configure_notification_script.sql:
     annotations:
       linguist: PL/SQL
@@ -248,6 +288,10 @@ files:
     annotations:
       linguist: COBOL
       vote: COBOL
+  github.com/Apress/practical-tla-plus/1afed6f8c95bf921adc948d23d4260d9cd300724/Chapter 1/wire.tla:
+    annotations:
+      linguist: TLA
+      vote: TLA
   github.com/AquaQAnalytics/TorQ-Finance-Starter-Pack/9f06d513174cd8c34c6fda77b1a95389b11f7279/code/processes/metrics.q:
     annotations:
       linguist: q
@@ -303,6 +347,10 @@ files:
     annotations:
       linguist: DM
       vote: DM
+  "github.com/AweiLoveAndroid/The-pit-of-the-Android-Studio/68fd58ec7b4d7fc8cef8d296c38de9e46ab87877/\u5907\u4EFD/build.gradle.ftl":
+    annotations:
+      linguist: FreeMarker
+      vote: FreeMarker
   github.com/Axford/OpenSCADMachineDesignFramework/80155e0104bb3a6d1c89bfaefa58766e24e21961/utils/surfacesolids/Renderer.scad:
     annotations:
       linguist: OpenSCAD
@@ -311,6 +359,10 @@ files:
     annotations:
       linguist: XS
       vote: XS
+  github.com/Azure/azure-cosmos-tla/f3230bc9b717bb405ddfb9bfc005dcbd7c1aee4a/general-model/cosmos_client.tla:
+    annotations:
+      linguist: TLA
+      vote: TLA
   github.com/Azure/azure-quickstart-templates/2b32553b7f02b74c40e8fa1fb4ed45d45695df38/oms-azure-vminventory-solution/scripts/AzureVMInventory-MS-Mgmt.ps1:
     annotations:
       linguist: PowerShell
@@ -348,6 +400,10 @@ files:
     annotations:
       linguist: OCaml
       vote: OCaml
+  github.com/BackupTheBerlios/busybe-svn/a9cf98b6ba3b8f85a08a2b8082bbac78370b6875/tags/0.8/sample_templates/search_noed_nodel.kid:
+    annotations:
+      linguist: Genshi
+      vote: Genshi
   github.com/BackupTheBerlios/radartools-svn/0f60b8b07a758e31360269a93e3a0d50efc28d2a/branches/0.21/io/import_info_ramses.pro:
     annotations:
       linguist: IDL
@@ -364,6 +420,14 @@ files:
     annotations:
       linguist: DM
       vote: DM
+  github.com/BazhanovMaxim/College_ToadDataModeler_Lab6/b72f60513a0a983a39c8a2d381e3530e5d63e888/logical_model_Lab6.txl:
+    annotations:
+      linguist: TXL
+      vote: TXL
+  github.com/BazhanovMaxim/College_coursework/fe5a1ec5aa0d01f3d68948adeee168afe898e5f8/Logical_model.txl:
+    annotations:
+      linguist: TXL
+      vote: TXL
   github.com/BedquiltDB/bedquilt-core/beaee513a015ed0dd633b738517b33eb7c4c42a3/test/test_find_documents.py:
     annotations:
       human-smola: Python
@@ -395,6 +459,10 @@ files:
     annotations:
       linguist: AutoIt
       vote: AutoIt
+  github.com/BirgittaHauser/Write-to-IFS-with-SQL/c5b235f1e521ee33198e90e5e2f87d4865a31169/QSQLSRC/WRT2IFS.sql:
+    annotations:
+      linguist: SQLPL
+      vote: SQLPL
   github.com/BlastarIndia/msdos/0e5f0c8f8d8d4e471358303da44486bffe48715d/v20source/SYSCALL.ASM:
     annotations:
       human-smola: Assembly
@@ -417,6 +485,10 @@ files:
     annotations:
       linguist: CLIPS
       vote: CLIPS
+  github.com/Brettm12345/doom-emacs-literate-config/3f14904692c2a81f1b2146af7d49e0bbca4082ad/snippets/js2-mode/redux:
+    annotations:
+      linguist: YASnippet
+      vote: YASnippet
   github.com/BrianHawley/r2-forward/b9e140f483a3d91ae917c0d12c80dce416c32518/r2-forward.r:
     annotations:
       linguist: Rebol
@@ -429,6 +501,10 @@ files:
     annotations:
       linguist: GLSL
       vote: GLSL
+  github.com/BrightcoveOS/Roku-Sample-App/c8e423d45490ff792a06987cffbcd9758f33102e/source/Config.brs:
+    annotations:
+      linguist: Brightscript
+      vote: Brightscript
   github.com/BrokenShell/zeta/461628a08bb8ef780b484613cda9eda215f5aa87/zeta.chpl:
     annotations:
       linguist: Chapel
@@ -445,6 +521,10 @@ files:
     annotations:
       linguist: Modula-3
       vote: Modula-3
+  github.com/CCBR/Pipeliner/477aecebac322aae9ed8fabee361baa2961a183f/Rules/wgs.somatic.germline.calls.rl:
+    annotations:
+      linguist: Ragel
+      vote: Ragel
   github.com/CCTV-404/Zigbee/af227896803ef7891952487be42cbff8487d3001/Projects/zstack/Samples/GenericApp/CC2530DB/CoordinatorEB/Obj/zmac_cb.pbi:
     annotations:
       human-smola: Unknown
@@ -463,10 +543,18 @@ files:
     annotations:
       linguist: Xojo
       vote: Xojo
+  github.com/CMPT-470/Asn4/3e693dc638ebd700b1180109239a614a9c030a7c/MakeCgrammar/10.Txl:
+    annotations:
+      linguist: TXL
+      vote: TXL
   github.com/CPColin/ceylon.markdown/2b350308064cd476fa56ea473321ffdd724194f0/source/test/ceylon/markdown/renderer/RendererTests.ceylon:
     annotations:
       linguist: Ceylon
       vote: Ceylon
+  github.com/CS420Assignment2/dictionary/23d17b26b2286b212e56b04b0caab794a216fb5e/dictionary.grace:
+    annotations:
+      linguist: Grace
+      vote: Grace
   github.com/CSTGit/CST-Live-Guide/49f70ad8cea30af71128da315054e0abb221a19c/README_en.md:
     annotations:
       linguist: Markdown
@@ -475,10 +563,18 @@ files:
     annotations:
       linguist: PHP
       vote: PHP
+  github.com/Cam/Shopify-Theme-Framework/bb13b0f38ea3d4ff7278f5214225428da74603e9/snippets/footer.liquid:
+    annotations:
+      linguist: Liquid
+      vote: Liquid
   github.com/CameronWills/OEUnit/b494161e41e5725aa4b81434753f72bb891030f9/src/OEUnit/Runner/TestMethodResult.cls:
     annotations:
       linguist: OpenEdge ABL
       vote: OpenEdge ABL
+  github.com/CannyLab/tsne-cuda/2067f9dc19dfe12ce78ccbc3b58f43cc2afed06d/src/util/thrust_utils.cu:
+    annotations:
+      linguist: CUDA
+      vote: CUDA
   github.com/CarGuo/gsy_github_app_flutter/07dded24b754646a983a0f5b6958c109ddc3224e/lib/page/repos/repository_detail_page.dart:
     annotations:
       linguist: Dart
@@ -516,6 +612,10 @@ files:
       human-smola: Unknown
       linguist: AMPL
       vote: Unknown
+  github.com/Chaferfu/tal/45ba9284d3b30f67d4b4a025abc171405fdef906/outputs/formal_small.lima.ne:
+    annotations:
+      linguist: Nearley
+      vote: Nearley
   github.com/Charles-Kaminski/FastEditDistanceUsingBigDataPrefixTrees/88b8a53837b18fba0f4bef3fe39aa99faa4377f8/3_RoxieQuery.ecl:
     annotations:
       linguist: ECL
@@ -537,6 +637,10 @@ files:
     annotations:
       linguist: F#
       vote: F#
+  github.com/Ciptaandhika/Automation-Android/b86a56f39f87baa862e0cee8661718a3f1462d50/Object Repository/0305_Seller/030504_TransaksiPenjualan/ToolTipSedangDiverifikasiTelahDibayar.rs:
+    annotations:
+      linguist: RenderScript
+      vote: RenderScript
   github.com/Click-to-Cloud/R.apex/cb3a662fd643f06436fc6fbda800795ea7d352d2/src/classes/RTest.cls:
     annotations:
       linguist: Apex
@@ -586,6 +690,10 @@ files:
       human-smola: ColdFusion CFC
       linguist: ColdFusion
       vote: ColdFusion CFC
+  github.com/CompEpigen/CWLab/17be699cf30301dde578920e2c13d8861b7004bb/test_files/workflows/wf_chipmentation_packed.cwl:
+    annotations:
+      linguist: Common Workflow Language
+      vote: Common Workflow Language
   github.com/Componolit/jwx/ea388cb7e4620fadb6d244b28870b088910f712a/tests/jwx_json_tests.ads:
     annotations:
       human-smola: Ada
@@ -629,6 +737,10 @@ files:
       human-smola: Assembly
       linguist: Assembly
       vote: Assembly
+  github.com/Czarto/ShopifyScripts/177ae0d67b3f484c48f7db93ed54ef07d9002587/snippets/product-color-swatch.liquid:
+    annotations:
+      linguist: Liquid
+      vote: Liquid
   github.com/D-a-n-i-l-o/Ascii/4abbfd143161d788a06fddf6eff5d8db15a2d140/Ascii.monkey2:
     annotations:
       human-smola: Monkey
@@ -675,6 +787,10 @@ files:
     annotations:
       linguist: TypeScript
       vote: TypeScript
+  github.com/DelNov/Glyph-Scripts/3c5c3913d91cad96ed4e298da44fe87fb3c0ff71/with_plate.glf:
+    annotations:
+      linguist: Glyph
+      vote: Glyph
   github.com/Delja/NitMetric/61d46214fb3a2418e7754cd48c62fa439c4de930/src/nitsmells.nit:
     annotations:
       linguist: Nit
@@ -762,6 +878,10 @@ files:
     annotations:
       linguist: eC
       vote: eC
+  github.com/ENT8R/streetcomplete-mapstyle/8bf73172826c233499b23678478727fb9881b82c/layers/land.yaml:
+    annotations:
+      linguist: YAML
+      vote: YAML
   github.com/EbTech/rust-algorithms/42db8cc763bb54814b89c5d8c75e3f5f82b0cf39/src/scanner.rs:
     annotations:
       linguist: Rust
@@ -795,6 +915,10 @@ files:
     annotations:
       linguist: NetLogo
       vote: NetLogo
+  github.com/Elkfox/Concrete/53099aff5b19eed5b20899f50d4abeda79a925af/src/sections/hero-media.liquid:
+    annotations:
+      linguist: Liquid
+      vote: Liquid
   github.com/ElmerCSC/elmerfem/779ab43935168b85fd3657a7a05406837e051dc5/mathlibs/src/lapack/zungl2.f:
     annotations:
       linguist: Fortran
@@ -812,6 +936,10 @@ files:
     annotations:
       linguist: J
       vote: J
+  github.com/Eric-GH/CMPT470-Advanced-Software-Engineering/7a3fc428c8c43e4c1772f3fab68a714c168f96be/suportmaterials/Pascal_PrettyPrinter/makePascalgrammar/15.Txl:
+    annotations:
+      linguist: TXL
+      vote: TXL
   github.com/EricZimmerman/RECmd/41efec6fe08e17ee37287e4af781838a2391b4fe/BatchExamples/BatchExample.reb:
     annotations:
       human-smola: Unknown
@@ -822,6 +950,14 @@ files:
       human-smola: Clean
       linguist: Clean
       vote: Clean
+  github.com/ErrkO/Manjaro-Desktop-Settings/3b246cfb71d467ca8131296d8518ba61e6e0a58e/config.i3:
+    annotations:
+      linguist: Modula-3
+      vote: Modula-3
+  github.com/EvanHahn/brainfuck-web-app/487cc274f056752494d7bea7013f05a3c89f6c09/server.bf:
+    annotations:
+      linguist: Brainfuck
+      vote: Brainfuck
   github.com/Everteam-Software/xforms-manager/d67dc3d07fd6a0e8d3492847d6a4685a4cae4b3e/src/main/webapp/WEB-INF/workflow/config/prologue-portlet.xpl:
     annotations:
       linguist: XProc
@@ -830,6 +966,10 @@ files:
     annotations:
       linguist: DM
       vote: DM
+  github.com/ExpressionEngine/ExpressionEngine-User-Guide/867c896fa0191c9ba3e2f70481dcc4ae298e965b/docs/control-panel/settings/index.md:
+    annotations:
+      linguist: Markdown
+      vote: Markdown
   github.com/Eyescale/CMake/8b69d72180aef3de93d9692781026d7069a9d8d8/FindXDR.cmake:
     annotations:
       linguist: CMake
@@ -880,6 +1020,10 @@ files:
     annotations:
       linguist: Zimpl
       vote: Zimpl
+  github.com/FedeLochbaum/World-s-Hardest/94ac2fc35eb670e30e92fe58a47c63a84dbf16cb/android/build/intermediates/transforms/mergeJavaRes/debug/0/com/badlogic/gdx/utils/JsonReader.rl:
+    annotations:
+      linguist: Ragel
+      vote: Ragel
   github.com/FelisCatus/SwitchyOmega/472962254559604a0aad9374c0a431ffefd4151f/omega-target-chromium-extension/grunt/po2crx.coffee:
     annotations:
       human-smola: CoffeeScript
@@ -1023,6 +1167,14 @@ files:
     annotations:
       linguist: LLVM
       vote: LLVM
+  github.com/Gamerfiend/kit-ecs/8ab8a2c861820acf24a0f24aa19647b50821da18/src/ecs.kit:
+    annotations:
+      linguist: Kit
+      vote: Kit
+  github.com/Gamerfiend/raykit/aece527a6f2684feaf8d1081426764b6edc6b91d/raykit.kit:
+    annotations:
+      linguist: Kit
+      vote: Kit
   github.com/Gaxil/Unity-InteriorMapping/78194254efe646aee5c9784dc23338a263c14343/Assets/Shaders/InteriorMapping.shader:
     annotations:
       linguist: GLSL
@@ -1048,6 +1200,10 @@ files:
       human-smola: xBase
       linguist: xBase
       vote: xBase
+  github.com/GioSensation/gravida/19c7b41c24b222c4842842c390293218391d9486/web-development.kit:
+    annotations:
+      linguist: Kit
+      vote: Kit
   github.com/GiovineItalia/Gadfly.jl/6d68260d2960aedb546618db31e65489e81d74f3/src/theme.jl:
     annotations:
       linguist: Julia
@@ -1097,6 +1253,10 @@ files:
     annotations:
       linguist: C#
       vote: C#
+  github.com/Hanks10100/wasm-examples/dad3d379dc501c60bfed24b8846ddaf5f0ff8d63/benchmark/tail/fibc.wast:
+    annotations:
+      linguist: WebAssembly
+      vote: WebAssembly
   github.com/Harry-Chen/fpga-virtual-console/7e7e14b8db7d299dab24095b0f6e660720715220/src/display/FontShapeRenderer.sv:
     annotations:
       human-smola: SystemVerilog
@@ -1209,6 +1369,10 @@ files:
     annotations:
       linguist: OpenSCAD
       vote: OpenSCAD
+  github.com/IanRapley/Makura-Bot/e71e8967b28b87f871df33e4f5eb572afcd838ed/Grammar-poetry.ne:
+    annotations:
+      linguist: Nearley
+      vote: Nearley
   github.com/IbrahimIrfan/chess/b93a80d0e69831d763ef483b95d5868813a4508b/Main.t:
     annotations:
       linguist: Turing
@@ -1263,6 +1427,10 @@ files:
     annotations:
       linguist: Prolog
       vote: Prolog
+  github.com/JEG2/dotfiles/fd67ac959a3b25028836503c369325b8377eea93/spacemacs.d/snippets/ruby-mode/io/parse_options.yasnippet:
+    annotations:
+      linguist: YASnippet
+      vote: YASnippet
   github.com/JHUISI/autocrypt/7eda9de098a18e3d8de7e8440150b760ed04d973/BLS/bls-full-AUTO.ec:
     annotations:
       linguist: eC
@@ -1324,11 +1492,31 @@ files:
     annotations:
       linguist: BlitzMax
       vote: BlitzMax
+  github.com/JayHoltslander/CF-Cache-Status/6623cd5e0cc1af257ef5bc49bce9cfca202bb880/src/_footer.kit:
+    annotations:
+      linguist: Kit
+      vote: Kit
+  github.com/JeeJay23/dotfiles/9ef75d37851dff19f535d75daf998859fb390159/config.i3:
+    annotations:
+      linguist: Modula-3
+      vote: Modula-3
   github.com/JeffBezanson/femtolisp/ec7601076a976f845bc05ad6bd3ed5b8cde58a97/lib/sort.scm:
     annotations:
       human-smola: Scheme
       linguist: Scheme
       vote: Scheme
+  github.com/JessYanCoding/ArmsComponent-Template/eda7ebda29b662150e83040059a23f8d95e6056e/NewArmsComponent/recipe.xml.ftl:
+    annotations:
+      linguist: FreeMarker
+      vote: FreeMarker
+  github.com/JessYanCoding/MVPArms-Module-Template/162950a0592232681ffcf5062edfe007ad841523/NewArmsModule/root/src/app_package/GlobalConfiguration.java.ftl:
+    annotations:
+      linguist: FreeMarker
+      vote: FreeMarker
+  github.com/JessYanCoding/MVPArmsTemplate/2490af5733d409e1867b09d33f8965b04d25def1/MVPArtTemplate/root/src/app_package/ArtActivity.java.ftl:
+    annotations:
+      linguist: FreeMarker
+      vote: FreeMarker
   github.com/JetBrains/Nitra/b287b8a42237fac4d993444e7e3af9240b601503/Boot2/Nitra.Grammar/Model/FSM/FSM.n:
     annotations:
       linguist: Nemerle
@@ -1383,14 +1571,26 @@ files:
     annotations:
       linguist: Forth
       vote: Forth
+  github.com/JonasOlson/chrooms/39b0853cb37e046b14d70da149444df1d2d5ad99/chrooms/murmur.ice:
+    annotations:
+      linguist: Slice
+      vote: Slice
   github.com/JonathanSalwan/Tigress_protection/79c696976a7ae19c9385c2fb6d6d558f95be7b4c/llvm_expressions/sample13-virt-dispatcher-linear.ll:
     annotations:
       linguist: LLVM
       vote: LLVM
+  github.com/Jophyy/Game101/24fbfe47cfc4d41d9264f9aa1e36efe9e0b825cf/com.Game101.mycompany.game101/Main.eq:
+    annotations:
+      linguist: EQ
+      vote: EQ
   github.com/JordanMartinez/purescript-jordans-reference/cf7ff6362c4b26229b386f36ccd99f25644744db/11-Syntax/01-Basic-Syntax/src/03-TypeClasses-and-Newtypes/10-Keyword--Newtype.purs:
     annotations:
       linguist: PureScript
       vote: PureScript
+  github.com/JorgeSilva7/Prog-Distribuida-PFJ/db50ad783bd41a8f6c0ef05cb2e53b9ff9e4d9b5/SmartHome_jsilva.ice:
+    annotations:
+      linguist: Slice
+      vote: Slice
   github.com/Jscottkasten/uvs-advanced-library/10738964eed569aa568db7a76dde625c87a33c36/Src/Mirah/Android/com/UVS/Innovations/AdvancedLibrary/Debugging/AppExceptionHandlerActivity.mirah:
     annotations:
       linguist: Mirah
@@ -1435,6 +1635,10 @@ files:
     annotations:
       linguist: Julia
       vote: Julia
+  github.com/KDE/latte-dock/484741558e93496dab464caa9f724c15e312ea75/containment/package/contents/ui/editmode/HeaderSettings.qml:
+    annotations:
+      linguist: QML
+      vote: QML
   github.com/KIRPAT/keyboard-macros/e8f5c5294bafc70927b1609e4903fecf8c850968/my_keyboard/G800V-AHK.ASC:
     annotations:
       human-smola: XML
@@ -1457,10 +1661,18 @@ files:
     annotations:
       linguist: Markdown
       vote: Markdown
+  github.com/KarlLofholm/lofholm-se/55f866851227538a27394f1159182e7c567aeccb/source/kit/_pages/operan.kit:
+    annotations:
+      linguist: Kit
+      vote: Kit
   github.com/KaroDievas/oop-openedge/8e2a97cdad3bfc3fc7853d4a916adb56054668e2/factory/Yamaha.cls:
     annotations:
       linguist: OpenEdge ABL
       vote: OpenEdge ABL
+  github.com/Karthikvishw/RubyFeatureExtractor/1013bb492dc57a7639e2fb7445153584c8867f60/input/ruby.txl:
+    annotations:
+      linguist: TXL
+      vote: TXL
   github.com/KeplerStation/KeplerStation/959759790b949f7ff5aebe88be7b6fe392a4dd3f/modular_citadel/code/game/objects/items/melee/eutactic_blades.dm:
     annotations:
       linguist: DM
@@ -1486,10 +1698,18 @@ files:
     annotations:
       linguist: NSIS
       vote: NSIS
+  github.com/KimBruce/StaticTyping/a6292c398ce7964730c208ed59dee4706ac73906/StaticTyping.grace:
+    annotations:
+      linguist: Grace
+      vote: Grace
   github.com/Kimbsy/lolcode/830341dcaae473e652c115eb782b95e4a113755a/ICANHAZPRIME.lol:
     annotations:
       linguist: LOLCODE
       vote: LOLCODE
+  github.com/Kimundi/greenwasm/9afe805aa534c752dd1c62b8978a305a9bc2f640/greenwasm-spectest/testsuite/select.wast:
+    annotations:
+      linguist: WebAssembly
+      vote: WebAssembly
   github.com/Kode/Kha/91400b060fafc3e5b856e299d01ed543963ff06a/Sources/kha/Sound.hx:
     annotations:
       linguist: Haxe
@@ -1518,6 +1738,10 @@ files:
     annotations:
       linguist: AutoIt
       vote: AutoIt
+  github.com/Kuma-Cheatsheet/sql/6f283766bdf28730b84e86860b11a9fbd4599aa9/code/Table-Values/Departments.csv:
+    annotations:
+      linguist: CSV
+      vote: CSV
   github.com/KurtisLiggett/Simple-IP-Config/48e1b5dc37cbc9c53a6819fdc6b3b731d871d1bf/main.au3:
     annotations:
       linguist: AutoIt
@@ -1530,6 +1754,10 @@ files:
     annotations:
       linguist: q
       vote: q
+  github.com/KyleLavorato/TCPStream/810f0f1f3ce957882bb65bd2d1ca2007ce88634c/Application/GENERATOR/TXL/generateMake.txl:
+    annotations:
+      linguist: TXL
+      vote: TXL
   github.com/Kylebrown9/BabyShark/365223466ad173cd7a68f26c419e43013e5a73b4/baby_shark.bf:
     annotations:
       linguist: Befunge
@@ -1616,6 +1844,10 @@ files:
     annotations:
       linguist: Logtalk
       vote: Logtalk
+  github.com/LookAtThisUrl/Resume/ea44667000aff8207f69eb7580ff45841f40f205/tea/index.kit:
+    annotations:
+      linguist: Kit
+      vote: Kit
   github.com/Lord-Kamina/Deluge-Magnet-Handler/d14f5e7b446050763bb2584e8091eb66c894d088/Magnet Handler.applescript:
     annotations:
       linguist: AppleScript
@@ -1661,6 +1893,10 @@ files:
     annotations:
       linguist: Verilog
       vote: Verilog
+  github.com/MIT-LCP/mimic-cookbook/15957afb8efb2cac28d417cfa9d1c1761997c434/hana/setup.sql:
+    annotations:
+      linguist: SQLPL
+      vote: SQLPL
   github.com/MJVL/BTS-Zebra-Projects/1a120b7376e737b7b5d7af8248f5459fc3f71baf/ZPL files/On a Stick Scan.zpl:
     annotations:
       linguist: Zimpl
@@ -1742,6 +1978,10 @@ files:
     annotations:
       linguist: Clarion
       vote: Clarion
+  github.com/MarkRoddy/brstest/7be7ba593b1841a258fa0e36b1741d5e79127377/source/test_testsuite.brs:
+    annotations:
+      linguist: Brightscript
+      vote: Brightscript
   github.com/Martinfx/Cobol/f1bb3163d6673fc72a831623de4f9fc8bde7a062/OpenCobol/String/String.cbl:
     annotations:
       linguist: COBOL
@@ -1772,6 +2012,10 @@ files:
       human-ajnavarro: HTML
       linguist: Hack
       vote: HTML
+  github.com/MediaBrowser/Emby.Roku/0908e13f68433284c1b411f094a1be62cf781ec4/source/PhotoSpringboardScreen.brs:
+    annotations:
+      linguist: Brightscript
+      vote: Brightscript
   github.com/Mercury-Language/mercury/0a1f289b6d4f464822f853f982d319032b4f17f6/tests/valid/instance_unconstrained_tvar.m:
     annotations:
       linguist: Mercury
@@ -1793,10 +2037,18 @@ files:
     annotations:
       linguist: PicoLisp
       vote: PicoLisp
+  github.com/MicrosoftDocs/architecture-center/1f4c13198e35b36a4cf0abcfa5783e796f34fb51/build/topic-pages/templates/tile.liquid:
+    annotations:
+      linguist: Liquid
+      vote: Liquid
   github.com/MicrosoftDocs/azure-docs/26ae64aa2167b4b9c1edb2748425d16f0ff2aac8/.openpublishing.build.ps1:
     annotations:
       linguist: PowerShell
       vote: PowerShell
+  github.com/MicrosoftLearning/edX_DAT215x_Microsoft_SQL_Database_Development/5c8a3a9a84a55d3e5be82e889085fda9babe1387/Labs/DAT215_2/Lab_Solution/Lab3.sql:
+    annotations:
+      linguist: SQLPL
+      vote: SQLPL
   github.com/Mijyuoon/Chatur-Redux/fc49bf12c51ba612ef14f5432b9daa1143769607/MijMarkup/Properties/AssemblyInfo.n:
     annotations:
       linguist: Nemerle
@@ -1813,6 +2065,10 @@ files:
     annotations:
       linguist: Julia
       vote: Julia
+  github.com/Mille366/Hourboost/bb39c8cf698f57378f31060343456164dea0ad23/Release/HourBoostr/GlobalDB.hb:
+    annotations:
+      linguist: Harbour
+      vote: Harbour
   "github.com/MisterBooo/LeetCodeAnimation/a0346c24c8d98aa58fabafd4d84b950edcc12ee1/notes/LeetCode\u7B2C24\u53F7\u95EE\u9898\uFF1A\u4E24\u4E24\u4EA4\u6362\u94FE\u8868\u4E2D\u7684\u8282\u70B9.md":
     annotations:
       human-smola: Markdown
@@ -1826,6 +2082,14 @@ files:
     annotations:
       linguist: SuperCollider
       vote: SuperCollider
+  github.com/MooersLab/pymolsnips/f7e59501567d6edaedb67deb4c5a0666bc680394/yasnippetspymolsnips/coordinate:
+    annotations:
+      linguist: YASnippet
+      vote: YASnippet
+  github.com/Morpheu5/MathParser/b1d08f6cb022767c9fcab5a546a8026bf47af14a/src/assets/grammar.ne:
+    annotations:
+      linguist: Nearley
+      vote: Nearley
   github.com/Morriar/CatFacts/1e5eccb9c011ec2965f2d7e9b3eabd4eb4bfe3ed/src/app.nit:
     annotations:
       linguist: Nit
@@ -1854,6 +2118,10 @@ files:
     annotations:
       linguist: LabVIEW
       vote: LabVIEW
+  github.com/NBISweden/workflow-tools-evaluation/619aa77e0c6fc27055ecf0a54f2954ec382efd0e/002-resequencing/resequencing_workflow.cwl:
+    annotations:
+      linguist: Common Workflow Language
+      vote: Common Workflow Language
   github.com/NHALX/Shen-SBCL/15e72f49e3df145455c36e39e4f43a6e9b5aebee/Platforms/SBCL/backend.shen:
     annotations:
       linguist: Shen
@@ -1871,14 +2139,26 @@ files:
     annotations:
       linguist: LabVIEW
       vote: LabVIEW
+  github.com/NVIDIA/cutlass/7c0cd26d13e0e0c41a5b6874f06976575e613e72/test/unit/gemm/device/gemm_f16t_f16n_f16t_volta_tensor_op_f16_sm70.cu:
+    annotations:
+      linguist: CUDA
+      vote: CUDA
   github.com/NVIDIA/deepops/854996da8285c1a458f01f06e664951c5c90a3c8/containers/kubeflow-jupyter-web-app/releaser/lib/ksonnet-lib/v1.8.0/k.libsonnet:
     annotations:
       linguist: Jsonnet
       vote: Jsonnet
+  github.com/NVIDIA/nv-wavenet/03f69576f6c6b984340c1ddef2288e3f7d1102ca/nv_wavenet.cuh:
+    annotations:
+      linguist: CUDA
+      vote: CUDA
   github.com/NVIDIA/nvidia-docker/f65beafbfa8734328af38a4dd8270687f6507abb/Makefile:
     annotations:
       linguist: Makefile
       vote: Makefile
+  github.com/NVlabs/cub/c3cceac115c072fb63df1836ff46d8c60d9eb304/cub/block/block_histogram.cuh:
+    annotations:
+      linguist: CUDA
+      vote: CUDA
   github.com/Nachiten/Gimnasio_Pokemon/ab9505ef84c4288096b1a9f93912c975e4187a6d/src/pokemon.wlk:
     annotations:
       linguist: Wollok
@@ -1897,6 +2177,42 @@ files:
     annotations:
       linguist: Harbour
       vote: Harbour
+  github.com/Nani-o/ansible-role-dotfiles/92c9921a308aa4d3014acdcd9a4d33d94d46c2ee/tasks/main.yml:
+    annotations:
+      linguist: YAML
+      vote: YAML
+  github.com/Nani-o/ansible-role-fzf/fbf8f55278b1bdf1a7b6b49026b8a325584f1c28/tasks/main.yml:
+    annotations:
+      linguist: YAML
+      vote: YAML
+  github.com/Nani-o/ansible-role-golang/30732cdc5ce2903f7d34cc1b566b8f3ba8a4b615/tests/post-check.yml:
+    annotations:
+      linguist: YAML
+      vote: YAML
+  github.com/Nani-o/ansible-role-home-assistant/e8cf19c3ecc08ea27ba6313a5eefda8af9319f25/tests/post-check.yml:
+    annotations:
+      linguist: YAML
+      vote: YAML
+  github.com/Nani-o/ansible-role-lxd/e4be464d9e0993566d767232e19438450c3f0724/.travis.yml:
+    annotations:
+      linguist: YAML
+      vote: YAML
+  github.com/Nani-o/ansible-role-netdata/bd0338dc9455594ad1d37b6c5cbd50da49c861a2/meta/main.yml:
+    annotations:
+      linguist: YAML
+      vote: YAML
+  github.com/Nani-o/ansible-role-ohmyzsh/af8207f2beee12dd4a32bfb934d29053f2e28f16/tasks/ohmyzsh.yml:
+    annotations:
+      linguist: YAML
+      vote: YAML
+  github.com/Nani-o/ansible-role-python/b9d161ebb2147af72dc0e602fa41e4539b7e9e6b/tasks/packages.yml:
+    annotations:
+      linguist: YAML
+      vote: YAML
+  github.com/Nani-o/ansible-role-seedbox/7ef8c9691ad2971120628928d7e0acc3aaca121a/tasks/youtube-dl.yml:
+    annotations:
+      linguist: YAML
+      vote: YAML
   github.com/Neilpang/acme.sh/3d2df3ba93dfcb3eb4510fadd2d33a43f74ff586/dnsapi/dns_one.sh:
     annotations:
       linguist: Shell
@@ -1939,6 +2255,10 @@ files:
     annotations:
       linguist: Nix
       vote: Nix
+  github.com/Nobiles2/MySQLToolBox/a932a6c0f0885472f3dc2944406477512165ff7c/getPhpSerializedArrayValueByKey.sql:
+    annotations:
+      linguist: SQLPL
+      vote: SQLPL
   github.com/OCSInventory-NG/Packager-for-Windows/3751643d51807aa76631be8642d6d0116b2f5211/Packager/ListBox.nsi:
     annotations:
       linguist: NSIS
@@ -1947,6 +2267,22 @@ files:
     annotations:
       linguist: M4
       vote: M4
+  github.com/OSEHRA-Sandbox/VistA/886b9c4c5043ad75173d3667287efe8b7706ec05/Packages/Integrated Billing/Patches/IB_2.0_501/IB-2_SEQ-453_PAT-501.KID:
+    annotations:
+      linguist: Genshi
+      vote: Genshi
+  github.com/OSEHRA/FOIA_Mirror/1bcf94ce6d6ae5bcf71aab9eaf8ecf05d42340cd/Packages/Pharmacy Data Management/Patches/PSS_1.0_139/pss-1_seq-126_pat-139.kid:
+    annotations:
+      linguist: Genshi
+      vote: Genshi
+  github.com/OSEHRA/SAMI-VAPALS-ELCAP/d354333ef0a2a75b4d5b2ed6a325c31f22a5409f/kids/SDVALLPTS.KID:
+    annotations:
+      linguist: Genshi
+      vote: Genshi
+  github.com/OSEHRA/VistA/076f96148bdd0a8aefeebf2ee205f61ae0e06333/Packages/Incident Reporting/Patches/QAN_2.0_33/QAN-2_SEQ-33_PAT-33.KID:
+    annotations:
+      linguist: Genshi
+      vote: Genshi
   github.com/OTRS/otrs/f585e59959e3ea357ea55f77f0d5f4d5dc5dc292/scripts/test/Selenium/Agent/CalendarLimitOverview.t:
     annotations:
       linguist: Perl
@@ -1959,6 +2295,14 @@ files:
     annotations:
       linguist: Modula-2
       vote: Modula-2
+  github.com/Omegaice/WOTTankRanges/90067c21f69ee59e45e6f0ae48c02f1d3d0825b3/xvm/xvm/l10n/fi.xc:
+    annotations:
+      linguist: XC
+      vote: XC
+  github.com/OneIdentity/Polypkg/20ea9e5170a83daec883dd7fa69914dfb00eaa32/pp.back.kit:
+    annotations:
+      linguist: Kit
+      vote: Kit
   github.com/OpenAADL/ocarina/121766ca577b01853354ff5991f73d22f5675a5c/src/core/model/ocarina-analyzer-aadl_ema-naming_rules.ads:
     annotations:
       human-smola: Ada
@@ -2010,6 +2354,10 @@ files:
     annotations:
       linguist: NSIS
       vote: NSIS
+  github.com/OppDavid/CS420-Final-Project/2ff809d67b291245b4eab84c5e6460f38d874e7b/logic.grace:
+    annotations:
+      linguist: Grace
+      vote: Grace
   github.com/OptimaSystems/GAP/e159b301cbe8b099fa0dfdc1e0083a26076a9ef2/GAP_Tests.dyalog:
     annotations:
       linguist: APL
@@ -2081,6 +2429,10 @@ files:
       human-smola: OpenEdge ABL
       linguist: OpenEdge ABL
       vote: OpenEdge ABL
+  github.com/PapirusDevelopmentTeam/arc-kde/04873ca3f4b46fda46c39dc4778af0762be947e6/plasma/look-and-feel/com.github.varlesh.arc-dark/contents/splash/Splash.qml:
+    annotations:
+      linguist: QML
+      vote: QML
   github.com/ParadiseSS13/Paradise/8b9f6632038bbc98f93ce1c0740c3d7ea5f0f9cc/code/modules/nano/subsystem.dm:
     annotations:
       linguist: DM
@@ -2138,6 +2490,10 @@ files:
     annotations:
       linguist: PL/SQL
       vote: PL/SQL
+  github.com/PavlezT/Tiva-MCU-TM4C123G-LaunchPad/88256c7ba6b5ac657f10a13b3e6cee4afd6b26b0/blinkyAlien/Debug/bme280_old.rl:
+    annotations:
+      linguist: Ragel
+      vote: Ragel
   github.com/Pebaz/RGB/6736ea0f3898a334050589fdc1074022a27273c3/example/multiple_struct_variable_declarations.reds:
     annotations:
       human-ajnavarro: C
@@ -2151,11 +2507,19 @@ files:
     annotations:
       linguist: XQuery
       vote: XQuery
+  github.com/PeterHuZQ/EOS-Dapp/23a2dd9042e0f18a8e8bd5fd80ef20016cb4ef4b/contract/motherday/motherday.wast:
+    annotations:
+      linguist: WebAssembly
+      vote: WebAssembly
   github.com/PeterJudge-PSC/abl_performance_workshop/0a7f5497c18ad345a1ef8c48f12d7b7e3662e950/profiler_labs/src/function_inline.p:
     annotations:
       human-smola: OpenEdge ABL
       linguist: OpenEdge ABL
       vote: OpenEdge ABL
+  github.com/PhilHudson/yasnippets/bb34caf975e5bd88f0072f3bd68e5b805872fd50/org-mode/letterhead:
+    annotations:
+      linguist: YASnippet
+      vote: YASnippet
   github.com/PhilippSalvisberg/plscope-utils/6314afd7232fd039ea26e19584fb670a31890028/database/test/package/test_dd_util.pks:
     annotations:
       human-smola: PL/SQL
@@ -2223,6 +2587,10 @@ files:
     annotations:
       linguist: PowerShell
       vote: PowerShell
+  github.com/PowerSystemsHIL/HIL_2015_Symposium/eed049bb94777a38fc10745cb3d2ea2ce75c8e9c/HIL2015_Symposium_Package/04 Top Level Model/relay_slave_cfg13.opal:
+    annotations:
+      linguist: Opal
+      vote: Opal
   github.com/Prodesire/Python-Guide-CN/74cb46fefa684e0ca2f2ff6bd291172bf16ddfb6/make.bat:
     annotations:
       linguist: Batchfile
@@ -2268,6 +2636,10 @@ files:
     annotations:
       linguist: Nit
       vote: Nit
+  github.com/RAKINJA/foro_alpha/900100201950675af4e6927184837674b5effa9e/modelo/proyecto_foro_logico.txl:
+    annotations:
+      linguist: TXL
+      vote: TXL
   github.com/RBXSystems/mongo-labview-driver/498a6b187783d3c27e21d825a4ab7bb10b2177b9/MongoDB.lvproj:
     annotations:
       linguist: LabVIEW
@@ -2289,6 +2661,10 @@ files:
       human-smola: Unknown
       linguist: Zimpl
       vote: Unknown
+  github.com/RayeWang/easyadmin/44dcf3d2429ef696c65e986baf5d21c56ab20820/src/main/resources/templates/index.ftl:
+    annotations:
+      linguist: FreeMarker
+      vote: FreeMarker
   github.com/ReactiveCocoa/ReactiveCocoa/21deb683540db0d059dd7945627493275936b7db/ReactiveCocoaTests/UIKit/UIActivityIndicatorViewSpec.swift:
     annotations:
       linguist: Swift
@@ -2401,6 +2777,10 @@ files:
       human-smola: Verilog
       linguist: Verilog
       vote: Verilog
+  github.com/SKU-IT/SKU-logo/131ee89af1b06459272f0ef39e660bcc0c71aa69/sku.svg:
+    annotations:
+      linguist: SVG
+      vote: SVG
   github.com/SWI-Prolog/swish/8093e9249e234fed861b8af8c5d02007fda69a48/lib/gitty_driver_bdb.pl:
     annotations:
       linguist: Prolog
@@ -2486,6 +2866,22 @@ files:
     annotations:
       linguist: Shen
       vote: Shen
+  github.com/ShizouHeiwajima/HourBoostr/2971df4ca7d88fd9c0610b4440facb419939758f/GlobalDB.hb:
+    annotations:
+      linguist: Harbour
+      vote: Harbour
+  github.com/Shopify/shopify-css-import/68b660e1ea258795f10b9cad5677a12c479d645f/css/_reset.scss.liquid:
+    annotations:
+      linguist: Liquid
+      vote: Liquid
+  github.com/Shopify/skeleton-theme/c89f9f7eb3c509a5d08a586a4b4d73f8b14c024b/src/layout/theme.liquid:
+    annotations:
+      linguist: Liquid
+      vote: Liquid
+  github.com/Shopify/starter-theme/452b2c6c612af0075bb5de9dc16c4678d9d1c23b/src/snippets/social-meta-tags.liquid:
+    annotations:
+      linguist: Liquid
+      vote: Liquid
   github.com/Shougo/vimfiler.vim/26d3fec10cb8921d510064411784301794229a93/autoload/vital/_vimfiler/Vim/Buffer.vim:
     annotations:
       linguist: Vim script
@@ -2498,6 +2894,10 @@ files:
     annotations:
       linguist: Kotlin
       vote: Kotlin
+  github.com/Skruvkork/doge-form/5539bd092d59cf91598a54c7c73876a85c6d70e9/wow.djs:
+    annotations:
+      linguist: Dogescript
+      vote: Dogescript
   github.com/Sleepwalking/libgvps/2f1b4106d72f8f8138dc447bf0123820c0772cbd/gvps_sampled.hc:
     annotations:
       linguist: HolyC
@@ -2592,6 +2992,10 @@ files:
       human-smola: Unknown
       linguist: Common Lisp
       vote: Unknown
+  github.com/SquishyStrawberry/dogescript-ircbot/bd90b226ffd53cb9c73d1bd06a57aba5f2191679/ircLib.djs:
+    annotations:
+      linguist: Dogescript
+      vote: Dogescript
   github.com/StPeres-Cerebellum/Igor2p/5ae364cd14a36dc1b096eaeeed91c6d9fce268be/ArduinoSerialPort.ipf:
     annotations:
       linguist: IGOR Pro
@@ -2651,6 +3055,10 @@ files:
     annotations:
       linguist: Swift
       vote: Swift
+  github.com/Swordfish90/cool-retro-term/64e007f1fd602815b2d66c0b9a513324cdf99a87/app/qml/BurnInEffect.qml:
+    annotations:
+      linguist: QML
+      vote: QML
   github.com/Syampuuh/Titanfall2-orig/9e57b224ae7df25f61b1f44a0dcb7dea705fbd2b/vscripts/weapons/mp_ability_pathchooser.nut:
     annotations:
       linguist: Squirrel
@@ -2709,6 +3117,14 @@ files:
     annotations:
       linguist: MATLAB
       vote: MATLAB
+  github.com/TakeoffAndroid/MaterialTabsTemplate/baa697a543cf341e4777250daab0e532409d6d73/root/src/app_package/AbstractModel.java.ftl:
+    annotations:
+      linguist: FreeMarker
+      vote: FreeMarker
+  github.com/TakeoffAndroid/RecyclerViewTemplate/6590e98547fed5f40e37fc2170eba9d0b4cff562/root/res/layout/item_recycler_google_play.xml.ftl:
+    annotations:
+      linguist: FreeMarker
+      vote: FreeMarker
   github.com/TaranVH/2nd-keyboard/5e03713a12cf22037feaaa6e3729482d25fa5579/Intercept/FULL_extra_keyboard.ahk:
     annotations:
       linguist: AutoHotkey
@@ -2717,6 +3133,14 @@ files:
     annotations:
       linguist: DM
       vote: DM
+  "github.com/Tavalik/SQL_TScripts/cff0afb916f4746ca6d8e76de70c9b8ac1b4fc76/\u041F\u0440\u043E\u0441\u0442\u0430\u044F_\u043C\u043E\u0434\u0435\u043B\u044C_\u0438_\u0441\u0436\u0430\u0442\u0438\u0435_\u043B\u043E\u0433\u0430_\u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u0438\u0445_\u0411\u0414.sql":
+    annotations:
+      linguist: SQLPL
+      vote: SQLPL
+  github.com/TeamTilapia/vscode-tilapia/e237d0d770951c280b4755918fb2d88c0fd49131/example-tla/ModelingDeployments.tla:
+    annotations:
+      linguist: TLA
+      vote: TLA
   github.com/Tencent/MMKV/a0c9fa9efdf3d5659f62b13eb7af95d499609ea9/Win32/MMKV/MmapedFile.cpp:
     annotations:
       linguist: C++
@@ -2725,6 +3149,10 @@ files:
     annotations:
       linguist: PL/SQL
       vote: PL/SQL
+  github.com/ThatsNotAUsername/MEMo/9d97bd0b2e4eed22e2f9265e87dd3e50d9aefde6/MMB_github/matrix.eq:
+    annotations:
+      linguist: EQ
+      vote: EQ
   github.com/TheBeachMaster/v-lang/6a1d9e9a731d4464d8380710083599586288c1af/helloworld/hello.v:
     annotations:
       linguist: V
@@ -2781,6 +3209,10 @@ files:
     annotations:
       linguist: Coq
       vote: Coq
+  github.com/TimmHess/UERoboCup/bb65923970cd650a591ed54045e611fb291a958d/TrainingSetGenerator/TrainingSetGeneratorConfig.pri:
+    annotations:
+      linguist: QMake
+      vote: QMake
   github.com/Tinywan/zephir-framework/dd89b56581c51d0cf1acc773b515ff8342add93a/zephirlib/zephirlib/Module/Think/Test.zep:
     annotations:
       human-smola: Zephir
@@ -2790,6 +3222,22 @@ files:
     annotations:
       linguist: MAXScript
       vote: MAXScript
+  github.com/TomasHubelbauer/blender-gargantua/7a5425fc9ed4760e383651c106b2961b3c1aa76d/README.md:
+    annotations:
+      linguist: Markdown
+      vote: Markdown
+  github.com/TomasHubelbauer/vso-shortlink/6364b092feb9b44122f0d58e8fd925d0342ae1e2/README.md:
+    annotations:
+      linguist: Markdown
+      vote: Markdown
+  github.com/Toubic/Traveller/9368954bb1fd959f77dfa5d9825fa3e3e36afd39/views/partials/selectCountry.hb:
+    annotations:
+      linguist: Harbour
+      vote: Harbour
+  github.com/Trendyol/android-guidelines/395b78a6d47ea3379d43e4237f727f438849f83d/android_studio_live_templates/file_and_code_templates/TrendyolData/recipe.xml.ftl:
+    annotations:
+      linguist: FreeMarker
+      vote: FreeMarker
   github.com/Trovarius/dojo_dnasp_26_05_11/2d0a483376240a0fc34543ce4f3ad1b69bea08fc/Dojo_Troco/Class1.boo:
     annotations:
       linguist: Boo
@@ -2811,6 +3259,14 @@ files:
       human-smola: Unix Assembly
       linguist: Assembly
       vote: Unix Assembly
+  github.com/Turbozeven/Autocomplete/c94b02314a0f35ddd34e8ce81d09b5612a0a8067/Autocomplete.ig:
+    annotations:
+      linguist: Modula-3
+      vote: Modula-3
+  github.com/TxGVNN/emacs-k8s-mode/5984acee6f3891afa78acfd1d08c44a24953a233/snippets/k8s-mode/persistentvolumeclaim:
+    annotations:
+      linguist: YASnippet
+      vote: YASnippet
   github.com/TypeUnsafe/golo-f/5923f02735239943ff60b14f0fc468bcc65850ae/02.yloiseau.option.decorator.golo:
     annotations:
       linguist: Golo
@@ -2827,6 +3283,10 @@ files:
     annotations:
       linguist: AutoHotkey
       vote: AutoHotkey
+  github.com/UndeadKernel/emacs_doom_private/0785943612d7e98e2cf1aff6931415d211913765/snippets/processing-mode/glGenBuffers:
+    annotations:
+      linguist: YASnippet
+      vote: YASnippet
   github.com/UniMath/Foundations/df19211f602ab71ee44f0ae4de2a19170c5b9e4d/Current_work/semisimplicial2.v:
     annotations:
       linguist: Coq
@@ -2943,11 +3403,39 @@ files:
     annotations:
       linguist: Pony
       vote: Pony
+  github.com/WanAndroid/AndroidStudioTemplates/7808187009ba57b4acfc5bceb4c73f535c710de0/activities/ViewPagerWithTabActivity/root/src/app_package/SimpleFragment.java.ftl:
+    annotations:
+      linguist: FreeMarker
+      vote: FreeMarker
   github.com/WebAssembly/binaryen/4ad7a2cfd0b3ac14fbe767d50e4994f8297d37f6/test/wasm2js/br_table_temp.wast:
     annotations:
       linguist: WebAssembly
       vote: WebAssembly
+  github.com/WebAssembly/esm-integration/884066deab4669b582269e6dddaeb9948c2ba67a/test/core/align.wast:
+    annotations:
+      linguist: WebAssembly
+      vote: WebAssembly
+  github.com/WebAssembly/gc/7f3258d1dcc3f91bc0e23e863f53ac6cbdeaf4b4/test/core/call.wast:
+    annotations:
+      linguist: WebAssembly
+      vote: WebAssembly
+  github.com/WebAssembly/interface-types/0930a4db3c998b495c8fea7295989266befec213/test/core/typecheck.wast:
+    annotations:
+      linguist: WebAssembly
+      vote: WebAssembly
+  github.com/WebAssembly/reference-types/303c94206dd108ee210dd45377b61bebed21d57f/test/core/binary-leb128.wast:
+    annotations:
+      linguist: WebAssembly
+      vote: WebAssembly
+  github.com/WebAssembly/simd/fc9c9fbbbd005f1cc9f781615e4d53124b4a662f/test/core/utf8-invalid-encoding.wast:
+    annotations:
+      linguist: WebAssembly
+      vote: WebAssembly
   github.com/WebAssembly/spec/af825a74982dac2565359e1f4d76191307afc8bf/test/core/unreachable.wast:
+    annotations:
+      linguist: WebAssembly
+      vote: WebAssembly
+  github.com/WebAssembly/threads/4cbecad0ed0af9bf3ca1b58d6dc4c6ad5c865240/test/core/br_table.wast:
     annotations:
       linguist: WebAssembly
       vote: WebAssembly
@@ -2968,6 +3456,10 @@ files:
     annotations:
       linguist: Emacs Lisp
       vote: Emacs Lisp
+  github.com/Willster419/RelhaxModpackDatabase/b8d5a18ba2f4da762226fb6e288a2841b0f143f5/patch_regressions/followPath/check_01.xc:
+    annotations:
+      linguist: XC
+      vote: XC
   github.com/Windastella/godothub_client/9bc39187046db210b201f2c3f7378742c373cbb3/godothub/scripts/godothub.gd:
     annotations:
       human-smola: GDScript
@@ -3037,10 +3529,18 @@ files:
     annotations:
       linguist: Haxe
       vote: Haxe
+  github.com/YifengL/gurace/4fb1abc81d260395919f96cb685998ee10bda192/immutableSet.grace:
+    annotations:
+      linguist: Grace
+      vote: Grace
   github.com/Yohko/IgorProTools/09ef2c30ce71d9226601d814d8dbe87c41c0a9ac/Igor Procedures/tools/tools_utils.ipf:
     annotations:
       linguist: IGOR Pro
       vote: IGOR Pro
+  github.com/Yubico/yubioath-desktop/333caeba0b63b3549903b4f3af79a8238c0d7402/qml/NewCredentialView.qml:
+    annotations:
+      linguist: QML
+      vote: QML
   github.com/ZCXL/JsonParse/40eecb66b353ca9d25de5cd0e9f2622740ca7a93/JSON.g4:
     annotations:
       linguist: ANTLR
@@ -3054,6 +3554,10 @@ files:
       human-ajnavarro: Red
       linguist: Red
       vote: Red
+  github.com/Zemnmez/nearley-unicode/c68df5297197fd61f02d3d4d3cd82794573f3627/unicode-9.0.0/Bidi_Class/Right_To_Left.ne:
+    annotations:
+      linguist: Nearley
+      vote: Nearley
   github.com/Zeroloop/l-unit8/cb7038949aab93e494660a1e7a37cdd5198e87e3/index.lasso:
     annotations:
       human-smola: Lasso
@@ -3149,6 +3653,10 @@ files:
     annotations:
       linguist: Elixir
       vote: Elixir
+  github.com/acani/Chats/dcf91487d0ac360d3e556b550cb818cb7883372a/Servers/Database/functions/login.sql:
+    annotations:
+      linguist: SQLPL
+      vote: SQLPL
   github.com/acaudwell/Gource/7e793c96cbfb8d742c690f4a9bec49880f985e60/src/gource.h:
     annotations:
       linguist: C++
@@ -3260,6 +3768,10 @@ files:
       human-smola: Markdown
       linguist: Markdown
       vote: Markdown
+  github.com/ajaxm/DogeScript/cd6ba876434616117169a20c38c152302c71827d/clock_angle.djs:
+    annotations:
+      linguist: Dogescript
+      vote: Dogescript
   github.com/ajholanda/nixus/b17119a0274f1fed07da305b55169b1760f4c43f/nixus.w:
     annotations:
       linguist: CWeb
@@ -3293,6 +3805,10 @@ files:
     annotations:
       linguist: Opa
       vote: Opa
+  github.com/akrizhevsky/cuda-convnet2/3238bf0367f63eb370e897b9e5714794cb67ddc2/cudaconvnet/include/messages.cuh:
+    annotations:
+      linguist: CUDA
+      vote: CUDA
   github.com/akveo/eva-icons/8705bd5553c400d639b72a369be81ec0a57dbe15/src/app/@theme/theme.module.ts:
     annotations:
       linguist: TypeScript
@@ -3301,6 +3817,10 @@ files:
     annotations:
       linguist: Verilog
       vote: Verilog
+  github.com/albandescottes/EIT/999139b2e56f2ff7e74bf29865648688d8d0bdef/files/v/formal-tst.NE.key.04oct95_small.txt.ref.ne:
+    annotations:
+      linguist: Nearley
+      vote: Nearley
   github.com/alda-lang/alda/e6631f2cf387f517b2cbc06f491d11d71fdda61b/build.boot:
     annotations:
       linguist: Clojure
@@ -3326,6 +3846,10 @@ files:
     annotations:
       linguist: Lua
       vote: Lua
+  github.com/alexdantas/doge-toe/42eb115bea004b37242c0ac1e6fbe089c48cb111/toe.djs:
+    annotations:
+      linguist: Dogescript
+      vote: Dogescript
   github.com/alexmingoia/purescript-pux/3bf523f696e215d2564c325de3ec98dd04691b68/src/Pux/DOM/HTML/Attributes.purs:
     annotations:
       linguist: PureScript
@@ -3334,6 +3858,10 @@ files:
     annotations:
       linguist: XSLT
       vote: XSLT
+  github.com/alfg/murmur-rest/c08ac32cc9db906b03c1a27e047184a7b2889877/Murmur.ice:
+    annotations:
+      linguist: Slice
+      vote: Slice
   github.com/algernon/adderall/a94ab60fe6322a8d50011cd78107dc083a21c901/tests/schemer/chapter01.hy:
     annotations:
       linguist: Hy
@@ -3362,6 +3890,10 @@ files:
     annotations:
       linguist: Dart
       vote: Dart
+  github.com/alishak/TAG/5a0615a91af91f2c3ef3d369020e933c749a29d3/TXL/generateHeader.txl:
+    annotations:
+      linguist: TXL
+      vote: TXL
   github.com/alkana/ZExcel/5815a46da04bcb7bde13ae1f7849aa5fbb77f741/zexcel/worksheet/columniterator.zep:
     annotations:
       linguist: Zephir
@@ -3424,6 +3956,10 @@ files:
     annotations:
       linguist: ActionScript
       vote: ActionScript
+  github.com/amlwwalker/got-qt/cd91aa500579bb053a0c9eac13f0b5c8b14ed14e/qt/qml/pages/ButtonPage.qml:
+    annotations:
+      linguist: QML
+      vote: QML
   github.com/ammounce/ConMatNMRPro/bcc4997f135e81caeaa616d3c9028d1043a43dbe/CMNMRP_T1.ipf:
     annotations:
       linguist: IGOR Pro
@@ -3437,6 +3973,14 @@ files:
       human-smola: AMPL
       linguist: AMPL
       vote: AMPL
+  github.com/amunch/Language-to-Latex/42ff1648fe9035ff9753df0f08092490bdf3ed91/data/data/final_data/test.eq:
+    annotations:
+      linguist: EQ
+      vote: EQ
+  github.com/amyjzhu/whimsical-backend/e1b99bbf5cbecaaa69b9f0ecb06f9fb918fcb406/main.djs:
+    annotations:
+      linguist: Dogescript
+      vote: Dogescript
   github.com/analogdevicesinc/hdl/eab1e86544647be00be2804ea81bed04b268f460/projects/adrv9371x/zc706/system_top.v:
     annotations:
       linguist: Verilog
@@ -3466,6 +4010,14 @@ files:
     annotations:
       linguist: R
       vote: R
+  github.com/andrewhamili/Bird-Game/111361e91357f9e028cc244954252caa5136d755/Main.eq:
+    annotations:
+      linguist: EQ
+      vote: EQ
+  github.com/andrewjesaitis/cwl-tutorial/e1c4c28dcf173116e38d911df5cf2e9a22b2cfb8/snpeff.cwl:
+    annotations:
+      linguist: Common Workflow Language
+      vote: Common Workflow Language
   github.com/android/architecture-components-samples/b88adef417583371f3fe5a01e28983fe7170036d/PagingWithNetworkSample/app/src/main/java/com/android/example/paging/pagingwithnetwork/reddit/db/RedditDb.kt:
     annotations:
       linguist: Kotlin
@@ -3499,6 +4051,10 @@ files:
     annotations:
       linguist: DM
       vote: DM
+  github.com/anitagraser/QGIS-resources/636c986b5e7b2f99e115da18d085118035f5a84a/qgis1.8/styles/osm_light_polygon.qml:
+    annotations:
+      linguist: QML
+      vote: QML
   github.com/ankane/chartkick/9b0ee5644cb886be77c304647f729c5a2987d063/chartkick.gemspec:
     annotations:
       human-smola: Ruby
@@ -3517,6 +4073,10 @@ files:
       human-smola: Unknown
       linguist: AGS Script
       vote: Unknown
+  github.com/anpar/oz-project-fsa12/a574d3bd87d59c1d74bb4d46167576c4f7407d5d/35211300-31581300/code.oz:
+    annotations:
+      linguist: Oz
+      vote: Oz
   github.com/ansible/ansible/008a95073dc05d6474a028bc5e078edda0faf4cd/test/units/modules/source_control/gitlab.py:
     annotations:
       linguist: Python
@@ -3555,10 +4115,18 @@ files:
     annotations:
       linguist: Kotlin
       vote: Kotlin
+  github.com/antonmks/Alenka/0b5ed2ea6cd428fe8aa21d810f494848563c9bf4/select.cu:
+    annotations:
+      linguist: CUDA
+      vote: CUDA
   github.com/antononcube/MathematicaForPrediction/f08498dc68c5bc987d1f53763b69cca06f19f7c4/DocumentTermMatrixConstruction.m:
     annotations:
       linguist: Wolfram Language
       vote: Wolfram Language
+  github.com/anychart-integrations/python-flask-mysql-template/7a9d3aeeaea557eca56abaee08f84dfc7056bb8d/database_backup.sql:
+    annotations:
+      linguist: SQLPL
+      vote: SQLPL
   github.com/apache/couchdb/d60551d89100dccb5c649dd6cad3b7c7ec1371e0/src/fabric/src/fabric_dict.erl:
     annotations:
       linguist: Erlang
@@ -3682,6 +4250,14 @@ files:
     annotations:
       linguist: C++
       vote: C++
+  github.com/arinabondarenko/DL_homework_2/dbfde3172fc647e1d00d73a31aa0a26e59558c2a/task_2.txl:
+    annotations:
+      linguist: TXL
+      vote: TXL
+  github.com/arirawr/suchdoge/56046919c026644a179bf6b496ca6f5db539290b/gameoflife.djs:
+    annotations:
+      linguist: Dogescript
+      vote: Dogescript
   github.com/arknag/AdvMule/1a9a45a249ec097237496cee2e5e1402f377b7ec/bid-processing/target/test-classes/sample_data/string.dwl:
     annotations:
       linguist: DataWeave
@@ -3763,6 +4339,10 @@ files:
     annotations:
       linguist: Hy
       vote: Hy
+  github.com/aspire-fp7/annotation_extractor/0879c455d8df46b71d97823d5962de4beb91c26a/src/Txl/readAnnot.txl:
+    annotations:
+      linguist: TXL
+      vote: TXL
   github.com/aspnet/AspNetCore.Docs/f32db24cc8995bce69a531158f6b2278de3b834b/aspnetcore/migration/1x-to-2x/samples/AspNetCoreDotNetCore2App/AspNetCoreDotNetCore2App/Data/Migrations/00000000000000_CreateIdentitySchema.cs:
     annotations:
       linguist: C#
@@ -3779,6 +4359,10 @@ files:
     annotations:
       linguist: C#
       vote: C#
+  github.com/assaflavi/peptalk/daf63f1768449854e814ddce656a1d302c8fbe07/data/peptiDB/unbound/MotifAnalysis/data/1DKX/1DKX.mat.hb:
+    annotations:
+      linguist: Harbour
+      vote: Harbour
   github.com/astatide/chpllog/ae97df2a3f7a95212a4f76bdac6d07ef264b3956/test/LoggingTest.chpl:
     annotations:
       linguist: Chapel
@@ -3799,6 +4383,10 @@ files:
     annotations:
       linguist: D
       vote: D
+  github.com/atlarge-research/opendc/7d9ab456a54674112760af1b0cbc6a1b2e587ba1/database/schema.sql:
+    annotations:
+      linguist: SQLPL
+      vote: SQLPL
   github.com/atlas-engineer/next/eeea0838ec02b9363efbab50f5ece7890c0212d3/next.asd:
     annotations:
       linguist: Common Lisp
@@ -3933,6 +4521,10 @@ files:
       human-smola: REXX
       linguist: Self
       vote: REXX
+  github.com/ayuryshev/config/c00693a20028eb72c7541e12159576a0b1ffc3fb/i3/src/A-main.i3:
+    annotations:
+      linguist: Modula-3
+      vote: Modula-3
   github.com/azac/cobol-on-wheelchair/6bce149786c3d4d29b4440be21e7695892f1ce42/cow.cbl:
     annotations:
       linguist: COBOL
@@ -3966,6 +4558,10 @@ files:
     annotations:
       linguist: Vala
       vote: Vala
+  github.com/badocksbi/BADock/c79e1be5e23f254d64414ddfe342c1b75336536a/db/AffinityBenchmark/2B4J_l_b.pdb.HB:
+    annotations:
+      linguist: Harbour
+      vote: Harbour
   github.com/baedert/corebird/28f866f833a2e5956644e7c9b88ba8f880e36a5f/tests/tweetmodel.vala:
     annotations:
       linguist: Vala
@@ -3975,6 +4571,10 @@ files:
       human-smola: XML
       linguist: Clean
       vote: XML
+  github.com/baidu-research/warp-ctc/6d5b8fac130638862d97dc48ef43a8d7b5a503bb/include/contrib/moderngpu/include/device/ctascan.cuh:
+    annotations:
+      linguist: CUDA
+      vote: CUDA
   github.com/bailicangdu/node-elm/42629186e2e0b7ec75839c096135f8f44cd79b4f/controller/v1/captchas.js:
     annotations:
       linguist: JavaScript
@@ -4073,6 +4673,10 @@ files:
     annotations:
       linguist: sed
       vote: sed
+  github.com/baron42bba/aws-snippets/9cb1edaaa86609b51a7fbf39ec643cc5ae80eaa1/snippets/json-mode/aws-autoscaling-group-vpc:
+    annotations:
+      linguist: YASnippet
+      vote: YASnippet
   github.com/baroquebobcat/shatner/c8f1ce080a1cc1ddae4e663b587693f44889a9d2/test/test_shatner.mirah:
     annotations:
       linguist: Mirah
@@ -4113,6 +4717,14 @@ files:
       human-smola: Unknown
       linguist: MAXScript
       vote: Unknown
+  github.com/bcbio/bcbio_validation_workflows/a297e87e014de998b8df9c90700c29173ec09932/wes-agha-test/wes_chr21_test-workflow-arvados/wf-alignment.cwl:
+    annotations:
+      linguist: Common Workflow Language
+      vote: Common Workflow Language
+  github.com/bcbio/test_bcbio_cwl/d675318396ddf17fb886c058f5f17f8b0414f4cd/prealign/prealign-workflow/main-prealign.cwl:
+    annotations:
+      linguist: Common Workflow Language
+      vote: Common Workflow Language
   github.com/bcit-ci/CodeIgniter/f40d86c54fbbc3adc8c901fa4580dbcb5d89a3b4/system/language/english/migration_lang.php:
     annotations:
       linguist: PHP
@@ -4151,6 +4763,10 @@ files:
     annotations:
       linguist: Io
       vote: Io
+  github.com/belaban/pluscal/1c7430f2ee2b8099b5d14db6bf1341e698a0cfba/Hello.tla:
+    annotations:
+      linguist: TLA
+      vote: TLA
   github.com/bellenuit/subtitler/32faeddc7088533ad24a4640267e127a6cfbb966/ImportFolder/Converters/FCPXMLConverter.rbbas:
     annotations:
       human-smola: REALbasic
@@ -4168,6 +4784,22 @@ files:
     annotations:
       linguist: Harbour
       vote: Harbour
+  github.com/bendmorris/krit/c95a910d0d6a8b8696070355518b76a3cc333adc/backend/sdl/shaders/shader.kit:
+    annotations:
+      linguist: Kit
+      vote: Kit
+  github.com/bendmorris/neskit/609133a5055e30189d12ac79d87f7df797882479/src/neskit/audio/triangle.kit:
+    annotations:
+      linguist: Kit
+      vote: Kit
+  github.com/benlau/qtandroidexamplecode/2097b031d0b173fdc714659d0ab73e5b371a325a/qtandroidrunner/qtandroidrunner.pro:
+    annotations:
+      linguist: QMake
+      vote: QMake
+  github.com/benlau/quickandroid/364c32e710f1c88d3d30db4342a69a873099df44/QuickAndroid/drawable/ArtShadowDepth2.qml:
+    annotations:
+      linguist: QML
+      vote: QML
   github.com/benmurphybaum/AT/c89e2396331050d3cc52e2e27752ba240a94cc55/atControls_v1.ipf:
     annotations:
       linguist: IGOR Pro
@@ -4176,6 +4808,10 @@ files:
     annotations:
       linguist: Nix
       vote: Nix
+  github.com/benoitletondor/Android-Studio-MVP-template/8ac7252bd93aaeda3a3f6d9d3c4b8ec21945599b/MVPBoilerplate/root/src/app_package/classes/BasePresenterImpl.java.ftl:
+    annotations:
+      linguist: FreeMarker
+      vote: FreeMarker
   github.com/benweet/stackedit/2fdbb67c67159c4ccfddbe51fc9303c6c799dbe0/src/services/providers/helpers/zendeskHelper.js:
     annotations:
       human-smola: JavaScript
@@ -4221,6 +4857,10 @@ files:
     annotations:
       linguist: IDL
       vote: IDL
+  github.com/bishless/static-tpa/587eb692b618fda0063824408a389dca17bcbd7a/_kit/_svg-icon_act-svcs.kit:
+    annotations:
+      linguist: Kit
+      vote: Kit
   github.com/bitcoin/bitcoin/224c19645fa0478112ea0129a75ba0097caa55ad/src/qt/bitcoinstrings.cpp:
     annotations:
       human-smola: C++
@@ -4387,6 +5027,10 @@ files:
     annotations:
       linguist: ColdFusion
       vote: ColdFusion
+  github.com/bp2014n2/i2b2-db/652d43307d8ca337cf8529105ba5f0196a011680/setup/ecl/indices/create_indices_for_provider_dimension.ecl:
+    annotations:
+      linguist: ECL
+      vote: ECL
   github.com/bquistorff/synth_runner/38d18ae94121ae5d5475d2108a51c874c0c455ca/code/ado/parallel_clean_setclusters.ado:
     annotations:
       human-ajnavarro: Stata
@@ -4414,6 +5058,14 @@ files:
       human-smola: Unknown
       linguist: q
       vote: Unknown
+  github.com/brexis/qml-bootstrap/27d6b87c25f8afcd8836f7a587797e50c140f51d/src/styles/AvatarListViewStyle.qml:
+    annotations:
+      linguist: QML
+      vote: QML
+  github.com/briandunnington/Roact/8b6fd69e4355c6e9ee7cb039460a4a4c5eeb5766/Roact.brs:
+    annotations:
+      linguist: Brightscript
+      vote: Brightscript
   github.com/briangu/chearch/69d795d9c3f095a72a83cdf651471e9a6b34ac17/test/helloworld.chpl:
     annotations:
       linguist: Chapel
@@ -4426,6 +5078,10 @@ files:
     annotations:
       linguist: R
       vote: R
+  github.com/brightsign/BrightAuthor-Plugins/383e0f21e7cf3740f541b3fca98b8f6d15924e06/Telnet-Enable/telnet_enable.brs:
+    annotations:
+      linguist: Brightscript
+      vote: Brightscript
   github.com/broodplank/APKtoJava/d4074316853add180ffe27dd5b112f66180ab574/ExtProp.au3:
     annotations:
       linguist: AutoIt
@@ -4446,6 +5102,10 @@ files:
     annotations:
       linguist: Elm
       vote: Elm
+  github.com/brzozi/harbour-commander/3071c772fcb7b5a9b4a8674017becfe9cd492bd7/hc.hb:
+    annotations:
+      linguist: Harbour
+      vote: Harbour
   github.com/btreut/a2/48dcfc1f1a6ed2bec110ca3af3674657d4229d16/source/X509.Mod:
     annotations:
       linguist: Modula-2
@@ -4459,10 +5119,18 @@ files:
     annotations:
       linguist: D
       vote: D
+  github.com/buildersbrewery/linden-scripting-language/eddb08ceabbf47a922ff6eb145c9913095d3dfe8/emacs/yasnippet/snippets/lsl-mode/HTTP_MIMETYPE.yasnippet:
+    annotations:
+      linguist: YASnippet
+      vote: YASnippet
   github.com/bumptech/glide/e733e9c8662b1397f08f7530ba727865e34e143c/library/src/main/java/com/bumptech/glide/load/engine/bitmap_recycle/AttributeStrategy.java:
     annotations:
       linguist: Java
       vote: Java
+  github.com/byackee/jarvis-rivescript/f89853fb359083cf6c8b4ddcd7b363986fadb6ce/eg/brain/fr/cerveaudebase.rs:
+    annotations:
+      linguist: RenderScript
+      vote: RenderScript
   github.com/byte-physics/igor-code-browser/3ae3748ccb5031ab47fc2fa2129d1f135ac29c20/procedures/CodeBrowser_gui.ipf:
     annotations:
       linguist: IGOR Pro
@@ -4475,14 +5143,30 @@ files:
     annotations:
       linguist: Prolog
       vote: Prolog
+  github.com/c02y/dotfiles/869c30324b15c82e721db81b677b241a9df08555/spacemacs/.spacemacs.d/snippets/bibtex-mode/inproceedings:
+    annotations:
+      linguist: YASnippet
+      vote: YASnippet
   github.com/caerwynj/acme-sac/f4f9fd5288517911b74cc19f21a73260fc3ab754/module/math/geodesy.m:
     annotations:
       linguist: Limbo
       vote: Limbo
+  github.com/cagataycali/awesome-brainfuck/1d7e330e7f9bb441a98bad94df4c0569ea94580e/self-interpreters/by-adam-domurad.bf:
+    annotations:
+      linguist: Brainfuck
+      vote: Brainfuck
   github.com/calavera/mirah.hpi/7c9253dbacf550875e624c54dd24bda50955d737/src/main/mirah/mirah_command_interpreter.mirah:
     annotations:
       linguist: Mirah
       vote: Mirah
+  github.com/calvinjuarez/SVG-Awesome/956c6f3cc6f50762ecab49ffc9c3357c6a3083da/svg-awesome.chars.kit:
+    annotations:
+      linguist: Kit
+      vote: Kit
+  github.com/cameronbwhite/CS420-Project-2/5a898efc7ab0cedf433c9bfbe9b657e5c16a92fc/dictionaryTest.grace:
+    annotations:
+      linguist: Grace
+      vote: Grace
   github.com/camptocamp/puppet-haproxy_c2c/588a386c69a74b634e1fb42b7df26224c91bd16b/files/test_haproxy.aug:
     annotations:
       linguist: Augeas
@@ -4511,6 +5195,10 @@ files:
     annotations:
       linguist: AMPL
       vote: AMPL
+  github.com/carolineschnapp/ajaxify-cart/63262eff5df7fb52d7d93968d6109ca690c17457/ajaxify-cart.liquid:
+    annotations:
+      linguist: Liquid
+      vote: Liquid
   github.com/casperschipper/ChucK-Tools/ccaa46079a4f8a0fada873ff0b034f0003187229/streams/ST_stateMachine2.ck:
     annotations:
       linguist: ChucK
@@ -4544,6 +5232,10 @@ files:
     annotations:
       linguist: Awk
       vote: Awk
+  github.com/ccondrup/mage-reset/1f0894be655a45e0fbcb85f539a89d3f1f3af245/reset_increment_ids.sql:
+    annotations:
+      linguist: SQLPL
+      vote: SQLPL
   github.com/ccrisan/motioneyeos/1b59951d9b5b645c873312ca46acef6c64a98973/package/tk/tk.mk:
     annotations:
       linguist: Makefile
@@ -4572,6 +5264,10 @@ files:
     annotations:
       linguist: XSLT
       vote: XSLT
+  github.com/cemulate/the-mlab/32a17500b5bed2eca831a545f887bf4737b685f5/src/grammar/noun-literals.ne:
+    annotations:
+      linguist: Nearley
+      vote: Nearley
   github.com/cesanta/mongoose/dce60c6dbb096f3b96e1a45cbfdfd55e18b38bb6/src/common/platforms/platform_stm32.h:
     annotations:
       human-smola: C
@@ -4593,6 +5289,10 @@ files:
     annotations:
       linguist: Ceylon
       vote: Ceylon
+  github.com/cfobel/vpr_placement_parser/bcf576d8321b4dfea33c4271893f7c01ef601b29/grammar.rl:
+    annotations:
+      linguist: Ragel
+      vote: Ragel
   github.com/cfoster/xqrs/28a71cfc25025bfa633aafd0a13054888e63f46e/test-suite/xqy/marklogic/session-testing.xq:
     annotations:
       linguist: XQuery
@@ -4676,10 +5376,22 @@ files:
     annotations:
       linguist: Pascal
       vote: Pascal
+  github.com/chenchengyin/android-studio-template/c096bc8fb9f987e00aa0518d7d84682388d72a9f/activities/MarshonSlideTabActivity/root/src/app_package/SimpleFragment.java.ftl:
+    annotations:
+      linguist: FreeMarker
+      vote: FreeMarker
   github.com/chenenyu/img-optimizer-gradle-plugin/fc1ba8e14a65e01f33a47d84e357dd5499a33784/buildSrc/src/main/groovy/com.chenenyu/imgoptimizer/ImgOptimizerPlugin.groovy:
     annotations:
       linguist: Groovy
       vote: Groovy
+  github.com/chengdazhi/Deformable-Convolution-V2-PyTorch/2f57c5db49161bd6c899670a5e4fba50e6b8fd26/src/deform_conv_cuda_kernel.cu:
+    annotations:
+      linguist: CUDA
+      vote: CUDA
+  github.com/chiaxin/MayaAPI101/9c43df063e68ea68de3920019e074b8be1dc1b65/Qt/example/example.pro:
+    annotations:
+      linguist: QMake
+      vote: QMake
   github.com/chinkei/zephir-symfony-asset/a9ffb1ccd8e982723c8e1d6ec46ba26bee6b00c6/Component/Asset/UrlPackage.zep:
     annotations:
       linguist: Zephir
@@ -4718,6 +5430,10 @@ files:
     annotations:
       linguist: Elixir
       vote: Elixir
+  github.com/chtaylo2/Roku-GooglePhotos/72f942a122abc7f5f26f761d78783c6e9365c6bc/components/Screensaver/Screensaver.brs:
+    annotations:
+      linguist: Brightscript
+      vote: Brightscript
   github.com/chuckdee68/IEDLCDEditor/566692090e16b908b7af2872b38bdebd76084d5e/bin/DATA/tk/xmfbox.tcl:
     annotations:
       linguist: Tcl
@@ -4773,6 +5489,10 @@ files:
     annotations:
       linguist: XSLT
       vote: XSLT
+  github.com/ckgyarmathy/debian_config/ca5f883bfe5e57218f6c62aa8528a53e011ffbcc/config_.i3:
+    annotations:
+      linguist: Modula-3
+      vote: Modula-3
   "github.com/ckjbug/Hacking/89a9b9c6fe8a0ab58550d0030d33d76e86deef7d/Windows-hosts\u6587\u4EF6\u7FFB\u5899\u811A\u672C\u4F7F\u7528\u8BF4\u660E\u7B49/Google\u7F51\u7AD9hosts/0114/windows\u7528\u6279\u5904\u7406/Windows\u81EA\u52A8\u66FF\u6362\u811A\u672C.bat":
     annotations:
       linguist: Batchfile
@@ -4801,6 +5521,10 @@ files:
     annotations:
       linguist: Fortran
       vote: Fortran
+  github.com/clfm/Book-Notes/9ad086c1206e73bbb0e6a96b068d6b8ec55fb874/Code Complete.md:
+    annotations:
+      linguist: Markdown
+      vote: Markdown
   github.com/cliffordwolf/picorv32/46aa89c13f51c2963019be5e9b6af40d64dceb62/picosoc/icebreaker_tb.v:
     annotations:
       human-smola: Verilog
@@ -4815,6 +5539,10 @@ files:
     annotations:
       linguist: Clojure
       vote: Clojure
+  github.com/cmcaine/nearley-ts-demo/cfc6be8ccfb91e9a4667402d4f7801ff6c8c21b0/src/bracketexpr.ne:
+    annotations:
+      linguist: Nearley
+      vote: Nearley
   github.com/cmoylan/Elements-of-Computing-Systems/9f169843689048006b2c9aae358a1f39ea09efe1/project03/a/Bit.tst:
     annotations:
       linguist: Scilab
@@ -4894,6 +5622,26 @@ files:
     annotations:
       linguist: Haskell
       vote: Haskell
+  github.com/common-workflow-lab/wdl2cwl/c9aff7c54deb4cf962bec21c6788f773ad77c81a/wdl2cwl/expression-tools/read_tsv.cwl:
+    annotations:
+      linguist: Common Workflow Language
+      vote: Common Workflow Language
+  github.com/common-workflow-language/common-workflow-language/9a23706ec061c5d2c02ff60238d218aadf0b5db9/draft-3/draft-3/cat3-tool.cwl:
+    annotations:
+      linguist: Common Workflow Language
+      vote: Common Workflow Language
+  github.com/common-workflow-language/cwldep/fd481c56b576c2835fb2e38539b9b5a57b93d11e/sample.cwl:
+    annotations:
+      linguist: Common Workflow Language
+      vote: Common Workflow Language
+  github.com/common-workflow-language/cwltool/4642316a30a95d4f3d135c18f98477886b160094/cwltool/schemas/draft-2/draft-2/binding-test.cwl:
+    annotations:
+      linguist: Common Workflow Language
+      vote: Common Workflow Language
+  github.com/common-workflow-language/cwlviewer/fc9d51d4897ed3f89275ebdc6d857548205739e7/src/test/resources/cwl/lobstr-v1/lobSTR-workflow.cwl:
+    annotations:
+      linguist: Common Workflow Language
+      vote: Common Workflow Language
   github.com/compomics/colims/4936195068337ba0c5236830f7f5f84e05d73ae5/colims-distributed/src/test/resources/data/maxquant/maxquant_SILAC_integration/combined/andromeda/allSpectra.CID.ITMS.iso_2.apl:
     annotations:
       human-smola: Unknown
@@ -4907,6 +5655,14 @@ files:
     annotations:
       linguist: IGOR Pro
       vote: IGOR Pro
+  github.com/computerquip/hsp/d92c7a9e68a13038d94bc374d3d2ced5a6eec9ad/src/lexer/rules/definitions/Keywords.rl:
+    annotations:
+      linguist: Ragel
+      vote: Ragel
+  github.com/computmaxer/roku-hdhomerun/a92c1f9fae46f9ee212ee00614250de972d3812e/source/gridScreen.brs:
+    annotations:
+      linguist: Brightscript
+      vote: Brightscript
   github.com/comses/intro-to-abm/0138451b48c0a23ca6ca19378bf5c3bb25ddcc3e/assets/netlogo/resourceharvest.nlogo:
     annotations:
       linguist: NetLogo
@@ -5040,6 +5796,14 @@ files:
     annotations:
       linguist: Perl
       vote: Perl
+  github.com/culturekings/shopify-json-parser/dd0d2edc9f11be9f2f238e131ea08865f69a628c/json_decode.liquid:
+    annotations:
+      linguist: Liquid
+      vote: Liquid
+  github.com/culturekings/shopify-shortcodes/8f35774558b1ef0b1bc3a1fc568a6f2d4935b459/shortcode.liquid:
+    annotations:
+      linguist: Liquid
+      vote: Liquid
   github.com/cure-honey/Mandel/6c5c98e5dd4a2365b1df9d9957e1e9c3aac6dc7b/mandel.chpl:
     annotations:
       linguist: Chapel
@@ -5247,6 +6011,42 @@ files:
     annotations:
       linguist: Clarion
       vote: Clarion
+  github.com/davidlpotter59/axis-version7_ars/7b6cd4d3bfce567baceb9fdbac593ff63af2c413/arspr517.eq:
+    annotations:
+      linguist: EQ
+      vote: EQ
+  github.com/davidlpotter59/axis-version7_bop/19aa5dd3ef05d8f87acefd0c4f8cf04d3e525e89/boppr400.eq:
+    annotations:
+      linguist: EQ
+      vote: EQ
+  github.com/davidlpotter59/axis-version7_cpp/f8cbb04d78857664e9b05c71db679e94d55513fa/cpppr400ab.eq:
+    annotations:
+      linguist: EQ
+      vote: EQ
+  github.com/davidlpotter59/axis-version7_lrs/83a4d9cffe1a971d7e2e03e4029631a53eb1b2c4/lrspr703.eq:
+    annotations:
+      linguist: EQ
+      vote: EQ
+  github.com/davidlpotter59/axis-version7_sfp/a4d1f41382ad1081777456e3236389e045144128/sfprenew2000imp.eq:
+    annotations:
+      linguist: EQ
+      vote: EQ
+  github.com/davidlpotter59/gsn-version7_agt/b74e8be2a3b108f72d8865f3f1bcbbef1f2c486b/agqpr700.eq:
+    annotations:
+      linguist: EQ
+      vote: EQ
+  github.com/davidlpotter59/gsn-version7_ars/b948ff2b371eed3fbc23d218fab30520b618d259/arspr01a.eq:
+    annotations:
+      linguist: EQ
+      vote: EQ
+  github.com/davidlpotter59/gsn-version7_other/19773dab402c0dab9e2ecf25ef419e7f5591a217/userreporttranssummary.eq:
+    annotations:
+      linguist: EQ
+      vote: EQ
+  github.com/davidmarble/virtualenvwrapper-win/10a0f0f437dd28f9ca5ef08fafd14a608cbb6bcf/tests/test_mkproject.bat:
+    annotations:
+      linguist: Batchfile
+      vote: Batchfile
   github.com/dawhite/MCTK/f8c11f7aeba42ea42ab73de5c3ca63deaed2f948/mctk_user_guide_api_examples.pro:
     annotations:
       linguist: IDL
@@ -5255,6 +6055,30 @@ files:
     annotations:
       linguist: Clojure
       vote: Clojure
+  github.com/dbeecham/argsparser/62ec99247775c663c68af9666bc27f5ec2219446/args_parser.c.rl:
+    annotations:
+      linguist: Ragel
+      vote: Ragel
+  github.com/dbeecham/d/c8660e85b555590f06d8f81d41d6632865dd1c44/d.c.rl:
+    annotations:
+      linguist: Ragel
+      vote: Ragel
+  github.com/dbeecham/mini_monit/dc449c2d5deefd71ea235b6e5d36b7b8f344e0e3/dockersub/test.rl:
+    annotations:
+      linguist: Ragel
+      vote: Ragel
+  github.com/dbgarlisch/glyph-InterpolatedEntity/f1452191b66378b74a27ad6b3a1e8f048ad0a283/InterpolatedEntity.glf:
+    annotations:
+      linguist: Glyph
+      vote: Glyph
+  github.com/dbgarlisch/glyph-pwoo/108ef6d8bde1be394727a00ab023c156c1b10920/pwoo.glf:
+    annotations:
+      linguist: Glyph
+      vote: Glyph
+  github.com/dbgarlisch/glyph-thicken2d/fcbec4b48c1e944097121a4ee824d6b6f2b0283c/Thicken2Dto3D.glf:
+    annotations:
+      linguist: Glyph
+      vote: Glyph
   github.com/dbohdan/sqawk/67a5507beb491990d9851f231ef0fd606bd3cd23/tests.tcl:
     annotations:
       linguist: Tcl
@@ -5263,6 +6087,10 @@ files:
     annotations:
       linguist: AppleScript
       vote: AppleScript
+  github.com/dcsil/CSC491/5e3b303c8b75f3e9fad97bed1832429409c42d7a/policies/plagiarism.md:
+    annotations:
+      linguist: Markdown
+      vote: Markdown
   github.com/dda/stegano-fs/cab4d51ac7cc26f17119c8d893da5aa1a12939ac/Window1.rbfrm:
     annotations:
       human-smola: REALbasic
@@ -5324,6 +6152,10 @@ files:
     annotations:
       linguist: BlitzMax
       vote: BlitzMax
+  github.com/deniseyu/dogebuzz/87b7679b9589e787269a793ceaeec29c0df7c1a2/lib/dogeBuzz.djs:
+    annotations:
+      linguist: Dogescript
+      vote: Dogescript
   github.com/denizyuret/Knet.jl/55c01f454d75720363449af9cdb0d5f0adde895c/test/.deprecated/testcolops.jl:
     annotations:
       linguist: Julia
@@ -5348,6 +6180,10 @@ files:
     annotations:
       linguist: Asymptote
       vote: Asymptote
+  github.com/derf/Travel-Routing-DE-VRR/6d7126e170a4295347cf050023c4790455227669/t/in/e_hbf_b_hbf.ice:
+    annotations:
+      linguist: Slice
+      vote: Slice
   github.com/descala/haltr/f1112554c6f2300df127f9c57c4d39297662e685/lib/haltr/xml_validation/EUGEN-UBL-T14.xsl:
     annotations:
       linguist: XSLT
@@ -5503,6 +6339,10 @@ files:
     annotations:
       linguist: Fantom
       vote: Fantom
+  github.com/dmccuskey/shopify-modern/c2376887e2ccbcd9c3abe4253dfb186d549c82a9/src/core/shopify/snippets/icon-pinterest.liquid:
+    annotations:
+      linguist: Liquid
+      vote: Liquid
   github.com/dmoonfire/kolmafia/4af2d95c3ea1a58f9839a7143caba5425caf7928/cake/CakeLevel.ash:
     annotations:
       linguist: AGS Script
@@ -5520,6 +6360,14 @@ files:
     annotations:
       linguist: CoffeeScript
       vote: CoffeeScript
+  github.com/dogescript/dogescript-loader/b6217b89b1dfc517e29ca686372496c4824a4620/test/run.djs:
+    annotations:
+      linguist: Dogescript
+      vote: Dogescript
+  github.com/dogescript/grunt-dogescript/82813059cadf304bf4174b3d3bfc384ab8ecb75c/test/cases/basic/doge.djs:
+    annotations:
+      linguist: Dogescript
+      vote: Dogescript
   github.com/dokku/dokku/3d1ab2677785436cfdeeb0ac3cca199668621581/plugins/storage/subcommands/mount:
     annotations:
       human-smola: Shell
@@ -5553,10 +6401,18 @@ files:
     annotations:
       linguist: PHP
       vote: PHP
+  github.com/donBitscopic/mumps-utils/c8ccf425cc192f8c19892b3a0eec2c03e4ef332c/KIDS/BTP_0.1.KID:
+    annotations:
+      linguist: Genshi
+      vote: Genshi
   github.com/donadigo/eddy/0e24b5db5260556418c4cc01139c6984e2ea4105/src/PackageRow.vala:
     annotations:
       linguist: Vala
       vote: Vala
+  github.com/donahue2/CS420Assignment2/8c03dc6ae37d2b0905704cb31638b83b6e538314/dictionary.grace:
+    annotations:
+      linguist: Grace
+      vote: Grace
   github.com/donnemartin/system-design-primer/fdba2a2586a30b78249e5daba8a807ee532b0af9/solutions/object_oriented_design/deck_of_cards/deck_of_cards.ipynb:
     annotations:
       linguist: Python
@@ -5616,6 +6472,10 @@ files:
     annotations:
       linguist: XS
       vote: XS
+  github.com/dphang/roku-lib/e3c5a71d2466b6dce08f1b7d25fcd1ae0de5dbd4/RokuLib/ui/RlBorder.brs:
+    annotations:
+      linguist: Brightscript
+      vote: Brightscript
   github.com/dpk/textile/9a8ca40ddb3871c0ea71ee364c31580f02d21b85/textile.arc:
     annotations:
       linguist: Arc
@@ -5648,6 +6508,10 @@ files:
     annotations:
       linguist: CoffeeScript
       vote: CoffeeScript
+  github.com/drsimonmiles/sourcesource/8421dffc817675511e79383cce4659b3530dd01d/src/main/txl/3-1-declaration.txl:
+    annotations:
+      linguist: TXL
+      vote: TXL
   github.com/drslump/Boo.Hints/a65ce29d25b9c167395bda0a0d3a829ee1a11e3c/src/Boo.Hints/Commands.boo:
     annotations:
       linguist: Boo
@@ -5693,6 +6557,14 @@ files:
     annotations:
       linguist: Awk
       vote: Awk
+  github.com/duncansmart/less.js-windows/fab2060cbd54a9126e88a92f4c25b493a92cf9bf/lessc-watch.cmd:
+    annotations:
+      linguist: Batchfile
+      vote: Batchfile
+  "github.com/dunitian/LoTDotNet/ef2164ab4f5dfbc83c20560b5af9c120edb43a0c/\u9006\u5929\u7ECF\u9A8C\u88E4\u5B50/05.\u6570\u636E\u5E93\u7B49/SQLServer/\u57FA\u7840/1.\u9006\u5929\u5E38\u7528SQL/08.\u5B58\u50A8\u8FC7\u7A0B\u7684\u7EFC\u5408-\u5E94\u7528.sql":
+    annotations:
+      linguist: SQLPL
+      vote: SQLPL
   github.com/dutc/code-or-die/446559bf598fbc1e5a9392987d2325498115863c/dummy.sql:
     annotations:
       human-smola: PL/pgSQL
@@ -5849,6 +6721,10 @@ files:
     annotations:
       linguist: Common Lisp
       vote: Common Lisp
+  github.com/edips/Minimal_QML_Android/3a73db2c446c973db6d7f07abe19f26af2842147/untitled3.pro:
+    annotations:
+      linguist: QMake
+      vote: QMake
   github.com/edwinb/Blodwen/9f632be50e2bbabd2d34352bcb9e8c0b33dcc153/src/TTImp/Reflect.idr:
     annotations:
       linguist: Idris
@@ -6054,6 +6930,10 @@ files:
     annotations:
       linguist: Erlang
       vote: Erlang
+  github.com/eqela/jkop-eq/edfae7801e0c113c3d2758c661383a0fbdf50019/src/sympathy.httpserver/HTTPRequestHandlerContainer.eq:
+    annotations:
+      linguist: EQ
+      vote: EQ
   github.com/eratosthenesia/lispc/a88bb2544652b6a3b287f239cc591dfe84a3f2c5/myls.cl:
     annotations:
       human-smola: Common Lisp
@@ -6145,6 +7025,10 @@ files:
     annotations:
       linguist: AppleScript
       vote: AppleScript
+  github.com/essentialkaos/rwk-ek-theme/e8b708ac5473995e5d8366ff94af39bb9ca80e84/package.kid:
+    annotations:
+      linguist: Genshi
+      vote: Genshi
   github.com/essteban/CHmUsiCK/a8a8ccbb302574f07eb3dfced03bfa95d1314fa8/Library/Deelay.ck:
     annotations:
       linguist: ChucK
@@ -6212,6 +7096,10 @@ files:
     annotations:
       linguist: Modula-2
       vote: Modula-2
+  github.com/executeautomation/KatalonDocker/70581fdbb7d72e88b904f776c400e3c88eaff7a0/Object Repository/EAOR/Page_Execute Automation/span_User Form.rs:
+    annotations:
+      linguist: RenderScript
+      vote: RenderScript
   github.com/exercism/lfe/87bd13d9dd979f0081f0774183f154c0507e2393/exercises/clock/src/example.lfe:
     annotations:
       linguist: LFE
@@ -6325,6 +7213,10 @@ files:
     annotations:
       linguist: ColdFusion
       vote: ColdFusion
+  github.com/farshid83/RGB2HSV-Renderscript-in-Android/d8d317ecab13d36e3db950d7e2779929e7f94274/hsv.rs:
+    annotations:
+      linguist: RenderScript
+      vote: RenderScript
   github.com/fasterthanlime/bleep/dde9eb3df48c3aad5162fdcfb1502c81c05c5820/source/bleep.ooc:
     annotations:
       linguist: ooc
@@ -6442,6 +7334,10 @@ files:
       human-ajnavarro: Shell
       linguist: Shell
       vote: Shell
+  github.com/fizban-of-ragnarok/cs420/dabd86472e2dbb4483df3594f4437634a49ad632/room_test.grace:
+    annotations:
+      linguist: Grace
+      vote: Grace
   github.com/fjqingyou/PotPlayer_Subtitle_Translate_Baidu/bc51d64d18bf21c0399150e8843253b7a5c585ee/SubtitleTranslate - baidu.as:
     annotations:
       linguist: AngelScript
@@ -6562,6 +7458,10 @@ files:
     annotations:
       linguist: ColdFusion
       vote: ColdFusion
+  github.com/fpaxos/fpaxos-tlaplus/b46b0e6e8cfed37119da6545b7a5479677aac2ef/FPaxos.tla:
+    annotations:
+      linguist: TLA
+      vote: TLA
   github.com/fponticelli/thx.core/50572010fb17f1d8bdab0f77516ddecb8eafacbe/src/thx/Arrays.hx:
     annotations:
       linguist: Haxe
@@ -6604,6 +7504,10 @@ files:
     annotations:
       linguist: LabVIEW
       vote: LabVIEW
+  github.com/freakdesign/Shopify-code-snippets/7dd34e7ed31939f6786e06f61a4a4399a918bfb8/Get a cart json response with compare at price/cart.compare.liquid:
+    annotations:
+      linguist: Liquid
+      vote: Liquid
   github.com/fredefox/cat/e7f56486076cc561ceb0529b05725c01d7d1b154/src/Cat/Categories/Cube.agda:
     annotations:
       linguist: Agda
@@ -6664,10 +7568,18 @@ files:
     annotations:
       linguist: NetLogo
       vote: NetLogo
+  github.com/fsavje/math-with-slack/9f785da27455697e351b9051071d383ef6a7a841/math-with-slack.bat:
+    annotations:
+      linguist: Batchfile
+      vote: Batchfile
   github.com/fscheck/FsCheck/da4203184bfde6fc164108340f6eee218cd714f7/src/FsCheck/AssemblyInfo.fs:
     annotations:
       linguist: F#
       vote: F#
+  github.com/fschutt/xlib-programming-rust/a00066f3c7cf137ffb62452c9618c7bb5693c376/src/gl.rs:
+    annotations:
+      linguist: RenderScript
+      vote: RenderScript
   github.com/fsharp/FAKE/8078b5a499518cc63f838ed034fe7c79157d623d/src/legacy/FakeLib/RoundhouseHelper.fs:
     annotations:
       linguist: F#
@@ -6746,6 +7658,10 @@ files:
     annotations:
       linguist: LiveScript
       vote: LiveScript
+  github.com/gabfl/mysql_generate_series/2258382c45c8ce40a24c3fa41ef9a182112e9850/sql/generate_series.sql:
+    annotations:
+      linguist: SQLPL
+      vote: SQLPL
   github.com/gabsoftware/Progress-ABL-4GL-Regex/a0423268b01b14c5417139679c475ade28627824/Binary.cls:
     annotations:
       linguist: OpenEdge ABL
@@ -6787,6 +7703,10 @@ files:
     annotations:
       linguist: GAP
       vote: GAP
+  github.com/garmu/CMPT470a4/59cf2a3fe68da7b8bc142018c89b398a59e31f8c/SuportMaterials/Pascal_PrettyPrinter/makePascalgrammar/12.Txl:
+    annotations:
+      linguist: TXL
+      vote: TXL
   github.com/garyvidal/xquerrail/2991162cc70037e65c2c4601065af1825f5fd41b/src/application/views/demo/demo.gallery.html.xqy:
     annotations:
       human-smola: XQuery
@@ -6855,6 +7775,10 @@ files:
     annotations:
       linguist: Asymptote
       vote: Asymptote
+  github.com/georgejecook/rooibos/6066fd0b344c4efc9aa559a8597007d794350d79/frameworkTests/source/tests/VersionTests.brs:
+    annotations:
+      linguist: Brightscript
+      vote: Brightscript
   github.com/georghe-crihan/arpd/3484202551ce2a793223bdbce7e1c3c4e22ba478/files/patch-arpd.c.self:
     annotations:
       human-smola: Diff
@@ -6874,6 +7798,10 @@ files:
       human-smola: VHDL
       linguist: VHDL
       vote: VHDL
+  github.com/ghpaetzold/questplusplus/c2e404dc7c57d5215d9cc87f0db0e9c9ee87dd1e/input/target.word-level.ch:
+    annotations:
+      linguist: Charity
+      vote: Charity
   github.com/giginet/Tekitirs/e32b8beba1462280704547f10082abef12aa79f2/Assets/Fighter.boo:
     annotations:
       linguist: Boo
@@ -6890,6 +7818,10 @@ files:
     annotations:
       linguist: Monkey
       vote: Monkey
+  github.com/gipert/gedet-plots/1bc80c236f521830adba9895a70d55e8941757d0/gedetplots.asy:
+    annotations:
+      linguist: Asymptote
+      vote: Asymptote
   github.com/giraffe-fsharp/Giraffe/e1693b20fdbe6e0f98705a5f50a107dcbe5b56e7/src/Giraffe/ResponseCaching.fs:
     annotations:
       linguist: F#
@@ -6919,6 +7851,10 @@ files:
     annotations:
       linguist: Haskell
       vote: Haskell
+  github.com/githubics/MediaManager/fff2981125e38a6be9a660138eaa68f77ba11575/media-manager.pro:
+    annotations:
+      linguist: QMake
+      vote: QMake
   github.com/githwxi/ATS-Temptory/3613eb8b03c53d7f591f7b7eec627b346d9b62c1/libats/temp/bucs520/SATS/graph.sats:
     annotations:
       linguist: ATS
@@ -6931,10 +7867,18 @@ files:
     annotations:
       linguist: Ruby
       vote: Ruby
+  github.com/gitsemere/EthioEHR/8b7b0f46ca79dbdd4370279e248a0c081c3a88b8/Packages/Kernel/Patches/XU_8.0_585/XU-8_SEQ-485_PAT-585.KID:
+    annotations:
+      linguist: Genshi
+      vote: Genshi
   github.com/giuliolunati/ren-c-lib/a39ac088115594b44da6df6aaba19a3035e687ab/misc/lest.reb:
     annotations:
       linguist: Rebol
       vote: Rebol
+  github.com/giulioz/TinyVM/f872c376a6b27e2a0d07672577ba9b1fef41798c/assembler/grammar.ne:
+    annotations:
+      linguist: Nearley
+      vote: Nearley
   github.com/gizzidan/hive-practice/1af924443874dc61534cf43e3e43c77f4a4a816a/hive4.q:
     annotations:
       linguist: HiveQL
@@ -6956,6 +7900,10 @@ files:
     annotations:
       linguist: LiveScript
       vote: LiveScript
+  github.com/gl-transitions/gl-transitions/fe88f94886d2b13c9b6b59a4f526f081c488a240/transitions/DoomScreenTransition.glsl:
+    annotations:
+      linguist: GLSL
+      vote: GLSL
   github.com/glebovpavel/IR_to_MSExcel/f9ad09dc1bfc98db4c02515412bf1c56462d3338/AS_ZIP.sql:
     annotations:
       linguist: PL/SQL
@@ -6965,6 +7913,10 @@ files:
       human-smola: PicoLisp
       linguist: PicoLisp
       vote: PicoLisp
+  github.com/glilly/svsimport/e424023b8b564284105f27824d46edc11cd1f095/archive/KBAIVS_1_0_4_KBAIVS1-ONLY_T2.KID:
+    annotations:
+      linguist: Genshi
+      vote: Genshi
   github.com/gmwitz/Substitution_cipher_ECL/06028e73b6457e0ecef0458ef371f82c049eff9e/Substitution_cipher.ecl:
     annotations:
       linguist: ECL
@@ -6977,6 +7929,14 @@ files:
     annotations:
       linguist: Eiffel
       vote: Eiffel
+  github.com/gocomet/snippets/93695148126eccb7b23eff70a36eb8281308bb1d/currency-converter/snippets/currencies.liquid:
+    annotations:
+      linguist: Liquid
+      vote: Liquid
+  github.com/godiecl/varis/87ac282b4889ab6fbb1d0c999e4c8e4f1e83f543/ZeroIce.ice:
+    annotations:
+      linguist: Slice
+      vote: Slice
   github.com/godlygeek/tabular/339091ac4dd1f17e225fe7d57b48aff55f99b23a/plugin/Tabular.vim:
     annotations:
       linguist: Vim script
@@ -7093,6 +8053,14 @@ files:
     annotations:
       linguist: Elixir
       vote: Elixir
+  github.com/gracelang/minigrace/db1564417d1656f565740442951a9ede852345ab/intrinsic.grace:
+    annotations:
+      linguist: Grace
+      vote: Grace
+  github.com/gracelang/objectdraw/b0dfa1f1ae1b8f9f73e023ba6bfcb62a7de7501a/animation.grace:
+    annotations:
+      linguist: Grace
+      vote: Grace
   github.com/gradle/gradle/9cdd5a6d6030de87dc947fec003d5e6ba8d9097d/subprojects/dependency-management/src/integTest/groovy/org/gradle/integtests/resolve/rules/IvySpecificComponentMetadataRulesIntegrationTest.groovy:
     annotations:
       linguist: Groovy
@@ -7121,6 +8089,10 @@ files:
     annotations:
       linguist: OCaml
       vote: OCaml
+  github.com/grantrules/articles/79a0e641e2dc0ca4df16e921cce0a310206e2a7a/assets/templates/article.hb:
+    annotations:
+      linguist: Harbour
+      vote: Harbour
   github.com/grapefrukt/grapefrukt-export/7406dd75e51279d347b8fd26af834ab1b5b386e6/src/com/grapefrukt/exporter/events/FunctionQueueEvent.as:
     annotations:
       linguist: ActionScript
@@ -7166,6 +8138,10 @@ files:
     annotations:
       linguist: Go
       vote: Go
+  github.com/gruenerBogen/Serlo-Asymptote-Commons/f3eb1f463e06154d592f8deeb5f8105450b9cfc5/serlo.asy:
+    annotations:
+      linguist: Asymptote
+      vote: Asymptote
   github.com/gsbDBI/ExperimentData/5dc392c3e4dd29ff644d9672befa74549e0ced14/Secrecy/RawData/clean_secrecy.do:
     annotations:
       linguist: Stata
@@ -7194,6 +8170,10 @@ files:
     annotations:
       linguist: Smalltalk
       vote: Smalltalk
+  github.com/gunrock/gunrock/138e85b5949f971c68e1a8336a64b6e06839da61/gunrock/app/tc/tc_test.cuh:
+    annotations:
+      linguist: CUDA
+      vote: CUDA
   github.com/guzzle/guzzle/df36d8dae3979cf927d5bbbed6f0427f39aadfec/tests/ClientTest.php:
     annotations:
       linguist: PHP
@@ -7206,6 +8186,10 @@ files:
     annotations:
       linguist: Stata
       vote: Stata
+  github.com/gxchain/gxb-core/f718d2f3be77f19430bbc56cc6c83274a7f7b52a/libraries/wasm-jit/Test/spec/br_table.wast:
+    annotations:
+      linguist: WebAssembly
+      vote: WebAssembly
   github.com/h2non/nar/e190d9db00b574f91fd07bc2f6f1639b78f32548/src/install.ls:
     annotations:
       linguist: LiveScript
@@ -7223,6 +8207,14 @@ files:
     annotations:
       linguist: Elixir
       vote: Elixir
+  github.com/hacchy1983/CWL-workflows/81f0de7c39c54830ce7ed3dec8d747b9a05bb09e/Tools/bwa-index.cwl:
+    annotations:
+      linguist: Common Workflow Language
+      vote: Common Workflow Language
+  github.com/hachikuji/kafka-specification/0a6adeab002de88016d095b0dbbf4f4b067dda76/Kip320.tla:
+    annotations:
+      linguist: TLA
+      vote: TLA
   github.com/hachiojipm/awesome-perl/d3dcc015bb6a50b717613aa17c779f68a2e68a28/t/format.t:
     annotations:
       linguist: Perl
@@ -7265,6 +8257,10 @@ files:
     annotations:
       linguist: Wolfram Language
       vote: Wolfram Language
+  github.com/halvards/addition-dogescript/03baf3e65ba8eeda3987195088360ce25d3504f9/add.djs:
+    annotations:
+      linguist: Dogescript
+      vote: Dogescript
   github.com/hamsternz/FPGA_Webserver/5cd8b05b0a1453a2b57a532a9bcb87a938c50f2e/testbenches/tb_FPGA_webserver.vhd:
     annotations:
       linguist: VHDL
@@ -7387,6 +8383,98 @@ files:
     annotations:
       linguist: NSIS
       vote: NSIS
+  github.com/himynameisdave/stardown/ee85666e1435ca7a6fb1899cb8759796f3a2bf97/src/app.djs:
+    annotations:
+      linguist: Dogescript
+      vote: Dogescript
+  github.com/historicalsource/arthur/0f40a557e944c985c7b7c263798c5cbf70847e37/narthur.zil:
+    annotations:
+      linguist: ZIL
+      vote: ZIL
+  github.com/historicalsource/ballyhoo/9f779e8025e6fcc0b192d7d39dfc953d029d8744/record.zil:
+    annotations:
+      linguist: ZIL
+      vote: ZIL
+  github.com/historicalsource/borderzone/5c80126798adc8c683ff7e03468b284cacb7f5ea/realtime.zil:
+    annotations:
+      linguist: ZIL
+      vote: ZIL
+  github.com/historicalsource/bureaucracy/8907a9fa3a95b009f4676c60b18daec47871d21c/macros.zil:
+    annotations:
+      linguist: ZIL
+      vote: ZIL
+  github.com/historicalsource/deadline/2602bd50e81e41f731de179f2615e62a3a0d774c/dungeon.zil:
+    annotations:
+      linguist: ZIL
+      vote: ZIL
+  github.com/historicalsource/hitchhikersguide/128885503222367dea5cfed81af3ffeeafd173e4/parser.zil:
+    annotations:
+      linguist: ZIL
+      vote: ZIL
+  github.com/historicalsource/hollywoodhijinx/e93d08596db4297d46f3ac0065a546d27f036e74/hijinx.zil:
+    annotations:
+      linguist: ZIL
+      vote: ZIL
+  github.com/historicalsource/infidel/dca8235af85e3d69bd49119cade8fff5ac8eb271/parser.zil:
+    annotations:
+      linguist: ZIL
+      vote: ZIL
+  github.com/historicalsource/leathergoddesses-gold/2b1e08565565f6ad95f6714fd8e0991e6c0e9cc5/phobos.zil:
+    annotations:
+      linguist: ZIL
+      vote: ZIL
+  github.com/historicalsource/lurkinghorror/51d806017f4cc630ede28ca4d92b9c7e9b9f0361/frob.zil:
+    annotations:
+      linguist: ZIL
+      vote: ZIL
+  github.com/historicalsource/nordandbert/91bb67cfcd96b1bfab0fb3a2d0c5d43557ac350b/syntax.zil:
+    annotations:
+      linguist: ZIL
+      vote: ZIL
+  github.com/historicalsource/spellbreaker/6f83ba4c285d665362bbcd254cc52852d848803a/guild.zil:
+    annotations:
+      linguist: ZIL
+      vote: ZIL
+  github.com/historicalsource/starcross/3ceaa9f206b8bc6422e95b5ae7fe257fc123d38f/dungeon.zil:
+    annotations:
+      linguist: ZIL
+      vote: ZIL
+  github.com/historicalsource/suspended/ce4b8edf322227593bb8bb96b9f693ee7fb169ac/globals.zil:
+    annotations:
+      linguist: ZIL
+      vote: ZIL
+  github.com/historicalsource/trinity/16a024ce6bc5b9da85f42e65d7f9fd93b32c808c/macros.zil:
+    annotations:
+      linguist: ZIL
+      vote: ZIL
+  github.com/historicalsource/wishbringer/e46c2ed7467cb98c59e6738f7ef8b897bfcbf7fd/boxes.zil:
+    annotations:
+      linguist: ZIL
+      vote: ZIL
+  github.com/historicalsource/zork/70d16c9c817bc19f393d4f6b42bd59c1b2a8d528/act1.mud:
+    annotations:
+      linguist: ZIL
+      vote: ZIL
+  github.com/historicalsource/zork1-gold/89aea22aaea5be5fccae5296a7b8daf388281793/globals.zil:
+    annotations:
+      linguist: ZIL
+      vote: ZIL
+  github.com/historicalsource/zork1/7d54d16fca7a5dd7c6191c93651aad925f8c0922/gclock.zil:
+    annotations:
+      linguist: ZIL
+      vote: ZIL
+  github.com/historicalsource/zork3/8c30cac360669eca32177a509a4b18448135aac8/verbs.zil:
+    annotations:
+      linguist: ZIL
+      vote: ZIL
+  github.com/hlissner/doom-snippets/eb26256fe90162912d057ea2a175189aca56f13f/emacs-lisp-mode/x-find-replace:
+    annotations:
+      linguist: YASnippet
+      vote: YASnippet
+  github.com/hmaesta/simplect-email-template/58942b86c52889844484c2b5f698282bec75aaed/kit/email.kit:
+    annotations:
+      linguist: Kit
+      vote: Kit
   github.com/hoglet67/AtomBusMon/975ba22848740305a4e106483e7d5fe211f45583/src/AVR8/JTAG_OCD_Prg/JTAGPack.vhd:
     annotations:
       linguist: VHDL
@@ -7412,6 +8500,10 @@ files:
     annotations:
       linguist: Red
       vote: Red
+  github.com/hoomi/PhotoView_SamsungSmartTv/436e1cb9e5becf28f74a4b7f2c85af8c5898b44f/layout/Scene1.kit:
+    annotations:
+      linguist: Kit
+      vote: Kit
   github.com/hoosierEE/j/935ece17d78f3936e43118637d970a7d5244fea9/interesting/parens.ijs:
     annotations:
       linguist: J
@@ -7445,6 +8537,10 @@ files:
       linguist: ECL
       vote: ECL
   github.com/hpcc-systems/ECL-WLAM/00c5fe22fdb44acc45b189190e0455d875793f16/WLAM/WebLogs/IPToCountry.ecl:
+    annotations:
+      linguist: ECL
+      vote: ECL
+  github.com/hpcc-systems/KMeans/7d0a130fab1cc395900321ae3123a71ebb8f347c/Test/Validation/KMeansValidate.ecl:
     annotations:
       linguist: ECL
       vote: ECL
@@ -7489,6 +8585,10 @@ files:
     annotations:
       linguist: ASP
       vote: ASP
+  github.com/hs-web/hsweb-demo/cae347fe74c1a6c8227f3d00c92353261f300342/src/main/resources/templates/admin/index.ftl:
+    annotations:
+      linguist: FreeMarker
+      vote: FreeMarker
   github.com/hsluv/hsluv/04a757f09d5dd8d4f30643cd5eeb55e5daa17f1a/haxe/src/hsluv/Geometry.hx:
     annotations:
       linguist: Haxe
@@ -7531,6 +8631,10 @@ files:
     annotations:
       linguist: Zephir
       vote: Zephir
+  github.com/hugopeixoto/mergesort/6f621dba1831f48ba76d5630728337ab9ad89ddf/brainfuck/mergesort.bf:
+    annotations:
+      linguist: Brainfuck
+      vote: Brainfuck
   github.com/hugs/tapsterbot/223ad7f289977c99de46f212d672cd4970ad5d36/hardware/tapster-2-plus/scad/top.scad:
     annotations:
       linguist: OpenSCAD
@@ -7539,14 +8643,26 @@ files:
     annotations:
       linguist: AutoHotkey
       vote: AutoHotkey
+  github.com/hujie-frank/SENet/0262d43d44c561fd53c3dba210cc8bacfc60500d/src/caffe/layers/axpy_layer.cu:
+    annotations:
+      linguist: CUDA
+      vote: CUDA
   github.com/hustkisas/UC-Model-AMPL/c603dcbfcab6ec34a6671a319e875b0bd9dc1a69/3375BUS/uc_model-new.mod:
     annotations:
       linguist: AMPL
       vote: AMPL
+  github.com/hustlingchen/ALFM/ca32c2724d4df21d5abe4b9602f2351936a76561/model/alfm/Musical_Instruments/5.item.factor:
+    annotations:
+      linguist: Factor
+      vote: Factor
   github.com/huytd/kanelm/99b1d858e8abe18f54adb55a14f3c6cbf3629286/src/Views.elm:
     annotations:
       linguist: Elm
       vote: Elm
+  github.com/hwayne/tla-snippets/6fbaee8b411f5444319dfea036c55bc33c3c580c/snippets/sets.tla:
+    annotations:
+      linguist: TLA
+      vote: TLA
   github.com/hww3/pike_modules-public_soap/434f614cded9649d0d5dcaa6a7714ba30d522ae5/module.pmod.in/Encoding.pmod/Boolean.pike:
     annotations:
       linguist: Pike
@@ -7594,10 +8710,18 @@ files:
     annotations:
       linguist: COBOL
       vote: COBOL
+  github.com/icarroll/glyphic/c7faa4d40d953c38e5b3a17b99bc935629100155/water.asy:
+    annotations:
+      linguist: Asymptote
+      vote: Asymptote
   github.com/icatalin201/MedicalExpert/47c0e375d3232c6866359b6578a94c9c6df15458/digestiv.clp:
     annotations:
       linguist: CLIPS
       vote: CLIPS
+  github.com/ice-lang/coldice/9059d06c644bf8b7b7ea5051c548e3ae7b8ce594/IceObject.ice:
+    annotations:
+      linguist: Slice
+      vote: Slice
   github.com/icecapped/ICS2O7/9dffb1fc31d9a03f113d947ab18b6c6f323748ce/October 10th/Assignment5-13.t:
     annotations:
       linguist: Turing
@@ -7606,6 +8730,10 @@ files:
     annotations:
       linguist: Vim script
       vote: Vim script
+  github.com/idelsink/qtcreator_sub_dir_example/38f099015a30ff5d63efd04bbe6e4eadafd6cffb/SubTestProject/common.pri:
+    annotations:
+      linguist: QMake
+      vote: QMake
   github.com/idl-coyote/catalyst/778d0c36f5cd2e848415dd1e9ed1e5860b2dd71b/source/core/catlayer__define.pro:
     annotations:
       linguist: IDL
@@ -7775,6 +8903,10 @@ files:
     annotations:
       linguist: Nit
       vote: Nit
+  github.com/isaacphysics/inequality-grammar/43b111270d9e956769d88a0806311bdae285244c/assets/grammar.ne:
+    annotations:
+      linguist: Nearley
+      vote: Nearley
   github.com/isaacspa8180/ds730/1fd61857d8bfcdf7190d47c46232f69c9b9d671f/a5/baseball.q:
     annotations:
       linguist: HiveQL
@@ -7784,6 +8916,10 @@ files:
       human-smola: Unknown
       linguist: sed
       vote: Unknown
+  github.com/ishoshani/GraceLogo/03ac60d730407f58cbdcf6ca9c1191a22843f463/logoTests.grace:
+    annotations:
+      linguist: Grace
+      vote: Grace
   github.com/istoony/Power-EnJoy/735c3b3b41ff1b5b7d145ccd74d95c2b841d4272/RELEASE/RASD/alloy - final.als:
     annotations:
       linguist: Alloy
@@ -7815,6 +8951,10 @@ files:
     annotations:
       linguist: Gosu
       vote: Gosu
+  github.com/j-a-zimmer/OSSM-Go-Playing-Program/03f6ad38916780794845f73942ef2bf25ffeb6a0/GuiBoard.oz:
+    annotations:
+      linguist: Oz
+      vote: Oz
   github.com/jClarity/slow-crud-app/21300d07c15fd7446b9a68177b54f20a18aac6f7/auth-service/src/main/java/com/jclarity/auth/domain/WebUser_Roo_Jpa_ActiveRecord.aj:
     annotations:
       linguist: AspectJ
@@ -7865,6 +9005,10 @@ files:
     annotations:
       linguist: Vim script
       vote: Vim script
+  github.com/jamieowen/glsl-blend/3c5fc9377ec493f6ac479ba1aa74dd27dfe0334d/source/PhotoshopMathFP.glsl:
+    annotations:
+      linguist: GLSL
+      vote: GLSL
   github.com/jamshark70/hadron/93eff9a100097fd309ac7904e4a63b2141c9ee61/Hadron/HadronModTargetControl.sc:
     annotations:
       human-smola: SuperCollider
@@ -7896,6 +9040,10 @@ files:
     annotations:
       linguist: TypeScript
       vote: TypeScript
+  github.com/jaredtao/HelloCI/fda7bb12bd97e0b9816ab723689906fb7d560e8a/HelloCI.pro:
+    annotations:
+      linguist: QMake
+      vote: QMake
   github.com/jarnaldich/mishell/49cf8f7dfce113325ded1eca8e012a6cb29c21ca/mishell.factor:
     annotations:
       linguist: Factor
@@ -7930,6 +9078,10 @@ files:
     annotations:
       linguist: Logtalk
       vote: Logtalk
+  github.com/javascript-ninjas/monster-player-plugin/33fb5e69c17802b800375632de72ac9e128f04c1/app/scripts/controllers/MessageController.djs:
+    annotations:
+      linguist: Dogescript
+      vote: Dogescript
   github.com/jaytay79/IRRXUTIL/a6c67f7695402102e4fa2fe1712d272b2df1b032/LISTUSR.rexx:
     annotations:
       linguist: REXX
@@ -8022,6 +9174,10 @@ files:
     annotations:
       linguist: OpenEdge ABL
       vote: OpenEdge ABL
+  github.com/jellyfin/jellyfin-roku/6859d7aa3f5ce8a09f2ae0a857faa6150c1bdf75/components/tvshows/group-description.brs:
+    annotations:
+      linguist: Brightscript
+      vote: Brightscript
   github.com/jemc/pony-zmq/7a9f2fd20d3ffc641b653718417673b7c18879d3/zmq/zmtp/message.pony:
     annotations:
       linguist: Pony
@@ -8072,11 +9228,27 @@ files:
       human-ajnavarro: Go
       linguist: Go
       vote: Go
+  github.com/jethrogb/rust-core_collections/a1a2b9a13b01755ca35357bbfbe8f7cee81439a4/mapping.rs:
+    annotations:
+      linguist: RenderScript
+      vote: RenderScript
+  github.com/jethrogb/rust-core_io/2c0030ac9afb502002d3110eafcf172a2d630121/mapping.rs:
+    annotations:
+      linguist: RenderScript
+      vote: RenderScript
+  github.com/jevi-me/k8s_on_openstack_kilo/f9c410ce808daf69074fa3c82f4e5968858ace53/kompose_files/patchbay-deployment.yaml:
+    annotations:
+      linguist: YAML
+      vote: YAML
   github.com/jgallowa07/SLiMSimulations/fda6455968359235cf4dcb443b3be4984708e3e3/MyRecipes1/MyRecipe9_0_1.E:
     annotations:
       human-smola: Unknown
       linguist: E
       vote: Unknown
+  github.com/jgarber/redcloth/dd7ee6caaa6c899f4d5389c1b2fe4a17f1e5f326/ragel/redcloth_scan.rb.rl:
+    annotations:
+      linguist: Ragel
+      vote: Ragel
   github.com/jgilfillan/Niz-Plum-84EC-S-Pro-Ble-Non-RGB-manual/37ccc61a1745b2fb295d931a29a097bb722751fe/custom keymaps/my_customer_mapping.pro:
     annotations:
       human-smola: XML
@@ -8202,6 +9374,14 @@ files:
     annotations:
       linguist: AutoHotkey
       vote: AutoHotkey
+  github.com/joelivey/M-Editor-For-Eclipse-Original-Version/2d53709ac102bcca5c6387bb2cffe4d8c01ed8b2/XT73P101V7.KID:
+    annotations:
+      linguist: Genshi
+      vote: Genshi
+  github.com/joemontibello/iii-sql-queries/4cc9efaa9a0c9a1c946826afa38ca5e2d9d68e18/scratch.sql:
+    annotations:
+      linguist: SQLPL
+      vote: SQLPL
   github.com/jofrfu/tinyTPU/7c9a732dfd1e305fbd86b41a6fb3146ea64693de/src/vhdl/Activation/TB_ACTIVATION.vhdl:
     annotations:
       linguist: VHDL
@@ -8244,6 +9424,10 @@ files:
     annotations:
       linguist: ChucK
       vote: ChucK
+  github.com/jordanmueller/roku_channel/676d5fca5422fd3333bbbca61c3a6db48cf6ac66/source/events.brs:
+    annotations:
+      linguist: Brightscript
+      vote: Brightscript
   github.com/jordansissel/fpm/d7b466787d17581bc723e474ecf6e18f48226031/spec/spec_setup.rb:
     annotations:
       linguist: Ruby
@@ -8292,6 +9476,10 @@ files:
     annotations:
       linguist: Verilog
       vote: Verilog
+  github.com/joyzh06/CS3152-Labs/96d9b4bf215ef79c1abe14f6875bb5458cd96317/Lab1/com/badlogic/gdx/utils/JsonReader.rl:
+    annotations:
+      linguist: Ragel
+      vote: Ragel
   github.com/jpcaissy/minilang/a53f9a1429715587087e8becc3035caf4f2755e9/semantic_analysis.nit:
     annotations:
       linguist: Nit
@@ -8326,6 +9514,10 @@ files:
     annotations:
       linguist: Gnuplot
       vote: Gnuplot
+  github.com/jrpavia/simserver/451214ff22bdc7d0ddf1376aaa7fb6efdd4360ee/ragel/atcmd.rl:
+    annotations:
+      linguist: Ragel
+      vote: Ragel
   github.com/jrsoftware/issrc/3fa5282038c93ba6931ab987584b9faee88e3e59/Projects/ISPP/ISPP.dpr:
     annotations:
       linguist: Pascal
@@ -8338,6 +9530,10 @@ files:
     annotations:
       linguist: Frege
       vote: Frege
+  github.com/jsm174/vbscript-parser/cc6b0cda5761e66e96a68a2b4860b886dc470e38/src/vbscript.ne:
+    annotations:
+      linguist: Nearley
+      vote: Nearley
   github.com/jsoftware/media_imagekit/6de6b5eb1305427a99e0eb59285d421959b9c1bb/html_gallery.ijs:
     annotations:
       linguist: J
@@ -8350,6 +9546,10 @@ files:
     annotations:
       linguist: Pony
       vote: Pony
+  github.com/juanantoniorr/prueba/58713cc561590d0ff78cb5acbeb2e8d8f12b46a6/Roles.rl:
+    annotations:
+      linguist: Ragel
+      vote: Ragel
   github.com/juanplopes/euler/c3741c70877d2373ca83a2d3cb0897bdca6aa5df/158.boo:
     annotations:
       linguist: Boo
@@ -8427,6 +9627,14 @@ files:
     annotations:
       linguist: Rust
       vote: Rust
+  github.com/jwinder/emacs-config/6cfbb3914713d26447a0d76eb2992f91acbb089b/snippets/sh-mode/shell-script-template:
+    annotations:
+      linguist: YASnippet
+      vote: YASnippet
+  github.com/jzbontar/mc-cnn/b944e2fb58b130a01ec70dd7314ed540e970f58a/SpatialLogSoftMax.cu:
+    annotations:
+      linguist: CUDA
+      vote: CUDA
   github.com/k33g/files/47df1abcb511c8e6de95af6725ef6f1d207f5236/snippets/golo/json/jsonToDynamicObject.golo:
     annotations:
       linguist: Golo
@@ -8479,6 +9687,10 @@ files:
     annotations:
       linguist: Assembly
       vote: Assembly
+  github.com/kanytu/Android-studio-material-template/361ba3efc5de5b193bf9955b2ee577c5045529b4/MaterialNavigationDrawerActivity/root/src/app_package/ScrimInsetsFrameLayout.java.ftl:
+    annotations:
+      linguist: FreeMarker
+      vote: FreeMarker
   github.com/karlrupp/microprocessor-trend-data/7bbd582ba1376015f6cf24498f46db62811a2919/40yrs/plot.gnuplot:
     annotations:
       linguist: Gnuplot
@@ -8500,10 +9712,38 @@ files:
     annotations:
       linguist: Ballerina
       vote: Ballerina
+  github.com/katalon-studio-samples/DataDrivenTest/e2bb06b1bfdc95cf3259742e3d7e07ec68021039/Object Repository/Login Page of Demo Application/input_password.rs:
+    annotations:
+      linguist: RenderScript
+      vote: RenderScript
+  github.com/katalon-studio-samples/DragAndDropExample/84baad1522dc27333322eaaaca1d1fe97a15ece9/Object Repository/Page_Droppable  jQuery UI/iframe_demo-frame.rs:
+    annotations:
+      linguist: RenderScript
+      vote: RenderScript
+  github.com/katalon-studio-samples/Material-Login-App-Test/0e784674a595902ab55272c44079711d6feeb120/Object Repository/Material Login App/android.widget.EditText0.rs:
+    annotations:
+      linguist: RenderScript
+      vote: RenderScript
+  github.com/katalon-studio-samples/ShadowDOMSampleProject/bdc9e33a7afa0b0674e6d224a08385d0aaf18cd0/Object Repository/aStoreLink.rs:
+    annotations:
+      linguist: RenderScript
+      vote: RenderScript
+  github.com/katalon-studio-samples/android-mobile-tests/433d1f72a668cae30a1fd427f20bec190bb9786a/Object Repository/Application/App/android.widget.TextView-Activity.rs:
+    annotations:
+      linguist: RenderScript
+      vote: RenderScript
+  github.com/katalon-studio-samples/katalon-mobile-automation/8beaae95fb354d1431e256b5078f8eb6e4ba137d/Object Repository/Mobile Spy Object Locators/button_Send.rs:
+    annotations:
+      linguist: RenderScript
+      vote: RenderScript
   github.com/kaviththiranga/ballerina-day-tooling-tutorial/d668b4155c173f1e32699a513ebf3012a7b06f01/resources/hello-service/demo/tests/hello_service_test.bal:
     annotations:
       linguist: Ballerina
       vote: Ballerina
+  github.com/kazurayam/KatalonDiscussion4977/2d39aff1ed7aad79c52bb70f4f565b12692cbc92/Object Repository/Page_Basic line/svg_namespace-ignorant.rs:
+    annotations:
+      linguist: RenderScript
+      vote: RenderScript
   github.com/kburtch/SparForte/6df424e05a0fd8d0e5963f4ada2acea2baa77206/src/areadline/readline-completion.ads:
     annotations:
       human-smola: Ada
@@ -8530,6 +9770,10 @@ files:
     annotations:
       linguist: Red
       vote: Red
+  github.com/keefmarshall/rainwater-dg/049f0d1eae695bd08698a759f6207efff385ecc2/rw.djs:
+    annotations:
+      linguist: Dogescript
+      vote: Dogescript
   github.com/keijiro/ShaderSketches/fbe4ee6fbaa536b202b0e5c172456ce3227f9603/Fragment/Eyes2.glsl:
     annotations:
       linguist: GLSL
@@ -8538,6 +9782,10 @@ files:
     annotations:
       linguist: Processing
       vote: Processing
+  github.com/keirwhitaker/shopify-birthday-suit/69246e0f0bd3f83817342c042b012ceaae34e960/layout/theme.liquid:
+    annotations:
+      linguist: Liquid
+      vote: Liquid
   github.com/kekcleader/Karax/1ecc14a058d251a4b13aca4a61b618ec91e9f249/Karax.Mod:
     annotations:
       linguist: Modula-2
@@ -8574,6 +9822,18 @@ files:
     annotations:
       linguist: BlitzMax
       vote: BlitzMax
+  github.com/kfrye/cs161/3b544c811350b48261b0d7a6d6ff3b5ed1a8fdca/treasureHunt.grace:
+    annotations:
+      linguist: Grace
+      vote: Grace
+  github.com/khagag/tiva_c_dynamic_drivers/97fccef2e18580c690883f1257c75eee2add9ea1/Release/tm4c123gh6pm_startup_ccs.rl:
+    annotations:
+      linguist: Ragel
+      vote: Ragel
+  "github.com/khanhvu207/competitiveprogramming/5cc7b020c0fd64b6d84e4c0cba1256225803814b/CST 2019/Th\u1EA7y Vinh/T13/CHAMTUAN13/debai/room/room.i3":
+    annotations:
+      linguist: Modula-3
+      vote: Modula-3
   github.com/kiberpipa/nix-rehash/d14e37eb26baf4f31749c28de3565de98a024500/container.nix:
     annotations:
       linguist: Nix
@@ -8611,10 +9871,22 @@ files:
     annotations:
       linguist: Emacs Lisp
       vote: Emacs Lisp
+  github.com/kjx/combinators/cec7cbd8c20195c4e2196745a934b64f5d785d9d/combinators.grace:
+    annotations:
+      linguist: Grace
+      vote: Grace
+  github.com/kjx/inheritator2/41c2ab87ce69c9e70ba4255cb9f96333df4a636d/subtyping.grace:
+    annotations:
+      linguist: Grace
+      vote: Grace
   github.com/kkkgo/KMS_VL_ALL/1019757f9e115b744f5c65855e40b2406ed964ff/AutoRenewal-Setup.cmd:
     annotations:
       linguist: Batchfile
       vote: Batchfile
+  github.com/kkrings/ansible-roles/71f89dd6bd15d78c617086b48798230bd16380d1/dev/tasks/pyenv.yml:
+    annotations:
+      linguist: YAML
+      vote: YAML
   github.com/klange/ponyos/aec744f0a2740d8bb6b8e59c53b135a49e297603/hdd/usr/ponysay/ponies/snowflake.pony:
     annotations:
       linguist: Pony
@@ -8636,6 +9908,10 @@ files:
     annotations:
       linguist: HiveQL
       vote: HiveQL
+  github.com/knaw-huc/backlogs/ca946919c687a8fcea28db904a55328f7b9bf4d0/src/grammar.ne:
+    annotations:
+      linguist: Nearley
+      vote: Nearley
   github.com/knop-project/knop/ab47641eb6c6152772caea0d9a1a0028cd9f967c/knop9/knoplibs/knop_base.lasso:
     annotations:
       linguist: Lasso
@@ -8652,6 +9928,10 @@ files:
     annotations:
       linguist: Red
       vote: Red
+  github.com/komish/terraria_server/8dfc172f6e44aa610341a5f078b6d16fa14c1d65/tasks/prepare_host.yml:
+    annotations:
+      linguist: YAML
+      vote: YAML
   github.com/koolproxy/merlin-koolproxy/75c68a9b63eb5b97b3c897cbf2c3e53509ded7ec/koolproxy/webs/Module_koolproxy.asp:
     annotations:
       linguist: ASP
@@ -8717,10 +9997,18 @@ files:
       human-smola: Unknown
       linguist: IDL
       vote: Unknown
+  github.com/kskkwn/.emacs.d/2d37f1b99e7d6842c919deb0177f350458684e23/snippets/latex-mode/article.yasnippet:
+    annotations:
+      linguist: YASnippet
+      vote: YASnippet
   github.com/ksonnet/ksonnet-lib/0d2f82676817bbf9e4acf6495b2090205f323b9f/ksonnet.beta.4/k.libsonnet:
     annotations:
       linguist: Jsonnet
       vote: Jsonnet
+  github.com/ksromanov/RagelExample/6b62651df2c3b67ebadf36b4ad88333df89f20e3/lexer.rl:
+    annotations:
+      linguist: Ragel
+      vote: Ragel
   github.com/kstrauser/pgdbf/4e847759b5eee96da9dc3d2604e0b555ddd57ccb/m4/lib-prefix.m4:
     annotations:
       linguist: M4
@@ -8795,6 +10083,14 @@ files:
     annotations:
       linguist: Logtalk
       vote: Logtalk
+  github.com/lacanoid/pgddl/ba91f0773804fab00ce40484308bd6ebc7e4f0f5/ddlx.sql:
+    annotations:
+      linguist: SQLPL
+      vote: SQLPL
+  github.com/laddp/ansible-stuff/d6348a84d88f6dfc65ed5d84b6a9f7496a32def8/google.yml:
+    annotations:
+      linguist: YAML
+      vote: YAML
   github.com/laeb-io/aeio/6212f7f6486f3747c02fb26d338ea0b2e57479b0/src/aeio_sup.lfe:
     annotations:
       linguist: LFE
@@ -8835,6 +10131,10 @@ files:
       human-smola: PHP
       linguist: PHP
       vote: PHP
+  github.com/larrypoo/vista-utilities/8531106095245645accbda99a753d169298ee618/KBAPHL7VIEWER1.KID:
+    annotations:
+      linguist: Genshi
+      vote: Genshi
   github.com/larsbrinkhoff/lbForth/00aa97948c6e12c46ee903da96948998c8c33853/targets/pic/asm.fth:
     annotations:
       human-smola: Forth
@@ -8927,6 +10227,10 @@ files:
     annotations:
       linguist: Vim script
       vote: Vim script
+  github.com/learnroku/crash-course/fdce9023c75198b95657389c22e032bf54e4628b/lesson_6/components/screens/content_screen.brs:
+    annotations:
+      linguist: Brightscript
+      vote: Brightscript
   github.com/ledgersmb/LedgerSMB/24a8d7a2c99f4d6390cdf0356f4f3e05124c2c1b/sql/modules/Date.sql:
     annotations:
       linguist: PL/pgSQL
@@ -8939,6 +10243,14 @@ files:
     annotations:
       linguist: C++
       vote: C++
+  github.com/leoc/.emacs.d/5ee2d1a183e1bee5e706a7129ebb600cec6a7482/snippets/haml-mode/lorem.4:
+    annotations:
+      linguist: YASnippet
+      vote: YASnippet
+  github.com/leocwolter/caelux/7c3df5f037ff8f3cc2e6f6c5d0ff81d057f17914/src/layouts/default.html.hb:
+    annotations:
+      linguist: Harbour
+      vote: Harbour
   github.com/leon-vv/Todo/2563287306b7cdc901b7d3a8fbefc8229e4e1a62/Main.idr:
     annotations:
       linguist: Idris
@@ -8948,6 +10260,10 @@ files:
       human-ajnavarro: NewLisp
       linguist: NewLisp
       vote: NewLisp
+  github.com/leoxiaobin/deep-high-resolution-net.pytorch/163eb4797e5242d753ccbc69a4354b487657fdcb/lib/nms/nms_kernel.cu:
+    annotations:
+      linguist: CUDA
+      vote: CUDA
   github.com/lepinekong/redlang.red/371040193337d1ca50d42d49be099a410d822ec3/lib-ext.red:
     annotations:
       linguist: Red
@@ -9012,6 +10328,10 @@ files:
     annotations:
       linguist: Agda
       vote: Agda
+  github.com/liancheng/brainsuck/afbdcd050c145458ee7fc528c03748381ccb4311/scripts/hanoi.b:
+    annotations:
+      linguist: Brainfuck
+      vote: Brainfuck
   github.com/liasomething/shapeConverter/48485e50c38ded43319a0abe16ac46648b60d35d/ShapeConverter/Button.pde:
     annotations:
       linguist: Processing
@@ -9045,6 +10365,14 @@ files:
     annotations:
       linguist: AutoHotkey
       vote: AutoHotkey
+  github.com/lirios/fluid/a99dc04a067abeb9110664f5427e9a701e6744d4/src/imports/controls/SubheadingLabel.qml:
+    annotations:
+      linguist: QML
+      vote: QML
+  github.com/lirios/lirios/b247bae2d11bbbcb51345fc50e3b08c62c0ea655/config/liri.qbs:
+    annotations:
+      linguist: QML
+      vote: QML
   github.com/lisael/pied/f4d9d6bbb7858633fd01101d91b550bd9c5d1704/pied/term_mode_vi_normal.pony:
     annotations:
       linguist: Pony
@@ -9070,6 +10398,10 @@ files:
     annotations:
       linguist: Markdown
       vote: Markdown
+  github.com/ljunkie/rarflix/ae24f3e956887a494c80f3132d37032ab07fbc07/Plex/source/rottenTomatoes.brs:
+    annotations:
+      linguist: Brightscript
+      vote: Brightscript
   github.com/llinaresvicent/dotfiles/535d7cb7512ed6c14a39bc0c78c44074a6476285/.i3:
     annotations:
       linguist: Modula-3
@@ -9118,6 +10450,14 @@ files:
     annotations:
       linguist: Alloy
       vote: Alloy
+  github.com/lorin/tla-linearizability/6a919f81f41ce43c884b87dde0976143b80d35db/TestRespectsPrecedenceOrdering.tla:
+    annotations:
+      linguist: TLA
+      vote: TLA
+  github.com/lostbearlabs/tiny-tlaplus-examples/7c25faa7495da0e29dd5796a0330b4e303a3e2ae/implements/ImplementsB.tla:
+    annotations:
+      linguist: TLA
+      vote: TLA
   github.com/lowRISC/lowrisc-chip/7090b7b70f33aa3763e360d1c5b79fa3dd8a611c/src/main/verilog/sd_top.sv:
     annotations:
       linguist: SystemVerilog
@@ -9130,6 +10470,10 @@ files:
     annotations:
       linguist: ASP
       vote: ASP
+  github.com/lshhhhh/questplusplus/9bc06a0ed07e84dc0489290dad5ed1e942c8e354/input/target.word-level.ch:
+    annotations:
+      linguist: Charity
+      vote: Charity
   github.com/lsm1987/CodingGirls/f537f80be42c59930c1febdafd1ae3281eabda13/CodingGirls/Assets/Scripts/Live2DUtils/HitAreaUtil.cs:
     annotations:
       human-smola: C#
@@ -9139,10 +10483,18 @@ files:
     annotations:
       linguist: q
       vote: q
+  github.com/luanfujun/deep-painterly-harmonization/a33a9a70366b6baff1cc0291f857b5895b271fc1/cuda_utils.cu:
+    annotations:
+      linguist: CUDA
+      vote: CUDA
   github.com/lucattelli/ab4-themes/b050c17585631ca2175c34cee94510bab137ffca/test/abap_test.abap:
     annotations:
       linguist: ABAP
       vote: ABAP
+  github.com/lucidnz/bootstrapify-1/b36ab7ff045eddb5558fe56fc85d5793c92f3b5f/theme/snippets/tags.liquid:
+    annotations:
+      linguist: Liquid
+      vote: Liquid
   github.com/luckyframework/lucky/71dc544cca00675bdcd9451a13af35b4069482ad/spec/lucky/with_defaults_spec.cr:
     annotations:
       linguist: Crystal
@@ -9155,6 +10507,10 @@ files:
     annotations:
       linguist: sed
       vote: sed
+  github.com/lukebussey/foundationify/4d4009dbd429cbf2c4d5f4f3d6b932f2e4739a55/templates/blog.liquid:
+    annotations:
+      linguist: Liquid
+      vote: Liquid
   github.com/lukesampson/concfg/a38c23651458ea48e463f7402bf166c65855759f/libexec/search.ps1:
     annotations:
       linguist: PowerShell
@@ -9163,6 +10519,10 @@ files:
     annotations:
       linguist: PowerShell
       vote: PowerShell
+  github.com/lukevear/qmakeAndroidSourcesHelper/e5974bb62b862fe5d106e13c11414929c2bd295e/functions.pri:
+    annotations:
+      linguist: QMake
+      vote: QMake
   github.com/lumihq/purescript-react-basic/feee3a51a531f65ff0c0802bffa77e9cd0bd0164/src/React/Basic.purs:
     annotations:
       linguist: PureScript
@@ -9171,6 +10531,10 @@ files:
     annotations:
       linguist: Haskell
       vote: Haskell
+  github.com/lutsen/weemail/b926ca9d0927b1dd278451cdbf1c19a83160ee0b/_partials/head.kit:
+    annotations:
+      linguist: Kit
+      vote: Kit
   github.com/luxas/kubeadm-workshop/592921a9754939b6db435c99e4f9377ddd5a98df/images/nginx/Makefile:
     annotations:
       linguist: Makefile
@@ -9189,6 +10553,14 @@ files:
     annotations:
       linguist: AspectJ
       vote: AspectJ
+  github.com/lvcabral/Prince-of-Persia-Roku/aefc4d3932742e83464c511b661660ff784417e6/source/gameMods.brs:
+    annotations:
+      linguist: Brightscript
+      vote: Brightscript
+  github.com/lvzon/dsmr-p1-parser/9d82c0ba9fa45671f89a198832da525403f4f35e/parser-tools.rl:
+    annotations:
+      linguist: Ragel
+      vote: Ragel
   github.com/lymslive/vimllearn/de5056511465305e1ef94a934a7f4d166194f2a7/example/funcref.vim:
     annotations:
       linguist: Vim script
@@ -9259,6 +10631,10 @@ files:
     annotations:
       linguist: Harbour
       vote: Harbour
+  github.com/magnesium-lang/scratch/126aac1e82f033f387cc4b0ed74ffc1e23a7797e/scratch.mg:
+    annotations:
+      linguist: Modula-3
+      vote: Modula-3
   github.com/mahengyang/seqchart/43c7dc2e2706b4447a2d30816730c7eee5cd1dd8/main.red:
     annotations:
       linguist: Red
@@ -9279,10 +10655,18 @@ files:
     annotations:
       linguist: Perl
       vote: Perl
+  github.com/makuto/galavant-unreal/08b761953f686695c730efca28f85acfb40693fd/GalavantUnreal/GalavantUnrealConfig.pri:
+    annotations:
+      linguist: QMake
+      vote: QMake
   github.com/malmaud/TensorFlow.jl/a74b560c2b4989579cd2f4a573c875ab54bf0951/src/protobufs/checkpointable_object_graph_pb.jl:
     annotations:
       linguist: Julia
       vote: Julia
+  github.com/manashmandal/OpenCV-With-QT-Quick-Demo/c9e9f07c81572fa564662ff8485e09d3c59f6f8a/OpenCV.pro:
+    annotations:
+      linguist: QMake
+      vote: QMake
   github.com/manastech/webmock.cr/78bb0e3b5850c700da0e7fbdd2d6c180cc4a061b/spec/webmock_spec.cr:
     annotations:
       linguist: Crystal
@@ -9292,6 +10676,10 @@ files:
       human-smola: Unknown
       linguist: XS
       vote: Unknown
+  github.com/mangadventure/font/ad3f03a512b27ff346457a2d417fbdd3400a383c/icons/numlist.svg:
+    annotations:
+      linguist: SVG
+      vote: SVG
   github.com/manoloide/AllSketchs/b5ad40b0f5bd0b43ab77777e3246d28b5347ecb8/2013/animator/animator01/animator01.pde:
     annotations:
       linguist: Processing
@@ -9304,6 +10692,10 @@ files:
     annotations:
       linguist: Fortran
       vote: Fortran
+  github.com/marcan/xmos-speaker-dsp/216125b6b6ef4199b0cabe38f6913ea29f278e4e/firmware/dsp.xc:
+    annotations:
+      linguist: XC
+      vote: XC
   github.com/marcelbirkner/docker-ci-tool-stack/2489e0c29df998bc4d23c7725cf56a3569f02a03/jenkins/groovy/upgradeAllPlugins.groovy:
     annotations:
       linguist: Groovy
@@ -9312,6 +10704,10 @@ files:
     annotations:
       linguist: ABAP
       vote: ABAP
+  github.com/marcolapo98/test-EcommerceSite/b77557648bfc0359c1f5e503402901ad184e642d/templates/_nav.kit:
+    annotations:
+      linguist: Kit
+      vote: Kit
   github.com/marcoscleison/cdo/3823daf62822d811a6e057101009391fc6319a73/example/update_mysql_ex.chpl:
     annotations:
       linguist: Chapel
@@ -9535,6 +10931,10 @@ files:
     annotations:
       linguist: WebAssembly
       vote: WebAssembly
+  github.com/mecon/factor/28a1573d8e2f67a47a2bc4358c00a2766d3e33d2/core/alien/syntax/syntax.factor:
+    annotations:
+      linguist: Factor
+      vote: Factor
   github.com/meddle0x53/echo/e77e218d6898dd69cc7c8e8f5d385b58a843bc32/src/echo-sup.lfe:
     annotations:
       linguist: LFE
@@ -9573,6 +10973,10 @@ files:
     annotations:
       linguist: Prolog
       vote: Prolog
+  github.com/metalfist213/Tiffany/f8ef8aaaa85de5aecc83b4e6b704b00043fd3bdd/GameCore/libs/com/badlogic/gdx/utils/JsonReader.rl:
+    annotations:
+      linguist: Ragel
+      vote: Ragel
   github.com/meteor/meteor/d84f4c2083cb669d09beb6d3ee50f93995113db7/packages/autoupdate/autoupdate_server.js:
     annotations:
       linguist: JavaScript
@@ -9589,6 +10993,10 @@ files:
     annotations:
       linguist: JavaScript
       vote: JavaScript
+  github.com/mguida22/doge-latin/4c083c9a8beeb5d9f4e27cb8932360cb990fcbd2/doge-latin.djs:
+    annotations:
+      linguist: Dogescript
+      vote: Dogescript
   github.com/mhliu0419/M160_Project2/bbbee1b0e53efad5497ca45d8b98bb4c2751821c/sudoku_2.zpl:
     annotations:
       linguist: Zimpl
@@ -9640,6 +11048,10 @@ files:
       human-smola: M4
       linguist: M4
       vote: M4
+  github.com/microsoft/sql-server-samples/535fa5ab277ef0d8426f38f5ec9f6e16566be8c3/media/demos/sql-sampledb/sampledb1/sampleDB1.sql:
+    annotations:
+      linguist: SQLPL
+      vote: SQLPL
   github.com/microsoft/terminal/9dc922fc37a479dd560675ac4ea1ce3713ae0ada/src/host/inputBuffer.hpp:
     annotations:
       linguist: C++
@@ -9702,18 +11114,34 @@ files:
     annotations:
       linguist: Crystal
       vote: Crystal
+  github.com/mintern-java/functions/abf2f22ba6a1353e686f16313cf54917c2eddbb8/src/main/fmpp/Base.ftl:
+    annotations:
+      linguist: FreeMarker
+      vote: FreeMarker
   github.com/mirah/dubious/5985b669e604ccb9247a7a8ad1b41bbafe5f1d53/src/dubious/text_helper.mirah:
     annotations:
       linguist: Mirah
       vote: Mirah
+  github.com/misdanwijaya/KatalonDemo/761c0c164e7e2a8f41b2a14618fc8624b5df226d/Object Repository/Page_Sample Store/iframe.rs:
+    annotations:
+      linguist: RenderScript
+      vote: RenderScript
   github.com/mist-devel/mist-board/a4e82ddd83d138e23fa1a52b8bc4755b5bd89205/cores/bbc/rtl/T65/T65_Pack.vhd:
     annotations:
       linguist: VHDL
       vote: VHDL
+  github.com/mitxela/bf-tic-tac-toe/a1551c2c7b5dca4830545358216c299f8c41e53d/tictactoe-comments.bf:
+    annotations:
+      linguist: Brainfuck
+      vote: Brainfuck
   github.com/mjavascript/practical-modern-javascript/7f9241cf248c286f5589e82a58765ed1dbb21a9b/theme/pdf/pdf.xsl:
     annotations:
       linguist: XSLT
       vote: XSLT
+  github.com/mjb392/test-vista/baf0998bb155fa2fce7ecafc626d15b2ae8a04c4/Packages/Enrollment Application System/Patches/EAS_1.0_103/EAS-1_SEQ-84_PAT-103.KID:
+    annotations:
+      linguist: Genshi
+      vote: Genshi
   github.com/mjcamerer/PhysicsEditor-XML-to-Function-Converter/82e1b45c2ab351378aa0c881752a4d06026ee6d9/Physics_Editor_XML_to_Function_Converter.bmx:
     annotations:
       linguist: BlitzMax
@@ -9852,6 +11280,10 @@ files:
     annotations:
       linguist: DataWeave
       vote: DataWeave
+  github.com/mohanson/pywasm/9e101e91de8aea42c4c9dbc637f7b1ec57be3bf9/tests/spec/globals.wast:
+    annotations:
+      linguist: WebAssembly
+      vote: WebAssembly
   github.com/mohemiv/TCLtools/545b2ad2a06a75eae36e1a8cc5eb77c77770be8d/tclproxy.tcl:
     annotations:
       linguist: Tcl
@@ -9873,10 +11305,18 @@ files:
       human-smola: DNS Zone
       linguist: Limbo
       vote: DNS Zone
+  github.com/monero-project/monero-gui/d5f4d5d93fa52876dc1fef591ea0210eab561d48/pages/AddressBook.qml:
+    annotations:
+      linguist: QML
+      vote: QML
   github.com/mongrol/mongiloti/0d8afdf6089733ee1e5ae96658c9709d7ecc8eca/axoloti/drumsy2.axs:
     annotations:
       linguist: NetLinx
       vote: NetLinx
+  github.com/monkeylord/XposedTemplateForAS/d5cdd502ba09161c9d233c15331ba067be51cb61/Xposed Code/root/src/app_package/ClassesEnum.java.ftl:
+    annotations:
+      linguist: FreeMarker
+      vote: FreeMarker
   github.com/morbos/STM32/2f87e26aacdf90ba9d8d1ca64ae12d2c8528a964/WB/WB55/client_wb55/src/comm/comm-shci.adb:
     annotations:
       human-smola: Ada
@@ -9906,6 +11346,10 @@ files:
     annotations:
       linguist: eC
       vote: eC
+  github.com/moshowgame/SpringBootCodeGenerator/b7861ca9fc2ea542d4fc446953c8964b691d61f5/generator-web/src/main/resources/templates/code-generator/mybatis/mybatis.ftl:
+    annotations:
+      linguist: FreeMarker
+      vote: FreeMarker
   github.com/mothdragon/CardCreator/31053b5d09aa4df666cfd5107a6b2a39f5b3529a/attribDialog.ec:
     annotations:
       linguist: eC
@@ -9922,6 +11366,14 @@ files:
     annotations:
       linguist: Oz
       vote: Oz
+  github.com/mozilla-services/screenshots/33eeff19d361e2a12f5474cf9a0d5ef409082c99/locales/zh-TW/server.ftl:
+    annotations:
+      linguist: FreeMarker
+      vote: FreeMarker
+  github.com/mozilla/blurts-server/39de9a07442a3c0e4240c22066fcc3cf817f2104/locales/zh-TW/bento.ftl:
+    annotations:
+      linguist: FreeMarker
+      vote: FreeMarker
   github.com/mperham/sidekiq.cr/25b1abcb4791d2b33d76286cd5ee049fcf45bbfd/src/sidekiq/middleware.cr:
     annotations:
       linguist: Crystal
@@ -9962,6 +11414,10 @@ files:
     annotations:
       linguist: Factor
       vote: Factor
+  github.com/mrkkrp/common-lisp-snippets/c82ebf18f4ad49f390dd96ffcc59f8683c1a868b/snippets/lisp-mode/gnugpl:
+    annotations:
+      linguist: YASnippet
+      vote: YASnippet
   github.com/mrlesmithjr/ansible-rpi-k8s-cluster/cb06e785e8ab14df0b9089392d6539c1c19b0131/deployments/archive/coredns.yaml.sed:
     annotations:
       linguist: sed
@@ -9997,6 +11453,10 @@ files:
       human-smola: ColdFusion CFC
       linguist: ColdFusion
       vote: ColdFusion CFC
+  github.com/msracver/FCIS/309f6c9a1669bf05a955b66519a807951e70197f/lib/mask/mv_kernel.cu:
+    annotations:
+      linguist: CUDA
+      vote: CUDA
   github.com/mstraughan86/Esoteric-Language-Studies/9d499081fa17ac5708882de1f0b35e201942a471/LOLCODE/app1.lol:
     annotations:
       linguist: LOLCODE
@@ -10033,6 +11493,10 @@ files:
     annotations:
       linguist: Terra
       vote: Terra
+  github.com/muratdem/PlusCal-examples/aa351b771a6cd933d74d9ef601632fb6ff6be952/DiningPhil/diningRound1.tla:
+    annotations:
+      linguist: TLA
+      vote: TLA
   github.com/muriloventuroso/easyssh/5e411c2a695a8d613069e55c9599f4e4bbc2c43c/src/Widgets/Connection.vala:
     annotations:
       linguist: Vala
@@ -10041,6 +11505,10 @@ files:
     annotations:
       linguist: SuperCollider
       vote: SuperCollider
+  github.com/mvasilchuk/yasem/3e3c76de1dba9d45c3f4cf89604d77f2e3f93505/dir_config.pri:
+    annotations:
+      linguist: QMake
+      vote: QMake
   github.com/mwand/eopl3/2648675ca8e8ee804701a31f6198838d2c7a04f5/chapter4/call-by-need/drscheme-init.scm:
     annotations:
       human-smola: Scheme
@@ -10133,6 +11601,10 @@ files:
     annotations:
       linguist: PicoLisp
       vote: PicoLisp
+  github.com/nebulasio/research/62165b13020aec4431d8dd3d1c218c7bc3708787/pod/PODCommit.tla:
+    annotations:
+      linguist: TLA
+      vote: TLA
   github.com/nedpals/vargs/fc193513733c2ed99467f5d903a824ea9087ed52/vargs.v:
     annotations:
       linguist: V
@@ -10178,6 +11650,10 @@ files:
     annotations:
       linguist: Perl
       vote: Perl
+  github.com/nfisher/gir/55e52b7647141e0f9ad64e906bd0b144672063ea/graphql_values.rl:
+    annotations:
+      linguist: Ragel
+      vote: Ragel
   github.com/nginformatica/advpl-testsuite/32e03811fe9facb0c6c72fec1d75555b3526c03f/src/fluentexpr.prw:
     annotations:
       linguist: xBase
@@ -10211,6 +11687,10 @@ files:
     annotations:
       linguist: NetLinx
       vote: NetLinx
+  github.com/nicolaishestakov/8i5a-pizza/bffe64f681d233d7121a1b6dba466a91d5714415/db/Pizza Conceptual Schema.txl:
+    annotations:
+      linguist: TXL
+      vote: TXL
   github.com/nicolas-p/skov/21b92b970433d1b962906bd27664486be05b850d/basis/ui/tools/environment/theme/theme.factor:
     annotations:
       linguist: Factor
@@ -10227,6 +11707,10 @@ files:
     annotations:
       linguist: ANTLR
       vote: ANTLR
+  github.com/niklascarlsson/presentations/4f1a3cd9f89939871f814dbff088e2ab8476fda9/literate_programming/snippets/Ex24:
+    annotations:
+      linguist: YASnippet
+      vote: YASnippet
   github.com/nikzsaz/progress-4GL-code/7d571aa0967a902fc534f0e027a82a4bc33b8ede/My Observations/caselogic.p:
     annotations:
       human-smola: OpenEdge ABL
@@ -10300,6 +11784,10 @@ files:
     annotations:
       linguist: NetLogo
       vote: NetLogo
+  github.com/nlppln/nlppln/1155191921289a65ba2becd2bf8dfabb48eaf1f1/nlppln/cwl/liwc-tokenized.cwl:
+    annotations:
+      linguist: Common Workflow Language
+      vote: Common Workflow Language
   github.com/nmikheecheva/stepik/e445cea747a9ccac3035fe21e6ddce964cebd7a2/phylogenetics/3aligned.clw:
     annotations:
       linguist: Clarion
@@ -10357,6 +11845,14 @@ files:
     annotations:
       linguist: Io
       vote: Io
+  github.com/npocmaka/batch.scripts/8a1b6e185058ed9b8eb3cc7dbc2b7cfe4dbfd85a/hybrids/.net/colorInput.bat:
+    annotations:
+      linguist: Batchfile
+      vote: Batchfile
+  github.com/nprapps/roku-tinydesk/be73de17ae51ec8c4f6a452f8163af21b7288f25/source/feedUtils.brs:
+    annotations:
+      linguist: Brightscript
+      vote: Brightscript
   github.com/nsauzede/sdl2test/6dcef532631f53ad5fd79026722eac488abbbfeb/tetrisnomix_v.v:
     annotations:
       linguist: V
@@ -10386,6 +11882,10 @@ files:
     annotations:
       linguist: Fancy
       vote: Fancy
+  github.com/nucular/powder-djs/f01dc2eefd8ab10d6c8bf3da87f50a17d7da9572/powder.djs:
+    annotations:
+      linguist: Dogescript
+      vote: Dogescript
   github.com/nuex/zodiac/7515f68a8d8f2f0345c80874b34eeedddd3407da/lib/config.awk:
     annotations:
       linguist: Awk
@@ -10479,6 +11979,10 @@ files:
     annotations:
       linguist: CLIPS
       vote: CLIPS
+  github.com/odonnell-anthony/katalon-automation-practice/4b86734d5fd17d5be9629648f596b7a3dea15741/Object Repository/Page_Order - My Store/Total_shipping.rs:
+    annotations:
+      linguist: RenderScript
+      vote: RenderScript
   github.com/ohanhi/elm-native-ui/d1fd123bed4f1c1f72a922784d1b4b8136f6b7d7/src/NativeUi/Style.elm:
     annotations:
       linguist: Elm
@@ -10491,6 +11995,10 @@ files:
     annotations:
       linguist: NetLinx
       vote: NetLinx
+  github.com/olear/natron-linux/2e5bc40260dbe8d169b1e7eac687bd4bcfeb6662/EL7/config.pri:
+    annotations:
+      linguist: QMake
+      vote: QMake
   github.com/oleganza/iopackage/528c627faf0866b59d423d0e060b9bb814137751/verify.io:
     annotations:
       linguist: Io
@@ -10515,6 +12023,10 @@ files:
     annotations:
       linguist: PL/pgSQL
       vote: PL/pgSQL
+  github.com/ongardie/raft.tla/34cdd49d22615426ea00a6605b95be57b3cab49a/raft.tla:
+    annotations:
+      linguist: TLA
+      vote: TLA
   github.com/onivim/oni2/89675e266c408952cd56e52e2bcb6e36634b1d76/src/Model/Indentation.re:
     annotations:
       linguist: OCaml
@@ -10545,6 +12057,10 @@ files:
     annotations:
       linguist: ooc
       vote: ooc
+  github.com/opal/c_lexer/2ea21587e143e2e22a892c61203183ff4d6c91ca/ext/lexer/lexer.rl:
+    annotations:
+      linguist: Ragel
+      vote: Ragel
   github.com/opaluchlukasz/xiaomi.yi-scripts/0c3f48072ecc66fbffcd93de320ef6e769650cbc/autoexec.ash:
     annotations:
       human-smola: Shell
@@ -10554,6 +12070,10 @@ files:
     annotations:
       linguist: Apex
       vote: Apex
+  github.com/open-mmlab/mmskeleton/5476eff5d67adf7780685a62905550dbd184b3e8/src/nms/nms_kernel.cu:
+    annotations:
+      linguist: CUDA
+      vote: CUDA
   github.com/openEHR/adl-tools/1b55f2d44868874025482f51023af7b453183405/apps/resources/icons/compiled/icon_rm_cimi_item_group.e:
     annotations:
       human-smola: Eiffel
@@ -10563,6 +12083,10 @@ files:
     annotations:
       linguist: Python
       vote: Python
+  github.com/openai/blocksparse/76a81b7123483bac3db639322d7035ee0c7b227b/src/batch_norm_op_gpu.cu:
+    annotations:
+      linguist: CUDA
+      vote: CUDA
   github.com/openai/gym/21bd4f304be8f5cf7d0354e50ae4a977b7cfe5eb/gym/envs/classic_control/rendering.py:
     annotations:
       linguist: Python
@@ -10576,6 +12100,14 @@ files:
     annotations:
       linguist: Scilab
       vote: Scilab
+  github.com/opencrypto-io/data/78956f7f756f414a91e28cd16fb1337e2c456165/db/projects/binance/project.yaml:
+    annotations:
+      linguist: YAML
+      vote: YAML
+  github.com/opencrypto-io/schema/29363ef2c7f446b66f9267fd62261a40fec4cee2/models/exchange.yaml:
+    annotations:
+      linguist: YAML
+      vote: YAML
   github.com/opencv/opencv/417034518c0884743e79ea7828eee0b6724287bc/modules/imgcodecs/src/grfmt_base.hpp:
     annotations:
       linguist: C++
@@ -10629,6 +12161,10 @@ files:
     annotations:
       linguist: Makefile
       vote: Makefile
+  github.com/oracle/xml-sample-demo/1f24722b306f8807bca73869f981c2a8afe37a7a/XFILES/src/sql/PUBLISH_XFILES_ICONS.sql:
+    annotations:
+      linguist: SQLPL
+      vote: SQLPL
   github.com/ordogfioka/Clean/48780cb5f4cdf539534e9405d903e6c94d19574f/zh2/bintree.icl:
     annotations:
       human-smola: Clean
@@ -10670,6 +12206,10 @@ files:
     annotations:
       linguist: PL/SQL
       vote: PL/SQL
+  github.com/oscfdezdz/Dotfiles-WIP/fbcb800a377c3c7ae85bec90f038e54cc500a44b/config.i3:
+    annotations:
+      linguist: Modula-3
+      vote: Modula-3
   github.com/osener/wring/8d18eee931a347e96e11a806c2838b76c6474a73/src/Uri.purs:
     annotations:
       linguist: PureScript
@@ -10723,6 +12263,10 @@ files:
     annotations:
       linguist: E
       vote: E
+  github.com/papyros/qml-material/80e0294cec30fd9ca794ed0c545d3e4be511291c/src/extras/CircleImage.qml:
+    annotations:
+      linguist: QML
+      vote: QML
   github.com/parallella/parallella-examples/364595c1a5547b6c1d2007481747147430fcdadb/rpi-camera/parallella_7020_headless_gpiose_elink2/parallella_7020_headless_gpiose_elink2.srcs/sources_1/bd/elink2_top/ip/elink2_top_axi_vdma_0_0/synth/elink2_top_axi_vdma_0_0.vhd:
     annotations:
       linguist: VHDL
@@ -10740,6 +12284,10 @@ files:
     annotations:
       linguist: JavaScript
       vote: JavaScript
+  github.com/parlarjb/tla_workshop/7dffede194c85bd9c43037134d9ec855598cf4ab/specs/TCommit.tla:
+    annotations:
+      linguist: TLA
+      vote: TLA
   github.com/part-cw/lambdanative/9fe5b9dd0f4c30a027adfe1156f13eb1eaa6adf1/modules/pathfinding/pathfinding.scm:
     annotations:
       human-smola: Scheme
@@ -10858,6 +12406,10 @@ files:
       human-smola: Unknown
       linguist: XProc
       vote: Unknown
+  github.com/penk/terrarium-app/564aec92ad5bf41e846e4e78faad64dd1349d492/qml/main.qml:
+    annotations:
+      linguist: QML
+      vote: QML
   github.com/pepdiz/newlisp/57d5e88a3243a7f2a5a4225170708363800081ee/composition.lsp:
     annotations:
       human-smola: NewLisp
@@ -10876,6 +12428,10 @@ files:
     annotations:
       linguist: Java
       vote: Java
+  github.com/peterjc123/pytorch-scripts/74db863d67ce48a5b2770d8197a9a6a4c317dfe9/cuda92.bat:
+    annotations:
+      linguist: Batchfile
+      vote: Batchfile
   github.com/peterkir/example.aspectj/0a354c099f5d722c621fce0c592bb84d1ea0d553/example.aspectj.pde.wildcard/src/example/aspectj/wildcard/AfterAspectJ.aj:
     annotations:
       linguist: AspectJ
@@ -11030,6 +12586,10 @@ files:
     annotations:
       linguist: Smalltalk
       vote: Smalltalk
+  github.com/pingcap/tla-plus/e3714440dba348bf2e2a19c41c201374ab6c36ee/CollapseRollbacks/CollapseRollbacks.tla:
+    annotations:
+      linguist: TLA
+      vote: TLA
   github.com/pirapira/bamboo/1cca98e0b6d2579fe32885e66aafd0f5e25d9eb5/src/ast/syntax.ml:
     annotations:
       linguist: OCaml
@@ -11038,6 +12598,10 @@ files:
     annotations:
       linguist: LSL
       vote: LSL
+  github.com/pitagora-galaxy/cwl/554d9ff564d7e64d245fb92095765cf176355387/workflows/tophat2/Tophat2Workflow-se.cwl:
+    annotations:
+      linguist: Common Workflow Language
+      vote: Common Workflow Language
   github.com/pki-io/pki-io/55e3be010c87bdd189e2522ea2d26357f2e5704f/manpage/pki.io:
     annotations:
       human-smola: Roff
@@ -11102,10 +12666,74 @@ files:
     annotations:
       linguist: Chapel
       vote: Chapel
+  github.com/podlomar/krython/1c66266f68ae849936c7afe0e9cf06ef9e7cb035/src/grammar.ne:
+    annotations:
+      linguist: Nearley
+      vote: Nearley
   github.com/poetiq/poetiq/57900f400de450a266fd6ff56e1fca238efe9a10/src/dt.q:
     annotations:
       linguist: q
       vote: q
+  github.com/pointwise/AircraftMesher/744b4e2c0c7d052639803322a8cec6862a0d1369/AircraftMesher.glf:
+    annotations:
+      linguist: Glyph
+      vote: Glyph
+  github.com/pointwise/AirfoilGenerator/e8ffbce9b4e8d7f4e4ffecb91d6d8daf06d3be84/AirfoilGenerator.glf:
+    annotations:
+      linguist: Glyph
+      vote: Glyph
+  github.com/pointwise/AirfoilMesh/75241f6e5764118f60c6eec253a3537768cebd6b/AirfoilMesh.glf:
+    annotations:
+      linguist: Glyph
+      vote: Glyph
+  github.com/pointwise/ButterflyMaker/69640569d9a6c1fe89f21373e5dc9c943685b041/ButterflyMaker.glf:
+    annotations:
+      linguist: Glyph
+      vote: Glyph
+  github.com/pointwise/ConGeometricAutoDimension/f6b29c20e347a9db99370545f4870e2f2467b303/ConGeometricAutoDimension.glf:
+    annotations:
+      linguist: Glyph
+      vote: Glyph
+  github.com/pointwise/CreateFFD/43e5920362ca64a8a3368e2f60aac840af36bbdf/CreateFFD.glf:
+    annotations:
+      linguist: Glyph
+      vote: Glyph
+  github.com/pointwise/CreateFromAnalyticFunction/e8dc6830cd04079e9ed062f2586249a37e8cab29/CreateFromAnalyticFunction.glf:
+    annotations:
+      linguist: Glyph
+      vote: Glyph
+  github.com/pointwise/CreateOH/948cfe307ef593e36d43fca93a1b7e84ec8bb5e4/CreateOH.glf:
+    annotations:
+      linguist: Glyph
+      vote: Glyph
+  github.com/pointwise/GeomToMesh/4a95681a0fd5bd7b7b46f4fc9b9f40855613760b/GeomToMesh.glf:
+    annotations:
+      linguist: Glyph
+      vote: Glyph
+  github.com/pointwise/GridCoordEnum/3807bade6eff04871e489562ae8587f59eb7de97/pwio.glf:
+    annotations:
+      linguist: Glyph
+      vote: Glyph
+  github.com/pointwise/GridRefine/29175d48795e7086ba51205b7bc26ab9c23633d6/gridRefine.glf:
+    annotations:
+      linguist: Glyph
+      vote: Glyph
+  github.com/pointwise/ScaledOffset/0cdf4785e0b6a1235782bd7376f28300f0bd5255/ScaledOffset.glf:
+    annotations:
+      linguist: Glyph
+      vote: Glyph
+  github.com/pointwise/Semicircle/a0e1662231fc57083a0b74ab98f1013e546bc549/Semicircle.glf:
+    annotations:
+      linguist: Glyph
+      vote: Glyph
+  github.com/pointwise/TriQuad/49a41fcdd04f91b1ccc9a3cd7dc7a14a17deefe9/TriQuad.glf:
+    annotations:
+      linguist: Glyph
+      vote: Glyph
+  github.com/pointwise/VSP2CFD/986d6b8ea10ecc7cc2bc9e79c2859f6f40638ca2/VSP2CFD.glf:
+    annotations:
+      linguist: Glyph
+      vote: Glyph
   github.com/pokepetter/Speculaer_Unity/37b15964868e58cec95e952c52ef2ec21ab548ee/Assets/InputFolderChanger.boo:
     annotations:
       linguist: Boo
@@ -11144,6 +12772,10 @@ files:
       human-smola: Unknown
       linguist: CLIPS
       vote: Unknown
+  github.com/potatoHVAC/dotfiles/4c0b80418453bbcd9679762d088b371ee1c4723b/.i3:
+    annotations:
+      linguist: Modula-3
+      vote: Modula-3
   github.com/potigol/potigol-grammar/383b2bcae94a0a741705eedb42b97cfda3670340/potigol.g4:
     annotations:
       linguist: ANTLR
@@ -11196,6 +12828,10 @@ files:
     annotations:
       linguist: Assembly
       vote: Assembly
+  github.com/prior-art-archive/uspto-query-parser/c2e63c20b7f09c3771264ab05a52aec8a9f96375/grammar/uspto.ne:
+    annotations:
+      linguist: Nearley
+      vote: Nearley
   github.com/prisma/graphcool-framework/dc274418ba663caad8c157a8d8690127e64e6541/server/backend-api-subscriptions-websocket/src/main/scala/cool/graph/websockets/services/WebsocketServices.scala:
     annotations:
       linguist: Scala
@@ -11226,6 +12862,10 @@ files:
     annotations:
       linguist: Erlang
       vote: Erlang
+  github.com/proctur/test/efdb7b99476efb614a5098be7dcb6b4c70881ed6/onent15.opal:
+    annotations:
+      linguist: Opal
+      vote: Opal
   github.com/prof7bit/TorChat/a58d1fc4ad4c9eb97386cba5707d35d676a7616b/src/core/tc_prot_version.pas:
     annotations:
       linguist: Pascal
@@ -11270,6 +12910,10 @@ files:
     annotations:
       linguist: q
       vote: q
+  github.com/psifidotos/Latte-Dock/122e6a9616d2c5f7ead97de6629514a0ec31611b/containment/package/contents/ui/VisibilityManager.qml:
+    annotations:
+      linguist: QML
+      vote: QML
   github.com/psonia/Rexx/771dd4dea28f57670096ff2873e16eafbcac527d/Rexx_Hello.rexx:
     annotations:
       linguist: REXX
@@ -11302,6 +12946,10 @@ files:
     annotations:
       linguist: Hy
       vote: Hy
+  github.com/pureqml/qmlcore/cca410b7fdf8d869bbc8a7631eb8477ea3ee928b/core/WheelMixin.qml:
+    annotations:
+      linguist: QML
+      vote: QML
   github.com/purescript-contrib/pulp/e09129b32a42e1275ac19f1225cf4d3d61084967/src/Pulp/Init.purs:
     annotations:
       linguist: PureScript
@@ -11322,6 +12970,10 @@ files:
     annotations:
       linguist: Haskell
       vote: Haskell
+  github.com/pvanhoof/dir-examples/523cab5edaff99acba037218d5b95227cb2487a9/qmake-example/src/libs/qmake-example/qmake-example.pro:
+    annotations:
+      linguist: QMake
+      vote: QMake
   github.com/pyenv/pyenv/49bf595266866958501d4567fd2e76cfe538a51a/pyenv.d/rehash/source.bash:
     annotations:
       linguist: Shell
@@ -11330,6 +12982,10 @@ files:
     annotations:
       linguist: Fortran
       vote: Fortran
+  github.com/pyqt/python-qt5/c9ed180c56f6fd3521ffe5fb70904bc5d3f50e5f/PyQt5/qml/QtQuick/Controls.2/Popup.qml:
+    annotations:
+      linguist: QML
+      vote: QML
   github.com/pytorch/pytorch/bc91e198617ef92d9abd739c49ad5b0393a43a78/caffe2/operators/normalize_op.cc:
     annotations:
       linguist: C++
@@ -11386,6 +13042,10 @@ files:
     annotations:
       linguist: Clojure
       vote: Clojure
+  github.com/quillford/config/9e482da34d4dc835d34305db773e82752cc26925/.i3:
+    annotations:
+      linguist: Modula-3
+      vote: Modula-3
   github.com/quintesse/ceylon-tako-sdk/d0890c2599fe63af499908452452b7786d8f4c23/test/test/options/test.ceylon:
     annotations:
       linguist: Ceylon
@@ -11398,6 +13058,10 @@ files:
     annotations:
       linguist: Erlang
       vote: Erlang
+  github.com/rabix/cwl-ts/4cc33e96e50932692cf10bd458bf540521593091/src/tests/cli-conformance/v1.0/bwa-mem-tool.cwl:
+    annotations:
+      linguist: Common Workflow Language
+      vote: Common Workflow Language
   github.com/racket/racket/0c6f50d57d1de42cf70e2c31069fb04ae43a5f55/racket/collects/planet/private/prefix-dispatcher.rkt:
     annotations:
       linguist: Racket
@@ -11422,6 +13086,10 @@ files:
     annotations:
       linguist: Fantom
       vote: Fantom
+  github.com/rafael-trevisan/apex-plugin-ig_simple_checkbox/050e4bb73c06d37fb03fd11fe75d15313746454e/ig_simple_checkbox.sql:
+    annotations:
+      linguist: SQLPL
+      vote: SQLPL
   github.com/rafaelcn/louv1.1x/a52dc99fde7d1f5e4ddcc99babda251bc74f4fce/Second week/primes.oz:
     annotations:
       linguist: Oz
@@ -11460,6 +13128,10 @@ files:
     annotations:
       linguist: Nemerle
       vote: Nemerle
+  github.com/randolfgeist/oracle_scripts/bfd37b1b880093fb90aa0f279291dbf0c1265d34/io_benchmark/max_write_throughput_benchmark_harness.sql:
+    annotations:
+      linguist: SQLPL
+      vote: SQLPL
   github.com/raphink/config-augeas-validator/ee8aeffb9753fcb260e6227b2ef6b785bdca77c8/lenses/tests/test_fai_diskconfig.aug:
     annotations:
       linguist: Augeas
@@ -11468,6 +13140,10 @@ files:
     annotations:
       linguist: Augeas
       vote: Augeas
+  github.com/rapidsai/cudf/3d9da9e5da2e731d3d63a066a6d44fe3465cbb5a/cpp/custrings/strings/substr.cu:
+    annotations:
+      linguist: CUDA
+      vote: CUDA
   github.com/rasmusbergpalm/DeepLearnToolbox/5df2801f2196a2afddb7a87f800e63e153c34995/tests/test_example_CNN.m:
     annotations:
       human-smola: MATLAB
@@ -11481,6 +13157,10 @@ files:
     annotations:
       linguist: Elm
       vote: Elm
+  github.com/ray-dino/SpaceGame/6e47c3e0144ba3b3d66e100dac62ef27e574629f/Main.eq:
+    annotations:
+      linguist: EQ
+      vote: EQ
   github.com/raywenderlich/swift-algorithm-club/055cb6834c59e02624297925b54aa13204e3fb76/Array2D/Array2D.playground/Contents.swift:
     annotations:
       linguist: Swift
@@ -11586,6 +13266,10 @@ files:
     annotations:
       linguist: Rebol
       vote: Rebol
+  github.com/red-gate/honeycomb/df19e64933c3b394ac096ed44aec5bba18f2823b/src/ui/library/elements/type.hb:
+    annotations:
+      linguist: Harbour
+      vote: Harbour
   github.com/red/code/749f4662320068da6d5bc5531ac25ea0282215d9/Library/Steam/SteamAPI/Steam-MatchmakingServers.reds:
     annotations:
       linguist: Red
@@ -11644,6 +13328,10 @@ files:
       human-smola: Unknown
       linguist: Gnuplot
       vote: Unknown
+  github.com/reid47/gracedoc/f21ab16e2e1e3b52a95bb8303608c5a7aa58c777/gracedoc.grace:
+    annotations:
+      linguist: Grace
+      vote: Grace
   github.com/rektide/compfuzor/9db4309ee245ffdbea1aeea85b49cc5fbc77c6c9/awesome-copycats.pb:
     annotations:
       human-smola: YAML
@@ -11653,10 +13341,18 @@ files:
     annotations:
       linguist: Io
       vote: Io
+  github.com/remkes/calculus1/1c31e0f45b9bc77ebb642df30840536cf010a3a8/asy/figure07.asy:
+    annotations:
+      linguist: Asymptote
+      vote: Asymptote
   github.com/remkes/linearalgebra/1feb9ee4ca170b74bc30eeb7317336724393290d/asy/figure9.asy:
     annotations:
       linguist: Asymptote
       vote: Asymptote
+  github.com/remko/waforth/5d2a92abcf73ee33ea25be2f5b47a6d83cd6e672/tests/benchmarks/sieve-vanilla.wat:
+    annotations:
+      linguist: WebAssembly
+      vote: WebAssembly
   github.com/remobjects/calendar/ba057051128e5ba993de69e4bbebc82b98abb4c1/RemObjects.Calendar.oxygene:
     annotations:
       linguist: Oxygene
@@ -11691,6 +13387,10 @@ files:
       human-smola: Reason
       linguist: OCaml
       vote: Reason
+  github.com/revl-ca/query-parser/91c5644e3aab220c469ab0903de2ba8812de9fd3/query-parser.ne:
+    annotations:
+      linguist: Nearley
+      vote: Nearley
   github.com/rexim/fantom2048/958a85d9d063287b1beeafb81d0c40d716092d25/src/fan/Board.fan:
     annotations:
       linguist: Fantom
@@ -11720,6 +13420,14 @@ files:
     annotations:
       linguist: Vim script
       vote: Vim script
+  github.com/richard-roberts/GraceLibrary/c2018498bdd6a4b06d07b4d413fd2e6a22a44a00/Benchmarks/PyStone.grace:
+    annotations:
+      linguist: Grace
+      vote: Grace
+  github.com/richardeoin/thermocouple/02e168926a972fc747047461dd8dcb07e82eb3d9/nist/type_b.tab.rs:
+    annotations:
+      linguist: RenderScript
+      vote: RenderScript
   github.com/richinfante/iphonebackuptools/b936e6417906582dea9e6493913bb05cb6dd11a7/schemas/photos/photos_11.2.sql:
     annotations:
       human-smola: SQL
@@ -11733,6 +13441,10 @@ files:
     annotations:
       linguist: Oz
       vote: Oz
+  github.com/rikkarikka/nn_math_solver/6e7a9b0e1f845c8c3fba02d264f30c6f6106366c/data/val.eq:
+    annotations:
+      linguist: EQ
+      vote: EQ
   github.com/ring-lang/ring/ae6232bd6a068291ac1591b037b1d1ed2cd5512a/developers/Arabic/Mahmoud/test103.ring:
     annotations:
       linguist: Ring
@@ -11830,6 +13542,10 @@ files:
     annotations:
       linguist: Shell
       vote: Shell
+  github.com/robertzhouxh/dotfiles/9172b17cbbc89c45a3d4d15a3f405a5b63b66b7e/.emacs.d/snippets/dix-mode/pardef:
+    annotations:
+      linguist: YASnippet
+      vote: YASnippet
   github.com/robinhouston/PadWalker/53372956f9d11021319035edec700599482ec9e6/PadWalker.xs:
     annotations:
       linguist: XS
@@ -11839,6 +13555,10 @@ files:
       human-smola: Unknown
       linguist: Clean
       vote: Unknown
+  github.com/robsimmons/c0testing/f5e29b4b4ae8176af809038902db970310ca2b7e/testspec.ne:
+    annotations:
+      linguist: Nearley
+      vote: Nearley
   github.com/robwhitby/xray/82379fef28971583767c616399826280f4cfdbc4/src/assertions.xqy:
     annotations:
       linguist: XQuery
@@ -11876,19 +13596,43 @@ files:
     annotations:
       linguist: NetLogo
       vote: NetLogo
+  github.com/rogrush/grace-dictionary/f22c3f8233dc57d2e762c50ed5cdf15d1ec4ab84/gUnit.grace:
+    annotations:
+      linguist: Grace
+      vote: Grace
+  github.com/rokudev/SceneGraphDeveloperExtensions/e12d03ccea23b0674a8412b5fbd856abfe334b48/extensions/SGDEX/Handlers/ContentHandler.brs:
+    annotations:
+      linguist: Brightscript
+      vote: Brightscript
+  github.com/rokudev/samples/e03a191760ce4a740cc23deb6dd81b8680c49d7c/ux components/text/ScrollableTextExample/source/main.brs:
+    annotations:
+      linguist: Brightscript
+      vote: Brightscript
   github.com/rolledback/regionadjacency/42e3bbdb38ea3f194ad11b0e2d89b5fde3b63336/test.boo:
     annotations:
       human-smola: Unknown
       linguist: Boo
       vote: Unknown
+  github.com/ronascentes/sqltoolbox/ae810d41c5c54277c5eaf03750e3a2450dd2853c/usp_index_defrag/usp_index_defrag.sql:
+    annotations:
+      linguist: SQLPL
+      vote: SQLPL
   github.com/ronsaldo/lowtalk/ed169388a9f4799b296b92ea2b0d5e7e9e59a5b8/tonel/Lowtalk-Core/LowtalkBObject.class.st:
     annotations:
       linguist: Smalltalk
       vote: Smalltalk
+  github.com/rorydavidson/SNOMED-CT-Database/c2b75bbd8d56ff95d3d357b6cb58aaa59302deb4/PostgreSQL/load-postgresql.sql:
+    annotations:
+      linguist: SQLPL
+      vote: SQLPL
   github.com/ros-simulation/gazebo_ros_demos/64e9200749567aab9ca2289563eea987fea8cf50/gazebo_tutorials/CMakeLists.txt:
     annotations:
       linguist: CMake
       vote: CMake
+  github.com/rossgray/rossgray.github.io/5006ee1e608f039a11bdad8235399b248f700d4d/source/kit/index.kit:
+    annotations:
+      linguist: Kit
+      vote: Kit
   github.com/rowanthorpe/taskwrangle/6c50120b6ed258feac8136f8aff86e6748dd424c/lib/libtaskwrangle.l:
     annotations:
       linguist: PicoLisp
@@ -11918,6 +13662,10 @@ files:
     annotations:
       linguist: Arc
       vote: Arc
+  github.com/rschiang/material/db866cd2134c54485e807874111b7470c4b3bfcd/qml/material/PaperShadow.qml:
+    annotations:
+      linguist: QML
+      vote: QML
   github.com/rsdn/Hql/14958db4b928f5546b3df4c7b8da018f904c3177/TypingSupport/ProjectSupport.n:
     annotations:
       linguist: Nemerle
@@ -11970,6 +13718,10 @@ files:
     annotations:
       linguist: Elm
       vote: Elm
+  github.com/rubinius/rapa/38a6950939258dd3e751ef0571f6730dfb639a44/machines/pack.rl:
+    annotations:
+      linguist: Ragel
+      vote: Ragel
   github.com/rubygeeks/mirah_book/477c7f2497a71a74297294bca6ab318af5f88035/cookbook/code/mirah/code_which_does_not_work_in_mirah.mirah:
     annotations:
       human-smola: Mirah
@@ -11987,6 +13739,10 @@ files:
     annotations:
       linguist: Groovy
       vote: Groovy
+  github.com/ruoru/leetcode-rust/0736a26e0c9f8ac2e8a5f60e7ae8bb1eb9e9b445/Algorithms/0684.redundant_connection/redundant_connection_test.rs:
+    annotations:
+      linguist: RenderScript
+      vote: RenderScript
   github.com/ruslo/hunter/eacae658ad6ebb63d79acf1c2f62564b5b7afce9/cmake/projects/Qt/qttools/hunter.cmake:
     annotations:
       linguist: CMake
@@ -12016,6 +13772,10 @@ files:
     annotations:
       linguist: Rust
       vote: Rust
+  github.com/rust-lang/www.rust-lang.org/e770231372604486abd995fcf1532e28b5ea0611/locales/pt-BR/licenses.ftl:
+    annotations:
+      linguist: FreeMarker
+      vote: FreeMarker
   github.com/rust-unofficial/awesome-rust/b945661634e8a2d345c0e55c71d33024b9d44820/cleanup.rs:
     annotations:
       linguist: Rust
@@ -12076,6 +13836,10 @@ files:
     annotations:
       linguist: Squirrel
       vote: Squirrel
+  github.com/sachac/.emacs.d/bc1f7f870a3140b95168cb36a93c319d3291ba16/snippets/org-mode/links:
+    annotations:
+      linguist: YASnippet
+      vote: YASnippet
   github.com/sadmac7000/org.americanteeth.ceylon_llvm/50ab1fb43336749677492f63180d537b064a9a30/source/org/americanteeth/ceylon_llvm/cso/ParameterListData.ceylon:
     annotations:
       linguist: Ceylon
@@ -12134,11 +13898,23 @@ files:
     annotations:
       linguist: Logtalk
       vote: Logtalk
+  github.com/sandroandrade/ifba-foss-experience/71e4ca81f61eff14a7a709aebe64aca3e5e00cba/ifba-foss-experience.pro:
+    annotations:
+      linguist: QMake
+      vote: QMake
   github.com/santana/ruby-informix/f2fd624029eff70e1d589b0bee4840836f8e6ecd/ext/informixc.ec:
     annotations:
       human-smola: C
       linguist: eC
       vote: C
+  github.com/santi6291/felix-the-cli/99c3f25e187ca56a944ff6e0a24095540c653113/assets/templates/scss/main/_variables.hb:
+    annotations:
+      linguist: Harbour
+      vote: Harbour
+  github.com/saphanaacademy/PAL/2e15de442f440a77624b8b1e176e4590d458159f/Code Snippets/PAL 91 Exception Handling.sql:
+    annotations:
+      linguist: SQLPL
+      vote: SQLPL
   github.com/sarabander/sicp-pdf/5b3a5b2165c414a689873fd316a7293bc587b1c7/src/texi-to-latex.pl:
     annotations:
       linguist: Perl
@@ -12239,6 +14015,10 @@ files:
     annotations:
       linguist: Python
       vote: Python
+  github.com/screx/cwl-tutorial/ae08e989af8634697b93dc565049370907381f90/cl-tools/grep/grep.cwl:
+    annotations:
+      linguist: Common Workflow Language
+      vote: Common Workflow Language
   github.com/scriptin/jmdict-simplified/07b869c62e5b5ae50f3fba06e99de70182d32e66/src/jmnedict/convert-entries-range.xq:
     annotations:
       linguist: XQuery
@@ -12332,6 +14112,18 @@ files:
     annotations:
       linguist: Pony
       vote: Pony
+  github.com/shabiel/KIDS-VC/fc062d90bd6b3ebe0502fadb6cafffd16b594201/XPD_8P0_11310.KID:
+    annotations:
+      linguist: Genshi
+      vote: Genshi
+  github.com/shabiel/rpms-immunizations/2b6f920ef7d092dcfafc9d02da887a98174884b0/kids/VISTA-Port/BIV_0P8-BI-PATIENT.KID:
+    annotations:
+      linguist: Genshi
+      vote: Genshi
+  github.com/shabiel/vistalink-gtm-mtl-support/00de443555ff81e65ec67461fdc4291dd9df787a/KBAN_VL_GTM_SUPPORT_0P1.KID:
+    annotations:
+      linguist: Genshi
+      vote: Genshi
   github.com/shadowsocks/ShadowsocksX-NG/3fa0945116a77ac230119e9178868016bde1f191/ShadowsocksX-NG/PreferencesWindowController.swift:
     annotations:
       linguist: Swift
@@ -12352,11 +14144,19 @@ files:
     annotations:
       linguist: Nix
       vote: Nix
+  github.com/shamblett/CtoDart/bf869938bef84a57ff07d6f5825d07ddb6ce43ed/Txl/CtoDart.Txl:
+    annotations:
+      linguist: TXL
+      vote: TXL
   github.com/shanhuio/smlos/9f7de31d7ba9a97dad1ecb54583c8d3702663165/sync/join.g:
     annotations:
       human-smola: Go
       linguist: GAP
       vote: Go
+  github.com/shanlusun/blockchain/e536a43a6fe341a948bd3973aedb10e2cd6327dd/eos/08/docker/hello/hello.wast:
+    annotations:
+      linguist: WebAssembly
+      vote: WebAssembly
   github.com/sharkdp/bat/3d23daa7b463e1dee5bd7eead6767bb25b5a4b55/src/bin/bat/app.rs:
     annotations:
       linguist: Rust
@@ -12381,6 +14181,10 @@ files:
     annotations:
       linguist: PureScript
       vote: PureScript
+  "github.com/sharoue/chinawareblock/b334468623fac087a13c9f76427c4486633dd938/\u4E00\u952E\u5C4F\u853D\u8F6F\u4EF6/\u817E\u8BAF/~\u4E00\u952E\u62C9\u9ED1.bat":
+    annotations:
+      linguist: Batchfile
+      vote: Batchfile
   github.com/sharplispers/cormanlisp/6ff68633ed730dbd1500f06639dd093513b4278e/Sys/auto-update.lisp:
     annotations:
       human-ajnavarro: Common Lisp
@@ -12408,6 +14212,10 @@ files:
       human-smola: Unknown
       linguist: E
       vote: Unknown
+  github.com/shinh/bflisp/4e702438612f659fa2c668f18400babda5355723/test/cal.bf:
+    annotations:
+      linguist: Brainfuck
+      vote: Brainfuck
   github.com/shlevy/elvysh-filedes/730738cf3acd9292004b32bbad980c9cdb95b30c/src/partially-initialized-array.dats:
     annotations:
       linguist: ATS
@@ -12425,6 +14233,10 @@ files:
       human-smola: Unknown
       linguist: Arc
       vote: Unknown
+  github.com/siddontang/tlaplus-example/65df94e273d5e31b88b924d440aa5ed6a2f7fe3b/raft.tla:
+    annotations:
+      linguist: TLA
+      vote: TLA
   github.com/signalfx/signalflow-grammar/940e2fe4b707d5316499672dd8dfe9845149f0fd/python/grammar/newline.g4:
     annotations:
       human-smola: ANTLR
@@ -12439,6 +14251,10 @@ files:
       human-smola: Lua
       linguist: Lua
       vote: Lua
+  github.com/simlun/simlun-rpms/c004c82b60c821f2d2493e3daffe93e4eb24e69b/Dockerfile.i3:
+    annotations:
+      linguist: Modula-3
+      vote: Modula-3
   github.com/siraben/zkeme80/ef2ae421ad56d1d3668a8cd17ae08f34171be8c6/src/util.scm:
     annotations:
       human-smola: Scheme
@@ -12495,6 +14311,10 @@ files:
       human-ajnavarro: Common Lisp
       linguist: Common Lisp
       vote: Common Lisp
+  github.com/smkplus/ShaderMan/f2501540e3f0ef8da4abaf8a05c98f5cb4cfa022/Assets/Shaders/Examples/Voronoi.shader:
+    annotations:
+      linguist: GLSL
+      vote: GLSL
   github.com/smmankad/float/c20b44e342dee91736e4f1cfd076bb85a13a0e8b/src/Ribbons/botao.pde:
     annotations:
       linguist: Processing
@@ -12507,11 +14327,19 @@ files:
     annotations:
       linguist: Pike
       vote: Pike
+  github.com/sncn-hub/imu_demo/988975866194bf46d9396e5f1931ee10c842596c/lib_i2c/src/i2c_slave.xc:
+    annotations:
+      linguist: XC
+      vote: XC
   github.com/snj33v/ofqmake/40c7591c831087cce523fe42f8c9210774d91227/openFrameworks.pro:
     annotations:
       human-smola: QMake
       linguist: IDL
       vote: QMake
+  github.com/snosov1/dot-emacs/1dcc17066d740bcfc5595a75187c6a0f957bf0fe/.yasnippets/c++-mode/eulerangles:
+    annotations:
+      linguist: YASnippet
+      vote: YASnippet
   github.com/snyded/dbdatabases/f2e09ddd8ac45a3e3ebc23f8a297fd02fc0ea118/dbdatabases.ec:
     annotations:
       human-smola: C
@@ -12574,10 +14402,22 @@ files:
     annotations:
       linguist: AGS Script
       vote: AGS Script
+  github.com/sooqua/js-react-redux-yasnippets/70785d126a28ffcb314fb4b354319418586e06b1/snippets/js-mode/rpcp:
+    annotations:
+      linguist: YASnippet
+      vote: YASnippet
   github.com/source-foundry/Hack/3e7343e1a244c253ce84f0b75516cc42ea8d136b/build-woff2.sh:
     annotations:
       linguist: Shell
       vote: Shell
+  github.com/sovathkoeun/HTML/2fe6dab6e1c8074b1648d8429eef7b84d8c8c3cf/OrganiZen/All-in-One 08-05-2019/Microsoft Project Pro 2013 x64/admin/zh-cn/onent15.opal:
+    annotations:
+      linguist: Opal
+      vote: Opal
+  github.com/spacejam/tla-rust/45e7a16c111dc2af2f36b9a4cbc1757002585475/pcal_intro.tla:
+    annotations:
+      linguist: TLA
+      vote: TLA
   github.com/sparanoid/chinese-copywriting-guidelines/ea01f1bc27e61ca32b109e3c9e26a1c693de116d/Gruntfile.coffee:
     annotations:
       linguist: CoffeeScript
@@ -12630,6 +14470,14 @@ files:
     annotations:
       linguist: Java
       vote: Java
+  github.com/sqrlab/ARC/8ba61ff3b1404b0419381c998881d374ce80ff80/src/_txl/ASM_V.Txl:
+    annotations:
+      linguist: TXL
+      vote: TXL
+  github.com/sqrlab/ccmetrics/845ef71a9834804e32308066c1eea8a1b441b154/src/CCMetrics.Txl:
+    annotations:
+      linguist: TXL
+      vote: TXL
   github.com/square/leakcanary/1f6c971caba4d5cf78ac561b0cec006a2c482a1b/leakcanary-object-watcher/src/main/java/leakcanary/GcTrigger.kt:
     annotations:
       linguist: Kotlin
@@ -12739,6 +14587,10 @@ files:
     annotations:
       linguist: AGS Script
       vote: AGS Script
+  github.com/sticker0ne/RubiusTest/9acc68546ba2d4475b5bd4941fb388f5043352a7/DB/musicServiceLogic.txl:
+    annotations:
+      linguist: TXL
+      vote: TXL
   github.com/stiggy87/ZynqBTC/6dbd2734de82510afc9268630ebf58cde75ca9b7/hls/ip/hdl/vhdl/sha256_top.vhd:
     annotations:
       linguist: VHDL
@@ -12769,6 +14621,10 @@ files:
     annotations:
       linguist: q
       vote: q
+  github.com/strongself/generamba-catalog/f5ab7c7b23f2c2a667c26096cbc20fa00ec36809/adkrviper_controller/Code/View/view_input.h.liquid:
+    annotations:
+      linguist: Liquid
+      vote: Liquid
   github.com/stsdc/monitor/81c10e6f2f9c40b5799880d8353a6aea458dc0a3/vapi/libgtop-2.0.vapi:
     annotations:
       human-smola: Vala
@@ -12786,6 +14642,10 @@ files:
     annotations:
       linguist: LFE
       vote: LFE
+  github.com/sullivan-USA/Grace/a60063c4d1862754b2e00de0fa173343e2b8f92c/Album_Collection/Track_Object_Tests.grace:
+    annotations:
+      linguist: Grace
+      vote: Grace
   github.com/sullo/nikto/3c2c484e054425a842fd6d67f134949f219409f5/program/replay.pl:
     annotations:
       linguist: Perl
@@ -12938,6 +14798,10 @@ files:
     annotations:
       linguist: Fantom
       vote: Fantom
+  github.com/teachop/xcore_neopixel_buffered/37bbce485d28b4eadbd57adbbbf6e8c0aa8d8d68/module_neopixel/src/neopixel.xc:
+    annotations:
+      linguist: XC
+      vote: XC
   github.com/technomancy/atreus/6e5aa64bcde0f7c1ca33101b087dbbf3133b4a98/case/deck.rkt:
     annotations:
       linguist: Racket
@@ -13034,6 +14898,10 @@ files:
     annotations:
       linguist: AGS Script
       vote: AGS Script
+  github.com/the-couch/slater/d1a295f90a39fb59438243ef70c9fc217976064f/packages/sync/test/theme/templates/page.contact.liquid:
+    annotations:
+      linguist: Liquid
+      vote: Liquid
   github.com/the-little-typer/pie/a698d4cacd6823b5161221596d34bd17ce5282b8/interactive-editing.rkt:
     annotations:
       linguist: Racket
@@ -13058,6 +14926,10 @@ files:
     annotations:
       linguist: SuperCollider
       vote: SuperCollider
+  github.com/thetrime/trimeplay/0137e444ff7c8a756367aee3cafa223b1b920dc3/source/mac.brs:
+    annotations:
+      linguist: Brightscript
+      vote: Brightscript
   github.com/theturtle32/AS3WebSocket/0b5a7c69b316cec02a8c5f06182a0e9973d8002f/AS3WebSocket/src/com/hurlant/crypto/tests/ECBModeTest.as:
     annotations:
       linguist: ActionScript
@@ -13137,6 +15009,10 @@ files:
       human-smola: Clean
       linguist: Clean
       vote: Clean
+  github.com/timmvt/VistA_tt/05694e3a98c026f682f99ca9eb701bdd1e82af28/Packages/Kernel/Patches/XU_8.0_614/XU-8_SEQ-497_PAT-614.KID:
+    annotations:
+      linguist: Genshi
+      vote: Genshi
   github.com/timothyhalim/Maxscript/6c561064970ef9de2f5054f90b7be7bff2e2039f/TextureLister/timo.ink - Texture Lister.ms:
     annotations:
       linguist: MAXScript
@@ -13177,10 +15053,26 @@ files:
     annotations:
       linguist: Zimpl
       vote: Zimpl
+  github.com/tlaplus/CommunityModules/cf55dc33a4c300dd842ee9e46c784026b03e407f/tests/BitwiseTests.tla:
+    annotations:
+      linguist: TLA
+      vote: TLA
+  github.com/tlaplus/DrTLAPlus/167a6b3eb2afd8412967021137828347e9852ffc/Paxos/Paxos.tla:
+    annotations:
+      linguist: TLA
+      vote: TLA
+  github.com/tlaplus/Examples/c9bb2d41aca970a6eb64d7a721148483c111bfb8/specifications/SpecifyingSystems/Standard/ProtoReals.tla:
+    annotations:
+      linguist: TLA
+      vote: TLA
   github.com/tlhumphrey2/ML_Miscellaneous/9fc452a2d6997b842a28ac3ad65985240be3e4a5/RandomForestContinuousExample.ecl:
     annotations:
       linguist: ECL
       vote: ECL
+  github.com/tluczyns/quizMatPharm/c7df3975cc63ee07dce3c25e684f653f59bbbd80/bin/data/contentGarbageSegregation.ne:
+    annotations:
+      linguist: Nearley
+      vote: Nearley
   github.com/tobyink/p5-type-tiny-xs/ca90f2ff9e42d85af77d50ba92ea138f5b51e6be/XS.xs:
     annotations:
       human-smola: XS
@@ -13219,6 +15111,14 @@ files:
     annotations:
       linguist: NetLinx
       vote: NetLinx
+  github.com/toninguyen/GraceDesignPattern/67e21561227095acb5b7000eb990778d12771e1f/03_BehaviouralPatterns/CommandPatternDemo.grace:
+    annotations:
+      linguist: Grace
+      vote: Grace
+  github.com/toninguyen/GraceHotdraw-/57e53ca48277d1aaf6b79e3629ca72e17ba6bb2d/01_Model/Handle.grace:
+    annotations:
+      linguist: Grace
+      vote: Grace
   github.com/tonsky/FiraCode/5ee2653d58fba7d25b4f0a82929e4b42146badaa/clojure/regen_calt.clj:
     annotations:
       linguist: Clojure
@@ -13231,6 +15131,10 @@ files:
     annotations:
       linguist: Racket
       vote: Racket
+  github.com/toonetown/codekit-starter/8ed22b80fd9b641db9094829bc8fc8f3aefb1eea/src/kit/index.kit:
+    annotations:
+      linguist: Kit
+      vote: Kit
   github.com/tootsuite/mastodon/42d9ca21de298e1d51b87723745f2b17e4169894/spec/controllers/settings/migrations_controller_spec.rb:
     annotations:
       linguist: Ruby
@@ -13309,6 +15213,10 @@ files:
     annotations:
       linguist: XProc
       vote: XProc
+  github.com/traviscarrigan/VAWTMesh/716f4fdaa9ecfe68d74143d5f1f5301e0d3d41e3/VAWTMesh.glf:
+    annotations:
+      linguist: Glyph
+      vote: Glyph
   github.com/trekhleb/javascript-algorithms/dc1047df725117c411959692a1ab538f65342b2e/src/algorithms/string/levenshtein-distance/__test__/levenshteinDistance.test.js:
     annotations:
       linguist: JavaScript
@@ -13379,6 +15287,10 @@ files:
     annotations:
       linguist: PicoLisp
       vote: PicoLisp
+  github.com/tushar-97/Convex-Hull/2cbb53ed5b687793b593d7c0a959ece86896a15b/Test Cases/Test Case 5/hull_5.ch:
+    annotations:
+      linguist: Charity
+      vote: Charity
   github.com/twbs/bootstrap/258a56b473edea843eb20e80bbc7bf49eb040a32/js/tests/unit/dom/selector-engine.spec.js:
     annotations:
       human-smola: JavaScript
@@ -13441,11 +15353,19 @@ files:
       human-smola: XML
       linguist: Clean
       vote: XML
+  github.com/ualberta-smr/Android-Update-Analysis/541c23bd0fc814ecbc23a573717e896933f1bac4/sourcerercc/parser/java/txl/cs-rename-consistent-functions.txl:
+    annotations:
+      linguist: TXL
+      vote: TXL
   github.com/uber/NEAL/7789fcef09f05c2aff1df7622b8ebed2bfbdb881/src/providers/swift/swift_provider.ml:
     annotations:
       human-smola: OCaml
       linguist: OCaml
       vote: OCaml
+  github.com/ubports/unity8/2af5f2c29908fa9017ac4fb88ed8918d36833371/tests/utils/modules/Unity/Test/UnityTestCase.qml:
+    annotations:
+      linguist: QML
+      vote: QML
   github.com/ucb-bar/fpga-zynq/726eb97185a74014ef3af059458db56d9ca25755/zc706/src/tcl/zc706_bd.tcl:
     annotations:
       linguist: Tcl
@@ -13455,6 +15375,10 @@ files:
       human-smola: Prolog
       linguist: NewLisp
       vote: Prolog
+  github.com/udacity/cs344/ea71271181fa8ae71ae461f3655fc653408ff826/Problem Sets/Problem Set 2/student_func.cu:
+    annotations:
+      linguist: CUDA
+      vote: CUDA
   github.com/ueberauth/guardian/957f006a35beb0d569b19150f1302431f92c8ff7/lib/guardian/plug/pipeline.ex:
     annotations:
       linguist: Elixir
@@ -13587,6 +15511,10 @@ files:
       human-smola: V
       linguist: V
       vote: V
+  github.com/vacancy/PreciseRoIPooling/8ee2a646d096f63c15b75680361d712802391ed1/src/prroi_pooling_gpu_impl.cu:
+    annotations:
+      linguist: CUDA
+      vote: CUDA
   github.com/vahidzolf/Demand_Response/15c51938a8fe1189317bfbdca552339260bc4d84/demand.zpl:
     annotations:
       linguist: Zimpl
@@ -13659,6 +15587,10 @@ files:
     annotations:
       linguist: Stata
       vote: Stata
+  github.com/viktorgino/headunit-desktop/3c6f754dd591c38a18cdbb7121e386a2c373162d/modules/android-auto/aaVideo.qml:
+    annotations:
+      linguist: QML
+      vote: QML
   github.com/vilbur/MAXSCRIPT-viltools2/e6f3531ab05a5ba3ab8abf4ce742ba5a54d63a1d/_Exporter/UnityExportNode/UnityExportNode.ms:
     annotations:
       linguist: MAXScript
@@ -13676,6 +15608,14 @@ files:
     annotations:
       linguist: Modula-2
       vote: Modula-2
+  github.com/visualzhou/mongo-repl-tla/7ea53f733112267522f7a72290bdc709fed09b35/RaftMongo.tla:
+    annotations:
+      linguist: TLA
+      vote: TLA
+  github.com/viva64/pvs-studio-qmake-examples/dd493c95b9f79a38a3e2a1dec3430e62fe224b0a/PVS-Studio.pri:
+    annotations:
+      linguist: QMake
+      vote: QMake
   github.com/vlang/doom/2ca6f30a99c4d90e9a385341515f163b1a053f0e/p_enemy.v:
     annotations:
       linguist: V
@@ -13692,6 +15632,10 @@ files:
     annotations:
       linguist: V
       vote: V
+  github.com/vlfeat/matconvnet/1e5ae7b70fc1074bf8a2a5617e698e54072fbb2c/matlab/src/bits/nnbias_cudnn.cu:
+    annotations:
+      linguist: CUDA
+      vote: CUDA
   github.com/vmchale/polyglot/30c007c50e127d624959759f36cf4e910bfb6d05/DATS/shared.dats:
     annotations:
       human-ajnavarro: ATS
@@ -13722,6 +15666,14 @@ files:
       human-smola: V
       linguist: V
       vote: V
+  github.com/vpzomtrrfrt/djs-dson/46a38c7c3c00d7f1a97cb7bd857359a6ccd27634/DSON.djs:
+    annotations:
+      linguist: Dogescript
+      vote: Dogescript
+  github.com/vsay01/Android-Studio-MVP-Template-Google-Architecture/619808c4df67e3a6da9cdbca04aa39057088a80f/MVPTemplateKotlin/root/src/app_package/layout/activity_layout.xml.ftl:
+    annotations:
+      linguist: FreeMarker
+      vote: FreeMarker
   github.com/vshn/modsecurity-docker/d53d456274e820a4ac0f40c937587994ab24d2dc/v3.1/transform-alert-message.awk:
     annotations:
       linguist: Awk
@@ -13864,6 +15816,10 @@ files:
     annotations:
       linguist: Racket
       vote: Racket
+  github.com/willowtreeapps/ukor/d132534599fc6ffb4cf03b23e3ac07ec7cf2c1db/lib/sample/src/test/source/UnitTestFramework.brs:
+    annotations:
+      linguist: Brightscript
+      vote: Brightscript
   github.com/winbomb/mahjong/a35df26e14669a9c3bff26cd437ee1562660ca88/src/page.opa:
     annotations:
       linguist: Opa
@@ -13967,6 +15923,10 @@ files:
     annotations:
       linguist: Ballerina
       vote: Ballerina
+  github.com/wting/hackernews/5a3296417d23d1ecc901447af63dfc27af217f40/arc.arc:
+    annotations:
+      linguist: Arc
+      vote: Arc
   github.com/wwwscopin/SAS/7572694b302734b6a559f655417bfcbf39008f18/Nested ANOVA.sas:
     annotations:
       linguist: SAS
@@ -13975,6 +15935,10 @@ files:
     annotations:
       linguist: J
       vote: J
+  github.com/wzyuliyang/StreamOpencvMatDemo/e56de220a5200ef279f7e07ff1cb2f24b0cfb2a6/streamMatClient/deployment.pri:
+    annotations:
+      linguist: QMake
+      vote: QMake
   github.com/x0rz/EQGRP/0c2354ff1073099b2aa417030b3167ec29d7279c/Linux/bin/electricslide.pl:
     annotations:
       linguist: Perl
@@ -13999,6 +15963,62 @@ files:
     annotations:
       linguist: C#
       vote: C#
+  github.com/xcore/doc_tips_and_tricks/55e481df3d2cd8c8d6a79b5aa5a898a0053992f8/module_tips_and_tricks/src/emit_p.xc:
+    annotations:
+      linguist: XC
+      vote: XC
+  github.com/xcore/hw_slicekit_system/2f06dc811e74389dc3a31c3be6ce1ec1a9142856/app_coreboard_chaintest/src/main.xc:
+    annotations:
+      linguist: XC
+      vote: XC
+  github.com/xcore/sc_adat/204d3d7b5528c2e97a0d87ea9ecbd57c04b217cd/app_adat_tx_direct_example/src/main.xc:
+    annotations:
+      linguist: XC
+      vote: XC
+  github.com/xcore/sc_canopen/da6e6f6cb3a7c5c59327d94c9203f47a896f3f8f/module_canopen/src/canopen_client.xc:
+    annotations:
+      linguist: XC
+      vote: XC
+  github.com/xcore/sc_dsp_filters/2b55737d94e1c4c9001d075b7e7becd4f4b900b6/module_fir/src/fir12_par.xc:
+    annotations:
+      linguist: XC
+      vote: XC
+  github.com/xcore/sc_dsp_transforms/b5c3ec8a5632c6f8f915599a156cd5cb87f92011/app_jpeg_example/src/test.xc:
+    annotations:
+      linguist: XC
+      vote: XC
+  github.com/xcore/sc_ethernet/f3c3dd14142d063f3f093f27cbf42bf01a92d008/tests/test_smi/src/main.xc:
+    annotations:
+      linguist: XC
+      vote: XC
+  github.com/xcore/sc_i2c/f011473ac662c7d90a35a0648c34830c51bc8991/app_i2c_single_port_demo/src/main.xc:
+    annotations:
+      linguist: XC
+      vote: XC
+  github.com/xcore/sc_i2s/9052dd638e5ae3346dfe1c7b3a386a61a88727fe/module_i2s_slave/src/i2s_slave.xc:
+    annotations:
+      linguist: XC
+      vote: XC
+  github.com/xcore/sc_jtag/f60fa13384118b15a958dc240c3eac67641f134d/module_jtag_otp_access/src/jtag_otp_access.xc:
+    annotations:
+      linguist: XC
+      vote: XC
+  github.com/xcore/sc_pwm/bcbe51b0847b42eea67f763f54864ff9108d0f5b/module_pwm_multibit_fast/src/pwmProgrammer.xc:
+    annotations:
+      linguist: XC
+      vote: XC
+  github.com/xcore/sc_spi/195c6bb6e82e6fef775a1ecceec872c264341a7b/app_spi_loopback_demo/src/spi_loopback_demo.xc:
+    annotations:
+      linguist: XC
+      vote: XC
+  github.com/xcore/sw_audio_analyzer/dd565027da06b4c2a891e2f5c57ce8847ca108ad/module_audio_analyzer/src/analyze_ramp.xc:
+    annotations:
+      linguist: XC
+      vote: XC
+  github.com/xcore/sw_foc_motor_control/5590594008745f8a5b0593ce5160ae28ce87960d/app_test_adc/src/adc_7265_interface.xc:
+    annotations:
+      linguist: XC
+      vote: XC
   github.com/xesscorp/VHDL_Lib/426fa97c0ac16e465ce10f1bb5ad33834b0230f7/audio.vhd:
     annotations:
       linguist: VHDL
@@ -14027,6 +16047,10 @@ files:
     annotations:
       linguist: PowerBuilder
       vote: PowerBuilder
+  github.com/xmos/lib_mic_array/da2071ecb536d2a2b8d2ed642d7a5af1628fb5d9/tests/measure_phase_delay/src/measure_phase_delay.xc:
+    annotations:
+      linguist: XC
+      vote: XC
   github.com/xnslong/yaml/27c75657c2fe9c7893cf5a98e7a7add2a9cd0723/yaml-awk/get_yaml_value.awk:
     annotations:
       linguist: Awk
@@ -14105,6 +16129,10 @@ files:
     annotations:
       linguist: F#
       vote: F#
+  github.com/yegor256/blog/9239549407bfc0943e2dc8341b12cb4b0f0f558f/_newsletters/2017/_september.liquid:
+    annotations:
+      linguist: Liquid
+      vote: Liquid
   github.com/yglukhov/nimpy/0b5dabcc0be023f4e60c936c719188735446b65d/nimpy/py_types.nim:
     annotations:
       linguist: Nim
@@ -14133,6 +16161,10 @@ files:
     annotations:
       linguist: CoffeeScript
       vote: CoffeeScript
+  github.com/youngerking1985/QML_Learn/eb42e9df6eb74f0a5e5dbcd9da6eb66786305f96/QMLPlugin1/MyPlugin/MyPlugin.pro:
+    annotations:
+      linguist: QMake
+      vote: QMake
   github.com/yrabbit/linkerbk/0ca0fee388a7493550f207ecdddf000877cc2e37/linker.w:
     annotations:
       linguist: CWeb
@@ -14145,6 +16177,22 @@ files:
     annotations:
       linguist: Objective-C
       vote: Objective-C
+  github.com/yuechenglei/VastChallenge2006/2e0c9c175e18133f470fc5ae4943f68a1ce933bf/static/news-processed/1101163520244.txt.p.NE:
+    annotations:
+      linguist: Nearley
+      vote: Nearley
+  github.com/yuenmichelle/dogescript/4f4d5bef4edbb63a0bb34eaf904a87e47268cca8/dogescript.djs:
+    annotations:
+      linguist: Dogescript
+      vote: Dogescript
+  github.com/yuriprym/rusty-spring/c942b9f88f33a1604f66fe78e294122f4eebd6ff/src/tmp/test_units.rs:
+    annotations:
+      linguist: RenderScript
+      vote: RenderScript
+  github.com/yuyilei/Word-Ladder/bf0a5025b07ff5551d2a0272568f87d10b7c39f9/WordLadder/WordLadder.pro:
+    annotations:
+      linguist: QMake
+      vote: QMake
   github.com/z-rui/boom/eb59f13c73d27b3a6c9c81befa3a5496bd356936/boom.w:
     annotations:
       linguist: CWeb
@@ -14157,6 +16205,14 @@ files:
     annotations:
       linguist: Xojo
       vote: Xojo
+  github.com/zacx-z/Boo2Cs/8590872a412b5c033336566244845482c40ac499/translate.txl:
+    annotations:
+      linguist: TXL
+      vote: TXL
+  github.com/zakhardage/Shopify-Wish-List/63f67b5e151767e7729d3ebba29a85a7d20eb0a0/collection.wishlist.liquid:
+    annotations:
+      linguist: Liquid
+      vote: Liquid
   github.com/zapnap/upordown/8d0e61b342d211ac1a97485f50ff9816ba73864c/src/org/zerosum/upordown/StatusActivity.mirah:
     annotations:
       linguist: Mirah
@@ -14203,6 +16259,10 @@ files:
     annotations:
       linguist: Pike
       vote: Pike
+  github.com/zetas2015/unicode/edf0d6c4ed3f0bd555a361028d8e597a3c9d534a/unicodesTests.grace:
+    annotations:
+      linguist: Grace
+      vote: Grace
   github.com/zh-google-styleguide/zh-google-styleguide/f837c554bbdfdd1a32d83df41fb16c091b5551db/Makefile:
     annotations:
       linguist: Makefile
@@ -14211,6 +16271,14 @@ files:
     annotations:
       linguist: Python
       vote: Python
+  github.com/zhengtianzuo/QtQuickExamples/9f87989704ba20b054fe2ce3e9763a0d741e3cb0/QmlSign/main.qml:
+    annotations:
+      linguist: QML
+      vote: QML
+  github.com/zhousoft/TsingHuaDataStructOj/ed5687fca61fdd6e22cadc2751fd642a26a2722d/BroadCast/deployment.pri:
+    annotations:
+      linguist: QMake
+      vote: QMake
   github.com/zhuowei/MetalShaderTools/820e4301bc85c472bf5c44ebf2c8660fec0d0f70/sampleshader/out_fragmentShader.air.ll:
     annotations:
       linguist: LLVM

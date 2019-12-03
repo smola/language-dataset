@@ -1,0 +1,59 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert -f /Users/imac/Desktop/untitled folder/docker-compose.yml
+    kompose.version: 1.16.0 ()
+  creationTimestamp: null
+  labels:
+    io.kompose.service: patchbay
+  name: patchbay
+spec:
+  replicas: 1
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        io.kompose.service: patchbay
+    spec:
+      containers:
+      - env:
+        - name: GOLANG_ENV
+          value: develop
+        - name: PORT
+          value: "3000"
+        - name: POSTGRES_DB_URL
+          value: postgres://postgres@postgres/postgres?sslmode=disable
+        - name: PRIVATE_KEY
+          value: |
+            -----BEGIN RSA PRIVATE KEY-----
+            MIIBOwIBAAJBAMOsqD9mC5mWC4Fa5rTU3Zaq+ZWIgEzwC0nkkPMLVAfJpkFI7uiy
+            CIj5n6OuPCDGNJTzXMjJsBd1YhUqzg2XnAsCAwEAAQJAF8Qoy0qBri3jR9ramqwg
+            HeS2W8swiie9t0PjtyFxG2DUP6ENDgodWzrA+WJD5dJSlkWUlwgCUJ3jk/vK3eOJ
+            AQIhAOi5Y0dUpR8GVQX7YeIDug4N39T2FnYxB1XdH5GKX/fxAiEA1z6oRREeTGTL
+            ULZYRkyz41tVC+uCTGeUw1i9UMi8b7sCIQDRP49CXZsx8BGWlVaHT26EoHj3FGVR
+            0/eSfoWZ6N8tIQIhAI2y6gPN6SxRjqdr42EkTah3D93xBK5X4k9XtAninGrRAiB7
+            k4uJgqHl8hgs3bndGibFuepdLWJed7YXa+eF57FdmA==
+            -----END RSA PRIVATE KEY-----
+        - name: PUBLIC_KEY
+          value: |
+            -----BEGIN PUBLIC KEY-----
+            MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAMOsqD9mC5mWC4Fa5rTU3Zaq+ZWIgEzw
+            C0nkkPMLVAfJpkFI7uiyCIj5n6OuPCDGNJTzXMjJsBd1YhUqzg2XnAsCAwEAAQ==
+            -----END PUBLIC KEY-----
+        - name: REDIS_URL
+          value: redis:6379
+        - name: TASKS_SERVICE_URL
+          value: task-mgmt:4400
+        - name: TITLE
+          value: Data Together
+        - name: WEBAPP_SCRIPTS
+          value: http://localhost:4000/static/bundle.js
+        image: datatogether/patchbay:latest
+        name: patchbay
+        ports:
+        - containerPort: 3000
+        resources: {}
+      restartPolicy: Always
+status: {}

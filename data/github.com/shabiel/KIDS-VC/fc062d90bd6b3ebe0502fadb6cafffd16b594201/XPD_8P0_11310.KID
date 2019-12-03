@@ -1,0 +1,2042 @@
+KIDS Distribution saved on Sep 01, 2014@15:25:18
+KIDS Version Control
+**KIDS**:XPD*8.0*11310^
+
+**INSTALL NAME**
+XPD*8.0*11310
+"BLD",8948,0)
+XPD*8.0*11310^KIDS^0^3140901^y
+"BLD",8948,4,0)
+^9.64PA^^
+"BLD",8948,6.3)
+4
+"BLD",8948,"KRN",0)
+^9.67PA^779.2^20
+"BLD",8948,"KRN",.4,0)
+.4
+"BLD",8948,"KRN",.401,0)
+.401
+"BLD",8948,"KRN",.402,0)
+.402
+"BLD",8948,"KRN",.403,0)
+.403
+"BLD",8948,"KRN",.5,0)
+.5
+"BLD",8948,"KRN",.84,0)
+.84
+"BLD",8948,"KRN",3.6,0)
+3.6
+"BLD",8948,"KRN",3.8,0)
+3.8
+"BLD",8948,"KRN",9.2,0)
+9.2
+"BLD",8948,"KRN",9.8,0)
+9.8
+"BLD",8948,"KRN",9.8,"NM",0)
+^9.68A^4^4
+"BLD",8948,"KRN",9.8,"NM",1,0)
+XPDK2V0^^0^B92910048
+"BLD",8948,"KRN",9.8,"NM",2,0)
+XPDK2V1^^0^B25126356
+"BLD",8948,"KRN",9.8,"NM",3,0)
+XPDK2VC^^0^B189402324
+"BLD",8948,"KRN",9.8,"NM",4,0)
+XPDOS^^0^B13271785
+"BLD",8948,"KRN",9.8,"NM","B","XPDK2V0",1)
+
+"BLD",8948,"KRN",9.8,"NM","B","XPDK2V1",2)
+
+"BLD",8948,"KRN",9.8,"NM","B","XPDK2VC",3)
+
+"BLD",8948,"KRN",9.8,"NM","B","XPDOS",4)
+
+"BLD",8948,"KRN",19,0)
+19
+"BLD",8948,"KRN",19,"NM",0)
+^9.68A^3^3
+"BLD",8948,"KRN",19,"NM",1,0)
+XPD VC BUILD^^0
+"BLD",8948,"KRN",19,"NM",2,0)
+XPD VC FILE^^0
+"BLD",8948,"KRN",19,"NM",3,0)
+XPD DISTRIBUTION MENU^^2
+"BLD",8948,"KRN",19,"NM","B","XPD DISTRIBUTION MENU",3)
+
+"BLD",8948,"KRN",19,"NM","B","XPD VC BUILD",1)
+
+"BLD",8948,"KRN",19,"NM","B","XPD VC FILE",2)
+
+"BLD",8948,"KRN",19.1,0)
+19.1
+"BLD",8948,"KRN",101,0)
+101
+"BLD",8948,"KRN",409.61,0)
+409.61
+"BLD",8948,"KRN",771,0)
+771
+"BLD",8948,"KRN",779.2,0)
+779.2
+"BLD",8948,"KRN",870,0)
+870
+"BLD",8948,"KRN",8989.51,0)
+8989.51
+"BLD",8948,"KRN",8989.52,0)
+8989.52
+"BLD",8948,"KRN",8994,0)
+8994
+"BLD",8948,"KRN","B",.4,.4)
+
+"BLD",8948,"KRN","B",.401,.401)
+
+"BLD",8948,"KRN","B",.402,.402)
+
+"BLD",8948,"KRN","B",.403,.403)
+
+"BLD",8948,"KRN","B",.5,.5)
+
+"BLD",8948,"KRN","B",.84,.84)
+
+"BLD",8948,"KRN","B",3.6,3.6)
+
+"BLD",8948,"KRN","B",3.8,3.8)
+
+"BLD",8948,"KRN","B",9.2,9.2)
+
+"BLD",8948,"KRN","B",9.8,9.8)
+
+"BLD",8948,"KRN","B",19,19)
+
+"BLD",8948,"KRN","B",19.1,19.1)
+
+"BLD",8948,"KRN","B",101,101)
+
+"BLD",8948,"KRN","B",409.61,409.61)
+
+"BLD",8948,"KRN","B",771,771)
+
+"BLD",8948,"KRN","B",779.2,779.2)
+
+"BLD",8948,"KRN","B",870,870)
+
+"BLD",8948,"KRN","B",8989.51,8989.51)
+
+"BLD",8948,"KRN","B",8989.52,8989.52)
+
+"BLD",8948,"KRN","B",8994,8994)
+
+"KRN",19,170,-1)
+2^3
+"KRN",19,170,0)
+XPD DISTRIBUTION MENU^Edits and Distribution^^M^1^^^^^^^2^y
+"KRN",19,170,10,0)
+^19.01IP^10^10
+"KRN",19,170,10,9,0)
+11752^VC1^5
+"KRN",19,170,10,9,"^")
+XPD VC BUILD
+"KRN",19,170,10,10,0)
+11753^VC2^6
+"KRN",19,170,10,10,"^")
+XPD VC FILE
+"KRN",19,170,"U")
+EDITS AND DISTRIBUTION
+"KRN",19,11752,-1)
+0^1
+"KRN",19,11752,0)
+XPD VC BUILD^Export for version control comp from a local build^^R^^^^^^^^KIDS^y
+"KRN",19,11752,1,0)
+^^3^3^3140901^
+"KRN",19,11752,1,1,0)
+This option lets you export version controlled components from a KIDS 
+"KRN",19,11752,1,2,0)
+build on your system. Use this to version control builds from your system 
+"KRN",19,11752,1,3,0)
+every time you create a build.
+"KRN",19,11752,25)
+EXPKIDIN^XPDK2VC
+"KRN",19,11752,"U")
+EXPORT FOR VERSION CONTROL COM
+"KRN",19,11753,-1)
+0^2
+"KRN",19,11753,0)
+XPD VC FILE^Export for version control components from a file^^R^^^^^^^^^y
+"KRN",19,11753,1,0)
+^^3^3^3140901^
+"KRN",19,11753,1,1,0)
+This option loads a KIDs formatted HFS file into a temporary ^TMP 
+"KRN",19,11753,1,2,0)
+global, exports its contents in a version control format, and then 
+"KRN",19,11753,1,3,0)
+deletes the temporary ^TMP global. Use this to decompose an HFS KIDS file.
+"KRN",19,11753,25)
+EXPFILIN^XPDK2VC
+"KRN",19,11753,"U")
+EXPORT FOR VERSION CONTROL COM
+"MBREQ")
+0
+"ORD",18,19)
+19;18;;;OPT^XPDTA;OPTF1^XPDIA;OPTE1^XPDIA;OPTF2^XPDIA;;OPTDEL^XPDIA
+"ORD",18,19,0)
+OPTION
+"PKG",2,-1)
+1^1
+"PKG",2,0)
+KIDS^XPD^Kernel Installation & Distribution System
+"PKG",2,22,0)
+^9.49I^1^1
+"PKG",2,22,1,0)
+8.0^2950703^2960531
+"PKG",2,22,1,"PAH",1,0)
+11310^3140901
+"QUES","XPF1",0)
+Y
+"QUES","XPF1","??")
+^D REP^XPDH
+"QUES","XPF1","A")
+Shall I write over your |FLAG| File
+"QUES","XPF1","B")
+YES
+"QUES","XPF1","M")
+D XPF1^XPDIQ
+"QUES","XPF2",0)
+Y
+"QUES","XPF2","??")
+^D DTA^XPDH
+"QUES","XPF2","A")
+Want my data |FLAG| yours
+"QUES","XPF2","B")
+YES
+"QUES","XPF2","M")
+D XPF2^XPDIQ
+"QUES","XPI1",0)
+YO
+"QUES","XPI1","??")
+^D INHIBIT^XPDH
+"QUES","XPI1","A")
+Want KIDS to INHIBIT LOGONs during the install
+"QUES","XPI1","B")
+NO
+"QUES","XPI1","M")
+D XPI1^XPDIQ
+"QUES","XPM1",0)
+PO^VA(200,:EM
+"QUES","XPM1","??")
+^D MG^XPDH
+"QUES","XPM1","A")
+Enter the Coordinator for Mail Group '|FLAG|'
+"QUES","XPM1","B")
+
+"QUES","XPM1","M")
+D XPM1^XPDIQ
+"QUES","XPO1",0)
+Y
+"QUES","XPO1","??")
+^D MENU^XPDH
+"QUES","XPO1","A")
+Want KIDS to Rebuild Menu Trees Upon Completion of Install
+"QUES","XPO1","B")
+NO
+"QUES","XPO1","M")
+D XPO1^XPDIQ
+"QUES","XPZ1",0)
+Y
+"QUES","XPZ1","??")
+^D OPT^XPDH
+"QUES","XPZ1","A")
+Want to DISABLE Scheduled Options, Menu Options, and Protocols
+"QUES","XPZ1","B")
+NO
+"QUES","XPZ1","M")
+D XPZ1^XPDIQ
+"QUES","XPZ2",0)
+Y
+"QUES","XPZ2","??")
+^D RTN^XPDH
+"QUES","XPZ2","A")
+Want to MOVE routines to other CPUs
+"QUES","XPZ2","B")
+NO
+"QUES","XPZ2","M")
+D XPZ2^XPDIQ
+"RTN")
+4
+"RTN","XPDK2V0")
+0^1^B92910048
+"RTN","XPDK2V0",1,0)
+XPDK2V0 ; VEN/SMH - Continuation of XPDK2VC ;2014-03-24  3:56 PM
+"RTN","XPDK2V0",2,0)
+ ;;8.0;KERNEL;**11310*;Mar 28, 2014;Build 4
+"RTN","XPDK2V0",3,0)
+ ;
+"RTN","XPDK2V0",4,0)
+ ; (C) Sam Habiel 2014, who needs more money than fame (but a rich wife will do!)
+"RTN","XPDK2V0",5,0)
+ ; License: Apache 2
+"RTN","XPDK2V0",6,0)
+ ;
+"RTN","XPDK2V0",7,0)
+RTN(FAIL,RTNGLO,ROOT) ; Routine Exporter
+"RTN","XPDK2V0",8,0)
+ ; .FAIL - Output. Did we fail? Mostly b/c of filesystem issues.
+"RTN","XPDK2V0",9,0)
+ ; RTNGLO - The KIDS global ending at "RTN". Use $NA to pass this.
+"RTN","XPDK2V0",10,0)
+ ; ROOT - File system root where we are gonna make the Routines directory
+"RTN","XPDK2V0",11,0)
+ ;
+"RTN","XPDK2V0",12,0)
+ N RTNDIR S RTNDIR=ROOT_"Routines"_$$D^XPDOS()
+"RTN","XPDK2V0",13,0)
+ N % S %=$$MKDIR^XPDOS(RTNDIR)
+"RTN","XPDK2V0",14,0)
+ I % S FAIL=1 QUIT
+"RTN","XPDK2V0",15,0)
+ ;
+"RTN","XPDK2V0",16,0)
+ D EN^DDIOL("Exporting these routines to "_RTNDIR)
+"RTN","XPDK2V0",17,0)
+ ;
+"RTN","XPDK2V0",18,0)
+ N POP
+"RTN","XPDK2V0",19,0)
+ N RTN S RTN=""
+"RTN","XPDK2V0",20,0)
+ N RTNDDIOL S RTNDDIOL="" ; Output message
+"RTN","XPDK2V0",21,0)
+ F  S RTN=$O(@RTNGLO@(RTN)) Q:RTN=""  D  Q:POP
+"RTN","XPDK2V0",22,0)
+ . D OPEN^%ZISH("RTNHDR",RTNDIR,RTN_".header","W")
+"RTN","XPDK2V0",23,0)
+ . I POP S FAIL=1 QUIT
+"RTN","XPDK2V0",24,0)
+ . U IO
+"RTN","XPDK2V0",25,0)
+ . W @RTNGLO@(RTN) ; Header node.
+"RTN","XPDK2V0",26,0)
+ . D CLOSE^%ZISH("RTNHDR")
+"RTN","XPDK2V0",27,0)
+ . ;
+"RTN","XPDK2V0",28,0)
+ . ; Now write the routine code
+"RTN","XPDK2V0",29,0)
+ . D OPEN^%ZISH("RTNCODE",RTNDIR,RTN_".m","W")
+"RTN","XPDK2V0",30,0)
+ . I POP S FAIL=1 QUIT
+"RTN","XPDK2V0",31,0)
+ . U IO
+"RTN","XPDK2V0",32,0)
+ . N LN F LN=0:0 S LN=$O(@RTNGLO@(RTN,LN)) Q:'LN  D
+"RTN","XPDK2V0",33,0)
+ .. I LN=2 W $P(^(LN,0),";",1,6),!  ; **** DO NOT INCLUDE BUILD NUMBER YOU STUPID IDIOT! **** SCREWS UP DIFF ****
+"RTN","XPDK2V0",34,0)
+ .. E  W ^(LN,0),!
+"RTN","XPDK2V0",35,0)
+ . D CLOSE^%ZISH("RTNCODE")
+"RTN","XPDK2V0",36,0)
+ . ; done!
+"RTN","XPDK2V0",37,0)
+ . S RTNDDIOL=RTNDDIOL_" "_RTN ; Add to output message
+"RTN","XPDK2V0",38,0)
+ S $E(RTNDDIOL)="" ; Remove leading space
+"RTN","XPDK2V0",39,0)
+ ;
+"RTN","XPDK2V0",40,0)
+ D EN^DDIOL(RTNDDIOL)
+"RTN","XPDK2V0",41,0)
+ K @RTNGLO
+"RTN","XPDK2V0",42,0)
+ QUIT
+"RTN","XPDK2V0",43,0)
+ ;
+"RTN","XPDK2V0",44,0)
+FIA(FAIL,KIDGLO,ROOT) ; Print FIA, UP, ^DD, ^DIC, SEC, IX, KEY, KEYPTR for each file
+"RTN","XPDK2V0",45,0)
+ ; .FAIL - Output. Did we fail? Mostly b/c of filesystem issues.
+"RTN","XPDK2V0",46,0)
+ ; KIDGLO - The KIDS global (not a sub). Use $NA to pass this.
+"RTN","XPDK2V0",47,0)
+ ; ROOT - File system root where we are gonna export.
+"RTN","XPDK2V0",48,0)
+ Q:'$D(@KIDGLO@("FIA"))  ; No files to export
+"RTN","XPDK2V0",49,0)
+ ;
+"RTN","XPDK2V0",50,0)
+ N POP
+"RTN","XPDK2V0",51,0)
+ ;
+"RTN","XPDK2V0",52,0)
+ N PATH S PATH=ROOT_"Files"_$$D^XPDOS()
+"RTN","XPDK2V0",53,0)
+ S POP=$$MKDIR^XPDOS(PATH)
+"RTN","XPDK2V0",54,0)
+ I POP D EN^DDIOL($$RED("Couldn't create directory")) S FAIL=1 QUIT
+"RTN","XPDK2V0",55,0)
+ ;
+"RTN","XPDK2V0",56,0)
+ D EN^DDIOL("Exporting files DD and Data to Files/")
+"RTN","XPDK2V0",57,0)
+ ;
+"RTN","XPDK2V0",58,0)
+ N FILE F FILE=0:0 S FILE=$O(@KIDGLO@("FIA",FILE)) Q:'FILE  D  Q:$G(POP)   ; For each top file in "FIA"
+"RTN","XPDK2V0",59,0)
+ . N FNUM S FNUM=FILE                                                      ; File Number
+"RTN","XPDK2V0",60,0)
+ . N FNAM S FNAM=@KIDGLO@("FIA",FILE)                                      ; File Name (Value of the first FIA node)
+"RTN","XPDK2V0",61,0)
+ . S FNAM=$TR(FNAM,"\/!@#$%^&*()","------------")                          ; Replace punc with dashes
+"RTN","XPDK2V0",62,0)
+ . N HFSNAME S HFSNAME=FNUM_"+"_FNAM_".DD.zwr"                             ; File Name
+"RTN","XPDK2V0",63,0)
+ . D OPEN^%ZISH("DD",PATH,HFSNAME,"W")                                     ; Open
+"RTN","XPDK2V0",64,0)
+ . I POP S FAIL=1 QUIT                                                     ; Open failed
+"RTN","XPDK2V0",65,0)
+ . U IO                                                                    ; Use device
+"RTN","XPDK2V0",66,0)
+ . D ZWRITE($NA(@KIDGLO@("FIA",FILE)))                                     ; DIFROM FIA Array (data on what to send)
+"RTN","XPDK2V0",67,0)
+ . I $D(@KIDGLO@("^DIC",FILE)) D ZWRITE($NA(^(FILE))) K @KIDGLO@("^DIC",FILE)              ; FOF Nodes.
+"RTN","XPDK2V0",68,0)
+ . D ZWRITE($NA(@KIDGLO@("^DD",FILE))) K @KIDGLO@("^DD",FILE)                              ; Data Dictionary
+"RTN","XPDK2V0",69,0)
+ . I $D(@KIDGLO@("SEC","^DIC",FILE)) D ZWRITE($NA(^(FILE))) K @KIDGLO@("SEC","^DIC",FILE)  ; ^DIC Security Nodes
+"RTN","XPDK2V0",70,0)
+ . I $D(@KIDGLO@("SEC","^DD",FILE)) D ZWRITE($NA(^(FILE))) K @KIDGLO@("SEC","^DD",FILE)    ; ^DD Security Nodes
+"RTN","XPDK2V0",71,0)
+ . I $D(@KIDGLO@("UP",FILE)) D ZWRITE($NA(^(FILE))) K @KIDGLO@("UP",FILE)              ; Subfile upward nodes to find parent files
+"RTN","XPDK2V0",72,0)
+ . I $D(@KIDGLO@("IX",FILE)) D ZWRITE($NA(^(FILE))) K @KIDGLO@("IX",FILE)              ; New Style Indexes
+"RTN","XPDK2V0",73,0)
+ . I $D(@KIDGLO@("KEY",FILE)) D                                            ; Keys?
+"RTN","XPDK2V0",74,0)
+ . . D ZWRITE($NA(@KIDGLO@("KEY",FILE))) K @KIDGLO@("KEY",FILE)            ; Keys...
+"RTN","XPDK2V0",75,0)
+ . . D ZWRITE($NA(@KIDGLO@("KEYPTR",FILE))) K @KIDGLO@("KEYPTR",FILE)      ; and pointer resolution to NS indexes
+"RTN","XPDK2V0",76,0)
+ . N SUBFILE F SUBFILE=0:0 S SUBFILE=$O(@KIDGLO@("FIA",FILE,SUBFILE)) Q:'SUBFILE  D
+"RTN","XPDK2V0",77,0)
+ . . I $D(@KIDGLO@("PGL",SUBFILE)) D ZWRITE($NA(@KIDGLO@("PGL",SUBFILE))) K @KIDGLO@("PGL",SUBFILE) ; Source system pointer resolution (not used at dest.)
+"RTN","XPDK2V0",78,0)
+ . D CLOSE^%ZISH("DD")                                                     ; Close. Resets IO.
+"RTN","XPDK2V0",79,0)
+ . D EN^DDIOL("Exported "_HFSNAME)
+"RTN","XPDK2V0",80,0)
+ ;
+"RTN","XPDK2V0",81,0)
+ ;
+"RTN","XPDK2V0",82,0)
+ D DATA(.FAIL,KIDGLO,PATH)                                                 ; Now Data...
+"RTN","XPDK2V0",83,0)
+ K @KIDGLO@("FIA")                                                         ; Kill this off now.
+"RTN","XPDK2V0",84,0)
+ QUIT
+"RTN","XPDK2V0",85,0)
+ ;
+"RTN","XPDK2V0",86,0)
+DATA(FAIL,KIDGLO,ROOT) ; Print DATA, FRV1, FRVL, FRV1K subscripts
+"RTN","XPDK2V0",87,0)
+ ; .FAIL - Output. Did we fail? Mostly b/c of filesystem issues.
+"RTN","XPDK2V0",88,0)
+ ; KIDGLO - The KIDS global (not a sub). Use $NA to pass this.
+"RTN","XPDK2V0",89,0)
+ ; ROOT - File system root where we are gonna export.
+"RTN","XPDK2V0",90,0)
+ Q:'$D(@KIDGLO@("DATA"))
+"RTN","XPDK2V0",91,0)
+ ;
+"RTN","XPDK2V0",92,0)
+ N POP
+"RTN","XPDK2V0",93,0)
+ N FILE F FILE=0:0 S FILE=$O(@KIDGLO@("FIA",FILE)) Q:'FILE  D  Q:$G(POP)   ; For each top file in "FIA"
+"RTN","XPDK2V0",94,0)
+ . Q:'$D(@KIDGLO@("DATA",FILE))                                            ; No Data. Skip.
+"RTN","XPDK2V0",95,0)
+ . N FNUM S FNUM=FILE                                                      ; File Number
+"RTN","XPDK2V0",96,0)
+ . N FNAM S FNAM=@KIDGLO@("FIA",FILE)                                      ; File Name (Value of the first FIA node)
+"RTN","XPDK2V0",97,0)
+ . S FNAM=$TR(FNAM,"\/!@#$%^&*()","------------")                          ; Replace punc with dashes
+"RTN","XPDK2V0",98,0)
+ . N HFSNAME S HFSNAME=FNUM_"+"_FNAM_".Data.zwr"                           ; File Name
+"RTN","XPDK2V0",99,0)
+ . D OPEN^%ZISH("DATA",ROOT,HFSNAME,"W")                                   ; Open
+"RTN","XPDK2V0",100,0)
+ . I POP S FAIL=1 QUIT                                                     ; Open failed
+"RTN","XPDK2V0",101,0)
+ . U IO                                                                    ; Use device
+"RTN","XPDK2V0",102,0)
+ . D ZWRITE($NA(@KIDGLO@("DATA",FILE))) K @KIDGLO@("DATA",FILE)            ; Export Data
+"RTN","XPDK2V0",103,0)
+ . I $D(@KIDGLO@("FRV1",FILE)) D                                           ; Pointer Resolution?
+"RTN","XPDK2V0",104,0)
+ . . D ZWRITE($NA(@KIDGLO@("FRV1",FILE))) K @KIDGLO@("FRV1",FILE)          ; Operator node. See DIFROMSR.
+"RTN","XPDK2V0",105,0)
+ . . D ZWRITE($NA(@KIDGLO@("FRVL",FILE))) K @KIDGLO@("FRVL",FILE)          ; Don't know what that is. See DIFROMSR.
+"RTN","XPDK2V0",106,0)
+ . . D ZWRITE($NA(@KIDGLO@("FRV1K",FILE))) K @KIDGLO@("FRV1K",FILE)        ; ditto
+"RTN","XPDK2V0",107,0)
+ . D CLOSE^%ZISH("DATA")                                                   ; Close. Resets IO.
+"RTN","XPDK2V0",108,0)
+ . D EN^DDIOL("Exported "_HFSNAME)
+"RTN","XPDK2V0",109,0)
+ K @KIDGLO@("DATA")
+"RTN","XPDK2V0",110,0)
+ QUIT
+"RTN","XPDK2V0",111,0)
+ ;
+"RTN","XPDK2V0",112,0)
+LOAD ; Restore patch components recursively
+"RTN","XPDK2V0",113,0)
+ ; TODO: Document and clean.
+"RTN","XPDK2V0",114,0)
+ N DIR,X,Y,DIROUT,DIRUT,DTOUT,DUOUT,DIROUT ; fur DIR
+"RTN","XPDK2V0",115,0)
+ S DIR(0)="F^2:1000",DIR("A")="Full path of patches to load, up to but not including patch names"
+"RTN","XPDK2V0",116,0)
+ S DIR("B")=$G(^DISV(DUZ,"XPDK2V0")) ; Recurse Path
+"RTN","XPDK2V0",117,0)
+ I DIR("B")="" K DIR("B")
+"RTN","XPDK2V0",118,0)
+ D ^DIR
+"RTN","XPDK2V0",119,0)
+ QUIT:Y="^"
+"RTN","XPDK2V0",120,0)
+ N ROOT S ROOT=Y ; root patch
+"RTN","XPDK2V0",121,0)
+ S ^DISV(DUZ,"XPDK2V0")=ROOT
+"RTN","XPDK2V0",122,0)
+ N D S D=$$D^XPDOS()
+"RTN","XPDK2V0",123,0)
+ I $E(ROOT,$L(ROOT))=D S $E(ROOT,$L(ROOT))=""
+"RTN","XPDK2V0",124,0)
+ N FILES ; final array to keep files
+"RTN","XPDK2V0",125,0)
+ N LVL S LVL=0 ; tree level for debugging
+"RTN","XPDK2V0",126,0)
+ D LOAD1(ROOT)
+"RTN","XPDK2V0",127,0)
+ D PROCESS(.FILES)
+"RTN","XPDK2V0",128,0)
+ QUIT
+"RTN","XPDK2V0",129,0)
+ ;
+"RTN","XPDK2V0",130,0)
+LOAD1(ROOT) ; Recursive entry point to load each directory
+"RTN","XPDK2V0",131,0)
+ ; TODO: Document and clean.
+"RTN","XPDK2V0",132,0)
+ ; ZEXCEPT: FILES
+"RTN","XPDK2V0",133,0)
+ ; ZEXCEPT: LVL
+"RTN","XPDK2V0",134,0)
+ ; ZEXCEPT: D fs delimiter
+"RTN","XPDK2V0",135,0)
+ S LVL=LVL+1
+"RTN","XPDK2V0",136,0)
+ N % ; Throw away variable
+"RTN","XPDK2V0",137,0)
+ N ARRAY S ARRAY("*")=""
+"RTN","XPDK2V0",138,0)
+ N SCRATCH
+"RTN","XPDK2V0",139,0)
+ S %=$$LIST^%ZISH(ROOT,"ARRAY","SCRATCH")
+"RTN","XPDK2V0",140,0)
+ ; I $$DEFDIR^%ZISH(ROOT)="/"!('$$LIST^%ZISH(ROOT,"ARRAY","FILES")) QUIT  ; DEFDIR bug!
+"RTN","XPDK2V0",141,0)
+ N F S F="" F  S F=$O(SCRATCH(F)) Q:F=""  D
+"RTN","XPDK2V0",142,0)
+ . I $E(F)="." QUIT  ; Hidden file
+"RTN","XPDK2V0",143,0)
+ . N OLDROOT S OLDROOT=ROOT
+"RTN","XPDK2V0",144,0)
+ . N ROOT S ROOT=OLDROOT_D_F
+"RTN","XPDK2V0",145,0)
+ . W "found ",?LVL*5,F,!
+"RTN","XPDK2V0",146,0)
+ . N SCRATCH2
+"RTN","XPDK2V0",147,0)
+ . N % S %=$$LIST^%ZISH(ROOT,"ARRAY","SCRATCH2") ; %=1 if a directory (files returned); %=0 if not
+"RTN","XPDK2V0",148,0)
+ . I % D  ; stack $TEST
+"RTN","XPDK2V0",149,0)
+ . . D LOAD1(ROOT) ; Recurse if directory
+"RTN","XPDK2V0",150,0)
+ . E  S FILES(ROOT)="" ; otherwise, just put it for us to review
+"RTN","XPDK2V0",151,0)
+ . S LVL=LVL-1
+"RTN","XPDK2V0",152,0)
+ QUIT
+"RTN","XPDK2V0",153,0)
+ ;
+"RTN","XPDK2V0",154,0)
+PROCESS(FILES) ; Process each file to load into ^XTMP or so...
+"RTN","XPDK2V0",155,0)
+ N POP
+"RTN","XPDK2V0",156,0)
+ N IEN S IEN=0
+"RTN","XPDK2V0",157,0)
+ N F S F="" F  S F=$O(FILES(F)) Q:F=""  D
+"RTN","XPDK2V0",158,0)
+ . D OPEN^%ZISH("F",$P(F,D,1,$L(F,D)-1),$P(F,D,$L(F,D)),"R") ; Read file (handle, path, file, mode)
+"RTN","XPDK2V0",159,0)
+ . I POP S $EC=",U-FILE-DISAPPEARED,"
+"RTN","XPDK2V0",160,0)
+ . U IO
+"RTN","XPDK2V0",161,0)
+ . S IEN=IEN+1
+"RTN","XPDK2V0",162,0)
+ . N X F  R X:1 Q:$$STATUS^%ZISH()  D
+"RTN","XPDK2V0",163,0)
+ . . ; TO CONTINUE HERE!!! -- MAKE SPECIAL PROCESSING FOR ROUTINES
+"RTN","XPDK2V0",164,0)
+ . . S @X
+"RTN","XPDK2V0",165,0)
+ . D CLOSE^%ZISH()
+"RTN","XPDK2V0",166,0)
+ QUIT
+"RTN","XPDK2V0",167,0)
+ ;
+"RTN","XPDK2V0",168,0)
+ZWRITE(NAME,QS,QSREP) ; Replacement for ZWRITE ; Public Proc
+"RTN","XPDK2V0",169,0)
+ZWRITE0 ; Goto Entry point for XPDK2VC (only permitted user)
+"RTN","XPDK2V0",170,0)
+ ; Pass NAME by name as a closed reference. lvn and gvn are both supported.
+"RTN","XPDK2V0",171,0)
+ ; QS = Query Subscript to replace. Optional.
+"RTN","XPDK2V0",172,0)
+ ; QSREP = Query Subscrpt replacement. Optional, but must be passed if QS is.
+"RTN","XPDK2V0",173,0)
+ ; : syntax is not supported (yet)
+"RTN","XPDK2V0",174,0)
+ S QS=$G(QS),QSREP=$G(QSREP)
+"RTN","XPDK2V0",175,0)
+ I QS,'$L(QSREP) S $EC=",U-INVALID-PARAMETERS,"
+"RTN","XPDK2V0",176,0)
+ N INCEXPN S INCEXPN=""
+"RTN","XPDK2V0",177,0)
+ I $L(QSREP) S INCEXPN="S $G("_QSREP_")="_QSREP_"+1"
+"RTN","XPDK2V0",178,0)
+ N L S L=$L(NAME) ; Name length
+"RTN","XPDK2V0",179,0)
+ I $E(NAME,L-2,L)=",*)" S NAME=$E(NAME,1,L-3)_")" ; If last sub is *, remove it and close the ref
+"RTN","XPDK2V0",180,0)
+ N ORIGNAME S ORIGNAME=NAME          ;
+"RTN","XPDK2V0",181,0)
+ N ORIGQL S ORIGQL=$QL(NAME)         ; Number of subscripts in the original name
+"RTN","XPDK2V0",182,0)
+ I $D(@NAME)#2 W $S(QS:$$SUBNAME(NAME,QS,QSREP),1:NAME),"=",$$FORMAT(@NAME),!        ; Write base if it exists
+"RTN","XPDK2V0",183,0)
+ ; $QUERY through the name.
+"RTN","XPDK2V0",184,0)
+ ; Stop when we are out.
+"RTN","XPDK2V0",185,0)
+ ; Stop when the last subscript of the original name isn't the same as
+"RTN","XPDK2V0",186,0)
+ ; the last subscript of the Name.
+"RTN","XPDK2V0",187,0)
+ F  S NAME=$Q(@NAME) Q:NAME=""  Q:$NA(@ORIGNAME,ORIGQL)'=$NA(@NAME,ORIGQL)  D
+"RTN","XPDK2V0",188,0)
+ . W $S(QS:$$SUBNAME(NAME,QS,QSREP),1:NAME),"=",$$FORMAT(@NAME),!
+"RTN","XPDK2V0",189,0)
+ QUIT
+"RTN","XPDK2V0",190,0)
+ ;
+"RTN","XPDK2V0",191,0)
+SUBNAME(N,QS,QSREP) ; Substitue subscript QS's value with QSREP in name reference N
+"RTN","XPDK2V0",192,0)
+ N VARCR S VARCR=$NA(@N,QS-1) ; Closed reference of name up to the sub we want to change
+"RTN","XPDK2V0",193,0)
+ N VAROR S VAROR=$S($E(VARCR,$L(VARCR))=")":$E(VARCR,1,$L(VARCR)-1)_",",1:VARCR_"(") ; Open ref
+"RTN","XPDK2V0",194,0)
+ N B4 S B4=$NA(@N,QS),B4=$E(B4,1,$L(B4)-1) ; Before sub piece, only used in next line
+"RTN","XPDK2V0",195,0)
+ N AF S AF=$P(N,B4,2,99) ; After sub piece
+"RTN","XPDK2V0",196,0)
+ QUIT VAROR_QSREP_AF
+"RTN","XPDK2V0",197,0)
+ ;
+"RTN","XPDK2V0",198,0)
+FORMAT(V) ; Add quotes, replace control characters if necessary; Public $$
+"RTN","XPDK2V0",199,0)
+ ;If numeric, nothing to do.
+"RTN","XPDK2V0",200,0)
+ ;If no encoding required, then return as quoted string.
+"RTN","XPDK2V0",201,0)
+ ;Otherwise, return as an expression with $C()'s and strings.
+"RTN","XPDK2V0",202,0)
+ I +V=V Q V ; If numeric, just return the value.
+"RTN","XPDK2V0",203,0)
+ N QT S QT="""" ; Quote
+"RTN","XPDK2V0",204,0)
+ I $F(V,QT) D     ;chk if V contains any Quotes
+"RTN","XPDK2V0",205,0)
+ . N P S P=0          ;position pointer into V
+"RTN","XPDK2V0",206,0)
+ . F  S P=$F(V,QT,P) Q:'P  D  ;find next "
+"RTN","XPDK2V0",207,0)
+ . . S $E(V,P-1)=QT_QT        ;double each "
+"RTN","XPDK2V0",208,0)
+ . . S P=P+1                  ;skip over new "
+"RTN","XPDK2V0",209,0)
+ I $$CCC(V) D  Q V  ; If control character is present do this and quit
+"RTN","XPDK2V0",210,0)
+ . S V=$$RCC(QT_V_QT)  ; Replace control characters in "V"
+"RTN","XPDK2V0",211,0)
+ . S:$E(V,1,3)="""""_" $E(V,1,3)="" ; Replace doubled up quotes at start
+"RTN","XPDK2V0",212,0)
+ . N L S L=$L(V) S:$E(V,L-2,L)="_""""" $E(V,L-2,L)="" ; Replace doubled up quotes at end
+"RTN","XPDK2V0",213,0)
+ Q QT_V_QT ; If no control charactrrs, quit with "V"
+"RTN","XPDK2V0",214,0)
+ ;
+"RTN","XPDK2V0",215,0)
+CCC(S) ;test if S Contains a Control Character or $C(255); Public $$
+"RTN","XPDK2V0",216,0)
+ Q:S?.E1C.E 1
+"RTN","XPDK2V0",217,0)
+ Q:$F(S,$C(255)) 1
+"RTN","XPDK2V0",218,0)
+ Q 0
+"RTN","XPDK2V0",219,0)
+ ;
+"RTN","XPDK2V0",220,0)
+RCC(NA) ;Replace control chars in NA with $C( ). Returns encoded string; Public $$
+"RTN","XPDK2V0",221,0)
+ Q:'$$CCC(NA) NA                         ;No embedded ctrl chars
+"RTN","XPDK2V0",222,0)
+ N OUT S OUT=""                          ;holds output name
+"RTN","XPDK2V0",223,0)
+ N CC S CC=0                             ;count ctrl chars in $C(
+"RTN","XPDK2V0",224,0)
+ N C255 S C255=$C(255)                   ;$C(255) which Mumps may not classify as a Control
+"RTN","XPDK2V0",225,0)
+ N C                                     ;temp hold each char
+"RTN","XPDK2V0",226,0)
+ N I F I=1:1:$L(NA) S C=$E(NA,I) D           ;for each char C in NA
+"RTN","XPDK2V0",227,0)
+ . I C'?1C,C'=C255 D  S OUT=OUT_C Q      ;not a ctrl char
+"RTN","XPDK2V0",228,0)
+ . . I CC S OUT=OUT_")_""",CC=0          ;close up $C(... if one is open
+"RTN","XPDK2V0",229,0)
+ . I CC D
+"RTN","XPDK2V0",230,0)
+ . . I CC=256 S OUT=OUT_")_$C("_$A(C),CC=0  ;max args in one $C(
+"RTN","XPDK2V0",231,0)
+ . . E  S OUT=OUT_","_$A(C)              ;add next ctrl char to $C(
+"RTN","XPDK2V0",232,0)
+ . E  S OUT=OUT_"""_$C("_$A(C)
+"RTN","XPDK2V0",233,0)
+ . S CC=CC+1
+"RTN","XPDK2V0",234,0)
+ . Q
+"RTN","XPDK2V0",235,0)
+ Q OUT
+"RTN","XPDK2V0",236,0)
+ ;
+"RTN","XPDK2V0",237,0)
+TEST D EN^XTMUNIT($T(+0),1,1) QUIT
+"RTN","XPDK2V0",238,0)
+T1 ; @TEST subscript substitutions
+"RTN","XPDK2V0",239,0)
+ D CHKEQ^XTMUNIT($$SUBNAME($NA(^DIPT(2332,0)),1,"IEN"),"^DIPT(IEN,0)")
+"RTN","XPDK2V0",240,0)
+ D CHKEQ^XTMUNIT($$SUBNAME($NA(^DIPT("A",123,0)),2,"IEN"),"^DIPT(""A"",IEN,0)")
+"RTN","XPDK2V0",241,0)
+ QUIT
+"RTN","XPDK2V0",242,0)
+ ;
+"RTN","XPDK2V0",243,0)
+RED(X) ; Convenience method for Sam to see things on the screen.
+"RTN","XPDK2V0",244,0)
+ Q $C(27)_"[41;1m"_X_$C(27)_"[0m"
+"RTN","XPDK2V0",245,0)
+ ;
+"RTN","XPDK2V1")
+0^2^B25126356
+"RTN","XPDK2V1",1,0)
+XPDK2V1 ; VEN/SMH - Analyze KIDS file and extract information ;2014-03-18  11:57 AM
+"RTN","XPDK2V1",2,0)
+ ;;8.0;KERNEL;**11310**;Mar 28, 2014;Build 4
+"RTN","XPDK2V1",3,0)
+ ; Inspired by the VISTA XML Parser, a State Machine
+"RTN","XPDK2V1",4,0)
+ ; Thank you Dr. Douglas Martin (SAIC/DKM)
+"RTN","XPDK2V1",5,0)
+ ;
+"RTN","XPDK2V1",6,0)
+ ; (C) Sam Habiel 2014, who needs more money than fame (but a rich wife will do!)
+"RTN","XPDK2V1",7,0)
+ ; License: Apache 2
+"RTN","XPDK2V1",8,0)
+ ;
+"RTN","XPDK2V1",9,0)
+ ; Conversion procedure from a VA PM HFS-extracted KIDS (complete):
+"RTN","XPDK2V1",10,0)
+ ;^TMP(28177,1,0)="Released TIU*1*241 SEQ #237" <-- $TXT prepended
+"RTN","XPDK2V1",11,0)
+ ;^TMP(28177,2,0)="Extracted from mail message" <-- this becomes the txt
+"RTN","XPDK2V1",12,0)
+ ;^TMP(28177,3,0)="**KIDS**:TIU*1.0*241^"       <-- $END TXT replaced
+"RTN","XPDK2V1",13,0)
+ ;^TMP(28177,4,0)="" --> becomes $KID append whatever is in 6
+"RTN","XPDK2V1",14,0)
+ ;^TMP(28177,5,0)="**INSTALL NAME**"
+"RTN","XPDK2V1",15,0)
+ ;^TMP(28177,6,0)="TIU*1.0*241"
+"RTN","XPDK2V1",16,0)
+ ;---
+"RTN","XPDK2V1",17,0)
+ ;^TMP(28177,1189,0)="**END**" --> becomes $END KID whatever is in 6
+"RTN","XPDK2V1",18,0)
+ ;^TMP(28177,1190,0)="**END**" --> DELETED
+"RTN","XPDK2V1",19,0)
+ ;
+"RTN","XPDK2V1",20,0)
+ ; A few random notes on various KIDS issues
+"RTN","XPDK2V1",21,0)
+ ; If the original is a mail message, it will looks like this
+"RTN","XPDK2V1",22,0)
+ ;
+"RTN","XPDK2V1",23,0)
+ ; >> Released GMRA*4*44 SEQ #41
+"RTN","XPDK2V1",24,0)
+ ; >> Extracted from mail message
+"RTN","XPDK2V1",25,0)
+ ; >> **KIDS**:GMRA*4.0*44^
+"RTN","XPDK2V1",26,0)
+ ; >>
+"RTN","XPDK2V1",27,0)
+ ; >> **INSTALL NAME** etc..
+"RTN","XPDK2V1",28,0)
+ ; >> kids contents
+"RTN","XPDK2V1",29,0)
+ ; >> **END**
+"RTN","XPDK2V1",30,0)
+ ; >> **END**
+"RTN","XPDK2V1",31,0)
+ ;
+"RTN","XPDK2V1",32,0)
+ ; If the original isn't a PM HFS-extracted KIDS build, but a Straight from
+"RTN","XPDK2V1",33,0)
+ ; KIDS KIDS-build, then the KIDS first line looks like this:
+"RTN","XPDK2V1",34,0)
+ ;
+"RTN","XPDK2V1",35,0)
+ ; >> KIDS Distribution saved on Apr 30, 2013@05:31:47
+"RTN","XPDK2V1",36,0)
+ ; >> OR*371
+"RTN","XPDK2V1",37,0)
+ ; >> **KIDS**:OR*3.0*371^
+"RTN","XPDK2V1",38,0)
+ ; >> <blank line>
+"RTN","XPDK2V1",39,0)
+ ; >> **INSTALL NAME**
+"RTN","XPDK2V1",40,0)
+ ;
+"RTN","XPDK2V1",41,0)
+ ; Multibuilds look like this:
+"RTN","XPDK2V1",42,0)
+ ;
+"RTN","XPDK2V1",43,0)
+ ; >> KIDS Distribution saved on Sep 23, 2011@17:42:57
+"RTN","XPDK2V1",44,0)
+ ; >> IB/PRCA Remedy Ticket Fixes
+"RTN","XPDK2V1",45,0)
+ ; >> **KIDS**:IB*2.0*459^PRCA*4.5*280^
+"RTN","XPDK2V1",46,0)
+ ; >> <blank line>
+"RTN","XPDK2V1",47,0)
+ ; >> **INSTALL NAME**
+"RTN","XPDK2V1",48,0)
+ ; >> text of first KIDS build
+"RTN","XPDK2V1",49,0)
+ ; >> **INSTALL NAME**
+"RTN","XPDK2V1",50,0)
+ ; >> text of second KIDS build
+"RTN","XPDK2V1",51,0)
+ ; >> **END**
+"RTN","XPDK2V1",52,0)
+ ; >> **END**
+"RTN","XPDK2V1",53,0)
+ ;
+"RTN","XPDK2V1",54,0)
+ ; A KIDS sent from another system via KIDS/MM has the following contents.
+"RTN","XPDK2V1",55,0)
+ ;$TXT Created by TESTMASTER,USER at VEN.SMH101.COM  (KIDS) on Thursday, 01/07/14 at 15:55
+"RTN","XPDK2V1",56,0)
+ ; <contents>
+"RTN","XPDK2V1",57,0)
+ ;$END TXT
+"RTN","XPDK2V1",58,0)
+ ;$KID ZZZ*1.0*1
+"RTN","XPDK2V1",59,0)
+ ;**INSTALL NAME**
+"RTN","XPDK2V1",60,0)
+ ; <contents>
+"RTN","XPDK2V1",61,0)
+ ;$END KID ZZZ*1.0*1
+"RTN","XPDK2V1",62,0)
+ ;
+"RTN","XPDK2V1",63,0)
+ANALYZE(RTN,MSGGREF,OPT) ; [PUBLIC] Proc ; Analyze a KIDS file in global MSGGREF. Return in RTN.
+"RTN","XPDK2V1",64,0)
+ ; RTN - Global name - use with subscript indirection.
+"RTN","XPDK2V1",65,0)
+ ; MSGREG - Global passed by name containing message. Use Sub Ind to get data.
+"RTN","XPDK2V1",66,0)
+ ; OPT - Value - Options. Only supported one is "D" - debug. Prints out lines as they are read.
+"RTN","XPDK2V1",67,0)
+ ;
+"RTN","XPDK2V1",68,0)
+ N CREF ; Current global reference
+"RTN","XPDK2V1",69,0)
+ N START,STATE,LINE,BUILD
+"RTN","XPDK2V1",70,0)
+ S STATE="BEGIN"
+"RTN","XPDK2V1",71,0)
+ N EOD S EOD=0 ; End of Document
+"RTN","XPDK2V1",72,0)
+ S CREF=MSGGREF ; Current reference for $Q
+"RTN","XPDK2V1",73,0)
+ N QL S QL=$QL(MSGGREF) ; QL of original global for quit next line.
+"RTN","XPDK2V1",74,0)
+ F  QUIT:EOD  D SEEK() QUIT:EOD  D @STATE  ; CENTRAL READING LOOP
+"RTN","XPDK2V1",75,0)
+ QUIT
+"RTN","XPDK2V1",76,0)
+ ;
+"RTN","XPDK2V1",77,0)
+ ; === REST OF EP'S ARE PRIVATE ===
+"RTN","XPDK2V1",78,0)
+ ;
+"RTN","XPDK2V1",79,0)
+SEEK(NOTRIM) ; Get next line
+"RTN","XPDK2V1",80,0)
+ ; ZEXCEPT: CREF,EOD,LINE,QL - Newd above
+"RTN","XPDK2V1",81,0)
+ ; ZEXCEPT: MSGGREF,OPT - Params
+"RTN","XPDK2V1",82,0)
+ S CREF=$QUERY(@CREF)
+"RTN","XPDK2V1",83,0)
+ I CREF="" S EOD=1 QUIT
+"RTN","XPDK2V1",84,0)
+ I $NA(@CREF,QL)'=$NA(@MSGGREF,QL) S EOD=1 QUIT  ; $Q went beyond deep end.
+"RTN","XPDK2V1",85,0)
+ S LINE=@CREF
+"RTN","XPDK2V1",86,0)
+ I '$G(NOTRIM) S LINE=$$TRIM^XLFSTR(LINE,"R") ; Remove the spaces from the right
+"RTN","XPDK2V1",87,0)
+ I $G(OPT)["D" WRITE LINE,! ; Debug mode
+"RTN","XPDK2V1",88,0)
+ QUIT
+"RTN","XPDK2V1",89,0)
+ ;
+"RTN","XPDK2V1",90,0)
+BEGIN ; Begin State
+"RTN","XPDK2V1",91,0)
+ ; ZEXCEPT: LINE,STATE
+"RTN","XPDK2V1",92,0)
+ D SEEK() ; Second line; first line already read. Discard both.
+"RTN","XPDK2V1",93,0)
+ S STATE="KIDSSS"
+"RTN","XPDK2V1",94,0)
+ QUIT
+"RTN","XPDK2V1",95,0)
+ ;
+"RTN","XPDK2V1",96,0)
+KIDSSS ; Process **KIDS**
+"RTN","XPDK2V1",97,0)
+ ; ZEXCEPT: LINE,STATE,RTN
+"RTN","XPDK2V1",98,0)
+ D ASSERT($E(LINE,1,8)="**KIDS**")
+"RTN","XPDK2V1",99,0)
+ N BUILDS S BUILDS=$P(LINE,"**KIDS**:",2)    ; Get the builds (even just one)
+"RTN","XPDK2V1",100,0)
+ N I,BUILD F I=1:1:$L(BUILDS,U) S BUILD=$P(BUILDS,U,I) Q:BUILD=""  S @RTN@(BUILD,0)=BUILD  ; Put them into an array
+"RTN","XPDK2V1",101,0)
+ D SEEK()                             ; Get rid of the blank line next.
+"RTN","XPDK2V1",102,0)
+ S STATE="INSTLNM"                    ; Move to process **INSTALL NAME**
+"RTN","XPDK2V1",103,0)
+ QUIT
+"RTN","XPDK2V1",104,0)
+ ;
+"RTN","XPDK2V1",105,0)
+INSTLNM ; Process **INSTALL NAME**
+"RTN","XPDK2V1",106,0)
+ ; ZEXCEPT: LINE,STATE,RTN,BUILD
+"RTN","XPDK2V1",107,0)
+ D ASSERT($E(LINE,1,$L("**INSTALL NAME**"))="**INSTALL NAME**")
+"RTN","XPDK2V1",108,0)
+ N OLDLINE S OLDLINE=LINE             ; Just preserve this for convenience
+"RTN","XPDK2V1",109,0)
+ D SEEK()                             ; Get the install Name
+"RTN","XPDK2V1",110,0)
+ S BUILD=LINE                         ; Build name. Build var is shared below.
+"RTN","XPDK2V1",111,0)
+ D ASSERT($D(@RTN@(BUILD)))           ; Must exist from KIDSSS
+"RTN","XPDK2V1",112,0)
+ S @RTN@(BUILD,1)="$KID "_BUILD       ; Build name
+"RTN","XPDK2V1",113,0)
+ S @RTN@(BUILD,2)=OLDLINE             ; **INSTALL NAME**
+"RTN","XPDK2V1",114,0)
+ S @RTN@(BUILD,3)=LINE                ; Actual build name
+"RTN","XPDK2V1",115,0)
+ S STATE="ZERO"                       ; Build file zero node
+"RTN","XPDK2V1",116,0)
+ QUIT
+"RTN","XPDK2V1",117,0)
+ ;
+"RTN","XPDK2V1",118,0)
+ZERO ; Process the ZERO node of the Build
+"RTN","XPDK2V1",119,0)
+ ; ZEXCEPT: LINE,STATE,RTN,BUILD
+"RTN","XPDK2V1",120,0)
+ D ASSERT(LINE?1"""BLD"","1.N1",0)")         ; Must look like "BLD",8190,0)
+"RTN","XPDK2V1",121,0)
+ N NS S NS=$O(@RTN@(BUILD," "),-1)+1         ; Next sub
+"RTN","XPDK2V1",122,0)
+ S @RTN@(BUILD,NS)=LINE                      ; Load this
+"RTN","XPDK2V1",123,0)
+ D SEEK()                                    ; Get next line
+"RTN","XPDK2V1",124,0)
+ S @RTN@(BUILD,NS+1)=LINE                    ; Load this... BUT...
+"RTN","XPDK2V1",125,0)
+ S @RTN@(BUILD,0)=LINE                       ; Put it also on our zero node
+"RTN","XPDK2V1",126,0)
+ S STATE="CONTENT"                           ; Load the rest of it.
+"RTN","XPDK2V1",127,0)
+ QUIT
+"RTN","XPDK2V1",128,0)
+ ;
+"RTN","XPDK2V1",129,0)
+CONTENT ; Process Content of KIDS build
+"RTN","XPDK2V1",130,0)
+ ; ZEXCEPT: BUILD,EOD,INSTLNM,LINE,RTN
+"RTN","XPDK2V1",131,0)
+ ; TODO: Load whether this is Multi-build or not from zero node.
+"RTN","XPDK2V1",132,0)
+ N NS S NS=$O(@RTN@(BUILD," "),-1)+1         ; Next sub
+"RTN","XPDK2V1",133,0)
+ ;
+"RTN","XPDK2V1",134,0)
+ ; If we had reverse $QUERY on GT.M, I won't need to use Goto. I can go back a line.
+"RTN","XPDK2V1",135,0)
+ I LINE="**INSTALL NAME**" DO  GOTO INSTLNM  ; Goto b/c we don't want to go back to SEEK in the main loop.
+"RTN","XPDK2V1",136,0)
+ . S @RTN@(BUILD,NS)="$END KID "_BUILD       ; End this build
+"RTN","XPDK2V1",137,0)
+ ;
+"RTN","XPDK2V1",138,0)
+ I LINE="**END**" DO  S EOD=1 QUIT           ; End this build and stop reading the KIDS file
+"RTN","XPDK2V1",139,0)
+ . S @RTN@(BUILD,NS)="$END KID "_BUILD       ; End this build
+"RTN","XPDK2V1",140,0)
+ ;
+"RTN","XPDK2V1",141,0)
+ S @RTN@(BUILD,NS)=LINE                      ; Just read the line
+"RTN","XPDK2V1",142,0)
+ QUIT
+"RTN","XPDK2V1",143,0)
+ ;
+"RTN","XPDK2V1",144,0)
+NOP ; No-Op State - Just use for debugging
+"RTN","XPDK2V1",145,0)
+ ; ZEXCEPT: LINE
+"RTN","XPDK2V1",146,0)
+ W LINE,!
+"RTN","XPDK2V1",147,0)
+ QUIT
+"RTN","XPDK2V1",148,0)
+ ;
+"RTN","XPDK2V1",149,0)
+ASSERT(X,Y) ; Assertion engine
+"RTN","XPDK2V1",150,0)
+ I 'X D EN^DDIOL($G(Y)) S $EC=",U-ASSERTION-ERROR,"
+"RTN","XPDK2V1",151,0)
+ QUIT
+"RTN","XPDK2V1",152,0)
+ ;
+"RTN","XPDK2V1",153,0)
+RED(X) ; Convenience method for Sam to see things on the screen.
+"RTN","XPDK2V1",154,0)
+ Q $C(27)_"[41;1m"_X_$C(27)_"[0m"
+"RTN","XPDK2V1",155,0)
+ ;
+"RTN","XPDK2V1",156,0)
+ ;
+"RTN","XPDK2V1",157,0)
+ ;
+"RTN","XPDK2VC")
+0^3^B189402324
+"RTN","XPDK2VC",1,0)
+XPDK2VC ; VEN/SMH - KIDS to Version Control Main Routine ; 1 Sep 2014
+"RTN","XPDK2VC",2,0)
+ ;;8.0;KERNEL;**11310**;Mar 28, 2014;Build 4
+"RTN","XPDK2VC",3,0)
+ ;
+"RTN","XPDK2VC",4,0)
+ ; (C) Sam Habiel 2014, who needs more money than fame (but a rich wife will do!)
+"RTN","XPDK2VC",5,0)
+ ; License: Apache 2
+"RTN","XPDK2VC",6,0)
+ ;
+"RTN","XPDK2VC",7,0)
+EXPORT(XPDFAIL,SN,ROOT) ; Export KIDS patch to the File system
+"RTN","XPDK2VC",8,0)
+ ; .XPDFAIL = Catch failures
+"RTN","XPDK2VC",9,0)
+ ; SN = Short name for Global
+"RTN","XPDK2VC",10,0)
+ ; ROOT = File system Root
+"RTN","XPDK2VC",11,0)
+ ;
+"RTN","XPDK2VC",12,0)
+ ; Obtain patch descriptor
+"RTN","XPDK2VC",13,0)
+ N PD  ; PATCH DESCRIPTOR
+"RTN","XPDK2VC",14,0)
+ N BLDIEN S BLDIEN=$O(@SN@("BLD",""))
+"RTN","XPDK2VC",15,0)
+ N Z S Z=$G(@SN@("BLD",BLDIEN,0))
+"RTN","XPDK2VC",16,0)
+ I Z="" S $EC=",U-INVALID-BUILD,"
+"RTN","XPDK2VC",17,0)
+ S PD=$P(Z,U)
+"RTN","XPDK2VC",18,0)
+ ;
+"RTN","XPDK2VC",19,0)
+ ; Clean the short name for the global -- REMOVE NUMERIC SUBS
+"RTN","XPDK2VC",20,0)
+ N PARS S PARS=$P(SN,"(",2,99) ; Take the ( out and leave the rest
+"RTN","XPDK2VC",21,0)
+ S PARS=$E(PARS,1,$L(PARS)-1)   ; take the ) out
+"RTN","XPDK2VC",22,0)
+ N Q S Q=""""
+"RTN","XPDK2VC",23,0)
+ N I F I=1:1:$QL(SN) I +$QS(SN,I) S $P(PARS,",",I)=Q_PD_Q  ; Replace number with PD
+"RTN","XPDK2VC",24,0)
+ ;
+"RTN","XPDK2VC",25,0)
+ N OLDSN S OLDSN=SN
+"RTN","XPDK2VC",26,0)
+ S SN=$QS(OLDSN,0)_"("_PARS_")"
+"RTN","XPDK2VC",27,0)
+ M @SN=@OLDSN
+"RTN","XPDK2VC",28,0)
+ K OLDSN,I,Q,PARS ; removed unneeded vars from job
+"RTN","XPDK2VC",29,0)
+ ;
+"RTN","XPDK2VC",30,0)
+ ; Set XPDFAIL to a default value...
+"RTN","XPDK2VC",31,0)
+ S XPDFAIL=0  ; We didn't fail (yet)!
+"RTN","XPDK2VC",32,0)
+ ;
+"RTN","XPDK2VC",33,0)
+ ; Make directory for exporting KIDS compoents
+"RTN","XPDK2VC",34,0)
+ N D S D=$$D^XPDOS() ; Delimiter
+"RTN","XPDK2VC",35,0)
+ I $E(ROOT,$L(ROOT))'=D S ROOT=ROOT_D ; Add directory delimiter to end if necessary
+"RTN","XPDK2VC",36,0)
+ ;
+"RTN","XPDK2VC",37,0)
+ N PD4FS S PD4FS=$TR(PD,"*","_") ; Package descriptor fur filesystem; like OSEHRA one.
+"RTN","XPDK2VC",38,0)
+ I ROOT'[PD4FS S ROOT=ROOT_PD4FS_D
+"RTN","XPDK2VC",39,0)
+ S ROOT=ROOT_"KIDComponents"_D
+"RTN","XPDK2VC",40,0)
+ ;
+"RTN","XPDK2VC",41,0)
+ ; Crazy dance for Windoze!
+"RTN","XPDK2VC",42,0)
+ N % S %=$$MKDIR^XPDOS(ROOT)
+"RTN","XPDK2VC",43,0)
+ I % D EN^DDIOL($$RED("Couldn't create KIDCommponents directory")) QUIT
+"RTN","XPDK2VC",44,0)
+ N % S %=$$RM^XPDOS(ROOT)
+"RTN","XPDK2VC",45,0)
+ I % D EN^DDIOL($$RED("Deletion of current directory contents failed")) QUIT
+"RTN","XPDK2VC",46,0)
+ ;
+"RTN","XPDK2VC",47,0)
+ N % S %=$$MKDIR^XPDOS(ROOT)
+"RTN","XPDK2VC",48,0)
+ I % D EN^DDIOL($$RED("Couldn't create KIDCommponents directory")) QUIT
+"RTN","XPDK2VC",49,0)
+ ;
+"RTN","XPDK2VC",50,0)
+ ; Say that we are exporting
+"RTN","XPDK2VC",51,0)
+ N MSG S MSG(1)="Exporting Patch "_PD
+"RTN","XPDK2VC",52,0)
+ S MSG(1,"F")="!!!!!"
+"RTN","XPDK2VC",53,0)
+ S MSG(2)="Exporting at "_ROOT
+"RTN","XPDK2VC",54,0)
+ S MSG(2,"F")="!"
+"RTN","XPDK2VC",55,0)
+ D EN^DDIOL(.MSG)
+"RTN","XPDK2VC",56,0)
+ ;
+"RTN","XPDK2VC",57,0)
+ ; Stanza to process each component of loaded global
+"RTN","XPDK2VC",58,0)
+ ; I $D(^XTMP("K2VC",PD,"DATA")) BREAK
+"RTN","XPDK2VC",59,0)
+ ; BLD - Build
+"RTN","XPDK2VC",60,0)
+ D GENOUT(.XPDFAIL,$NA(@SN@("BLD")),ROOT,"Build.zwr",4,"IEN") ; Process BUILD Section
+"RTN","XPDK2VC",61,0)
+ I XPDFAIL D EN^DDIOL($$RED("Couldn't export BLD")) QUIT
+"RTN","XPDK2VC",62,0)
+ K @SN@("BLD")
+"RTN","XPDK2VC",63,0)
+ D ASSERT('XPDFAIL)
+"RTN","XPDK2VC",64,0)
+ ;
+"RTN","XPDK2VC",65,0)
+ ; FIA, ^DD, ^DIC, SEC, DATA, FR* nodes
+"RTN","XPDK2VC",66,0)
+ D FIA^XPDK2V0(.XPDFAIL,SN,ROOT)                  ; All file components (DD + data)... Killing done internally.
+"RTN","XPDK2VC",67,0)
+ I XPDFAIL D EN^DDIOL($$RED("Couldn't export FIA, ^DD, ^DIC, SEC, DATA, FR*")) QUIT
+"RTN","XPDK2VC",68,0)
+ D ASSERT('XPDFAIL)
+"RTN","XPDK2VC",69,0)
+ ;
+"RTN","XPDK2VC",70,0)
+ ; PKG - Package
+"RTN","XPDK2VC",71,0)
+ D GENOUT(.XPDFAIL,$NA(@SN@("PKG")),ROOT,"Package.zwr",4,"IEN")
+"RTN","XPDK2VC",72,0)
+ I XPDFAIL D EN^DDIOL($$RED("Couldn't export PKG")) QUIT
+"RTN","XPDK2VC",73,0)
+ K @SN@("PKG")
+"RTN","XPDK2VC",74,0)
+ D ASSERT('XPDFAIL)
+"RTN","XPDK2VC",75,0)
+ ;
+"RTN","XPDK2VC",76,0)
+ ; VER - Kernel and Fileman Versions
+"RTN","XPDK2VC",77,0)
+ D GENOUT(.XPDFAIL,$NA(@SN@("VER")),ROOT,"KernelFMVersion.zwr")
+"RTN","XPDK2VC",78,0)
+ I XPDFAIL D EN^DDIOL($$RED("Couldn't export VER")) QUIT
+"RTN","XPDK2VC",79,0)
+ K @SN@("VER")
+"RTN","XPDK2VC",80,0)
+ D ASSERT('XPDFAIL)
+"RTN","XPDK2VC",81,0)
+ ;
+"RTN","XPDK2VC",82,0)
+ ; PRE - Env Check
+"RTN","XPDK2VC",83,0)
+ D GENOUT(.XPDFAIL,$NA(@SN@("PRE")),ROOT,"EnvironmentCheck.zwr")
+"RTN","XPDK2VC",84,0)
+ I XPDFAIL D EN^DDIOL($$RED("Couldn't export PRE")) QUIT
+"RTN","XPDK2VC",85,0)
+ K @SN@("PRE")
+"RTN","XPDK2VC",86,0)
+ D ASSERT('XPDFAIL)
+"RTN","XPDK2VC",87,0)
+ ;
+"RTN","XPDK2VC",88,0)
+ ; INI - Pre-Init
+"RTN","XPDK2VC",89,0)
+ D GENOUT(.XPDFAIL,$NA(@SN@("INI")),ROOT,"PreInit.zwr")
+"RTN","XPDK2VC",90,0)
+ I XPDFAIL D EN^DDIOL($$RED("Couldn't export INI")) QUIT
+"RTN","XPDK2VC",91,0)
+ K @SN@("INI")
+"RTN","XPDK2VC",92,0)
+ D ASSERT('XPDFAIL)
+"RTN","XPDK2VC",93,0)
+ ;
+"RTN","XPDK2VC",94,0)
+ ; INIT - Post-Install
+"RTN","XPDK2VC",95,0)
+ D GENOUT(.XPDFAIL,$NA(@SN@("INIT")),ROOT,"PostInstall.zwr")
+"RTN","XPDK2VC",96,0)
+ I XPDFAIL D EN^DDIOL($$RED("Couldn't export INIT")) QUIT
+"RTN","XPDK2VC",97,0)
+ K @SN@("INIT")
+"RTN","XPDK2VC",98,0)
+ D ASSERT('XPDFAIL)
+"RTN","XPDK2VC",99,0)
+ ;
+"RTN","XPDK2VC",100,0)
+ ; MBREQ - Required Build
+"RTN","XPDK2VC",101,0)
+ D GENOUT(.XPDFAIL,$NA(@SN@("MBREQ")),ROOT,"RequiredBuild.zwr")
+"RTN","XPDK2VC",102,0)
+ I XPDFAIL D EN^DDIOL($$RED("Couldn't export MBREQ")) QUIT
+"RTN","XPDK2VC",103,0)
+ K @SN@("MBREQ")
+"RTN","XPDK2VC",104,0)
+ D ASSERT('XPDFAIL)
+"RTN","XPDK2VC",105,0)
+ ;
+"RTN","XPDK2VC",106,0)
+ ; QUES - Install Questions
+"RTN","XPDK2VC",107,0)
+ D GENOUT(.XPDFAIL,$NA(@SN@("QUES")),ROOT,"InstallQuestions.zwr")
+"RTN","XPDK2VC",108,0)
+ I XPDFAIL D EN^DDIOL($$RED("Couldn't export QUES")) QUIT
+"RTN","XPDK2VC",109,0)
+ K @SN@("QUES")
+"RTN","XPDK2VC",110,0)
+ D ASSERT('XPDFAIL)
+"RTN","XPDK2VC",111,0)
+ ;
+"RTN","XPDK2VC",112,0)
+ ; RTN - Routines
+"RTN","XPDK2VC",113,0)
+ D RTN^XPDK2V0(.XPDFAIL,$NA(@SN@("RTN")),ROOT)
+"RTN","XPDK2VC",114,0)
+ I XPDFAIL D EN^DDIOL($$RED("Couldn't export RTN")) QUIT
+"RTN","XPDK2VC",115,0)
+ D ASSERT('XPDFAIL)
+"RTN","XPDK2VC",116,0)
+ ; Kill is done in RTN
+"RTN","XPDK2VC",117,0)
+ ;
+"RTN","XPDK2VC",118,0)
+ ; KRN and ORD - Kernel Components
+"RTN","XPDK2VC",119,0)
+ D KRN(.XPDFAIL,SN,ROOT)
+"RTN","XPDK2VC",120,0)
+ I XPDFAIL D EN^DDIOL($$RED("Couldn't export KRN")) QUIT
+"RTN","XPDK2VC",121,0)
+ D ASSERT('XPDFAIL)
+"RTN","XPDK2VC",122,0)
+ ; Kill is done in KRN
+"RTN","XPDK2VC",123,0)
+ ;
+"RTN","XPDK2VC",124,0)
+ ; TEMP - Transport Global
+"RTN","XPDK2VC",125,0)
+ D GENOUT(.XPDFAIL,$NA(@SN@("TEMP")),ROOT,"TransportGlobal.zwr")
+"RTN","XPDK2VC",126,0)
+ I XPDFAIL D EN^DDIOL($$RED("Couldn't export TEMP")) QUIT
+"RTN","XPDK2VC",127,0)
+ K @SN@("TEMP")
+"RTN","XPDK2VC",128,0)
+ D ASSERT('XPDFAIL)
+"RTN","XPDK2VC",129,0)
+ ;
+"RTN","XPDK2VC",130,0)
+ ; Make sure that the XTMP global is now empty. If there is anything there, we have a problem.
+"RTN","XPDK2VC",131,0)
+ D ASSERT('$D(@SN))
+"RTN","XPDK2VC",132,0)
+ ;
+"RTN","XPDK2VC",133,0)
+ QUIT
+"RTN","XPDK2VC",134,0)
+ ;
+"RTN","XPDK2VC",135,0)
+ ;
+"RTN","XPDK2VC",136,0)
+GENOUT(FAIL,EXGLO,ROOT,FN,QLSUB,SUBNAME) ; Generic Exporter
+"RTN","XPDK2VC",137,0)
+ ; .FAIL - Output to tell us if we failed
+"RTN","XPDK2VC",138,0)
+ ; EXGLO - Global NAME (use $NA) to export
+"RTN","XPDK2VC",139,0)
+ ; ROOT - File system root where to write the file
+"RTN","XPDK2VC",140,0)
+ ; FN - File name
+"RTN","XPDK2VC",141,0)
+ ; QLSUB - Substitute this nth subscript WITH...
+"RTN","XPDK2VC",142,0)
+ ; SUBNAME - ...subname
+"RTN","XPDK2VC",143,0)
+ ;
+"RTN","XPDK2VC",144,0)
+ I '$D(@EXGLO) QUIT  ; No data to export
+"RTN","XPDK2VC",145,0)
+ ;
+"RTN","XPDK2VC",146,0)
+ N POP
+"RTN","XPDK2VC",147,0)
+ D OPEN^%ZISH("EXPORT",ROOT,FN,"W")
+"RTN","XPDK2VC",148,0)
+ I POP S FAIL=1 QUIT
+"RTN","XPDK2VC",149,0)
+ U IO
+"RTN","XPDK2VC",150,0)
+ D ZWRITE(EXGLO,$G(QLSUB),$G(SUBNAME))
+"RTN","XPDK2VC",151,0)
+ D CLOSE^%ZISH("EXPORT")
+"RTN","XPDK2VC",152,0)
+ D EN^DDIOL("Wrote "_FN)
+"RTN","XPDK2VC",153,0)
+ QUIT
+"RTN","XPDK2VC",154,0)
+ ;
+"RTN","XPDK2VC",155,0)
+ ;
+"RTN","XPDK2VC",156,0)
+ ;
+"RTN","XPDK2VC",157,0)
+ ;
+"RTN","XPDK2VC",158,0)
+KRN(FAIL,KIDGLO,ROOT) ; Print OPT and KRN sections
+"RTN","XPDK2VC",159,0)
+ ; .FAIL - Output. Did we fail? Mostly b/c of filesystem issues.
+"RTN","XPDK2VC",160,0)
+ ; KIDGLO - The KIDS global (not a sub). Use $NA to pass this.
+"RTN","XPDK2VC",161,0)
+ ; ROOT - File system root where we are gonna export.
+"RTN","XPDK2VC",162,0)
+ N POP
+"RTN","XPDK2VC",163,0)
+ N ORD S ORD="" F  S ORD=$O(@KIDGLO@("ORD",ORD)) Q:ORD=""  D  Q:$G(POP)    ; For each item in ORD
+"RTN","XPDK2VC",164,0)
+ . N FNUM S FNUM=$O(@KIDGLO@("ORD",ORD,0))                                 ; File Number
+"RTN","XPDK2VC",165,0)
+ . N FNAM S FNAM=^(FNUM,0) ; **NAKED to above line**                       ; File Name
+"RTN","XPDK2VC",166,0)
+ . N PATH S PATH=ROOT_FNAM_$$D^XPDOS()                                    ; Path to export to
+"RTN","XPDK2VC",167,0)
+ . S POP=$$MKDIR^XPDOS(PATH)                                              ; Mk dir for the specific component
+"RTN","XPDK2VC",168,0)
+ . I POP D EN^DDIOL($$RED("Couldn't create directory")) S FAIL=1 QUIT      ;
+"RTN","XPDK2VC",169,0)
+ . D OPEN^%ZISH("ORD",PATH,"ORD.zwr","W")                                  ; Order Nodes
+"RTN","XPDK2VC",170,0)
+ . I POP S FAIL=1 QUIT                                                     ; Open failed
+"RTN","XPDK2VC",171,0)
+ . U IO                                                                    ;
+"RTN","XPDK2VC",172,0)
+ . D ZWRITE($NA(@KIDGLO@("ORD",ORD,FNUM)))                                 ; Zwrite the ORD node
+"RTN","XPDK2VC",173,0)
+ . D CLOSE^%ZISH("ORD")                                                    ; Done with ORD
+"RTN","XPDK2VC",174,0)
+ . D EN^DDIOL("Wrote ORD.zwr for "_FNAM)                                   ; Say so
+"RTN","XPDK2VC",175,0)
+ . K @KIDGLO@("ORD",ORD,FNUM)                                              ; KILL this entry
+"RTN","XPDK2VC",176,0)
+ . ;
+"RTN","XPDK2VC",177,0)
+ . N IENQL S IENQL=$QL($NA(@KIDGLO@("KRN",FNUM,0)))                        ; Where is the IEN sub?
+"RTN","XPDK2VC",178,0)
+ . N IEN F IEN=0:0 S IEN=$O(@KIDGLO@("KRN",FNUM,IEN)) Q:'IEN  D  Q:$G(POP)  ; For each Kernel component IEN
+"RTN","XPDK2VC",179,0)
+ . . N ENTRYNAME S ENTRYNAME=$P(@KIDGLO@("KRN",FNUM,IEN,0),U)              ; .01 for the component
+"RTN","XPDK2VC",180,0)
+ . . S ENTRYNAME=$TR(ENTRYNAME,"\/!@#$%^&*()?","-------------")              ; Replace punc with dashes
+"RTN","XPDK2VC",181,0)
+ . . D OPEN^%ZISH("ENT",PATH,ENTRYNAME_".zwr","W")                         ; Open file
+"RTN","XPDK2VC",182,0)
+ . . I POP S FAIL=1 QUIT
+"RTN","XPDK2VC",183,0)
+ . . U IO
+"RTN","XPDK2VC",184,0)
+ . . D ZWRITE($NA(@KIDGLO@("KRN",FNUM,IEN)),IENQL,"IEN") ; Zwrite, replacing the IEN with IEN
+"RTN","XPDK2VC",185,0)
+ . . I FNUM=.403 D FORM(KIDGLO,IEN,IENQL)                     ; Special processing for Forms
+"RTN","XPDK2VC",186,0)
+ . . I FNUM=8989.51 D PARM(KIDGLO,IEN,IENQL)                  ; Special processing for Parameters
+"RTN","XPDK2VC",187,0)
+ . . I FNUM=8989.52 D PARM2(KIDGLO,IEN,IENQL)                 ; Special processing for Parameter templates
+"RTN","XPDK2VC",188,0)
+ . . D CLOSE^%ZISH("ENT")                                     ; Done with this entry
+"RTN","XPDK2VC",189,0)
+ . . D EN^DDIOL("Exported "_ENTRYNAME_".zwr"_" in "_FNAM)     ; Export
+"RTN","XPDK2VC",190,0)
+ . . K @KIDGLO@("KRN",FNUM,IEN)                               ; KILL this entry
+"RTN","XPDK2VC",191,0)
+ QUIT
+"RTN","XPDK2VC",192,0)
+ ;
+"RTN","XPDK2VC",193,0)
+FORM(KIDGLO,IEN,IENQL) ; Export Blocks
+"RTN","XPDK2VC",194,0)
+ N I F I=0:0 S I=$O(@KIDGLO@("KRN",.403,IEN,40,I)) Q:'I  D                 ; Loop thourgh pages
+"RTN","XPDK2VC",195,0)
+ . N J F J=0:0 S J=$O(@KIDGLO@("KRN",.403,IEN,40,I,40,J)) Q:'J  D          ; Loop through blocks
+"RTN","XPDK2VC",196,0)
+ . . N Z S Z=^(J,0)                                                        ; zero node of block
+"RTN","XPDK2VC",197,0)
+ . . N BLNM1 S BLNM1=$P(Z,U)                                               ; its name
+"RTN","XPDK2VC",198,0)
+ . . N BLOCKIEN S BLOCKIEN=$$FNDBLK(KIDGLO,BLNM1)                          ; Block IEN
+"RTN","XPDK2VC",199,0)
+ . . I BLOCKIEN D                                                          ; if found, print it out and then
+"RTN","XPDK2VC",200,0)
+ . . . D ZWRITE($NA(@KIDGLO@("KRN",.404,BLOCKIEN)),IENQL,"IEN")
+"RTN","XPDK2VC",201,0)
+ . . . K @KIDGLO@("KRN",.404,BLOCKIEN)                                     ; delete block
+"RTN","XPDK2VC",202,0)
+ . ;
+"RTN","XPDK2VC",203,0)
+ . ;
+"RTN","XPDK2VC",204,0)
+ . ; Export Header block if there is one...
+"RTN","XPDK2VC",205,0)
+ . N P0 S P0=@KIDGLO@("KRN",.403,IEN,40,I,0)                               ; Page zero node
+"RTN","XPDK2VC",206,0)
+ . N HB S HB=$P(P0,U,2)                                                    ; Header block
+"RTN","XPDK2VC",207,0)
+ . I $L(HB) D                                                              ; If we have it
+"RTN","XPDK2VC",208,0)
+ . . N BLOCKIEN S BLOCKIEN=$$FNDBLK(KIDGLO,HB)                             ; Find its IEN in the Transport Global
+"RTN","XPDK2VC",209,0)
+ . . I BLOCKIEN D                                                          ; Print it out if we found it.
+"RTN","XPDK2VC",210,0)
+ . . . D ZWRITE($NA(@KIDGLO@("KRN",.404,BLOCKIEN)),IENQL,"IEN")            ;
+"RTN","XPDK2VC",211,0)
+ . . . K @KIDGLO@("KRN",.404,BLOCKIEN)                                     ; delete block
+"RTN","XPDK2VC",212,0)
+ QUIT
+"RTN","XPDK2VC",213,0)
+ ;
+"RTN","XPDK2VC",214,0)
+FNDBLK(KIDGLO,BLNM) ; $$; Find a block in the transport global; Return block IEN
+"RTN","XPDK2VC",215,0)
+ N SBN S SBN=""                                                   ; Searched block name
+"RTN","XPDK2VC",216,0)
+ N K F K=0:0 S K=$O(@KIDGLO@("KRN",.404,K)) Q:'K  D  Q:(SBN=BLNM)  ; Now loop through transported blocks
+"RTN","XPDK2VC",217,0)
+ . N Z S Z=^(K,0),SBN=$P(Z,U)                                     ; ...
+"RTN","XPDK2VC",218,0)
+ . Q:(SBN=BLNM)                                                   ; until we find the block with our name
+"RTN","XPDK2VC",219,0)
+ QUIT K
+"RTN","XPDK2VC",220,0)
+ ;
+"RTN","XPDK2VC",221,0)
+PARM(KIDGLO,IEN,IENQL) ; Export Parameter Definitions and Package level parameters exported by KIDS
+"RTN","XPDK2VC",222,0)
+ N PARMNM S PARMNM=$P(@KIDGLO@("KRN",8989.51,IEN,0),U)      ; Get the param name
+"RTN","XPDK2VC",223,0)
+ N PKGPARM D FNDPRM(.PKGPARM,KIDGLO,PARMNM)                 ; Find matching 8989.5 parameters
+"RTN","XPDK2VC",224,0)
+ N J F J=0:0 S J=$O(PKGPARM(J)) Q:'J  D                     ; for each one found
+"RTN","XPDK2VC",225,0)
+ . D ZWRITE($NA(@KIDGLO@("KRN",8989.5,J)),IENQL,"IEN")      ; print it out
+"RTN","XPDK2VC",226,0)
+ . K @KIDGLO@("KRN",8989.5,J)                               ; and then remove it.
+"RTN","XPDK2VC",227,0)
+ QUIT
+"RTN","XPDK2VC",228,0)
+ ;
+"RTN","XPDK2VC",229,0)
+FNDPRM(RTN,KIDGLO,PARMNM) ; Find exported parameters in 8989.5 in the transport global matching PARMNM
+"RTN","XPDK2VC",230,0)
+ ; Turns out there is more than 1... so we have to catch them all...
+"RTN","XPDK2VC",231,0)
+ N I F I=0:0 S I=$O(@KIDGLO@("KRN",8989.5,I)) Q:'I  D
+"RTN","XPDK2VC",232,0)
+ . N Z S Z=^(I,0) ; **NAKED TO ABOVE**
+"RTN","XPDK2VC",233,0)
+ . N THISNAME S THISNAME=$P(Z,U,2)
+"RTN","XPDK2VC",234,0)
+ . I THISNAME=PARMNM S RTN(I)=""
+"RTN","XPDK2VC",235,0)
+ QUIT
+"RTN","XPDK2VC",236,0)
+ ;
+"RTN","XPDK2VC",237,0)
+PARM2(KIDGLO,IEN,IENQL) ; Export Parameters in 8989.51 if sent as part of Parameter templates.
+"RTN","XPDK2VC",238,0)
+ N I F I=0:0 S I=$O(@KIDGLO@("KRN",8989.52,IEN,10,I)) Q:'I  D  ; for each parameter in the set
+"RTN","XPDK2VC",239,0)
+ . N PARMNM S PARMNM=$P(^(I,0),U,2)                            ; Get Parameter name
+"RTN","XPDK2VC",240,0)
+ . N P8989P51 S P8989P51=$$FNDPRM2(KIDGLO,PARMNM)              ; See if it is in 8989.51
+"RTN","XPDK2VC",241,0)
+ . I P8989P51 D                                                ; if so, print and delete from our global
+"RTN","XPDK2VC",242,0)
+ . . D ZWRITE($NA(@KIDGLO@("KRN",8989.51,P8989P51)),IENQL,"IEN")
+"RTN","XPDK2VC",243,0)
+ . . K @KIDGLO@("KRN",8989.51,P8989P51)
+"RTN","XPDK2VC",244,0)
+ QUIT
+"RTN","XPDK2VC",245,0)
+ ;
+"RTN","XPDK2VC",246,0)
+FNDPRM2(KIDGLO,PARMNM) ; $$ ; Find IEN of parameter in 8989.51 matching PARMNM
+"RTN","XPDK2VC",247,0)
+ N OUT S OUT=0
+"RTN","XPDK2VC",248,0)
+ N I F I=0:0 S I=$O(@KIDGLO@("KRN",8989.51,I)) Q:'I  D  Q:OUT
+"RTN","XPDK2VC",249,0)
+ . N NM S NM=$P(^(I,0),U)
+"RTN","XPDK2VC",250,0)
+ . I NM=PARMNM S OUT=I
+"RTN","XPDK2VC",251,0)
+ QUIT OUT
+"RTN","XPDK2VC",252,0)
+ ;
+"RTN","XPDK2VC",253,0)
+EXPKIDIN ; [PUBLIC] Procedure; Interactive dialog with User to export a single build
+"RTN","XPDK2VC",254,0)
+ N DIC
+"RTN","XPDK2VC",255,0)
+ N X,Y,DIRUT,DIROUT
+"RTN","XPDK2VC",256,0)
+ S DIC(0)="AEMQ",DIC=9.6,DIC("S")="I $P(^(0),U,3)'[12" D ^DIC
+"RTN","XPDK2VC",257,0)
+ N XPDFAIL S XPDFAIL=0
+"RTN","XPDK2VC",258,0)
+ I +Y>0 D EXPKID96(.XPDFAIL,+Y)
+"RTN","XPDK2VC",259,0)
+ QUIT
+"RTN","XPDK2VC",260,0)
+ ;
+"RTN","XPDK2VC",261,0)
+EXPFILIN ; [PUBLIC] Procedure; Interactive export a build based on a file... can do multibuilds
+"RTN","XPDK2VC",262,0)
+ N DIR,DIRUT,DIROUT,X,Y,DTOUT,DA
+"RTN","XPDK2VC",263,0)
+ S DIR(0)="F^1:1000" S DIR("A")="Enter a file to import then break down" D ^DIR
+"RTN","XPDK2VC",264,0)
+ ;
+"RTN","XPDK2VC",265,0)
+ I $D(DIRUT)!($D(DTOUT)) QUIT
+"RTN","XPDK2VC",266,0)
+ I Y="" QUIT
+"RTN","XPDK2VC",267,0)
+ ;
+"RTN","XPDK2VC",268,0)
+ N D S D=$$D^XPDOS()
+"RTN","XPDK2VC",269,0)
+ N DIR,FN
+"RTN","XPDK2VC",270,0)
+ I Y[D S DIR=$P(Y,D,1,$L(Y,D)-1),FN=$P(Y,D,$L(Y,D))
+"RTN","XPDK2VC",271,0)
+ E  S DIR=$$DEFDIR^%ZISH(),FN=Y
+"RTN","XPDK2VC",272,0)
+ ;
+"RTN","XPDK2VC",273,0)
+ K ^TMP("XPDK2VC-OUT",$J),^TMP("XPDK2VC-IN",$J)
+"RTN","XPDK2VC",274,0)
+ ;
+"RTN","XPDK2VC",275,0)
+ N % S %=$$FTG^%ZISH(DIR,FN,$NA(^TMP("XPDK2VC-IN",$J,1,0)),3)
+"RTN","XPDK2VC",276,0)
+ I '% W "FAILED",! QUIT
+"RTN","XPDK2VC",277,0)
+ K %
+"RTN","XPDK2VC",278,0)
+ ;
+"RTN","XPDK2VC",279,0)
+ D ANALYZE^XPDK2V1($NA(^TMP("XPDK2VC-OUT",$J)),$NA(^TMP("XPDK2VC-IN",$J)))
+"RTN","XPDK2VC",280,0)
+ ;
+"RTN","XPDK2VC",281,0)
+ N R S R=$NA(^TMP("XPDK2VC-OUT",$J))
+"RTN","XPDK2VC",282,0)
+ N PD S PD="" F  S PD=$O(@R@(PD)) Q:PD=""  D
+"RTN","XPDK2VC",283,0)
+ . N S S S=$NA(@R@(PD))
+"RTN","XPDK2VC",284,0)
+ . ; Stanza: Find $KID; quit if we can't find it. Otherwise, rem where it is.
+"RTN","XPDK2VC",285,0)
+ . N I,T F I=0:0 S I=$O(@S@(I)) Q:'I  S T=^(I) Q:($E(T,1,4)="$KID")
+"RTN","XPDK2VC",286,0)
+ . I T'["$KID" QUIT
+"RTN","XPDK2VC",287,0)
+ . N SVLN S SVLN=I ; Saved line
+"RTN","XPDK2VC",288,0)
+ . K T
+"RTN","XPDK2VC",289,0)
+ . ;
+"RTN","XPDK2VC",290,0)
+ . ; Get rid of the next two lines (**INSTALL NAME** and its value)
+"RTN","XPDK2VC",291,0)
+ . S SVLN=$O(@S@(SVLN))
+"RTN","XPDK2VC",292,0)
+ . S SVLN=$O(@S@(SVLN))
+"RTN","XPDK2VC",293,0)
+ . ;
+"RTN","XPDK2VC",294,0)
+ . K ^XTMP("K2VC")
+"RTN","XPDK2VC",295,0)
+ . S ^XTMP("K2VC",0)=$$FMADD^XLFDT(DT,1)_U_DT_U_"KIDS to Version Control"
+"RTN","XPDK2VC",296,0)
+ . N L1,L2
+"RTN","XPDK2VC",297,0)
+ . N DONE S DONE=0
+"RTN","XPDK2VC",298,0)
+ . F  D  Q:DONE
+"RTN","XPDK2VC",299,0)
+ . . S L1=$O(@S@(SVLN))  ; first line
+"RTN","XPDK2VC",300,0)
+ . . N L1TXT S L1TXT=^(L1)                   ; its text
+"RTN","XPDK2VC",301,0)
+ . . I $E(L1TXT,1,8)="$END KID" S DONE=1 QUIT  ; quit if we are at the end
+"RTN","XPDK2VC",302,0)
+ . . S L2=$O(@S@(L1))    ; second line
+"RTN","XPDK2VC",303,0)
+ . . N L2TXT S L2TXT=^(L2)                   ; its text
+"RTN","XPDK2VC",304,0)
+ . . S @("^XTMP(""K2VC"",""EXPORT"","_L1TXT)=L2TXT      ; Set our data into our global
+"RTN","XPDK2VC",305,0)
+ . . S SVLN=L2                                 ; move data pointer to last accessed one
+"RTN","XPDK2VC",306,0)
+ . ;
+"RTN","XPDK2VC",307,0)
+ . N XPDFAIL S XPDFAIL=0
+"RTN","XPDK2VC",308,0)
+ . N SN S SN=$NA(^XTMP("K2VC","EXPORT")) ; Short name... I am tired of typing.
+"RTN","XPDK2VC",309,0)
+ . D EXPORT(.XPDFAIL,SN,DIR)
+"RTN","XPDK2VC",310,0)
+ . I XPDFAIL D EN^DDIOL($$RED("A failure has occured"))
+"RTN","XPDK2VC",311,0)
+ QUIT
+"RTN","XPDK2VC",312,0)
+ ;
+"RTN","XPDK2VC",313,0)
+EXPKID96(XPDFAIL,XPDA) ; [PUBLIC] Procedure; Export a KIDS file using Build file definition
+"RTN","XPDK2VC",314,0)
+ ; .XPDFAIL - Did we fail?
+"RTN","XPDK2VC",315,0)
+ ; XPDA - Build file IEN
+"RTN","XPDK2VC",316,0)
+ ; TODO: clean up!!!
+"RTN","XPDK2VC",317,0)
+ ;
+"RTN","XPDK2VC",318,0)
+ S XPDFAIL=0
+"RTN","XPDK2VC",319,0)
+ N Z S Z=$G(^XPD(9.6,XPDA,0))
+"RTN","XPDK2VC",320,0)
+ I 12[$P(Z,U,3) QUIT  ; Multi or Global package; can't do!!! I am fricking primitive.
+"RTN","XPDK2VC",321,0)
+ ;
+"RTN","XPDK2VC",322,0)
+ ; Most of the lines below are copied from KIDS
+"RTN","XPDK2VC",323,0)
+ ;XPDI=name^1=use current transport global
+"RTN","XPDK2VC",324,0)
+ N XPDERR,XPDGREF,XPDNM,XPDVER
+"RTN","XPDK2VC",325,0)
+ N XPDI S XPDI=$P(Z,U)_U
+"RTN","XPDK2VC",326,0)
+ N XPDT S XPDT=0
+"RTN","XPDK2VC",327,0)
+ D PCK^XPDT(XPDA,XPDI)  ; Builds XPDT data structures
+"RTN","XPDK2VC",328,0)
+ S $P(XPDT(1),U,5)=1 ; Don't send package application history (PAH)
+"RTN","XPDK2VC",329,0)
+ ;
+"RTN","XPDK2VC",330,0)
+ S XPDA=XPDT(1),XPDNM=$P(XPDA,U,2) D  G:$D(XPDERR) ABORT^XPDT
+"RTN","XPDK2VC",331,0)
+ . W !?5,XPDNM,"..." S XPDGREF="^XTMP(""XPDT"","_+XPDA_",""TEMP"")"
+"RTN","XPDK2VC",332,0)
+ . ; if package file link then set XPDVER=version number^package name
+"RTN","XPDK2VC",333,0)
+ . S XPDA=+XPDA,XPDVER=$S($P(^XPD(9.6,XPDA,0),U,2):$$VER^XPDUTL(XPDNM)_U_$$PKG^XPDUTL(XPDNM),1:"")
+"RTN","XPDK2VC",334,0)
+ . ;Inc the Build number
+"RTN","XPDK2VC",335,0)
+ . S $P(^XPD(9.6,XPDA,6.3),U)=$G(^XPD(9.6,XPDA,6.3))+1
+"RTN","XPDK2VC",336,0)
+ . K ^XTMP("XPDT",XPDA)
+"RTN","XPDK2VC",337,0)
+ .
+"RTN","XPDK2VC",338,0)
+ . N X F X="DD^XPDTC","KRN^XPDTC","QUES^XPDTC","INT^XPDTC","BLD^XPDTC" D @X Q:$D(XPDERR)
+"RTN","XPDK2VC",339,0)
+ . D:'$D(XPDERR) PRET^XPDT
+"RTN","XPDK2VC",340,0)
+ W !! F XPDT=1:1:XPDT W "Transport Global ^XTMP(""XPDT"","_+XPDT(XPDT)_") created for ",$P(XPDT(XPDT),U,2),!
+"RTN","XPDK2VC",341,0)
+ N XPDFAIL
+"RTN","XPDK2VC",342,0)
+ K ^XTMP("K2VC")
+"RTN","XPDK2VC",343,0)
+ S ^XTMP("K2VC",0)=$$FMADD^XLFDT(DT,1)_U_DT_U_"KIDS to Version Control"
+"RTN","XPDK2VC",344,0)
+ M ^XTMP("K2VC","EXPORT")=^XTMP("XPDT",+XPDT(XPDT))
+"RTN","XPDK2VC",345,0)
+ D EXPORT^XPDK2VC(.XPDFAIL,$NA(^XTMP("K2VC","EXPORT")),$$DEFDIR^%ZISH())
+"RTN","XPDK2VC",346,0)
+ K ^XTMP("XPDT",+XPDT(XPDT)),^XTMP("K2VC")
+"RTN","XPDK2VC",347,0)
+ QUIT
+"RTN","XPDK2VC",348,0)
+ ;
+"RTN","XPDK2VC",349,0)
+ZWRITE(NAME,QS,QSREP) ; Replacement for ZWRITE ; Public Proc
+"RTN","XPDK2VC",350,0)
+ GOTO ZWRITE0^XPDK2V0 ; Moved to extension routine for size
+"RTN","XPDK2VC",351,0)
+ ;
+"RTN","XPDK2VC",352,0)
+RED(X) ; Convenience method for Sam to see things on the screen.
+"RTN","XPDK2VC",353,0)
+ Q $C(27)_"[41;1m"_X_$C(27)_"[0m"
+"RTN","XPDK2VC",354,0)
+ ;
+"RTN","XPDK2VC",355,0)
+TEST D EN^XTMUNIT($T(+0),1,1) QUIT
+"RTN","XPDK2VC",356,0)
+ ;
+"RTN","XPDK2VC",357,0)
+T4 ; @TEST Export components from KIDS itself - TIU
+"RTN","XPDK2VC",358,0)
+ ; Loop through all the TIU patches
+"RTN","XPDK2VC",359,0)
+ N XPDFAIL S XPDFAIL=0
+"RTN","XPDK2VC",360,0)
+ N XPDI S XPDI="TIU"
+"RTN","XPDK2VC",361,0)
+ F  S XPDI=$O(^XPD(9.6,"B",XPDI)) Q:($P(XPDI,"*")'="TIU")  D
+"RTN","XPDK2VC",362,0)
+ . N XPDA S XPDA=$O(^(XPDI,""))
+"RTN","XPDK2VC",363,0)
+ . D EXPKID96(.XPDFAIL,XPDA)
+"RTN","XPDK2VC",364,0)
+ . I XPDFAIL D FAIL^XTMUNIT("Last export didn't work")
+"RTN","XPDK2VC",365,0)
+ QUIT
+"RTN","XPDK2VC",366,0)
+ ;
+"RTN","XPDK2VC",367,0)
+T5 ; @TEST Export components from KIDS itself - MAG
+"RTN","XPDK2VC",368,0)
+ ; Loop through all the TIU patches
+"RTN","XPDK2VC",369,0)
+ N XPDFAIL S XPDFAIL=0
+"RTN","XPDK2VC",370,0)
+ N XPDI S XPDI="MAG"
+"RTN","XPDK2VC",371,0)
+ F  S XPDI=$O(^XPD(9.6,"B",XPDI)) Q:($P(XPDI,"*")'="MAG")  D
+"RTN","XPDK2VC",372,0)
+ . N XPDA S XPDA=$O(^(XPDI,""))
+"RTN","XPDK2VC",373,0)
+ . D EXPKID96(.XPDFAIL,XPDA)
+"RTN","XPDK2VC",374,0)
+ . I XPDFAIL D FAIL^XTMUNIT("Last export didn't work")
+"RTN","XPDK2VC",375,0)
+ QUIT
+"RTN","XPDK2VC",376,0)
+ ;
+"RTN","XPDK2VC",377,0)
+ASSERT(X,Y) ; Internal assertion function
+"RTN","XPDK2VC",378,0)
+ ; N MUNIT S MUNIT=$$INMUNIT()
+"RTN","XPDK2VC",379,0)
+ ; I MUNIT D CHKTF^XTMUNIT(X,$G(Y))
+"RTN","XPDK2VC",380,0)
+ E  I 'X S $EC=",U-ASSERTION-FAILED,"
+"RTN","XPDK2VC",381,0)
+ QUIT
+"RTN","XPDK2VC",382,0)
+ ;
+"RTN","XPDK2VC",383,0)
+INMUNIT() ; Am I being invoked from M-Unit?
+"RTN","XPDK2VC",384,0)
+ N MUNIT S MUNIT=0
+"RTN","XPDK2VC",385,0)
+ N I F I=1:1:$ST I $ST(I,"PLACE")["XTMUNIT" S MUNIT=1
+"RTN","XPDK2VC",386,0)
+ Q MUNIT
+"RTN","XPDK2VC",387,0)
+ ;
+"RTN","XPDOS")
+0^4^B13271785
+"RTN","XPDOS",1,0)
+XPDOS ; VEN/SMH - KIDS Operating System Interface ;2014-03-31  1:27 PM
+"RTN","XPDOS",2,0)
+ ;;8.0;KERNEL;**11310**;Mar 28, 2014;Build 4
+"RTN","XPDOS",3,0)
+ ;
+"RTN","XPDOS",4,0)
+ ; (C) Sam Habiel 2014, who needs more money than fame (but a rich wife will do!)
+"RTN","XPDOS",5,0)
+ ; License: Apache 2
+"RTN","XPDOS",6,0)
+ ;
+"RTN","XPDOS",7,0)
+ ; This routine is not SAC compliant due to use of OS commands
+"RTN","XPDOS",8,0)
+ ;
+"RTN","XPDOS",9,0)
+ ; Routine handles OS commands for Linux and Windows for Cache and GT.M
+"RTN","XPDOS",10,0)
+ ;
+"RTN","XPDOS",11,0)
+MKDIR(DIR) ; [PUBLIC] - $$; mkdir DIR name. Unix output for success and failure.
+"RTN","XPDOS",12,0)
+ ; Construct Command
+"RTN","XPDOS",13,0)
+ N CMD S CMD="mkdir -p '"_DIR_"'" ; mk sure that we take in account spaces ; This is for Unix!!!
+"RTN","XPDOS",14,0)
+ I +$SY=0,$ZVERSION(1)=2 S CMD="mkdir """_DIR_"""" ; Cache/Windows
+"RTN","XPDOS",15,0)
+ ;
+"RTN","XPDOS",16,0)
+ N D S D=$$D() ; File system delimiter
+"RTN","XPDOS",17,0)
+ I $E(DIR,$L(DIR))=D S DIR=$E(DIR,1,$L(DIR)-1) ; Remove trailing slash (forward or backwards). $ZSEARCH cares!
+"RTN","XPDOS",18,0)
+ ;
+"RTN","XPDOS",19,0)
+ ; Special Case for Cache/Windows
+"RTN","XPDOS",20,0)
+ I +$SY=0,$ZSEARCH(DIR)'="" QUIT 0 ; Cache and directory exists; mkdir on Windows returns 1
+"RTN","XPDOS",21,0)
+ ;
+"RTN","XPDOS",22,0)
+ ;
+"RTN","XPDOS",23,0)
+ N OUT ; Exit value of command.
+"RTN","XPDOS",24,0)
+ I +$SY=47 D  ; GT.M
+"RTN","XPDOS",25,0)
+ . O "p":(shell="/bin/sh":command=CMD)::"pipe" U "p" C "p"
+"RTN","XPDOS",26,0)
+ . I +$P($ZV,"V",2)'<6.1 S OUT=$ZCLOSE ; GT.M 6.1+ only returns the status!!
+"RTN","XPDOS",27,0)
+ . E  S OUT=0
+"RTN","XPDOS",28,0)
+ I +$SY=0 S OUT=$ZF(-1,CMD) ; Cache Windows and Unix
+"RTN","XPDOS",29,0)
+ QUIT OUT
+"RTN","XPDOS",30,0)
+ ;
+"RTN","XPDOS",31,0)
+T1 ; @TEST Make a directory
+"RTN","XPDOS",32,0)
+ I +$SY'=47 QUIT
+"RTN","XPDOS",33,0)
+ N D S D=$$D() ; Delimiter
+"RTN","XPDOS",34,0)
+ N % S %=$$MKDIR(D_"tmp"_D_"test"_D_"sam")
+"RTN","XPDOS",35,0)
+ D CHKEQ^XTMUNIT(%,0,"Status of mkdir should be zero")
+"RTN","XPDOS",36,0)
+ I +$SY=0,$ZVERSION(1)=2 QUIT  ; Next test cannot be done in Windows b/c Cache runs as Admin.
+"RTN","XPDOS",37,0)
+ N % S %=$$MKDIR(D_"lksjdfkjsdf"_D)
+"RTN","XPDOS",38,0)
+ D CHKEQ^XTMUNIT(%,1,"Status of failed mkdir should be one")
+"RTN","XPDOS",39,0)
+ QUIT
+"RTN","XPDOS",40,0)
+ ;
+"RTN","XPDOS",41,0)
+RM(DIR) ; [PUBLIC] - $$; rm contents of dir. Unix output for success and failure
+"RTN","XPDOS",42,0)
+ ;
+"RTN","XPDOS",43,0)
+ ; delimiter stuff
+"RTN","XPDOS",44,0)
+ N D S D=$$D() ; File system delimiter
+"RTN","XPDOS",45,0)
+ I $E(DIR,$L(DIR))=D S DIR=$E(DIR,1,$L(DIR)-1) ; Remove trailing slash (forward or backwards). $ZSEARCH cares!
+"RTN","XPDOS",46,0)
+ ;
+"RTN","XPDOS",47,0)
+ ; command
+"RTN","XPDOS",48,0)
+ N CMD S CMD="rm -rf '"_DIR_"'" ; Unix
+"RTN","XPDOS",49,0)
+ I +$SY=0,$ZVERSION(1)=2 S CMD="RMDIR /s /q """_DIR_"""" ; Windows
+"RTN","XPDOS",50,0)
+ ;
+"RTN","XPDOS",51,0)
+ ; operation
+"RTN","XPDOS",52,0)
+ N OUT
+"RTN","XPDOS",53,0)
+ I +$SY=47 D  ; GT.M
+"RTN","XPDOS",54,0)
+ . O "p":(shell="/bin/sh":command=CMD)::"pipe" U "p" C "p"
+"RTN","XPDOS",55,0)
+ . I +$E($ZV,2,99)>6 S OUT=$ZCLOSE ; GT.M starting with 6.1 returns status
+"RTN","XPDOS",56,0)
+ . E  S OUT=0
+"RTN","XPDOS",57,0)
+ I +$SY=0 S OUT=$ZF(-1,CMD) ; Cache
+"RTN","XPDOS",58,0)
+ QUIT OUT
+"RTN","XPDOS",59,0)
+ ;
+"RTN","XPDOS",60,0)
+PWD() ; [PUBLIC] $$ - Current directory
+"RTN","XPDOS",61,0)
+ I +$SY=47 Q $ZD
+"RTN","XPDOS",62,0)
+ I +$SY=0 Q $ZU(168)
+"RTN","XPDOS",63,0)
+ S $EC=",U-M-VM-NOT-SUPPORTED,"
+"RTN","XPDOS",64,0)
+ QUIT  ; Decorative quit
+"RTN","XPDOS",65,0)
+ ;
+"RTN","XPDOS",66,0)
+D() ; [PUBLIC] $$ - Delimiter
+"RTN","XPDOS",67,0)
+ N OS S OS=$$OS^%ZOSV
+"RTN","XPDOS",68,0)
+ I $$UP^XLFSTR(OS)["UNIX" Q "/"
+"RTN","XPDOS",69,0)
+ I $$UP^XLFSTR(OS)["NT" Q "\"
+"RTN","XPDOS",70,0)
+ S $EC=",U-M-VM-NOT-SUPPORTED,"
+"RTN","XPDOS",71,0)
+ QUIT  ; Decorative quit
+"RTN","XPDOS",72,0)
+ ;
+"RTN","XPDOS",73,0)
+CD(ND) ; [PUBLIC] $$ - Change directory
+"RTN","XPDOS",74,0)
+ I +$SY=47 S $ZD=ND Q $$PWD()
+"RTN","XPDOS",75,0)
+ I +$SY=0 N % S %=$ZU(168,ND) Q $$PWD()
+"RTN","XPDOS",76,0)
+ S $EC=",U-M-VM-NOT-SUPPORTED,"
+"RTN","XPDOS",77,0)
+ QUIT  ; Decorative quit
+"RTN","XPDOS",78,0)
+ ;
+"RTN","XPDOS",79,0)
+RDPIPE(RTN,CMD) ; [PUBLIC] $$ - Execute a read only (non-interactive) command as a pipe
+"RTN","XPDOS",80,0)
+ ; Only GT.M gives us a return code from the OS
+"RTN","XPDOS",81,0)
+ I +$SY=47 D  QUIT:(+$P($ZV,"V",2)'<6.1) $ZCLOSE QUIT 0
+"RTN","XPDOS",82,0)
+ . N P S P="pipe"
+"RTN","XPDOS",83,0)
+ . O P:(shell="/bin/sh":command=CMD:PARSE:READONLY)::"pipe"
+"RTN","XPDOS",84,0)
+ . U P
+"RTN","XPDOS",85,0)
+ . N CNT S CNT=1
+"RTN","XPDOS",86,0)
+ . N X F  R X:1 Q:$ZEOF  U $P D EN^DDIOL(X) S RTN(CNT)=X,CNT=CNT+1 U P  ; just loop around until we are done.
+"RTN","XPDOS",87,0)
+ . C P
+"RTN","XPDOS",88,0)
+ I +$SY=0 D  Q 0
+"RTN","XPDOS",89,0)
+ . O CMD:"QR"
+"RTN","XPDOS",90,0)
+ . U CMD
+"RTN","XPDOS",91,0)
+ . N CNT S CNT=1
+"RTN","XPDOS",92,0)
+ . N X F  R X:1 Q:$ZEOF  U $P D EN^DDIOL(X) S RTN(CNT)=X,CNT=CNT+1 U CMD  ; ditto
+"RTN","XPDOS",93,0)
+ . C CMD
+"RTN","XPDOS",94,0)
+ S $EC=",U-M-VM-NOT-SUPPORTED,"
+"RTN","XPDOS",95,0)
+ QUIT  ; Decorative quit
+"VER")
+8.0^22.0
+**END**
+**END**
