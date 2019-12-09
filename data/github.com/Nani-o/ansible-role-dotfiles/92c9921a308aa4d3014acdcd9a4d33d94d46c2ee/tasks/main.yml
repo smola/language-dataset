@@ -1,0 +1,61 @@
+---
+- name: Clone the dotfiles repo
+  git:
+    repo: "{{ dotfiles_repo }}"
+    dest: "{{ dotfiles_repo_clone_path }}"    
+    force: yes
+
+- name: List the root dotfiles
+  find:
+    path: "{{ dotfiles_repo_clone_path }}"
+    file_type: "file"
+    use_regex: yes
+    patterns: '^\..*'
+    excludes: "{{ dotfiles_excludes }}"
+    hidden: yes
+  register: dotfiles_find
+
+- name: Link the root dotfiles
+  file:
+    src: "{{ item.path }}"
+    dest: "{{ dotfiles_home_path }}/{{ item.path | basename }}"
+    state: "link"
+    force: yes
+  with_items: "{{ dotfiles_find.files }}"
+
+- name: List the .config folders
+  find:
+    path: "{{ dotfiles_repo_clone_path }}/.config/"
+    file_type: "directory"
+    excludes: "{{ dotfiles_excludes }}"
+    hidden: no
+  register: dotfiles_config_find
+
+- name: Deploy a config folder if there is one to
+  block:
+    - name: Check if there is actual folders to remove
+      stat:
+        path: "{{ dotfiles_home_path }}/.config/{{ item.path | basename }}"
+      with_items: "{{ dotfiles_config_find.files }}"
+      register: dotfiles_config_stat
+
+    - name: Delete existing .config folders
+      file:
+        dest: "{{ dotfiles_home_path }}/.config/{{ item.stat.path | basename }}"
+        state: "absent"
+      when: item.stat.islnk is defined and item.stat.islnk == False
+      with_items: "{{ dotfiles_config_stat.results }}"
+
+    - name: Make sure .config folder exists
+      file:
+        dest: "{{ dotfiles_home_path }}/.config"
+        state: "directory"
+
+    - name: Link the .config folders
+      file:
+        src: "{{ item.path }}"
+        dest: "{{ dotfiles_home_path }}/.config/{{ item.path | basename }}"
+        state: "link"
+        force: yes
+      with_items: "{{ dotfiles_config_find.files }}"
+  when: dotfiles_config_find.matched != 0

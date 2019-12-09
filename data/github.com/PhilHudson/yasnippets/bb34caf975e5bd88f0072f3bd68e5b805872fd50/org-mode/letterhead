@@ -1,0 +1,39 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# contributor: Phil Hudson (https://github.com/PhilHudson)
+# name: letterhead
+# key: ltrhd
+# --
+#+STARTUP: align
+#+TITLE:
+#+OPTIONS: \n:t toc:nil num:nil
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [a4paper]
+| <48>                                             |                             |
+|                                                  | 5 Locks Lane,               |
+|                                                  | Wincanton,                  |
+|                                                  | Somerset,                   |
+|                                                  | United Kingdom.             |
+|                                                  | BA9 9JR                     |
+|                                                  |                             |
+|                                                  | `(format-time-string "%A %d %B, %Y")` |
+                                                   
+${1:Destination address line 1}
+${2:Destination address line 2}${3:
+${4:Destination address line 3}${5:
+${6:Destination address line 4}}}
+${7:Destination town}${8:
+${9:Destination county}}
+${10:Destination postcode}
+${11:United Kingdom}
+
+Dear $12,
+
+$0
+
+Yours sincerely,
+
+
+
+
+
+Phil Hudson

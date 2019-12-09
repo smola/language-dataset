@@ -1,0 +1,23 @@
+---
+- hosts: container
+  tasks:
+    - block:
+        - name: Check homeassistant http fronted is listening
+          uri:
+            url: http://127.0.0.1:8123/states
+          retries: 36
+          delay: 10
+          register: webpage
+          until: webpage.status == 200
+      rescue:
+        - name: Execute systemctl status homeassistant
+          shell: systemctl status homeassistant
+          register: status_command
+
+        - name: Show output of command
+          debug:
+            var: status_command
+            
+        - name: Fail the play
+          fail:
+...

@@ -1,0 +1,51 @@
+---
+dist: trusty
+language: python
+python: "3.6"
+
+sudo: true
+
+env:
+  global:
+    - distribution: ubuntu
+  matrix:
+    - distribution_version: 18
+      lxd_snap_channel: stable
+    - distribution_version: 18
+      lxd_snap_channel: 3.0/stable
+    - distribution_version: 18
+      lxd_snap_channel: 2.0/stable
+    - distribution_version: 16
+      lxd_snap_channel: stable
+    - distribution_version: 16
+      lxd_snap_channel: 3.0/stable
+    - distribution_version: 16
+      lxd_snap_channel: 2.0/stable
+
+before_install:
+  - sudo apt-get -qq update
+
+install:
+  # Create a random file to store the container ID.
+  - container_id=$(mktemp)
+
+  # Download test script.
+  - wget -O ${PWD}/tests/test.sh https://gist.githubusercontent.com/Nani-o/ce936e8966a020769cf696eaa0f69a76/raw/
+  - chmod +x ${PWD}/tests/test.sh
+
+script:
+  # Run tests.
+  - ${PWD}/tests/test.sh
+
+# after_failure:
+#   - echo '### ip machine'
+#   - /sbin/ip a
+#   - echo '### ip c1'
+#   - sudo -E su travis -c "lxc exec c1 -- /sbin/ip a"
+#   - echo '### list container'
+#   - sudo -E su travis -c "lxc list"
+#   - echo '### list container\'s containers'
+#   - sudo -E su travis -c "lxc exec c1 -- lxc list"
+#   - echo '### show lxd-bridge config file'
+#   - sudo -E su travis -c "lxc exec c1 -- cat /etc/default/lxd-bridge
+...

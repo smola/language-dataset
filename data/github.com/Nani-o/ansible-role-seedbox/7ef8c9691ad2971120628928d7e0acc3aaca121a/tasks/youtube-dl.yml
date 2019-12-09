@@ -1,0 +1,21 @@
+---
+- name: Copie du script de téléchargement youtube-dl
+  template:
+    src: youtube-dl_download_and_delete.sh.j2
+    dest: "{{ seedbox_scripts_path }}/youtube-dl_download_and_delete.sh"
+    owner: "{{ seedbox_user }}"
+    group: "{{ seedbox_user }}"
+    mode: 0755
+  tags:
+    - youtube_dl
+
+- name: Mise en place d'un cron pour lancer le script youtube-dl
+  cron:
+    job: "{{ seedbox_scripts_path }}/youtube-dl_download_and_delete.sh"
+    name: "Check for files in youtube-dl watch folder and download them"
+    user: "{{ seedbox_user }}"
+    minute: "*/1"
+  notify:
+    - restart crond service
+  tags:
+    - youtube_dl

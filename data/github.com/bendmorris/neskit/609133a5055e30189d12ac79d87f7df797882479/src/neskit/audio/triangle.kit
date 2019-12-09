@@ -1,0 +1,89 @@
+import neskit.apu;
+
+struct Triangle {
+    public static var dutyLookup: CArray[Uint8, 32] = [
+        0,  1,  2,  3,  4,  5,  6, 7, 8, 9, 10, 11, 12, 13, 14, 15,
+        15, 14, 13, 12, 11, 10, 9, 8, 7, 6,  5,  4,  3,  2,  1,  0,
+    ];
+
+    public static function new() {
+        return struct Triangle {};
+    }
+
+    rules {
+        ($this.enabled) => $this.period > 0 && ($this.lengthCounterHalt || $this.lengthCounter > 0) && $this.linearCounter > 0;
+    }
+
+    public function readReg(i: Uint8): Uint8 {
+        match i {
+            1 => return this.counterReload | (if this.lengthCounterHalt then 0x80 else 0);
+            2 => return 0;
+            3 => return this.frequency & 0xff;
+            4 => return ((this.frequency & 0x700) >> 8) | (this.length << 3);
+            default => return 0;
+        }
+    }
+
+    public function writeReg(i: Uint8, v: Uint8) {
+        match i {
+            1 => {
+                this.counterReload = v & 0x7f;
+                this.lengthCounterHalt = getbit(v, 7);
+            }
+            2 => {}
+            3 => {
+                this.setFrequency((this.frequency & 0x700) | v);
+            }
+            4 => {
+                this.setFrequency((this.frequency & 0xff) | ((v & 7) << 8));
+                this.lengthCounter = Apu.lengthCounterTable[v];
+                this.length = (v & 0xf8) >> 3;
+                this.linearCounter = this.counterReload;
+                return v;
+            }
+        }
+    }
+
+    function setFrequency(f: Uint8) {
+        this.period = if (f < 8) then 0 else 1 * (f + 1);
+        this.frequency = f;
+    }
+
+    var frequency: Int = 0;
+    var amplitude: Int = 0;
+    var period: Int = 0;
+    var position: Float = 0;
+    var dutyPos: Int = 0;
+    var length: Int = 0;
+    var lengthCounter: Int = 0;
+    var lengthCounterHalt: Bool = false;
+    var linearCounter: Int = 0;
+    var counterReload: Int = 0;
+
+    public function lengthClock() {
+        if !this.lengthCounterHalt && this.lengthCounter > 0 {
+            --this.lengthCounter;
+        }
+    }
+
+    public function envelopeClock() {
+        if this.linearCounter > 0 {
+            --this.linearCounter;
+        }
+    }
+
+    public function play(rate: Float): Uint8
+    {
+        var val = 0;
+        if this.enabled {
+            if (this.position += rate) > this.period {
+                this.dutyPos = (this.dutyPos + 1) % 32;
+                this.position -= this.period;
+            }
+            val = Self.dutyLookup[this.dutyPos];
+        } else {
+            this.dutyPos = 0;
+        }
+        return val;
+    }
+}

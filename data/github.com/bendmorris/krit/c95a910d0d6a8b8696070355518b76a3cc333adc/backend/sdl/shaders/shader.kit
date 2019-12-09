@@ -1,0 +1,185 @@
+include "GLES3/gl3.h";
+
+struct Shader {
+    var program: GLuint;
+    var matrixIndex: GLint;
+    var positionIndex: GLint;
+    var texCoordIndex: GLint;
+    var colorIndex: GLint;
+
+    public static function new(vertexSource: Const[CString], fragmentSource: Const[CString]): Self {
+        var status: GLint;
+
+        var vertexShader: GLuint = glCreateShader(GL_VERTEX_SHADER);
+        vertexShader.glShaderSource(1, &vertexSource, null);
+        vertexShader.glCompileShader();
+        vertexShader.glGetShaderiv(GL_COMPILE_STATUS, status);
+        if status == GL_FALSE {
+            Self.printShaderInfoLog(vertexShader);
+            panic("failed to compile vertex shader");
+        }
+        GL.checkForErrors("compile vertex");
+
+        var fragmentShader: GLuint = glCreateShader(GL_FRAGMENT_SHADER);
+        fragmentShader.glShaderSource(1, &fragmentSource, null);
+        fragmentShader.glCompileShader();
+        fragmentShader.glGetShaderiv(GL_COMPILE_STATUS, status);
+        if status == GL_FALSE {
+            Self.printShaderInfoLog(fragmentShader);
+            panic("failed to compile fragment shader");
+        }
+        GL.checkForErrors("compile fragment");
+
+        var program: GLuint = glCreateProgram();
+        program.glAttachShader(vertexShader);
+        program.glAttachShader(fragmentShader);
+        program.glLinkProgram();
+        program.glGetProgramiv(GL_LINK_STATUS, status);
+        if status == GL_FALSE {
+            Self.printProgramInfoLog(program);
+            panic("failed to link program");
+        }
+        GL.checkForErrors("link program");
+
+        var matrixIndex = program.glGetUniformLocation("uMatrix");
+        GL.checkForErrors("matrixIndex");
+        var positionIndex = program.glGetAttribLocation("aPosition");
+        GL.checkForErrors("positionIndex");
+        var texCoordIndex = program.glGetAttribLocation("aTexCoord");
+        GL.checkForErrors("texCoordIndex");
+        var colorIndex = program.glGetAttribLocation("aColor");
+        GL.checkForErrors("colorIndex");
+
+        glDeleteShader(vertexShader);
+        glDeleteShader(fragmentShader);
+
+        return struct Self {
+            program,
+            matrixIndex,
+            positionIndex,
+            texCoordIndex,
+            colorIndex,
+        };
+    }
+
+    public function bind(matrix: Ptr[Float]) {
+        glUseProgram(this.program);
+        GL.checkForErrors("glUseProgram");
+        glUniformMatrix4fv(this.matrixIndex, 1, GL_FALSE, matrix);
+        GL.checkForErrors("glUniformMatrix4fv");
+        glEnableVertexAttribArray(this.positionIndex);
+        GL.checkForErrors("bind positionIndex");
+        glEnableVertexAttribArray(this.colorIndex);
+        GL.checkForErrors("bind colorIndex");
+        if this.texCoordIndex > -1 {
+            glEnableVertexAttribArray(this.texCoordIndex);
+            GL.checkForErrors("bind texCoordIndex");
+        }
+    }
+
+    public function unbind() {
+        glDisableVertexAttribArray(this.positionIndex);
+        glDisableVertexAttribArray(this.colorIndex);
+        if this.texCoordIndex > -1 {
+            glDisableVertexAttribArray(this.texCoordIndex);
+        }
+        glUseProgram(0);
+        GL.checkForErrors("unbind");
+    }
+
+    public function destroy() {
+        glDeleteProgram(this.program);
+    }
+
+    public function bytesPerVertex() {
+        return (2 /* position */ + 1 /* color */ + (if this.texCoordIndex == -1 then 0 else 2)) * sizeof Float;
+    }
+
+    public function prepare(drawCall: Ptr[DrawCall], buffer: Ptr[Float]) {
+        var stride = this.bytesPerVertex();
+        var hasTexCoord = this.texCoordIndex > -1;
+        var i = 0;
+        var origin = null as Ptr[Float];
+        if hasTexCoord {
+            for t in 0 ... drawCall.length {
+                var tri = drawCall.triangles[t];
+                var c = tri.color;
+                buffer[i++] = tri.t.p1.x;
+                buffer[i++] = tri.t.p1.y;
+                (buffer as Ptr[Uint32])[i++] = c;
+                buffer[i++] = tri.uv.p1.x;
+                buffer[i++] = tri.uv.p1.y;
+                buffer[i++] = tri.t.p2.x;
+                buffer[i++] = tri.t.p2.y;
+                (buffer as Ptr[Uint32])[i++] = c;
+                buffer[i++] = tri.uv.p2.x;
+                buffer[i++] = tri.uv.p2.y;
+                buffer[i++] = tri.t.p3.x;
+                buffer[i++] = tri.t.p3.y;
+                (buffer as Ptr[Uint32])[i++] = c;
+                buffer[i++] = tri.uv.p3.x;
+                buffer[i++] = tri.uv.p3.y;
+            }
+            glBufferSubData(GL_ARRAY_BUFFER, 0, i * sizeof Float, buffer);
+            GL.checkForErrors("bufferSubData");
+            glVertexAttribPointer(this.positionIndex, 2, GL_FLOAT, GL_FALSE, stride, origin);
+            glVertexAttribPointer(this.colorIndex, 4, GL_UNSIGNED_BYTE, GL_TRUE, stride, origin + 2);
+            glVertexAttribPointer(this.texCoordIndex, 2, GL_FLOAT, GL_FALSE, stride, origin + 3);
+            GL.checkForErrors("attrib pointers");
+        } else {
+            for t in 0 ... drawCall.length {
+                var tri = drawCall.triangles[t];
+                var c = tri.color;
+                buffer[i++] = tri.t.p1.x;
+                buffer[i++] = tri.t.p1.y;
+                (buffer as Ptr[Uint32])[i++] = c;
+                buffer[i++] = tri.t.p2.x;
+                buffer[i++] = tri.t.p2.y;
+                (buffer as Ptr[Uint32])[i++] = c;
+                buffer[i++] = tri.t.p3.x;
+                buffer[i++] = tri.t.p3.y;
+                (buffer as Ptr[Uint32])[i++] = c;
+            }
+            glBufferSubData(GL_ARRAY_BUFFER, 0, i * sizeof Float, buffer);
+            GL.checkForErrors("bufferSubData");
+            glVertexAttribPointer(this.positionIndex, 2, GL_FLOAT, GL_FALSE, stride, origin);
+            glVertexAttribPointer(this.colorIndex, 4, GL_UNSIGNED_BYTE, GL_TRUE, stride, origin + 2);
+            GL.checkForErrors("attrib pointers");
+        }
+    }
+
+    static function printProgramInfoLog(program: GLuint) {
+        if glIsProgram(program) != 0 {
+            var len: Int;
+            glGetProgramiv(program, GL_INFO_LOG_LENGTH, len);
+            if len > 0 {
+                var s = malloc(len);
+                glGetProgramInfoLog(program, len, len, s);
+                puts(s);
+                free(s);
+            } else {
+                puts("no log");
+            }
+        } else {
+            printf("%i is not a program\n", program);
+        }
+    }
+
+    static function printShaderInfoLog(shader: GLuint) {
+        if glIsShader(shader) != 0 {
+            var len: Int;
+            glGetShaderiv(shader, GL_INFO_LOG_LENGTH, len);
+            if len > 0 {
+                var s: Ptr[GLchar] = malloc(len);
+                var charsWritten: Int;
+                glGetShaderInfoLog(shader, len, charsWritten, s);
+                puts(s);
+                free(s);
+            } else {
+                puts("no log");
+            }
+        } else {
+            printf("%i is not a shader\n", shader);
+        }
+    }
+}

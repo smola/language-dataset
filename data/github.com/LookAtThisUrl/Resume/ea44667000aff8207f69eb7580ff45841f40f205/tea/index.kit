@@ -1,0 +1,58 @@
+<!-- @import "../kit-includes/_file-header.kit" -->
+
+<title>App.Net Tea | #adntea</title>
+
+<meta charset="UTF-8">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+<!-- CSS -->
+<link rel="stylesheet" href="https://scotthsmith.com/styles/build/partials/global.css">
+<link rel="stylesheet" href="https://scotthsmith.com/styles/build/partials/project.css">
+<link rel="stylesheet" href="/build/tea.css">
+
+<!-- @import "../kit-includes/_head_scripts.kit" -->
+
+<script type="text/javascript" language="JavaScript">
+
+	NumberOfImagesToRotate = 9;
+	
+	FirstPart = '<img src="images/image';
+	LastPart = '.jpg">';
+	
+	function printImage() {
+		var r = Math.ceil(Math.random() * NumberOfImagesToRotate);
+		document.write(FirstPart + r + LastPart);
+	}
+	
+</script>
+
+</head>
+
+<body>
+<div id="content">
+<h1>ADN Tea</h1>
+<div id="slideshow">
+
+<script type="text/javascript" language="JavaScript"><!--
+	printImage();
+//-->
+</script>
+</div>
+<div id="intro">
+	<p>ADN Tea is an event that occurs on Tuesdays exclusively on <a href="https://join.app.net">App.Net</a>.<br>It was begun by <a class="MobileLink" id="ScottADNLink">Scott Smith</a><a class="DesktopLink" href="https://alpha.app.net/scottsmith">Scott Smith</a> and <a class="MobileLink" id="NickADNLink">Nick Rosencrans</a><a class="DesktopLink" href="https://alpha.app.net/nickrosencrans">Nick Rosencrans</a>.</p>
+</div>
+<div id="start">
+<p>To get started, pick up some of your favorite tea, or try something new. Snap a photo and post it with the hashtag <a href="https://alpha.app.net/hashtags/adntea">#adntea</a> with your comments.<br><a href="https://alpha.app.net/hashtags/adntea">See what people are saying.</a></p>
+</div>
+</div>
+
+<!-- @import "../kit-includes/_script-jquery.kit" -->
+
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+// Original Author: Sree Kotay http://stereopsis.com/sree/fpu2006.html
+
+include "inttypes.h";
+
+
+union EndianTest {
+    var i: uint32_t;
+    var c: CArray[Char, 4];
+}
+
+enum Endianness {
+    LITTLE;
+    BIG;
+    OTHER;
+}
+
+var e: EndianTest = union EndianTest {i: 0x01020304};
+var endianness: Endianness = Endianness.OTHER;
+var xs_iexp: Int = 1;
+var xs_iman: Int = 0;
+const xs_doublemagic: Float64         = (6755399441055744.0): Float64;  // 2^52 * 1.5,  uses limited precisicion to floor
+const xs_doublemagicdelta: Float64    = (1.5 * pow(10, -8));            // almost .5f = .5f + 1e^(number of exp bit)
+const xs_doublemagicroundeps: Float64 = (0.5 - xs_doublemagicdelta);   // almost .5f = .5f - 1e^(number of exp bit)
+
+function checkEndianness(): Void {
+    if (e.c[0] == 4) && (e.c[1] == 3) && (e.c[2] == 2) && (e.c[3] == 1) {
+        endianness = Endianness.LITTLE;
+    } else if (e.c[0] == 1) && (e.c[1] == 2) && (e.c[2] == 3) && (e.c[3] == 4) {
+        endianness = Endianness.BIG;
+    }
+    match endianness {
+        LITTLE => {  //intel is little endian
+            xs_iexp = 1;
+            xs_iman = 0;
+        }
+        BIG    => {
+            xs_iexp = 0;
+            xs_iman = 1;
+        }
+        OTHER  => { printf("WARN: Other endianness, behavior not defined. Setting iexp, iman to little endianness values.");
+            xs_iexp = 1;
+            xs_iman = 0;
+        }
+    }
+}
+
+function endiannessString(): CString {
+    match endianness {
+        LITTLE => return "little";
+        BIG    => return "big";
+        OTHER  => return "other";
+    }
+    return "enum match failed";
+}
+
+
+function xs_MinInt(a: Int, b: Int): Int {                     return (if (a < b) then a else b);        }
+function xs_MaxInt(a: Int, b: Int): Int {                     return (if (a > b) then a else b);        }
+function xs_ClampInt(a: Int, b: Int, c: Int): Int {           return xs_MinInt(xs_MaxInt(a, b), c);     }
+
+function xs_MinFloat(a: Float, b: Float): Float {             return (if (a < b) then a else b);        }
+function xs_MaxFloat(a: Float, b: Float): Float {             return (if (a > b) then a else b);        }
+function xs_ClampFloat(a: Float, b: Float, c: Float): Float { return xs_MinFloat(xs_MaxFloat(a, b), c); }
+
+
+function xs_doublecopysgn(a: Int, b: Int) {
+    return ((&a): Ptr[Int32])[xs_iexp] &= ~(((&b): Ptr[Int32])[xs_iexp] & 0x80000000);
+}
+
+function xs_doubleisnegative(a: Int) {
+    return ((((&a): Ptr[Int32])[xs_iexp]) | 0x80000000);
+}
+
+
+inline function xs_ConvertToFixed(val: Float64, digits: Int): Int32 {
+    return xs_CRoundToInt(val, xs_doublemagic / (1 << digits));
+}
+
+inline function xs_CRoundToInt(val: Float64, dmr: Float64 = xs_doublemagic): Int32 {
+    val = val + dmr;
+    return ((&val) as Ptr[Int32])[xs_iman];
+}
+
+static function xs_ToInt(val: Float64, dme: Float64 = -xs_doublemagicroundeps): Int32 {
+    if val < 0 {
+        return xs_CRoundToInt(val - dme);
+    } else {
+        return xs_CRoundToInt(val + dme);
+    }
+}
+
+static function xs_FloorToInt(val: Float64, dme: Float64 = xs_doublemagicroundeps): Int32 {
+    return xs_CRoundToInt(val - dme);
+}
+
+static function xs_CeilToInt(val: Float64, dme: Float64 = xs_doublemagicroundeps): Int32 {
+    return xs_CRoundToInt(val + dme);
+}
+
+inline function xs_RoundToInt(val: Float64): Int32 {
+    return xs_CRoundToInt(val + xs_doublemagicdelta);
+}

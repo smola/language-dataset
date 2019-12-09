@@ -1,0 +1,22 @@
+# -*- mode: snippet -*-
+# name: aws-autoscaling-group-vpc
+# key: autoscaling-group-vpc
+# group: cloudformation
+# expand-env: ((yas/indent-line 'auto) (yas/wrap-around-region 't))
+# --
+"${1:-}" : {
+    "Type" : "AWS::AutoScaling::AutoScalingGroup",
+    "Properties" : {
+        "AvailabilityZones" : [
+            ${2:azs}
+        ],
+        "LaunchConfigurationName" : ${3:"-"},
+        "MaxSize" : "${4:-}",
+        "MinSize" : "${5:-}",
+        "VPCZoneIdentifier" :  [ ${6:list of subnet ids} ],
+        "Tags" : [ {"Key" : "Name",
+                    "Value" : "${7:-}",
+                    "PropagateAtLaunch" : "True"}
+                ]
+    }
+}$0
