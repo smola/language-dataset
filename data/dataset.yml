@@ -265,6 +265,7 @@ files:
       vote: Logtalk
   github.com/Anniepoo/prolog-examples/a359d15d20a79fb707e91b9265005ad781c5b69c/pirates/demo.pl:
     annotations:
+      human-smola: Prolog
       linguist: Prolog
       vote: Prolog
   github.com/Anvil/bash-doxygen/94094df8620d8da7e90d5477034b0356d3ef05e3/doxygen-bash.sed:
@@ -277,8 +278,9 @@ files:
       vote: RenderScript
   github.com/ApexSQL/Article-scripts/26d563b22e8a44f575d39796fbd75abce135a19e/sql-server-auditing-how-to-be-alerted-about-important-auditing-events/configure_notification_script.sql:
     annotations:
+      human-smola: TSQL
       linguist: PL/SQL
-      vote: PL/SQL
+      vote: TSQL
   github.com/App-vNext/Polly/793eb8edac13fbdefc78978ed738481bdea1270d/src/Polly/Context.Dictionary.cs:
     annotations:
       linguist: C#
@@ -590,8 +592,9 @@ files:
       vote: DM
   github.com/CarlosGS/open-radiation-detector/a887e9dcfe0f1568f1ef2a03ba7313825fc00f3b/Detector_PCB_1.0/Gerber/open_rad_detector-drl_map.plt:
     annotations:
+      human-smola: Unknown
       linguist: Gnuplot
-      vote: Gnuplot
+      vote: Unknown
   github.com/Carthage/Carthage/e4b4c2f12b82d795487bcbeda428477fabc8123d/Tests/XCDBLDTests/SDKSpec.swift:
     annotations:
       linguist: Swift
@@ -2088,6 +2091,7 @@ files:
       vote: Xojo
   github.com/ModalityTeam/Modality-toolkit/cf6aa3f34b555387ba7dabb694ddcbb7a3d64e61/Modality/MKtlDescriptions/qunexus/keith-mcmillen-qunexus_port1_AB.desc.scd:
     annotations:
+      human-smola: SuperCollider
       linguist: SuperCollider
       vote: SuperCollider
   github.com/MooersLab/pymolsnips/f7e59501567d6edaedb67deb4c5a0666bc680394/yasnippetspymolsnips/coordinate:
@@ -2149,6 +2153,7 @@ files:
       vote: LabVIEW
   github.com/NVIDIA/cutlass/7c0cd26d13e0e0c41a5b6874f06976575e613e72/test/unit/gemm/device/gemm_f16t_f16n_f16t_volta_tensor_op_f16_sm70.cu:
     annotations:
+      human-smola: CUDA
       linguist: CUDA
       vote: CUDA
   github.com/NVIDIA/deepops/854996da8285c1a458f01f06e664951c5c90a3c8/containers/kubeflow-jupyter-web-app/releaser/lib/ksonnet-lib/v1.8.0/k.libsonnet:
@@ -2183,6 +2188,7 @@ files:
       vote: xBase
   github.com/NaldoDj/xml-rpc/6f3edcaaf4c178b36e0ff591b332d6f098178bda/bin/commit.hb:
     annotations:
+      human-smola: Harbour
       linguist: Harbour
       vote: Harbour
   github.com/Nani-o/ansible-role-dotfiles/92c9921a308aa4d3014acdcd9a4d33d94d46c2ee/tasks/main.yml:
@@ -2298,6 +2304,7 @@ files:
       vote: Perl
   github.com/Oaprendiz/hb3D/943a6f256254513ee5c53dc4cbc37216497d0d74/bin/commit.hb:
     annotations:
+      human-smola: Harbour
       linguist: Harbour
       vote: Harbour
   github.com/Oleg-N-Cher/OfrontPlus/1773f295502f4424407f205a6af6a4b05c425e60/Lib/Mod/Args.Mod:
@@ -2310,8 +2317,9 @@ files:
       vote: XC
   github.com/OneIdentity/Polypkg/20ea9e5170a83daec883dd7fa69914dfb00eaa32/pp.back.kit:
     annotations:
+      human-smola: Unknown
       linguist: Kit
-      vote: Kit
+      vote: Unknown
   github.com/OpenAADL/ocarina/121766ca577b01853354ff5991f73d22f5675a5c/src/core/model/ocarina-analyzer-aadl_ema-naming_rules.ads:
     annotations:
       human-smola: Ada
@@ -2373,10 +2381,12 @@ files:
       vote: APL
   github.com/OraOpenSource/OXAR/5ab2cd5ac44468f121d52d0b64f9393b7e9e724e/addons/aop/install_db_sample_obj.sql:
     annotations:
+      human-smola: PL/SQL
       linguist: PL/SQL
       vote: PL/SQL
   github.com/OraOpenSource/language-oracle/f3fd20a22b5752e8c4fd17b75f089cdaa2aee2d5/utility/longfunctionlist.sql:
     annotations:
+      human-smola: PL/SQL
       linguist: PL/SQL
       vote: PL/SQL
   github.com/OrysyaStus/UCSD_Data_Mining_Certificate/423a11cc4bead8696330683f1700243e5e52bd73/BIOL40190_SAS_ProgrammingI_DATA_Step_and_PROC_Fundamentals/A1_ReadinginData_PermanentDataSets_Formats_Labels_ConditionalProcessing_Looping_Dates/chapter4_Creating_Permanent_SAS_Data_Sets.sas:
@@ -2402,8 +2412,9 @@ files:
       vote: MATLAB
   github.com/PSEmulator/Client/6f644a754736b7a44f4fd660562dbe1bf1ade87f/expansion1/expansion1/ugd03.zpl:
     annotations:
+      human-smola: Unknown
       linguist: Zimpl
-      vote: Zimpl
+      vote: Unknown
   github.com/PSLmodels/taxdata/c3d35a627a3a1fd96b49671ebd2874f43df0194a/cps_data/State Database - 2015/Production File/Programs/CreateProductionFile2015V1.SAS:
     annotations:
       human-smola: SAS
@@ -2498,8 +2509,9 @@ files:
       vote: Logtalk
   github.com/PavelPawlowski/SQL-Scripts/6a8df239f22a581a00ab3254406c03f0d4ace6fe/SSISDB/sp_SSISExportProject.sql:
     annotations:
+      human-smola: TSQL
       linguist: PL/SQL
-      vote: PL/SQL
+      vote: TSQL
   github.com/PavlezT/Tiva-MCU-TM4C123G-LaunchPad/88256c7ba6b5ac657f10a13b3e6cee4afd6b26b0/blinkyAlien/Debug/bme280_old.rl:
     annotations:
       linguist: Ragel
@@ -2571,6 +2583,7 @@ files:
       vote: CMake
   github.com/Poofjunior/fpga_fast_serial_sort/fca3dbde3cf935aede9c98cc27ac020027b1e974/spi_slave_interface.sv:
     annotations:
+      human-smola: SystemVerilog
       linguist: SystemVerilog
       vote: SystemVerilog
   github.com/PortableApps/Launcher/3eec0c4623b01f92f1fdd1d99cf13261e69d8c08/App/NSIS/Contrib/Language files/Welsh.nsh:
@@ -2616,6 +2629,7 @@ files:
   github.com/Ptujec/LaunchBar/a5d8da916a8e2970ea217e7780ec8d805cee2038/iTunes - Fade in out.applescript:
     annotations:
       human-ajnavarro: AppleScript
+      human-smola: AppleScript
       linguist: AppleScript
       vote: AppleScript
   github.com/Pulover/PuloversMacroCreator/15f44d68f7cdf6b79df43c6871761c0773981272/LIB/Class_ObjIni.ahk:
@@ -2673,6 +2687,7 @@ files:
       vote: Unknown
   github.com/RayeWang/easyadmin/44dcf3d2429ef696c65e986baf5d21c56ab20820/src/main/resources/templates/index.ftl:
     annotations:
+      human-smola: FreeMarker
       linguist: FreeMarker
       vote: FreeMarker
   github.com/ReactiveCocoa/ReactiveCocoa/21deb683540db0d059dd7945627493275936b7db/ReactiveCocoaTests/UIKit/UIActivityIndicatorViewSpec.swift:
@@ -2979,6 +2994,7 @@ files:
       vote: JavaScript
   github.com/SpaceAceMonkey/simpletrie/6b40bfcd7f6b52b1cd0bd54b948a2b8ff1eb93ff/modules/spaceace/simpletrie/cTrie.monkey:
     annotations:
+      human-smola: Monkey
       linguist: Monkey
       vote: Monkey
   github.com/SparkhoundSQL/sql-server-toolbox/b2611217a12002ba20335319f16f2e0bc1b1b6eb/lab - dynamic data masking.sql:
@@ -3013,6 +3029,7 @@ files:
       vote: IGOR Pro
   github.com/StefanSchroeder/Golang-Regex-Tutorial/642a426f1f29b7793eacf84672b6fb8fe649e4df/extract_examples.pl:
     annotations:
+      human-smola: Perl
       linguist: Perl
       vote: Perl
   github.com/Stovoy/LOLCODE-Snake/e0cd9fc487b630fd3925710719cc3a551320e515/LOLCODE-Snake.lol:
@@ -3159,6 +3176,7 @@ files:
       vote: C++
   github.com/TexanInParis/Effective-SQL/8047973838c2780da1795742793016faff36315c/Oracle/Chapter 09/Listing 9.015.sql:
     annotations:
+      human-smola: PL/SQL
       linguist: PL/SQL
       vote: PL/SQL
   github.com/ThatsNotAUsername/MEMo/9d97bd0b2e4eed22e2f9265e87dd3e50d9aefde6/MMB_github/matrix.eq:
@@ -3650,6 +3668,7 @@ files:
       vote: CMake
   github.com/abo-abo/lispy/c8da3c9ed3355bcf2b427b0ee7935cfdd6e6703e/targets/interactive-init.el:
     annotations:
+      human-smola: Emacs Lisp
       linguist: Emacs Lisp
       vote: Emacs Lisp
   github.com/abougouffa/m2hpf/339c579b9fa91407930f7edb0b32c5edf4367ebe/mod/Test.mod:
@@ -3670,8 +3689,9 @@ files:
       vote: Elixir
   github.com/acani/Chats/dcf91487d0ac360d3e556b550cb818cb7883372a/Servers/Database/functions/login.sql:
     annotations:
+      human-smola: PL/pgSQL
       linguist: SQLPL
-      vote: SQLPL
+      vote: PL/pgSQL
   github.com/acaudwell/Gource/7e793c96cbfb8d742c690f4a9bec49880f985e60/src/gource.h:
     annotations:
       linguist: C++
@@ -3793,6 +3813,7 @@ files:
       vote: CWeb
   github.com/ajnirp/j-scripts/a446fcc54d6d7f1a6a39f990b2336b922051149c/euler/11.ijs:
     annotations:
+      human-smola: J
       linguist: J
       vote: J
   github.com/akayambu/oozie-workflows/ba047a0f594fb97dc27256e8a24e4480dd3a4ba1/hivemapreducemultiactions/script.q:
@@ -3844,6 +3865,7 @@ files:
   github.com/alecmuffett/eotk/d6021400df94479fe28d928aecacff98d1bc7822/templates.d/nginx.conf.txt:
     annotations:
       human-ajnavarro: Awk
+      human-smola: Awk
       linguist: Awk
       vote: Awk
   github.com/alex-ren/MTVeri/240ecd6ae18d9e8cb75a74ba27f1f748ab67bb46/scratch/ATS-parse-emit/CIL/TEST/queens.dats:
@@ -4009,8 +4031,9 @@ files:
       vote: CLIPS
   github.com/andrealani/COOLFluiD/cd73fc5e70209808b75c6440df68cd2b01225613/plugins/NavierStokes/testcases/DoubleEllipse/restartRDS.surf.plt:
     annotations:
+      human-smola: Unknown
       linguist: Gnuplot
-      vote: Gnuplot
+      vote: Unknown
   github.com/andreaspirklbauer/Oberon-building-tools/c3569afbd75431f0cb2621d3a43b0f8e36b0207e/Sources/OriginalOberon2013/ORG.Mod:
     annotations:
       linguist: Modula-2
@@ -4224,6 +4247,7 @@ files:
       vote: C++
   github.com/aquametalabs/aquameta/862efd5680b0b87269f73afd21c0be7887c41e0a/src/pg-extension/meta/test/000-meta.sql:
     annotations:
+      human-smola: PL/pgSQL
       linguist: PL/pgSQL
       vote: PL/pgSQL
   github.com/araujokth/kth-wsn/e7d6cb37ddfe7864160989ea122f8c6018d2cad9/kth-wsn/apps.crane/MatlabFiles/outputs/data_201102100054.m:
@@ -4380,8 +4404,9 @@ files:
       vote: C#
   github.com/assaflavi/peptalk/daf63f1768449854e814ddce656a1d302c8fbe07/data/peptiDB/unbound/MotifAnalysis/data/1DKX/1DKX.mat.hb:
     annotations:
+      human-smola: Unknown
       linguist: Harbour
-      vote: Harbour
+      vote: Unknown
   github.com/astatide/chpllog/ae97df2a3f7a95212a4f76bdac6d07ef264b3956/test/LoggingTest.chpl:
     annotations:
       linguist: Chapel
@@ -4404,8 +4429,9 @@ files:
       vote: D
   github.com/atlarge-research/opendc/7d9ab456a54674112760af1b0cbc6a1b2e587ba1/database/schema.sql:
     annotations:
+      human-smola: SQL
       linguist: SQLPL
-      vote: SQLPL
+      vote: SQL
   github.com/atlas-engineer/next/eeea0838ec02b9363efbab50f5ece7890c0212d3/next.asd:
     annotations:
       linguist: Common Lisp
@@ -4691,8 +4717,9 @@ files:
       vote: Boo
   github.com/banneker-aztlan/intro-to-python/a2633812d2591c036d629265579b4b7b88ed001a/data/seds/Sc_A_0.sed:
     annotations:
+      human-smola: Unknown
       linguist: sed
-      vote: sed
+      vote: Unknown
   github.com/baron42bba/aws-snippets/9cb1edaaa86609b51a7fbf39ec643cc5ae80eaa1/snippets/json-mode/aws-autoscaling-group-vpc:
     annotations:
       linguist: YASnippet
@@ -4941,8 +4968,9 @@ files:
       vote: SQL
   github.com/blackcata/1D-RANS/cdf7efa59778749b0f492cfa1cabda342327ec6f/DATA/CHANNEL_0180_mean_prof.plt:
     annotations:
+      human-smola: Unknown
       linguist: Gnuplot
-      vote: Gnuplot
+      vote: Unknown
   github.com/blackjack3186/Vault-113-Restoration./ebd889c8e5dd22777af400e26bd8ec862b8bbb4b/code/game/objects/items/weapons/airlock_painter.dm:
     annotations:
       linguist: DM
@@ -5259,6 +5287,7 @@ files:
       vote: SQLPL
   github.com/ccrisan/motioneyeos/1b59951d9b5b645c873312ca46acef6c64a98973/package/tk/tk.mk:
     annotations:
+      human-smola: Makefile
       linguist: Makefile
       vote: Makefile
   github.com/ccrma/music220a/ed6435bb4aa1cb8b3ce9d3c0be13856c66fc2772/chuck-examples/special/LiSa-munger1.ck:
@@ -5915,6 +5944,7 @@ files:
       vote: ColdFusion CFC
   github.com/dan-atilio/AdvPL/f96a7fee50841e6d466978ffb846215e61a705fc/Fontes/zCmbDesc.prw:
     annotations:
+      human-smola: xBase
       linguist: xBase
       vote: xBase
   github.com/danielflira/advplayl/0cb048fd72ac0dbb2eab8e981770b87cad7a45be/runtime.prw:
@@ -6293,7 +6323,7 @@ files:
       vote: LabVIEW
   github.com/digoal/blog/338a9027ea3bd0058c1977974d1705c3c3411417/201611/20161123_01_sql_001.sql:
     annotations:
-      humna-smola: PL/pgSQL
+      human-smola: PL/pgSQL
       linguist: PL/pgSQL
       vote: PL/pgSQL
   github.com/dillonkearns/mobster/2ad66f514579a09a9679b75b6c1b2956e7879b46/src/View/Roster/Chip.elm:
@@ -7553,6 +7583,7 @@ files:
   github.com/fredyouhanaie/etclface/8ab61bb48e8f02d4c4d8a4766177eb8ac60bc4f6/boilerplate.w:
     annotations:
       human-ajnavarro: CWeb
+      human-smola: CWeb
       linguist: CWeb
       vote: CWeb
   github.com/freeCodeCamp/devdocs/58c44bf332d6fca75b1d249439f8ea19c81f5326/lib/docs/filters/d/entries.rb:
@@ -7579,6 +7610,7 @@ files:
       vote: SAS
   github.com/froggey/Mezzano/344ad0b741b5f84b379eb6d0e309bee9ba2a1594/compiler/backend/x86-64/memory.lisp:
     annotations:
+      human-smola: Common Lisp
       linguist: Common Lisp
       vote: Common Lisp
   github.com/frznlogic/ipsysctl-tutorial/0dda94cf007a68cd70d6c886de3e1acb6449d91d/styles/dsssl-stylesheets/dtds/decls/xml.dcl:
@@ -7655,6 +7687,7 @@ files:
       vote: Common Lisp
   github.com/fukamachi/fast-http/502a37715dcb8544cc8528b78143a942de662c5a/src/error.lisp:
     annotations:
+      human-smola: Common Lisp
       linguist: Common Lisp
       vote: Common Lisp
   github.com/fundamentalslib/fundamentals5/96c19b505e4f21c2366ea1bf19b5235722a46705/Source/Maths/flcMaths.pas:
@@ -8038,6 +8071,7 @@ files:
   github.com/google/lisp-koans/46fb766618ccc2e10fb7ff398a653d10aeff0a23/koans/macros.lsp:
     annotations:
       human-ajnavarro: Common Lisp
+      human-smola: Common Lisp
       linguist: Common Lisp
       vote: Common Lisp
   github.com/google/protobuf-gradle-plugin/8f78c0f220ace0d460c5320181aaf4a23e5eebf0/src/main/groovy/com/google/protobuf/gradle/ProtobufPlugin.groovy:
@@ -8200,6 +8234,7 @@ files:
       vote: Smalltalk
   github.com/gunrock/gunrock/138e85b5949f971c68e1a8336a64b6e06839da61/gunrock/app/tc/tc_test.cuh:
     annotations:
+      human-smola: CUDA
       linguist: CUDA
       vote: CUDA
   github.com/guzzle/guzzle/df36d8dae3979cf927d5bbbed6f0427f39aadfec/tests/ClientTest.php:
@@ -8550,6 +8585,7 @@ files:
       vote: Tcl
   github.com/hostilefork/rebmu/f4c94b2a2262f871100fe0c29d6eb8b1b8b4f243/unmush.reb:
     annotations:
+      human-smola: Rebol
       linguist: Rebol
       vote: Rebol
   github.com/hostilefork/whitespacers/66dd80e214ecf39f8ae7db4975f6552e67754679/rebol/whitespace.reb:
@@ -9553,6 +9589,7 @@ files:
       vote: Pascal
   github.com/jsebean/IlluminationSoftwareCreator/3d9977829e5ee070b8616960045ab54ea5155bcf/RadThumbnailView Folder/RadThumbnailPicture.rbbas:
     annotations:
+      human-smola: REALbasic
       linguist: REALbasic
       vote: REALbasic
   github.com/jshoniyi/-c-Apache24/b0e7f689303e761d144c54dc718a0ca7fdff85ea/manual/mod/mod_usertrack.html.fr:
@@ -9949,6 +9986,7 @@ files:
       vote: Lasso
   github.com/knxroot/bdcut-cl/d1a2dadeb14a56e8fe7b7bc19baf0927ab1012d4/BD/Oracle_utf8/BDCUT_CL__Oracle_utf8__generado.sql:
     annotations:
+      human-smola: PL/SQL
       linguist: PL/SQL
       vote: PL/SQL
   github.com/koalaman/shellcheck/93eca1cb8e7e8c1428a1375e985a669b43c41e95/src/ShellCheck/Analyzer.hs:
@@ -10116,8 +10154,9 @@ files:
       vote: Logtalk
   github.com/lacanoid/pgddl/ba91f0773804fab00ce40484308bd6ebc7e4f0f5/ddlx.sql:
     annotations:
+      human-smola: PL/pgSQL
       linguist: SQLPL
-      vote: SQLPL
+      vote: PL/pgSQL
   github.com/laddp/ansible-stuff/d6348a84d88f6dfc65ed5d84b6a9f7496a32def8/google.yml:
     annotations:
       linguist: YAML
@@ -10492,6 +10531,7 @@ files:
       vote: TLA
   github.com/lowRISC/lowrisc-chip/7090b7b70f33aa3763e360d1c5b79fa3dd8a611c/src/main/verilog/sd_top.sv:
     annotations:
+      human-smola: SystemVerilog
       linguist: SystemVerilog
       vote: SystemVerilog
   github.com/lowRISC/opentitan/85ca4e361f3152b835863ab86b54ce5c60d4e45f/hw/dv/sv/jtag_agent/jtag_agent_pkg.sv:
@@ -10537,8 +10577,9 @@ files:
       vote: AGS Script
   github.com/lueyoung/gmt-kafka/d3a978d960a86567e42380a3698dc92cd517240f/manifest/services.yaml.sed:
     annotations:
+      human-smola: YAML
       linguist: sed
-      vote: sed
+      vote: YAML
   github.com/lukebussey/foundationify/4d4009dbd429cbf2c4d5f4f3d6b932f2e4739a55/templates/blog.liquid:
     annotations:
       linguist: Liquid
@@ -10622,6 +10663,7 @@ files:
       vote: G-code
   github.com/macoslib/macoslib/eead9e0dc2a6d9cdc82accac96d414b6b82fa19b/macoslib/Controls/MacCheckbox.rbbas:
     annotations:
+      human-smola: REALbasic
       linguist: REALbasic
       vote: REALbasic
   github.com/macports/macports-base/aeb6d4386cd92afd0924a69bc8ee6154e651e8b3/src/port1.0/tests/portclean.test:
@@ -10631,6 +10673,7 @@ files:
   github.com/macports/macports-ports/64f94ba5263135f2f0b1c5b5f1e2a88e340d5d26/lang/scheme48/Portfile:
     annotations:
       human-ajnavarro: Tcl
+      human-smola: Tcl
       linguist: Tcl
       vote: Tcl
   github.com/macropeople/macrocore/b1efcfc0d465e98f0ff5148d9bee0c05d74c9796/meta/mm_gettree.sas:
@@ -10809,6 +10852,7 @@ files:
       vote: Perl 6
   github.com/masak/web/783673f94cdd745399366c7bee805818ebf922e6/lib/Ratel.pm:
     annotations:
+      human-smola: Perl 6
       linguist: Perl 6
       vote: Perl 6
   github.com/masonwheeler/RMXP-Scanner/8e8d21ff89a6094bfae05ac574992f6d8ba0bb18/RMTable.boo:
@@ -10909,6 +10953,7 @@ files:
       vote: Makefile
   github.com/mbgh/aes128-hdl/420273ed18f42b3af70acfeb060b3ec5a80a6bc4/src/sv/mixColumn.sv:
     annotations:
+      human-smola: SystemVerilog
       linguist: SystemVerilog
       vote: SystemVerilog
   github.com/mblakele/task-rebalancer/9d8596a8c30ec3838dd420eb434903f14ef620b1/rebalance.xqy:
@@ -10955,10 +11000,12 @@ files:
       vote: Unknown
   github.com/mconnell/expect/bcebe24fa7fbb2c61d0c48940f551116be7d5307/test/matchers_test.mirah:
     annotations:
+      human-smola: Mirah
       linguist: Mirah
       vote: Mirah
   github.com/mcsoto/cosmos/578c831e3ac5cceba906bdd77ca5111e1ea4ffb2/src/hello.pl:
     annotations:
+      human-smola: Prolog
       linguist: Prolog
       vote: Prolog
   github.com/mdn/webassembly-examples/c82d7669903fee8e935c23c0ff9686509bb49da3/js-api-examples/memory.wat:
@@ -11423,6 +11470,7 @@ files:
       vote: AMPL
   github.com/mpusz/units/37ca5f710202bddaed2d369f0f5f6167ac0c8bb2/test/unit_test/runtime/CMakeLists.txt:
     annotations:
+      human-smola: CMake
       linguist: CMake
       vote: CMake
   github.com/mratsim/Arraymancer/94efff361327c2748f8f073a27a96265f2d9f784/tests/manual_checks/allocator_regression_178_1st_part.nim:
@@ -11948,6 +11996,7 @@ files:
       vote: Fortran
   github.com/oarevalo/BugLogHQ/980766d65fadffec56860cadcd751a0cb63a751d/install/named-instance-template/config/buglog-config.xml.cfm:
     annotations:
+      human-smola: ColdFusion
       linguist: ColdFusion
       vote: ColdFusion
   github.com/oasis-tcs/odata-openapi/e06fa1fa9e4762611f6227821369a007cf9c9cfa/tools/V2-to-V4-CSDL.xsl:
@@ -12198,8 +12247,9 @@ files:
       vote: Makefile
   github.com/oracle/xml-sample-demo/1f24722b306f8807bca73869f981c2a8afe37a7a/XFILES/src/sql/PUBLISH_XFILES_ICONS.sql:
     annotations:
+      human-smola: PL/SQL
       linguist: SQLPL
-      vote: SQLPL
+      vote: PL/SQL
   github.com/ordogfioka/Clean/48780cb5f4cdf539534e9405d903e6c94d19574f/zh2/bintree.icl:
     annotations:
       human-smola: Clean
@@ -12239,6 +12289,7 @@ files:
       vote: PL/SQL
   github.com/osalvador/tePLSQL/081b3bfeb14b61c3a671188fa72ecb8e07b243bb/TE_TEMPLATES.sql:
     annotations:
+      human-smola: PL/SQL
       linguist: PL/SQL
       vote: PL/SQL
   github.com/oscfdezdz/Dotfiles-WIP/fbcb800a377c3c7ae85bec90f038e54cc500a44b/config.i3:
@@ -13004,6 +13055,7 @@ files:
       vote: PureScript
   github.com/purescript/purescript/432accc3ea69cb4555e2b3305fae8a29e4e17dde/src/Language/PureScript/Sugar/Names.hs:
     annotations:
+      human-smola: Haskell
       linguist: Haskell
       vote: Haskell
   github.com/pvanhoof/dir-examples/523cab5edaff99acba037218d5b95227cb2487a9/qmake-example/src/libs/qmake-example/qmake-example.pro:
@@ -13124,8 +13176,9 @@ files:
       vote: Fantom
   github.com/rafael-trevisan/apex-plugin-ig_simple_checkbox/050e4bb73c06d37fb03fd11fe75d15313746454e/ig_simple_checkbox.sql:
     annotations:
+      human-smola: PL/SQL
       linguist: SQLPL
-      vote: SQLPL
+      vote: PL/SQL
   github.com/rafaelcn/louv1.1x/a52dc99fde7d1f5e4ddcc99babda251bc74f4fce/Second week/primes.oz:
     annotations:
       linguist: Oz
@@ -13778,9 +13831,9 @@ files:
       vote: Groovy
   github.com/ruoru/leetcode-rust/0736a26e0c9f8ac2e8a5f60e7ae8bb1eb9e9b445/Algorithms/0684.redundant_connection/redundant_connection_test.rs:
     annotations:
-      human-smola: Rust
+      human-smola: Go
       linguist: RenderScript
-      vote: Rust
+      vote: Go
   github.com/ruslo/hunter/eacae658ad6ebb63d79acf1c2f62564b5b7afce9/cmake/projects/Qt/qttools/hunter.cmake:
     annotations:
       linguist: CMake
@@ -14565,6 +14618,7 @@ files:
       vote: Idris
   github.com/statickidz/TemarioDAW/8597a388be0cc661b97d06e9adf4226c96477369/BBDD/tareas/BD_Tarea6_Actividad 1.sql:
     annotations:
+      human-smola: PL/SQL
       linguist: PL/SQL
       vote: PL/SQL
   github.com/status-im/nimbus/c734e959c70ab74de88f1384877a92815443fe1f/nimbus/vm_types.nim:
@@ -14662,6 +14716,7 @@ files:
       vote: q
   github.com/strongself/generamba-catalog/f5ab7c7b23f2c2a667c26096cbc20fa00ec36809/adkrviper_controller/Code/View/view_input.h.liquid:
     annotations:
+      human-smola: Liquid
       linguist: Liquid
       vote: Liquid
   github.com/stsdc/monitor/81c10e6f2f9c40b5799880d8353a6aea458dc0a3/vapi/libgtop-2.0.vapi:
@@ -14979,6 +15034,7 @@ files:
       vote: ActionScript
   github.com/thingdom/node-neo4j/26ee50da12d5c926242ce4c44475e952293da8b0/test/misc._coffee:
     annotations:
+      human-smola: CoffeeScript
       linguist: CoffeeScript
       vote: CoffeeScript
   github.com/thinkingserious/omnifocus-applescripts/1d2f91833467af12e690f19d4eeefe64474712ba/Prepare task completion report.scpt:
@@ -15041,6 +15097,7 @@ files:
       vote: J
   github.com/timdietrich/luna/55d4de56941446ff6a1f200ac7b270c8d2767609/Luna Project Files/App.xojo_code:
     annotations:
+      human-smola: Xojo
       linguist: Xojo
       vote: Xojo
   github.com/timjs/3cows-teaching/8055d0a5f72d3de2bd44edd576a94fa422f6ba8e/4-meeting-date/Main.icl:
@@ -15110,8 +15167,9 @@ files:
       vote: ECL
   github.com/tluczyns/quizMatPharm/c7df3975cc63ee07dce3c25e684f653f59bbbd80/bin/data/contentGarbageSegregation.ne:
     annotations:
+      human-smola: XML
       linguist: Nearley
-      vote: Nearley
+      vote: XML
   github.com/tobyink/p5-type-tiny-xs/ca90f2ff9e42d85af77d50ba92ea138f5b51e6be/XS.xs:
     annotations:
       human-smola: XS
@@ -15156,6 +15214,7 @@ files:
       vote: Grace
   github.com/toninguyen/GraceHotdraw-/57e53ca48277d1aaf6b79e3629ca72e17ba6bb2d/01_Model/Handle.grace:
     annotations:
+      human-smola: Grace
       linguist: Grace
       vote: Grace
   github.com/tonsky/FiraCode/5ee2653d58fba7d25b4f0a82929e4b42146badaa/clojure/regen_calt.clj:
@@ -15497,6 +15556,7 @@ files:
       vote: Markdown
   github.com/utPLSQL/utPLSQL/b08ede3342d37dc7d0d66cecff7653f75eb3ad69/source/create_synonyms.sql:
     annotations:
+      human-smola: PL/SQL
       linguist: PL/SQL
       vote: PL/SQL
   github.com/utk3995/Automotive-Expert-System/8ee8345362859fe6fd52171539d0d0fe7c767b95/automotive_expert_system.clp:
@@ -15833,6 +15893,7 @@ files:
   github.com/wevrem/wry/12c40f95896ad100baea044acf8338d560babd07/references/PHPLexer.g4:
     annotations:
       human-ajnavarro: ANTLR
+      human-smola: ANTLR
       linguist: ANTLR
       vote: ANTLR
   github.com/wey-yu/poks-server/220cb9881b6b253bf0ccc2d1a9311deb2120ef08/src/main/golo/main.golo:
