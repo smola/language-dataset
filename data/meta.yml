@@ -1,6 +1,6 @@
 datasets:
   linguist:
-    version: 10c20c7286a4b56c17253e8aab044debfe9f0dbe
+    version: 2a6d952df870807034c3830738f95ad33222aca0
   rosetta_code:
     version: aac6731f2c1e30321fcfc58ac95d8203c041ee04
 languages:
@@ -18,6 +18,8 @@ languages:
       - 360 Assembly
   4D:
     maps_to:
+      linguist:
+      - 4D
       rosetta_code:
       - 4D
   4DOS Batch:
@@ -628,6 +630,10 @@ languages:
     maps_to:
       rosetta_code:
       - Coco
+  CodeQL:
+    maps_to:
+      linguist:
+      - CodeQL
   CoffeeScript:
     maps_to:
       linguist:
@@ -782,6 +788,8 @@ languages:
       - DWScript
   Dafny:
     maps_to:
+      linguist:
+      - Dafny
       rosetta_code:
       - Dafny
   Dao:
@@ -1070,6 +1078,10 @@ languages:
       - Fantom
       rosetta_code:
       - Fantom
+  Faust:
+    maps_to:
+      linguist:
+      - Faust
   Felix:
     maps_to:
       rosetta_code:
@@ -1110,6 +1122,10 @@ languages:
       - Fortran
       rosetta_code:
       - Fortran
+  Fortran Free Form:
+    maps_to:
+      linguist:
+      - Fortran Free Form
   Fortress:
     maps_to:
       rosetta_code:
@@ -1142,6 +1158,8 @@ languages:
       - FunL
   Futhark:
     maps_to:
+      linguist:
+      - Futhark
       rosetta_code:
       - Futhark
   FutureBasic:
@@ -1178,6 +1196,10 @@ languages:
     maps_to:
       linguist:
       - GDScript
+  GEDCOM:
+    maps_to:
+      linguist:
+      - GEDCOM
   GEORGE:
     maps_to:
       rosetta_code:
@@ -2070,6 +2092,10 @@ languages:
     maps_to:
       rosetta_code:
       - MUMPS
+  Macaulay2:
+    maps_to:
+      linguist:
+      - Macaulay2
   Makefile:
     maps_to:
       linguist:
@@ -2146,6 +2172,10 @@ languages:
     maps_to:
       rosetta_code:
       - Metapost
+  Microsoft Developer Studio Project:
+    maps_to:
+      linguist:
+      - Microsoft Developer Studio Project
   MiniD:
     maps_to:
       linguist:
@@ -2241,12 +2271,18 @@ languages:
       - N/t/roff
   NASL:
     maps_to:
+      linguist:
+      - NASL
       rosetta_code:
       - NASL
   NCL:
     maps_to:
       linguist:
       - NCL
+  NEON:
+    maps_to:
+      linguist:
+      - NEON
   NESL:
     maps_to:
       rosetta_code:
@@ -2395,6 +2431,10 @@ languages:
     maps_to:
       rosetta_code:
       - Objeck
+  Object Data Instance Notation:
+    maps_to:
+      linguist:
+      - Object Data Instance Notation
   ObjectScript:
     maps_to:
       linguist:
@@ -2421,6 +2461,10 @@ languages:
     maps_to:
       rosetta_code:
       - Octave
+  Odin:
+    maps_to:
+      linguist:
+      - Odin
   Oforth:
     maps_to:
       rosetta_code:
@@ -2471,6 +2515,10 @@ languages:
     maps_to:
       rosetta_code:
       - OpenLisp
+  OpenQASM:
+    maps_to:
+      linguist:
+      - OpenQASM
   OpenRC runscript:
     maps_to:
       linguist:
@@ -2640,12 +2688,6 @@ languages:
       - Perl
       rosetta_code:
       - Perl
-  Perl 6:
-    maps_to:
-      linguist:
-      - Perl 6
-      rosetta_code:
-      - Perl 6
   Perl5i:
     maps_to:
       rosetta_code:
@@ -2694,6 +2736,10 @@ languages:
     maps_to:
       rosetta_code:
       - PlainTeX
+  PlantUML:
+    maps_to:
+      linguist:
+      - PlantUML
   Pod:
     maps_to:
       linguist:
@@ -2760,6 +2806,10 @@ languages:
       - Processing
       rosetta_code:
       - Processing
+  Proguard:
+    maps_to:
+      linguist:
+      - Proguard
   Prolog:
     maps_to:
       linguist:
@@ -2936,6 +2986,12 @@ languages:
     maps_to:
       linguist:
       - Ragel
+  Raku:
+    maps_to:
+      linguist:
+      - Raku
+      rosetta_code:
+      - Perl 6
   RapidQ:
     maps_to:
       rosetta_code:
@@ -3144,6 +3200,10 @@ languages:
     maps_to:
       linguist:
       - SVG
+  SWIG:
+    maps_to:
+      linguist:
+      - SWIG
   Sage:
     maps_to:
       linguist:
@@ -3244,6 +3304,10 @@ languages:
     maps_to:
       rosetta_code:
       - Sidef
+  Sieve:
+    maps_to:
+      linguist:
+      - Sieve
   Simula:
     maps_to:
       rosetta_code:
@@ -3350,6 +3414,10 @@ languages:
       - Standard ML
       rosetta_code:
       - Standard ML
+  Starlark:
+    maps_to:
+      linguist:
+      - Starlark
   Stata:
     maps_to:
       linguist:
@@ -3632,6 +3700,18 @@ languages:
     maps_to:
       rosetta_code:
       - VAX Assembly
+  VBA:
+    maps_to:
+      linguist:
+      - VBA
+      rosetta_code:
+      - VBA
+  VBScript:
+    maps_to:
+      linguist:
+      - VBScript
+      rosetta_code:
+      - VBScript
   VCL:
     maps_to:
       linguist:
@@ -3671,11 +3751,14 @@ languages:
   Visual Basic:
     maps_to:
       linguist:
-      - Visual Basic
+      - Visual Basic .NET
       rosetta_code:
-      - VBA
-      - VBScript
       - Visual Basic
+  Visual Basic .NET:
+    maps_to:
+      linguist:
+      - Visual Basic .NET
+      rosetta_code:
       - Visual Basic .NET
   Visual FoxPro:
     maps_to:
@@ -3980,6 +4063,10 @@ languages:
     maps_to:
       linguist:
       - desktop
+  dircolors:
+    maps_to:
+      linguist:
+      - dircolors
   eC:
     maps_to:
       linguist:
