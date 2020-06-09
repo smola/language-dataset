@@ -3,7 +3,7 @@
 
 | Metric | Value |
 | ------ | ----- |
-| **Languages** | 244 |
+| **Languages** | 245 |
 | **Total samples** | 3824 |
 | **Samples labeled by humans** | 485 |
 
@@ -174,7 +174,6 @@ For each language, the table reports total number of samples (_Samples_) and how
 | POV-Ray SDL | 2 | 0 |
 | Pascal | 20 | 1 |
 | Perl | 20 | 3 |
-| Perl 6 | 11 | 9 |
 | PicoLisp | 20 | 4 |
 | Pike | 20 | 1 |
 | Pony | 20 | 0 |
@@ -193,6 +192,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | REXX | 18 | 2 |
 | Racket | 20 | 0 |
 | Ragel | 17 | 0 |
+| Raku | 11 | 9 |
 | Rascal | 20 | 0 |
 | Reason | 2 | 2 |
 | Rebol | 18 | 7 |
@@ -233,7 +233,8 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Vala | 20 | 1 |
 | Verilog | 20 | 8 |
 | Vim script | 20 | 2 |
-| Visual Basic | 2 | 1 |
+| Visual Basic | 1 | 1 |
+| Visual Basic .NET | 1 | 0 |
 | WebAssembly | 19 | 1 |
 | WebIDL | 1 | 1 |
 | Wolfram Language | 10 | 2 |

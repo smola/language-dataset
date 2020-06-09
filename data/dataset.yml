@@ -1002,9 +1002,9 @@ files:
       vote: Batchfile
   github.com/FROGGS/p6-File-Spec/636c7a24d1ff9cb68c0b7fa65c4f44100cde6b69/lib/File/Spec/Win32.pm:
     annotations:
-      human-smola: Perl 6
-      linguist: Perl 6
-      vote: Perl 6
+      human-smola: Raku
+      linguist: Raku
+      vote: Raku
   github.com/FabLabWgtn/material-profiles/5448010c3c613ebdd18ea43b635fb15b8944fa0a/Laser Settings 105W/Leather/Leather 0.84 no charcoal.las:
     annotations:
       linguist: Lasso
@@ -1797,9 +1797,9 @@ files:
       vote: LabVIEW
   github.com/LastOfTheCarelessMen/Vector/621355e8b5fe25564afd8ba9ce461f91e4569dcf/svg.pl:
     annotations:
-      human-smola: Perl 6
-      linguist: Perl 6
-      vote: Perl 6
+      human-smola: Raku
+      linguist: Raku
+      vote: Raku
   github.com/LaverdeS/Argument_Political_Membership/f127aaab83d578cc06d4fdfcd303eaa6d48669f8/Canadian-Parliament/Senate_Debates/hansard.36.2.senate.debates.2000-05-10.54.e/hansard.36.2.senate.debates.2000-05-10.54.e:
     annotations:
       linguist: E
@@ -3758,9 +3758,9 @@ files:
       vote: C
   github.com/agentzh/perl-parsing-library-benchmark/39a5962eb5d18f7052587d6df212674b5206ff58/calc-Rakudo.p6:
     annotations:
-      human-smola: Perl 6
-      linguist: Perl 6
-      vote: Perl 6
+      human-smola: Raku
+      linguist: Raku
+      vote: Raku
   github.com/aglab2/LiveSplitAutoSplitters/7336c132bbbbed87f4d87e3f29524e61d28b2bdd/igt-test.lsl:
     annotations:
       linguist: LSL
@@ -6499,8 +6499,8 @@ files:
       vote: F#
   github.com/dotnet/roslyn/66dcd8ac86cf0751583e2ec2f1a7377257607c62/src/Compilers/VisualBasic/Test/Syntax/QuickTokenTableTests.vb:
     annotations:
-      linguist: Visual Basic
-      vote: Visual Basic
+      linguist: Visual Basic .NET
+      vote: Visual Basic .NET
   github.com/dotnet/wpf/df349272c0f461760303a16432cf38626cc8c2f8/src/Microsoft.DotNet.Wpf/src/PresentationCore/System/Windows/Media/Generated/PathFigureCollectionConverter.cs:
     annotations:
       linguist: C#
@@ -9094,9 +9094,9 @@ files:
       vote: Ada
   github.com/japhb/perl6-bench/89d9cadbcd568e05417b0b8e70cc99bb3e06bc13/microbenchmarks.pl:
     annotations:
-      human-smola: Perl 6
-      linguist: Perl 6
-      vote: Perl 6
+      human-smola: Raku
+      linguist: Raku
+      vote: Raku
   github.com/jarchuleta/node_instagram/54e18d690696a9dda2162ced833af2ece250a444/views/login.hb:
     annotations:
       linguist: Harbour
@@ -9399,9 +9399,9 @@ files:
       vote: Assembly
   github.com/jnthn/6model/b19eb80591367e1c3001ee303ac0cc1f9377d6c9/t/nqp/26-methodops.t:
     annotations:
-      human-smola: Perl 6
-      linguist: Perl 6
-      vote: Perl 6
+      human-smola: Raku
+      linguist: Raku
+      vote: Raku
   github.com/joaomilho/awesome-idris/6adf450ab1dbc1449b00d5dbb83ce72467460ab5/Nat.idr:
     annotations:
       linguist: Idris
@@ -10847,14 +10847,14 @@ files:
       vote: Ioke
   github.com/masak/temporal-flux-perl6syn/dae2d68c1d2cf98b21d3031bfdc6fb7a22dcc3ba/S26-documentation.pod:
     annotations:
-      human-smola: Perl 6
-      linguist: Perl 6
-      vote: Perl 6
+      human-smola: Raku
+      linguist: Raku
+      vote: Raku
   github.com/masak/web/783673f94cdd745399366c7bee805818ebf922e6/lib/Ratel.pm:
     annotations:
-      human-smola: Perl 6
-      linguist: Perl 6
-      vote: Perl 6
+      human-smola: Raku
+      linguist: Raku
+      vote: Raku
   github.com/masonwheeler/RMXP-Scanner/8e8d21ff89a6094bfae05ac574992f6d8ba0bb18/RMTable.boo:
     annotations:
       linguist: Boo
@@ -11406,8 +11406,8 @@ files:
       vote: Ada
   github.com/moritz/perl6-Sudoku/187a83401ae9b6eca6f5c9b3d656bd317851b429/test.pl:
     annotations:
-      linguist: Perl 6
-      vote: Perl 6
+      linguist: Raku
+      vote: Raku
   github.com/morrisallison/event-station/4d749dabc67f2599c759e7a26de95da4f9d28dbd/tests/EventStation/Listeners/all-spec.ls:
     annotations:
       linguist: LiveScript
@@ -11485,8 +11485,8 @@ files:
       vote: Alloy
   github.com/mrhdias/perl6-Imlib2/07c0af9e7bb7dd95dcc1cc2183fa9f210bcd2ff6/t/14-color_ranges.t:
     annotations:
-      linguist: Perl 6
-      vote: Perl 6
+      linguist: Raku
+      vote: Raku
   github.com/mriffey/ClarionUD/211fbe0784ff0cb480a3d4409f5bba9a2451446c/libsrc/win/UltimateDebug.clw:
     annotations:
       linguist: Clarion
@@ -12509,9 +12509,9 @@ files:
       vote: Gnuplot
   github.com/perl6/ecosystem/c0513b95f7b6794bb3efef2da15a445b821628fc/.travis/testpackagemeta.p6:
     annotations:
-      human-smola: Perl 6
-      linguist: Perl 6
-      vote: Perl 6
+      human-smola: Raku
+      linguist: Raku
+      vote: Raku
   github.com/permissions-dispatcher/PermissionsDispatcher/fa5133fda48fcedc10018f31ad7055f4df9f80fc/processor/src/test/java/permissions/dispatcher/processor/base/BaseTest.java:
     annotations:
       linguist: Java
@@ -13208,9 +13208,9 @@ files:
       vote: Lasso
   github.com/rakudo/star/139ba6333a8b7497b5349a6ed9fde963ea7a90e7/tools/star/analyze_module_dependencies.p6:
     annotations:
-      human-smola: Perl 6
-      linguist: Perl 6
-      vote: Perl 6
+      human-smola: Raku
+      linguist: Raku
+      vote: Raku
   github.com/ramonsaraiva/cfg/41a14360bb7bda3f1689a90ea2c109059796116f/.i3:
     annotations:
       linguist: Modula-3
