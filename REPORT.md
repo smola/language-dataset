@@ -4,7 +4,7 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 244 |
-| **Total samples** | 3827 |
+| **Total samples** | 3826 |
 | **Samples labeled by humans** | 485 |
 
 ## Per Language
@@ -182,7 +182,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | PowerBuilder | 15 | 0 |
 | PowerShell | 17 | 2 |
 | Processing | 20 | 2 |
-| Prolog | 18 | 4 |
+| Prolog | 17 | 4 |
 | PureBasic | 9 | 0 |
 | PureScript | 20 | 0 |
 | Python | 22 | 3 |
