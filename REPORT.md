@@ -4,7 +4,7 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 244 |
-| **Total samples** | 3826 |
+| **Total samples** | 3824 |
 | **Samples labeled by humans** | 485 |
 
 ## Per Language
@@ -90,7 +90,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Fantom | 20 | 0 |
 | Forth | 19 | 1 |
 | Fortran | 20 | 3 |
-| FreeMarker | 20 | 2 |
+| FreeMarker | 18 | 2 |
 | Frege | 17 | 1 |
 | G-code | 1 | 1 |
 | GAP | 7 | 0 |
