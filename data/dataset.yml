@@ -11450,12 +11450,14 @@ files:
       vote: Oz
   github.com/mozilla-services/screenshots/33eeff19d361e2a12f5474cf9a0d5ef409082c99/locales/zh-TW/server.ftl:
     annotations:
+      human-smola: Unknown
       linguist: FreeMarker
-      vote: FreeMarker
+      vote: Unknown
   github.com/mozilla/blurts-server/39de9a07442a3c0e4240c22066fcc3cf817f2104/locales/zh-TW/bento.ftl:
     annotations:
+      human-smola: Unknown
       linguist: FreeMarker
-      vote: FreeMarker
+      vote: Unknown
   github.com/mperham/sidekiq.cr/25b1abcb4791d2b33d76286cd5ee049fcf45bbfd/src/sidekiq/middleware.cr:
     annotations:
       linguist: Crystal
