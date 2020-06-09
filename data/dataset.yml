@@ -14690,8 +14690,9 @@ files:
       vote: VHDL
   github.com/stipub/stixfonts/73d7c426993abacea44288aded4e81b568d57ed1/archive/STIXv2.0.0/Type1/fonts/source/public/stix2/stix2-mathrm.pl:
     annotations:
+      human-smola: Unknown
       linguist: Prolog
-      vote: Prolog
+      vote: Unknown
   github.com/stisti/jenkins-app/df19f7a254c792868a7069fc0c74cdfe755a5be7/main.applescript:
     annotations:
       linguist: AppleScript
