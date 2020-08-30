@@ -18,7 +18,12 @@ ROSETTA_CODE_DATA_COMMIT = "aac6731f2c1e30321fcfc58ac95d8203c041ee04"
 
 
 def add_linguist_languages(commit: str, meta: Meta):
-    meta.add_dataset(name="linguist", data={"version": commit,})
+    meta.add_dataset(
+        name="linguist",
+        data={
+            "version": commit,
+        },
+    )
 
     norm_langs = {
         "Cuda": "CUDA",
@@ -50,7 +55,12 @@ def get_linguist_languages(commit: str) -> Sequence[str]:
 
 def add_rosetta_code_languages(commit: str, meta: Meta):
     dataset_name = "rosetta_code"
-    meta.add_dataset(name=dataset_name, data={"version": commit,})
+    meta.add_dataset(
+        name=dataset_name,
+        data={
+            "version": commit,
+        },
+    )
 
     norm_langs = {
         "AWK": "Awk",

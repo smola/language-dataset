@@ -59,18 +59,28 @@ def create_pipeline():
 
     from sklearn.feature_extraction.text import TfidfTransformer
 
-    tfidf = TfidfTransformer(sublinear_tf=True,)
+    tfidf = TfidfTransformer(
+        sublinear_tf=True,
+    )
 
     from sklearn.ensemble import ExtraTreesClassifier
 
     clf = ExtraTreesClassifier(
-        n_estimators=100, min_samples_leaf=2, max_features="sqrt", n_jobs=1,
+        n_estimators=100,
+        min_samples_leaf=2,
+        max_features="sqrt",
+        n_jobs=1,
     )
 
     from sklearn.pipeline import Pipeline
 
     pipeline = Pipeline(
-        [("vectorize", vectorizer), ("tfidf", tfidf), ("clf", clf),], verbose=True
+        [
+            ("vectorize", vectorizer),
+            ("tfidf", tfidf),
+            ("clf", clf),
+        ],
+        verbose=True,
     )
 
     return pipeline
