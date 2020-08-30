@@ -10,7 +10,11 @@ def test_count_missing_samples():
     meta.add_language("linguist", "Lang1", "XXX1")
     meta.add_language("linguist", "Lang2", "XXX2")
     dataset = Dataset(path="non-existent")
-    dataset.data["files"]["file1"] = {"annotations": {"linguist": "Lang1",}}
+    dataset.data["files"]["file1"] = {
+        "annotations": {
+            "linguist": "Lang1",
+        }
+    }
     missing_samples = count_missing_samples(meta, dataset, 10)
     assert missing_samples == {
         "Lang1": 9,
