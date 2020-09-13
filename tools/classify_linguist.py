@@ -20,7 +20,12 @@ def classify_linguist(path):
     commit = path.split("/")[3]
     path = "/".join(path.split("/")[4:])
 
-    tmp_repo = clone_tmp_repo(repo, commit)
+    try:
+        tmp_repo = clone_tmp_repo(repo, commit)
+    except Exception as ex:
+        logger.exception(ex)
+        return None
+
     try:
         # XXX: hack to avoid gem not found error in repositories using .bundle/config.
         bundle_config_path = os.path.join(tmp_repo, ".bundle", "config")
@@ -53,6 +58,8 @@ def main():
         languages = p.map(classify_linguist, [os.path.join("data", f) for f in files])
 
     for f, l in zip(files, languages):
+        if not l:
+            continue
         norm_lang = meta.to_normalized_language(dataset="linguist", lang=l)
         dataset.data["files"][f]["annotations"]["linguist"] = norm_lang
 
