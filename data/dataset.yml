@@ -329,8 +329,8 @@ files:
       vote: DataWeave
   github.com/ArztSamuel/Applying_EANNs/1f48f6d0f10a084673c8d7181ffabf49073e4fa3/Build/Applying EANNs_Data/Mono/etc/mono/1.0/DefaultWsdlHelpGenerator.aspx:
     annotations:
-      linguist: ASP
-      vote: ASP
+      linguist: ASP.NET
+      vote: ASP.NET
   github.com/Asana/kraken/263ff701fe20d692ededb250c6003f5b8b806783/src/kraken_ctl.erl:
     annotations:
       linguist: Erlang
@@ -455,8 +455,8 @@ files:
       vote: Unknown
   github.com/Binary-Hackers/42_Subjects/eec0d8dcc5ff48729f790bfa78c125ced7eb1699/01_Piscines/Unity/d04/demoD04.app/Contents/Data/Managed/etc/mono/1.0/DefaultWsdlHelpGenerator.aspx:
     annotations:
-      linguist: ASP
-      vote: ASP
+      linguist: ASP.NET
+      vote: ASP.NET
   github.com/BioJulia/Bio.jl/62e3441f00dcc52b102d9ae5e2a0a0e4981296af/generate-require.jl:
     annotations:
       linguist: Julia
@@ -1469,8 +1469,8 @@ files:
       vote: Perl
   github.com/Jackysi/advancedtomato-gui/98271fb13e17db702e22d388d798113dcd4ccaac/bwm-realtime.asp:
     annotations:
-      linguist: ASP
-      vote: ASP
+      linguist: Classic ASP
+      vote: Classic ASP
   github.com/JacquesCarette/TheoriesAndDataStructures/4fb450b1e4ce5169af7843c92d0bb1dda5fdc44c/Helpers/Hardy.lagda:
     annotations:
       linguist: Agda
@@ -3055,9 +3055,9 @@ files:
       vote: MAXScript
   github.com/SukkaW/Koolshare-Clash/34e5b6769b379f1c5b5d647904fbfbb7a7309264/koolclash/webs/Module_koolclash.asp:
     annotations:
-      human-smola: ASP
-      linguist: ASP
-      vote: ASP
+      human-smola: Classic ASP
+      linguist: Classic ASP
+      vote: Classic ASP
   github.com/Summer-Summer/ComputerArchitectureLab/8ad310416c1909d1e3bc42500b2dd870a675c592/1_VerilogSourceCode/1_CPUCore_src/EXSegReg.v:
     annotations:
       human-smola: Verilog
@@ -4368,8 +4368,8 @@ files:
       vote: DataWeave
   github.com/askme765cs/Wine-QQ-TIM/89624a7d4174dade71b949cbb55a2ba46cfb3072/Wine-QQ8.9.3/qq/drive_c/windows/mono/mono-2.0/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx:
     annotations:
-      linguist: ASP
-      vote: ASP
+      linguist: ASP.NET
+      vote: ASP.NET
   github.com/askn/progress/5eb8c5985cb7811662dbc847070f685a16eae065/src/progress.cr:
     annotations:
       linguist: Crystal
@@ -8020,8 +8020,8 @@ files:
       vote: Go
   github.com/golanlevin/ExperimentalCapture/060907cfa231e698282aa06541b1721fce506d84/students/smokey/projects/build/Canon.app/Contents/Data/Managed/etc/mono/1.0/DefaultWsdlHelpGenerator.aspx:
     annotations:
-      linguist: ASP
-      vote: ASP
+      linguist: ASP.NET
+      vote: ASP.NET
   github.com/golo-vertx/chat-demo/0b00d89f602290adf3ae04b7fdc34593fc70f878/src/main/golo/main.golo:
     annotations:
       linguist: Golo
@@ -8101,8 +8101,8 @@ files:
       vote: DM
   github.com/gorden5566/padavan/b2a1527042b7ac50c7a8fad3f564c2b37b3568f6/trunk/user/www/n56u_ribbon_fixed/device-map/clients.asp:
     annotations:
-      linguist: ASP
-      vote: ASP
+      linguist: Classic ASP
+      vote: Classic ASP
   github.com/goreliu/runz/3af89ede4e27541ff9cbc341c043e4f2ff373caa/Plugins/Kanji.ahk:
     annotations:
       linguist: AutoHotkey
@@ -8647,8 +8647,8 @@ files:
       vote: Unknown
   github.com/hq450/fancyss/735a6439a8b69cbef76ec527fd0205b398c86a02/fancyss_hnd/shadowsocks/webs/Module_shadowsocks_local.asp:
     annotations:
-      linguist: ASP
-      vote: ASP
+      linguist: Classic ASP
+      vote: Classic ASP
   github.com/hs-web/hsweb-demo/cae347fe74c1a6c8227f3d00c92353261f300342/src/main/resources/templates/admin/index.ftl:
     annotations:
       linguist: FreeMarker
@@ -10003,24 +10003,24 @@ files:
       vote: YAML
   github.com/koolproxy/merlin-koolproxy/75c68a9b63eb5b97b3c897cbf2c3e53509ded7ec/koolproxy/webs/Module_koolproxy.asp:
     annotations:
-      linguist: ASP
-      vote: ASP
+      linguist: Classic ASP
+      vote: Classic ASP
   github.com/koolshare/armsoft/ff8d316b8f84a3232a544b6a5ed84994dd071a83/kms/kms/webs/Module_kms.asp:
     annotations:
-      linguist: ASP
-      vote: ASP
+      linguist: Classic ASP
+      vote: Classic ASP
   github.com/koolshare/koolshare.github.io/9f9d29acbbad5c60d22013f8a017151b84a78bbf/ssid/ssid/webs/Module_ssid.asp:
     annotations:
-      linguist: ASP
-      vote: ASP
+      linguist: Classic ASP
+      vote: Classic ASP
   github.com/koolshare/ledesoft/cc72f38ce95181a666b4c974b4ede947b85c3523/fwupdate/fwupdate/webs/Module_fwupdate.asp:
     annotations:
-      linguist: ASP
-      vote: ASP
+      linguist: Classic ASP
+      vote: Classic ASP
   github.com/koolshare/rogsoft/d9d4919c4473b534e93e3d1a7acea599d25b167a/fastd1ck/fastd1ck/ROG/webs/Module_fastd1ck.asp:
     annotations:
-      linguist: ASP
-      vote: ASP
+      linguist: Classic ASP
+      vote: Classic ASP
   github.com/koreader/koreader/f1f75c5cb0fa063c35f49a84b2e025f1d292ea01/frontend/ui/trapper.lua:
     annotations:
       linguist: Lua
@@ -10540,8 +10540,8 @@ files:
       vote: SystemVerilog
   github.com/lowleveldesign/debug-recipes/6321575b4f6c7722b4bf2baa74ff2f97b7412eea/asp.net/diag-pages/WhoAmI.aspx:
     annotations:
-      linguist: ASP
-      vote: ASP
+      linguist: ASP.NET
+      vote: ASP.NET
   github.com/lshhhhh/questplusplus/9bc06a0ed07e84dc0489290dad5ed1e942c8e354/input/target.word-level.ch:
     annotations:
       linguist: Charity
@@ -11181,8 +11181,8 @@ files:
       vote: Vim script
   github.com/millerc3/Marching-Cubes/eb9f29658dacb79e91a9e3264404fc5a40696e8e/build_0_1_Data/Mono/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx:
     annotations:
-      linguist: ASP
-      vote: ASP
+      linguist: ASP.NET
+      vote: ASP.NET
   github.com/mingodad/ZeroBraneStudioLJS/db3e63bc53ffce8ebfa9c5b28c90dfccd1a6a0f4/lualibs/luadist.ljs:
     annotations:
       linguist: Terra
@@ -12007,8 +12007,8 @@ files:
       vote: XSLT
   github.com/oazabir/SQLServerPerformanceDashboard/3847e8003f266d5ebb0926d585d5cb7f8adce0a6/Source/SQLServerDashboard/CurrentSessions.aspx:
     annotations:
-      linguist: ASP
-      vote: ASP
+      linguist: ASP.NET
+      vote: ASP.NET
   github.com/ob/cache/a2fb5d7a70dc95e3d84ab409e38ae2b620a46a89/results/knoppix_seq_2d_all.plot:
     annotations:
       linguist: Gnuplot
@@ -13285,8 +13285,8 @@ files:
       vote: Vim script
   github.com/rcdmk/aspJSON/a169daa6b903d574703b37cf08c1275c2cbcd471/test.asp:
     annotations:
-      linguist: ASP
-      vote: ASP
+      linguist: Classic ASP
+      vote: Classic ASP
   github.com/rcmaehl/NotCPUCores/ef4983b6781e0c7e3be3ff797bf36325c57b2292/Includes/_ModeSelect.au3:
     annotations:
       linguist: AutoIt
@@ -14950,8 +14950,8 @@ files:
       vote: C++
   "github.com/testsecer/WebShell/2c768372c746837b14e096d5dbd8908717c6b27c/aspx/\u661F\u5916\u63D0\u6743aspx\u5927\u9A6C(\u53BB\u540E\u95E8\u7248).aspx":
     annotations:
-      linguist: ASP
-      vote: ASP
+      linguist: ASP.NET
+      vote: ASP.NET
   github.com/texmacs/texmacs/106de6e055fd0b3054e7a1246fef42535680ec51/TeXmacs/doc/main/text/man-structure.zh.tm:
     annotations:
       human-ajnavarro: Unknown
@@ -15848,8 +15848,8 @@ files:
       vote: Fortran
   github.com/wbcyclist/merlin_shadowsocks/070d0e80f8aac1bc4450b60bac6a31de0a727107/arm380/shadowsocks/webs/Main_Ss_LoadBlance.asp:
     annotations:
-      linguist: ASP
-      vote: ASP
+      linguist: Classic ASP
+      vote: Classic ASP
   github.com/wcyn/clips-horticulture-expert-system/0eabdabf91bd76da3dce18b1dbfb83e4ee8c1fea/diagnosis_rules_automated.CLP:
     annotations:
       linguist: CLIPS
@@ -16348,9 +16348,9 @@ files:
       vote: Nix
   github.com/zendesk/zendesk_jwt_sso_examples/92bb24bf47cc60c48a27ddac512e760a9e068cd5/classic_asp_jwt.asp:
     annotations:
-      human-smola: ASP
-      linguist: ASP
-      vote: ASP
+      human-smola: Classic ASP
+      linguist: Classic ASP
+      vote: Classic ASP
   github.com/zenware/FizzBuzz/807ab8c4f346c287ca4b2b75cd01c2af5fc0b7ae/brainfuck.bf:
     annotations:
       linguist: Brainfuck

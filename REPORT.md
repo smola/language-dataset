@@ -3,7 +3,7 @@
 
 | Metric | Value |
 | ------ | ----- |
-| **Languages** | 246 |
+| **Languages** | 247 |
 | **Total samples** | 3825 |
 | **Samples labeled by humans** | 486 |
 
@@ -18,7 +18,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | ANTLR | 19 | 3 |
 | API Blueprint | 5 | 0 |
 | APL | 19 | 0 |
-| ASP | 20 | 2 |
+| ASP.NET | 8 | 0 |
 | ATS | 20 | 2 |
 | ActionScript | 20 | 0 |
 | Ada | 20 | 20 |
@@ -58,6 +58,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Charity | 3 | 0 |
 | ChucK | 19 | 1 |
 | Clarion | 17 | 1 |
+| Classic ASP | 12 | 2 |
 | Clean | 9 | 9 |
 | Clojure | 19 | 2 |
 | CoffeeScript | 19 | 3 |

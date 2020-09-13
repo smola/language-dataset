@@ -1,6 +1,6 @@
 datasets:
   linguist:
-    version: 2a6d952df870807034c3830738f95ad33222aca0
+    version: 61fc3f06a3ee2f6b530873b6c01b10c37f5209fc
   rosetta_code:
     version: aac6731f2c1e30321fcfc58ac95d8203c041ee04
 languages:
@@ -68,6 +68,10 @@ languages:
     maps_to:
       linguist:
       - AGS Script
+  AL Code:
+    maps_to:
+      linguist:
+      - AL Code
   ALGOL 60:
     maps_to:
       rosetta_code:
@@ -110,14 +114,18 @@ languages:
     maps_to:
       rosetta_code:
       - ARM Assembly
+  ASL:
+    maps_to:
+      linguist:
+      - ASL
   ASN.1:
     maps_to:
       linguist:
       - ASN.1
-  ASP:
+  ASP.NET:
     maps_to:
       linguist:
-      - ASP
+      - ASP.NET
   ATS:
     maps_to:
       linguist:
@@ -290,6 +298,10 @@ languages:
     maps_to:
       rosetta_code:
       - AutoLISP
+  Avro IDL:
+    maps_to:
+      linguist:
+      - Avro IDL
   Awk:
     maps_to:
       linguist:
@@ -582,6 +594,10 @@ languages:
       - Clarion
       rosetta_code:
       - Clarion
+  Classic ASP:
+    maps_to:
+      linguist:
+      - Classic ASP
   Clay:
     maps_to:
       rosetta_code:
@@ -1750,6 +1766,10 @@ languages:
     maps_to:
       linguist:
       - KRL
+  Kaitai Struct:
+    maps_to:
+      linguist:
+      - Kaitai Struct
   Kamailio Script:
     maps_to:
       rosetta_code:
@@ -2249,6 +2269,10 @@ languages:
     maps_to:
       linguist:
       - Muse
+  Mustache:
+    maps_to:
+      linguist:
+      - Mustache
   MySQL:
     maps_to:
       rosetta_code:
@@ -2878,6 +2902,10 @@ languages:
     maps_to:
       linguist:
       - Python traceback
+  Q#:
+    maps_to:
+      linguist:
+      - Q#
   QML:
     maps_to:
       linguist:
@@ -2894,6 +2922,10 @@ languages:
     maps_to:
       rosetta_code:
       - Qore
+  Qt Script:
+    maps_to:
+      linguist:
+      - Qt Script
   Quake:
     maps_to:
       linguist:
@@ -2928,10 +2960,6 @@ languages:
       - REXX
       rosetta_code:
       - REXX
-  RHTML:
-    maps_to:
-      linguist:
-      - RHTML
   RLaB:
     maps_to:
       rosetta_code:
@@ -3514,6 +3542,10 @@ languages:
     maps_to:
       linguist:
       - TSQL
+  TSV:
+    maps_to:
+      linguist:
+      - TSV
   TSX:
     maps_to:
       linguist:
@@ -3738,6 +3770,10 @@ languages:
       - Verilog
       rosetta_code:
       - Verilog
+  Vim Help File:
+    maps_to:
+      linguist:
+      - Vim Help File
   Vim Snippet:
     maps_to:
       linguist:
@@ -3750,8 +3786,6 @@ languages:
       - Vim Script
   Visual Basic:
     maps_to:
-      linguist:
-      - Visual Basic .NET
       rosetta_code:
       - Visual Basic
   Visual Basic .NET:
