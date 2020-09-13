@@ -13,7 +13,7 @@ logger = logging.getLogger("gen_meta")
 
 from .common import *
 
-LINGUIST_COMMIT = "2a6d952df870807034c3830738f95ad33222aca0"
+LINGUIST_COMMIT = "61fc3f06a3ee2f6b530873b6c01b10c37f5209fc"
 ROSETTA_CODE_DATA_COMMIT = "aac6731f2c1e30321fcfc58ac95d8203c041ee04"
 
 
@@ -81,6 +81,7 @@ def add_rosetta_code_languages(commit: str, meta: Meta):
         "NewLISP": "NewLisp",
         "OOC": "ooc",
         "Openscad": "OpenSCAD",
+        "Perl 6": "Raku",
         "POV-Ray": "POV-Ray SDL",
         "Powerbuilder": "PowerBuilder",
         "Q": "q",
@@ -92,9 +93,6 @@ def add_rosetta_code_languages(commit: str, meta: Meta):
         "Object Pascal": "Pascal",
         "Delphi": "Pascal",
         "Free Pascal": "Pascal",
-        "Visual Basic .NET": "Visual Basic",
-        "VBA": "Visual Basic",
-        "VBScript": "Visual Basic",
     }
 
     langs = get_rosetta_code_languages(commit=commit)
