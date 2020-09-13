@@ -8,8 +8,6 @@ def compute_report():
     report = {}
     report = {"languages": {}}
     for lang, lang_data in meta.data["languages"].items():
-        if "linguist" not in lang_data["maps_to"]:
-            continue
         n_samples = 0
         n_human = 0
         for file_data in dataset.data["files"].values():

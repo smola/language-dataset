@@ -3,9 +3,9 @@
 
 | Metric | Value |
 | ------ | ----- |
-| **Languages** | 245 |
-| **Total samples** | 3824 |
-| **Samples labeled by humans** | 485 |
+| **Languages** | 246 |
+| **Total samples** | 3825 |
+| **Samples labeled by humans** | 486 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -35,6 +35,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | AutoHotkey | 20 | 1 |
 | AutoIt | 20 | 0 |
 | Awk | 20 | 2 |
+| BCPL | 1 | 1 |
 | Ballerina | 20 | 0 |
 | Batchfile | 20 | 1 |
 | Befunge | 2 | 0 |
