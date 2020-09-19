@@ -1065,6 +1065,7 @@ files:
       vote: Wolfram Language
   github.com/Dridi/libvmod-querystring/f4497725b8952c2b32b2cd9dd4e85b2f3030ab04/configure.ac:
     annotations:
+      human-smola: M4Sugar
       linguist: M4
       linguist-filename: M4Sugar
       vote: M4Sugar
@@ -5344,10 +5345,11 @@ files:
       vote: ActionScript
   github.com/arvc-5/SuperServ/230ce08acf6a3affa565c483fd27dd6269231bee/bin/apache/apache2.4.9/manual/mod/mod_proxy_connect.html.fr:
     annotations:
+      human-smola: HTML
       linguist: Frege
       linguist-heuristics: Frege
       linguist-xml: XML
-      vote: Frege
+      vote: HTML
   github.com/ascherer/cweb/f06867a45e17f15d3a29d04ca132ec82bf242de5/prod.w:
     annotations:
       linguist: CWeb
@@ -11207,6 +11209,7 @@ files:
       vote: Harbour
   github.com/jaredpalmer/formik/5553720b5d6c9729cb3b12fd7948f28ad3be9adc/test/Field.test.tsx:
     annotations:
+      human-smola: TSX
       linguist: TypeScript
       linguist-heuristics: TSX
       vote: TSX
@@ -11804,10 +11807,11 @@ files:
       vote: REALbasic
   github.com/jshoniyi/-c-Apache24/b0e7f689303e761d144c54dc718a0ca7fdff85ea/manual/mod/mod_usertrack.html.fr:
     annotations:
+      human-smola: HTML
       linguist: Frege
       linguist-heuristics: Frege
       linguist-xml: XML
-      vote: Frege
+      vote: HTML
   github.com/jsm174/vbscript-parser/cc6b0cda5761e66e96a68a2b4860b886dc470e38/src/vbscript.ne:
     annotations:
       linguist: Nearley
@@ -12035,31 +12039,37 @@ files:
       vote: Ballerina
   github.com/katalon-studio-samples/DataDrivenTest/e2bb06b1bfdc95cf3259742e3d7e07ec68021039/Object Repository/Login Page of Demo Application/input_password.rs:
     annotations:
+      human-smola: XML
       linguist: RenderScript
       linguist-xml: XML
       vote: XML
   github.com/katalon-studio-samples/DragAndDropExample/84baad1522dc27333322eaaaca1d1fe97a15ece9/Object Repository/Page_Droppable  jQuery UI/iframe_demo-frame.rs:
     annotations:
+      human-smola: XML
       linguist: RenderScript
       linguist-xml: XML
       vote: XML
   github.com/katalon-studio-samples/Material-Login-App-Test/0e784674a595902ab55272c44079711d6feeb120/Object Repository/Material Login App/android.widget.EditText0.rs:
     annotations:
+      human-smola: XML
       linguist: RenderScript
       linguist-xml: XML
       vote: XML
   github.com/katalon-studio-samples/ShadowDOMSampleProject/bdc9e33a7afa0b0674e6d224a08385d0aaf18cd0/Object Repository/aStoreLink.rs:
     annotations:
+      human-smola: XML
       linguist: RenderScript
       linguist-xml: XML
       vote: XML
   github.com/katalon-studio-samples/android-mobile-tests/433d1f72a668cae30a1fd427f20bec190bb9786a/Object Repository/Application/App/android.widget.TextView-Activity.rs:
     annotations:
+      human-smola: XML
       linguist: RenderScript
       linguist-xml: XML
       vote: XML
   github.com/katalon-studio-samples/katalon-mobile-automation/8beaae95fb354d1431e256b5078f8eb6e4ba137d/Object Repository/Mobile Spy Object Locators/button_Send.rs:
     annotations:
+      human-smola: XML
       linguist: RenderScript
       linguist-xml: XML
       vote: XML
@@ -12070,6 +12080,7 @@ files:
       vote: Ballerina
   github.com/kazurayam/KatalonDiscussion4977/2d39aff1ed7aad79c52bb70f4f565b12692cbc92/Object Repository/Page_Basic line/svg_namespace-ignorant.rs:
     annotations:
+      human-smola: XML
       linguist: RenderScript
       linguist-xml: XML
       vote: XML
@@ -13782,6 +13793,7 @@ files:
       vote: Mirah
   github.com/misdanwijaya/KatalonDemo/761c0c164e7e2a8f41b2a14618fc8624b5df226d/Object Repository/Page_Sample Store/iframe.rs:
     annotations:
+      human-smola: XML
       linguist: RenderScript
       linguist-xml: XML
       vote: XML
@@ -14060,6 +14072,7 @@ files:
       vote: eC
   github.com/moyuanhui/kubernetes-study/29bd8d14042fb3af4ad0eaae14de9bef608af62c/yaml/coredns/coredns.yaml.sed:
     annotations:
+      human-smola: YAML
       linguist: sed
       linguist-extension: YAML
       vote: YAML
@@ -14143,6 +14156,7 @@ files:
       vote: YASnippet
   github.com/mrlesmithjr/ansible-rpi-k8s-cluster/cb06e785e8ab14df0b9089392d6539c1c19b0131/deployments/archive/coredns.yaml.sed:
     annotations:
+      human-smola: YAML
       linguist: sed
       linguist-extension: YAML
       vote: YAML
@@ -14835,6 +14849,7 @@ files:
       vote: CLIPS
   github.com/odonnell-anthony/katalon-automation-practice/4b86734d5fd17d5be9629648f596b7a3dea15741/Object Repository/Page_Order - My Store/Total_shipping.rs:
     annotations:
+      human-smola: XML
       linguist: RenderScript
       linguist-xml: XML
       vote: XML
@@ -15965,6 +15980,7 @@ files:
       vote: NSIS
   github.com/prs-de/ffidl/07b30ffeaab09083c2b4a6d682ecadfb6518f48d/tclconfig/pkg.m4:
     annotations:
+      human-smola: M4Sugar
       linguist: M4
       linguist-modeline: M4Sugar
       vote: M4Sugar
@@ -16263,9 +16279,10 @@ files:
       vote: Nemerle
   github.com/randolfgeist/oracle_scripts/bfd37b1b880093fb90aa0f279291dbf0c1265d34/io_benchmark/max_write_throughput_benchmark_harness.sql:
     annotations:
+      human-smola: PL/SQL
       linguist: SQLPL
       linguist-heuristics: SQL
-      vote: SQL
+      vote: PL/SQL
   github.com/raphink/config-augeas-validator/ee8aeffb9753fcb260e6227b2ef6b785bdca77c8/lenses/tests/test_fai_diskconfig.aug:
     annotations:
       linguist: Augeas
@@ -17267,10 +17284,11 @@ files:
       vote: MAXScript
   github.com/savnon/test/8dde0e4479377ca88d272717ccd572a720fc27e5/apache/manual/programs/apxs.html.fr:
     annotations:
+      human-smola: HTML
       linguist: Frege
       linguist-heuristics: Frege
       linguist-xml: XML
-      vote: Frege
+      vote: HTML
   github.com/savonet/liquidsoap/cb66ff1bcc19ce1756478012fe1633d47a13db9e/src/encoder_formats/vorbis_format.ml:
     annotations:
       linguist: OCaml
@@ -18261,6 +18279,7 @@ files:
       vote: PicoLisp
   github.com/tajmone/name-that-color/5b6c58e82a3d4032b3d84f6ca3c3cd714a7291b1/NTC.pbp:
     annotations:
+      human-smola: XML
       linguist: PureBasic
       linguist-xml: XML
       vote: XML
@@ -18906,6 +18925,7 @@ files:
       vote: Processing
   github.com/tsuna/boost.m4/b52682291fa9d1a26507ab9ac19cb199524fbdcd/configure.ac:
     annotations:
+      human-smola: M4Sugar
       linguist: M4
       linguist-filename: M4Sugar
       vote: M4Sugar
