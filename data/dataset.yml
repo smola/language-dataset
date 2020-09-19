@@ -1067,7 +1067,7 @@ files:
     annotations:
       linguist: M4
       linguist-filename: M4Sugar
-      vote: Unknown
+      vote: M4Sugar
   github.com/Dryopes/Advanced-Programming/2c4626fe4cde0cc3cfbfbba5a347df57b33c7024/assigment2/serialize2start.icl:
     annotations:
       human-smola: Clean
@@ -2351,7 +2351,7 @@ files:
     annotations:
       linguist: SQLPL
       linguist-heuristics: SQL
-      vote: Unknown
+      vote: SQL
   github.com/MJVL/BTS-Zebra-Projects/1a120b7376e737b7b5d7af8248f5459fc3f71baf/ZPL files/On a Stick Scan.zpl:
     annotations:
       linguist: Zimpl
@@ -2806,7 +2806,7 @@ files:
     annotations:
       linguist: SQLPL
       linguist-heuristics: SQL
-      vote: Unknown
+      vote: SQL
   github.com/OCSInventory-NG/Packager-for-Windows/3751643d51807aa76631be8642d6d0116b2f5211/Packager/ListBox.nsi:
     annotations:
       linguist: NSIS
@@ -3909,7 +3909,7 @@ files:
     annotations:
       linguist: SQLPL
       linguist-heuristics: TSQL
-      vote: Unknown
+      vote: TSQL
   github.com/TeamTilapia/vscode-tilapia/e237d0d770951c280b4755918fb2d88c0fd49131/example-tla/ModelingDeployments.tla:
     annotations:
       linguist: TLA
@@ -6509,7 +6509,7 @@ files:
     annotations:
       linguist: SQLPL
       linguist-heuristics: SQL
-      vote: Unknown
+      vote: SQL
   github.com/ccrisan/motioneyeos/1b59951d9b5b645c873312ca46acef6c64a98973/package/tk/tk.mk:
     annotations:
       human-smola: Makefile
@@ -6764,7 +6764,7 @@ files:
     annotations:
       linguist: PL/pgSQL
       linguist-heuristics: SQL
-      vote: Unknown
+      vote: SQL
   github.com/chumo/Schroedinger_SOLVER-IgorPRO/213cf6ef19fffb5aca329deac5a141b229faa056/Schroedinger_SOLVER.ipf:
     annotations:
       linguist: IGOR Pro
@@ -8158,7 +8158,7 @@ files:
     annotations:
       linguist: SQLPL
       linguist-heuristics: TSQL
-      vote: Unknown
+      vote: TSQL
   github.com/dutc/code-or-die/446559bf598fbc1e5a9392987d2325498115863c/dummy.sql:
     annotations:
       human-smola: PL/pgSQL
@@ -9816,7 +9816,7 @@ files:
     annotations:
       linguist: PL/SQL
       linguist-heuristics: SQL
-      vote: Unknown
+      vote: SQL
   github.com/gleetbone/picolisp-fp/b65c846e193d31f309a267f35e12b1f72cd0c904/inline/fp.l:
     annotations:
       human-smola: PicoLisp
@@ -11209,7 +11209,7 @@ files:
     annotations:
       linguist: TypeScript
       linguist-heuristics: TSX
-      vote: Unknown
+      vote: TSX
   github.com/jaredtao/HelloCI/fda7bb12bd97e0b9816ab723689906fb7d560e8a/HelloCI.pro:
     annotations:
       linguist: QMake
@@ -11624,7 +11624,7 @@ files:
     annotations:
       linguist: SQLPL
       linguist-heuristics: SQL
-      vote: Unknown
+      vote: SQL
   github.com/jofrfu/tinyTPU/7c9a732dfd1e305fbd86b41a6fb3146ea64693de/src/vhdl/Activation/TB_ACTIVATION.vhdl:
     annotations:
       linguist: VHDL
@@ -12037,32 +12037,32 @@ files:
     annotations:
       linguist: RenderScript
       linguist-xml: XML
-      vote: Unknown
+      vote: XML
   github.com/katalon-studio-samples/DragAndDropExample/84baad1522dc27333322eaaaca1d1fe97a15ece9/Object Repository/Page_Droppable  jQuery UI/iframe_demo-frame.rs:
     annotations:
       linguist: RenderScript
       linguist-xml: XML
-      vote: Unknown
+      vote: XML
   github.com/katalon-studio-samples/Material-Login-App-Test/0e784674a595902ab55272c44079711d6feeb120/Object Repository/Material Login App/android.widget.EditText0.rs:
     annotations:
       linguist: RenderScript
       linguist-xml: XML
-      vote: Unknown
+      vote: XML
   github.com/katalon-studio-samples/ShadowDOMSampleProject/bdc9e33a7afa0b0674e6d224a08385d0aaf18cd0/Object Repository/aStoreLink.rs:
     annotations:
       linguist: RenderScript
       linguist-xml: XML
-      vote: Unknown
+      vote: XML
   github.com/katalon-studio-samples/android-mobile-tests/433d1f72a668cae30a1fd427f20bec190bb9786a/Object Repository/Application/App/android.widget.TextView-Activity.rs:
     annotations:
       linguist: RenderScript
       linguist-xml: XML
-      vote: Unknown
+      vote: XML
   github.com/katalon-studio-samples/katalon-mobile-automation/8beaae95fb354d1431e256b5078f8eb6e4ba137d/Object Repository/Mobile Spy Object Locators/button_Send.rs:
     annotations:
       linguist: RenderScript
       linguist-xml: XML
-      vote: Unknown
+      vote: XML
   github.com/kaviththiranga/ballerina-day-tooling-tutorial/d668b4155c173f1e32699a513ebf3012a7b06f01/resources/hello-service/demo/tests/hello_service_test.bal:
     annotations:
       linguist: Ballerina
@@ -12072,7 +12072,7 @@ files:
     annotations:
       linguist: RenderScript
       linguist-xml: XML
-      vote: Unknown
+      vote: XML
   github.com/kburtch/SparForte/6df424e05a0fd8d0e5963f4ada2acea2baa77206/src/areadline/readline-completion.ads:
     annotations:
       human-smola: Ada
@@ -13692,7 +13692,7 @@ files:
     annotations:
       linguist: SQLPL
       linguist-heuristics: SQL
-      vote: Unknown
+      vote: SQL
   github.com/microsoft/terminal/9dc922fc37a479dd560675ac4ea1ce3713ae0ada/src/host/inputBuffer.hpp:
     annotations:
       linguist: C++
@@ -13784,7 +13784,7 @@ files:
     annotations:
       linguist: RenderScript
       linguist-xml: XML
-      vote: Unknown
+      vote: XML
   github.com/mist-devel/mist-board/a4e82ddd83d138e23fa1a52b8bc4755b5bd89205/cores/bbc/rtl/T65/T65_Pack.vhd:
     annotations:
       linguist: VHDL
@@ -14062,7 +14062,7 @@ files:
     annotations:
       linguist: sed
       linguist-extension: YAML
-      vote: Unknown
+      vote: YAML
   github.com/moz-code/prez/280c19321ee037739c108dd6cdeffde9cd81767c/src/commands.nit:
     annotations:
       linguist: Nit
@@ -14145,7 +14145,7 @@ files:
     annotations:
       linguist: sed
       linguist-extension: YAML
-      vote: Unknown
+      vote: YAML
   github.com/msabbott/log4oe/21f19e3059744efeb611746834f3cb6cc651b4e4/log4oe/Tests/Stubs/StubLogger.cls:
     annotations:
       linguist: OpenEdge ABL
@@ -14837,7 +14837,7 @@ files:
     annotations:
       linguist: RenderScript
       linguist-xml: XML
-      vote: Unknown
+      vote: XML
   github.com/ohanhi/elm-native-ui/d1fd123bed4f1c1f72a922784d1b4b8136f6b7d7/src/NativeUi/Style.elm:
     annotations:
       linguist: Elm
@@ -14898,7 +14898,7 @@ files:
     annotations:
       linguist: OCaml
       linguist-heuristics: Reason
-      vote: Unknown
+      vote: Reason
   github.com/onnx/onnx/e108da9a9a9916880ca7d1a0cfff96637921212c/onnx/backend/test/data/node/test_slice/test_data_set_0/output_0.pb:
     annotations:
       human-smola: Unknown
@@ -15630,7 +15630,7 @@ files:
     annotations:
       linguist: PL/SQL
       linguist-heuristics: SQL
-      vote: Unknown
+      vote: SQL
   github.com/ploeh/ZeroToNine/3497cf64e6f78921939b3096c363317775917906/Src/Zero29.UnitTests/Properties/AssemblyInfo.fs:
     annotations:
       human-smola: F#
@@ -15967,7 +15967,7 @@ files:
     annotations:
       linguist: M4
       linguist-modeline: M4Sugar
-      vote: Unknown
+      vote: M4Sugar
   github.com/prusa3d/Original-Prusa-i3/b5e22772bbc42ec3159206ebde95317c29ff4765/Printed-Parts/scad/x-end.scad:
     annotations:
       linguist: OpenSCAD
@@ -16265,7 +16265,7 @@ files:
     annotations:
       linguist: SQLPL
       linguist-heuristics: SQL
-      vote: Unknown
+      vote: SQL
   github.com/raphink/config-augeas-validator/ee8aeffb9753fcb260e6227b2ef6b785bdca77c8/lenses/tests/test_fai_diskconfig.aug:
     annotations:
       linguist: Augeas
@@ -16397,7 +16397,7 @@ files:
     annotations:
       linguist: OCaml
       linguist-heuristics: Reason
-      vote: Unknown
+      vote: Reason
   github.com/reasonml/reason-react/8017a5f556176744c245350cbeb5c600abebb8f8/src/ReasonReactRouter.re:
     annotations:
       linguist: OCaml
@@ -16828,7 +16828,7 @@ files:
     annotations:
       linguist: Agda
       linguist-extension: Literate Agda
-      vote: Unknown
+      vote: Literate Agda
   github.com/roelandjansen/pcmos386v501/406365a0919f6fb48fd5de1bddfdf157e80892e3/SOURCES/src/latest/MOSKBSF.ASM:
     annotations:
       linguist: Assembly
@@ -16863,7 +16863,7 @@ files:
     annotations:
       linguist: SQLPL
       linguist-heuristics: TSQL
-      vote: Unknown
+      vote: TSQL
   github.com/ronsaldo/lowtalk/ed169388a9f4799b296b92ea2b0d5e7e9e59a5b8/tonel/Lowtalk-Core/LowtalkBObject.class.st:
     annotations:
       linguist: Smalltalk
@@ -16872,7 +16872,7 @@ files:
     annotations:
       linguist: SQLPL
       linguist-heuristics: SQL
-      vote: Unknown
+      vote: SQL
   github.com/ros-simulation/gazebo_ros_demos/64e9200749567aab9ca2289563eea987fea8cf50/gazebo_tutorials/CMakeLists.txt:
     annotations:
       linguist: CMake
@@ -17234,7 +17234,7 @@ files:
     annotations:
       linguist: SQLPL
       linguist-heuristics: SQL
-      vote: Unknown
+      vote: SQL
   github.com/sarabander/sicp-pdf/5b3a5b2165c414a689873fd316a7293bc587b1c7/src/texi-to-latex.pl:
     annotations:
       linguist: Perl
@@ -18263,7 +18263,7 @@ files:
     annotations:
       linguist: PureBasic
       linguist-xml: XML
-      vote: Unknown
+      vote: XML
   github.com/tak-oda/201904_DisneyReview/b831fd9020ba4f23bd44e41891191f991012b388/Codes/Q1.q:
     annotations:
       linguist: HiveQL
@@ -18908,7 +18908,7 @@ files:
     annotations:
       linguist: M4
       linguist-filename: M4Sugar
-      vote: Unknown
+      vote: M4Sugar
   github.com/ttencate/aoc2017/94a9618ef1617b74144e7c98b5d446d592db5307/18_eiffel/18a/state.e:
     annotations:
       linguist: Eiffel

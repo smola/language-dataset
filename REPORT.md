@@ -3,8 +3,8 @@
 
 | Metric | Value |
 | ------ | ----- |
-| **Languages** | 250 |
-| **Total samples** | 3792 |
+| **Languages** | 251 |
+| **Total samples** | 3825 |
 | **Samples labeled by humans** | 506 |
 
 ## Per Language
@@ -140,12 +140,13 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Lasso | 9 | 2 |
 | Limbo | 17 | 0 |
 | Liquid | 20 | 3 |
-| Literate Agda | 1 | 1 |
+| Literate Agda | 2 | 1 |
 | Literate CoffeeScript | 1 | 1 |
 | LiveScript | 20 | 2 |
 | Logtalk | 20 | 1 |
 | Lua | 20 | 2 |
 | M4 | 13 | 3 |
+| M4Sugar | 3 | 0 |
 | MATLAB | 23 | 16 |
 | MAXScript | 17 | 0 |
 | Makefile | 17 | 1 |
@@ -198,7 +199,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Ragel | 17 | 0 |
 | Raku | 11 | 9 |
 | Rascal | 20 | 0 |
-| Reason | 3 | 3 |
+| Reason | 5 | 3 |
 | Rebol | 18 | 7 |
 | Red | 18 | 1 |
 | RenderScript | 4 | 1 |
@@ -207,7 +208,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Ruby | 20 | 3 |
 | Rust | 23 | 4 |
 | SAS | 20 | 4 |
-| SQL | 12 | 11 |
+| SQL | 23 | 11 |
 | SQLPL | 1 | 1 |
 | SVG | 2 | 0 |
 | Scala | 20 | 3 |
@@ -224,8 +225,8 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Swift | 19 | 1 |
 | SystemVerilog | 19 | 9 |
 | TLA | 20 | 0 |
-| TSQL | 5 | 5 |
-| TSX | 1 | 1 |
+| TSQL | 8 | 5 |
+| TSX | 2 | 1 |
 | TXL | 18 | 0 |
 | Tcl | 18 | 3 |
 | Terra | 7 | 0 |
@@ -245,13 +246,13 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Wolfram Language | 10 | 2 |
 | Wollok | 20 | 0 |
 | XC | 20 | 0 |
-| XML | 16 | 16 |
+| XML | 26 | 16 |
 | XProc | 17 | 0 |
 | XQuery | 20 | 3 |
 | XS | 14 | 1 |
 | XSLT | 17 | 1 |
 | Xojo | 19 | 4 |
-| YAML | 21 | 7 |
+| YAML | 23 | 7 |
 | YASnippet | 20 | 0 |
 | ZIL | 20 | 0 |
 | Zephir | 20 | 2 |
