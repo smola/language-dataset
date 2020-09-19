@@ -15633,7 +15633,7 @@ files:
       vote: Unknown
   github.com/ploeh/ZeroToNine/3497cf64e6f78921939b3096c363317775917906/Src/Zero29.UnitTests/Properties/AssemblyInfo.fs:
     annotations:
-      huma-smola: F#
+      human-smola: F#
       linguist: F#
       linguist-heuristics: F#
       vote: F#
