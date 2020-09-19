@@ -26,26 +26,6 @@ languages:
     maps_to:
       rosetta_code:
       - 4DOS Batch
-  6502 Assembly:
-    maps_to:
-      rosetta_code:
-      - 6502 Assembly
-  6800 Assembly:
-    maps_to:
-      rosetta_code:
-      - 6800 Assembly
-  8051 Assembly:
-    maps_to:
-      rosetta_code:
-      - 8051 Assembly
-  8080 Assembly:
-    maps_to:
-      rosetta_code:
-      - 8080 Assembly
-  8086 Assembly:
-    maps_to:
-      rosetta_code:
-      - 8086 Assembly
   8th:
     maps_to:
       rosetta_code:
@@ -110,10 +90,6 @@ languages:
       - APL
       rosetta_code:
       - APL
-  ARM Assembly:
-    maps_to:
-      rosetta_code:
-      - ARM Assembly
   ASL:
     maps_to:
       linguist:
@@ -267,7 +243,24 @@ languages:
       linguist:
       - Assembly
       rosetta_code:
+      - 6502 Assembly
+      - 6800 Assembly
+      - 8051 Assembly
+      - 8080 Assembly
+      - 8086 Assembly
+      - ARM Assembly
       - Assembly
+      - Computer/zero Assembly
+      - FRISC Assembly
+      - LC3 Assembly
+      - MIPS Assembly
+      - PDP-11 Assembly
+      - SPARC Assembly
+      - SoneKing Assembly
+      - TI-83 Hex Assembly
+      - VAX Assembly
+      - X86 Assembly
+      - Z80 Assembly
   Astro:
     maps_to:
       rosetta_code:
@@ -694,10 +687,6 @@ languages:
       - Component Pascal
       rosetta_code:
       - Component Pascal
-  Computer/zero Assembly:
-    maps_to:
-      rosetta_code:
-      - Computer/zero Assembly
   Cool:
     maps_to:
       linguist:
@@ -1060,10 +1049,6 @@ languages:
     maps_to:
       rosetta_code:
       - FP
-  FRISC Assembly:
-    maps_to:
-      rosetta_code:
-      - FRISC Assembly
   FUZE BASIC:
     maps_to:
       rosetta_code:
@@ -1157,10 +1142,6 @@ languages:
       - Frege
       rosetta_code:
       - Frege
-  Friendly interactive shell:
-    maps_to:
-      rosetta_code:
-      - Friendly interactive shell
   Frink:
     maps_to:
       rosetta_code:
@@ -1231,10 +1212,6 @@ languages:
       - GLSL
       rosetta_code:
       - GLSL
-  GML:
-    maps_to:
-      rosetta_code:
-      - GML
   GN:
     maps_to:
       linguist:
@@ -1255,6 +1232,8 @@ languages:
     maps_to:
       linguist:
       - Game Maker Language
+      rosetta_code:
+      - GML
   Gastona:
     maps_to:
       rosetta_code:
@@ -1817,10 +1796,6 @@ languages:
     maps_to:
       rosetta_code:
       - L++
-  LC3 Assembly:
-    maps_to:
-      rosetta_code:
-      - LC3 Assembly
   LFE:
     maps_to:
       linguist:
@@ -2061,10 +2036,6 @@ languages:
     maps_to:
       rosetta_code:
       - MINIL
-  MIPS Assembly:
-    maps_to:
-      rosetta_code:
-      - MIPS Assembly
   ML/I:
     maps_to:
       rosetta_code:
@@ -2270,10 +2241,6 @@ languages:
     maps_to:
       linguist:
       - Mustache
-  MySQL:
-    maps_to:
-      rosetta_code:
-      - MySQL
   Myghty:
     maps_to:
       linguist:
@@ -2598,10 +2565,6 @@ languages:
     maps_to:
       rosetta_code:
       - PASM
-  PDP-11 Assembly:
-    maps_to:
-      rosetta_code:
-      - PDP-11 Assembly
   PHL:
     maps_to:
       rosetta_code:
@@ -3175,10 +3138,6 @@ languages:
     maps_to:
       rosetta_code:
       - SPAD
-  SPARC Assembly:
-    maps_to:
-      rosetta_code:
-      - SPARC Assembly
   SPARK:
     maps_to:
       rosetta_code:
@@ -3200,6 +3159,7 @@ languages:
       linguist:
       - SQL
       rosetta_code:
+      - MySQL
       - SQL
   SQLPL:
     maps_to:
@@ -3403,10 +3363,6 @@ languages:
     maps_to:
       linguist:
       - Solidity
-  SoneKing Assembly:
-    maps_to:
-      rosetta_code:
-      - SoneKing Assembly
   SourcePawn:
     maps_to:
       linguist:
@@ -3507,10 +3463,6 @@ languages:
     maps_to:
       rosetta_code:
       - TI-83 BASIC
-  TI-83 Hex Assembly:
-    maps_to:
-      rosetta_code:
-      - TI-83 Hex Assembly
   TI-89 BASIC:
     maps_to:
       rosetta_code:
@@ -3539,6 +3491,8 @@ languages:
     maps_to:
       linguist:
       - TSQL
+      rosetta_code:
+      - Transact-SQL
   TSV:
     maps_to:
       linguist:
@@ -3627,10 +3581,6 @@ languages:
     maps_to:
       rosetta_code:
       - TransFORTH
-  Transact-SQL:
-    maps_to:
-      rosetta_code:
-      - Transact-SQL
   Trith:
     maps_to:
       rosetta_code:
@@ -3725,10 +3675,6 @@ languages:
       - V
       rosetta_code:
       - V
-  VAX Assembly:
-    maps_to:
-      rosetta_code:
-      - VAX Assembly
   VBA:
     maps_to:
       linguist:
@@ -3912,10 +3858,6 @@ languages:
     maps_to:
       linguist:
       - X10
-  X86 Assembly:
-    maps_to:
-      rosetta_code:
-      - X86 Assembly
   XC:
     maps_to:
       linguist:
@@ -4034,10 +3976,6 @@ languages:
     maps_to:
       rosetta_code:
       - Yorick
-  Z80 Assembly:
-    maps_to:
-      rosetta_code:
-      - Z80 Assembly
   ZAP:
     maps_to:
       linguist:
@@ -4114,6 +4052,7 @@ languages:
       - fish
       rosetta_code:
       - Fish
+      - Friendly interactive shell
   mIRC Script:
     maps_to:
       linguist:
