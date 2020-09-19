@@ -1136,12 +1136,9 @@ languages:
     maps_to:
       linguist:
       - Fortran
+      - Fortran Free Form
       rosetta_code:
       - Fortran
-  Fortran Free Form:
-    maps_to:
-      linguist:
-      - Fortran Free Form
   Fortress:
     maps_to:
       rosetta_code:

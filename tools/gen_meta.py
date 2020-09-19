@@ -27,6 +27,7 @@ def add_linguist_languages(commit: str, meta: Meta):
 
     norm_langs = {
         "Cuda": "CUDA",
+        "Fortran Free Form": "Fortran",  # TODO: We might want to split this.
         "JSONLD": "JSON-LD",
         "PLSQL": "PL/SQL",
         "PLpgSQL": "PL/pgSQL",

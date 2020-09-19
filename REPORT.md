@@ -3,9 +3,9 @@
 
 | Metric | Value |
 | ------ | ----- |
-| **Languages** | 247 |
-| **Total samples** | 3825 |
-| **Samples labeled by humans** | 486 |
+| **Languages** | 250 |
+| **Total samples** | 3792 |
+| **Samples labeled by humans** | 505 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -22,7 +22,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | ATS | 20 | 2 |
 | ActionScript | 20 | 0 |
 | Ada | 20 | 20 |
-| Agda | 20 | 0 |
+| Agda | 18 | 0 |
 | Alloy | 19 | 0 |
 | AngelScript | 3 | 0 |
 | Apex | 20 | 1 |
@@ -62,8 +62,8 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Clean | 9 | 9 |
 | Clojure | 19 | 2 |
 | CoffeeScript | 19 | 3 |
-| ColdFusion | 13 | 2 |
-| ColdFusion CFC | 7 | 7 |
+| ColdFusion | 12 | 2 |
+| ColdFusion CFC | 8 | 8 |
 | Common Lisp | 14 | 10 |
 | Common Workflow Language | 16 | 0 |
 | Component Pascal | 1 | 0 |
@@ -90,8 +90,8 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Factor | 19 | 0 |
 | Fancy | 16 | 1 |
 | Fantom | 20 | 0 |
-| Forth | 19 | 1 |
-| Fortran | 20 | 3 |
+| Forth | 19 | 2 |
+| Fortran | 20 | 5 |
 | FreeMarker | 18 | 2 |
 | Frege | 17 | 1 |
 | G-code | 1 | 1 |
@@ -103,7 +103,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Gnuplot | 9 | 1 |
 | Go | 22 | 4 |
 | Golo | 20 | 0 |
-| Gosu | 8 | 0 |
+| Gosu | 6 | 0 |
 | Grace | 20 | 1 |
 | Groovy | 20 | 1 |
 | HTML | 4 | 4 |
@@ -127,6 +127,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | JavaScript | 20 | 5 |
 | Jsonnet | 20 | 0 |
 | Julia | 18 | 0 |
+| Jupyter Notebook | 1 | 1 |
 | KiCad Layout | 2 | 2 |
 | Kit | 19 | 1 |
 | Kotlin | 20 | 1 |
@@ -139,11 +140,12 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Lasso | 9 | 2 |
 | Limbo | 17 | 0 |
 | Liquid | 20 | 3 |
+| Literate Agda | 1 | 1 |
 | Literate CoffeeScript | 1 | 1 |
 | LiveScript | 20 | 2 |
 | Logtalk | 20 | 1 |
 | Lua | 20 | 2 |
-| M4 | 16 | 3 |
+| M4 | 13 | 3 |
 | MATLAB | 23 | 16 |
 | MAXScript | 17 | 0 |
 | Makefile | 17 | 1 |
@@ -162,7 +164,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Nim | 20 | 0 |
 | Nit | 19 | 0 |
 | Nix | 18 | 0 |
-| OCaml | 17 | 2 |
+| OCaml | 14 | 2 |
 | Objective-C | 20 | 2 |
 | Opa | 19 | 0 |
 | Opal | 3 | 0 |
@@ -171,8 +173,8 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Oxygene | 1 | 0 |
 | Oz | 20 | 1 |
 | PHP | 21 | 3 |
-| PL/SQL | 15 | 10 |
-| PL/pgSQL | 15 | 5 |
+| PL/SQL | 13 | 11 |
+| PL/pgSQL | 13 | 5 |
 | POV-Ray SDL | 2 | 0 |
 | Pascal | 20 | 1 |
 | Perl | 20 | 3 |
@@ -184,9 +186,9 @@ For each language, the table reports total number of samples (_Samples_) and how
 | PowerShell | 17 | 2 |
 | Processing | 20 | 2 |
 | Prolog | 17 | 4 |
-| PureBasic | 9 | 0 |
+| PureBasic | 8 | 0 |
 | PureScript | 20 | 0 |
-| Python | 22 | 3 |
+| Python | 21 | 3 |
 | QML | 19 | 2 |
 | QMake | 20 | 1 |
 | R | 21 | 2 |
@@ -196,17 +198,17 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Ragel | 17 | 0 |
 | Raku | 11 | 9 |
 | Rascal | 20 | 0 |
-| Reason | 2 | 2 |
+| Reason | 3 | 3 |
 | Rebol | 18 | 7 |
 | Red | 18 | 1 |
-| RenderScript | 15 | 1 |
+| RenderScript | 4 | 1 |
 | Ring | 20 | 0 |
 | Roff | 1 | 1 |
 | Ruby | 20 | 3 |
 | Rust | 23 | 4 |
 | SAS | 20 | 4 |
-| SQL | 10 | 8 |
-| SQLPL | 15 | 0 |
+| SQL | 12 | 11 |
+| SQLPL | 1 | 1 |
 | SVG | 2 | 0 |
 | Scala | 20 | 3 |
 | Scheme | 21 | 21 |
@@ -222,13 +224,14 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Swift | 19 | 1 |
 | SystemVerilog | 19 | 9 |
 | TLA | 20 | 0 |
-| TSQL | 3 | 3 |
+| TSQL | 5 | 5 |
+| TSX | 1 | 1 |
 | TXL | 18 | 0 |
 | Tcl | 18 | 3 |
 | Terra | 7 | 0 |
 | Text | 1 | 1 |
 | Turing | 8 | 0 |
-| TypeScript | 20 | 4 |
+| TypeScript | 18 | 4 |
 | Unix Assembly | 4 | 4 |
 | V | 18 | 2 |
 | VHDL | 16 | 2 |
@@ -242,7 +245,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Wolfram Language | 10 | 2 |
 | Wollok | 20 | 0 |
 | XC | 20 | 0 |
-| XML | 12 | 12 |
+| XML | 16 | 16 |
 | XProc | 17 | 0 |
 | XQuery | 20 | 3 |
 | XS | 14 | 1 |
@@ -257,5 +260,5 @@ For each language, the table reports total number of samples (_Samples_) and how
 | ooc | 19 | 1 |
 | q | 15 | 2 |
 | reStructuredText | 1 | 1 |
-| sed | 11 | 1 |
+| sed | 9 | 1 |
 | xBase | 14 | 9 |
