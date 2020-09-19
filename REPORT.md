@@ -5,7 +5,7 @@
 | ------ | ----- |
 | **Languages** | 251 |
 | **Total samples** | 3825 |
-| **Samples labeled by humans** | 506 |
+| **Samples labeled by humans** | 526 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -93,7 +93,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Forth | 19 | 2 |
 | Fortran | 20 | 5 |
 | FreeMarker | 18 | 2 |
-| Frege | 17 | 1 |
+| Frege | 14 | 1 |
 | G-code | 1 | 1 |
 | GAP | 7 | 0 |
 | GDScript | 2 | 2 |
@@ -106,7 +106,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Gosu | 6 | 0 |
 | Grace | 20 | 1 |
 | Groovy | 20 | 1 |
-| HTML | 4 | 4 |
+| HTML | 7 | 7 |
 | Hack | 14 | 2 |
 | Handlebars | 1 | 1 |
 | Harbour | 18 | 2 |
@@ -146,7 +146,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Logtalk | 20 | 1 |
 | Lua | 20 | 2 |
 | M4 | 13 | 3 |
-| M4Sugar | 3 | 0 |
+| M4Sugar | 3 | 3 |
 | MATLAB | 23 | 16 |
 | MAXScript | 17 | 0 |
 | Makefile | 17 | 1 |
@@ -174,7 +174,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Oxygene | 1 | 0 |
 | Oz | 20 | 1 |
 | PHP | 21 | 3 |
-| PL/SQL | 13 | 11 |
+| PL/SQL | 14 | 12 |
 | PL/pgSQL | 13 | 5 |
 | POV-Ray SDL | 2 | 0 |
 | Pascal | 20 | 1 |
@@ -208,7 +208,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Ruby | 20 | 3 |
 | Rust | 23 | 4 |
 | SAS | 20 | 4 |
-| SQL | 23 | 11 |
+| SQL | 22 | 11 |
 | SQLPL | 1 | 1 |
 | SVG | 2 | 0 |
 | Scala | 20 | 3 |
@@ -226,7 +226,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | SystemVerilog | 19 | 9 |
 | TLA | 20 | 0 |
 | TSQL | 8 | 5 |
-| TSX | 2 | 1 |
+| TSX | 2 | 2 |
 | TXL | 18 | 0 |
 | Tcl | 18 | 3 |
 | Terra | 7 | 0 |
@@ -246,13 +246,13 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Wolfram Language | 10 | 2 |
 | Wollok | 20 | 0 |
 | XC | 20 | 0 |
-| XML | 26 | 16 |
+| XML | 26 | 26 |
 | XProc | 17 | 0 |
 | XQuery | 20 | 3 |
 | XS | 14 | 1 |
 | XSLT | 17 | 1 |
 | Xojo | 19 | 4 |
-| YAML | 23 | 7 |
+| YAML | 23 | 9 |
 | YASnippet | 20 | 0 |
 | ZIL | 20 | 0 |
 | Zephir | 20 | 2 |
