@@ -5,7 +5,7 @@
 | ------ | ----- |
 | **Languages** | 250 |
 | **Total samples** | 3792 |
-| **Samples labeled by humans** | 505 |
+| **Samples labeled by humans** | 506 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -86,7 +86,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Elm | 20 | 0 |
 | Emacs Lisp | 20 | 2 |
 | Erlang | 19 | 0 |
-| F# | 20 | 3 |
+| F# | 20 | 4 |
 | Factor | 19 | 0 |
 | Fancy | 16 | 1 |
 | Fantom | 20 | 0 |
