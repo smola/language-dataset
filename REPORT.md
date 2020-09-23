@@ -3,9 +3,9 @@
 
 | Metric | Value |
 | ------ | ----- |
-| **Languages** | 252 |
-| **Total samples** | 3826 |
-| **Samples labeled by humans** | 531 |
+| **Languages** | 253 |
+| **Total samples** | 3842 |
+| **Samples labeled by humans** | 542 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -69,6 +69,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Component Pascal | 1 | 0 |
 | Coq | 18 | 1 |
 | Crystal | 19 | 0 |
+| Cycript | 16 | 11 |
 | D | 20 | 5 |
 | DM | 18 | 1 |
 | DNS Zone | 1 | 1 |
