@@ -271,6 +271,12 @@ files:
       human-smola: MATLAB
       linguist: Limbo
       vote: MATLAB
+  github.com/AloneMonkey/MDCycript/4200d657ad571bc45e75d205c10569ca74ba551f/md.cy:
+    annotations:
+      human-smola: Cycript
+      linguist: Cycript
+      linguist-extension: Cycript
+      vote: Cycript
   github.com/Alpha698/Tetris_v0.1/3f5b92732e2f04ccba646b176ccf3eb8ae17be47/tetris/Tetris.clw:
     annotations:
       human-smola: INI
@@ -715,6 +721,12 @@ files:
     annotations:
       linguist: OpenEdge ABL
       vote: OpenEdge ABL
+  github.com/CandySunPlus/CY_erbi/089beb34602ce4be814e4ca109fb7135348e95b5/plugin/g2b.cy:
+    annotations:
+      human-smola: Unknown
+      linguist: Cycript
+      linguist-extension: Cycript
+      vote: Unknown
   github.com/CannyLab/tsne-cuda/2067f9dc19dfe12ce78ccbc3b58f43cc2afed06d/src/util/thrust_utils.cu:
     annotations:
       linguist: CUDA
@@ -857,6 +869,11 @@ files:
       linguist: Objective-C
       linguist-heuristics: Objective-C
       vote: Objective-C
+  github.com/CoderMJLee/mjcript/5ae380e75cb9757a54f9ac9c1a287e0240c6e9e5/mjcript.cy:
+    annotations:
+      linguist: Cycript
+      linguist-extension: Cycript
+      vote: Cycript
   github.com/ColdBox/coldbox-platform/219f7d32d42d4e4d3b83db62eb83756577f0d9de/system/ioc/config/LogBox.cfc:
     annotations:
       human-smola: ColdFusion CFC
@@ -1075,6 +1092,12 @@ files:
       linguist: Clean
       linguist-extension: Clean
       vote: Clean
+  github.com/Dtheme/Burin-master/2812112f5c05a6699121568836750db20d76f49f/burin.cy:
+    annotations:
+      human-smola: Cycript
+      linguist: Cycript
+      linguist-extension: Cycript
+      vote: Cycript
   github.com/Dyalog/JSONServer/b315bac18c64435ae5ee3b62bd6ab2634ce0de64/Tests/Secure/TestSecure.dyalog:
     annotations:
       linguist: APL
@@ -2396,6 +2419,12 @@ files:
       human-smola: Unknown
       linguist: E
       vote: Unknown
+  github.com/Magic-Unique/iOSJailbreakTools/79df8b2569fd22d353a7eee30b269eb2b6999a7a/Installation/usr/local/bin/Cycript.lib/libcycript.cy:
+    annotations:
+      human-smola: Cycript
+      linguist: Cycript
+      linguist-extension: Cycript
+      vote: Cycript
   github.com/MagicLu550/MyIdealLang/9768acdc36cc6209a38497bd81b9f41c5c1a9d06/program.nl:
     annotations:
       human-ajnavarro: Unknown
@@ -3355,6 +3384,11 @@ files:
       linguist: Fortran
       linguist-heuristics: Fortran
       vote: Fortran
+  github.com/Reflejo/classDump.cy/5d4e5bf5c876de5d9de1de9edbf548ab2b544d8c/classDump.cy:
+    annotations:
+      linguist: Cycript
+      linguist-extension: Cycript
+      vote: Cycript
   github.com/ResearchKit/ResearchKit/e19dfbff8d5c33a2d43ed78dcaa024fe0e35db25/ResearchKit/Common/ORKFormStepViewController_Internal.h:
     annotations:
       linguist: Objective-C
@@ -3417,6 +3451,12 @@ files:
       linguist: Ring
       linguist-extension: Ring
       vote: Ring
+  github.com/Ruixel/YACY/49835f35a0d114d60c20e91f9c5f7707db77a2ec/res/levels/Castle.cy:
+    annotations:
+      human-smola: Unknown
+      linguist: Cycript
+      linguist-extension: Cycript
+      vote: Unknown
   github.com/Rupal-IIITD/chapel/924d61041a2be840e2fb06b937cbe6bfe33a81bc/merge.chpl:
     annotations:
       linguist: Chapel
@@ -4077,6 +4117,12 @@ files:
       linguist: YASnippet
       linguist-modeline: YASnippet
       vote: YASnippet
+  github.com/Tyilo/cycript-utils/59d5e8eec3530be264de9ecbd6855d761b1e6052/utils.cy:
+    annotations:
+      human-smola: Cycript
+      linguist: Cycript
+      linguist-extension: Cycript
+      vote: Cycript
   github.com/TypeUnsafe/golo-f/5923f02735239943ff60b14f0fc468bcc65850ae/02.yloiseau.option.decorator.golo:
     annotations:
       linguist: Golo
@@ -4571,6 +4617,12 @@ files:
       linguist: SAS
       linguist-extension: SAS
       vote: SAS
+  github.com/adam-cowley/journeyplanning/ffc7b29766b2d9f030a070b4aedbbb67aa55e0a3/all.cy:
+    annotations:
+      human-smola: Unknown
+      linguist: Cycript
+      linguist-extension: Cycript
+      vote: Unknown
   github.com/adampash/texter/5fae19b5876c68f02b8da727e6feabed2c3c521a/includes/functions/printablelist.ahk:
     annotations:
       linguist: AutoHotkey
@@ -6123,6 +6175,11 @@ files:
       linguist: PL/pgSQL
       linguist-heuristics: PL/pgSQL
       vote: SQL
+  github.com/blaceman/myRe/df1c6856db145f16c0277f14726c3986388874dc/cy/myMd.cy:
+    annotations:
+      linguist: Cycript
+      linguist-extension: Cycript
+      vote: Cycript
   github.com/blackcata/1D-RANS/cdf7efa59778749b0f492cfa1cabda342327ec6f/DATA/CHANNEL_0180_mean_prof.plt:
     annotations:
       human-smola: Unknown
@@ -6910,6 +6967,12 @@ files:
       linguist: AutoIt
       linguist-extension: AutoIt
       vote: AutoIt
+  github.com/cocoahuke/quicklycharging/e6a44d9a84d6d7a13b4fbf512db837d142184d93/haha.cy:
+    annotations:
+      human-smola: Cycript
+      linguist: Cycript
+      linguist-extension: Cycript
+      vote: Cycript
   github.com/cocos-creator/tutorial-dark-slash/05cd71e3b1c815274d50e60cb1889284f89296c2/revive_atlas.tps:
     annotations:
       human-smola: XML
@@ -7476,6 +7539,12 @@ files:
       linguist: Clarion
       linguist-extension: Clarion
       vote: Clarion
+  github.com/davidlindner/cycript_Utils/9136a797f36e693acc5fe788487c7b77231a200a/utils.cy:
+    annotations:
+      human-smola: Cycript
+      linguist: Cycript
+      linguist-extension: Cycript
+      vote: Cycript
   github.com/davidlpotter59/axis-version7_ars/7b6cd4d3bfce567baceb9fdbac593ff63af2c413/arspr517.eq:
     annotations:
       linguist: EQ
@@ -9067,6 +9136,12 @@ files:
       linguist: Modula-3
       linguist-extension: Modula-3
       vote: Text
+  github.com/feynmandiagrams1/Logs/dc307dd69b417f05bd30dacad2c095d3dd30f9ba/Core.cy:
+    annotations:
+      human-smola: Cycript
+      linguist: Cycript
+      linguist-extension: Cycript
+      vote: Cycript
   github.com/fgeorges/cxan/8c80ade9f20f3d41da0c340975e606420bfc3a60/client/src/tools.xpl:
     annotations:
       linguist: XProc
@@ -12140,6 +12215,12 @@ files:
       linguist: Liquid
       linguist-extension: Liquid
       vote: Liquid
+  github.com/keith/injectURLProtocol/6d74251eebc4a6bf256bab637236af925e87de29/injectURLProtocol.cy:
+    annotations:
+      human-smola: Cycript
+      linguist: Cycript
+      linguist-extension: Cycript
+      vote: Cycript
   github.com/kekcleader/Karax/1ecc14a058d251a4b13aca4a61b618ec91e9f249/Karax.Mod:
     annotations:
       linguist: Modula-2
@@ -13096,6 +13177,12 @@ files:
       linguist: Brightscript
       linguist-extension: Brightscript
       vote: Brightscript
+  github.com/lvchenqiang/LYUCript/60f3a2750a79e31e3a4dc0f7f782ade9ca580f2b/lyucript.cy:
+    annotations:
+      human-smola: Cycript
+      linguist: Cycript
+      linguist-extension: Cycript
+      vote: Cycript
   github.com/lvzon/dsmr-p1-parser/9d82c0ba9fa45671f89a198832da525403f4f35e/parser-tools.rl:
     annotations:
       linguist: Ragel
@@ -14018,6 +14105,12 @@ files:
       linguist: QML
       linguist-extension: QML
       vote: QML
+  github.com/monetking/iOSSecurity/767a784e18d44f29d03521cf15db5d13d0a5b30f/Cycript/yjcript.cy:
+    annotations:
+      human-smola: Cycript
+      linguist: Cycript
+      linguist-extension: Cycript
+      vote: Cycript
   github.com/mongrol/mongiloti/0d8afdf6089733ee1e5ae96658c9709d7ecc8eca/axoloti/drumsy2.axs:
     annotations:
       linguist: NetLinx
@@ -14645,6 +14738,12 @@ files:
       linguist: ActionScript
       linguist-heuristics: ActionScript
       vote: ActionScript
+  github.com/nologic/cycript-scripts/68bbe79f0b366f5a2f09b8aae64af27dcee98f8c/utils.cy:
+    annotations:
+      human-smola: Cycript
+      linguist: Cycript
+      linguist-extension: Cycript
+      vote: Cycript
   github.com/nophead/Mendel90/a82d99a868fab4d475926c1019104be3e13e90b2/scad/vitamins/tubing.scad:
     annotations:
       linguist: OpenSCAD
@@ -19863,6 +19962,11 @@ files:
       linguist: XC
       linguist-extension: XC
       vote: XC
+  github.com/xdc0459/CycriptLearn/2bd0d1eda22d7e1c62b6632890cc8dca5dbe9f1c/xdc/HookImage.cy:
+    annotations:
+      linguist: Cycript
+      linguist-extension: Cycript
+      vote: Cycript
   github.com/xesscorp/VHDL_Lib/426fa97c0ac16e465ce10f1bb5ad33834b0230f7/audio.vhd:
     annotations:
       linguist: VHDL
@@ -20168,6 +20272,11 @@ files:
       linguist: Makefile
       linguist-filename: Makefile
       vote: Makefile
+  github.com/zhangYongJieQZ/cycriptDemo/0b61b9f0499dad73c4fa6062d80868a1722d4551/cycriptTest/Cycript.lib/cycript0.9/com/saurik/substrate/MS.cy:
+    annotations:
+      linguist: Cycript
+      linguist-extension: Cycript
+      vote: Cycript
   "github.com/zhaoolee/ChromeAppHeroes/0d821c77c2a7b0da4c9df59c08df0470ba9d671a/\u76F8\u5173\u8D44\u6E90/bing/bing.py":
     annotations:
       linguist: Python
