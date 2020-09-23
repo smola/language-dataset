@@ -140,10 +140,91 @@ def get_rosetta_code_languages(commit: str) -> Sequence[str]:
     return langs
 
 
+def add_pygments_languages(meta: Meta):
+    import pygments
+    import pygments.lexers
+
+    dataset_name = "pygments"
+    meta.add_dataset(
+        name=dataset_name,
+        data={
+            "version": pygments.__version__,
+        },
+    )
+
+    norm_langs = {
+        "ActionScript 3": "ActionScript",
+        "Ampl": "AMPL",
+        "autohotkey": "AutoHotkey",
+        "aspx-cs": "ASP.NET",
+        "aspx-vb": "ASP.NET",
+        "Base Makefile": "Makefile",
+        "Bash": "Shell",
+        "Bash Session": "ShellSession",
+        "BBC Basic": "BBC BASIC",
+        "BC": "bc",
+        "c-objdump": "C-ObjDump",
+        "cpp-objdump": "Cpp-ObjDump",
+        "Coldfusion CFC": "ColdFusion CFC",
+        "d-objdump": "D-ObjDump",
+        "DASM16": "Assembly",
+        "Delphi": "Pascal",
+        "Docker": "Dockerfile",
+        "EmacsLisp": "Emacs Lisp",
+        "Fish": "fish",
+        "FortranFixed": "Fortran",  # TODO
+        "FoxPro": "xBase",
+        "GAS": "Unix Assembly",
+        "Hxml": "HXML",
+        "LessCss": "Less",
+        "liquid": "Liquid",
+        "markdown": "Markdown",
+        "Mathematica": "Wolfram Language",
+        "Matlab": "MATLAB",
+        "MySQL": "SQL",
+        "Nginx configuration file": "Nginx",
+        "MOOCode": "MOO",
+        "objdump": "ObjDump",
+        "ODIN": "Odin",
+        "Ooc": "ooc",
+        "Perl6": "Raku",
+        "Pig": "PigLatin",
+        "PostgreSQL SQL dialect": "SQL",
+        "POVRay": "POV-Ray SDL",
+        "Properties": "Java Properties",
+        "Python 2.x": "Python",
+        "Python console session": "Python console",
+        "Python Traceback": "Python traceback",
+        "Python 2.x Traceback": "Python traceback",
+        "ReasonML": "Reason",
+        "REBOL": "Rebol",
+        "Rexx": "REXX",
+        "RHTML": "HTML+ERB",
+        "RPMSpec": "RPM Spec",
+        "systemverilog": "SystemVerilog",
+        "Transact-SQL": "TSQL",
+        "verilog": "Verilog",
+        "VB.net": "Visual Basic .NET",
+        "vhdl": "VHDL",
+        "Web IDL": "WebIDL",
+    }
+
+    lexers = pygments.lexers.get_all_lexers()
+    for lex in lexers:
+        lang = lex[0]
+        norm_lang = norm_langs.get(lang, lang)
+        if norm_lang.startswith("ANTLR With"):
+            norm_lang = "ANTLR"
+        if norm_lang.startswith("Ragel in"):
+            norm_lang = "Ragel"
+        meta.add_language(dataset=dataset_name, norm_lang=norm_lang, lang=lang)
+
+
 def main():
     meta = Meta(load=False)
     add_linguist_languages(LINGUIST_COMMIT, meta)
     add_rosetta_code_languages(ROSETTA_CODE_DATA_COMMIT, meta)
+    add_pygments_languages(meta)
     meta.save()
 
 
