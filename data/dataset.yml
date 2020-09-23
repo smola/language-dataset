@@ -2224,8 +2224,9 @@ files:
       vote: Raku
   github.com/LaverdeS/Argument_Political_Membership/f127aaab83d578cc06d4fdfcd303eaa6d48669f8/Canadian-Parliament/Senate_Debates/hansard.36.2.senate.debates.2000-05-10.54.e/hansard.36.2.senate.debates.2000-05-10.54.e:
     annotations:
+      human-smola: Text
       linguist: E
-      vote: E
+      vote: Text
   github.com/LeartS/loleuler/f8f508b45f07f8c59043c1e25756e369e246f965/010.lol:
     annotations:
       linguist: LOLCODE
@@ -2301,6 +2302,7 @@ files:
       vote: AppleScript
   github.com/LouisChang/The-Total-Weighted-Tardiness-Scheduling/06ba58d6ff51afd6e4814ec17c6c392b8a1d2314/Scheduling_HW3_2.mod:
     annotations:
+      human-smola: AMPL
       linguist: AMPL
       vote: AMPL
   github.com/LouisJenkinsCS/Distributed-Data-Structures/beb76110e161168a0f096e15815eed206993ce03/testing/Benchmark.chpl:
@@ -2448,6 +2450,7 @@ files:
       vote: Clarion
   github.com/MarkGoldberg/CwUnit/72a6833d1a5e0bc5d646d31f3f2bd1eb6e8885b7/CwUnit/ctTestDlls.inc:
     annotations:
+      human-smola: Clarion
       linguist: Clarion
       vote: Clarion
   github.com/MarkRoddy/brstest/7be7ba593b1841a258fa0e36b1741d5e79127377/source/test_testsuite.brs:
@@ -2894,9 +2897,9 @@ files:
       vote: LSL
   github.com/OpenEuphoria/euphoria/3c9ad415ad36db3e8f2ecbb966233f77a4464d3c/tests/t_tokenize.e:
     annotations:
-      human-smola: Unknown
+      human-smola: Euphoria
       linguist: Eiffel
-      vote: Unknown
+      vote: Euphoria
   github.com/OpenFlutter/Flutter-Notebook/817011cb39e24bbba936f9f3fc09bce823835a2a/mecury_project/example/keep_alive_demo/test/widget_test.dart:
     annotations:
       linguist: Dart
@@ -11991,6 +11994,7 @@ files:
       vote: Harbour
   github.com/kagof/BefungeRepo/d18f20c8a0fa864e8ba83fd0afa5416434079266/NumberGuesser.bf:
     annotations:
+      human-smola: Befunge
       linguist: Befunge
       vote: Befunge
   github.com/kaina404/FlutterDouBan/2dfe56ba628bfb5c00f516647d5eaa64c3aecb89/lib/demo/slide_container.dart:
