@@ -3,9 +3,9 @@
 
 | Metric | Value |
 | ------ | ----- |
-| **Languages** | 251 |
-| **Total samples** | 3825 |
-| **Samples labeled by humans** | 526 |
+| **Languages** | 252 |
+| **Total samples** | 3826 |
+| **Samples labeled by humans** | 531 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -14,7 +14,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | -------- | ------- | ------|
 | ABAP | 20 | 0 |
 | AGS Script | 14 | 1 |
-| AMPL | 19 | 5 |
+| AMPL | 19 | 6 |
 | ANTLR | 19 | 3 |
 | API Blueprint | 5 | 0 |
 | APL | 19 | 0 |
@@ -38,7 +38,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | BCPL | 1 | 1 |
 | Ballerina | 20 | 0 |
 | Batchfile | 20 | 1 |
-| Befunge | 2 | 0 |
+| Befunge | 2 | 1 |
 | BlitzMax | 20 | 0 |
 | Boo | 15 | 0 |
 | Brainfuck | 20 | 1 |
@@ -57,7 +57,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Chapel | 18 | 0 |
 | Charity | 3 | 0 |
 | ChucK | 19 | 1 |
-| Clarion | 17 | 1 |
+| Clarion | 17 | 2 |
 | Classic ASP | 12 | 2 |
 | Clean | 9 | 9 |
 | Clojure | 19 | 2 |
@@ -78,7 +78,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Dockerfile | 1 | 1 |
 | Dogescript | 19 | 0 |
 | Dylan | 20 | 0 |
-| E | 9 | 0 |
+| E | 8 | 0 |
 | ECL | 20 | 0 |
 | EQ | 13 | 0 |
 | Eiffel | 19 | 2 |
@@ -86,6 +86,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Elm | 20 | 0 |
 | Emacs Lisp | 20 | 2 |
 | Erlang | 19 | 0 |
+| Euphoria | 1 | 1 |
 | F# | 20 | 4 |
 | Factor | 19 | 0 |
 | Fancy | 16 | 1 |
@@ -230,7 +231,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | TXL | 18 | 0 |
 | Tcl | 18 | 3 |
 | Terra | 7 | 0 |
-| Text | 1 | 1 |
+| Text | 2 | 2 |
 | Turing | 8 | 0 |
 | TypeScript | 18 | 4 |
 | Unix Assembly | 4 | 4 |
