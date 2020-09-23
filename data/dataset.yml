@@ -70,11 +70,13 @@ files:
       vote: BCPL
   github.com/8l/pilos/61708530eb721d918944050663f59c6050de333b/lib/init.l:
     annotations:
+      human-smola: PicoLisp
       linguist: PicoLisp
       linguist-heuristics: PicoLisp
       vote: PicoLisp
   github.com/996icu/996.ICU/19c6d18efb52b6bf12c34f2893c9bafad9e66ebb/archived/licenses[WIP]/tools/test-gen-license/src/lib.rs:
     annotations:
+      human-smola: Rust
       linguist: Rust
       linguist-heuristics: Rust
       pygments-filename: Rust
@@ -2828,6 +2830,7 @@ files:
   github.com/Mayank-Khurmai/Html-Css-PHP-Login/826de60c623991cfaecf4f585c8442c6d2c33f6d/Index.php:
     annotations:
       human-ajnavarro: HTML
+      human-smola: HTML
       linguist: Hack
       pygments-filename: PHP
       vote: HTML
@@ -7623,6 +7626,7 @@ files:
       vote: CUDA
   github.com/chiaxin/MayaAPI101/9c43df063e68ea68de3920019e074b8be1dc1b65/Qt/example/example.pro:
     annotations:
+      human-smola: QMake
       linguist: QMake
       pygments-filename: Prolog
       vote: QMake
@@ -14103,9 +14107,10 @@ files:
       vote: Nemerle
   github.com/kprevas/ronin/12b981c1581eb6cafc50283f8092f66803ad3eec/roblog/src/view/SinglePost.gst:
     annotations:
+      human-smola: Gosu Template
       linguist: Gosu
       pygments-filename: Gosu Template
-      vote: Gosu
+      vote: Gosu Template
   github.com/kragen/stoneknifeforth/67ae4f422d4b5740cf335c0894e80a007744f0d2/onescreen.tbf1:
     annotations:
       linguist: Forth
@@ -17341,11 +17346,11 @@ files:
       vote: VHDL
   github.com/parallella/parallella-hw/a6bcdf844c56366525bef73d3355c75bba19e3f5/archive/fpga/ip/xilinx/fifo_async_103x32/fifo_generator_v12_0/hdl/builtin/builtin_top_v6.vhd:
     annotations:
-      human-ajnavarro: Unknown
+      human-smola: VHDL
       linguist: VHDL
       linguist-extension: VHDL
       pygments-filename: VHDL
-      vote: Unknown
+      vote: VHDL
   github.com/paras16jul1991/aws-Emr/5559f31d69ea171da20571e334faf1c79e5cea01/hive_emr_script.q:
     annotations:
       linguist: HiveQL
@@ -18183,11 +18188,11 @@ files:
       vote: Pascal
   github.com/progranism/Open-Source-FPGA-Bitcoin-Miner/fd76bc932ae04be2b27be769871105c4678af9dc/projects/KC705_experimental/KC705_experimental.srcs/sources_1/ip/golden_ticket_fifo/fifo_generator_v10_0/fifo16_patch/fifo_generator_v10_0_fifo16_patch.vhd:
     annotations:
-      human-ajnavarro: Unknown
+      human-smola: VHDL
       linguist: VHDL
       linguist-extension: VHDL
       pygments-filename: VHDL
-      vote: Unknown
+      vote: VHDL
   github.com/proofcert/fpccheck/6de59990bfb7762f869e0d3a4c5d0fad453a86c2/fpc/lprolog/pair.mod:
     annotations:
       human-smola: Unknown
@@ -19225,10 +19230,11 @@ files:
       vote: Unknown
   github.com/ronascentes/sqltoolbox/ae810d41c5c54277c5eaf03750e3a2450dd2853c/usp_index_defrag/usp_index_defrag.sql:
     annotations:
+      human-smola: TSQL
       linguist: SQLPL
       linguist-heuristics: TSQL
       pygments-filename: SQL
-      vote: Unknown
+      vote: TSQL
   github.com/ronsaldo/lowtalk/ed169388a9f4799b296b92ea2b0d5e7e9e59a5b8/tonel/Lowtalk-Core/LowtalkBObject.class.st:
     annotations:
       linguist: Smalltalk
@@ -19813,6 +19819,7 @@ files:
   github.com/sctb/lumen/2d272b2cc78b23b0b23a69a08fc625240e545ebc/main.l:
     annotations:
       human-ajnavarro: Unknown
+      human-smola: Unknown
       linguist: Common Lisp
       vote: Unknown
   github.com/scurty-labs/weel/45598a5a7318de6692e26c84f441af8cf78dba1c/project.monkey2:
@@ -21120,30 +21127,35 @@ files:
       vote: Unknown
   github.com/tianyicui/yixin/7b8aa1816566397d69910d36fba2ba67c1186152/src/controller.opa:
     annotations:
+      human-smola: Opa
       linguist: Opa
       linguist-extension: Opa
       pygments-filename: Opa
       vote: Opa
   github.com/tidyverse/dplyr/44cc2c15849e184f9366ca346719c0b947031e14/R/distinct.R:
     annotations:
+      human-smola: R
       linguist: R
       linguist-heuristics: R
       pygments-filename: S
       vote: R
   github.com/tidyverse/ggplot2/48580251e5cb006863edf102376815c379ae1fcf/R/annotation-logticks.r:
     annotations:
+      human-smola: R
       linguist: R
       linguist-heuristics: R
       pygments-filename: Rebol
       vote: R
   github.com/tidyverse/purrr/a8ec9032058e81c20f688523cbf129e0aaf22efd/R/map.R:
     annotations:
+      human-smola: R
       linguist: R
       linguist-heuristics: R
       pygments-filename: S
       vote: R
   github.com/tidyverse/rvest/c820e48c01b04b93cad73d47af8336af603b65d6/R/form.R:
     annotations:
+      human-smola: R
       linguist: R
       linguist-heuristics: R
       pygments-filename: S
@@ -21178,6 +21190,7 @@ files:
       vote: Genshi
   github.com/timothyhalim/Maxscript/6c561064970ef9de2f5054f90b7be7bff2e2039f/TextureLister/timo.ink - Texture Lister.ms:
     annotations:
+      human-smola: MAXScript
       linguist: MAXScript
       linguist-heuristics: MAXScript
       pygments-filename: MiniScript
@@ -21189,23 +21202,27 @@ files:
       vote: Eiffel
   github.com/tioui/eiffel_game_lib/251340ff2df264bb2bd451af4b045351915f4e4c/audio_snd_files_lib/audio_sound_snd_cpf.e:
     annotations:
+      human-smola: Eiffel
       linguist: Eiffel
       pygments-filename: Eiffel
       vote: Eiffel
   github.com/titon/framework/cbf44729173d3a83b91a2b0a217c6b3827512e44/src/Titon/Context/Definition.hh:
     annotations:
+      human-smola: Hack
       linguist: Hack
       linguist-heuristics: Hack
       pygments-filename: C++
       vote: Hack
   github.com/tizoc/shen-scheme/8c857c9d3a83a4231ac6d7cfc8458cb27359167c/scripts/run-compiler-tests.shen:
     annotations:
+      human-smola: Shen
       linguist: Shen
       linguist-extension: Shen
       pygments-filename: Shen
       vote: Shen
   github.com/tj/git-extras/a6a17540938971685cab13e55a996b39a689d135/bin/git-info:
     annotations:
+      human-smola: Shell
       linguist: Shell
       linguist-shebang: Shell
       vote: Shell
@@ -21222,6 +21239,7 @@ files:
       vote: Vala
   github.com/tkf/emacs-request/6d170649ae9ef1c7c3d545517f896c03ca12062c/tests/request-testing.el:
     annotations:
+      human-smola: Emacs Lisp
       linguist: Emacs Lisp
       linguist-extension: Emacs Lisp
       pygments-filename: Emacs Lisp
@@ -21248,6 +21266,7 @@ files:
       vote: TLA
   github.com/tlhumphrey2/ML_Miscellaneous/9fc452a2d6997b842a28ac3ad65985240be3e4a5/RandomForestContinuousExample.ecl:
     annotations:
+      human-smola: ECL
       linguist: ECL
       linguist-heuristics: ECL
       pygments-filename: Prolog
@@ -21267,6 +21286,7 @@ files:
       vote: XS
   github.com/toeb/cmakepp/b96fd0578e614b3212c71f57ae0b1feb8f32c183/cmake/package/require_package_binary.cmake:
     annotations:
+      human-smola: CMake
       linguist: CMake
       linguist-extension: CMake
       pygments-filename: CMake
@@ -22029,6 +22049,7 @@ files:
       vote: Modula-2
   github.com/visualzhou/mongo-repl-tla/7ea53f733112267522f7a72290bdc709fed09b35/RaftMongo.tla:
     annotations:
+      human-smola: TLA
       linguist: TLA
       linguist-extension: TLA
       vote: TLA
