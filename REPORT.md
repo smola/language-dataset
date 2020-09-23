@@ -3,9 +3,9 @@
 
 | Metric | Value |
 | ------ | ----- |
-| **Languages** | 253 |
-| **Total samples** | 3839 |
-| **Samples labeled by humans** | 542 |
+| **Languages** | 254 |
+| **Total samples** | 3842 |
+| **Samples labeled by humans** | 563 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -47,7 +47,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | C# | 22 | 4 |
 | C++ | 20 | 3 |
 | CLIPS | 18 | 2 |
-| CMake | 20 | 1 |
+| CMake | 20 | 2 |
 | COBOL | 18 | 2 |
 | CSS | 1 | 1 |
 | CSV | 1 | 0 |
@@ -80,12 +80,12 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Dogescript | 19 | 0 |
 | Dylan | 20 | 0 |
 | E | 8 | 0 |
-| ECL | 20 | 0 |
+| ECL | 20 | 1 |
 | EQ | 13 | 0 |
-| Eiffel | 19 | 2 |
+| Eiffel | 19 | 3 |
 | Elixir | 20 | 0 |
 | Elm | 20 | 0 |
-| Emacs Lisp | 20 | 2 |
+| Emacs Lisp | 20 | 3 |
 | Erlang | 19 | 0 |
 | Euphoria | 1 | 1 |
 | F# | 20 | 4 |
@@ -105,11 +105,12 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Gnuplot | 9 | 1 |
 | Go | 22 | 4 |
 | Golo | 20 | 0 |
-| Gosu | 6 | 0 |
+| Gosu | 5 | 0 |
+| Gosu Template | 1 | 1 |
 | Grace | 20 | 1 |
 | Groovy | 20 | 1 |
 | HTML | 7 | 7 |
-| Hack | 14 | 2 |
+| Hack | 14 | 3 |
 | Handlebars | 1 | 1 |
 | Harbour | 18 | 2 |
 | Haskell | 19 | 2 |
@@ -150,7 +151,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | M4 | 13 | 3 |
 | M4Sugar | 3 | 3 |
 | MATLAB | 23 | 16 |
-| MAXScript | 17 | 0 |
+| MAXScript | 17 | 1 |
 | Makefile | 17 | 1 |
 | Markdown | 20 | 7 |
 | Mercury | 9 | 0 |
@@ -169,7 +170,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Nix | 18 | 0 |
 | OCaml | 14 | 2 |
 | Objective-C | 20 | 2 |
-| Opa | 19 | 0 |
+| Opa | 19 | 1 |
 | Opal | 3 | 0 |
 | OpenEdge ABL | 20 | 4 |
 | OpenSCAD | 19 | 1 |
@@ -181,7 +182,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | POV-Ray SDL | 2 | 0 |
 | Pascal | 20 | 1 |
 | Perl | 20 | 3 |
-| PicoLisp | 20 | 4 |
+| PicoLisp | 20 | 5 |
 | Pike | 20 | 1 |
 | Pony | 20 | 0 |
 | PostScript | 8 | 0 |
@@ -193,8 +194,8 @@ For each language, the table reports total number of samples (_Samples_) and how
 | PureScript | 20 | 0 |
 | Python | 21 | 3 |
 | QML | 19 | 2 |
-| QMake | 20 | 1 |
-| R | 21 | 2 |
+| QMake | 20 | 2 |
+| R | 21 | 6 |
 | REALbasic | 20 | 11 |
 | REXX | 18 | 2 |
 | Racket | 20 | 0 |
@@ -208,7 +209,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Ring | 20 | 0 |
 | Roff | 1 | 1 |
 | Ruby | 20 | 3 |
-| Rust | 23 | 4 |
+| Rust | 23 | 5 |
 | SAS | 20 | 4 |
 | SQL | 22 | 11 |
 | SQLPL | 1 | 1 |
@@ -217,8 +218,8 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Scheme | 21 | 21 |
 | Scilab | 10 | 2 |
 | Self | 8 | 0 |
-| Shell | 23 | 8 |
-| Shen | 19 | 2 |
+| Shell | 23 | 9 |
+| Shen | 19 | 3 |
 | Slice | 6 | 0 |
 | Smalltalk | 18 | 0 |
 | Squirrel | 20 | 1 |
@@ -226,8 +227,8 @@ For each language, the table reports total number of samples (_Samples_) and how
 | SuperCollider | 19 | 4 |
 | Swift | 19 | 1 |
 | SystemVerilog | 19 | 9 |
-| TLA | 20 | 0 |
-| TSQL | 5 | 5 |
+| TLA | 20 | 1 |
+| TSQL | 6 | 6 |
 | TSX | 2 | 2 |
 | TXL | 18 | 0 |
 | Tcl | 18 | 3 |
@@ -237,7 +238,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | TypeScript | 18 | 4 |
 | Unix Assembly | 4 | 4 |
 | V | 18 | 2 |
-| VHDL | 16 | 2 |
+| VHDL | 18 | 4 |
 | Vala | 20 | 1 |
 | Verilog | 20 | 8 |
 | Vim script | 20 | 2 |
