@@ -4,15 +4,15 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 254 |
-| **Total samples** | 3842 |
-| **Samples labeled by humans** | 563 |
+| **Total samples** | 3841 |
+| **Samples labeled by humans** | 586 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
 
 | Language | Samples | Human |
 | -------- | ------- | ------|
-| ABAP | 20 | 0 |
+| ABAP | 20 | 1 |
 | AGS Script | 14 | 1 |
 | AMPL | 19 | 6 |
 | ANTLR | 19 | 3 |
@@ -39,12 +39,12 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Ballerina | 20 | 0 |
 | Batchfile | 20 | 1 |
 | Befunge | 2 | 1 |
-| BlitzMax | 20 | 0 |
+| BlitzMax | 20 | 1 |
 | Boo | 15 | 0 |
 | Brainfuck | 20 | 1 |
 | Brightscript | 20 | 1 |
-| C | 22 | 12 |
-| C# | 22 | 4 |
+| C | 21 | 11 |
+| C# | 22 | 5 |
 | C++ | 20 | 3 |
 | CLIPS | 18 | 2 |
 | CMake | 20 | 2 |
@@ -64,27 +64,27 @@ For each language, the table reports total number of samples (_Samples_) and how
 | CoffeeScript | 19 | 3 |
 | ColdFusion | 12 | 2 |
 | ColdFusion CFC | 8 | 8 |
-| Common Lisp | 14 | 10 |
-| Common Workflow Language | 16 | 0 |
+| Common Lisp | 14 | 11 |
+| Common Workflow Language | 16 | 1 |
 | Component Pascal | 1 | 0 |
-| Coq | 18 | 1 |
+| Coq | 18 | 3 |
 | Crystal | 19 | 0 |
 | Cycript | 16 | 11 |
-| D | 20 | 5 |
+| D | 20 | 6 |
 | DM | 18 | 1 |
 | DNS Zone | 1 | 1 |
 | Dart | 19 | 1 |
 | DataWeave | 15 | 0 |
 | Diff | 1 | 1 |
 | Dockerfile | 1 | 1 |
-| Dogescript | 19 | 0 |
+| Dogescript | 19 | 1 |
 | Dylan | 20 | 0 |
 | E | 8 | 0 |
 | ECL | 20 | 1 |
 | EQ | 13 | 0 |
 | Eiffel | 19 | 3 |
 | Elixir | 20 | 0 |
-| Elm | 20 | 0 |
+| Elm | 20 | 1 |
 | Emacs Lisp | 20 | 3 |
 | Erlang | 19 | 0 |
 | Euphoria | 1 | 1 |
@@ -103,7 +103,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Genshi | 16 | 2 |
 | Glyph | 20 | 1 |
 | Gnuplot | 9 | 1 |
-| Go | 22 | 4 |
+| Go | 21 | 3 |
 | Golo | 20 | 0 |
 | Gosu | 5 | 0 |
 | Gosu Template | 1 | 1 |
@@ -129,14 +129,14 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Java | 21 | 2 |
 | JavaScript | 20 | 5 |
 | Jsonnet | 20 | 0 |
-| Julia | 18 | 0 |
+| Julia | 18 | 1 |
 | Jupyter Notebook | 1 | 1 |
 | KiCad Layout | 2 | 2 |
 | Kit | 19 | 1 |
 | Kotlin | 20 | 1 |
 | LFE | 17 | 0 |
 | LLVM | 19 | 0 |
-| LOLCODE | 16 | 0 |
+| LOLCODE | 16 | 1 |
 | LSL | 20 | 1 |
 | LTspice Symbol | 1 | 1 |
 | LabVIEW | 19 | 0 |
@@ -168,7 +168,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Nim | 20 | 0 |
 | Nit | 19 | 0 |
 | Nix | 18 | 0 |
-| OCaml | 14 | 2 |
+| OCaml | 12 | 2 |
 | Objective-C | 20 | 2 |
 | Opa | 19 | 1 |
 | Opal | 3 | 0 |
@@ -187,7 +187,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Pony | 20 | 0 |
 | PostScript | 8 | 0 |
 | PowerBuilder | 15 | 0 |
-| PowerShell | 17 | 2 |
+| PowerShell | 17 | 3 |
 | Processing | 20 | 2 |
 | Prolog | 17 | 4 |
 | PureBasic | 8 | 0 |
@@ -197,16 +197,16 @@ For each language, the table reports total number of samples (_Samples_) and how
 | QMake | 20 | 2 |
 | R | 21 | 6 |
 | REALbasic | 20 | 11 |
-| REXX | 18 | 2 |
+| REXX | 18 | 3 |
 | Racket | 20 | 0 |
 | Ragel | 17 | 0 |
 | Raku | 11 | 9 |
 | Rascal | 20 | 0 |
-| Reason | 5 | 3 |
+| Reason | 7 | 5 |
 | Rebol | 18 | 7 |
-| Red | 18 | 1 |
+| Red | 19 | 2 |
 | RenderScript | 4 | 1 |
-| Ring | 20 | 0 |
+| Ring | 20 | 2 |
 | Roff | 1 | 1 |
 | Ruby | 20 | 3 |
 | Rust | 23 | 5 |
@@ -235,9 +235,9 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Terra | 7 | 0 |
 | Text | 2 | 2 |
 | Turing | 8 | 0 |
-| TypeScript | 18 | 4 |
+| TypeScript | 18 | 5 |
 | Unix Assembly | 4 | 4 |
-| V | 18 | 2 |
+| V | 18 | 3 |
 | VHDL | 18 | 4 |
 | Vala | 20 | 1 |
 | Verilog | 20 | 8 |
@@ -254,11 +254,11 @@ For each language, the table reports total number of samples (_Samples_) and how
 | XQuery | 20 | 3 |
 | XS | 14 | 1 |
 | XSLT | 17 | 1 |
-| Xojo | 19 | 4 |
+| Xojo | 19 | 7 |
 | YAML | 23 | 9 |
 | YASnippet | 20 | 0 |
 | ZIL | 20 | 0 |
-| Zephir | 20 | 2 |
+| Zephir | 20 | 3 |
 | Zimpl | 16 | 0 |
 | eC | 11 | 1 |
 | ooc | 19 | 1 |
