@@ -1,16 +1,19 @@
 files:
   github.com/0sara0/tests/6ae9de579f662df2c6bb32d972d23f789f4d0cbb/cutomers-tests/login.ring:
     annotations:
+      human-smola: Ring
       linguist: Ring
       linguist-extension: Ring
       vote: Ring
   github.com/0sara0/webDevelop/b669729e92ea9c7ea31c6d5b9bfbb9b56c2cdcba/quran-project/CRUD_MVC.ring:
     annotations:
+      human-smola: Ring
       linguist: Ring
       linguist-extension: Ring
       vote: Ring
   github.com/0xd4d/dnSpy/af178fba50fb224e682c637f1aacdcf03083ddcc/dnSpy/dnSpy/Output/OutputBufferVM.cs:
     annotations:
+      human-smola: C#
       linguist: C#
       linguist-heuristics: C#
       pygments-filename: C#
@@ -22,6 +25,7 @@ files:
       vote: XS
   github.com/1DSAG/ATC-Best-Practice-Guide/ef9526c5f2e503576675195aa35fe99404bee142/src/zcl_ci_test_comp_procs.clas.abap:
     annotations:
+      human-smola: ABAP
       linguist: ABAP
       linguist-extension: ABAP
       pygments-filename: ABAP
@@ -42,22 +46,26 @@ files:
       vote: Go
   github.com/3r1k0n/LOLCODEshenanigans/0c3bb1435f937ed7db539dd5f2b3adf92a99fa69/ROCKPAPERMEOW.lol:
     annotations:
+      human-smola: LOLCODE
       linguist: LOLCODE
       linguist-extension: LOLCODE
       vote: LOLCODE
   github.com/411Hall/JAWS/73f968da77c2dae3613854ec3f03f53e95982629/jaws-enum.ps1:
     annotations:
+      human-smola: PowerShell
       linguist: PowerShell
       linguist-extension: PowerShell
       pygments-filename: PowerShell
       vote: PowerShell
   github.com/4dn-dcic/pipelines-cwl/46dbd4c38119ef8a2d00b44678e45dafd430f5fa/cwl_awsem_v1/addfragtopairs.cwl:
     annotations:
+      human-smola: Common Workflow Language
       linguist: Common Workflow Language
       linguist-extension: Common Workflow Language
       vote: Common Workflow Language
   github.com/6dreams/stream-reader/e5757aa4ed54923aecbb94d7a57322246d92f94c/sixdreams/StreamReader/XmlStreamReader.zep:
     annotations:
+      human-smola: Zephir
       linguist: Zephir
       linguist-extension: Zephir
       pygments-filename: Zephir
@@ -3524,11 +3532,11 @@ files:
       vote: Ragel
   github.com/Pebaz/RGB/6736ea0f3898a334050589fdc1074022a27273c3/example/multiple_struct_variable_declarations.reds:
     annotations:
-      human-ajnavarro: C
+      human-smola: Red
       linguist: Red
       linguist-extension: Red
       pygments-filename: Red
-      vote: C
+      vote: Red
   github.com/Peltoche/lsd/c4d5f5ea0b1ee9ae549438b58df79f00fa209023/src/meta/windows_utils.rs:
     annotations:
       linguist: Rust
@@ -7795,12 +7803,14 @@ files:
       vote: Brainfuck
   github.com/clarus/coq-chick-blog/beaf50f3cd949a830ddd665e2600f4fd822f5b46/src/Render.v:
     annotations:
+      human-smola: Coq
       linguist: Coq
       linguist-heuristics: Coq
       pygments-filename: Verilog
       vote: Coq
   github.com/clarus/falso/11ba1e990f1b6b1a7c3fa7f48dcb7841ffed6386/All.v:
     annotations:
+      human-smola: Coq
       linguist: Coq
       linguist-heuristics: Coq
       pygments-filename: Verilog
@@ -8651,6 +8661,7 @@ files:
       vote: COBOL
   github.com/debois/elm-mdl/20020469a6efa964754a79a58e4d585b1639ad90/src/Material/Menu/Geometry.elm:
     annotations:
+      human-smola: Elm
       linguist: Elm
       linguist-extension: Elm
       pygments-filename: Elm
@@ -8675,6 +8686,7 @@ files:
   github.com/defuse/crackstation/53c1747c6d3fdf1be8089cd4344559d5b2c6544d/src/pages/legal-privacy.php:
     annotations:
       human-ajnavarro: HTML
+      human-smola: HTML
       linguist: Hack
       pygments-filename: PHP
       vote: HTML
@@ -8706,23 +8718,27 @@ files:
       vote: Verilog
   github.com/denise-amiga/dns.mod/b1916beeb6da48ba33d0ec120c6a8ac9f89f6291/bigz.mod/examples/ex_01.bmx:
     annotations:
+      human-smola: BlitzMax
       linguist: BlitzMax
       linguist-extension: BlitzMax
       pygments-filename: BlitzMax
       vote: BlitzMax
   github.com/deniseyu/dogebuzz/87b7679b9589e787269a793ceaeec29c0df7c1a2/lib/dogeBuzz.djs:
     annotations:
+      human-smola: Dogescript
       linguist: Dogescript
       linguist-extension: Dogescript
       vote: Dogescript
   github.com/denizyuret/Knet.jl/55c01f454d75720363449af9cdb0d5f0adde895c/test/.deprecated/testcolops.jl:
     annotations:
+      human-smola: Julia
       linguist: Julia
       linguist-extension: Julia
       pygments-filename: Julia
       vote: Julia
   github.com/denoland/deno/92b8674162aff30a9552b1a07855b685d305830a/std/log/test.ts:
     annotations:
+      human-smola: TypeScript
       linguist: TypeScript
       linguist-heuristics: TypeScript
       pygments-filename: TypeScript
@@ -8788,6 +8804,7 @@ files:
       vote: Monkey
   github.com/devtimi/TPSF/0edab3ebba85a0becc66db42f8d29bc2e77b2aed/TPSF.xojo_code:
     annotations:
+      human-smola: Xojo
       linguist: Xojo
       linguist-extension: Xojo
       vote: Xojo
@@ -10815,6 +10832,7 @@ files:
       vote: AutoHotkey
   github.com/fukamachi/clack/e104b327d9eab3ce26ce1d809f8f5e0efe79864e/v1-compat/clack-middleware-rucksack.asd:
     annotations:
+      human-smola: Common Lisp
       linguist: Common Lisp
       linguist-extension: Common Lisp
       vote: Common Lisp
@@ -13310,9 +13328,10 @@ files:
       vote: J
   github.com/jonlaing/rationale/06a48fd39b106319a4a4477e90777db51c915353/src/Lens.re:
     annotations:
+      human-smola: Reason
       linguist: OCaml
       pygments-filename: Reason
-      vote: OCaml
+      vote: Reason
   github.com/joom/hezarfen/da80a475cf57dee5cd3c10452878d951f1fa490f/Hezarfen/Hint.idr:
     annotations:
       linguist: Idris
@@ -13952,6 +13971,7 @@ files:
       vote: Java
   github.com/kingj5/iOSKit/98bf5776ca706d38df4e8eacdbe1f23078167d8a/ExampleViews/MainView.xojo_code:
     annotations:
+      human-smola: Xojo
       linguist: Xojo
       linguist-extension: Xojo
       vote: Xojo
@@ -14167,6 +14187,7 @@ files:
       vote: M4
   github.com/ktekinay/Kaju/0f3b33fcb802bf6e1650f22b6ab005509b1e3976/Kaju Classes/Kaju/BinaryInformation.xojo_code:
     annotations:
+      human-smola: Xojo
       linguist: Xojo
       linguist-extension: Xojo
       vote: Xojo
@@ -18719,9 +18740,10 @@ files:
       vote: Reason
   github.com/reasonml/reason-react/8017a5f556176744c245350cbeb5c600abebb8f8/src/ReasonReactRouter.re:
     annotations:
+      human-smola: Reason
       linguist: OCaml
       pygments-filename: Reason
-      vote: OCaml
+      vote: Reason
   github.com/rebolek/gitara/fbec2c695a6f9e5ab2e6e2d8a98a44cec51f779f/json.red:
     annotations:
       linguist: Red
@@ -19492,6 +19514,7 @@ files:
       vote: NetLinx
   github.com/rvjansen/rexx-repository/f14c3a8a00270e5a97a34200a58e0f1cca3f0851/Object_Rexx/windows/oodialog/userGuide/exercises/Exercise07/Product/ProductListView.rex:
     annotations:
+      human-smola: REXX
       linguist: REXX
       linguist-extension: REXX
       pygments-filename: REXX
@@ -19990,10 +20013,11 @@ files:
       vote: TXL
   github.com/shanhuio/smlos/9f7de31d7ba9a97dad1ecb54583c8d3702663165/sync/join.g:
     annotations:
-      human-smola: Go
+      human-smola: Unknown
       linguist: GAP
       pygments-filename: GAP
-      vote: Go
+      vote: Unknown
+    notes: Toy language (G / Small VM), subset of Go.
   github.com/shanlusun/blockchain/e536a43a6fe341a948bd3973aedb10e2cd6327dd/eos/08/docker/hello/hello.wast:
     annotations:
       linguist: WebAssembly
@@ -21898,6 +21922,7 @@ files:
       vote: Coq
   github.com/v-community/faker/a855efb4e53b7249a7ed7126985a7f0710420242/main.v:
     annotations:
+      human-smola: V
       linguist: V
       linguist-heuristics: V
       pygments-filename: Verilog
@@ -21996,6 +22021,7 @@ files:
       vote: DM
   github.com/vibe-d/vibe.d/fa079e4438bf03c6e12f8b307b6a148d43ac41ba/tests/vibe.web.rest.1230/source/app.d:
     annotations:
+      human-smola: D
       linguist: D
       linguist-heuristics: D
       pygments-filename: D
