@@ -362,7 +362,7 @@ files:
   github.com/AndroidKnife/proguard-config/02fae4f4399893cc82bfe8580114b70160ef73e7/proguardlib/proguards/proguard-aws-1.7.pro:
     annotations:
       human-smola: Unknown
-      linguist: IDL
+      linguist: Proguard
       linguist-heuristics: Proguard
       pygments-filename: Prolog
       vote: Unknown
@@ -1522,7 +1522,7 @@ files:
   github.com/FormidableLabs/seattlejsconf-app/6cee2cd9bcfd926a0010e3d00e781161455f5c53/re/types/GraphQLTag.re:
     annotations:
       human-smola: Reason
-      linguist: OCaml
+      linguist: Reason
       pygments-filename: Reason
       vote: Reason
   github.com/FortAwesome/Font-Awesome/1c1b102b2ba19518d77e60e97cf1b4ebf133bba0/js-packages/@fortawesome/free-solid-svg-icons/faBlender.js:
@@ -2673,7 +2673,7 @@ files:
       vote: Verilog
   github.com/MIT-LCP/mimic-cookbook/15957afb8efb2cac28d417cfa9d1c1761997c434/hana/setup.sql:
     annotations:
-      linguist: SQLPL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: SQL
@@ -2791,7 +2791,7 @@ files:
   github.com/MarkGoldberg/CwUnit/72a6833d1a5e0bc5d646d31f3f2bd1eb6e8885b7/CwUnit/ctTestDlls.inc:
     annotations:
       human-smola: Clarion
-      linguist: Clarion
+      linguist: HTML
       pygments-filename: POV-Ray SDL
       vote: Clarion
   github.com/MarkRoddy/brstest/7be7ba593b1841a258fa0e36b1741d5e79127377/source/test_testsuite.brs:
@@ -7011,8 +7011,8 @@ files:
       vote: LiveScript
   github.com/blox-org/blox-cfg/8a7b024e88ce27e1b468766c3fa1bd880ea1ead6/opensips/blox-register.cfg.m4:
     annotations:
-      linguist: M4
-      vote: M4
+      linguist: M4Sugar
+      vote: M4Sugar
   github.com/blueimp/jQuery-File-Upload/2efdf5352138c5752354424466b6b3925bc12bd1/server/php/UploadHandler.php:
     annotations:
       linguist: PHP
@@ -7704,7 +7704,7 @@ files:
       vote: Tcl
   github.com/chucknorris/roundhouse/f278dcfdaa582f3b2d5a1fc403c702e1b5c80acc/product/testdatabase/MySql/sakila-db/sakila-schema.sql:
     annotations:
-      linguist: PL/pgSQL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: SQL
@@ -10409,10 +10409,11 @@ files:
   github.com/fish-shell/fish-shell/ac2eed2ffa71aa6db08dad2ea6f6b0dd89f815d6/share/completions/iex.fish:
     annotations:
       human-ajnavarro: Shell
-      linguist: Shell
+      human-smola: fish
+      linguist: fish
       linguist-extension: fish
       pygments-filename: fish
-      vote: Shell
+      vote: fish
   github.com/fizban-of-ragnarok/cs420/dabd86472e2dbb4483df3594f4437634a49ad632/room_test.grace:
     annotations:
       linguist: Grace
@@ -10885,7 +10886,7 @@ files:
   github.com/gabfl/mysql_generate_series/2258382c45c8ce40a24c3fa41ef9a182112e9850/sql/generate_series.sql:
     annotations:
       human-smola: SQL
-      linguist: SQLPL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: SQL
@@ -14916,7 +14917,6 @@ files:
   github.com/luxe/unilang/749e8285ff61aed471f3b37ba2e4a05aa75cd7f7/source/code/utilities/graphics/imgui/ui/draw/text/str_to_bdf_segments.hcp:
     annotations:
       human-smola: Unknown
-      linguist: Fancy
       vote: Unknown
   github.com/luxint/newlisp-libui/b57f52f25d443718337efa59d6c887df82091b36/libui.lsp:
     annotations:
@@ -16297,7 +16297,7 @@ files:
   github.com/mysql/mysql-sys/a1374ea7cf341b71fd1060136533ce01fe0bd57b/views/p_s/io_global_by_wait_by_latency.sql:
     annotations:
       human-smola: SQL
-      linguist: PL/pgSQL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: SQL

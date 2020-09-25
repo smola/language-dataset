@@ -3,7 +3,7 @@
 
 | Metric | Value |
 | ------ | ----- |
-| **Languages** | 254 |
+| **Languages** | 255 |
 | **Total samples** | 3841 |
 | **Samples labeled by humans** | 586 |
 
@@ -148,8 +148,8 @@ For each language, the table reports total number of samples (_Samples_) and how
 | LiveScript | 20 | 2 |
 | Logtalk | 20 | 1 |
 | Lua | 20 | 2 |
-| M4 | 13 | 3 |
-| M4Sugar | 3 | 3 |
+| M4 | 12 | 3 |
+| M4Sugar | 4 | 3 |
 | MATLAB | 23 | 16 |
 | MAXScript | 17 | 1 |
 | Makefile | 17 | 1 |
@@ -218,7 +218,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Scheme | 21 | 21 |
 | Scilab | 10 | 2 |
 | Self | 8 | 0 |
-| Shell | 23 | 9 |
+| Shell | 22 | 8 |
 | Shen | 19 | 3 |
 | Slice | 6 | 0 |
 | Smalltalk | 18 | 0 |
@@ -261,6 +261,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Zephir | 20 | 3 |
 | Zimpl | 16 | 0 |
 | eC | 11 | 1 |
+| fish | 1 | 1 |
 | ooc | 19 | 1 |
 | q | 15 | 2 |
 | reStructuredText | 1 | 1 |
