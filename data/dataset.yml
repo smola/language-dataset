@@ -1397,25 +1397,22 @@ files:
       vote: CMake
   github.com/Ezandora/Guide/cb8ec045e425eaf69da4f5637bb4cf2191a2b2f0/Source/relay/Guide/Quests/Intergalaktik.ash:
     annotations:
-      human-smola: Unknown
+      human-smola: KoLMafia ASH
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: Unknown
-    notes: KoLMafia ASH
+      vote: KoLMafia ASH
   github.com/Ezandora/Neverending-Party/b590fa831a4f3f342d49184dd78c659c45b1889a/Release/scripts/Party.ash:
     annotations:
-      human-smola: Unknown
+      human-smola: KoLMafia ASH
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: Unknown
-    notes: KoLMafia ASH
+      vote: KoLMafia ASH
   github.com/Ezandora/Voting-Booth/b1fd2feb6ee62e85910ef447145e3f9fcc50d74d/Release/scripts/VotingBooth.ash:
     annotations:
-      human-smola: Unknown
+      human-smola: KoLMafia ASH
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: Unknown
-    notes: KoLMafia ASH
+      vote: KoLMafia ASH
   github.com/FQrabbit/SSTap-Rule/539611002319e2e2830f3b012ba2ff6087e53753/tools/windows_route_print.bat:
     annotations:
       linguist: Batchfile
@@ -2788,11 +2785,10 @@ files:
       vote: Emacs Lisp
   github.com/Malurth/Auto-2-day-HCCS/e4d7c651c4ce4a9ac181d1de66ddefa6c5b62c63/relay/relay_AutoHCCS.ash:
     annotations:
-      human-smola: Unknown
+      human-smola: KoLMafia ASH
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: Unknown
-    notes: KoLMafia ASH
+      vote: KoLMafia ASH
   github.com/Manitary/advent-of-code/803f38a11d2e7980d46b42bb80bc5e0cc2c31830/2018/18_11.mg:
     annotations:
       human-smola: Unknown
@@ -4016,11 +4012,10 @@ files:
       vote: Apex
   github.com/Sandstoneblade/BoD/6f81495171d8f20b64c87d6709e7acb17c3ef0f3/BoD.ash:
     annotations:
-      human-smola: Unknown
+      human-smola: KoLMafia ASH
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: Unknown
-    notes: KoLMafia ASH
+      vote: KoLMafia ASH
   github.com/SaptakS/clipsCodes/94a08eb56a3050ed1e9d4171df0261fce897b3d6/palindrome.clp:
     annotations:
       linguist: CLIPS
@@ -7568,11 +7563,10 @@ files:
       vote: AutoIt
   github.com/chameco/snapshot/f31049ee90291b88e61726203a602868631cfccd/scripts/snapshot.ash:
     annotations:
-      human-smola: Unknown
+      human-smola: KoLMafia ASH
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: Unknown
-    notes: KoLMafia ASH
+      vote: KoLMafia ASH
   github.com/chapel-lang/chapel/a74978b9a65a672f8ef873c87b61f50208969857/test/functions/iterators/vass/multi-yield-symbols/11-oneLocalSymbol.chpl:
     annotations:
       linguist: Chapel
@@ -8145,11 +8139,10 @@ files:
       vote: Scala
   github.com/covert-code/KoL-MineVolcano/a18a2c75462160a0b5aca052760e25a2d1d76af7/scripts/minevolcano.ash:
     annotations:
-      human-smola: Unknown
+      human-smola: KoLMafia ASH
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: Unknown
-    notes: KoLMafia ASH
+      vote: KoLMafia ASH
   github.com/cpp-frug/materials/433c7d24a2c7de7758f867610784a8f47403324f/scripts/round-floating-to-integer.sed:
     annotations:
       linguist: sed
@@ -9047,11 +9040,10 @@ files:
       vote: Liquid
   github.com/dmoonfire/kolmafia/4af2d95c3ea1a58f9839a7143caba5425caf7928/cake/CakeLevel.ash:
     annotations:
-      human-smola: Unknown
+      human-smola: KoLMafia ASH
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: Unknown
-    notes: KoLMafia ASH
+      vote: KoLMafia ASH
   github.com/docker/dockercraft/4be6b595d2b965da8e6af10f83f1a53b0c2a0dee/Docker/log.lua:
     annotations:
       linguist: Lua
@@ -12947,11 +12939,10 @@ files:
       vote: Nim
   github.com/jbtayloriii/kol_libs/1a0dac41a2bee656ddf6f7affc19087cbe51d3ed/woodpuzzleCombat.ash:
     annotations:
-      human-smola: Unknown
+      human-smola: KoLMafia ASH
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: Unknown
-    notes: KoLMafia ASH
+      vote: KoLMafia ASH
   github.com/jcagarcia/proofs/6409903f826be9a991bf9d1907e54cb2cde1c46f/spring-controller-validation/src/main/java/org/springframework/roo/petclinic/web/PetsSearchThymeleafController_Roo_Controller.aj:
     annotations:
       linguist: AspectJ
@@ -14917,11 +14908,10 @@ files:
       vote: Crystal
   github.com/lucydotc/Worthless-item-harvesting-kolmafia-plugin/5c48a6d4069a5a299a26a5d61c970005cef89cee/worthwhile_chewing_gum.ash:
     annotations:
-      human-smola: Unknown
+      human-smola: KoLMafia ASH
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: Unknown
-    notes: KoLMafia ASH
+      vote: KoLMafia ASH
   github.com/lueyoung/gmt-kafka/d3a978d960a86567e42380a3698dc92cd517240f/manifest/services.yaml.sed:
     annotations:
       human-smola: YAML
@@ -15027,11 +15017,10 @@ files:
       vote: Unknown
   github.com/macgregor/kol-telegram/33bc04925bebbaa29da77b376dab99fe3544c4e1/Release/scripts/telegram/__telegram_data.ash:
     annotations:
-      human-smola: Unknown
+      human-smola: KoLMafia ASH
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: Unknown
-    notes: KoLMafia ASH
+      vote: KoLMafia ASH
   github.com/machakann/vim-Verdin/11e2deeb01b3aa0de93685a02eabf9f1ccc90976/test/Dictionary.vim:
     annotations:
       linguist: Vim script
@@ -20437,11 +20426,10 @@ files:
       vote: Vala
   github.com/soolar/CONSUME.ash/4c2cce867e13695ae188e5e1c7c85807285d56be/RELEASE/scripts/CONSUME/INFO.ash:
     annotations:
-      human-smola: Unknown
+      human-smola: KoLMafia ASH
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: Unknown
-    notes: KoLMafia ASH
+      vote: KoLMafia ASH
   github.com/sooqua/js-react-redux-yasnippets/70785d126a28ffcb314fb4b354319418586e06b1/snippets/js-mode/rpcp:
     annotations:
       linguist: YASnippet
@@ -20697,11 +20685,10 @@ files:
       vote: M4
   github.com/stewbeef/beefy_questing/b6d075ec1c11776d9ed9e21e87ad1a4ca1ad152b/scripts/questing/beefy_quests.ash:
     annotations:
-      human-smola: Unknown
+      human-smola: KoLMafia ASH
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: Unknown
-    notes: KoLMafia ASH
+      vote: KoLMafia ASH
   github.com/sticker0ne/RubiusTest/9acc68546ba2d4475b5bd4941fb388f5043352a7/DB/musicServiceLogic.txl:
     annotations:
       linguist: TXL
