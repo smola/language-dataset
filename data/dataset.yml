@@ -102,6 +102,7 @@ files:
       vote: MAXScript
   github.com/AFNetworking/AFNetworking/5cf601ce0cbdd758da4b31d85a49514219a1faf8/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h:
     annotations:
+      human-smola: Objective-C
       linguist: Objective-C
       linguist-heuristics: Objective-C
       pygments-filename: C
@@ -120,6 +121,7 @@ files:
       vote: Gnuplot
   github.com/ANSSI-FR/FreeSpec/26c3740435884659acd7bfdb48a536bd1d0cde09/core/theories/Program.v:
     annotations:
+      human-smola: Coq
       linguist: Coq
       linguist-heuristics: Coq
       pygments-filename: Verilog
@@ -138,6 +140,7 @@ files:
       vote: LSL
   github.com/AbsInt/CompCert/029329c8adc955d9ebe9030074cce0df9dcfa5f7/MenhirLib/Interpreter_correct.v:
     annotations:
+      human-smola: Coq
       linguist: Coq
       linguist-heuristics: Coq
       pygments-filename: Verilog
@@ -976,6 +979,7 @@ files:
       vote: C#
   github.com/CoderMJLee/MJRefresh/72d558ce71256dc39c27a65a1f647469262eead6/MJRefresh/Base/MJRefreshHeader.h:
     annotations:
+      human-smola: Objective-C
       linguist: Objective-C
       linguist-heuristics: Objective-C
       pygments-filename: C
@@ -1393,19 +1397,25 @@ files:
       vote: CMake
   github.com/Ezandora/Guide/cb8ec045e425eaf69da4f5637bb4cf2191a2b2f0/Source/relay/Guide/Quests/Intergalaktik.ash:
     annotations:
+      human-smola: Unknown
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: AGS Script
+      vote: Unknown
+    notes: KoLMafia ASH
   github.com/Ezandora/Neverending-Party/b590fa831a4f3f342d49184dd78c659c45b1889a/Release/scripts/Party.ash:
     annotations:
+      human-smola: Unknown
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: AGS Script
+      vote: Unknown
+    notes: KoLMafia ASH
   github.com/Ezandora/Voting-Booth/b1fd2feb6ee62e85910ef447145e3f9fcc50d74d/Release/scripts/VotingBooth.ash:
     annotations:
+      human-smola: Unknown
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: AGS Script
+      vote: Unknown
+    notes: KoLMafia ASH
   github.com/FQrabbit/SSTap-Rule/539611002319e2e2830f3b012ba2ff6087e53753/tools/windows_route_print.bat:
     annotations:
       linguist: Batchfile
@@ -1679,6 +1689,7 @@ files:
       vote: GLSL
   github.com/Genymobile/scrcpy/3ea47423217775d2519fb5ac61edd55072639a64/app/tests/test_control_msg_serialize.c:
     annotations:
+      human-smola: C
       linguist: C
       linguist-extension: C
       pygments-filename: C
@@ -1958,10 +1969,11 @@ files:
       vote: Apex
   github.com/InQuest/malware-samples/fcb42e2881c9004d5f6c2286fd91457eab374a17/CVE-2018-4878-Adobe-Flash-DRM-UAF-0day/swf-1a3269253784f76e3480e4b3de312dfee878f99045ccfd2231acb5ba57d8ed0d-dfi/5Cx1e5Cx19.as:
     annotations:
+      human-smola: ActionScript
       linguist: AngelScript
       linguist-heuristics: AngelScript
       pygments-filename: ActionScript
-      vote: AngelScript
+      vote: ActionScript
   github.com/IngenieriaWebUCA/iw2016-tempojobs/3b493c0f403dd1c3f4b13b18e9ffe1beef6e3bfa/src/main/java/es/uca/iw/tempojobs/web/DemandanteController_Roo_GvNIXDatatables.aj:
     annotations:
       linguist: AspectJ
@@ -2081,6 +2093,7 @@ files:
       vote: Literate Agda
   github.com/Jahdrien/FileReader/e76e00e018a6eae492bd4cbf235695f982626b00/src/File/FileInput.as:
     annotations:
+      human-smola: ActionScript
       linguist: ActionScript
       linguist-heuristics: ActionScript
       pygments-filename: ActionScript
@@ -2657,6 +2670,7 @@ files:
       vote: NetLogo
   github.com/M165437/laravel-blueprint-docs/f82c0b2e4ebcdc29c2bdb220372f15e5c8a44a2a/example.apib:
     annotations:
+      human-smola: API Blueprint
       linguist: API Blueprint
       linguist-extension: API Blueprint
       vote: API Blueprint
@@ -2774,9 +2788,11 @@ files:
       vote: Emacs Lisp
   github.com/Malurth/Auto-2-day-HCCS/e4d7c651c4ce4a9ac181d1de66ddefa6c5b62c63/relay/relay_AutoHCCS.ash:
     annotations:
+      human-smola: Unknown
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: AGS Script
+      vote: Unknown
+    notes: KoLMafia ASH
   github.com/Manitary/advent-of-code/803f38a11d2e7980d46b42bb80bc5e0cc2c31830/2018/18_11.mg:
     annotations:
       human-smola: Unknown
@@ -2856,10 +2872,11 @@ files:
       vote: Mercury
   github.com/MetaCell/NEURON-UI/2a642c78a127a500ba139b83bb8d263035b52be7/neuron_ui/models/PTCell/mod/hsyn.mod:
     annotations:
-      human-ajnavarro: AMPL
+      human-smola: Unknown
       linguist: AMPL
       pygments-filename: Modula-2
-      vote: AMPL
+      vote: Unknown
+    notes: NEURON MODL
   github.com/Michael-Kelley/CABAL-Online-3ds-Scripts/51cbd3dd919e75106ad11c9c9a405620a1d75454/export_ebm_cabal.ms:
     annotations:
       linguist: MAXScript
@@ -3337,6 +3354,7 @@ files:
       vote: Grace
   github.com/OptimaSystems/GAP/e159b301cbe8b099fa0dfdc1e0083a26076a9ef2/GAP_Tests.dyalog:
     annotations:
+      human-smola: APL
       linguist: APL
       linguist-extension: APL
       vote: APL
@@ -3820,6 +3838,7 @@ files:
       vote: Cycript
   github.com/ResearchKit/ResearchKit/e19dfbff8d5c33a2d43ed78dcaa024fe0e35db25/ResearchKit/Common/ORKFormStepViewController_Internal.h:
     annotations:
+      human-smola: Objective-C
       linguist: Objective-C
       linguist-heuristics: Objective-C
       pygments-filename: C
@@ -3865,9 +3884,11 @@ files:
       vote: Pike
   github.com/Roniius/hoimi/ac85a9c815483b9b309f332cb94ea2a330ffeb59/hoimi.mod:
     annotations:
+      human-smola: Unknown
       linguist: AMPL
       pygments-filename: Modula-2
-      vote: AMPL
+      vote: Unknown
+    notes: Hearts of Iron 4 mod
   github.com/Rosuav/Gypsum/8e846b55a973029aced36142cc5d588e8aa83874/globals.pike:
     annotations:
       linguist: Pike
@@ -3942,6 +3963,7 @@ files:
       vote: XSLT
   github.com/SDWebImage/SDWebImage/253a5eb7f20c24d428abdae03864a3a336604d1f/SDWebImage/Private/NSBezierPath+RoundedCorners.h:
     annotations:
+      human-smola: Objective-C
       linguist: Objective-C
       linguist-heuristics: Objective-C
       pygments-filename: C
@@ -3967,11 +3989,10 @@ files:
       vote: Prolog
   github.com/Safecast/Solarcast/47e183c6914bd4001a5e97be3722c66a07cf82af/geiger-module/kicad/OPENHARDWARE_small.mod:
     annotations:
-      human-ajnavarro: AMPL
       human-smola: KiCad Layout
       linguist: AMPL
       pygments-filename: Modula-2
-      vote: AMPL
+      vote: KiCad Layout
   github.com/Saizan/miller/17637ec5267fac2f2072f8c5d5e2a82d11505a46/Injections.agda:
     annotations:
       linguist: Agda
@@ -3995,9 +4016,11 @@ files:
       vote: Apex
   github.com/Sandstoneblade/BoD/6f81495171d8f20b64c87d6709e7acb17c3ef0f3/BoD.ash:
     annotations:
+      human-smola: Unknown
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: AGS Script
+      vote: Unknown
+    notes: KoLMafia ASH
   github.com/SaptakS/clipsCodes/94a08eb56a3050ed1e9d4171df0261fce897b3d6/palindrome.clp:
     annotations:
       linguist: CLIPS
@@ -4166,6 +4189,7 @@ files:
       vote: CMake
   github.com/SnapKit/Masonry/8bd77ea92bbe995e14c454f821200b222e5a8804/Masonry/MASUtilities.h:
     annotations:
+      human-smola: Objective-C
       linguist: Objective-C
       linguist-heuristics: Objective-C
       pygments-filename: C
@@ -4616,9 +4640,11 @@ files:
       vote: Boo
   github.com/TrumpyGoad/Project_EUROPA/99965591f8a2a701771ef602a95133f650becd68/Project_EUROPA.mod:
     annotations:
+      human-smola: Unknown
       linguist: AMPL
       pygments-filename: Modula-2
-      vote: AMPL
+      vote: Unknown
+    notes: Hearts of Iron 4 mod
   github.com/Ttl/vna2/3ac7fbd8dcb66ba613c0f0530b64f8f3035a6b4c/fpga/vna/vna.srcs/sim_1/new/ft2232_behavioral.vhd:
     annotations:
       linguist: VHDL
@@ -4950,6 +4976,7 @@ files:
       vote: Wolfram Language
   github.com/WordPress/secure-swfupload/25531ecc4d2345abf6df86dcb6996877fdb8d72a/core/Flash/FileItem.as:
     annotations:
+      human-smola: ActionScript
       linguist: ActionScript
       linguist-heuristics: ActionScript
       pygments-filename: ActionScript
@@ -4987,6 +5014,7 @@ files:
       vote: Assembly
   github.com/XVimProject/XVim/53c652421ca8ad63a2380a5cad316b1997999b8a/XVim/XVimEval.m:
     annotations:
+      human-smola: Objective-C
       linguist: Objective-C
       linguist-heuristics: Objective-C
       pygments-filename: Objective-C
@@ -5624,6 +5652,7 @@ files:
       vote: Crystal
   github.com/amitp/mapgen2/4394df0e04101dbbdc36ee1e61ad7d62446bb3f1/mapgen2.as:
     annotations:
+      human-smola: ActionScript
       linguist: ActionScript
       linguist-heuristics: ActionScript
       pygments-filename: ActionScript
@@ -6092,6 +6121,7 @@ files:
       vote: CMake
   github.com/arthur-debert/BulkLoader/56c74f4a64b093c09a11ba2f5d984ad58e7c91c5/tests/src/br/com/stimuli/loading/tests/SmartURLTest.as:
     annotations:
+      human-smola: ActionScript
       linguist: ActionScript
       linguist-heuristics: ActionScript
       pygments-filename: ActionScript
@@ -6441,6 +6471,7 @@ files:
       vote: Awk
   github.com/b4winckler/macvim/fd916f58a3723000b9d7b2e0d5657d050e4af962/src/pty.c:
     annotations:
+      human-smola: C
       linguist: C
       linguist-extension: C
       pygments-filename: C
@@ -6725,6 +6756,7 @@ files:
       vote: REXX
   github.com/beanstalkd/beanstalkd/0fcf38b1782b10cbdb2ee03a79a401812c612663/sd-daemon.c:
     annotations:
+      human-smola: C
       linguist: C
       linguist-extension: C
       linguist-modeline: C
@@ -7280,6 +7312,7 @@ files:
       vote: IGOR Pro
   github.com/byxb/Whack/09ee587afd6acff6a9c7c18799bb16b0fa25705d/src/de/polygonal/ds/BitVector.as:
     annotations:
+      human-smola: ActionScript
       linguist: ActionScript
       linguist-heuristics: ActionScript
       pygments-filename: ActionScript
@@ -7402,6 +7435,7 @@ files:
       vote: YAML
   github.com/ccgus/fmdb/65036d66e9698c24698bfc120450cf033bbbbdb2/src/fmdb/FMDatabase.h:
     annotations:
+      human-smola: Objective-C
       linguist: Objective-C
       linguist-heuristics: Objective-C
       pygments-filename: C
@@ -7534,9 +7568,11 @@ files:
       vote: AutoIt
   github.com/chameco/snapshot/f31049ee90291b88e61726203a602868631cfccd/scripts/snapshot.ash:
     annotations:
+      human-smola: Unknown
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: AGS Script
+      vote: Unknown
+    notes: KoLMafia ASH
   github.com/chapel-lang/chapel/a74978b9a65a672f8ef873c87b61f50208969857/test/functions/iterators/vass/multi-yield-symbols/11-oneLocalSymbol.chpl:
     annotations:
       linguist: Chapel
@@ -8109,9 +8145,11 @@ files:
       vote: Scala
   github.com/covert-code/KoL-MineVolcano/a18a2c75462160a0b5aca052760e25a2d1d76af7/scripts/minevolcano.ash:
     annotations:
+      human-smola: Unknown
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: AGS Script
+      vote: Unknown
+    notes: KoLMafia ASH
   github.com/cpp-frug/materials/433c7d24a2c7de7758f867610784a8f47403324f/scripts/round-floating-to-integer.sed:
     annotations:
       linguist: sed
@@ -8495,6 +8533,7 @@ files:
       vote: ECL
   github.com/davidebasile/routingproblem/8599d3a1b1fa0aec1299546f231f8c7f5f366524/routeplanning.mod:
     annotations:
+      human-smola: AMPL
       linguist: AMPL
       pygments-filename: Modula-2
       vote: AMPL
@@ -8786,6 +8825,7 @@ files:
       vote: PureBasic
   github.com/destroytoday/destroytwitter/853f42e40d89cf981f90156e674aecc9b941a9b2/src/com/destroytoday/destroytwitter/view/drawer/Compose.as:
     annotations:
+      human-smola: ActionScript
       linguist: ActionScript
       linguist-heuristics: ActionScript
       pygments-filename: ActionScript
@@ -9007,9 +9047,11 @@ files:
       vote: Liquid
   github.com/dmoonfire/kolmafia/4af2d95c3ea1a58f9839a7143caba5425caf7928/cake/CakeLevel.ash:
     annotations:
+      human-smola: Unknown
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: AGS Script
+      vote: Unknown
+    notes: KoLMafia ASH
   github.com/docker/dockercraft/4be6b595d2b965da8e6af10f83f1a53b0c2a0dee/Docker/log.lua:
     annotations:
       linguist: Lua
@@ -10083,12 +10125,14 @@ files:
       vote: Alloy
   github.com/expo/expo/9170118913cb64164df1dfaf1f5ab23deb7115d3/ios/Exponent/Kernel/AppLoader/EXAppLoader.h:
     annotations:
+      human-smola: Objective-C
       linguist: Objective-C
       linguist-heuristics: Objective-C
       pygments-filename: C
       vote: Objective-C
   github.com/exyte/Macaw/3acbaffa97f0297cde7eb4fce40cdc2e4ca0f56f/Source/render/ImageRenderer.swift:
     annotations:
+      human-smola: Swift
       linguist: Swift
       linguist-extension: Swift
       pygments-filename: Swift
@@ -10128,6 +10172,7 @@ files:
       vote: Haskell
   github.com/facebook/Shimmer/ddde760011261655b465069a762f8e6210e39ad4/FBShimmering/FBShimmeringLayer.h:
     annotations:
+      human-smola: Objective-C
       linguist: Objective-C
       linguist-heuristics: Objective-C
       pygments-filename: C
@@ -11493,6 +11538,7 @@ files:
       vote: Harbour
   github.com/grapefrukt/grapefrukt-export/7406dd75e51279d347b8fd26af834ab1b5b386e6/src/com/grapefrukt/exporter/events/FunctionQueueEvent.as:
     annotations:
+      human-smola: ActionScript
       linguist: ActionScript
       linguist-heuristics: ActionScript
       pygments-filename: ActionScript
@@ -11523,6 +11569,7 @@ files:
       vote: DataWeave
   github.com/greensock/GreenSock-AS3/6019d64044fd5f466038c731cfda39301be02edf/src/com/greensock/plugins/VisiblePlugin.as:
     annotations:
+      human-smola: ActionScript
       linguist: ActionScript
       linguist-heuristics: ActionScript
       pygments-filename: ActionScript
@@ -11682,6 +11729,7 @@ files:
       vote: LiveScript
   github.com/hackiftekhar/IQKeyboardManager/a911a481b9a031ea6ec949030871cbb851d01111/DemoObjCUITests/DemoObjCUITests.m:
     annotations:
+      human-smola: Objective-C
       linguist: Objective-C
       linguist-heuristics: Objective-C
       pygments-filename: Objective-C
@@ -12266,6 +12314,7 @@ files:
       vote: CUDA
   github.com/hustkisas/UC-Model-AMPL/c603dcbfcab6ec34a6671a319e875b0bd9dc1a69/3375BUS/uc_model-new.mod:
     annotations:
+      human-smola: AMPL
       linguist: AMPL
       pygments-filename: Modula-2
       vote: AMPL
@@ -12344,6 +12393,7 @@ files:
       vote: SuperCollider
   github.com/ibireme/YYKit/4e1bd1cfcdb3331244b219cbd37cc9b1ccb62b7a/YYKit/Utility/YYThreadSafeArray.h:
     annotations:
+      human-smola: Objective-C
       linguist: Objective-C
       linguist-heuristics: Objective-C
       pygments-filename: C
@@ -12527,6 +12577,7 @@ files:
       vote: Go
   github.com/infusion/jQuery-webcam/f9689f93069074b39d3d5bf31bffc44263eb59ca/src/JPGEncoder.as:
     annotations:
+      human-smola: ActionScript
       linguist: ActionScript
       linguist-heuristics: ActionScript
       pygments-filename: ActionScript
@@ -12896,9 +12947,11 @@ files:
       vote: Nim
   github.com/jbtayloriii/kol_libs/1a0dac41a2bee656ddf6f7affc19087cbe51d3ed/woodpuzzleCombat.ash:
     annotations:
+      human-smola: Unknown
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: AGS Script
+      vote: Unknown
+    notes: KoLMafia ASH
   github.com/jcagarcia/proofs/6409903f826be9a991bf9d1907e54cb2cde1c46f/spring-controller-validation/src/main/java/org/springframework/roo/petclinic/web/PetsSearchThymeleafController_Roo_Controller.aj:
     annotations:
       linguist: AspectJ
@@ -12940,6 +12993,7 @@ files:
       vote: OpenSCAD
   github.com/jdg/MBProgressHUD/d2842c91243b777615dc44cadf7c8c57519b197f/MBProgressHUD.m:
     annotations:
+      human-smola: Objective-C
       linguist: Objective-C
       linguist-heuristics: Objective-C
       pygments-filename: Objective-C
@@ -13541,6 +13595,7 @@ files:
       vote: Scala
   github.com/julienXX/terminal-notifier/3ba9ce569e234062d09c8fd01c4be11e56a9fd1b/Terminal Notifier/AppDelegate.m:
     annotations:
+      human-smola: Objective-C
       linguist: Objective-C
       linguist-heuristics: Objective-C
       pygments-filename: Objective-C
@@ -14252,6 +14307,7 @@ files:
       vote: Emacs Lisp
   github.com/kutu/GrindPlayer/080d1a953bdef1fd83d4cae1ce69295b811f2776/src/ru/kutu/grindplayer/views/mediators/StatInfoMediator.as:
     annotations:
+      human-smola: ActionScript
       linguist: ActionScript
       linguist-heuristics: ActionScript
       pygments-filename: ActionScript
@@ -14643,6 +14699,7 @@ files:
       vote: XS
   github.com/libuv/libuv/780c08a63efb65aed65da57c36f1c5b10f25cc1d/test/test-loop-time.c:
     annotations:
+      human-smola: C
       linguist: C
       linguist-extension: C
       pygments-filename: C
@@ -14860,9 +14917,11 @@ files:
       vote: Crystal
   github.com/lucydotc/Worthless-item-harvesting-kolmafia-plugin/5c48a6d4069a5a299a26a5d61c970005cef89cee/worthwhile_chewing_gum.ash:
     annotations:
+      human-smola: Unknown
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: AGS Script
+      vote: Unknown
+    notes: KoLMafia ASH
   github.com/lueyoung/gmt-kafka/d3a978d960a86567e42380a3698dc92cd517240f/manifest/services.yaml.sed:
     annotations:
       human-smola: YAML
@@ -14968,10 +15027,11 @@ files:
       vote: Unknown
   github.com/macgregor/kol-telegram/33bc04925bebbaa29da77b376dab99fe3544c4e1/Release/scripts/telegram/__telegram_data.ash:
     annotations:
-      human-smola: AGS Script
+      human-smola: Unknown
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: AGS Script
+      vote: Unknown
+    notes: KoLMafia ASH
   github.com/machakann/vim-Verdin/11e2deeb01b3aa0de93685a02eabf9f1ccc90976/test/Dictionary.vim:
     annotations:
       linguist: Vim script
@@ -15175,6 +15235,7 @@ files:
       vote: NetLogo
   github.com/marekyggdrasil/optilogistics/4a8f367694a3470a7783bed3558418d3ac857a2d/example_1.mod:
     annotations:
+      human-smola: AMPL
       linguist: AMPL
       pygments-filename: Modula-2
       vote: AMPL
@@ -15271,9 +15332,11 @@ files:
       vote: Haxe
   github.com/matej-macak/Neuron_Vagrant/1d40cea1b931629bac4fd53d064d753b21e7ceea/Python3.4/Mods/h.mod:
     annotations:
+      human-smola: Unknown
       linguist: AMPL
       pygments-filename: Modula-2
-      vote: AMPL
+      vote: Unknown
+    notes: NEURON MODL
   github.com/matejak/argbash/ab37e068a8a34e5e58c03d32a11d045a918ba165/src/output-manpage-defs.m4:
     annotations:
       linguist: M4
@@ -15287,9 +15350,11 @@ files:
       vote: Logtalk
   github.com/materialsvirtuallab/snap/d2b9c3c618cc3a808ca2f8cc3267211b98105226/Mo/usage/elastic_example/displace.mod:
     annotations:
+      human-smola: Unknown
       linguist: AMPL
       pygments-filename: Modula-2
-      vote: AMPL
+      vote: Unknown
+    notes: LAMMPS
   github.com/math-comp/math-comp/71e397e46b65c1c27a65471170d71f388c8a45f1/mathcomp/ssreflect/div.v:
     annotations:
       linguist: Coq
@@ -15583,6 +15648,7 @@ files:
       vote: CoffeeScript
   github.com/michalstocki/FlashWavRecorder/50fbef845c4f6e861562ecedd7c210d69017d78e/src/test/flashwavrecorder/MicrophoneSamplesEventTest.as:
     annotations:
+      human-smola: ActionScript
       linguist: ActionScript
       linguist-heuristics: ActionScript
       pygments-filename: ActionScript
@@ -15679,6 +15745,7 @@ files:
       vote: COBOL
   github.com/mikechambers/as3corelib/24c6c16aecbf0d8fcc043ae671e689b0d4b4c559/src/com/adobe/crypto/SHA224.as:
     annotations:
+      human-smola: ActionScript
       linguist: ActionScript
       linguist-heuristics: ActionScript
       pygments-filename: ActionScript
@@ -15711,6 +15778,7 @@ files:
       vote: Terra
   github.com/minimalcomps/minimalcomps/90477b4ac7f2e0d59cb94cb7f2badcadb1799f2d/src/com/bit101/components/HSlider.as:
     annotations:
+      human-smola: ActionScript
       linguist: ActionScript
       linguist-heuristics: ActionScript
       pygments-filename: ActionScript
@@ -16103,6 +16171,7 @@ files:
       vote: Lua
   github.com/mpf/Optimization-Test-Problems/9ccb0ef85fb1a43b51f7149c76d5448ac9bbf9ae/cute/bt7.mod:
     annotations:
+      human-smola: AMPL
       linguist: AMPL
       pygments-filename: Modula-2
       vote: AMPL
@@ -16450,6 +16519,7 @@ files:
       vote: TypeScript
   github.com/netdata/netdata/928c52f73f7f21e6d434bff82b01effedb6010bd/database/engine/pagecache.c:
     annotations:
+      human-smola: C
       linguist: C
       linguist-extension: C
       pygments-filename: C
@@ -16692,6 +16762,7 @@ files:
       vote: Pascal
   github.com/nodename/as3delaunay/71563ed1d573d087603103f9c66f52f4452dc868/src/com/nodename/Delaunay/selectNonIntersectingEdges.as:
     annotations:
+      human-smola: ActionScript
       linguist: ActionScript
       linguist-heuristics: ActionScript
       pygments-filename: ActionScript
@@ -16703,6 +16774,7 @@ files:
       vote: API Blueprint
   github.com/noio/kingdom/cee25a0ad127321a64a80a002e33a88f84075bce/org/flixel/FlxSound.as:
     annotations:
+      human-smola: ActionScript
       linguist: ActionScript
       linguist-heuristics: ActionScript
       pygments-filename: ActionScript
@@ -16822,6 +16894,7 @@ files:
       vote: Awk
   github.com/numpy/numpy/480dc6bc01aa465389fcad0c85502d25d954f579/numpy/random/src/philox/philox.h:
     annotations:
+      human-smola: C
       linguist: C
       pygments-filename: C
       vote: C
@@ -17415,6 +17488,7 @@ files:
       vote: Alloy
   github.com/path/FastImageCache/2615d275abe6195f4a90a7b46593768b74b3b273/FastImageCache/FastImageCacheDemo/Classes/FICDPhotosTableViewCell.m:
     annotations:
+      human-smola: Objective-C
       linguist: Objective-C
       linguist-heuristics: Objective-C
       pygments-filename: Objective-C
@@ -17500,6 +17574,7 @@ files:
       vote: AspectJ
   github.com/pbatard/rufus/7ec7331200c047e920590cf65a2b1dee3162213a/src/dos.c:
     annotations:
+      human-smola: C
       linguist: C
       linguist-extension: C
       pygments-filename: C
@@ -17707,6 +17782,7 @@ files:
       vote: Elixir
   github.com/php/php-src/abc382e885fff83d059e5c3fe3762c8e8497510c/sapi/fpm/fpm/fpm_events.c:
     annotations:
+      human-smola: C
       linguist: C
       linguist-extension: C
       pygments-filename: C
@@ -18699,6 +18775,7 @@ files:
       vote: Java
   github.com/react-native-community/react-native-maps/f8b255e40bef3a68fe3134c08a5219d7ffa173f9/lib/ios/AirGoogleMaps/AIRGoogleMapWMSTileManager.m:
     annotations:
+      human-smola: Objective-C
       linguist: Objective-C
       linguist-heuristics: Objective-C
       pygments-filename: Objective-C
@@ -18723,9 +18800,10 @@ files:
       vote: Scheme
   github.com/realm/realm-cocoa/6da0d3baebbed932c103d2465c62e72016e6b307/Realm/Tests/MigrationTests.mm:
     annotations:
+      human-smola: Objective-C++
       linguist: Objective-C
       pygments-filename: Objective-C++
-      vote: Objective-C
+      vote: Objective-C++
   github.com/realpython/python-guide/5b959c94153e3bd680181d150a81ad3c33a6cd36/make.bat:
     annotations:
       linguist: Batchfile
@@ -19755,9 +19833,11 @@ files:
       vote: Smalltalk
   github.com/sbsdev/sbs-braille-tables/ad8b4d3b898d228cce81d72ac2e8038d931db747/tables/sbs-de-g2-name.mod:
     annotations:
+      human-smola: Unknown
       linguist: AMPL
       pygments-filename: Modula-2
-      vote: AMPL
+      vote: Unknown
+    notes: SBS modules
   github.com/scala/scala/673cfec756c350b3bdca1d031f63624bb618148b/test/files/jvm/duration-tck.scala:
     annotations:
       linguist: Scala
@@ -19779,6 +19859,7 @@ files:
       vote: Forth
   github.com/schneiderandre/popping/6237b8c0392aa13e9e8227a756f864c244269c91/Popping/ModalViewController.m:
     annotations:
+      human-smola: Objective-C
       linguist: Objective-C
       linguist-heuristics: Objective-C
       pygments-filename: Objective-C
@@ -19917,6 +19998,7 @@ files:
       vote: HiveQL
   github.com/sephiroth74/purePDF/5a409634412fa1032b1e9937a347b344d3ccc63e/purepdf/src/org/purepdf/pdf/PdfFormXObject.as:
     annotations:
+      human-smola: ActionScript
       linguist: ActionScript
       linguist-heuristics: ActionScript
       pygments-filename: ActionScript
@@ -20201,6 +20283,7 @@ files:
       vote: Monkey
   github.com/skywind3000/kcp/4c58607c917c2a82bf116489c3eb89e4e9aa696d/ikcp.c:
     annotations:
+      human-smola: C
       linguist: C
       linguist-extension: C
       pygments-filename: C
@@ -20354,9 +20437,11 @@ files:
       vote: Vala
   github.com/soolar/CONSUME.ash/4c2cce867e13695ae188e5e1c7c85807285d56be/RELEASE/scripts/CONSUME/INFO.ash:
     annotations:
+      human-smola: Unknown
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: AGS Script
+      vote: Unknown
+    notes: KoLMafia ASH
   github.com/sooqua/js-react-redux-yasnippets/70785d126a28ffcb314fb4b354319418586e06b1/snippets/js-mode/rpcp:
     annotations:
       linguist: YASnippet
@@ -20499,6 +20584,7 @@ files:
       vote: DM
   github.com/st33d/red-rogue/5fef5ef7ac1cc5229411b625d8c9eed67abd5a09/src/com/robotacid/util/XorRandom.as:
     annotations:
+      human-smola: ActionScript
       linguist: ActionScript
       linguist-heuristics: ActionScript
       pygments-filename: ActionScript
@@ -20611,9 +20697,11 @@ files:
       vote: M4
   github.com/stewbeef/beefy_questing/b6d075ec1c11776d9ed9e21e87ad1a4ca1ad152b/scripts/questing/beefy_quests.ash:
     annotations:
+      human-smola: Unknown
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: AGS Script
+      vote: Unknown
+    notes: KoLMafia ASH
   github.com/sticker0ne/RubiusTest/9acc68546ba2d4475b5bd4941fb388f5043352a7/DB/musicServiceLogic.txl:
     annotations:
       linguist: TXL
@@ -21095,12 +21183,14 @@ files:
       vote: Brightscript
   github.com/theturtle32/AS3WebSocket/0b5a7c69b316cec02a8c5f06182a0e9973d8002f/AS3WebSocket/src/com/hurlant/crypto/tests/ECBModeTest.as:
     annotations:
+      human-smola: ActionScript
       linguist: ActionScript
       linguist-heuristics: ActionScript
       pygments-filename: ActionScript
       vote: ActionScript
   github.com/thibaultimbert/graphicscorelib/85afe4b73491aa4494311d54db7a46d61ebe5879/src/com/adobe/utils/macro/VariableExpression.as:
     annotations:
+      human-smola: ActionScript
       linguist: ActionScript
       linguist-heuristics: ActionScript
       pygments-filename: ActionScript
@@ -21602,9 +21692,11 @@ files:
       vote: E
   github.com/tum-ens/mathprog-energy-models/df7e652585550ad39f0635ca1b2c06b90f00986c/intertemporal.mod:
     annotations:
+      human-smola: AMPL
       linguist: AMPL
       pygments-filename: Modula-2
       vote: AMPL
+    notes: MathProg AMPL subset
   github.com/turbopape/docker-picolisp-image/3c885796f62e2a2542d32b0f89893c3b2f065b6e/picoLisp/test/src/flow.l:
     annotations:
       linguist: PicoLisp
@@ -21798,10 +21890,11 @@ files:
       vote: Haxe
   github.com/unforswearing/applescript/7ecc04d1b2fc1192259e1f1f65abc9c59b02cb4a/Application Services/AppWatcher.applescript:
     annotations:
+      human-smola: Unknown
       linguist: AppleScript
       linguist-extension: AppleScript
       pygments-filename: AppleScript
-      vote: AppleScript
+      vote: Unknown
   github.com/unipsycho/Graph-Extensions-LabVIEW/d73bd49b43126c6f5a68c368c07d732930b10aef/LV2014/Graph Extensions.lvproj:
     annotations:
       linguist: LabVIEW
@@ -21845,6 +21938,7 @@ files:
       vote: MAXScript
   github.com/useflashpunk/FlashPunk/46faa60129749725054226a30acd11d97afece6c/net/flashpunk/utils/Draw.as:
     annotations:
+      human-smola: ActionScript
       linguist: ActionScript
       linguist-heuristics: ActionScript
       pygments-filename: ActionScript
@@ -22189,6 +22283,7 @@ files:
       vote: Elixir
   github.com/vtapadia/amplExperiments/2d57e9094c4234f476d45d867c838e36410408e8/singleMachineScheduling/tardiness.mod:
     annotations:
+      human-smola: AMPL
       linguist: AMPL
       pygments-filename: Modula-2
       vote: AMPL
@@ -22347,6 +22442,7 @@ files:
       vote: Golo
   github.com/wg/wrk/0896020a2a28b84b1150e9b60933b746fe1dc761/src/stats.c:
     annotations:
+      human-smola: C
       linguist: C
       linguist-extension: C
       pygments-filename: C
@@ -22862,6 +22958,7 @@ files:
       vote: Python
   github.com/yuantiku/YTKNetwork/930c6662d3bb82eb49316b9159be8f81881bd9f4/YTKNetworkDemo/YTKNetworkDemo/RegisterApi.m:
     annotations:
+      human-smola: Objective-C
       linguist: Objective-C
       linguist-heuristics: Objective-C
       pygments-filename: Objective-C

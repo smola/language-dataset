@@ -3,9 +3,9 @@
 
 | Metric | Value |
 | ------ | ----- |
-| **Languages** | 255 |
-| **Total samples** | 3841 |
-| **Samples labeled by humans** | 586 |
+| **Languages** | 256 |
+| **Total samples** | 3821 |
+| **Samples labeled by humans** | 644 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -13,20 +13,20 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Language | Samples | Human |
 | -------- | ------- | ------|
 | ABAP | 20 | 1 |
-| AGS Script | 14 | 1 |
-| AMPL | 19 | 6 |
+| AGS Script | 1 | 0 |
+| AMPL | 12 | 10 |
 | ANTLR | 19 | 3 |
-| API Blueprint | 5 | 0 |
-| APL | 19 | 0 |
+| API Blueprint | 5 | 1 |
+| APL | 19 | 1 |
 | ASP.NET | 8 | 0 |
 | ATS | 20 | 2 |
-| ActionScript | 20 | 0 |
+| ActionScript | 21 | 21 |
 | Ada | 20 | 20 |
 | Agda | 18 | 0 |
 | Alloy | 19 | 0 |
-| AngelScript | 3 | 0 |
+| AngelScript | 2 | 0 |
 | Apex | 20 | 1 |
-| AppleScript | 20 | 2 |
+| AppleScript | 19 | 2 |
 | Arc | 20 | 3 |
 | AspectJ | 20 | 2 |
 | Assembly | 16 | 3 |
@@ -43,7 +43,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Boo | 15 | 0 |
 | Brainfuck | 20 | 1 |
 | Brightscript | 20 | 1 |
-| C | 21 | 11 |
+| C | 21 | 21 |
 | C# | 22 | 5 |
 | C++ | 20 | 3 |
 | CLIPS | 18 | 2 |
@@ -67,7 +67,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Common Lisp | 14 | 11 |
 | Common Workflow Language | 16 | 1 |
 | Component Pascal | 1 | 0 |
-| Coq | 18 | 3 |
+| Coq | 18 | 5 |
 | Crystal | 19 | 0 |
 | Cycript | 16 | 11 |
 | D | 20 | 6 |
@@ -131,7 +131,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Jsonnet | 20 | 0 |
 | Julia | 18 | 1 |
 | Jupyter Notebook | 1 | 1 |
-| KiCad Layout | 2 | 2 |
+| KiCad Layout | 3 | 3 |
 | Kit | 19 | 1 |
 | Kotlin | 20 | 1 |
 | LFE | 17 | 0 |
@@ -169,7 +169,8 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Nit | 19 | 0 |
 | Nix | 18 | 0 |
 | OCaml | 12 | 2 |
-| Objective-C | 20 | 2 |
+| Objective-C | 19 | 19 |
+| Objective-C++ | 1 | 1 |
 | Opa | 19 | 1 |
 | Opal | 3 | 0 |
 | OpenEdge ABL | 20 | 4 |
@@ -225,7 +226,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Squirrel | 20 | 1 |
 | Stata | 17 | 1 |
 | SuperCollider | 19 | 4 |
-| Swift | 19 | 1 |
+| Swift | 19 | 2 |
 | SystemVerilog | 19 | 9 |
 | TLA | 20 | 1 |
 | TSQL | 6 | 6 |
