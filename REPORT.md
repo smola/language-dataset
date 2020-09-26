@@ -3,9 +3,9 @@
 
 | Metric | Value |
 | ------ | ----- |
-| **Languages** | 256 |
-| **Total samples** | 3821 |
-| **Samples labeled by humans** | 644 |
+| **Languages** | 257 |
+| **Total samples** | 3834 |
+| **Samples labeled by humans** | 657 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -133,6 +133,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Jupyter Notebook | 1 | 1 |
 | KiCad Layout | 3 | 3 |
 | Kit | 19 | 1 |
+| KoLMafia ASH | 13 | 13 |
 | Kotlin | 20 | 1 |
 | LFE | 17 | 0 |
 | LLVM | 19 | 0 |

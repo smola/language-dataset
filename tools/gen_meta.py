@@ -220,11 +220,27 @@ def add_pygments_languages(meta: Meta):
         meta.add_language(dataset=dataset_name, norm_lang=norm_lang, lang=lang)
 
 
+def add_custom_languages(meta: Meta):
+    dataset_name = "custom"
+    meta.add_dataset(
+        name=dataset_name,
+        data={},
+    )
+
+    langs = [
+        "KoLMafia ASH",
+    ]
+
+    for lang in langs:
+        meta.add_language(dataset=dataset_name, norm_lang=lang, lang=lang)
+
+
 def main():
     meta = Meta(load=False)
     add_linguist_languages(LINGUIST_COMMIT, meta)
     add_rosetta_code_languages(ROSETTA_CODE_DATA_COMMIT, meta)
     add_pygments_languages(meta)
+    add_custom_languages(meta)
     meta.save()
 
 
