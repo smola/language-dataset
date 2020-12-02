@@ -42,14 +42,14 @@ The `tools` directory contains various Python utilities to maintain the dataset:
 To run tools first create the virtual environment:
 
 ```
-pip install pipenv
-pipenv install
+pip install poetry
+poetry install
 ```
 
 Then run the tool with `python -m`:
 
 ```
-pipenv run python -m tools.gen_meta
+poetry run python -m tools.gen_meta
 ```
 
 ## License

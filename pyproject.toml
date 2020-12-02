@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "language-dataset"
+version = "0.1.0"
+description = ""
+authors = ["Santiago M. Mola <santi@mola.io>"]
+license = "MIT License + others"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "*"
+pyyaml = "*"
+pandas = "*"
+scikit-learn = "*"
+pygments = "*"
+
+[tool.poetry.dev-dependencies]
+black = "*"
+flake8 = "*"
+ipython = "*"
+pytest = "*"
+pytest-mock = "*"
+mock = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

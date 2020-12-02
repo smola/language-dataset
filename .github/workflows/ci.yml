@@ -29,10 +29,10 @@ jobs:
         with:
           python-version: '3.8.x'
           architecture: 'x64'
-      - run: pip install pipenv
+      - run: pip install poetry
       - run: sudo apt install libyaml-dev
-      - run: pipenv install
-      - run: pipenv run python -m tools.lint
+      - run: poetry install --no-dev
+      - run: poetry run python -m tools.lint
   check-commit:
     name: check no pending changes
     runs-on: ubuntu-latest
@@ -44,10 +44,10 @@ jobs:
         with:
           python-version: '3.8.x'
           architecture: 'x64'
-      - run: pip install pipenv
+      - run: pip install poetry
       - run: sudo apt install libyaml-dev
-      - run: pipenv install
-      - run: pipenv run python -m tools.prepare_commit
+      - run: poetry install --no-dev
+      - run: poetry run python -m tools.prepare_commit
       - run: git diff --exit-code
   test:
     name: test
@@ -66,6 +66,6 @@ jobs:
       - run: sudo apt update
       - run: sudo apt install libyaml-dev cmake pkg-config libicu-dev zlib1g-dev libcurl4-openssl-dev libssl-dev ruby-dev
       - run: gem install --no-rdoc --no-ri github-linguist
-      - run: pip install pipenv
-      - run: pipenv install --dev
-      - run: pipenv run pytest tools
+      - run: pip install poetry
+      - run: poetry install
+      - run: poetry run pytest tools
