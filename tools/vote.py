@@ -12,6 +12,8 @@ def vote(ann, weights):
             all_votes[lang] = all_votes.get(lang, 0.0) + 1.0
         else:
             all_votes[lang] = all_votes.get(lang, 0.0) + weights.get(key, 1.0)
+    if len(all_votes) == 0:
+        return "Unknown"
     if len(human_votes) > 0:
         max_votes = max(human_votes.values())
         langs = [l for l, v in human_votes.items() if v == max_votes]

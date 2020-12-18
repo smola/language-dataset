@@ -3,8 +3,8 @@
 
 | Metric | Value |
 | ------ | ----- |
-| **Languages** | 257 |
-| **Total samples** | 3834 |
+| **Languages** | 260 |
+| **Total samples** | 3831 |
 | **Samples labeled by humans** | 657 |
 
 ## Per Language
@@ -17,7 +17,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | AMPL | 12 | 10 |
 | ANTLR | 19 | 3 |
 | API Blueprint | 5 | 1 |
-| APL | 19 | 1 |
+| APL | 17 | 1 |
 | ASP.NET | 8 | 0 |
 | ATS | 20 | 2 |
 | ActionScript | 21 | 21 |
@@ -29,7 +29,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | AppleScript | 19 | 2 |
 | Arc | 20 | 3 |
 | AspectJ | 20 | 2 |
-| Assembly | 16 | 3 |
+| Assembly | 12 | 3 |
 | Asymptote | 20 | 0 |
 | Augeas | 19 | 0 |
 | AutoHotkey | 20 | 1 |
@@ -38,7 +38,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | BCPL | 1 | 1 |
 | Ballerina | 20 | 0 |
 | Batchfile | 20 | 1 |
-| Befunge | 2 | 1 |
+| Befunge | 1 | 1 |
 | BlitzMax | 20 | 1 |
 | Boo | 15 | 0 |
 | Brainfuck | 20 | 1 |
@@ -57,7 +57,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Chapel | 18 | 0 |
 | Charity | 3 | 0 |
 | ChucK | 19 | 1 |
-| Clarion | 17 | 2 |
+| Clarion | 16 | 2 |
 | Classic ASP | 12 | 2 |
 | Clean | 9 | 9 |
 | Clojure | 19 | 2 |
@@ -92,7 +92,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Factor | 19 | 0 |
 | Fancy | 16 | 1 |
 | Fantom | 20 | 0 |
-| Forth | 19 | 2 |
+| Forth | 16 | 2 |
 | Fortran | 20 | 5 |
 | FreeMarker | 18 | 2 |
 | Frege | 14 | 1 |
@@ -118,7 +118,8 @@ For each language, the table reports total number of samples (_Samples_) and how
 | HiveQL | 14 | 2 |
 | HolyC | 9 | 0 |
 | Hy | 20 | 0 |
-| IDL | 13 | 1 |
+| HyPhy | 1 | 0 |
+| IDL | 12 | 1 |
 | IGOR Pro | 20 | 0 |
 | INI | 2 | 2 |
 | Idris | 20 | 1 |
@@ -148,9 +149,9 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Literate CoffeeScript | 1 | 1 |
 | LiveScript | 20 | 2 |
 | Logtalk | 20 | 1 |
-| Lua | 20 | 2 |
-| M4 | 12 | 3 |
-| M4Sugar | 4 | 3 |
+| Lua | 21 | 2 |
+| M4 | 3 | 3 |
+| M4Sugar | 13 | 3 |
 | MATLAB | 23 | 16 |
 | MAXScript | 17 | 1 |
 | Makefile | 17 | 1 |
@@ -160,6 +161,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Modula-2 | 21 | 1 |
 | Modula-3 | 16 | 1 |
 | Monkey | 20 | 4 |
+| Motorola 68K Assembly | 3 | 0 |
 | NSIS | 20 | 0 |
 | Nearley | 16 | 0 |
 | Nemerle | 14 | 2 |
@@ -170,6 +172,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Nit | 19 | 0 |
 | Nix | 18 | 0 |
 | OCaml | 12 | 2 |
+| ObjectScript | 1 | 0 |
 | Objective-C | 19 | 19 |
 | Objective-C++ | 1 | 1 |
 | Opa | 19 | 1 |
@@ -178,7 +181,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | OpenSCAD | 19 | 1 |
 | Oxygene | 1 | 0 |
 | Oz | 20 | 1 |
-| PHP | 21 | 3 |
+| PHP | 22 | 3 |
 | PL/SQL | 14 | 12 |
 | PL/pgSQL | 13 | 5 |
 | POV-Ray SDL | 2 | 0 |
@@ -191,7 +194,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | PowerBuilder | 15 | 0 |
 | PowerShell | 17 | 3 |
 | Processing | 20 | 2 |
-| Prolog | 17 | 4 |
+| Prolog | 18 | 4 |
 | PureBasic | 8 | 0 |
 | PureScript | 20 | 0 |
 | Python | 21 | 3 |
@@ -223,22 +226,22 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Shell | 22 | 8 |
 | Shen | 19 | 3 |
 | Slice | 6 | 0 |
-| Smalltalk | 18 | 0 |
+| Smalltalk | 17 | 0 |
 | Squirrel | 20 | 1 |
 | Stata | 17 | 1 |
 | SuperCollider | 19 | 4 |
 | Swift | 19 | 2 |
 | SystemVerilog | 19 | 9 |
 | TLA | 20 | 1 |
-| TSQL | 6 | 6 |
-| TSX | 2 | 2 |
+| TSQL | 8 | 6 |
+| TSX | 4 | 2 |
 | TXL | 18 | 0 |
 | Tcl | 18 | 3 |
-| Terra | 7 | 0 |
+| Terra | 6 | 0 |
 | Text | 2 | 2 |
 | Turing | 8 | 0 |
-| TypeScript | 18 | 5 |
-| Unix Assembly | 4 | 4 |
+| TypeScript | 16 | 5 |
+| Unix Assembly | 5 | 4 |
 | V | 18 | 3 |
 | VHDL | 18 | 4 |
 | Vala | 20 | 1 |
