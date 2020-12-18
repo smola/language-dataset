@@ -218,7 +218,7 @@ files:
       linguist: CMake
       linguist-filename: CMake
       linguist-heuristics: Text
-      pygments-filename: Text only
+      pygments-filename: Text
       vote: CMake
   github.com/AlDanial/cloc/8615300542fcd84a779a982043d93b7defe3f3fb/Unix/t/02_git.t:
     annotations:
@@ -1493,7 +1493,7 @@ files:
       linguist: CMake
       linguist-filename: CMake
       linguist-heuristics: Text
-      pygments-filename: Text only
+      pygments-filename: Text
       vote: CMake
   github.com/FluxML/Flux.jl/08804a06d242224c12e1ca465cde5fadf4915b8e/src/data/cmudict.jl:
     annotations:
@@ -2551,7 +2551,7 @@ files:
       human-smola: Forth
       linguist: Text
       linguist-heuristics: Text
-      pygments-filename: Text only
+      pygments-filename: Text
       vote: Forth
   github.com/Leont/perlio-utf8_strict/c7a3bcc55d77468700b49fe6bbbb4493613f908a/utf8_strict.xs:
     annotations:
@@ -3631,7 +3631,7 @@ files:
       linguist: CMake
       linguist-filename: CMake
       linguist-heuristics: Text
-      pygments-filename: Text only
+      pygments-filename: Text
       vote: CMake
   github.com/Poofjunior/fpga_fast_serial_sort/fca3dbde3cf935aede9c98cc27ac020027b1e974/spi_slave_interface.sv:
     annotations:
@@ -5473,7 +5473,7 @@ files:
       linguist: Awk
       linguist-heuristics: Text
       linguist-modeline: Awk
-      pygments-filename: Text only
+      pygments-filename: Text
       vote: Awk
   github.com/alex-ren/MTVeri/240ecd6ae18d9e8cb75a74ba27f1f748ab67bb46/scratch/ATS-parse-emit/CIL/TEST/queens.dats:
     annotations:
@@ -16161,7 +16161,7 @@ files:
       linguist: CMake
       linguist-filename: CMake
       linguist-heuristics: Text
-      pygments-filename: Text only
+      pygments-filename: Text
       vote: CMake
   github.com/mratsim/Arraymancer/94efff361327c2748f8f073a27a96265f2d9f784/tests/manual_checks/allocator_regression_178_1st_part.nim:
     annotations:
@@ -17017,7 +17017,7 @@ files:
       linguist: CMake
       linguist-filename: CMake
       linguist-heuristics: Text
-      pygments-filename: Text only
+      pygments-filename: Text
       vote: CMake
   github.com/ok1mpd/Netlinx-UPnP-control-point/e566c0b83f77b47d3d5795626656b63aae660f1e/Radio.axi:
     annotations:
@@ -19331,7 +19331,7 @@ files:
       linguist: CMake
       linguist-filename: CMake
       linguist-heuristics: Text
-      pygments-filename: Text only
+      pygments-filename: Text
       vote: CMake
   github.com/rossgray/rossgray.github.io/5006ee1e608f039a11bdad8235399b248f700d4d/source/kit/index.kit:
     annotations:
@@ -19664,7 +19664,7 @@ files:
       linguist: CMake
       linguist-filename: CMake
       linguist-heuristics: Text
-      pygments-filename: Text only
+      pygments-filename: Text
       vote: CMake
   github.com/saltybytes/3ds-max-tools/9498c78267136182d8152560ce5f5cb97defadb6/Tentacles/Tentacles.ms:
     annotations:
