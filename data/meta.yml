@@ -1,7 +1,7 @@
 datasets:
   custom: {}
   linguist:
-    version: 223c00bb80eff04788e29010f98c5778993d2b2a
+    version: 3ef386bbb7d10afe2ef81d85c9911871a9f2c221
   pygments:
     version: 2.7.3
   rosetta_code:
@@ -560,6 +560,10 @@ languages:
     maps_to:
       rosetta_code:
       - Brlcad
+  Browserslist:
+    maps_to:
+      linguist:
+      - Browserslist
   Burlesque:
     maps_to:
       rosetta_code:
