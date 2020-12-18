@@ -4720,8 +4720,6 @@ languages:
     maps_to:
       linguist:
       - Text
-  Text only:
-    maps_to:
       pygments:
       - Text only
   Textile:

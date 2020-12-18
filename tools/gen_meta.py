@@ -207,6 +207,7 @@ def add_pygments_languages(meta: Meta):
         "VB.net": "Visual Basic .NET",
         "vhdl": "VHDL",
         "Web IDL": "WebIDL",
+        "Text only": "Text",
     }
 
     lexers = pygments.lexers.get_all_lexers()
