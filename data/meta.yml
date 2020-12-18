@@ -3,7 +3,7 @@ datasets:
   linguist:
     version: 223c00bb80eff04788e29010f98c5778993d2b2a
   pygments:
-    version: 2.7.2
+    version: 2.7.3
   rosetta_code:
     version: aac6731f2c1e30321fcfc58ac95d8203c041ee04
 languages:
