@@ -40,7 +40,7 @@ files:
   github.com/3dgen/cppwasm-book/f22f25b627a8eadfb62f9d80958b545415bc23c0/server.go:
     annotations:
       human-smola: Go
-      linguist: WebAssembly
+      linguist: Go
       linguist-extension: Go
       pygments-filename: Go
       vote: Go
@@ -402,7 +402,7 @@ files:
   github.com/ApexSQL/Article-scripts/26d563b22e8a44f575d39796fbd75abce135a19e/sql-server-auditing-how-to-be-alerted-about-important-auditing-events/configure_notification_script.sql:
     annotations:
       human-smola: TSQL
-      linguist: PL/SQL
+      linguist: TSQL
       linguist-heuristics: TSQL
       pygments-filename: SQL
       vote: TSQL
@@ -553,14 +553,14 @@ files:
   github.com/BSData/malifaux/e9d860dd6427a776b5f5fcd367d5d42c31f54083/Malifaux.gst:
     annotations:
       human-smola: XML
-      linguist: Gosu
+      linguist: XML
       linguist-xml: XML
       pygments-filename: Gosu Template
       vote: XML
   github.com/BSData/wh40k-heralds-of-ruin/adc97aabbfc3201a851635b3c1c08c8c2977289f/Warhammer 40,000 Heralds of Ruin 8th Edition.gst:
     annotations:
       human-smola: XML
-      linguist: Gosu
+      linguist: XML
       linguist-xml: XML
       pygments-filename: Gosu Template
       vote: XML
@@ -619,7 +619,7 @@ files:
   github.com/BedquiltDB/bedquilt-core/beaee513a015ed0dd633b738517b33eb7c4c42a3/test/test_find_documents.py:
     annotations:
       human-smola: Python
-      linguist: PL/pgSQL
+      linguist: Python
       linguist-extension: Python
       pygments-filename: Python
       vote: Python
@@ -664,7 +664,7 @@ files:
   github.com/BirgittaHauser/Write-to-IFS-with-SQL/c5b235f1e521ee33198e90e5e2f87d4865a31169/QSQLSRC/WRT2IFS.sql:
     annotations:
       human-smola: SQLPL
-      linguist: SQLPL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: SQLPL
@@ -682,9 +682,9 @@ files:
       vote: SAS
   github.com/BonsaiDen/Tuff.gb/b76f6574ed9f29e8f6d390c8cda05be4907ed5b8/src/game/ram/effect.gb.s:
     annotations:
-      linguist: Assembly
+      linguist: Motorola 68K Assembly
       pygments-filename: Unix Assembly
-      vote: Assembly
+      vote: Motorola 68K Assembly
   github.com/BradLarson/GPUImage/167b0389bc6e9dc4bb0121550f91d8d5d6412c53/framework/Source/GPUImageRGBFilter.m:
     annotations:
       human-smola: Objective-C
@@ -764,7 +764,7 @@ files:
   github.com/CFCommunity/CFScript-Community-Components/7141081569f266b4e79062f879d49f1e26e1d8f8/search.cfc:
     annotations:
       human-smola: ColdFusion CFC
-      linguist: ColdFusion
+      linguist: ColdFusion CFC
       linguist-extension: ColdFusion CFC
       pygments-filename: ColdFusion CFC
       vote: ColdFusion CFC
@@ -992,7 +992,7 @@ files:
   github.com/ColdBox/coldbox-platform/219f7d32d42d4e4d3b83db62eb83756577f0d9de/system/ioc/config/LogBox.cfc:
     annotations:
       human-smola: ColdFusion CFC
-      linguist: ColdFusion
+      linguist: ColdFusion CFC
       linguist-extension: ColdFusion CFC
       pygments-filename: ColdFusion CFC
       vote: ColdFusion CFC
@@ -1043,7 +1043,7 @@ files:
   github.com/CruiserX/sha256_plsql/2b363faf45bd50372d716cec0d7f8738ab132f59/sha256_pkgbody.sql:
     annotations:
       human-smola: PL/SQL
-      linguist: PL/SQL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: PL/SQL
@@ -1132,7 +1132,7 @@ files:
   github.com/DefinitelyTyped/DefinitelyTyped/bdb0d39904820c5f4729d12cb5f5223139231c2f/types/hig__button/hig__button-tests.tsx:
     annotations:
       human-smola: TSX
-      linguist: TypeScript
+      linguist: TSX
       linguist-heuristics: TSX
       pygments-filename: TypeScript
       vote: TSX
@@ -1150,7 +1150,7 @@ files:
   github.com/DennisYurichev/challenges.re/a9ba2b6db442d408bb00266abef3431e3d403a2a/9/index.m4:
     annotations:
       human-smola: M4
-      linguist: M4
+      linguist: M4Sugar
       vote: M4
   github.com/DestructHub/computer-programs-paradigms/b2f4dd285cf61d351b8ee0fc151b627f7edba2f7/05_tree_and_computational_complexity/01_trees/02_sort_with_tree.oz:
     annotations:
@@ -1172,7 +1172,6 @@ files:
   github.com/Devuna/Devuna-IQXML/cc600e313c2c192e146adfed314daaa7054dd0c9/template/win/iQXmlPar.tpw:
     annotations:
       human-smola: Clarion
-      linguist: Clarion
       vote: Clarion
   github.com/DiegoCoronel/ceylon-jboss-swarm/419b3181d7a5fb1e43a3e39f8246c63bbdeb9564/ceylon-wildfly-swarm-jaxrs/source/jaxrs/example/resource/EmployeeResource.ceylon:
     annotations:
@@ -1226,7 +1225,7 @@ files:
   github.com/Dridi/libvmod-querystring/f4497725b8952c2b32b2cd9dd4e85b2f3030ab04/configure.ac:
     annotations:
       human-smola: M4Sugar
-      linguist: M4
+      linguist: M4Sugar
       linguist-filename: M4Sugar
       vote: M4Sugar
   github.com/Dryopes/Advanced-Programming/2c4626fe4cde0cc3cfbfbba5a347df57b33c7024/assigment2/serialize2start.icl:
@@ -1547,7 +1546,7 @@ files:
   github.com/Fr0sT-Brutal/awesome-pascal/9e951e2d84c748b2fc52398dadb5c8f66bf028bf/contributing.md:
     annotations:
       human-smola: Markdown
-      linguist: Pascal
+      linguist: Markdown
       linguist-heuristics: Markdown
       pygments-filename: Markdown
       vote: Markdown
@@ -1967,8 +1966,8 @@ files:
   github.com/InQuest/malware-samples/fcb42e2881c9004d5f6c2286fd91457eab374a17/CVE-2018-4878-Adobe-Flash-DRM-UAF-0day/swf-1a3269253784f76e3480e4b3de312dfee878f99045ccfd2231acb5ba57d8ed0d-dfi/5Cx1e5Cx19.as:
     annotations:
       human-smola: ActionScript
-      linguist: AngelScript
-      linguist-heuristics: AngelScript
+      linguist: ActionScript
+      linguist-heuristics: ActionScript
       pygments-filename: ActionScript
       vote: ActionScript
   github.com/IngenieriaWebUCA/iw2016-tempojobs/3b493c0f403dd1c3f4b13b18e9ffe1beef6e3bfa/src/main/java/es/uca/iw/tempojobs/web/DemandanteController_Roo_GvNIXDatatables.aj:
@@ -2084,7 +2083,7 @@ files:
   github.com/JacquesCarette/TheoriesAndDataStructures/4fb450b1e4ce5169af7843c92d0bb1dda5fdc44c/Helpers/Hardy.lagda:
     annotations:
       human-smola: Literate Agda
-      linguist: Agda
+      linguist: Literate Agda
       linguist-extension: Literate Agda
       pygments-filename: Literate Agda
       vote: Literate Agda
@@ -2496,9 +2495,9 @@ files:
       vote: TXL
   github.com/Kylebrown9/BabyShark/365223466ad173cd7a68f26c419e43013e5a73b4/baby_shark.bf:
     annotations:
-      linguist: Befunge
+      linguist: HyPhy
       pygments-filename: Brainfuck
-      vote: Befunge
+      vote: HyPhy
   github.com/LEXBLAS/jsonapi/47c21a87939a74561fd2161fa8dc741fef6ebb84/tar115.sra:
     annotations:
       linguist: PowerBuilder
@@ -2550,7 +2549,7 @@ files:
   github.com/Lehs/BIG-INTEGER-ANS-FORTH/4d072e39cf7951362af79de1005cce65cf3e966e/BigIntANSForth.txt:
     annotations:
       human-smola: Forth
-      linguist: Forth
+      linguist: Text
       linguist-heuristics: Text
       pygments-filename: Text only
       vote: Forth
@@ -2905,7 +2904,7 @@ files:
   github.com/MicrosoftLearning/edX_DAT215x_Microsoft_SQL_Database_Development/5c8a3a9a84a55d3e5be82e889085fda9babe1387/Labs/DAT215_2/Lab_Solution/Lab3.sql:
     annotations:
       human-smola: TSQL
-      linguist: SQLPL
+      linguist: TSQL
       linguist-heuristics: TSQL
       pygments-filename: SQL
       vote: TSQL
@@ -2941,7 +2940,7 @@ files:
   "github.com/MisterBooo/LeetCodeAnimation/a0346c24c8d98aa58fabafd4d84b950edcc12ee1/notes/LeetCode\u7B2C24\u53F7\u95EE\u9898\uFF1A\u4E24\u4E24\u4EA4\u6362\u94FE\u8868\u4E2D\u7684\u8282\u70B9.md":
     annotations:
       human-smola: Markdown
-      linguist: Java
+      linguist: Markdown
       linguist-heuristics: Markdown
       pygments-filename: Markdown
       vote: Markdown
@@ -3208,7 +3207,7 @@ files:
       vote: Nix
   github.com/Nobiles2/MySQLToolBox/a932a6c0f0885472f3dc2944406477512165ff7c/getPhpSerializedArrayValueByKey.sql:
     annotations:
-      linguist: SQLPL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: SQL
@@ -3220,8 +3219,8 @@ files:
       vote: NSIS
   github.com/OCamlPro/ocp-typechecker/cd37d443d627ceb22289685995a0356da96f7fe8/autoconf/m4/ax_compare_version.m4:
     annotations:
-      linguist: M4
-      vote: M4
+      linguist: M4Sugar
+      vote: M4Sugar
   github.com/OSEHRA-Sandbox/VistA/886b9c4c5043ad75173d3667287efe8b7706ec05/Packages/Integrated Billing/Patches/IB_2.0_501/IB-2_SEQ-453_PAT-501.KID:
     annotations:
       linguist: Genshi
@@ -3364,7 +3363,7 @@ files:
   github.com/OraOpenSource/language-oracle/f3fd20a22b5752e8c4fd17b75f089cdaa2aee2d5/utility/longfunctionlist.sql:
     annotations:
       human-smola: PL/SQL
-      linguist: PL/SQL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: PL/SQL
@@ -3442,13 +3441,13 @@ files:
   github.com/Panaedra/panaedra_oe_demo_lowdep/8d97817dfe43e427d29ca50821b5d3b24066f99f/src/panaedra/msroot/mspy/logic/sc_mspython_externals_lowdep_def.i:
     annotations:
       human-smola: OpenEdge ABL
-      linguist: OpenEdge ABL
+      linguist: Assembly
       pygments-filename: SWIG
       vote: OpenEdge ABL
   github.com/Panaedra/panaedra_oe_platform_base/e66ac57d037087c14fe059db1110bbb81d63be49/src/paninui/mdiwindow/sc_mdiwindow.cls:
     annotations:
       human-smola: OpenEdge ABL
-      linguist: OpenEdge ABL
+      linguist: Apex
       pygments-filename: OpenEdge ABL
       vote: OpenEdge ABL
   github.com/PapirusDevelopmentTeam/arc-kde/04873ca3f4b46fda46c39dc4778af0762be947e6/plasma/look-and-feel/com.github.varlesh.arc-dark/contents/splash/Splash.qml:
@@ -3534,7 +3533,7 @@ files:
   github.com/PavelPawlowski/SQL-Scripts/6a8df239f22a581a00ab3254406c03f0d4ace6fe/SSISDB/sp_SSISExportProject.sql:
     annotations:
       human-smola: TSQL
-      linguist: PL/SQL
+      linguist: TSQL
       linguist-heuristics: TSQL
       pygments-filename: SQL
       vote: TSQL
@@ -4172,7 +4171,7 @@ files:
   github.com/Snailclimb/JavaGuide/5345b5d608ad1f784ffcd40a88fe17117a46e8a7/index.html:
     annotations:
       human-smola: HTML
-      linguist: Java
+      linguist: HTML
       linguist-extension: HTML
       pygments-filename: HTML
       vote: HTML
@@ -4198,7 +4197,7 @@ files:
   github.com/Solido/awesome-flutter/2c9fa49cee71a4455412f66534a61e7abcad7362/contributing.md:
     annotations:
       human-smola: Markdown
-      linguist: Dart
+      linguist: Markdown
       linguist-heuristics: Markdown
       pygments-filename: Markdown
       vote: Markdown
@@ -4242,7 +4241,7 @@ files:
   github.com/SparkhoundSQL/sql-server-toolbox/b2611217a12002ba20335319f16f2e0bc1b1b6eb/lab - dynamic data masking.sql:
     annotations:
       human-smola: TSQL
-      linguist: SQL
+      linguist: TSQL
       linguist-heuristics: TSQL
       pygments-filename: SQL
       vote: TSQL
@@ -4385,8 +4384,8 @@ files:
   github.com/SymbiFlow/prjxray/4cec0817abeb5b702c19a509dda2a1e891c1ce3b/minitests/timing/picosoc_noflash.v:
     annotations:
       human-smola: Verilog
-      linguist: Coq
-      linguist-heuristics: Coq
+      linguist: Verilog
+      linguist-heuristics: Verilog
       pygments-filename: Verilog
       vote: Verilog
   github.com/SynEdit/SynEdit/0b43ec1a701ddafd85eff858ee63b4a3083ce602/Source/SynEditDocumentManager.pas:
@@ -4476,10 +4475,10 @@ files:
       vote: DM
   "github.com/Tavalik/SQL_TScripts/cff0afb916f4746ca6d8e76de70c9b8ac1b4fc76/\u041F\u0440\u043E\u0441\u0442\u0430\u044F_\u043C\u043E\u0434\u0435\u043B\u044C_\u0438_\u0441\u0436\u0430\u0442\u0438\u0435_\u043B\u043E\u0433\u0430_\u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u0438\u0445_\u0411\u0414.sql":
     annotations:
-      linguist: SQLPL
+      linguist: TSQL
       linguist-heuristics: TSQL
       pygments-filename: SQL
-      vote: Unknown
+      vote: TSQL
   github.com/TeamTilapia/vscode-tilapia/e237d0d770951c280b4755918fb2d88c0fd49131/example-tla/ModelingDeployments.tla:
     annotations:
       linguist: TLA
@@ -4494,7 +4493,7 @@ files:
   github.com/TexanInParis/Effective-SQL/8047973838c2780da1795742793016faff36315c/Oracle/Chapter 09/Listing 9.015.sql:
     annotations:
       human-smola: PL/SQL
-      linguist: PL/SQL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: PL/SQL
@@ -4654,7 +4653,7 @@ files:
   github.com/TunSafe/TunSafe/85a871c1d226956df7c1308a1e5527556fe35fe1/crypto/poly1305/poly1305-x64-linux.s:
     annotations:
       human-smola: Unix Assembly
-      linguist: Assembly
+      linguist: Unix Assembly
       pygments-filename: Unix Assembly
       vote: Unix Assembly
   github.com/Turbozeven/Autocomplete/c94b02314a0f35ddd34e8ce81d09b5612a0a8067/Autocomplete.ig:
@@ -4998,15 +4997,15 @@ files:
   github.com/XD-DENG/SQL-exercise/e05d781341c3791951ddf54c94ee32ca11cf5896/SQL_exercise_07/7_questions_and_solutions.sql:
     annotations:
       human-smola: SQL
-      linguist: PL/pgSQL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: SQL
   github.com/XKCP/XKCP/e8e6b1d45861ea6fc0957ab27a401f42aef0d033/lib/low/KeccakP-800/OptimizedAsmARM/KeccakP-800-u2-armv6m-le-armcc.s:
     annotations:
-      linguist: Assembly
+      linguist: Unix Assembly
       pygments-filename: Unix Assembly
-      vote: Assembly
+      vote: Unix Assembly
   github.com/XVimProject/XVim/53c652421ca8ad63a2380a5cad316b1997999b8a/XVim/XVimEval.m:
     annotations:
       human-smola: Objective-C
@@ -5219,7 +5218,7 @@ files:
   github.com/acani/Chats/dcf91487d0ac360d3e556b550cb818cb7883372a/Servers/Database/functions/login.sql:
     annotations:
       human-smola: PL/pgSQL
-      linguist: SQLPL
+      linguist: PL/pgSQL
       linguist-heuristics: PL/pgSQL
       pygments-filename: SQL
       vote: PL/pgSQL
@@ -5830,18 +5829,17 @@ files:
   github.com/ant-design/ant-design-mobile/e0e94a1bcd274384846f1d57f7906c30ec0d79a5/components/locale-provider/en_US.tsx:
     annotations:
       human-smola: TypeScript
-      linguist: TypeScript
+      linguist: TSX
       pygments-filename: TypeScript
       vote: TypeScript
   github.com/ant-design/ant-design/4ded5e67778065b0b4b32dee3941d1515d4821c4/components/date-picker/locale/zh_CN.tsx:
     annotations:
-      linguist: TypeScript
+      linguist: TSX
       pygments-filename: TypeScript
-      vote: TypeScript
+      vote: TSX
   github.com/antalsz/hs-to-coq/6d75eecc36ad918989f69e2471ffc1e88a76f409/base/Data/Either.v:
     annotations:
       linguist: Coq
-      linguist-heuristics: Coq
       pygments-filename: Verilog
       vote: Coq
   github.com/anthem/muun/54599ed16e92a9e34dfba0cdbbbddfdda3436760/Observable.io:
@@ -5887,7 +5885,7 @@ files:
   github.com/anychart-integrations/python-flask-mysql-template/7a9d3aeeaea557eca56abaee08f84dfc7056bb8d/database_backup.sql:
     annotations:
       human-smola: SQL
-      linguist: SQLPL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: SQL
@@ -5942,12 +5940,10 @@ files:
       vote: API Blueprint
   github.com/aplteam/APLTreeUtils/3bca98c1b4bc82742ffd0e4d2c7a3aa7382b7076/APLSource/TestCases-11/FindSpecialString-811.aplf:
     annotations:
-      linguist: APL
-      vote: APL
+      vote: Unknown
   "github.com/aplteam/RegExHelp/53bf8906ca7d62ab5e0ec3247812698ce5299d65/APLSource/RegExHelp/Help/PCRE_Syntax_Summary/\u2206TopicProperties.aplf":
     annotations:
-      linguist: APL
-      vote: APL
+      vote: Unknown
   github.com/appeonguojun/test0619/5517acf6833a14a622817ace324fd635e6cd8bf6/ws_objects/genapp.pbl.src/genapp.sra:
     annotations:
       linguist: PowerBuilder
@@ -6250,7 +6246,7 @@ files:
   github.com/atlarge-research/opendc/7d9ab456a54674112760af1b0cbc6a1b2e587ba1/database/schema.sql:
     annotations:
       human-smola: SQL
-      linguist: SQLPL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: SQL
@@ -6707,7 +6703,6 @@ files:
   github.com/bbvbb/ChineseFan/d79f1a7e2ea3565d918cab12752a01e81d67423e/ChineseFan-0.0.1-zh_CN.mse:
     annotations:
       human-smola: Unknown
-      linguist: MAXScript
       vote: Unknown
   github.com/bcbio/bcbio_validation_workflows/a297e87e014de998b8df9c90700c29173ec09932/wes-agha-test/wes_chr21_test-workflow-arvados/wf-alignment.cwl:
     annotations:
@@ -7148,7 +7143,7 @@ files:
   github.com/boughtonp/qpscanner/42b7b883bd39ca90d3f8d1f950834fb65251cacd/Application.cfc:
     annotations:
       human-smola: ColdFusion CFC
-      linguist: ColdFusion
+      linguist: ColdFusion CFC
       linguist-extension: ColdFusion CFC
       pygments-filename: ColdFusion CFC
       vote: ColdFusion CFC
@@ -7444,7 +7439,7 @@ files:
       vote: Awk
   github.com/ccondrup/mage-reset/1f0894be655a45e0fbcb85f539a89d3f1f3af245/reset_increment_ids.sql:
     annotations:
-      linguist: SQLPL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: SQL
@@ -7706,7 +7701,7 @@ files:
   github.com/chrislgarry/Apollo-11/e7bf183694150b77d30bdb9a8ca16a49b205993f/Luminary099/DAPIDLER_PROGRAM.agc:
     annotations:
       human-smola: Assembly
-      linguist: Assembly
+      linguist: Apollo Guidance Computer
       linguist-extension: Apollo Guidance Computer
       vote: Assembly
   github.com/christianguenter2/sitFRA_2016/b6fadfbda61033d70b6b3d19ca10c15cf1bec4fa/z_sitfra_2016_.prog.abap:
@@ -7769,7 +7764,7 @@ files:
   github.com/cirosantilli/x86-bare-metal-examples/62ed931615ca33002431726d4b1e59f4aba21dd6/segmentation.S:
     annotations:
       human-smola: Unix Assembly
-      linguist: Assembly
+      linguist: Unix Assembly
       pygments-filename: S
       vote: Unix Assembly
   github.com/cisco/ChezScheme/a3ea77d5a81acbef7542942d3e2e261f02b58bcd/s/np-languages.ss:
@@ -7782,7 +7777,7 @@ files:
   github.com/cjdelisle/cjdns/45cdd8b3eebb18b6239feeef3b787e40d773edfb/node_build/dependencies/cnacl/crypto_stream/salsa20/e/sparc/salsa20.s:
     annotations:
       human-smola: Unix Assembly
-      linguist: Assembly
+      linguist: Unix Assembly
       pygments-filename: Unix Assembly
       vote: Unix Assembly
   github.com/cjharris02892/dwGUI/323958d5563002f44d44b4a52de80498e467a8d2/w_dwgui_response.srw:
@@ -8378,7 +8373,7 @@ files:
   github.com/damonmiller/esapi4cf/8674e6bd4dfa9dc425bad902c5e47bb349f7f71d/org/owasp/esapi/crypto/KeyDerivationFunction.cfc:
     annotations:
       human-smola: ColdFusion CFC
-      linguist: ColdFusion
+      linguist: ColdFusion CFC
       linguist-extension: ColdFusion CFC
       pygments-filename: ColdFusion CFC
       vote: ColdFusion CFC
@@ -8473,7 +8468,7 @@ files:
   github.com/datacharmer/test_db/0b66c2338736779e3b150c7d125b1012d95a961f/sakila/sakila-mv-schema.sql:
     annotations:
       human-smola: SQL
-      linguist: PL/pgSQL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: SQL
@@ -9081,9 +9076,9 @@ files:
       vote: Shell
   github.com/dolphinsmalltalk/Dolphin/1444c854e9fa57527ec69c27b8b7a49f17d36749/Core/Object Arts/Dolphin/MVP/Presenters/Collection/SequenceableCollectionPresenter.cls:
     annotations:
-      linguist: Smalltalk
+      linguist: ObjectScript
       pygments-filename: OpenEdge ABL
-      vote: Smalltalk
+      vote: ObjectScript
   github.com/dom96/jester/90add2db1f18f193b0ec3514da3df5f1c6e4db4f/jester/private/utils.nim:
     annotations:
       linguist: Nim
@@ -9138,7 +9133,7 @@ files:
   github.com/donnemartin/system-design-primer/fdba2a2586a30b78249e5daba8a807ee532b0af9/solutions/object_oriented_design/deck_of_cards/deck_of_cards.ipynb:
     annotations:
       human-smola: Jupyter Notebook
-      linguist: Python
+      linguist: Jupyter Notebook
       linguist-extension: Jupyter Notebook
       vote: Jupyter Notebook
   github.com/dopefishh/cleanpeg/5d548d628cace01760cbd6ca2aacb1f6d65afdde/peg.icl:
@@ -9308,9 +9303,9 @@ files:
       vote: C
   github.com/dspinellis/unix-history-repo/69f28986ad97c1e3d55279d696d1884c963f530e/adm.s:
     annotations:
-      linguist: Assembly
+      linguist: Motorola 68K Assembly
       pygments-filename: Unix Assembly
-      vote: Assembly
+      vote: Motorola 68K Assembly
   github.com/dsully/perl-crypt-openssl-pkcs12/7eed293cced197e7b1397a91f457e608999d902c/PKCS12.xs:
     annotations:
       linguist: XS
@@ -9340,10 +9335,10 @@ files:
       vote: Batchfile
   "github.com/dunitian/LoTDotNet/ef2164ab4f5dfbc83c20560b5af9c120edb43a0c/\u9006\u5929\u7ECF\u9A8C\u88E4\u5B50/05.\u6570\u636E\u5E93\u7B49/SQLServer/\u57FA\u7840/1.\u9006\u5929\u5E38\u7528SQL/08.\u5B58\u50A8\u8FC7\u7A0B\u7684\u7EFC\u5408-\u5E94\u7528.sql":
     annotations:
-      linguist: SQLPL
+      linguist: TSQL
       linguist-heuristics: TSQL
       pygments-filename: SQL
-      vote: Unknown
+      vote: TSQL
   github.com/dutc/code-or-die/446559bf598fbc1e5a9392987d2325498115863c/dummy.sql:
     annotations:
       human-smola: PL/pgSQL
@@ -9765,8 +9760,8 @@ files:
       vote: Alloy
   github.com/emcrisostomo/semver-utils/4f635f950ea2f6926f9640a91829a757bf36804c/m4/ax_cxx_have_thread_local.m4:
     annotations:
-      linguist: M4
-      vote: M4
+      linguist: M4Sugar
+      vote: M4Sugar
   github.com/eme64/Hobby-Projects-Archive/91b6ca78a6e710955c6266fba16d79cedf01e22b/BlitzMax Projects/Simulations/cellular automaton - water and life/simulation/water_1.bmx:
     annotations:
       linguist: BlitzMax
@@ -10221,7 +10216,7 @@ files:
   github.com/facebookexperimental/reason-native/60fcd8b9134ba02f1d3215ab880a8c2b8f81958b/src/refmterr/lib/parseWarning.re:
     annotations:
       human-smola: Reason
-      linguist: OCaml
+      linguist: Reason
       linguist-heuristics: Reason
       pygments-filename: Reason
       vote: Reason
@@ -10459,7 +10454,6 @@ files:
   github.com/fjqingyou/PotPlayer_Subtitle_Translate_Baidu/bc51d64d18bf21c0399150e8843253b7a5c585ee/SubtitleTranslate - baidu.as:
     annotations:
       linguist: AngelScript
-      linguist-heuristics: AngelScript
       pygments-filename: ActionScript
       vote: AngelScript
   github.com/flaiker/abap-log/5e35a5d8b31f6261765c377b0901d17fb37182f4/src/example/zalog_example_file_logger.prog.abap:
@@ -10666,14 +10660,14 @@ files:
   github.com/framework-one/di1/f57ba069a8298d96108e1a124b86c4a1d02a2752/ioc.cfc:
     annotations:
       human-smola: ColdFusion CFC
-      linguist: ColdFusion
+      linguist: ColdFusion CFC
       linguist-extension: ColdFusion CFC
       pygments-filename: ColdFusion CFC
       vote: ColdFusion CFC
   github.com/framework-one/fw1/1c946217c1aae1a58e8569b366905f8b08d68c46/tests/stubs/UserOneLevel.cfc:
     annotations:
       human-smola: ColdFusion CFC
-      linguist: ColdFusion
+      linguist: ColdFusion CFC
       linguist-extension: ColdFusion CFC
       pygments-filename: ColdFusion CFC
       vote: ColdFusion CFC
@@ -10900,9 +10894,9 @@ files:
       vote: Clarion
   github.com/fushnisoft/ClarionMetroWizard/7366679ff21eae712692d1ee5c93bc2ec323c13e/_classes/ce_TabList.inc:
     annotations:
-      linguist: Clarion
+      linguist: PHP
       pygments-filename: POV-Ray SDL
-      vote: Clarion
+      vote: PHP
   github.com/fylz1125/ShaderDemos/f91bd2fd2df7fdf7e192880b4b0fdb2235d87222/assets/resources/shaders/CircularEffect.glsl:
     annotations:
       linguist: GLSL
@@ -11173,7 +11167,6 @@ files:
   github.com/gitGNU/gnu_gm2/e743eb0703328c4f0a1500a9898d7e30deda8147/gcc-versionno/gcc/gm2/gm2-compiler/P1SymBuild.def:
     annotations:
       human-smola: Modula-2
-      linguist: Text
       pygments-filename: Singularity
       vote: Modula-2
   github.com/gitbucket/gitbucket/f35ecce3c7b08e9579408252f80674b5b4ae7c43/src/main/scala/gitbucket/core/controller/api/ApiGitReferenceControllerBase.scala:
@@ -11263,7 +11256,7 @@ files:
       vote: GLSL
   github.com/glebovpavel/IR_to_MSExcel/f9ad09dc1bfc98db4c02515412bf1c56462d3338/AS_ZIP.sql:
     annotations:
-      linguist: PL/SQL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: SQL
@@ -11800,6 +11793,7 @@ files:
   github.com/harikanangi/custom-gosu/baec3fa4e6cf43e2147f6dc5a74fb44f1215ddd1/atsynthesize/suite/integration/service/example/gxmodel/GXModelExampleAPI.gs:
     annotations:
       linguist: Gosu
+      linguist-heuristics: Gosu
       pygments-filename: Gosu
       vote: Gosu
   github.com/haruyama/CTMCP/d826745f84b8e20b22fc2eb53ea70995030a11db/chap08ex.oz:
@@ -11849,8 +11843,8 @@ files:
       vote: Elm
   github.com/hectorm/hblock-resolver/97570e4f0ede431027758d1d87918c13bb3c6fe4/Dockerfile.m4:
     annotations:
-      linguist: M4
-      vote: M4
+      linguist: M4Sugar
+      vote: M4Sugar
   github.com/heddwch/WOPO/22de00773352049da589fcb6cd0e4c5607728443/IRC-MSG.COB:
     annotations:
       linguist: COBOL
@@ -12361,7 +12355,7 @@ files:
   github.com/hzlmn/haskell-must-watch/37fd6cde1a5a642eff618f56897006149fd5f08f/README.md:
     annotations:
       human-smola: Markdown
-      linguist: Haskell
+      linguist: Markdown
       linguist-heuristics: Markdown
       pygments-filename: Markdown
       vote: Markdown
@@ -12435,9 +12429,9 @@ files:
       vote: IDL
   github.com/idl-coyote/coyote/ff720efbfa9a5070c0e9b772d1bcedbe718791dc/cgsetcolorstate.pro:
     annotations:
-      linguist: IDL
+      linguist: Prolog
       pygments-filename: Prolog
-      vote: IDL
+      vote: Prolog
   github.com/idris-hackers/idris-demos/356a5aa1dbd43f869b0eebd8b8fec15f790cc0dc/Invaders/Starfield.idr:
     annotations:
       linguist: Idris
@@ -12641,9 +12635,9 @@ files:
       vote: Brainfuck
   github.com/ionic-team/ionic/ab9d3b269663987c62fe9189ea515e51443b2f77/core/src/components/refresher-content/refresher-content.tsx:
     annotations:
-      linguist: TypeScript
+      linguist: TSX
       pygments-filename: TypeScript
-      vote: TypeScript
+      vote: TSX
   github.com/iotauth/security_analysis/bb402ea8210a21935246593d704f485f69aab95a/model/Analysis.als:
     annotations:
       linguist: Alloy
@@ -12852,7 +12846,7 @@ files:
   github.com/jaredpalmer/formik/5553720b5d6c9729cb3b12fd7948f28ad3be9adc/test/Field.test.tsx:
     annotations:
       human-smola: TSX
-      linguist: TypeScript
+      linguist: TSX
       linguist-heuristics: TSX
       pygments-filename: TypeScript
       vote: TSX
@@ -12882,7 +12876,7 @@ files:
   github.com/jashkenas/coffeescript/ddb5dac49de60485b0e5def28ecd75e8a2e61e76/test/literate.litcoffee:
     annotations:
       human-smola: Literate CoffeeScript
-      linguist: CoffeeScript
+      linguist: Literate CoffeeScript
       linguist-extension: Literate CoffeeScript
       vote: Literate CoffeeScript
   github.com/jasmin-lang/jasmin/0b895ab8975da6d6257c9c092a02b286fdcbc5fe/proofs/lang/low_memory.v:
@@ -13164,7 +13158,7 @@ files:
   github.com/jgstew/bigfix-content/bc047a90d0d836507f2e000c19dc88eb0a226f95/dashboards/SessionRelevanceProperties.ojo:
     annotations:
       human-smola: XML
-      linguist: XProc
+      linguist: XML
       linguist-modeline: XML
       linguist-xml: XML
       vote: XML
@@ -13259,14 +13253,13 @@ files:
       vote: Zimpl
   github.com/jmechner/Prince-of-Persia-Apple-II/a9e276ce886f2200985e968b6cb5bda7edf5a2bb/04 Support/MakeDisk/S/RYELLOW1.S:
     annotations:
-      linguist: Assembly
+      linguist: Motorola 68K Assembly
       pygments-filename: S
-      vote: Assembly
+      vote: Motorola 68K Assembly
   github.com/jnthn/6model/b19eb80591367e1c3001ee303ac0cc1f9377d6c9/t/nqp/26-methodops.t:
     annotations:
       human-smola: Raku
       linguist: Raku
-      linguist-heuristics: Raku
       pygments-filename: TADS 3
       vote: Raku
   github.com/joaomilho/awesome-idris/6adf450ab1dbc1449b00d5dbb83ce72467460ab5/Nat.idr:
@@ -13326,7 +13319,7 @@ files:
       vote: Genshi
   github.com/joemontibello/iii-sql-queries/4cc9efaa9a0c9a1c946826afa38ca5e2d9d68e18/scratch.sql:
     annotations:
-      linguist: SQLPL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: SQL
@@ -13345,7 +13338,7 @@ files:
   github.com/johnno1962/SwiftTrace/5e96cbb6d94619653f522df0da756ea8891b4e31/SwiftTrace/xt_forwarding_trampoline_x64.s:
     annotations:
       human-smola: Unix Assembly
-      linguist: Assembly
+      linguist: Unix Assembly
       pygments-filename: Unix Assembly
       vote: Unix Assembly
   github.com/johnrengelman/shadow/d5c662a69cfb48144a4027c344ff254f12e1e78a/src/test/groovy/com/github/jengelman/gradle/plugins/shadow/transformers/ApacheNoticeResourceTransformerParameterTests.groovy:
@@ -13375,7 +13368,7 @@ files:
   github.com/jonlaing/rationale/06a48fd39b106319a4a4477e90777db51c915353/src/Lens.re:
     annotations:
       human-smola: Reason
-      linguist: OCaml
+      linguist: Reason
       pygments-filename: Reason
       vote: Reason
   github.com/joom/hezarfen/da80a475cf57dee5cd3c10452878d951f1fa490f/Hezarfen/Hint.idr:
@@ -13750,7 +13743,7 @@ files:
   github.com/kagof/BefungeRepo/d18f20c8a0fa864e8ba83fd0afa5416434079266/NumberGuesser.bf:
     annotations:
       human-smola: Befunge
-      linguist: Befunge
+      linguist: HyPhy
       pygments-filename: Brainfuck
       vote: Befunge
   github.com/kaina404/FlutterDouBan/2dfe56ba628bfb5c00f516647d5eaa64c3aecb89/lib/demo/slide_container.dart:
@@ -14102,7 +14095,7 @@ files:
   github.com/knxroot/bdcut-cl/d1a2dadeb14a56e8fe7b7bc19baf0927ab1012d4/BD/Oracle_utf8/BDCUT_CL__Oracle_utf8__generado.sql:
     annotations:
       human-smola: PL/SQL
-      linguist: PL/SQL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: PL/SQL
@@ -14180,8 +14173,7 @@ files:
       vote: Gosu Template
   github.com/kragen/stoneknifeforth/67ae4f422d4b5740cf335c0894e80a007744f0d2/onescreen.tbf1:
     annotations:
-      linguist: Forth
-      vote: Forth
+      vote: Unknown
   github.com/krimple/spring-roo-in-action-examples/1d4e83f4ad43916f246ab027621cc32b12019a34/chapter-10-email-jms/coursemanager-email-jms/src/main/java/org/rooinaction/coursemanager/web/CourseRegistrationController_Roo_Controller.aj:
     annotations:
       linguist: AspectJ
@@ -14207,7 +14199,7 @@ files:
   github.com/krschultz/android-proguard-snippets/c636c6c8448565e91e25a66f11fab3fca035c29c/libraries/proguard-facebook-fresco.pro:
     annotations:
       human-smola: Unknown
-      linguist: IDL
+      linguist: Proguard
       linguist-heuristics: Proguard
       pygments-filename: Prolog
       vote: Unknown
@@ -14230,8 +14222,8 @@ files:
       vote: Ragel
   github.com/kstrauser/pgdbf/4e847759b5eee96da9dc3d2604e0b555ddd57ccb/m4/lib-prefix.m4:
     annotations:
-      linguist: M4
-      vote: M4
+      linguist: M4Sugar
+      vote: M4Sugar
   github.com/ktekinay/Kaju/0f3b33fcb802bf6e1650f22b6ab005509b1e3976/Kaju Classes/Kaju/BinaryInformation.xojo_code:
     annotations:
       human-smola: Xojo
@@ -14329,7 +14321,7 @@ files:
   github.com/lacanoid/pgddl/ba91f0773804fab00ce40484308bd6ebc7e4f0f5/ddlx.sql:
     annotations:
       human-smola: PL/pgSQL
-      linguist: SQLPL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: PL/pgSQL
@@ -14552,7 +14544,6 @@ files:
   github.com/leoc/.emacs.d/5ee2d1a183e1bee5e706a7129ebb600cec6a7482/snippets/haml-mode/lorem.4:
     annotations:
       linguist: YASnippet
-      linguist-heuristics: Roff
       linguist-modeline: YASnippet
       pygments-filename: Groff
       vote: YASnippet
@@ -14915,7 +14906,7 @@ files:
   github.com/lueyoung/gmt-kafka/d3a978d960a86567e42380a3698dc92cd517240f/manifest/services.yaml.sed:
     annotations:
       human-smola: YAML
-      linguist: sed
+      linguist: YAML
       linguist-extension: YAML
       vote: YAML
   github.com/lukebussey/foundationify/4d4009dbd429cbf2c4d5f4f3d6b932f2e4739a55/templates/blog.liquid:
@@ -15328,8 +15319,8 @@ files:
     notes: NEURON MODL
   github.com/matejak/argbash/ab37e068a8a34e5e58c03d32a11d045a918ba165/src/output-manpage-defs.m4:
     annotations:
-      linguist: M4
-      vote: M4
+      linguist: M4Sugar
+      vote: M4Sugar
   github.com/matekstatek/ExpertSystem/2167eb54410677022f342f9f7a7fd843a2d5cd5b/ExpertSystem/db.lgt:
     annotations:
       human-smola: Logtalk
@@ -15677,14 +15668,14 @@ files:
   github.com/microsoft/php-sdk-binary-tools/050caa59e5f3ba952a8f3dc22b62f78a06352502/msys2/usr/share/bison/skeletons/lalr1.java:
     annotations:
       human-smola: M4
-      linguist: M4
+      linguist: M4Sugar
       linguist-extension: Java
       linguist-modeline: M4Sugar
       pygments-filename: Java
       vote: M4
   github.com/microsoft/sql-server-samples/535fa5ab277ef0d8426f38f5ec9f6e16566be8c3/media/demos/sql-sampledb/sampledb1/sampleDB1.sql:
     annotations:
-      linguist: SQLPL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: SQL
@@ -15697,7 +15688,7 @@ files:
   github.com/microsoft/tigertoolbox/b4a78b7b890e572a6657b13f529833ad70f7a141/Evaluate-Compression-Gains/view_CompressionGains.sql:
     annotations:
       human-smola: TSQL
-      linguist: PL/pgSQL
+      linguist: TSQL
       linguist-heuristics: TSQL
       pygments-filename: SQL
       vote: TSQL
@@ -15763,8 +15754,8 @@ files:
       vote: ASP.NET
   github.com/mingodad/ZeroBraneStudioLJS/db3e63bc53ffce8ebfa9c5b28c90dfccd1a6a0f4/lualibs/luadist.ljs:
     annotations:
-      linguist: Terra
-      vote: Terra
+      linguist: Lua
+      vote: Lua
   github.com/minimalcomps/minimalcomps/90477b4ac7f2e0d59cb94cb7f2badcadb1799f2d/src/com/bit101/components/HSlider.as:
     annotations:
       human-smola: ActionScript
@@ -16120,7 +16111,7 @@ files:
   github.com/moyuanhui/kubernetes-study/29bd8d14042fb3af4ad0eaae14de9bef608af62c/yaml/coredns/coredns.yaml.sed:
     annotations:
       human-smola: YAML
-      linguist: sed
+      linguist: YAML
       linguist-extension: YAML
       vote: YAML
   github.com/moz-code/prez/280c19321ee037739c108dd6cdeffde9cd81767c/src/commands.nit:
@@ -16214,7 +16205,7 @@ files:
   github.com/mrlesmithjr/ansible-rpi-k8s-cluster/cb06e785e8ab14df0b9089392d6539c1c19b0131/deployments/archive/coredns.yaml.sed:
     annotations:
       human-smola: YAML
-      linguist: sed
+      linguist: YAML
       linguist-extension: YAML
       vote: YAML
   github.com/msabbott/log4oe/21f19e3059744efeb611746834f3cb6cc651b4e4/log4oe/Tests/Stubs/StubLogger.cls:
@@ -16237,7 +16228,7 @@ files:
   github.com/msdx/android-proguard-cn/03c350d27bf84fa6aeafbd9968fef3fd51aa15ca/android.pro:
     annotations:
       human-smola: Unknown
-      linguist: IDL
+      linguist: Proguard
       linguist-heuristics: Proguard
       pygments-filename: Prolog
       vote: Unknown
@@ -16254,7 +16245,7 @@ files:
   github.com/mso-net/lucee-aws/fd9dc94dee95c1db55a77ab08c9fbe58e2d174fb/tests/Application.cfc:
     annotations:
       human-smola: ColdFusion CFC
-      linguist: ColdFusion
+      linguist: ColdFusion CFC
       linguist-extension: ColdFusion CFC
       pygments-filename: ColdFusion CFC
       vote: ColdFusion CFC
@@ -17081,7 +17072,7 @@ files:
       vote: TLA
   github.com/onivim/oni2/89675e266c408952cd56e52e2bcb6e36634b1d76/src/Model/Indentation.re:
     annotations:
-      linguist: OCaml
+      linguist: Reason
       linguist-heuristics: Reason
       pygments-filename: Reason
       vote: Reason
@@ -17273,7 +17264,7 @@ files:
   github.com/oracle/xml-sample-demo/1f24722b306f8807bca73869f981c2a8afe37a7a/XFILES/src/sql/PUBLISH_XFILES_ICONS.sql:
     annotations:
       human-smola: PL/SQL
-      linguist: SQLPL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: PL/SQL
@@ -17333,7 +17324,7 @@ files:
   github.com/osalvador/tePLSQL/081b3bfeb14b61c3a671188fa72ecb8e07b243bb/TE_TEMPLATES.sql:
     annotations:
       human-smola: PL/SQL
-      linguist: PL/SQL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: PL/SQL
@@ -17932,7 +17923,7 @@ files:
       vote: Scala
   github.com/pljson/pljson/bd4184c0ab6f3bf9e5d25380705189c0158b5981/testsuite/pljson_ext.test.sql:
     annotations:
-      linguist: PL/SQL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: SQL
@@ -18288,7 +18279,7 @@ files:
   github.com/prooph/docker-files/b43f2aefeb064cf48be3f1bd450c94a591bcc986/php/inc/php-ext.m4:
     annotations:
       human-smola: M4
-      linguist: M4
+      linguist: M4Sugar
       vote: M4
   github.com/protocolbuffers/protobuf/0150f7f5325a83d4804fcd89f29c72f574da8043/src/google/protobuf/arenastring.h:
     annotations:
@@ -18305,7 +18296,7 @@ files:
   github.com/prs-de/ffidl/07b30ffeaab09083c2b4a6d682ecadfb6518f48d/tclconfig/pkg.m4:
     annotations:
       human-smola: M4Sugar
-      linguist: M4
+      linguist: M4Sugar
       linguist-modeline: M4Sugar
       vote: M4Sugar
   github.com/prusa3d/Original-Prusa-i3/b5e22772bbc42ec3159206ebde95317c29ff4765/Printed-Parts/scad/x-end.scad:
@@ -18584,7 +18575,7 @@ files:
   github.com/rafael-trevisan/apex-plugin-ig_simple_checkbox/050e4bb73c06d37fb03fd11fe75d15313746454e/ig_simple_checkbox.sql:
     annotations:
       human-smola: PL/SQL
-      linguist: SQLPL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: PL/SQL
@@ -18645,7 +18636,7 @@ files:
   github.com/randolfgeist/oracle_scripts/bfd37b1b880093fb90aa0f279291dbf0c1265d34/io_benchmark/max_write_throughput_benchmark_harness.sql:
     annotations:
       human-smola: PL/SQL
-      linguist: SQLPL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: PL/SQL
@@ -18790,7 +18781,7 @@ files:
   github.com/realm/realm-cocoa/6da0d3baebbed932c103d2465c62e72016e6b307/Realm/Tests/MigrationTests.mm:
     annotations:
       human-smola: Objective-C++
-      linguist: Objective-C
+      linguist: Objective-C++
       pygments-filename: Objective-C++
       vote: Objective-C++
   github.com/realpython/python-guide/5b959c94153e3bd680181d150a81ad3c33a6cd36/make.bat:
@@ -18801,14 +18792,14 @@ files:
       vote: Batchfile
   github.com/reasonml-community/reason-react-hacker-news/8ba4b7855e7c40cd5f2d575beb9a381c8f8ff7e5/src/StoryListItem.re:
     annotations:
-      linguist: OCaml
+      linguist: Reason
       linguist-heuristics: Reason
       pygments-filename: Reason
       vote: Reason
   github.com/reasonml/reason-react/8017a5f556176744c245350cbeb5c600abebb8f8/src/ReasonReactRouter.re:
     annotations:
       human-smola: Reason
-      linguist: OCaml
+      linguist: Reason
       pygments-filename: Reason
       vote: Reason
   github.com/rebolek/gitara/fbec2c695a6f9e5ab2e6e2d8a98a44cec51f779f/json.red:
@@ -19010,7 +19001,7 @@ files:
   github.com/revery-ui/revery/4a37510cc8ca436e69fc8e77e9930126ca633b33/src/Draw/FontShader.re:
     annotations:
       human-smola: Reason
-      linguist: OCaml
+      linguist: Reason
       linguist-heuristics: Reason
       pygments-filename: Reason
       vote: Reason
@@ -19074,7 +19065,7 @@ files:
   github.com/richinfante/iphonebackuptools/b936e6417906582dea9e6493913bb05cb6dd11a7/schemas/photos/photos_11.2.sql:
     annotations:
       human-smola: SQL
-      linguist: PL/pgSQL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: SQL
@@ -19281,7 +19272,7 @@ files:
       vote: LOLCODE
   github.com/rodrigogribeiro/agda-software-foundations/db41971ac28d18ba304e202d9c92e77f34afac80/SfLib.lagda:
     annotations:
-      linguist: Agda
+      linguist: Literate Agda
       linguist-extension: Literate Agda
       pygments-filename: Literate Agda
       vote: Literate Agda
@@ -19320,7 +19311,7 @@ files:
   github.com/ronascentes/sqltoolbox/ae810d41c5c54277c5eaf03750e3a2450dd2853c/usp_index_defrag/usp_index_defrag.sql:
     annotations:
       human-smola: TSQL
-      linguist: SQLPL
+      linguist: TSQL
       linguist-heuristics: TSQL
       pygments-filename: SQL
       vote: TSQL
@@ -19331,7 +19322,7 @@ files:
       vote: Smalltalk
   github.com/rorydavidson/SNOMED-CT-Database/c2b75bbd8d56ff95d3d357b6cb58aaa59302deb4/PostgreSQL/load-postgresql.sql:
     annotations:
-      linguist: SQLPL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: SQL
@@ -19746,7 +19737,7 @@ files:
       vote: Harbour
   github.com/saphanaacademy/PAL/2e15de442f440a77624b8b1e176e4590d458159f/Code Snippets/PAL 91 Exception Handling.sql:
     annotations:
-      linguist: SQLPL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: SQL
@@ -20333,7 +20324,7 @@ files:
   github.com/snj33v/ofqmake/40c7591c831087cce523fe42f8c9210774d91227/openFrameworks.pro:
     annotations:
       human-smola: QMake
-      linguist: IDL
+      linguist: Proguard
       pygments-filename: Prolog
       vote: QMake
   github.com/snosov1/dot-emacs/1dcc17066d740bcfc5595a75187c6a0f957bf0fe/.yasnippets/c++-mode/eulerangles:
@@ -20604,7 +20595,7 @@ files:
   github.com/statickidz/TemarioDAW/8597a388be0cc661b97d06e9adf4226c96477369/BBDD/tareas/BD_Tarea6_Actividad 1.sql:
     annotations:
       human-smola: PL/SQL
-      linguist: PL/SQL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: PL/SQL
@@ -20665,6 +20656,7 @@ files:
   github.com/steveicarus/ivtest/7923eb3d764d25ebc4f694247c3e5549369e8f15/ivltests/pr2937417c.v:
     annotations:
       linguist: Verilog
+      linguist-heuristics: Verilog
       pygments-filename: Verilog
       vote: Verilog
   github.com/stevenharradine/winipcfg/106b1fdaef4ab24e1672a3c7d44c3f759c9420d4/winipcfg.t:
@@ -20681,8 +20673,8 @@ files:
       vote: Lasso
   github.com/stewartsmith/libeatmydata/df7ddeb0345104f25b5b7bb154bc6a008c8c8404/m4/acx_pthread.m4:
     annotations:
-      linguist: M4
-      vote: M4
+      linguist: M4Sugar
+      vote: M4Sugar
   github.com/stewbeef/beefy_questing/b6d075ec1c11776d9ed9e21e87ad1a4ca1ad152b/scripts/questing/beefy_quests.ash:
     annotations:
       human-smola: KoLMafia ASH
@@ -20919,7 +20911,7 @@ files:
   github.com/tajmone/name-that-color/5b6c58e82a3d4032b3d84f6ca3c3cd714a7291b1/NTC.pbp:
     annotations:
       human-smola: XML
-      linguist: PureBasic
+      linguist: XML
       linguist-xml: XML
       vote: XML
   github.com/tak-oda/201904_DisneyReview/b831fd9020ba4f23bd44e41891191f991012b388/Codes/Q1.q:
@@ -21263,8 +21255,8 @@ files:
       vote: R
   github.com/tildedave/universal-react-without-node/834af1bcfe71d80ff7324664c70cd780820f4017/m4/ax_pkg_swig.m4:
     annotations:
-      linguist: M4
-      vote: M4
+      linguist: M4Sugar
+      vote: M4Sugar
   github.com/timaeudg/CSSE403-PLP-JTracer/2b9f78f01598673739f68e8dd08a5f33e4ffb431/run.ijs:
     annotations:
       linguist: J
@@ -21534,7 +21526,6 @@ files:
   github.com/transhumandesign/kag-base/fdb0f3977ea8dce1f50eba6c2e49e33a0898d311/Rules/CommonScripts/ColoredNameToggleCommon.as:
     annotations:
       linguist: AngelScript
-      linguist-heuristics: AngelScript
       pygments-filename: ActionScript
       vote: AngelScript
   github.com/transmission-remote-gui/transgui/3fb1d339f600d9d973aa9b923b548a369bd3adbf/synapse/source/lib/pop3send.pas:
@@ -21635,8 +21626,8 @@ files:
       vote: AspectJ
   github.com/tsaarni/cpp-subprocess/2e91c3945df3894648ecdcdbd1c197eedb22e63a/m4/boost.m4:
     annotations:
-      linguist: M4
-      vote: M4
+      linguist: M4Sugar
+      vote: M4Sugar
   github.com/tsloughter/OpaDo/2562d8905dbe2f26c31a9bbfbe158935406cebb7/src/main.opa:
     annotations:
       linguist: Opa
@@ -21658,7 +21649,7 @@ files:
   github.com/tsuna/boost.m4/b52682291fa9d1a26507ab9ac19cb199524fbdcd/configure.ac:
     annotations:
       human-smola: M4Sugar
-      linguist: M4
+      linguist: M4Sugar
       linguist-filename: M4Sugar
       vote: M4Sugar
   github.com/ttencate/aoc2017/94a9618ef1617b74144e7c98b5d446d592db5307/18_eiffel/18a/state.e:
@@ -21939,7 +21930,7 @@ files:
   github.com/utPLSQL/utPLSQL/b08ede3342d37dc7d0d66cecff7653f75eb3ad69/source/create_synonyms.sql:
     annotations:
       human-smola: PL/SQL
-      linguist: PL/SQL
+      linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
       vote: PL/SQL
@@ -21950,8 +21941,7 @@ files:
       vote: CLIPS
   github.com/utoh/pygmy-forth/21d555e1592ed266f3156d2a62e75a553cdbf9bf/ed.scr:
     annotations:
-      linguist: Forth
-      vote: Forth
+      vote: Unknown
   github.com/uty/haproxy-augeas-lens/b4ff3dc2e5d7f2ab9499e9507788575927797124/test_haproxy.aug:
     annotations:
       linguist: Augeas
@@ -22145,7 +22135,7 @@ files:
   github.com/virtix/cfmongodb/214c58592d402bb4a31fb9cbf125e2d53360482c/core/MapReduceResult.cfc:
     annotations:
       human-smola: ColdFusion CFC
-      linguist: ColdFusion
+      linguist: ColdFusion CFC
       linguist-extension: ColdFusion CFC
       pygments-filename: ColdFusion CFC
       vote: ColdFusion CFC
@@ -22254,8 +22244,8 @@ files:
       vote: Awk
   github.com/vslavik/diff-pdf/6741ab979342c6a118ef0263bb3049b055cbc8a7/admin/wxwin.m4:
     annotations:
-      linguist: M4
-      vote: M4
+      linguist: M4Sugar
+      vote: M4Sugar
   github.com/vsraptor/producton_system/5678528146ffbcfd37e7e7fa0e92041d25d7dcdc/rules.lgt:
     annotations:
       linguist: Logtalk
@@ -22513,8 +22503,7 @@ files:
       vote: Elixir
   github.com/wolfgangj/okami/7b44509d36d1e61be05935f1e02e22286e79d929/lib/log.ok:
     annotations:
-      linguist: Forth
-      vote: Forth
+      vote: Unknown
   github.com/wollok/ColeccionesMatrixElElegido/bd200e16787a7f58d3266b6aa3144b439dc819d6/src/matrix.wlk:
     annotations:
       linguist: Wollok
@@ -23157,7 +23146,7 @@ files:
   github.com/zv/SICP-guile/edb21a0cd7cecce344aad2912d195d11e935f5c7/sicp4.scm:
     annotations:
       human-smola: Scheme
-      linguist: Racket
+      linguist: Scheme
       linguist-extension: Scheme
       linguist-modeline: Scheme
       pygments-filename: Scheme

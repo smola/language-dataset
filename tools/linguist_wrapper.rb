@@ -5,7 +5,6 @@ require 'linguist'
 
 res = {}
 ARGV.each do |path|
-  path = ARGV[0]
   blob = Linguist::FileBlob.new(path)
   res[path] = {}
 
