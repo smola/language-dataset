@@ -4,8 +4,8 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 260 |
-| **Total samples** | 3831 |
-| **Samples labeled by humans** | 657 |
+| **Total samples** | 3834 |
+| **Samples labeled by humans** | 665 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -29,7 +29,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | AppleScript | 19 | 2 |
 | Arc | 20 | 3 |
 | AspectJ | 20 | 2 |
-| Assembly | 12 | 3 |
+| Assembly | 15 | 6 |
 | Asymptote | 20 | 0 |
 | Augeas | 19 | 0 |
 | AutoHotkey | 20 | 1 |
@@ -57,7 +57,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Chapel | 18 | 0 |
 | Charity | 3 | 0 |
 | ChucK | 19 | 1 |
-| Clarion | 16 | 2 |
+| Clarion | 17 | 3 |
 | Classic ASP | 12 | 2 |
 | Clean | 9 | 9 |
 | Clojure | 19 | 2 |
@@ -151,7 +151,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Logtalk | 20 | 1 |
 | Lua | 21 | 2 |
 | M4 | 3 | 3 |
-| M4Sugar | 13 | 3 |
+| M4Sugar | 13 | 4 |
 | MATLAB | 23 | 16 |
 | MAXScript | 17 | 1 |
 | Makefile | 17 | 1 |
@@ -161,7 +161,6 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Modula-2 | 21 | 1 |
 | Modula-3 | 16 | 1 |
 | Monkey | 20 | 4 |
-| Motorola 68K Assembly | 3 | 0 |
 | NSIS | 20 | 0 |
 | Nearley | 16 | 0 |
 | Nemerle | 14 | 2 |
@@ -181,7 +180,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | OpenSCAD | 19 | 1 |
 | Oxygene | 1 | 0 |
 | Oz | 20 | 1 |
-| PHP | 22 | 3 |
+| PHP | 21 | 3 |
 | PL/SQL | 14 | 12 |
 | PL/pgSQL | 13 | 5 |
 | POV-Ray SDL | 2 | 0 |
@@ -194,6 +193,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | PowerBuilder | 15 | 0 |
 | PowerShell | 17 | 3 |
 | Processing | 20 | 2 |
+| Proguard | 3 | 3 |
 | Prolog | 18 | 4 |
 | PureBasic | 8 | 0 |
 | PureScript | 20 | 0 |

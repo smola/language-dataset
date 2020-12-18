@@ -364,11 +364,11 @@ files:
       vote: Augeas
   github.com/AndroidKnife/proguard-config/02fae4f4399893cc82bfe8580114b70160ef73e7/proguardlib/proguards/proguard-aws-1.7.pro:
     annotations:
-      human-smola: Unknown
+      human-smola: Proguard
       linguist: Proguard
       linguist-heuristics: Proguard
       pygments-filename: Prolog
-      vote: Unknown
+      vote: Proguard
   github.com/AndyDentFree/rb2doxy/6229f1a9804d44ed078c2769410cc219265d839c/RunRB2Doxy/MessageDialogHelpers.rbbas:
     annotations:
       human-smola: REALbasic
@@ -682,9 +682,11 @@ files:
       vote: SAS
   github.com/BonsaiDen/Tuff.gb/b76f6574ed9f29e8f6d390c8cda05be4907ed5b8/src/game/ram/effect.gb.s:
     annotations:
+      human-smola: Assembly
       linguist: Motorola 68K Assembly
       pygments-filename: Unix Assembly
-      vote: Motorola 68K Assembly
+      vote: Assembly
+    notes: GameBoy Assembly
   github.com/BradLarson/GPUImage/167b0389bc6e9dc4bb0121550f91d8d5d6412c53/framework/Source/GPUImageRGBFilter.m:
     annotations:
       human-smola: Objective-C
@@ -9303,9 +9305,10 @@ files:
       vote: C
   github.com/dspinellis/unix-history-repo/69f28986ad97c1e3d55279d696d1884c963f530e/adm.s:
     annotations:
+      human-smola: Assembly
       linguist: Motorola 68K Assembly
       pygments-filename: Unix Assembly
-      vote: Motorola 68K Assembly
+      vote: Assembly
   github.com/dsully/perl-crypt-openssl-pkcs12/7eed293cced197e7b1397a91f457e608999d902c/PKCS12.xs:
     annotations:
       linguist: XS
@@ -10894,9 +10897,10 @@ files:
       vote: Clarion
   github.com/fushnisoft/ClarionMetroWizard/7366679ff21eae712692d1ee5c93bc2ec323c13e/_classes/ce_TabList.inc:
     annotations:
+      human-smola: Clarion
       linguist: PHP
       pygments-filename: POV-Ray SDL
-      vote: PHP
+      vote: Clarion
   github.com/fylz1125/ShaderDemos/f91bd2fd2df7fdf7e192880b4b0fdb2235d87222/assets/resources/shaders/CircularEffect.glsl:
     annotations:
       linguist: GLSL
@@ -11843,6 +11847,7 @@ files:
       vote: Elm
   github.com/hectorm/hblock-resolver/97570e4f0ede431027758d1d87918c13bb3c6fe4/Dockerfile.m4:
     annotations:
+      human-smola: M4Sugar
       linguist: M4Sugar
       vote: M4Sugar
   github.com/heddwch/WOPO/22de00773352049da589fcb6cd0e4c5607728443/IRC-MSG.COB:
@@ -13253,9 +13258,11 @@ files:
       vote: Zimpl
   github.com/jmechner/Prince-of-Persia-Apple-II/a9e276ce886f2200985e968b6cb5bda7edf5a2bb/04 Support/MakeDisk/S/RYELLOW1.S:
     annotations:
+      human-smola: Assembly
       linguist: Motorola 68K Assembly
       pygments-filename: S
-      vote: Motorola 68K Assembly
+      vote: Assembly
+    notes: 6502 assembly
   github.com/jnthn/6model/b19eb80591367e1c3001ee303ac0cc1f9377d6c9/t/nqp/26-methodops.t:
     annotations:
       human-smola: Raku
@@ -14198,11 +14205,11 @@ files:
       vote: APL
   github.com/krschultz/android-proguard-snippets/c636c6c8448565e91e25a66f11fab3fca035c29c/libraries/proguard-facebook-fresco.pro:
     annotations:
-      human-smola: Unknown
+      human-smola: Proguard
       linguist: Proguard
       linguist-heuristics: Proguard
       pygments-filename: Prolog
-      vote: Unknown
+      vote: Proguard
   github.com/kskkwn/.emacs.d/2d37f1b99e7d6842c919deb0177f350458684e23/snippets/latex-mode/article.yasnippet:
     annotations:
       linguist: YASnippet
@@ -16227,11 +16234,11 @@ files:
       vote: Forth
   github.com/msdx/android-proguard-cn/03c350d27bf84fa6aeafbd9968fef3fd51aa15ca/android.pro:
     annotations:
-      human-smola: Unknown
+      human-smola: Proguard
       linguist: Proguard
       linguist-heuristics: Proguard
       pygments-filename: Prolog
-      vote: Unknown
+      vote: Proguard
   github.com/mshanemc/einstein-ai/2ab7bc8b64a336690e0341fc987880e7ac4a1fb4/src/classes/InvocableLanguageFeedback.cls:
     annotations:
       linguist: Apex
