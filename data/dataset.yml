@@ -9598,6 +9598,10 @@ files:
       linguist: QMake
       pygments-filename: Prolog
       vote: QMake
+  github.com/edmundito/ags-tween/1d9678ea129bbf6247333777f2ff4f8c960a812f/Tween/Tween2Compatibility.asc:
+    annotations:
+      human-smola: AGS Script
+      vote: AGS Script
   github.com/edwinb/Blodwen/9f632be50e2bbabd2d34352bcb9e8c0b33dcc153/src/TTImp/Reflect.idr:
     annotations:
       linguist: Idris
@@ -9919,6 +9923,14 @@ files:
       linguist: Oz
       linguist-extension: Oz
       vote: Oz
+  github.com/ericoporto/agsfastwfc/cf775c6f6dc6337dd73159e62c58770f0ddc01bf/agsfastwfc_demo/KeyboardMovement.ash:
+    annotations:
+      human-smola: AGS Script
+      vote: AGS Script
+  github.com/ericoporto/rellax/a6d532a4d938833709cd5c618216b049461f4593/rellax_demo/rellax.asc:
+    annotations:
+      human-smola: AGS Script
+      vote: AGS Script
   github.com/ericscharff/ProjectOberon/383ab65985d992d3f5a8825c924af48abf0569d1/Oberon.Mod:
     annotations:
       linguist: Modula-2
@@ -15574,6 +15586,10 @@ files:
       linguist: ATS
       linguist-extension: ATS
       vote: ATS
+  github.com/messengerbag/SpeechBubble/1c0d6df7c4968f24665b05b9c4e53f4df3e72376/SpeechBubble.ash:
+    annotations:
+      human-smola: AGS Script
+      vote: AGS Script
   github.com/metabase/metabase/d9835d0bf30f92a3074bd36467b2aa4abe987a39/test/metabase/query_processor/middleware/parameters/native/substitution_test.clj:
     annotations:
       linguist: Clojure
