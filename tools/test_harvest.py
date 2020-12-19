@@ -34,10 +34,10 @@ def test_scan_repo_for_lang(mocker):
 
 
 def test_search_repos():
-    if "GITHUB_TOKEN" not in os.environ:
+    if not os.environ.get("GITHUB_TOKEN"):
         pytest.skip("missing GITHUB_TOKEN")
-    repos = search_repos("JavaScript", 100)
-    assert len(repos) == 100
+    repos = search_repos("JavaScript", 10)
+    assert len(repos) == 10
     assert all([isinstance(r, str) for r in repos])
 
 
