@@ -4,8 +4,8 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 260 |
-| **Total samples** | 3834 |
-| **Samples labeled by humans** | 665 |
+| **Total samples** | 3842 |
+| **Samples labeled by humans** | 673 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -13,7 +13,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Language | Samples | Human |
 | -------- | ------- | ------|
 | ABAP | 20 | 1 |
-| AGS Script | 1 | 0 |
+| AGS Script | 2 | 1 |
 | AMPL | 12 | 10 |
 | ANTLR | 19 | 3 |
 | API Blueprint | 5 | 1 |
@@ -134,7 +134,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Jupyter Notebook | 1 | 1 |
 | KiCad Layout | 3 | 3 |
 | Kit | 19 | 1 |
-| KoLMafia ASH | 13 | 13 |
+| KoLMafia ASH | 20 | 20 |
 | Kotlin | 20 | 1 |
 | LFE | 17 | 0 |
 | LLVM | 19 | 0 |

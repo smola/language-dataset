@@ -3762,6 +3762,11 @@ files:
       linguist-extension: LabVIEW
       linguist-xml: XML
       vote: LabVIEW
+  github.com/RESPRiT/bountiful/c8114e71e298e5378320a65ae43b044d8cc48410/scripts/bountiful.ash:
+    annotations:
+      human-smola: KoLMafia ASH
+      linguist: AGS Script
+      vote: KoLMafia ASH
   github.com/RRUZ/vcl-styles-plugins/622af90d06696290d2beb7962265c31797bbdae0/NSIS plugin/NSISVCLStyles.dpr:
     annotations:
       linguist: Pascal
@@ -5084,6 +5089,11 @@ files:
       linguist: Nearley
       linguist-extension: Nearley
       vote: Nearley
+  github.com/ZenProductions/Edscension/7eb7ad5c67140348fbcf3ddab4f57a1837411ecb/scripts/Edscension/ed_eudora.ash:
+    annotations:
+      human-smola: KoLMafia ASH
+      linguist: AGS Script
+      vote: KoLMafia ASH
   github.com/Zeroloop/l-unit8/cb7038949aab93e494660a1e7a37cdd5198e87e3/index.lasso:
     annotations:
       human-smola: Lasso
@@ -7570,6 +7580,11 @@ files:
       linguist-extension: Chapel
       pygments-filename: Chapel
       vote: Chapel
+  github.com/charasan/kolmafia_scripts/39d41d4ccfc71755f3db3bc695b15c4039078fab/scripts/checkSiphonSpiritsTrophy.ash:
+    annotations:
+      human-smola: KoLMafia ASH
+      linguist: AGS Script
+      vote: KoLMafia ASH
   github.com/charliekramer/ChucK/e397590910d79237b805ed491e5f6b8c461d0863/Rhizome rundown.ck:
     annotations:
       linguist: ChucK
@@ -7898,6 +7913,11 @@ files:
       linguist-extension: AutoIt
       pygments-filename: AutoIt
       vote: AutoIt
+  github.com/coandco/mafia-volcano-mining/9fdd4a253a5caa1d603eedfafe2ce22d75ff6c87/scripts/volcano_mining.ash:
+    annotations:
+      human-smola: KoLMafia ASH
+      linguist: AGS Script
+      vote: KoLMafia ASH
   github.com/cocoahuke/quicklycharging/e6a44d9a84d6d7a13b4fbf512db837d142184d93/haha.cy:
     annotations:
       human-smola: Cycript
@@ -10996,6 +11016,11 @@ files:
       linguist-extension: XQuery
       pygments-filename: XQuery
       vote: XQuery
+  github.com/gausie/excavator/9625f8f4124da87d3bb224a26c66a203539a485f/retired_projects/x_voting_booth.ash:
+    annotations:
+      human-smola: KoLMafia ASH
+      linguist: AGS Script
+      vote: KoLMafia ASH
   github.com/gavinwahl/postgres-json-schema/570e19f5b2b4e6ff1414eebe2191e14c437760d9/tests.sql:
     annotations:
       linguist: PL/pgSQL
@@ -16057,6 +16082,11 @@ files:
       linguist: NetLinx
       linguist-extension: NetLinx
       vote: NetLinx
+  github.com/monkey0506/ags-module-stack/8abe508f5a2193a4b49e0ee1a5af5d3bdc389e08/Stack.asc:
+    annotations:
+      human-smola: AGS Script
+      linguist: AGS Script
+      vote: AGS Script
   github.com/monkeylord/XposedTemplateForAS/d5cdd502ba09161c9d233c15331ba067be51cb61/Xposed Code/root/src/app_package/ClassesEnum.java.ftl:
     annotations:
       linguist: FreeMarker
@@ -17132,6 +17162,7 @@ files:
       linguist: AGS Script
       linguist-extension: AGS Script
       vote: Shell
+    notes: Xiaomi ASH
   github.com/open-force/jsonparse/547b0cf62f9b5ed9f6d6ef8fc037fe3bd10cf98a/JSONParseTests.cls:
     annotations:
       linguist: Apex
@@ -20428,6 +20459,11 @@ files:
       linguist: AGS Script
       linguist-extension: AGS Script
       vote: KoLMafia ASH
+  github.com/soolar/sl_ascend/26461ff0c7baa73e3c649fd4bc80210895776599/RELEASE/scripts/sl_ascend/sl_mr2015.ash:
+    annotations:
+      human-smola: KoLMafia ASH
+      linguist: AGS Script
+      vote: KoLMafia ASH
   github.com/sooqua/js-react-redux-yasnippets/70785d126a28ffcb314fb4b354319418586e06b1/snippets/js-mode/rpcp:
     annotations:
       linguist: YASnippet
@@ -20945,6 +20981,11 @@ files:
       linguist-extension: Racket
       pygments-filename: Racket
       vote: Racket
+  github.com/taltamir/ttpack/6f9952dadc43d858e36e1b153375c2cb8f9de5a1/RELEASE/scripts/ttpack/guzzlr.ash:
+    annotations:
+      human-smola: KoLMafia ASH
+      linguist: AGS Script
+      vote: KoLMafia ASH
   github.com/tangentstorm/syndir/9dbc98590f22aaaf63421437d4c619bc483cfab1/unify.ijs:
     annotations:
       linguist: J
