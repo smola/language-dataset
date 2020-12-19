@@ -41,7 +41,7 @@ def get_weights(dataset):
         ann = file_data["annotations"]
         if not any([k.startswith("human-") for k in ann.keys()]):
             continue
-        class_ = file_data["annotations"]["vote"]
+        class_ = file_data["annotations"].get("vote", "Unknown")
         if class_ == "Unknown":
             continue
         for k, v in ann.items():
