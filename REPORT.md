@@ -4,8 +4,8 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 260 |
-| **Total samples** | 3842 |
-| **Samples labeled by humans** | 673 |
+| **Total samples** | 3846 |
+| **Samples labeled by humans** | 677 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -13,7 +13,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Language | Samples | Human |
 | -------- | ------- | ------|
 | ABAP | 20 | 1 |
-| AGS Script | 2 | 1 |
+| AGS Script | 6 | 5 |
 | AMPL | 12 | 10 |
 | ANTLR | 19 | 3 |
 | API Blueprint | 5 | 1 |
