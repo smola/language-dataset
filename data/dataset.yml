@@ -1954,6 +1954,12 @@ files:
       linguist: Nearley
       linguist-extension: Nearley
       vote: Nearley
+  github.com/IanSiebold/Putt-Putt_Game/fb592286ac0247a44295c9953e87bebb807342fc/Putt-Putt_Game/room2.asc:
+    annotations:
+      human-smola: AGS Script
+      linguist: AGS Script
+      linguist-heuristics: AGS Script
+      vote: AGS Script
   github.com/IbrahimIrfan/chess/b93a80d0e69831d763ef483b95d5868813a4508b/Main.t:
     annotations:
       linguist: Turing
@@ -2790,6 +2796,12 @@ files:
       linguist: AGS Script
       linguist-extension: AGS Script
       vote: KoLMafia ASH
+  github.com/ManiacMansionMania/Michael-SP/80f7d09731ab063e2cba4d9995b97ddaf67ebd13/room22.asc:
+    annotations:
+      human-smola: AGS Script
+      linguist: AGS Script
+      linguist-heuristics: AGS Script
+      vote: AGS Script
   github.com/Manitary/advent-of-code/803f38a11d2e7980d46b42bb80bc5e0cc2c31830/2018/18_11.mg:
     annotations:
       human-smola: Unknown
@@ -3766,6 +3778,7 @@ files:
     annotations:
       human-smola: KoLMafia ASH
       linguist: AGS Script
+      linguist-extension: AGS Script
       vote: KoLMafia ASH
   github.com/RRUZ/vcl-styles-plugins/622af90d06696290d2beb7962265c31797bbdae0/NSIS plugin/NSISVCLStyles.dpr:
     annotations:
@@ -5093,6 +5106,7 @@ files:
     annotations:
       human-smola: KoLMafia ASH
       linguist: AGS Script
+      linguist-extension: AGS Script
       vote: KoLMafia ASH
   github.com/Zeroloop/l-unit8/cb7038949aab93e494660a1e7a37cdd5198e87e3/index.lasso:
     annotations:
@@ -5301,6 +5315,12 @@ files:
       linguist-extension: Haxe
       pygments-filename: Haxe
       vote: Haxe
+  github.com/adventuregamestudio/ags-template-source/3a4224d9fbd085cf2a26edc9d669cf17df38a266/BASS/TwoClickHandler.asc:
+    annotations:
+      human-smola: AGS Script
+      linguist: AGS Script
+      linguist-heuristics: AGS Script
+      vote: AGS Script
   github.com/aeternity/aeternity/2710ff7e3a33c1e1cc1d2dbdcdcf59c028e9eea2/apps/aecontract/test/aect_create_tx_tests.erl:
     annotations:
       linguist: Erlang
@@ -6875,6 +6895,12 @@ files:
       linguist: PureBasic
       linguist-extension: PureBasic
       vote: PureBasic
+  github.com/bhmcarr/deeplake-mall/0fbd089da36ec58bd8c2c3778bcfbb76195207a6/dialogscript.asc:
+    annotations:
+      human-smola: AGS Script
+      linguist: AGS Script
+      linguist-heuristics: AGS Script
+      vote: AGS Script
   github.com/bigtweekx/h2pc_installer/697b698ecb5bd7679e3dbb8c8281df0893fb9869/setup_complete.nsi:
     annotations:
       linguist: NSIS
@@ -7584,6 +7610,7 @@ files:
     annotations:
       human-smola: KoLMafia ASH
       linguist: AGS Script
+      linguist-extension: AGS Script
       vote: KoLMafia ASH
   github.com/charliekramer/ChucK/e397590910d79237b805ed491e5f6b8c461d0863/Rhizome rundown.ck:
     annotations:
@@ -7917,6 +7944,7 @@ files:
     annotations:
       human-smola: KoLMafia ASH
       linguist: AGS Script
+      linguist-extension: AGS Script
       vote: KoLMafia ASH
   github.com/cocoahuke/quicklycharging/e6a44d9a84d6d7a13b4fbf512db837d142184d93/haha.cy:
     annotations:
@@ -9017,6 +9045,12 @@ files:
       linguist-extension: Swift
       pygments-filename: Swift
       vote: Swift
+  github.com/dkrey/ags_tumbleweed/52cc32665122b19246d146513b5692bf3e88357b/verbgui.ash:
+    annotations:
+      human-smola: AGS Script
+      linguist: AGS Script
+      linguist-extension: AGS Script
+      vote: AGS Script
   github.com/dlang/dmd/1ca6a1cc0e4c0f2dff3969894b152e4e8a146fff/test/runnable/sctor.d:
     annotations:
       human-smola: D
@@ -9601,6 +9635,8 @@ files:
   github.com/edmundito/ags-tween/1d9678ea129bbf6247333777f2ff4f8c960a812f/Tween/Tween2Compatibility.asc:
     annotations:
       human-smola: AGS Script
+      linguist: AGS Script
+      linguist-heuristics: AGS Script
       vote: AGS Script
   github.com/edwinb/Blodwen/9f632be50e2bbabd2d34352bcb9e8c0b33dcc153/src/TTImp/Reflect.idr:
     annotations:
@@ -9926,10 +9962,38 @@ files:
   github.com/ericoporto/agsfastwfc/cf775c6f6dc6337dd73159e62c58770f0ddc01bf/agsfastwfc_demo/KeyboardMovement.ash:
     annotations:
       human-smola: AGS Script
+      linguist: AGS Script
+      linguist-extension: AGS Script
+      vote: AGS Script
+  github.com/ericoporto/agsserialport/c3c90c55345938f3b641f240a5d4f909f35c340f/agsserialport/agsserialport.ash:
+    annotations:
+      human-smola: AGS Script
+      linguist: AGS Script
+      linguist-extension: AGS Script
+      vote: AGS Script
+  github.com/ericoporto/arrowselect/23fcfbfc81af19672b60187b115352a63ca24e21/arrowselect.asc:
+    annotations:
+      human-smola: AGS Script
+      linguist: AGS Script
+      linguist-heuristics: AGS Script
+      vote: AGS Script
+  github.com/ericoporto/jsmnags/febba2c4a511b759661eab3f3cab97d06d765317/jsmn.ash:
+    annotations:
+      human-smola: AGS Script
+      linguist: AGS Script
+      linguist-extension: AGS Script
+      vote: AGS Script
+  github.com/ericoporto/math3d/8cb9d275fb3774f4fbed661b6eb92833545780c1/math3d.ash:
+    annotations:
+      human-smola: AGS Script
+      linguist: AGS Script
+      linguist-extension: AGS Script
       vote: AGS Script
   github.com/ericoporto/rellax/a6d532a4d938833709cd5c618216b049461f4593/rellax_demo/rellax.asc:
     annotations:
       human-smola: AGS Script
+      linguist: AGS Script
+      linguist-heuristics: AGS Script
       vote: AGS Script
   github.com/ericscharff/ProjectOberon/383ab65985d992d3f5a8825c924af48abf0569d1/Oberon.Mod:
     annotations:
@@ -11032,6 +11096,7 @@ files:
     annotations:
       human-smola: KoLMafia ASH
       linguist: AGS Script
+      linguist-extension: AGS Script
       vote: KoLMafia ASH
   github.com/gavinwahl/postgres-json-schema/570e19f5b2b4e6ff1414eebe2191e14c437760d9/tests.sql:
     annotations:
@@ -11925,6 +11990,18 @@ files:
       linguist: ChucK
       linguist-extension: ChucK
       vote: ChucK
+  github.com/hewills/10WaysFromSunday/c8d5d51a5f73db3f4e7549f49764cfc31d1a6861/room13.asc:
+    annotations:
+      human-smola: AGS Script
+      linguist: AGS Script
+      linguist-heuristics: AGS Script
+      vote: AGS Script
+  github.com/hewills/The-Mind/440d5e77521a684d5959d0a92f03c809fb7bf353/room2.asc:
+    annotations:
+      human-smola: AGS Script
+      linguist: AGS Script
+      linguist-heuristics: AGS Script
+      vote: AGS Script
   github.com/hgourvest/superobject/f1c42db5efbd85ced7acaf8d53c204881fce5fad/tests/test_rpc.dpr:
     annotations:
       linguist: Pascal
@@ -13030,6 +13107,12 @@ files:
       linguist: OpenSCAD
       linguist-extension: OpenSCAD
       vote: OpenSCAD
+  github.com/jeancallisti/7cog_christmasdemo/6a8796b0f3e3cf7db80c350f206b05c6260155d0/7cog_christmasdemo/StandaloneClick.asc:
+    annotations:
+      human-smola: AGS Script
+      linguist: AGS Script
+      linguist-heuristics: AGS Script
+      vote: AGS Script
   github.com/jeapostrophe/exp/6458bf071f523fa4c9783cbd476b3f8ef6837f98/cbz.rkt:
     annotations:
       linguist: Racket
@@ -13609,6 +13692,12 @@ files:
       linguist-xml: XML
       pygments-filename: Ragel
       vote: XML
+  github.com/juanmcasillas/CatVentures/e59e90bc1803d5d2a8dd5e49e2c688870df48112/ags/catventures/CatVentures/room4.asc:
+    annotations:
+      human-smola: AGS Script
+      linguist: AGS Script
+      linguist-heuristics: AGS Script
+      vote: AGS Script
   github.com/juanplopes/euler/c3741c70877d2373ca83a2d3cb0897bdca6aa5df/158.boo:
     annotations:
       linguist: Boo
@@ -14902,6 +14991,12 @@ files:
       linguist-extension: ASP.NET
       pygments-filename: ASP.NET
       vote: ASP.NET
+  github.com/lpellegrini/escape_a_las_pleyades_320x180/593402ff83049729a9b2be4349ff04a00f33618b/Scumm VerbCoin GUI.ash:
+    annotations:
+      human-smola: AGS Script
+      linguist: AGS Script
+      linguist-extension: AGS Script
+      vote: AGS Script
   github.com/lshhhhh/questplusplus/9bc06a0ed07e84dc0489290dad5ed1e942c8e354/input/target.word-level.ch:
     annotations:
       linguist: Charity
@@ -15589,6 +15684,8 @@ files:
   github.com/messengerbag/SpeechBubble/1c0d6df7c4968f24665b05b9c4e53f4df3e72376/SpeechBubble.ash:
     annotations:
       human-smola: AGS Script
+      linguist: AGS Script
+      linguist-extension: AGS Script
       vote: AGS Script
   github.com/metabase/metabase/d9835d0bf30f92a3074bd36467b2aa4abe987a39/test/metabase/query_processor/middleware/parameters/native/substitution_test.clj:
     annotations:
@@ -16102,6 +16199,7 @@ files:
     annotations:
       human-smola: AGS Script
       linguist: AGS Script
+      linguist-heuristics: AGS Script
       vote: AGS Script
   github.com/monkeylord/XposedTemplateForAS/d5cdd502ba09161c9d233c15331ba067be51cb61/Xposed Code/root/src/app_package/ClassesEnum.java.ftl:
     annotations:
@@ -20479,6 +20577,7 @@ files:
     annotations:
       human-smola: KoLMafia ASH
       linguist: AGS Script
+      linguist-extension: AGS Script
       vote: KoLMafia ASH
   github.com/sooqua/js-react-redux-yasnippets/70785d126a28ffcb314fb4b354319418586e06b1/snippets/js-mode/rpcp:
     annotations:
@@ -21001,6 +21100,7 @@ files:
     annotations:
       human-smola: KoLMafia ASH
       linguist: AGS Script
+      linguist-extension: AGS Script
       vote: KoLMafia ASH
   github.com/tangentstorm/syndir/9dbc98590f22aaaf63421437d4c619bc483cfab1/unify.ijs:
     annotations:
