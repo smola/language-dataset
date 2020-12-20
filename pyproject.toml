@@ -12,6 +12,7 @@ pyyaml = "*"
 pandas = "*"
 scikit-learn = "*"
 pygments = "2.7.3"
+PyGithub = "^1.54"
 
 [tool.poetry.dev-dependencies]
 black = "*"
