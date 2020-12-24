@@ -12585,10 +12585,11 @@ files:
       vote: Idris
   github.com/idris-hackers/software-foundations/03e178fc616e50019c4168fb488f67fbfb46fafa/src/Tactics.lidr:
     annotations:
+      human-smola: Literate Idris
       linguist: Idris
       linguist-extension: Idris
       pygments-filename: Literate Idris
-      vote: Idris
+      vote: Literate Idris
   github.com/idris-industry/ikan/31c326dc441d26da847be80afde297e35a4306db/src/Main.idr:
     annotations:
       linguist: Idris
@@ -20776,10 +20777,11 @@ files:
       vote: Pascal
   github.com/statebox/idris-ct/9eb218b365eebedab1227823b8e0cd304462a610/src/Monoid/MonoidMorphismAsFunctor.lidr:
     annotations:
+      human-smola: Literate Idris
       linguist: Idris
       linguist-extension: Idris
       pygments-filename: Literate Idris
-      vote: Idris
+      vote: Literate Idris
   github.com/statickidz/TemarioDAW/8597a388be0cc661b97d06e9adf4226c96477369/BBDD/tareas/BD_Tarea6_Actividad 1.sql:
     annotations:
       human-smola: PL/SQL

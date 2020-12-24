@@ -3,9 +3,9 @@
 
 | Metric | Value |
 | ------ | ----- |
-| **Languages** | 260 |
+| **Languages** | 261 |
 | **Total samples** | 3860 |
-| **Samples labeled by humans** | 727 |
+| **Samples labeled by humans** | 729 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -122,7 +122,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | IDL | 12 | 1 |
 | IGOR Pro | 20 | 0 |
 | INI | 2 | 2 |
-| Idris | 20 | 1 |
+| Idris | 18 | 1 |
 | Io | 17 | 0 |
 | Ioke | 14 | 0 |
 | J | 19 | 1 |
@@ -147,6 +147,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Liquid | 20 | 3 |
 | Literate Agda | 2 | 1 |
 | Literate CoffeeScript | 1 | 1 |
+| Literate Idris | 2 | 2 |
 | LiveScript | 20 | 2 |
 | Logtalk | 20 | 1 |
 | Lua | 21 | 2 |
