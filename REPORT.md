@@ -5,7 +5,7 @@
 | ------ | ----- |
 | **Languages** | 260 |
 | **Total samples** | 3860 |
-| **Samples labeled by humans** | 725 |
+| **Samples labeled by humans** | 727 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -67,7 +67,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Common Lisp | 14 | 11 |
 | Common Workflow Language | 16 | 1 |
 | Component Pascal | 1 | 0 |
-| Coq | 19 | 8 |
+| Coq | 20 | 9 |
 | Crystal | 19 | 0 |
 | Cycript | 16 | 11 |
 | D | 20 | 6 |
@@ -251,7 +251,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Visual Basic .NET | 1 | 0 |
 | WebAssembly | 19 | 1 |
 | WebIDL | 1 | 1 |
-| Wolfram Language | 10 | 2 |
+| Wolfram Language | 10 | 3 |
 | Wollok | 20 | 0 |
 | XC | 19 | 0 |
 | XML | 26 | 26 |
@@ -265,7 +265,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | ZIL | 20 | 0 |
 | Zephir | 20 | 3 |
 | Zimpl | 16 | 0 |
-| eC | 10 | 1 |
+| eC | 9 | 1 |
 | fish | 1 | 1 |
 | ooc | 19 | 1 |
 | q | 15 | 2 |
