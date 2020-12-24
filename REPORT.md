@@ -5,7 +5,7 @@
 | ------ | ----- |
 | **Languages** | 260 |
 | **Total samples** | 3860 |
-| **Samples labeled by humans** | 691 |
+| **Samples labeled by humans** | 725 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -13,7 +13,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Language | Samples | Human |
 | -------- | ------- | ------|
 | ABAP | 20 | 1 |
-| AGS Script | 20 | 19 |
+| AGS Script | 19 | 19 |
 | AMPL | 12 | 10 |
 | ANTLR | 19 | 3 |
 | API Blueprint | 5 | 1 |
@@ -34,7 +34,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Augeas | 19 | 0 |
 | AutoHotkey | 20 | 1 |
 | AutoIt | 20 | 0 |
-| Awk | 20 | 2 |
+| Awk | 20 | 3 |
 | BCPL | 1 | 1 |
 | Ballerina | 20 | 0 |
 | Batchfile | 20 | 1 |
@@ -45,7 +45,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Brightscript | 20 | 1 |
 | C | 21 | 21 |
 | C# | 22 | 5 |
-| C++ | 20 | 3 |
+| C++ | 20 | 7 |
 | CLIPS | 18 | 2 |
 | CMake | 20 | 2 |
 | COBOL | 18 | 2 |
@@ -67,7 +67,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Common Lisp | 14 | 11 |
 | Common Workflow Language | 16 | 1 |
 | Component Pascal | 1 | 0 |
-| Coq | 18 | 5 |
+| Coq | 19 | 8 |
 | Crystal | 19 | 0 |
 | Cycript | 16 | 11 |
 | D | 20 | 6 |
@@ -83,7 +83,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | ECL | 20 | 1 |
 | EQ | 13 | 0 |
 | Eiffel | 19 | 3 |
-| Elixir | 20 | 0 |
+| Elixir | 20 | 20 |
 | Elm | 20 | 1 |
 | Emacs Lisp | 20 | 3 |
 | Erlang | 19 | 0 |
@@ -95,7 +95,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Forth | 16 | 2 |
 | Fortran | 20 | 5 |
 | FreeMarker | 18 | 2 |
-| Frege | 14 | 1 |
+| Frege | 14 | 2 |
 | G-code | 1 | 1 |
 | GAP | 7 | 0 |
 | GDScript | 2 | 2 |
@@ -126,15 +126,15 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Io | 17 | 0 |
 | Ioke | 14 | 0 |
 | J | 19 | 1 |
-| JSON | 1 | 1 |
+| JSON | 2 | 2 |
 | Java | 21 | 2 |
 | JavaScript | 20 | 5 |
-| Jsonnet | 20 | 0 |
+| Jsonnet | 20 | 1 |
 | Julia | 18 | 1 |
 | Jupyter Notebook | 1 | 1 |
 | KiCad Layout | 3 | 3 |
 | Kit | 19 | 1 |
-| KoLMafia ASH | 20 | 20 |
+| KoLMafia ASH | 21 | 21 |
 | Kotlin | 20 | 1 |
 | LFE | 17 | 0 |
 | LLVM | 19 | 0 |
@@ -181,7 +181,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Oxygene | 1 | 0 |
 | Oz | 20 | 1 |
 | PHP | 21 | 3 |
-| PL/SQL | 14 | 12 |
+| PL/SQL | 15 | 13 |
 | PL/pgSQL | 13 | 5 |
 | POV-Ray SDL | 2 | 0 |
 | Pascal | 20 | 1 |
@@ -216,7 +216,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Ruby | 20 | 3 |
 | Rust | 23 | 5 |
 | SAS | 20 | 4 |
-| SQL | 22 | 11 |
+| SQL | 21 | 11 |
 | SQLPL | 1 | 1 |
 | SVG | 2 | 0 |
 | Scala | 20 | 3 |
@@ -236,7 +236,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | TSQL | 8 | 6 |
 | TSX | 4 | 2 |
 | TXL | 18 | 0 |
-| Tcl | 18 | 3 |
+| Tcl | 18 | 4 |
 | Terra | 6 | 0 |
 | Text | 2 | 2 |
 | Turing | 8 | 0 |
@@ -253,7 +253,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | WebIDL | 1 | 1 |
 | Wolfram Language | 10 | 2 |
 | Wollok | 20 | 0 |
-| XC | 20 | 0 |
+| XC | 19 | 0 |
 | XML | 26 | 26 |
 | XProc | 17 | 0 |
 | XQuery | 20 | 3 |
@@ -265,7 +265,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | ZIL | 20 | 0 |
 | Zephir | 20 | 3 |
 | Zimpl | 16 | 0 |
-| eC | 11 | 1 |
+| eC | 10 | 1 |
 | fish | 1 | 1 |
 | ooc | 19 | 1 |
 | q | 15 | 2 |

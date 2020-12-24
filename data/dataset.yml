@@ -1875,6 +1875,7 @@ files:
       vote: Brainfuck
   github.com/HoTT/HoTT/b20bb573739284349a968bb219405255c744049d/theories/Fibrations.v:
     annotations:
+      human-smola: Coq
       linguist: Coq
       linguist-heuristics: Coq
       linguist-modeline: Coq
@@ -2894,6 +2895,7 @@ files:
       vote: MAXScript
   github.com/MichaelBurge/pornview/b4aefdc0e49504aa88345b96710bd86645ab2477/PV/SetoidLists.v:
     annotations:
+      human-smola: Coq
       linguist: Coq
       linguist-heuristics: Coq
       pygments-filename: Verilog
@@ -3059,6 +3061,7 @@ files:
       vote: CUDA
   github.com/NVIDIA/deepops/854996da8285c1a458f01f06e664951c5c90a3c8/containers/kubeflow-jupyter-web-app/releaser/lib/ksonnet-lib/v1.8.0/k.libsonnet:
     annotations:
+      human-smola: Jsonnet
       linguist: Jsonnet
       linguist-extension: Jsonnet
       vote: Jsonnet
@@ -3275,9 +3278,10 @@ files:
       vote: Modula-2
   github.com/Omegaice/WOTTankRanges/90067c21f69ee59e45e6f0ae48c02f1d3d0825b3/xvm/xvm/l10n/fi.xc:
     annotations:
+      human-smola: JSON
       linguist: XC
       linguist-extension: XC
-      vote: XC
+      vote: JSON
   github.com/OneIdentity/Polypkg/20ea9e5170a83daec883dd7fa69914dfb00eaa32/pp.back.kit:
     annotations:
       human-smola: Unknown
@@ -3426,6 +3430,7 @@ files:
       vote: SAS
   github.com/PSPDFKit-labs/bypass/0e44e6582f1e2ec580cbc21df6d907e7df5f2a3b/lib/bypass/plug.ex:
     annotations:
+      human-smola: Elixir
       linguist: Elixir
       linguist-extension: Elixir
       pygments-filename: Elixir
@@ -5237,6 +5242,7 @@ files:
       vote: Mirah
   github.com/absinthe-graphql/absinthe/92bbf1d068709b81b2541f2c629764a572199aa4/lib/absinthe/phase/schema/arguments/normalize.ex:
     annotations:
+      human-smola: Elixir
       linguist: Elixir
       linguist-extension: Elixir
       pygments-filename: Elixir
@@ -5250,6 +5256,7 @@ files:
       vote: PL/pgSQL
   github.com/acaudwell/Gource/7e793c96cbfb8d742c690f4a9bec49880f985e60/src/gource.h:
     annotations:
+      human-smola: C++
       linguist: C++
       linguist-heuristics: C++
       pygments-filename: C
@@ -6979,12 +6986,14 @@ files:
       vote: Monkey
   github.com/bitwalker/distillery/b7805d2147140f1517152cd88dcdb6911498d7cd/lib/distillery/releases/assembler.ex:
     annotations:
+      human-smola: Elixir
       linguist: Elixir
       linguist-extension: Elixir
       pygments-filename: Elixir
       vote: Elixir
   github.com/bitwalker/swarm/4aee63d83ad5ee6ee095b38b3ff93a4dbb7c3400/lib/swarm/tracker/crdt.ex:
     annotations:
+      human-smola: Elixir
       linguist: Elixir
       linguist-extension: Elixir
       pygments-filename: Elixir
@@ -7756,6 +7765,7 @@ files:
       vote: ABAP
   github.com/christopheradams/elixir_style_guide/f421e3485d8a152de8f3535f4ac7fe1ee7aaf23d/mix.exs:
     annotations:
+      human-smola: Elixir
       linguist: Elixir
       linguist-extension: Elixir
       pygments-filename: Elixir
@@ -8038,6 +8048,7 @@ files:
       vote: PureBasic
   github.com/commanded/commanded/fd3b8a4937a0c45f00e2bca90577ddd205a3104e/lib/mix/tasks/commanded.reset.ex:
     annotations:
+      human-smola: Elixir
       linguist: Elixir
       linguist-extension: Elixir
       pygments-filename: Elixir
@@ -8458,6 +8469,7 @@ files:
       vote: PHP
   github.com/danschultzer/pow/56488b6d53e0b75509b19fd51f64d2f2bb6653a5/lib/pow/ecto/schema/password.ex:
     annotations:
+      human-smola: Elixir
       linguist: Elixir
       linguist-extension: Elixir
       pygments-filename: Elixir
@@ -9423,6 +9435,7 @@ files:
       vote: Elm
   github.com/dwyl/learn-elixir/60c0f3a372332734e1423dcde7a546273e273102/codecov_example/mix.lock:
     annotations:
+      human-smola: Elixir
       linguist: Elixir
       linguist-filename: Elixir
       vote: Elixir
@@ -9617,6 +9630,7 @@ files:
       vote: Ceylon
   github.com/ecmendenhall/fmj/e2a91619890e4a0225b5063719f601958e9a0858/fmj:
     annotations:
+      human-smola: Awk
       linguist: Awk
       linguist-shebang: Awk
       vote: Awk
@@ -9752,12 +9766,14 @@ files:
       vote: sed
   github.com/elixir-ecto/ecto/28e7d36d5d495cff2fea3f27f1a5ae457c960091/lib/ecto/adapter/transaction.ex:
     annotations:
+      human-smola: Elixir
       linguist: Elixir
       linguist-extension: Elixir
       pygments-filename: Elixir
       vote: Elixir
   github.com/elixir-lang/elixir/9a145026ebb2a08a60133ad259f3db083721b465/lib/mix/lib/mix/tasks/app.start.ex:
     annotations:
+      human-smola: Elixir
       linguist: Elixir
       linguist-extension: Elixir
       pygments-filename: Elixir
@@ -11568,6 +11584,7 @@ files:
       vote: Gosu
   github.com/gothinkster/elixir-phoenix-realworld-example-app/d550c27a33a633a1ff9c35d7fc92c3e06c0675bd/lib/real_world_web/controllers/session_controller.ex:
     annotations:
+      human-smola: Elixir
       linguist: Elixir
       linguist-extension: Elixir
       pygments-filename: Elixir
@@ -11791,6 +11808,7 @@ files:
       vote: C#
   github.com/h4cc/awesome-elixir/db02b06ba95c1a623be212cb7effa8e518908488/tests/mix.lock:
     annotations:
+      human-smola: Elixir
       linguist: Elixir
       linguist-filename: Elixir
       vote: Elixir
@@ -15171,6 +15189,7 @@ files:
       vote: REALbasic
   github.com/macports/macports-base/aeb6d4386cd92afd0924a69bc8ee6154e651e8b3/src/port1.0/tests/portclean.test:
     annotations:
+      human-smola: Tcl
       linguist: Tcl
       linguist-modeline: Tcl
       vote: Tcl
@@ -16243,10 +16262,12 @@ files:
       vote: PL/SQL
   github.com/mortensol/EasyCrypt/c38842cebb09cf5ae5ca374b8d68fdbbd2239af8/CPA-masters-finished.ec:
     annotations:
+      human-smola: Coq
       linguist: eC
       linguist-extension: eC
       pygments-filename: eC
-      vote: eC
+      vote: Coq
+    notes: EasyCrypt Coq
   github.com/moshowgame/SpringBootCodeGenerator/b7861ca9fc2ea542d4fc446953c8964b691d61f5/generator-web/src/main/resources/templates/code-generator/mybatis/mybatis.ftl:
     annotations:
       linguist: FreeMarker
@@ -16943,6 +16964,7 @@ files:
       vote: SystemVerilog
   github.com/notepad-plus-plus/notepad-plus-plus/cf7e373dca890d65ecc86489fe9cce1bcc7597f7/scintilla/src/ScintillaBase.h:
     annotations:
+      human-smola: C++
       linguist: C++
       linguist-heuristics: C++
       pygments-filename: C
@@ -17902,12 +17924,14 @@ files:
       vote: Lua
   github.com/philss/floki/6cdca965dec3e9a72289008e08e6b9dfe45dcd68/test/floki/selector/tokenizer_test.exs:
     annotations:
+      human-smola: Elixir
       linguist: Elixir
       linguist-extension: Elixir
       pygments-filename: Elixir
       vote: Elixir
   github.com/phoenixframework/phoenix/1021c4d84679666136cef4ec73ba4d0544446a3b/lib/mix/phoenix/context.ex:
     annotations:
+      human-smola: Elixir
       linguist: Elixir
       linguist-extension: Elixir
       pygments-filename: Elixir
@@ -18063,6 +18087,7 @@ files:
       vote: Ruby
   github.com/plataformatec/mox/3eb6e02f8a72d1c5fbdad1ac31d8e3e0891db1e8/mix.exs:
     annotations:
+      human-smola: Elixir
       linguist: Elixir
       linguist-extension: Elixir
       pygments-filename: Elixir
@@ -18075,10 +18100,11 @@ files:
       vote: Scala
   github.com/pljson/pljson/bd4184c0ab6f3bf9e5d25380705189c0158b5981/testsuite/pljson_ext.test.sql:
     annotations:
+      human-smola: PL/SQL
       linguist: SQL
       linguist-heuristics: SQL
       pygments-filename: SQL
-      vote: SQL
+      vote: PL/SQL
   github.com/ploeh/ZeroToNine/3497cf64e6f78921939b3096c363317775917906/Src/Zero29.UnitTests/Properties/AssemblyInfo.fs:
     annotations:
       human-smola: F#
@@ -18435,6 +18461,7 @@ files:
       vote: M4
   github.com/protocolbuffers/protobuf/0150f7f5325a83d4804fcd89f29c72f574da8043/src/google/protobuf/arenastring.h:
     annotations:
+      human-smola: C++
       linguist: C++
       linguist-heuristics: C++
       pygments-filename: C
@@ -19522,6 +19549,7 @@ files:
       vote: Pike
   github.com/rrrene/credo/da1d94013da1e8b699f4d5701c4f665e8ff19464/test/credo/config_file_test.exs:
     annotations:
+      human-smola: Elixir
       linguist: Elixir
       linguist-extension: Elixir
       pygments-filename: Elixir
@@ -20165,6 +20193,7 @@ files:
       vote: Rust
   github.com/seven1m/30-days-of-elixir/9aff3e5f492ff19f9c549dd42f103f0d27a47186/07-fibonacci.exs:
     annotations:
+      human-smola: Elixir
       linguist: Elixir
       linguist-extension: Elixir
       pygments-filename: Elixir
@@ -21236,8 +21265,10 @@ files:
       linguist-extension: eC
       pygments-filename: eC
       vote: Coq
+    notes: EasyCrypt Coq
   github.com/tfausak/fr2048/d29fb24f44ae10e7d8c460b65db68e4d6556b89b/fr2048/Renderer.fr:
     annotations:
+      human-smola: Frege
       linguist: Frege
       linguist-heuristics: Frege
       vote: Frege
@@ -21275,9 +21306,10 @@ files:
       vote: Oz
   github.com/that-tinsin-guy/Badger/75fc718435dd067558668fe4bf4d49f2c0162953/scripts/Badger.ash:
     annotations:
+      human-smola: KoLMafia ASH
       linguist: AGS Script
       linguist-extension: AGS Script
-      vote: AGS Script
+      vote: KoLMafia ASH
   github.com/the-couch/slater/d1a295f90a39fb59438243ef70c9fc217976064f/packages/sync/test/theme/templates/page.contact.liquid:
     annotations:
       linguist: Liquid
@@ -21632,6 +21664,7 @@ files:
       vote: Ruby
   github.com/topjohnwu/Magisk/46447f7cfd966da458e83f33b6205a89196fe598/native/jni/utils/include/blocking_queue.h:
     annotations:
+      human-smola: C++
       linguist: C++
       linguist-heuristics: C++
       pygments-filename: C
@@ -21978,6 +22011,7 @@ files:
       vote: CUDA
   github.com/ueberauth/guardian/957f006a35beb0d569b19150f1302431f92c8ff7/lib/guardian/plug/pipeline.ex:
     annotations:
+      human-smola: Elixir
       linguist: Elixir
       linguist-extension: Elixir
       pygments-filename: Elixir
@@ -22418,6 +22452,7 @@ files:
       vote: Logtalk
   github.com/vt-elixir/ja_serializer/574afb8d3170fa50e1f0dd918275936e32d06671/test/ja_serializer/param_parser_test.exs:
     annotations:
+      human-smola: Elixir
       linguist: Elixir
       linguist-extension: Elixir
       pygments-filename: Elixir
@@ -22661,6 +22696,7 @@ files:
       vote: AutoHotkey
   github.com/wojtekmach/acme_bank/cee19a490d2b3c04465273b7a6212d7e6a81f736/apps/backoffice/test/views/error_view_test.exs:
     annotations:
+      human-smola: Elixir
       linguist: Elixir
       linguist-extension: Elixir
       pygments-filename: Elixir
