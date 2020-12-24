@@ -1221,6 +1221,7 @@ files:
       vote: CLIPS
   github.com/DrWaleedAYousef/Teaching/18a0f7a4afe1020c10009f44adcfa80e60d07bbb/Probability/Code/Mathematica/Ch3_TheBivariateNormalAndConditionalDistributionsMODIFIED.nb:
     annotations:
+      human-smola: Wolfram Language
       linguist: Wolfram Language
       pygments-filename: Wolfram Language
       vote: Wolfram Language
@@ -20959,10 +20960,11 @@ files:
       vote: Perl
   github.com/sunakane/graduate/f84f1aa5d9e60919222a00a6905a243b1ab41f22/CollresMDfor1.0.ec:
     annotations:
+      human-smola: Coq
       linguist: eC
       linguist-extension: eC
       pygments-filename: eC
-      vote: eC
+      vote: Coq
   github.com/sund/tempbug/6a0cd6072759d5fb71135c1be174caa954e86988/tempbug.device.nut:
     annotations:
       linguist: Squirrel
