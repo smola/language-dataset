@@ -3,7 +3,7 @@
 import copy
 import requests
 import shutil
-from typing import Sequence
+from typing import Optional, Sequence, Tuple
 import yaml
 
 import logging
@@ -34,15 +34,19 @@ def add_linguist_languages(commit: str, meta: Meta):
         "Mathematica": "Wolfram Language",
         "Moocode": "MOO",
         "mupad": "MuPAD",
+        "prolog": "Prolog",
     }
 
     langs = get_linguist_languages(commit=commit)
-    for lang in langs:
+    for group, lang in langs:
         norm_lang = norm_langs.get(lang, lang)
-        meta.add_language(dataset="linguist", norm_lang=norm_lang, lang=lang)
+        norm_group = norm_langs.get(group, group)
+        meta.add_language(
+            dataset="linguist", norm_lang=norm_lang, lang=lang, group=norm_group
+        )
 
 
-def get_linguist_languages(commit: str) -> Sequence[str]:
+def get_linguist_languages(commit: str) -> Sequence[Tuple[Optional[str], str]]:
     logger.info("loading linguist languages.yml for commit %s" % commit)
     url = (
         "https://raw.githubusercontent.com/github/linguist/%s/lib/linguist/languages.yml"
@@ -51,7 +55,7 @@ def get_linguist_languages(commit: str) -> Sequence[str]:
     response = requests.get(url)
     response.raise_for_status()
     data = load_yaml_from_steam(response.content.decode("utf-8"))
-    return [l for l in data.keys()]
+    return [(data[l].get("group"), l) for l in data.keys()]
 
 
 def add_rosetta_code_languages(commit: str, meta: Meta):
@@ -234,6 +238,13 @@ def add_custom_languages(meta: Meta):
 
     for lang in langs:
         meta.add_language(dataset=dataset_name, norm_lang=lang, lang=lang)
+
+    meta.add_language(
+        dataset="linguist",
+        norm_lang="Literate Idris",
+        lang="Literate Idris",
+        group="Idris",
+    )
 
 
 def main():
