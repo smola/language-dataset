@@ -1,7 +1,7 @@
 import os
 import os.path
 import subprocess
-from typing import Sequence, Union
+from typing import Optional, Sequence, Union
 
 # XXX: long keys (>128 characters) will be prefixed with '?'
 #     This workaround prevents this behavior with Dumper.
@@ -59,7 +59,9 @@ class Meta(ConfObject):
     def add_dataset(self, name: str, data):
         self.data["datasets"][name] = data
 
-    def add_language(self, dataset: str, norm_lang: str, lang: str):
+    def add_language(
+        self, dataset: str, norm_lang: str, lang: str, group: Optional[str] = None
+    ):
         if "languages" not in self.data:
             self.data["languages"] = {}
         ld = self.data["languages"]
@@ -69,6 +71,8 @@ class Meta(ConfObject):
             ld[norm_lang]["maps_to"][dataset] = []
         if lang not in ld[norm_lang]["maps_to"][dataset]:
             ld[norm_lang]["maps_to"][dataset].append(lang)
+        if group:
+            ld[norm_lang]["group"] = group
 
     def to_normalized_language(self, dataset: str, lang) -> str:
         if lang == "Unknown":

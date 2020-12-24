@@ -196,6 +196,7 @@ languages:
       rosetta_code:
       - Alore
   Alpine Abuild:
+    group: Shell
     maps_to:
       linguist:
       - Alpine Abuild
@@ -242,6 +243,7 @@ languages:
       rosetta_code:
       - Apex
   Apollo Guidance Computer:
+    group: Assembly
     maps_to:
       linguist:
       - Apollo Guidance Computer
@@ -469,6 +471,7 @@ languages:
       rosetta_code:
       - Befunge
   BibTeX:
+    group: TeX
     maps_to:
       linguist:
       - BibTeX
@@ -479,6 +482,7 @@ languages:
       rosetta_code:
       - Biferno
   Bison:
+    group: Yacc
     maps_to:
       linguist:
       - Bison
@@ -607,6 +611,7 @@ languages:
       rosetta_code:
       - C1R
   C2hs Haskell:
+    group: Haskell
     maps_to:
       linguist:
       - C2hs Haskell
@@ -847,6 +852,7 @@ languages:
       pygments:
       - ClojureScript
   Closure Templates:
+    group: HTML
     maps_to:
       linguist:
       - Closure Templates
@@ -885,6 +891,7 @@ languages:
       rosetta_code:
       - ColdFusion
   ColdFusion CFC:
+    group: ColdFusion
     maps_to:
       linguist:
       - ColdFusion CFC
@@ -1005,6 +1012,7 @@ languages:
       pygments:
       - Cypher
   Cython:
+    group: Python
     maps_to:
       linguist:
       - Cython
@@ -1203,6 +1211,7 @@ languages:
       rosetta_code:
       - ECL
   ECLiPSe:
+    group: Prolog
     maps_to:
       linguist:
       - ECLiPSe
@@ -1215,6 +1224,7 @@ languages:
       rosetta_code:
       - EGL
   EJS:
+    group: HTML
     maps_to:
       linguist:
       - EJS
@@ -1251,6 +1261,7 @@ languages:
       pygments:
       - Earl Grey
   Easybuild:
+    group: Python
     maps_to:
       linguist:
       - Easybuild
@@ -1259,6 +1270,7 @@ languages:
       pygments:
       - Easytrieve
   Ecere Projects:
+    group: JavaScript
     maps_to:
       linguist:
       - Ecere Projects
@@ -1267,6 +1279,7 @@ languages:
       rosetta_code:
       - EchoLisp
   EditorConfig:
+    group: INI
     maps_to:
       linguist:
       - EditorConfig
@@ -1483,6 +1496,7 @@ languages:
       linguist:
       - Filebench WML
   Filterscript:
+    group: RenderScript
     maps_to:
       linguist:
       - Filterscript
@@ -1511,6 +1525,7 @@ languages:
       rosetta_code:
       - Forth
   Fortran:
+    group: Fortran
     maps_to:
       linguist:
       - Fortran
@@ -1675,10 +1690,12 @@ languages:
       rosetta_code:
       - Gentee
   Gentoo Ebuild:
+    group: Shell
     maps_to:
       linguist:
       - Gentoo Ebuild
   Gentoo Eclass:
+    group: Shell
     maps_to:
       linguist:
       - Gentoo Eclass
@@ -1703,10 +1720,12 @@ languages:
       pygments:
       - Gherkin
   Git Attributes:
+    group: INI
     maps_to:
       linguist:
       - Git Attributes
   Git Config:
+    group: INI
     maps_to:
       linguist:
       - Git Config
@@ -1811,6 +1830,7 @@ languages:
       rosetta_code:
       - Groovy
   Groovy Server Pages:
+    group: Groovy
     maps_to:
       linguist:
       - Groovy Server Pages
@@ -1859,6 +1879,7 @@ languages:
       pygments:
       - HTML+Cheetah
   HTML+Django:
+    group: HTML
     maps_to:
       linguist:
       - HTML+Django
@@ -1867,14 +1888,17 @@ languages:
       pygments:
       - HTML+Django/Jinja
   HTML+ECR:
+    group: HTML
     maps_to:
       linguist:
       - HTML+ECR
   HTML+EEX:
+    group: HTML
     maps_to:
       linguist:
       - HTML+EEX
   HTML+ERB:
+    group: HTML
     maps_to:
       linguist:
       - HTML+ERB
@@ -1905,12 +1929,14 @@ languages:
       pygments:
       - HTML+Myghty
   HTML+PHP:
+    group: HTML
     maps_to:
       linguist:
       - HTML+PHP
       pygments:
       - HTML+PHP
   HTML+Razor:
+    group: HTML
     maps_to:
       linguist:
       - HTML+Razor
@@ -2097,6 +2123,7 @@ languages:
       rosetta_code:
       - Idris
   Ignore List:
+    group: INI
     maps_to:
       linguist:
       - Ignore List
@@ -2165,6 +2192,7 @@ languages:
       pygments:
       - Isabelle
   Isabelle ROOT:
+    group: Isabelle
     maps_to:
       linguist:
       - Isabelle ROOT
@@ -2191,6 +2219,7 @@ languages:
       rosetta_code:
       - JCL
   JFlex:
+    group: Lex
     maps_to:
       linguist:
       - JFlex
@@ -2209,6 +2238,7 @@ languages:
       pygments:
       - JSON
   JSON with Comments:
+    group: JSON
     maps_to:
       linguist:
       - JSON with Comments
@@ -2231,6 +2261,7 @@ languages:
       linguist:
       - JSONiq
   JSX:
+    group: JavaScript
     maps_to:
       linguist:
       - JSX
@@ -2271,6 +2302,7 @@ languages:
       pygments:
       - Java Server Page
   Java Server Pages:
+    group: Java
     maps_to:
       linguist:
       - Java Server Pages
@@ -2295,6 +2327,7 @@ languages:
       pygments:
       - JavaScript+Django/Jinja
   JavaScript+ERB:
+    group: JavaScript
     maps_to:
       linguist:
       - JavaScript+ERB
@@ -2331,10 +2364,12 @@ languages:
       pygments:
       - Javascript+mozpreproc
   Jison:
+    group: Yacc
     maps_to:
       linguist:
       - Jison
   Jison Lex:
+    group: Lex
     maps_to:
       linguist:
       - Jison Lex
@@ -2533,6 +2568,7 @@ languages:
       rosetta_code:
       - Lang5
   Lark:
+    group: EBNF
     maps_to:
       linguist:
       - Lark
@@ -2625,12 +2661,14 @@ languages:
       rosetta_code:
       - Lisp
   Literate Agda:
+    group: Agda
     maps_to:
       linguist:
       - Literate Agda
       pygments:
       - Literate Agda
   Literate CoffeeScript:
+    group: CoffeeScript
     maps_to:
       linguist:
       - Literate CoffeeScript
@@ -2639,13 +2677,17 @@ languages:
       pygments:
       - Literate Cryptol
   Literate Haskell:
+    group: Haskell
     maps_to:
       linguist:
       - Literate Haskell
       pygments:
       - Literate Haskell
   Literate Idris:
+    group: Idris
     maps_to:
+      linguist:
+      - Literate Idris
       pygments:
       - Literate Idris
   LiveCode:
@@ -2729,6 +2771,7 @@ languages:
       rosetta_code:
       - M4
   M4Sugar:
+    group: M4
     maps_to:
       linguist:
       - M4Sugar
@@ -2811,6 +2854,7 @@ languages:
       linguist:
       - MTML
   MUF:
+    group: Forth
     maps_to:
       linguist:
       - MUF
@@ -3009,6 +3053,7 @@ languages:
       pygments:
       - Mosel
   Motorola 68K Assembly:
+    group: Assembly
     maps_to:
       linguist:
       - Motorola 68K Assembly
@@ -3029,6 +3074,7 @@ languages:
       linguist:
       - Muse
   Mustache:
+    group: HTML
     maps_to:
       linguist:
       - Mustache
@@ -3083,6 +3129,7 @@ languages:
       linguist:
       - NL
   NPM Config:
+    group: INI
     maps_to:
       linguist:
       - NPM Config
@@ -3217,6 +3264,7 @@ languages:
       pygments:
       - NuSMV
   NumPy:
+    group: Python
     maps_to:
       linguist:
       - NumPy
@@ -3337,6 +3385,7 @@ languages:
       linguist:
       - Open Policy Agent
   OpenCL:
+    group: C
     maps_to:
       linguist:
       - OpenCL
@@ -3359,6 +3408,7 @@ languages:
       linguist:
       - OpenQASM
   OpenRC runscript:
+    group: Shell
     maps_to:
       linguist:
       - OpenRC runscript
@@ -3505,10 +3555,12 @@ languages:
       linguist:
       - Parrot
   Parrot Assembly:
+    group: Parrot
     maps_to:
       linguist:
       - Parrot Assembly
   Parrot Internal Representation:
+    group: Parrot
     maps_to:
       linguist:
       - Parrot Internal Representation
@@ -3558,6 +3610,7 @@ languages:
       rosetta_code:
       - Phix
   Pic:
+    group: Roff
     maps_to:
       linguist:
       - Pic
@@ -3638,6 +3691,7 @@ languages:
       rosetta_code:
       - Pop11
   PostCSS:
+    group: CSS
     maps_to:
       linguist:
       - PostCSS
@@ -3785,12 +3839,14 @@ languages:
       rosetta_code:
       - Python
   Python console:
+    group: Python
     maps_to:
       linguist:
       - Python console
       pygments:
       - Python console session
   Python traceback:
+    group: Python
     maps_to:
       linguist:
       - Python traceback
@@ -3986,6 +4042,7 @@ languages:
       linguist:
       - ReScript
   Readline Config:
+    group: INI
     maps_to:
       linguist:
       - Readline Config
@@ -4086,6 +4143,7 @@ languages:
       linguist:
       - Roff
   Roff Manpage:
+    group: Roff
     maps_to:
       linguist:
       - Roff Manpage
@@ -4213,10 +4271,12 @@ languages:
       rosetta_code:
       - SSEM
   SSH Config:
+    group: INI
     maps_to:
       linguist:
       - SSH Config
   STON:
+    group: Smalltalk
     maps_to:
       linguist:
       - STON
@@ -4267,6 +4327,7 @@ languages:
       pygments:
       - Scalate Server Page
   Scaml:
+    group: HTML
     maps_to:
       linguist:
       - Scaml
@@ -4531,6 +4592,7 @@ languages:
       linguist:
       - SubRip Text
   SugarSS:
+    group: CSS
     maps_to:
       linguist:
       - SugarSS
@@ -4633,6 +4695,7 @@ languages:
       linguist:
       - TSV
   TSX:
+    group: TypeScript
     maps_to:
       linguist:
       - TSX
@@ -4657,6 +4720,7 @@ languages:
       rosetta_code:
       - Tcl
   Tcsh:
+    group: Shell
     maps_to:
       linguist:
       - Tcsh
@@ -4837,6 +4901,7 @@ languages:
       rosetta_code:
       - Uniface
   Unified Parallel C:
+    group: C
     maps_to:
       linguist:
       - Unified Parallel C
@@ -4845,6 +4910,7 @@ languages:
       linguist:
       - Unity3D Asset
   Unix Assembly:
+    group: Assembly
     maps_to:
       linguist:
       - Unix Assembly
@@ -5049,6 +5115,7 @@ languages:
       linguist:
       - WebVTT
   Wget Config:
+    group: INI
     maps_to:
       linguist:
       - Wget Config
@@ -5100,6 +5167,7 @@ languages:
       rosetta_code:
       - Wren
   X BitMap:
+    group: C
     maps_to:
       linguist:
       - X BitMap
@@ -5108,6 +5176,7 @@ languages:
       linguist:
       - X Font Directory Index
   X PixMap:
+    group: C
     maps_to:
       linguist:
       - X PixMap
@@ -5144,6 +5213,7 @@ languages:
       pygments:
       - XML
   XML Property List:
+    group: XML
     maps_to:
       linguist:
       - XML Property List
@@ -5360,6 +5430,7 @@ languages:
       pygments:
       - cADL
   cURL Config:
+    group: INI
     maps_to:
       linguist:
       - cURL Config
@@ -5400,6 +5471,7 @@ languages:
       pygments:
       - execline
   fish:
+    group: Shell
     maps_to:
       linguist:
       - fish
@@ -5427,6 +5499,7 @@ languages:
       pygments:
       - mozpercentpreproc
   nanorc:
+    group: INI
     maps_to:
       linguist:
       - nanorc
