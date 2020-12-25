@@ -1708,9 +1708,11 @@ files:
       vote: Markdown
   github.com/GillesArcas/sapid-lisp/2775bcf84a0ccf99a4d2aa327d2a3d254b3b9d5f/print.l:
     annotations:
+      human-smola: Unknown
       linguist: PicoLisp
       linguist-heuristics: PicoLisp
-      vote: PicoLisp
+      vote: Unknown
+    notes: Lisp (sapid-lisp)
   github.com/GillesK/Protheus-Advpl-OO-Framework/514471f006072209b0febb2221939b2cd07e4d20/Importacao/TSICExeAut.prw:
     annotations:
       human-smola: xBase
@@ -2505,9 +2507,10 @@ files:
       vote: TXL
   github.com/Kylebrown9/BabyShark/365223466ad173cd7a68f26c419e43013e5a73b4/baby_shark.bf:
     annotations:
+      human-smola: Befunge
       linguist: HyPhy
       pygments-filename: Brainfuck
-      vote: HyPhy
+      vote: Befunge
   github.com/LEXBLAS/jsonapi/47c21a87939a74561fd2161fa8dc741fef6ebb84/tar115.sra:
     annotations:
       linguist: PowerBuilder
@@ -2869,6 +2872,7 @@ files:
       linguist: Hack
       pygments-filename: PHP
       vote: HTML
+    notes: HTML with garbage
   github.com/MediaBrowser/Emby.Roku/0908e13f68433284c1b411f094a1be62cf781ec4/source/PhotoSpringboardScreen.brs:
     annotations:
       linguist: Brightscript
@@ -3237,6 +3241,7 @@ files:
       vote: NSIS
   github.com/OCamlPro/ocp-typechecker/cd37d443d627ceb22289685995a0356da96f7fe8/autoconf/m4/ax_compare_version.m4:
     annotations:
+      human-smola: M4Sugar
       linguist: M4Sugar
       vote: M4Sugar
   github.com/OSEHRA-Sandbox/VistA/886b9c4c5043ad75173d3667287efe8b7706ec05/Packages/Integrated Billing/Patches/IB_2.0_501/IB-2_SEQ-453_PAT-501.KID:
@@ -3559,10 +3564,11 @@ files:
       vote: TSQL
   github.com/PavlezT/Tiva-MCU-TM4C123G-LaunchPad/88256c7ba6b5ac657f10a13b3e6cee4afd6b26b0/blinkyAlien/Debug/bme280_old.rl:
     annotations:
+      human-smola: Unknown
       linguist: Ragel
       linguist-extension: Ragel
       pygments-filename: Ragel
-      vote: Ragel
+      vote: Unknown
   github.com/Pebaz/RGB/6736ea0f3898a334050589fdc1074022a27273c3/example/multiple_struct_variable_declarations.reds:
     annotations:
       human-smola: Red
@@ -7754,10 +7760,10 @@ files:
       vote: Unknown
   github.com/chrislgarry/Apollo-11/e7bf183694150b77d30bdb9a8ca16a49b205993f/Luminary099/DAPIDLER_PROGRAM.agc:
     annotations:
-      human-smola: Assembly
+      human-smola: Apollo Guidance Computer
       linguist: Apollo Guidance Computer
       linguist-extension: Apollo Guidance Computer
-      vote: Assembly
+      vote: Apollo Guidance Computer
   github.com/christianguenter2/sitFRA_2016/b6fadfbda61033d70b6b3d19ca10c15cf1bec4fa/z_sitfra_2016_.prog.abap:
     annotations:
       linguist: ABAP
@@ -9145,9 +9151,10 @@ files:
       vote: Shell
   github.com/dolphinsmalltalk/Dolphin/1444c854e9fa57527ec69c27b8b7a49f17d36749/Core/Object Arts/Dolphin/MVP/Presenters/Collection/SequenceableCollectionPresenter.cls:
     annotations:
+      human-smola: Smalltalk
       linguist: ObjectScript
       pygments-filename: OpenEdge ABL
-      vote: ObjectScript
+      vote: Smalltalk
   github.com/dom96/jester/90add2db1f18f193b0ec3514da3df5f1c6e4db4f/jester/private/utils.nim:
     annotations:
       linguist: Nim
@@ -12562,6 +12569,7 @@ files:
       vote: QMake
   github.com/idl-coyote/catalyst/778d0c36f5cd2e848415dd1e9ed1e5860b2dd71b/source/core/catlayer__define.pro:
     annotations:
+      human-smola: IDL
       linguist: IDL
       pygments-filename: Prolog
       vote: IDL
@@ -14125,10 +14133,11 @@ files:
       vote: Grace
   github.com/khagag/tiva_c_dynamic_drivers/97fccef2e18580c690883f1257c75eee2add9ea1/Release/tm4c123gh6pm_startup_ccs.rl:
     annotations:
+      human-smola: Unknown
       linguist: Ragel
       linguist-extension: Ragel
       pygments-filename: Ragel
-      vote: Ragel
+      vote: Unknown
   "github.com/khanhvu207/competitiveprogramming/5cc7b020c0fd64b6d84e4c0cba1256225803814b/CST 2019/Th\u1EA7y Vinh/T13/CHAMTUAN13/debai/room/room.i3":
     annotations:
       human-smola: Unknown
@@ -14326,7 +14335,9 @@ files:
       vote: Gosu Template
   github.com/kragen/stoneknifeforth/67ae4f422d4b5740cf335c0894e80a007744f0d2/onescreen.tbf1:
     annotations:
+      human-smola: Unknown
       vote: Unknown
+    notes: Forth-inspired toy language
   github.com/krimple/spring-roo-in-action-examples/1d4e83f4ad43916f246ab027621cc32b12019a34/chapter-10-email-jms/coursemanager-email-jms/src/main/java/org/rooinaction/coursemanager/web/CourseRegistrationController_Roo_Controller.aj:
     annotations:
       linguist: AspectJ
@@ -16695,6 +16706,7 @@ files:
       vote: Perl
   github.com/nfisher/gir/55e52b7647141e0f9ad64e906bd0b144672063ea/graphql_values.rl:
     annotations:
+      human-smola: Ragel
       linguist: Ragel
       linguist-extension: Ragel
       pygments-filename: Ragel
@@ -18973,6 +18985,7 @@ files:
       vote: Batchfile
   github.com/reasonml-community/reason-react-hacker-news/8ba4b7855e7c40cd5f2d575beb9a381c8f8ff7e5/src/StoryListItem.re:
     annotations:
+      human-smola: Reason
       linguist: Reason
       linguist-heuristics: Reason
       pygments-filename: Reason
@@ -19453,6 +19466,7 @@ files:
       vote: LOLCODE
   github.com/rodrigogribeiro/agda-software-foundations/db41971ac28d18ba304e202d9c92e77f34afac80/SfLib.lagda:
     annotations:
+      human-smola: Literate Agda
       linguist: Literate Agda
       linguist-extension: Literate Agda
       pygments-filename: Literate Agda

@@ -3,9 +3,9 @@
 
 | Metric | Value |
 | ------ | ----- |
-| **Languages** | 261 |
-| **Total samples** | 3860 |
-| **Samples labeled by humans** | 729 |
+| **Languages** | 260 |
+| **Total samples** | 3857 |
+| **Samples labeled by humans** | 736 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -26,10 +26,11 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Alloy | 19 | 0 |
 | AngelScript | 2 | 0 |
 | Apex | 20 | 1 |
+| Apollo Guidance Computer | 1 | 1 |
 | AppleScript | 19 | 2 |
 | Arc | 20 | 3 |
 | AspectJ | 20 | 2 |
-| Assembly | 15 | 6 |
+| Assembly | 14 | 5 |
 | Asymptote | 20 | 0 |
 | Augeas | 19 | 0 |
 | AutoHotkey | 20 | 1 |
@@ -38,7 +39,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | BCPL | 1 | 1 |
 | Ballerina | 20 | 0 |
 | Batchfile | 20 | 1 |
-| Befunge | 1 | 1 |
+| Befunge | 2 | 2 |
 | BlitzMax | 20 | 1 |
 | Boo | 15 | 0 |
 | Brainfuck | 20 | 1 |
@@ -118,8 +119,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | HiveQL | 14 | 2 |
 | HolyC | 9 | 0 |
 | Hy | 20 | 0 |
-| HyPhy | 1 | 0 |
-| IDL | 12 | 1 |
+| IDL | 12 | 2 |
 | IGOR Pro | 20 | 0 |
 | INI | 2 | 2 |
 | Idris | 18 | 1 |
@@ -145,14 +145,14 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Lasso | 9 | 2 |
 | Limbo | 17 | 0 |
 | Liquid | 20 | 3 |
-| Literate Agda | 2 | 1 |
+| Literate Agda | 2 | 2 |
 | Literate CoffeeScript | 1 | 1 |
 | Literate Idris | 2 | 2 |
 | LiveScript | 20 | 2 |
 | Logtalk | 20 | 1 |
 | Lua | 21 | 2 |
 | M4 | 3 | 3 |
-| M4Sugar | 13 | 4 |
+| M4Sugar | 13 | 5 |
 | MATLAB | 23 | 16 |
 | MAXScript | 17 | 1 |
 | Makefile | 17 | 1 |
@@ -172,7 +172,6 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Nit | 19 | 0 |
 | Nix | 18 | 0 |
 | OCaml | 12 | 2 |
-| ObjectScript | 1 | 0 |
 | Objective-C | 19 | 19 |
 | Objective-C++ | 1 | 1 |
 | Opa | 19 | 1 |
@@ -187,7 +186,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | POV-Ray SDL | 2 | 0 |
 | Pascal | 20 | 1 |
 | Perl | 20 | 3 |
-| PicoLisp | 20 | 5 |
+| PicoLisp | 19 | 5 |
 | Pike | 20 | 1 |
 | Pony | 20 | 0 |
 | PostScript | 8 | 0 |
@@ -205,10 +204,10 @@ For each language, the table reports total number of samples (_Samples_) and how
 | REALbasic | 20 | 11 |
 | REXX | 18 | 3 |
 | Racket | 20 | 0 |
-| Ragel | 17 | 0 |
+| Ragel | 15 | 1 |
 | Raku | 11 | 9 |
 | Rascal | 20 | 0 |
-| Reason | 7 | 5 |
+| Reason | 7 | 6 |
 | Rebol | 18 | 7 |
 | Red | 19 | 2 |
 | RenderScript | 4 | 1 |
@@ -227,7 +226,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Shell | 22 | 8 |
 | Shen | 19 | 3 |
 | Slice | 6 | 0 |
-| Smalltalk | 17 | 0 |
+| Smalltalk | 18 | 1 |
 | Squirrel | 20 | 1 |
 | Stata | 17 | 1 |
 | SuperCollider | 19 | 4 |
