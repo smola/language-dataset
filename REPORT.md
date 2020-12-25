@@ -4,8 +4,8 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 260 |
-| **Total samples** | 3857 |
-| **Samples labeled by humans** | 736 |
+| **Total samples** | 3840 |
+| **Samples labeled by humans** | 742 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -35,7 +35,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Augeas | 19 | 0 |
 | AutoHotkey | 20 | 1 |
 | AutoIt | 20 | 0 |
-| Awk | 20 | 3 |
+| Awk | 19 | 2 |
 | BCPL | 1 | 1 |
 | Ballerina | 20 | 0 |
 | Batchfile | 20 | 1 |
@@ -163,7 +163,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Modula-3 | 16 | 1 |
 | Monkey | 20 | 4 |
 | NSIS | 20 | 0 |
-| Nearley | 16 | 0 |
+| Nearley | 13 | 0 |
 | Nemerle | 14 | 2 |
 | NetLinx | 20 | 1 |
 | NetLogo | 19 | 0 |
@@ -206,7 +206,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Racket | 20 | 0 |
 | Ragel | 15 | 1 |
 | Raku | 11 | 9 |
-| Rascal | 20 | 0 |
+| Rascal | 7 | 7 |
 | Reason | 7 | 6 |
 | Rebol | 18 | 7 |
 | Red | 19 | 2 |
