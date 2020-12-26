@@ -5,7 +5,7 @@
 | ------ | ----- |
 | **Languages** | 260 |
 | **Total samples** | 3857 |
-| **Samples labeled by humans** | 747 |
+| **Samples labeled by humans** | 748 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -96,7 +96,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Forth | 16 | 2 |
 | Fortran | 20 | 5 |
 | FreeMarker | 18 | 2 |
-| Frege | 14 | 2 |
+| Frege | 13 | 2 |
 | G-code | 1 | 1 |
 | GAP | 7 | 0 |
 | GDScript | 2 | 2 |
@@ -110,7 +110,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Gosu Template | 1 | 1 |
 | Grace | 20 | 1 |
 | Groovy | 20 | 1 |
-| HTML | 7 | 7 |
+| HTML | 8 | 8 |
 | Hack | 14 | 3 |
 | Handlebars | 1 | 1 |
 | Harbour | 18 | 2 |

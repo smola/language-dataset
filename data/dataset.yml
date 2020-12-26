@@ -4407,10 +4407,11 @@ files:
       vote: Turing
   github.com/SuriyaaKudoIsc/Apache-v2.4.10-Win32/e7640733ba91a15808a301337e38a58f0e73c12c/manual/rewrite/intro.html.fr:
     annotations:
+      human-smola: HTML
       linguist: Frege
       linguist-heuristics: Frege
       linguist-xml: XML
-      vote: Frege
+      vote: HTML
   github.com/SwiftForWindows/SwiftForWindows/908c68d93170140ecd932527c4d76bf9f7a8f21f/SwiftForWIndows.nsi:
     annotations:
       linguist: NSIS
