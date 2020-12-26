@@ -4,7 +4,7 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 260 |
-| **Total samples** | 3845 |
+| **Total samples** | 3857 |
 | **Samples labeled by humans** | 747 |
 
 ## Per Language
@@ -18,7 +18,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | ANTLR | 19 | 3 |
 | API Blueprint | 5 | 1 |
 | APL | 17 | 1 |
-| ASP.NET | 8 | 0 |
+| ASP.NET | 20 | 0 |
 | ATS | 20 | 2 |
 | ActionScript | 21 | 21 |
 | Ada | 20 | 20 |

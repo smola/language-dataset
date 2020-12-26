@@ -877,6 +877,12 @@ files:
       linguist-extension: SAS
       pygments-filename: SAS
       vote: SAS
+  "github.com/CcLmL/C-Daily/d29f0dd3f165d89da356381be601e2a5d7f9ea46/\u5B78\u7FD2\u8CC7\u6599/. Net\u958B\u767C/ASP.NET 2.0 \u4F01\u4E1A\u7EA7\u9879\u76EE\u5F00\u53D1/\u5BA2\u6237\u5173\u7CFB\u7BA1\u7406\u7CFB\u7EDF/SQL Server2003\u6E90\u4EE3\u7801/controls/AddLinkRecord.ascx":
+    annotations:
+      linguist: ASP.NET
+      linguist-extension: ASP.NET
+      pygments-filename: ASP.NET
+      vote: ASP.NET
   github.com/Chadderz121/wii-ct-code/8aaf1a879d276b55c4eb2abdf916e2727e4dfa81/bad0/bad0Data/mod/mod0.mod:
     annotations:
       human-smola: Unknown
@@ -4089,6 +4095,12 @@ files:
       linguist: Smalltalk
       pygments-filename: Smalltalk
       vote: Smalltalk
+  github.com/SeeCode/mdws/d83054bf4a0c3e31dcc4aa6b3b68a16b97b820d1/mdws/Global.asax:
+    annotations:
+      linguist: ASP.NET
+      linguist-extension: ASP.NET
+      pygments-filename: ASP.NET
+      vote: ASP.NET
   github.com/Seilim/CaffeLink/efd16474e3a19e73ed091fffa98aa062259cd33f/module/demo/liblink-test.nb:
     annotations:
       linguist: Wolfram Language
@@ -11983,6 +11995,12 @@ files:
       linguist-heuristics: Gosu
       pygments-filename: Gosu
       vote: Gosu
+  github.com/harshitachaudhary/all-family-bima-point/d875bd3586ff167ee82eb2e3fa085a330a984476/insurance two(27-06-18)/panel_panel/create-plan.aspx:
+    annotations:
+      linguist: ASP.NET
+      linguist-extension: ASP.NET
+      pygments-filename: ASP.NET
+      vote: ASP.NET
   github.com/haruyama/CTMCP/d826745f84b8e20b22fc2eb53ea70995030a11db/chap08ex.oz:
     annotations:
       linguist: Oz
@@ -12498,6 +12516,12 @@ files:
       linguist-extension: CUDA
       pygments-filename: CUDA
       vote: CUDA
+  github.com/hungtien408/web-songviet/b20ca9c05ad3e893a88b6eb238fa1ab4e5a89f69/3-source/songviet_source/tin-tuc.aspx:
+    annotations:
+      linguist: ASP.NET
+      linguist-extension: ASP.NET
+      pygments-filename: ASP.NET
+      vote: ASP.NET
   github.com/hustkisas/UC-Model-AMPL/c603dcbfcab6ec34a6671a319e875b0bd9dc1a69/3375BUS/uc_model-new.mod:
     annotations:
       human-smola: AMPL
@@ -13100,6 +13124,12 @@ files:
       linguist-extension: Haskell
       pygments-filename: Haskell
       vote: Haskell
+  github.com/jatpat/openvss/3b5a44a6ebe5450835016a141c5a7dcf027f53c4/VsSrc/VsUtils/Nlog/nlog-1.0-src/NLog-1.0/webtest/global.asax:
+    annotations:
+      linguist: ASP.NET
+      linguist-extension: ASP.NET
+      pygments-filename: ASP.NET
+      vote: ASP.NET
   github.com/java-prolog-connectivity/mapquery/6883409e6e5aa4837b6687ffc9892895cf8fe8d0/src/main/resources/org/jpc/examples/osm/osm_tests.lgt:
     annotations:
       linguist: Logtalk
@@ -14686,6 +14716,12 @@ files:
       linguist-extension: AppleScript
       pygments-filename: AppleScript
       vote: AppleScript
+  github.com/lbbgit/MyDemoProjects/506768c391975443b0dfad1940fbb94823eac61e/Everywhere/NetFrame45/NetFrame45/child-WS4/Chat.aspx:
+    annotations:
+      linguist: ASP.NET
+      linguist-extension: ASP.NET
+      pygments-filename: ASP.NET
+      vote: ASP.NET
   github.com/lboasso/oberonc/688da3d12b2b04c25f6f3d7f132543aa488fe0e5/tests/base/TestByteType.Mod:
     annotations:
       linguist: Modula-2
@@ -15336,6 +15372,12 @@ files:
       linguist: DataWeave
       linguist-extension: DataWeave
       vote: DataWeave
+  github.com/mahima1198/Projects/34cc6d703d64d151af12557520460e51c9dee957/Comic Book Website/Batman.aspx:
+    annotations:
+      linguist: ASP.NET
+      linguist-extension: ASP.NET
+      pygments-filename: ASP.NET
+      vote: ASP.NET
   github.com/mainframed/MiniLabs/00431025c7a519e0589a2af25a24a3960ab09738/Extra/APF.rexx:
     annotations:
       linguist: REXX
@@ -15455,6 +15497,12 @@ files:
       linguist: AMPL
       pygments-filename: Modula-2
       vote: AMPL
+  github.com/mark-liuyanjun/openvss/3b5a44a6ebe5450835016a141c5a7dcf027f53c4/VsSrc/VsUtils/Nlog/nlog-1.0-src/NLog-1.0/examples/targets/Configuration API/ASPNetTrace/test.aspx:
+    annotations:
+      linguist: ASP.NET
+      linguist-extension: ASP.NET
+      pygments-filename: ASP.NET
+      vote: ASP.NET
   github.com/markcwm/openb3dmax.mod/c43e78e2e117dba8e880fe7fafdb3bc17e845360/openb3dlib.mod/openb3dlib.bmx:
     annotations:
       linguist: BlitzMax
@@ -16357,6 +16405,12 @@ files:
       pygments-filename: eC
       vote: Coq
     notes: EasyCrypt Coq
+  github.com/mosa99/BlogEngine/def2bdc02356d9eeff5be1a781a5148df71ba628/Source/BlogEngine/BlogEngine.NET/archive.aspx:
+    annotations:
+      linguist: ASP.NET
+      linguist-extension: ASP.NET
+      pygments-filename: ASP.NET
+      vote: ASP.NET
   github.com/moshowgame/SpringBootCodeGenerator/b7861ca9fc2ea542d4fc446953c8964b691d61f5/generator-web/src/main/resources/templates/code-generator/mybatis/mybatis.ftl:
     annotations:
       linguist: FreeMarker
@@ -19772,6 +19826,12 @@ files:
       linguist: RenderScript
       pygments-filename: Rust
       vote: Go
+  github.com/rushbq/ProductCenter/c526ea3efc8247a6f19b620670997ee1fbfd8fc2/Ajax_Data/GetData_erpSupplier.ashx:
+    annotations:
+      linguist: ASP.NET
+      linguist-extension: ASP.NET
+      pygments-filename: ASP.NET
+      vote: ASP.NET
   github.com/ruslo/hunter/eacae658ad6ebb63d79acf1c2f62564b5b7afce9/cmake/projects/Qt/qttools/hunter.cmake:
     annotations:
       linguist: CMake
@@ -20191,6 +20251,12 @@ files:
       linguist-extension: ABAP
       pygments-filename: ABAP
       vote: ABAP
+  github.com/searchpilots/umbraco/9c5fc339338fc3125ac5dea609a1dfc0a5dd0396/AarhusWebDevCoop/Umbraco/Dialogs/protectPage.aspx:
+    annotations:
+      linguist: ASP.NET
+      linguist-extension: ASP.NET
+      pygments-filename: ASP.NET
+      vote: ASP.NET
   github.com/seata/seata/4f286878ed5690ecdca4df5d695053259fd5c646/core/src/main/java/io/seata/core/rpc/ClientType.java:
     annotations:
       linguist: Java
@@ -20241,6 +20307,12 @@ files:
       linguist: Prolog
       pygments-filename: Prolog
       vote: Prolog
+  github.com/sedogo/Sedogo/44f28ca18804b60d62ff626b0843ffc9aab6884e/site/branches/ref_v1/admin/main.aspx:
+    annotations:
+      linguist: ASP.NET
+      linguist-extension: ASP.NET
+      pygments-filename: ASP.NET
+      vote: ASP.NET
   github.com/sentry07/netlinx-libJSON/cf09cc6798e5d141d49b47bf4aeb206fd971b0be/libJSON.axi:
     annotations:
       linguist: NetLinx
