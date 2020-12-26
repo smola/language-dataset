@@ -1159,9 +1159,9 @@ files:
       vote: Nit
   github.com/DennisYurichev/challenges.re/a9ba2b6db442d408bb00266abef3431e3d403a2a/9/index.m4:
     annotations:
-      human-smola: M4
+      human-smola: M4Sugar
       linguist: M4Sugar
-      vote: M4
+      vote: M4Sugar
   github.com/DestructHub/computer-programs-paradigms/b2f4dd285cf61d351b8ee0fc151b627f7edba2f7/05_tree_and_computational_complexity/01_trees/02_sort_with_tree.oz:
     annotations:
       linguist: Oz
@@ -1498,9 +1498,10 @@ files:
       vote: CLIPS
   github.com/FireHatLabs/backdraft-client-example/1343d97d4a876ccc9728dd8141059964cd436aaa/app/public/hb/registration.hb:
     annotations:
+      human-smola: Handlebars
       linguist: Harbour
       linguist-extension: Harbour
-      vote: Harbour
+      vote: Handlebars
   github.com/FlaviusAetius/furry-octo-computing-machine/362215277e32606ffc22869f342777cbe091de1e/chips/Mux.tst:
     annotations:
       linguist: Scilab
@@ -2980,9 +2981,10 @@ files:
       vote: Julia
   github.com/Mille366/Hourboost/bb39c8cf698f57378f31060343456164dea0ad23/Release/HourBoostr/GlobalDB.hb:
     annotations:
+      human-smola: JSON
       linguist: Harbour
       linguist-extension: Harbour
-      vote: Harbour
+      vote: JSON
   "github.com/MisterBooo/LeetCodeAnimation/a0346c24c8d98aa58fabafd4d84b950edcc12ee1/notes/LeetCode\u7B2C24\u53F7\u95EE\u9898\uFF1A\u4E24\u4E24\u4EA4\u6362\u94FE\u8868\u4E2D\u7684\u8282\u70B9.md":
     annotations:
       human-smola: Markdown
@@ -3740,9 +3742,10 @@ files:
       vote: Batchfile
   github.com/ProfFan/render2plasmid/e438c95f22196e40a1b229dd4d6ecfd52bc6fd56/render.hb:
     annotations:
+      human-smola: Handlebars
       linguist: Harbour
       linguist-extension: Harbour
-      vote: Harbour
+      vote: Handlebars
   github.com/ProjectDent/ARKit-CoreLocation/f302e970055dbc4739082168f49eb7906294e52e/Node Demos/PickerViewController.swift:
     annotations:
       linguist: Swift
@@ -4152,9 +4155,10 @@ files:
       vote: Shen
   github.com/ShizouHeiwajima/HourBoostr/2971df4ca7d88fd9c0610b4440facb419939758f/GlobalDB.hb:
     annotations:
+      human-smola: JSON
       linguist: Harbour
       linguist-extension: Harbour
-      vote: Harbour
+      vote: JSON
   github.com/Shopify/shopify-css-import/68b660e1ea258795f10b9cad5677a12c479d645f/css/_reset.scss.liquid:
     annotations:
       human-smola: Liquid
@@ -4688,9 +4692,11 @@ files:
       vote: Markdown
   github.com/Toubic/Traveller/9368954bb1fd959f77dfa5d9825fa3e3e36afd39/views/partials/selectCountry.hb:
     annotations:
+      human-smola: Handlebars
       linguist: Harbour
       linguist-extension: Harbour
-      vote: Harbour
+      vote: Handlebars
+    notes: HTML fragment with Handlebars extension
   github.com/Trendyol/android-guidelines/395b78a6d47ea3379d43e4237f727f438849f83d/android_studio_live_templates/file_and_code_templates/TrendyolData/recipe.xml.ftl:
     annotations:
       linguist: FreeMarker
@@ -6795,6 +6801,7 @@ files:
       linguist: NewLisp
       pygments-filename: Common Lisp
       vote: Scheme
+    notes: Lispy-like?
   github.com/bbvbb/ChineseFan/d79f1a7e2ea3565d918cab12752a01e81d67423e/ChineseFan-0.0.1-zh_CN.mse:
     annotations:
       human-smola: Unknown
@@ -6891,9 +6898,10 @@ files:
       vote: Apex
   github.com/bencord0/blogposts/dd4efcc0cf94899a60f941f490e5bcdc59bb0735/templates/entry.html.hb:
     annotations:
+      human-smola: Handlebars
       linguist: Harbour
       linguist-extension: Harbour
-      vote: Harbour
+      vote: Handlebars
   github.com/bendmorris/krit/c95a910d0d6a8b8696070355518b76a3cc333adc/backend/sdl/shaders/shader.kit:
     annotations:
       linguist: Kit
@@ -7360,6 +7368,7 @@ files:
       vote: Elm
   github.com/brzozi/harbour-commander/3071c772fcb7b5a9b4a8674017becfe9cd492bd7/hc.hb:
     annotations:
+      human-smola: Harbour
       linguist: Harbour
       linguist-extension: Harbour
       vote: Harbour
@@ -11717,9 +11726,10 @@ files:
       vote: OCaml
   github.com/grantrules/articles/79a0e641e2dc0ca4df16e921cce0a310206e2a7a/assets/templates/article.hb:
     annotations:
+      human-smola: Handlebars
       linguist: Harbour
       linguist-extension: Harbour
-      vote: Harbour
+      vote: Handlebars
   github.com/grapefrukt/grapefrukt-export/7406dd75e51279d347b8fd26af834ab1b5b386e6/src/com/grapefrukt/exporter/events/FunctionQueueEvent.as:
     annotations:
       human-smola: ActionScript
@@ -13068,9 +13078,11 @@ files:
       vote: Raku
   github.com/jarchuleta/node_instagram/54e18d690696a9dda2162ced833af2ece250a444/views/login.hb:
     annotations:
+      human-smola: Handlebars
       linguist: Harbour
       linguist-extension: Harbour
-      vote: Harbour
+      vote: Handlebars
+    notes: HTML fragment with Handlebars extension
   github.com/jaredpalmer/formik/5553720b5d6c9729cb3b12fd7948f28ad3be9adc/test/Field.test.tsx:
     annotations:
       human-smola: TSX
@@ -13378,10 +13390,12 @@ files:
       vote: Unknown
   github.com/jgarber/redcloth/dd7ee6caaa6c899f4d5389c1b2fe4a17f1e5f326/ragel/redcloth_scan.rb.rl:
     annotations:
+      human-smola: Ragel
       linguist: Ragel
       linguist-extension: Ragel
       pygments-filename: Ragel
       vote: Ragel
+    notes: Ragel+Ruby
   github.com/jgilfillan/Niz-Plum-84EC-S-Pro-Ble-Non-RGB-manual/37ccc61a1745b2fb295d931a29a097bb722751fe/custom keymaps/my_customer_mapping.pro:
     annotations:
       human-smola: XML
@@ -13992,9 +14006,10 @@ files:
       vote: Nemerle
   github.com/kaelzhang/lua-gaia/14b34bd757b43f4574ac5d6539811b6fe4fa0a34/nginx/config/redis.hb:
     annotations:
+      human-smola: Handlebars
       linguist: Harbour
       linguist-extension: Harbour
-      vote: Harbour
+      vote: Handlebars
   github.com/kagof/BefungeRepo/d18f20c8a0fa864e8ba83fd0afa5416434079266/NumberGuesser.bf:
     annotations:
       human-smola: Befunge
@@ -14815,9 +14830,10 @@ files:
       vote: YASnippet
   github.com/leocwolter/caelux/7c3df5f037ff8f3cc2e6f6c5d0ff81d057f17914/src/layouts/default.html.hb:
     annotations:
+      human-smola: Handlebars
       linguist: Harbour
       linguist-extension: Harbour
-      vote: Harbour
+      vote: Handlebars
   github.com/leon-vv/Todo/2563287306b7cdc901b7d3a8fbefc8229e4e1a62/Main.idr:
     annotations:
       linguist: Idris
@@ -15353,9 +15369,10 @@ files:
       vote: OpenSCAD
   github.com/magecoach/run.mage.coach/baf02f8cd929d212fc2629da58b1da9263246011/server/views/home.hb:
     annotations:
+      human-smola: Handlebars
       linguist: Harbour
       linguist-extension: Harbour
-      vote: Harbour
+      vote: Handlebars
   github.com/magnesium-lang/scratch/126aac1e82f033f387cc4b0ed74ffc1e23a7797e/scratch.mg:
     annotations:
       human-smola: Unknown
@@ -17260,6 +17277,7 @@ files:
       vote: HolyC
   github.com/obecebo/gihon/b680416a1c644af89d9448918032c27ae2e536b8/Command.HC:
     annotations:
+      human-smola: HolyC
       linguist: HolyC
       linguist-extension: HolyC
       vote: HolyC
@@ -18604,6 +18622,7 @@ files:
       human-smola: M4
       linguist: M4Sugar
       vote: M4
+    notes: Dockerfile fragment with M4 extension
   github.com/protocolbuffers/protobuf/0150f7f5325a83d4804fcd89f29c72f574da8043/src/google/protobuf/arenastring.h:
     annotations:
       human-smola: C++
@@ -19160,9 +19179,10 @@ files:
       vote: Rebol
   github.com/red-gate/honeycomb/df19e64933c3b394ac096ed44aec5bba18f2823b/src/ui/library/elements/type.hb:
     annotations:
+      human-smola: Handlebars
       linguist: Harbour
       linguist-extension: Harbour
-      vote: Harbour
+      vote: Handlebars
   github.com/red/code/749f4662320068da6d5bc5531ac25ea0282215d9/Library/Steam/SteamAPI/Steam-MatchmakingServers.reds:
     annotations:
       linguist: Red
@@ -20067,9 +20087,11 @@ files:
       vote: C
   github.com/santi6291/felix-the-cli/99c3f25e187ca56a944ff6e0a24095540c653113/assets/templates/scss/main/_variables.hb:
     annotations:
+      human-smola: SCSS
       linguist: Harbour
       linguist-extension: Harbour
-      vote: Harbour
+      vote: SCSS
+    notes: SCSS with Handlebars extension
   github.com/saphanaacademy/PAL/2e15de442f440a77624b8b1e176e4590d458159f/Code Snippets/PAL 91 Exception Handling.sql:
     annotations:
       linguist: SQL
@@ -22406,14 +22428,16 @@ files:
       vote: Prolog
   github.com/varda/aule-test/a99ab183f966fefc7009281289fb06e331c7dacb/templates/data_sources.hb:
     annotations:
+      human-smola: Handlebars
       linguist: Harbour
       linguist-extension: Harbour
-      vote: Harbour
+      vote: Handlebars
   github.com/varda/aule/1111ad7cf5f20bffde187a3c895639e4aadcc86b/templates/application.hb:
     annotations:
+      human-smola: Handlebars
       linguist: Harbour
       linguist-extension: Harbour
-      vote: Harbour
+      vote: Handlebars
   github.com/vasil-sd/shen-libs/6512ba4fad752158470a92766b55e30591eae12f/utils/defpackage.shen:
     annotations:
       linguist: Shen

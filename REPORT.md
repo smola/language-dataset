@@ -3,9 +3,9 @@
 
 | Metric | Value |
 | ------ | ----- |
-| **Languages** | 260 |
+| **Languages** | 261 |
 | **Total samples** | 3857 |
-| **Samples labeled by humans** | 748 |
+| **Samples labeled by humans** | 766 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -112,12 +112,12 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Groovy | 20 | 1 |
 | HTML | 8 | 8 |
 | Hack | 14 | 3 |
-| Handlebars | 1 | 1 |
-| Harbour | 18 | 2 |
+| Handlebars | 13 | 13 |
+| Harbour | 3 | 3 |
 | Haskell | 19 | 2 |
 | Haxe | 20 | 1 |
 | HiveQL | 14 | 2 |
-| HolyC | 9 | 0 |
+| HolyC | 9 | 1 |
 | Hy | 20 | 0 |
 | IDL | 12 | 2 |
 | IGOR Pro | 20 | 0 |
@@ -126,7 +126,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Io | 17 | 0 |
 | Ioke | 14 | 0 |
 | J | 19 | 1 |
-| JSON | 2 | 2 |
+| JSON | 4 | 4 |
 | Java | 21 | 2 |
 | JavaScript | 20 | 5 |
 | Jsonnet | 20 | 1 |
@@ -151,8 +151,8 @@ For each language, the table reports total number of samples (_Samples_) and how
 | LiveScript | 20 | 2 |
 | Logtalk | 20 | 1 |
 | Lua | 21 | 2 |
-| M4 | 3 | 3 |
-| M4Sugar | 13 | 5 |
+| M4 | 2 | 2 |
+| M4Sugar | 14 | 6 |
 | MATLAB | 23 | 16 |
 | MAXScript | 17 | 1 |
 | Makefile | 17 | 1 |
@@ -204,7 +204,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | REALbasic | 20 | 11 |
 | REXX | 18 | 3 |
 | Racket | 20 | 0 |
-| Ragel | 15 | 1 |
+| Ragel | 15 | 2 |
 | Raku | 11 | 9 |
 | Rascal | 7 | 7 |
 | Reason | 7 | 6 |
@@ -216,6 +216,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Ruby | 20 | 3 |
 | Rust | 23 | 5 |
 | SAS | 20 | 4 |
+| SCSS | 1 | 1 |
 | SQL | 21 | 11 |
 | SQLPL | 1 | 1 |
 | SVG | 2 | 0 |
