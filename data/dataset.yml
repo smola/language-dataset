@@ -1177,6 +1177,12 @@ files:
     annotations:
       human-smola: Clarion
       vote: Clarion
+  github.com/DialloMamadou/PPC/03e508a2b2f3314fbb40eab345506b62fcb8e1da/ampl/max_flow_winston1.mod:
+    annotations:
+      human-smola: AMPL
+      linguist: AMPL
+      pygments-filename: Modula-2
+      vote: AMPL
   github.com/DiegoCoronel/ceylon-jboss-swarm/419b3181d7a5fb1e43a3e39f8246c63bbdeb9564/ceylon-wildfly-swarm-jaxrs/source/jaxrs/example/resource/EmployeeResource.ceylon:
     annotations:
       linguist: Ceylon
@@ -2865,6 +2871,13 @@ files:
       linguist: AppleScript
       linguist-extension: AppleScript
       vote: AppleScript
+  github.com/MatthieuAnsart/loadForecast/6fa3c1f93f6e79e8056d4260f300ead26e3f258e/IBM/ILOG/CPLEX_Studio1262_x64/opl/examples/opl/BasketballScheduling/patset.mod:
+    annotations:
+      human-smola: Unknown
+      linguist: AMPL
+      pygments-filename: Modula-2
+      vote: Unknown
+    notes: IBM ILOG Script / IBM OPL (AMPL-like)
   github.com/Max64000/nitauth/9c179f46389ebc409dbe7949295bfac06696cdef/authtoken.nit:
     annotations:
       linguist: Nit
@@ -4506,6 +4519,13 @@ files:
       linguist-extension: AutoHotkey
       pygments-filename: AutoHotkey
       vote: AutoHotkey
+  github.com/TashPotatoes/STIMulate/979a5876689384a960367a57fd7229b54814cfb8/Automatic/test/todd.mod:
+    annotations:
+      human-smola: AMPL
+      linguist: AMPL
+      pygments-filename: Modula-2
+      vote: AMPL
+    notes: GNU MathProg
   github.com/TauCetiStation/TauCetiClassic/0368f0e0bfd2be994316a3ccd25508a2ac04a907/code/modules/clothing/under/jobs/medsci.dm:
     annotations:
       linguist: DM
@@ -4822,6 +4842,12 @@ files:
       linguist-heuristics: C++
       pygments-filename: C
       vote: C++
+  github.com/VanHElsing/VanHElsing/9ee6c5e09948044a7d061c87afd25d0e2fff769b/src/util/linprog/program.mod:
+    annotations:
+      human-smola: AMPL
+      linguist: AMPL
+      pygments-filename: Modula-2
+      vote: AMPL
   github.com/VerificationExcellence/SystemVerilogReference/ee380e02a487527df6e7b5d11c52966b98cb8688/projects/DualPortRam/dualport_ram.sv:
     annotations:
       linguist: SystemVerilog
@@ -8295,6 +8321,13 @@ files:
       linguist-extension: Crystal
       pygments-filename: Crystal
       vote: Crystal
+  github.com/cswaroop/opl/7098061d01ac85d1a84f1580019ebb2b8597db3b/timetabling/timetabling.mod:
+    annotations:
+      human-smola: Unknown
+      linguist: AMPL
+      pygments-filename: Modula-2
+      vote: Unknown
+    notes: IBM ILOG Script / IBM OPL (AMPL-like)
   github.com/ct-clmsn/CHIUW2017/dfb65716d1ce5f31afad75239211d5e49e9fc0a7/heavyhitter.chpl:
     annotations:
       linguist: Chapel
@@ -13440,6 +13473,13 @@ files:
       linguist: Raku
       pygments-filename: TADS 3
       vote: Raku
+  github.com/joaojg/cutimizer/4e4ffebb69a8cacc85a0010de4727ed321a377b5/cutimizer/lib/glpk/glpk-4.47/examples/mfvsp.mod:
+    annotations:
+      human-smola: AMPL
+      linguist: AMPL
+      pygments-filename: Modula-2
+      vote: AMPL
+    notes: GNU MathProg
   github.com/joaomilho/awesome-idris/6adf450ab1dbc1449b00d5dbb83ce72467460ab5/Nat.idr:
     annotations:
       linguist: Idris
@@ -15984,6 +16024,13 @@ files:
       linguist: Mirah
       linguist-extension: Mirah
       vote: Mirah
+  github.com/mironagy/cutimizer/4e4ffebb69a8cacc85a0010de4727ed321a377b5/cutimizer/lib/glpk/glpk-4.47/examples/sudoku.mod:
+    annotations:
+      human-smola: AMPL
+      linguist: AMPL
+      pygments-filename: Modula-2
+      vote: AMPL
+    notes: GNU MathProg
   github.com/misdanwijaya/KatalonDemo/761c0c164e7e2a8f41b2a14618fc8624b5df226d/Object Repository/Page_Sample Store/iframe.rs:
     annotations:
       human-smola: XML
