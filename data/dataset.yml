@@ -885,9 +885,11 @@ files:
       vote: Unknown
   github.com/Chaferfu/tal/45ba9284d3b30f67d4b4a025abc171405fdef906/outputs/formal_small.lima.ne:
     annotations:
+      human-smola: Unknown
       linguist: Nearley
       linguist-extension: Nearley
-      vote: Nearley
+      vote: Unknown
+    notes: Tabular data
   github.com/Charles-Kaminski/FastEditDistanceUsingBigDataPrefixTrees/88b8a53837b18fba0f4bef3fe39aa99faa4377f8/3_RoxieQuery.ecl:
     annotations:
       linguist: ECL
@@ -1193,9 +1195,11 @@ files:
       vote: Frege
   github.com/Disassembler0/mikrotik-scripts/03ec5d5cee4f9476bdbe1a57e0091faeb8eae926/automatic-upgrade/upgrade.rsc:
     annotations:
+      human-smola: Unknown
       linguist: Rascal
       linguist-extension: Rascal
-      vote: Rascal
+      vote: Unknown
+    notes: MikroTik RouterOS script
   github.com/DoM1niC/PlayHide/ce5e34a191f36f442c4814a77733dc5a30467081/AU3/playhide/tray.au3:
     annotations:
       linguist: AutoIt
@@ -2599,9 +2603,11 @@ files:
       vote: Clojure
   github.com/Lillecarl/ROS_Scripts/f58c478db9b7361c494e98ae61cb4e722c0a51b4/Tunnels/UpdateTunnelsFromComments.rsc:
     annotations:
+      human-smola: Unknown
       linguist: Rascal
       linguist-extension: Rascal
-      vote: Rascal
+      vote: Unknown
+    notes: MikroTik RouterOS script
   github.com/LisiLisenok/Chime/bdc7ffd652b3e34cac535d0e408f8ffd771ee26e/source/herd/schedule/chime/cron/parseCronStyle.ceylon:
     annotations:
       linguist: Ceylon
@@ -5504,9 +5510,11 @@ files:
       vote: Verilog
   github.com/albandescottes/EIT/999139b2e56f2ff7e74bf29865648688d8d0bdef/files/v/formal-tst.NE.key.04oct95_small.txt.ref.ne:
     annotations:
+      human-smola: Unknown
       linguist: Nearley
       linguist-extension: Nearley
-      vote: Nearley
+      vote: Unknown
+    notes: Text annotated with name entity tags
   github.com/alda-lang/alda/e6631f2cf387f517b2cbc06f491d11d71fdda61b/build.boot:
     annotations:
       linguist: Clojure
@@ -5514,13 +5522,13 @@ files:
       vote: Clojure
   github.com/alecmuffett/eotk/d6021400df94479fe28d928aecacff98d1bc7822/templates.d/nginx.conf.txt:
     annotations:
-      human-ajnavarro: Awk
-      human-smola: Awk
+      human-smola: Unknown
       linguist: Awk
       linguist-heuristics: Text
       linguist-modeline: Awk
       pygments-filename: Text
-      vote: Awk
+      vote: Unknown
+    notes: Nginx config with custom templating and bogus Awk modeline
   github.com/alex-ren/MTVeri/240ecd6ae18d9e8cb75a74ba27f1f748ab67bb46/scratch/ATS-parse-emit/CIL/TEST/queens.dats:
     annotations:
       linguist: ATS
@@ -5533,9 +5541,11 @@ files:
       vote: ATS
   github.com/alexanderfefelov/mikrotik-routeros-scripts/4de420da4c4757f421f6ed279b5882af7ffef618/ringtones/arkanoid.rsc:
     annotations:
+      human-smola: Unknown
       linguist: Rascal
       linguist-extension: Rascal
-      vote: Rascal
+      vote: Unknown
+    notes: MikroTik RouterOS script
   github.com/alexazhou/VeryNginx/b66ef2ee6a108279653316323bd8ac026dd7ccd8/verynginx/lua_script/module/browser_verify.lua:
     annotations:
       linguist: Lua
@@ -6800,9 +6810,11 @@ files:
       vote: C
   github.com/beeyev/Mikrotik-Firmware-Auto-Updater/a7734dfcf945e8709a6d70be6b423a458633bdb8/firmware-updater.rsc:
     annotations:
+      human-smola: Unknown
       linguist: Rascal
       linguist-extension: Rascal
-      vote: Rascal
+      vote: Unknown
+    notes: MikroTik RouterOS script
   github.com/begoon/acm/05472eaa0fff7abb6679826085da5e0c990df4cb/ch24.org/2011/Pre-round, 2011.02.12/R/text05.tst:
     annotations:
       human-smola: Unknown
@@ -8231,6 +8243,7 @@ files:
       vote: Zephir
   github.com/crossminer/scava-deployment/c4e9501f8758ebd47773fce552b487819eaa3d2c/KB/src-rascal/org/maracas/Maracas.rsc:
     annotations:
+      human-smola: Rascal
       linguist: Rascal
       linguist-extension: Rascal
       vote: Rascal
@@ -8343,26 +8356,31 @@ files:
       vote: ANTLR
   github.com/cwi-swat/allealle/5516dd2ea360f2d13b30e8b0923772574ffa2f44/src/translation/theories/integer/SMTInterface.rsc:
     annotations:
+      human-smola: Rascal
       linguist: Rascal
       linguist-extension: Rascal
       vote: Rascal
   github.com/cwi-swat/bacata-rascal/c66e69e78fdc36b408dd4a5fb85c81e048601244/src/bacata/CodeMirror.rsc:
     annotations:
+      human-smola: Rascal
       linguist: Rascal
       linguist-extension: Rascal
       vote: Rascal
   github.com/cwi-swat/php-analysis/90f153f13c809d9a76a4ca752d681a201cded715/src/lang/php/ast/System.rsc:
     annotations:
+      human-smola: Rascal
       linguist: Rascal
       linguist-extension: Rascal
       vote: Rascal
   github.com/cwi-swat/rascal-discover-ide/4ee2bb6973ad812aac44f7bde5d83fd4abbc656b/src/util/DiscoverIDE.rsc:
     annotations:
+      human-smola: Rascal
       linguist: Rascal
       linguist-extension: Rascal
       vote: Rascal
   github.com/cwi-swat/rascal-ecore/c36c05c73142f9f991016c9175b46da795d0a2d1/src/lang/ecore/hutn/Model2HUTN.rsc:
     annotations:
+      human-smola: Rascal
       linguist: Rascal
       linguist-extension: Rascal
       vote: Rascal
@@ -9432,9 +9450,11 @@ files:
       vote: Clean
   github.com/dwichan0905/telegram_bot/20fdf19e8ec0b678aa0370d3a509d6a2aaa56ec6/telegram_bot.rsc:
     annotations:
+      human-smola: Unknown
       linguist: Rascal
       linguist-extension: Rascal
-      vote: Rascal
+      vote: Unknown
+    notes: MikroTik RouterOS script
   github.com/dwyl/hapi-socketio-redis-chat-example/7a0f82b8dba4bb2dbf4d617e4c416b149bcaf74d/tests/TestSpec.elm:
     annotations:
       linguist: Elm
@@ -11559,9 +11579,11 @@ files:
       vote: Python
   github.com/googlehosts/hosts-ipv6/deebc8c196e2e1c1c05f8c027b15ab1abea40a5c/hosts-files/hosts.rsc:
     annotations:
+      human-smola: Unknown
       linguist: Rascal
       linguist-extension: Rascal
-      vote: Rascal
+      vote: Unknown
+    notes: MikroTik RouterOS script
   github.com/googollee/eviltransform/b911c066225716822e4a5b2cab475edcc6cf11a2/matlab/UTM/deg2utm.m:
     annotations:
       linguist: MATLAB
@@ -12643,6 +12665,7 @@ files:
       vote: AutoIt
   github.com/iguana-parser/grammars/d001f904037f7b16da2ca9c1ded9fb0155c2195f/src/scala/specification/XML.rsc:
     annotations:
+      human-smola: Rascal
       linguist: Rascal
       linguist-extension: Rascal
       vote: Rascal
@@ -13942,9 +13965,11 @@ files:
       vote: Lua
   github.com/karrots/ROS-DDNS/e83304ab3b821dc68ba1a54f31f287ddbd611557/DDNS-DHCP.rsc:
     annotations:
+      human-smola: Unknown
       linguist: Rascal
       linguist-extension: Rascal
-      vote: Rascal
+      vote: Unknown
+    notes: MikroTik RouterOS script
   github.com/karthikgade77/performance-test-apache-drill/4c40292cf7031e8c770c4df0cbb541f7c62d0637/TPCDS/Queries/74.q:
     annotations:
       human-smola: SQL
@@ -15472,9 +15497,11 @@ files:
       vote: Boo
   github.com/massimo-filippi/mikrotik/0d2e5f4a3acbdeacc3ac337cd543df92109a7556/backup-config.rsc:
     annotations:
+      human-smola: Unknown
       linguist: Rascal
       linguist-extension: Rascal
-      vote: Rascal
+      vote: Unknown
+    notes: MikroTik RouterOS script
   github.com/massiveinteractive/MassiveUnit/2fef211fded516f97afc49f31698b1a59cf22c53/test/massive/munit/client/URLRequestTest.hx:
     annotations:
       linguist: Haxe
@@ -16108,9 +16135,11 @@ files:
       vote: Unknown
   github.com/mmastrac/snippets/4fe8455d9e39901b1ef41afde671dbb02aa7c816/mikrotik/dhcp-dns.rsc:
     annotations:
+      human-smola: Unknown
       linguist: Rascal
       linguist-extension: Rascal
-      vote: Rascal
+      vote: Unknown
+    notes: MikroTik RouterOS script
   github.com/mmatyas/GridWars/229dcf7c53a2e28afbafb5c8dada9c6c9f8f885f/sound.bmx:
     annotations:
       linguist: BlitzMax
@@ -19064,9 +19093,11 @@ files:
       vote: Awk
   github.com/redjumper/geo2addresslist/4667d3f39fd80a8dc2dc874ac1520e0a68ab6854/freedom-addresslist.rsc:
     annotations:
+      human-smola: Unknown
       linguist: Rascal
       linguist-extension: Rascal
-      vote: Rascal
+      vote: Unknown
+    notes: MikroTik RouterOS script
   github.com/redline-smalltalk/redline-smalltalk/14d92a2cac8311837810b87e2dd434436430108d/src/main/smalltalk/st/redline/kernel/Transcript.st:
     annotations:
       linguist: Smalltalk
@@ -21033,9 +21064,11 @@ files:
       vote: Hy
   github.com/svlsResearch/ha-mikrotik/36153605d2f311ba715688be593f58e86ee9cb0e/HA_init.rsc:
     annotations:
+      human-smola: Unknown
       linguist: Rascal
       linguist-extension: Rascal
-      vote: Rascal
+      vote: Unknown
+    notes: MikroTik RouterOS script
   github.com/swannodette/mori/46c9194b3c4bc93fc4b402925b9417add3b0a3ba/project.clj:
     annotations:
       linguist: Clojure
@@ -21209,9 +21242,11 @@ files:
       vote: Clojure
   github.com/teckerpro/MikroTik-pptpBan/63e7cfb668a2805fc0419d571916b8acb87e00b0/pptpBan.rsc:
     annotations:
+      human-smola: Unknown
       linguist: Rascal
       linguist-extension: Rascal
-      vote: Rascal
+      vote: Unknown
+    notes: MikroTik RouterOS script
   github.com/tedhagos/android-mirah/d0d976d8ee5226cb1771ce98e1cc523a12fd392e/call-activity/src/com/thelogbox/MainActivity.mirah:
     annotations:
       linguist: Mirah
@@ -23159,9 +23194,11 @@ files:
       vote: Objective-C
   github.com/yuechenglei/VastChallenge2006/2e0c9c175e18133f470fc5ae4943f68a1ce933bf/static/news-processed/1101163520244.txt.p.NE:
     annotations:
+      human-smola: Unknown
       linguist: Nearley
       linguist-extension: Nearley
-      vote: Nearley
+      vote: Unknown
+    notes: Text annotated with name entity tags
   github.com/yuenmichelle/dogescript/4f4d5bef4edbb63a0bb34eaf904a87e47268cca8/dogescript.djs:
     annotations:
       linguist: Dogescript
@@ -23234,9 +23271,11 @@ files:
       vote: HiveQL
   github.com/zealic/autorosvpn/3b24921342c96e1d312051dfbc3255311ef7430b/chnroutes-chinanet.rsc:
     annotations:
+      human-smola: Unknown
       linguist: Rascal
       linguist-extension: Rascal
-      vote: Rascal
+      vote: Unknown
+    notes: MikroTik RouterOS script
   github.com/zefhemel/nix-docker/8c176483705d0129f40928761a34d54e41fdac87/nix-docker/modules/config/docker.nix:
     annotations:
       linguist: Nix
