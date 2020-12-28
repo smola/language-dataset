@@ -4,8 +4,8 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 261 |
-| **Total samples** | 3862 |
-| **Samples labeled by humans** | 1010 |
+| **Total samples** | 3861 |
+| **Samples labeled by humans** | 1026 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -185,7 +185,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | PL/pgSQL | 13 | 5 |
 | POV-Ray SDL | 2 | 0 |
 | Pascal | 20 | 1 |
-| Perl | 20 | 3 |
+| Perl | 20 | 11 |
 | PicoLisp | 19 | 5 |
 | Pike | 20 | 1 |
 | Pony | 20 | 0 |
@@ -194,7 +194,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | PowerShell | 17 | 3 |
 | Processing | 20 | 2 |
 | Proguard | 3 | 3 |
-| Prolog | 18 | 4 |
+| Prolog | 17 | 11 |
 | PureBasic | 8 | 0 |
 | PureScript | 20 | 0 |
 | Python | 21 | 3 |
@@ -205,7 +205,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | REXX | 18 | 3 |
 | Racket | 20 | 0 |
 | Ragel | 15 | 2 |
-| Raku | 11 | 9 |
+| Raku | 11 | 10 |
 | Rascal | 7 | 7 |
 | Reason | 7 | 6 |
 | Rebol | 18 | 7 |
