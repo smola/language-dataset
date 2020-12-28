@@ -2127,6 +2127,7 @@ files:
       vote: Scilab
   github.com/Jack000/Expose/257d6b1bf39493e65a3b955fca50231516495875/Markdown_1.0.1/Markdown.pl:
     annotations:
+      human-smola: Perl
       linguist: Perl
       linguist-heuristics: Perl
       pygments-filename: Prolog
@@ -4076,6 +4077,7 @@ files:
       vote: SVG
   github.com/SWI-Prolog/swish/8093e9249e234fed861b8af8c5d02007fda69a48/lib/gitty_driver_bdb.pl:
     annotations:
+      human-smola: Prolog
       linguist: Prolog
       linguist-heuristics: Prolog
       pygments-filename: Prolog
@@ -7394,6 +7396,7 @@ files:
       vote: C#
   github.com/brendangregg/FlameGraph/1a0dc6985aad06e76857cf2a354bd5ba0c9ce96b/stackcollapse-aix.pl:
     annotations:
+      human-smola: Perl
       linguist: Perl
       linguist-heuristics: Perl
       pygments-filename: Prolog
@@ -7530,10 +7533,12 @@ files:
       vote: ActionScript
   github.com/c-cube/datalog/b6ddfbe98e5ccee595731e33ac067d47a50a4af5/tests/induction500.pl:
     annotations:
+      human-smola: Prolog
       linguist: Prolog
       linguist-heuristics: Prolog
       pygments-filename: Prolog
       vote: Prolog
+    notes: Datalog subset
   github.com/c02y/dotfiles/869c30324b15c82e721db81b677b241a9df08555/spacemacs/.spacemacs.d/snippets/bibtex-mode/inproceedings:
     annotations:
       linguist: YASnippet
@@ -8489,6 +8494,7 @@ files:
       vote: REALbasic
   github.com/cullum/dank-selfhosted/de7708c08f1f02782df717bfc886fff2da232d3a/roles/dank/files/dankctl.pl:
     annotations:
+      human-smola: Perl
       linguist: Perl
       linguist-heuristics: Perl
       pygments-filename: Prolog
@@ -9502,6 +9508,7 @@ files:
       vote: Arc
   github.com/dragonwasrobot/learn-prolog-now-exercises/2d09a035f094a8d635c51e51c656733b4883e19f/chapter-05/practical-session.pl:
     annotations:
+      human-smola: Prolog
       linguist: Prolog
       linguist-heuristics: Prolog
       pygments-filename: Prolog
@@ -12110,6 +12117,7 @@ files:
       vote: Unknown
   github.com/hakank/hakank/fc6ba6444041981c442db4fdddd1bbeb243e5a33/swi_prolog/magic_hexagon.pl:
     annotations:
+      human-smola: Prolog
       linguist: Prolog
       linguist-heuristics: Prolog
       pygments-filename: Prolog
@@ -14891,6 +14899,7 @@ files:
       vote: Haxe
   github.com/larsyencken/marelle/02fb567b10493d1469b533013486994c34a92547/sudo.pl:
     annotations:
+      human-smola: Prolog
       linguist: Prolog
       linguist-heuristics: Prolog
       pygments-filename: Prolog
@@ -15609,6 +15618,7 @@ files:
       vote: Limbo
   github.com/major/MySQLTuner-perl/345bf1ae246e0a2740ffc75064532991fa605faf/build/updateCVElist.pl:
     annotations:
+      human-smola: Perl
       linguist: Perl
       linguist-heuristics: Perl
       pygments-filename: Prolog
@@ -16488,6 +16498,7 @@ files:
       vote: Mercury
   github.com/mndrix/microkanren-prolog/fef99b8cefa55b46977f581fe0e568887490261a/edcg.pl:
     annotations:
+      human-smola: Prolog
       linguist: Prolog
       linguist-heuristics: Prolog
       pygments-filename: Prolog
@@ -16599,6 +16610,7 @@ files:
       vote: Ada
   github.com/moritz/perl6-Sudoku/187a83401ae9b6eca6f5c9b3d656bd317851b429/test.pl:
     annotations:
+      human-smola: Raku
       linguist: Raku
       linguist-heuristics: Raku
       pygments-filename: Prolog
@@ -17781,6 +17793,7 @@ files:
       vote: NetLogo
   github.com/openresty/nginx-tutorials/5e044d0dc61fe17a80cda7ee384235a777f6154f/utils/wiki2html-cn.pl:
     annotations:
+      human-smola: Perl
       linguist: Perl
       linguist-heuristics: Perl
       pygments-filename: Prolog
@@ -20361,6 +20374,7 @@ files:
       vote: SQL
   github.com/sarabander/sicp-pdf/5b3a5b2165c414a689873fd316a7293bc587b1c7/src/texi-to-latex.pl:
     annotations:
+      human-smola: Perl
       linguist: Perl
       linguist-heuristics: Perl
       pygments-filename: Prolog
@@ -20591,9 +20605,11 @@ files:
       vote: Processing
   github.com/sebschub/FontPro/165b4a7d11ad34b64d7457ee6d51af4875e0bf14/fontinst/MyriadPro/MnSymbolF5.pl:
     annotations:
+      human-smola: Unknown
       linguist: Prolog
       pygments-filename: Prolog
-      vote: Prolog
+      vote: Unknown
+    notes: TeX Font Metrics (pl - Property List format)
   github.com/sedogo/Sedogo/44f28ca18804b60d62ff626b0843ffc9aab6884e/site/branches/ref_v1/admin/main.aspx:
     annotations:
       linguist: ASP.NET
@@ -21345,6 +21361,7 @@ files:
       linguist: Prolog
       pygments-filename: Prolog
       vote: Unknown
+    notes: TeX Font Metrics (pl - Property List format)
   github.com/stisti/jenkins-app/df19f7a254c792868a7069fc0c74cdfe755a5be7/main.applescript:
     annotations:
       human-smola: AppleScript
@@ -21414,6 +21431,7 @@ files:
       vote: Grace
   github.com/sullo/nikto/3c2c484e054425a842fd6d67f134949f219409f5/program/replay.pl:
     annotations:
+      human-smola: Perl
       linguist: Perl
       pygments-filename: Prolog
       vote: Perl
@@ -22708,6 +22726,7 @@ files:
       vote: Io
   github.com/vangelisv/thea/bac0924cdf4232c3d0fb5952fa57d057a07165cd/owlgres/owlgres_sql_schema.pl:
     annotations:
+      human-smola: Prolog
       linguist: Prolog
       linguist-heuristics: Prolog
       pygments-filename: Prolog
@@ -23306,6 +23325,7 @@ files:
       vote: QMake
   github.com/x0rz/EQGRP/0c2354ff1073099b2aa417030b3167ec29d7279c/Linux/bin/electricslide.pl:
     annotations:
+      human-smola: Perl
       linguist: Perl
       linguist-heuristics: Perl
       pygments-filename: Prolog
