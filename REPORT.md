@@ -4,8 +4,8 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 261 |
-| **Total samples** | 3856 |
-| **Samples labeled by humans** | 785 |
+| **Total samples** | 3853 |
+| **Samples labeled by humans** | 1002 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -25,23 +25,23 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Agda | 18 | 0 |
 | Alloy | 19 | 0 |
 | AngelScript | 2 | 0 |
-| Apex | 20 | 1 |
+| Apex | 20 | 20 |
 | Apollo Guidance Computer | 1 | 1 |
-| AppleScript | 19 | 2 |
-| Arc | 20 | 3 |
-| AspectJ | 20 | 2 |
+| AppleScript | 19 | 19 |
+| Arc | 20 | 20 |
+| AspectJ | 20 | 20 |
 | Assembly | 14 | 5 |
-| Asymptote | 20 | 0 |
-| Augeas | 19 | 0 |
-| AutoHotkey | 20 | 1 |
-| AutoIt | 20 | 0 |
-| Awk | 19 | 2 |
+| Asymptote | 17 | 17 |
+| Augeas | 13 | 13 |
+| AutoHotkey | 20 | 20 |
+| AutoIt | 20 | 2 |
+| Awk | 19 | 19 |
 | BCPL | 1 | 1 |
-| Ballerina | 20 | 0 |
-| Batchfile | 20 | 1 |
+| Ballerina | 20 | 20 |
+| Batchfile | 20 | 4 |
 | Befunge | 2 | 2 |
 | BlitzMax | 20 | 1 |
-| Boo | 15 | 0 |
+| Boo | 15 | 14 |
 | Brainfuck | 20 | 1 |
 | Brightscript | 20 | 1 |
 | C | 21 | 21 |
@@ -53,7 +53,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | CSS | 1 | 1 |
 | CSV | 1 | 0 |
 | CUDA | 20 | 3 |
-| CWeb | 16 | 1 |
+| CWeb | 16 | 16 |
 | Ceylon | 20 | 1 |
 | Chapel | 18 | 0 |
 | Charity | 3 | 0 |
@@ -68,7 +68,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Common Lisp | 14 | 11 |
 | Common Workflow Language | 16 | 1 |
 | Component Pascal | 1 | 0 |
-| Coq | 20 | 9 |
+| Coq | 21 | 10 |
 | Crystal | 19 | 0 |
 | Cycript | 16 | 11 |
 | D | 20 | 6 |
@@ -115,8 +115,8 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Handlebars | 13 | 13 |
 | Harbour | 3 | 3 |
 | Haskell | 19 | 2 |
-| Haxe | 20 | 1 |
-| HiveQL | 14 | 2 |
+| Haxe | 20 | 8 |
+| HiveQL | 14 | 14 |
 | HolyC | 8 | 3 |
 | Hy | 20 | 0 |
 | IDL | 12 | 2 |
@@ -255,7 +255,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Wolfram Language | 10 | 3 |
 | Wollok | 20 | 0 |
 | XC | 19 | 0 |
-| XML | 26 | 26 |
+| XML | 32 | 32 |
 | XProc | 17 | 0 |
 | XQuery | 20 | 3 |
 | XS | 14 | 1 |
@@ -266,7 +266,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | ZIL | 20 | 0 |
 | Zephir | 20 | 3 |
 | Zimpl | 16 | 0 |
-| eC | 9 | 1 |
+| eC | 8 | 1 |
 | fish | 1 | 1 |
 | ooc | 19 | 1 |
 | q | 15 | 2 |

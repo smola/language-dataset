@@ -109,6 +109,7 @@ files:
       vote: Objective-C
   github.com/AJMartel/IRTriage/edfc35dde062c32bd4e03deb821c88ed6fc65d83/Compile/Tools/Updater/My_Github_Updates_Calculator.au3:
     annotations:
+      human-smola: AutoIt
       linguist: AutoIt
       linguist-extension: AutoIt
       pygments-filename: AutoIt
@@ -128,6 +129,7 @@ files:
       vote: Coq
   github.com/APEXCalculus/APEXCalculusPTX/913b6aee0033e0bd48379aea304f26c6e33b64d9/figures/fig14_05_ex_11_3DBW.asy:
     annotations:
+      human-smola: Asymptote
       linguist: Asymptote
       linguist-heuristics: Asymptote
       pygments-filename: Asymptote
@@ -357,11 +359,13 @@ files:
       vote: YASnippet
   github.com/AndrewD2/DragonAGE/efe16a6e517bc8bf8ef4f3327dd8e43f8f68800c/system_resources.aug:
     annotations:
+      human-smola: XML
       linguist: Augeas
       linguist-extension: Augeas
       linguist-xml: XML
       pygments-filename: Augeas
-      vote: Augeas
+      vote: XML
+    notes: Hero Lab
   github.com/AndroidKnife/proguard-config/02fae4f4399893cc82bfe8580114b70160ef73e7/proguardlib/proguards/proguard-aws-1.7.pro:
     annotations:
       human-smola: Proguard
@@ -631,6 +635,7 @@ files:
       vote: Unknown
   github.com/BigWorldSetup/BigWorldSetup/9c3a37ba6ccc3a4ab3fe58c2106fcf76e04abef3/App/Includes/02_UDF2.au3:
     annotations:
+      human-smola: AutoIt
       linguist: AutoIt
       linguist-extension: AutoIt
       pygments-filename: AutoIt
@@ -712,11 +717,13 @@ files:
       vote: Rebol
   github.com/BrianSaga/herolab-megs/32e8dd462133d5a8a2325ef41b79e85891246302/styles_output.aug:
     annotations:
+      human-smola: XML
       linguist: Augeas
       linguist-extension: Augeas
       linguist-xml: XML
       pygments-filename: Augeas
-      vote: Augeas
+      vote: XML
+    notes: Hero Lab
   github.com/BrianSharpe/Wombat/f27750c04ce1af090d575436deda84a1d1041771/Value3D_Deriv.glsl:
     annotations:
       linguist: GLSL
@@ -772,6 +779,7 @@ files:
       vote: ColdFusion CFC
   github.com/CHEF-KOCH/regtweaks/9eb080ab2890d05a1c5fd967cb7983427a97bd02/Win 10/RS 3 (1709)/Apps/Disable Apps Autolaunch/disable_app_autolaunch.cmd:
     annotations:
+      human-smola: Batchfile
       linguist: Batchfile
       linguist-extension: Batchfile
       pygments-filename: Batchfile
@@ -858,16 +866,19 @@ files:
       vote: Swift
   github.com/CatDancer/arc-mz-patch/ffe5de2607f74224809e6d1c791035e985997146/strings.arc:
     annotations:
+      human-smola: Arc
       linguist: Arc
       linguist-extension: Arc
       vote: Arc
   github.com/CatDancer/extend/12eb1283172b7ffb08c8798226fef49a0acaea11/extend.arc:
     annotations:
+      human-smola: Arc
       linguist: Arc
       linguist-extension: Arc
       vote: Arc
   github.com/CatDancer/json/6c17eeae563f006bc49fb0367c18d276703c29f3/json.arc:
     annotations:
+      human-smola: Arc
       linguist: Arc
       linguist-extension: Arc
       vote: Arc
@@ -916,6 +927,7 @@ files:
       vote: Unknown
   github.com/Choose-by-Speed/choosebyspeed_v1/551ace3a31cde9b0160ee3393fd1f2887b841157/cbs/src/main/java/com/epam/hack/choosebyspeed/domain/Promotion_Roo_Jpa_Entity.aj:
     annotations:
+      human-smola: AspectJ
       linguist: AspectJ
       linguist-extension: AspectJ
       pygments-filename: AspectJ
@@ -935,6 +947,7 @@ files:
       vote: XML
   github.com/Click-to-Cloud/R.apex/cb3a662fd643f06436fc6fbda800795ea7d352d2/src/classes/RTest.cls:
     annotations:
+      human-smola: Apex
       linguist: Apex
       pygments-filename: OpenEdge ABL
       vote: Apex
@@ -1095,6 +1108,7 @@ files:
       vote: SAS
   github.com/DISID/disid-proofs/306096c408bf3a5accdb76dd9c9306a3700fd3a3/spring-roo-related-readonly/src/main/java/org/springframework/roo/relatedreadonly/web/PetsSearchThymeleafLinkFactory_Roo_LinkFactory.aj:
     annotations:
+      human-smola: AspectJ
       linguist: AspectJ
       linguist-extension: AspectJ
       pygments-filename: AspectJ
@@ -1106,12 +1120,14 @@ files:
       vote: Oz
   github.com/DannyBen/Gridy/fb6b392f41b74bf45ec91311cb80042850a5a7ea/Gridy.ahk:
     annotations:
+      human-smola: AutoHotkey
       linguist: AutoHotkey
       linguist-extension: AutoHotkey
       pygments-filename: AutoHotkey
       vote: AutoHotkey
   github.com/DataSciKevin/ds730_hive/2bc7a3e7a83595cabea6aab1aeeee9176d0843fc/p3.q:
     annotations:
+      human-smola: HiveQL
       linguist: HiveQL
       linguist-heuristics: HiveQL
       vote: HiveQL
@@ -1123,6 +1139,7 @@ files:
       vote: Factor
   github.com/DavidOSX/Indra/0842b85cea4261b16e0e27c5bf56c03c993f7b6a/pict_1.asy:
     annotations:
+      human-smola: Asymptote
       linguist: Asymptote
       linguist-heuristics: Asymptote
       pygments-filename: Asymptote
@@ -1433,6 +1450,7 @@ files:
       vote: KoLMafia ASH
   github.com/FQrabbit/SSTap-Rule/539611002319e2e2830f3b012ba2ff6087e53753/tools/windows_route_print.bat:
     annotations:
+      human-smola: Batchfile
       linguist: Batchfile
       linguist-extension: Batchfile
       pygments-filename: Batchfile
@@ -1760,12 +1778,14 @@ files:
       vote: Oz
   github.com/Guevara-chan/AntiEye/b2fb73c18e23d675fd774ba6cdbcf974257e7d32/checker/checker.boo:
     annotations:
+      human-smola: Boo
       linguist: Boo
       linguist-extension: Boo
       pygments-filename: Boo
       vote: Boo
   "github.com/Guevara-chan/Re-combine/28a4dbc4ea86f6d8226cf098aaba4714636bcdd7/Re\u02D0combine.boo":
     annotations:
+      human-smola: Boo
       linguist: Boo
       linguist-extension: Boo
       pygments-filename: Boo
@@ -1842,24 +1862,28 @@ files:
       vote: Unknown
   github.com/HaxeFlixel/flixel-addons/19ae61b4688e03ae6aa6ccbc1997148adf50b564/flixel/addons/display/FlxTiledSprite.hx:
     annotations:
+      human-smola: Haxe
       linguist: Haxe
       linguist-extension: Haxe
       pygments-filename: Haxe
       vote: Haxe
   github.com/HaxeFlixel/flixel/c46bd967d999b3e920133c3ed7b85410929e7bb2/flixel/system/debug/stats/Stats.hx:
     annotations:
+      human-smola: Haxe
       linguist: Haxe
       linguist-extension: Haxe
       pygments-filename: Haxe
       vote: Haxe
   github.com/HaxeFoundation/haxe/91dc4be111f3e521e2c5219b76d328a779f30ac9/std/php/JsonSerializable.hx:
     annotations:
+      human-smola: Haxe
       linguist: Haxe
       linguist-extension: Haxe
       pygments-filename: Haxe
       vote: Haxe
   github.com/HeapsIO/heaps/fdcb3e02d5cf88d52bdd4fada588f02e1edf4e0b/h3d/shader/pbr/PropsDefinition.hx:
     annotations:
+      human-smola: Haxe
       linguist: Haxe
       linguist-extension: Haxe
       pygments-filename: Haxe
@@ -1914,6 +1938,7 @@ files:
       vote: Ruby
   github.com/HotKeyIt/ahkdll-v1-release/3ff1a2f7f233b74b4913d38a58d966c15d7dbdcc/lib/GlobalVarsScript.ahk:
     annotations:
+      human-smola: AutoHotkey
       linguist: AutoHotkey
       linguist-extension: AutoHotkey
       pygments-filename: AutoHotkey
@@ -1989,6 +2014,7 @@ files:
       vote: Turing
   github.com/ImJohnMDaniel/at4dx/03067ddc0b24e4945d561df71b5c1a4674bd89ff/sfdx-source/core/main/classes/framework-domain-process-injection/IDomainProcessCriteriaWithExistingRecs.cls:
     annotations:
+      human-smola: Apex
       linguist: Apex
       pygments-filename: OpenEdge ABL
       vote: Apex
@@ -2001,6 +2027,7 @@ files:
       vote: ActionScript
   github.com/IngenieriaWebUCA/iw2016-tempojobs/3b493c0f403dd1c3f4b13b18e9ffe1beef6e3bfa/src/main/java/es/uca/iw/tempojobs/web/DemandanteController_Roo_GvNIXDatatables.aj:
     annotations:
+      human-smola: AspectJ
       linguist: AspectJ
       linguist-extension: AspectJ
       pygments-filename: AspectJ
@@ -2457,6 +2484,7 @@ files:
       vote: WebAssembly
   github.com/Kode/Kha/91400b060fafc3e5b856e299d01ed543963ff06a/Sources/kha/Sound.hx:
     annotations:
+      human-smola: Haxe
       linguist: Haxe
       linguist-extension: Haxe
       pygments-filename: Haxe
@@ -2652,6 +2680,7 @@ files:
       vote: Kit
   github.com/Lord-Kamina/Deluge-Magnet-Handler/d14f5e7b446050763bb2584e8091eb66c894d088/Magnet Handler.applescript:
     annotations:
+      human-smola: AppleScript
       linguist: AppleScript
       linguist-extension: AppleScript
       pygments-filename: AppleScript
@@ -2676,10 +2705,12 @@ files:
       vote: Lua
   github.com/LubomirBednar/PhD/d5e04c89361b06905b0e00e1a79be89bd69849e9/E7/E7_RT-qPCR_template.asy:
     annotations:
+      human-smola: Unknown
       linguist: Asymptote
       linguist-heuristics: Asymptote
       pygments-filename: Asymptote
-      vote: Asymptote
+      vote: Unknown
+    notes: epRealPlex Assay File V4
   github.com/LucasWolschick/Monkeynauts/3920b842e1a0ee1c88d97201d3e9247e8663ddeb/src/Asteroids.monkey2:
     annotations:
       linguist: Monkey
@@ -2687,6 +2718,7 @@ files:
       vote: Monkey
   github.com/LukeSmithxyz/vul/2f031ac7017eba3642173c40e37396cd290fb50b/vul.awk:
     annotations:
+      human-smola: Awk
       linguist: Awk
       linguist-extension: Awk
       pygments-filename: Awk
@@ -2869,12 +2901,14 @@ files:
       vote: Nit
   github.com/MattTuttle/hxnet/47c2cad01689eb1dd7da76e0e2379ca0a84967fd/test/TcpTest.hx:
     annotations:
+      human-smola: Haxe
       linguist: Haxe
       linguist-extension: Haxe
       pygments-filename: Haxe
       vote: Haxe
   github.com/Matthewspear/OFList/b31fd504373f0bafaf2c66e1a9974a31f88d2f76/OFList.scpt:
     annotations:
+      human-smola: AppleScript
       linguist: AppleScript
       linguist-extension: AppleScript
       vote: AppleScript
@@ -3040,6 +3074,7 @@ files:
       vote: Nit
   "github.com/Mr-xn/BurpSuite-collections/d5f569d13f6a0cbe18e06b5ccb555889419a78a7/\u521B\u5EFA\u684C\u9762\u5FEB\u6377\u65B9\u5F0F.bat":
     annotations:
+      human-smola: Batchfile
       linguist: Batchfile
       linguist-extension: Batchfile
       pygments-filename: Batchfile
@@ -3544,11 +3579,13 @@ files:
       vote: Modula-3
   github.com/PaulBatchelor/libline/67f99c121fb407e97c5363177a07cd4e9c79fa53/point.w:
     annotations:
+      human-smola: CWeb
       linguist: CWeb
       linguist-heuristics: CWeb
       vote: CWeb
   github.com/PaulBatchelor/the_oscillator/2ec14caab1d8d067c170a853d503247f28218578/oscillator.w:
     annotations:
+      human-smola: CWeb
       linguist: CWeb
       linguist-heuristics: CWeb
       vote: CWeb
@@ -3762,6 +3799,7 @@ files:
       vote: AppleScript
   github.com/Pulover/PuloversMacroCreator/15f44d68f7cdf6b79df43c6871761c0773981272/LIB/Class_ObjIni.ahk:
     annotations:
+      human-smola: AutoHotkey
       linguist: AutoHotkey
       linguist-extension: AutoHotkey
       pygments-filename: AutoHotkey
@@ -4056,16 +4094,19 @@ files:
       vote: Agda
   github.com/SalesforceFoundation/Cumulus/3f91613d1f607c688d9c2522f111d538a46372b0/src/classes/ADDR_Validator.cls:
     annotations:
+      human-smola: Apex
       linguist: Apex
       pygments-filename: OpenEdge ABL
       vote: Apex
   github.com/SalesforceFoundation/Volunteers-for-Salesforce/ae7e91d8a0ab252faac0f00c7bce969790bd04d7/src/classes/TelemetryService_TEST.cls:
     annotations:
+      human-smola: Apex
       linguist: Apex
       pygments-filename: OpenEdge ABL
       vote: Apex
   github.com/SalesforceLabs/survey-force/d471544fc3d1cf0042dbe10603b3dc39169bbda0/src/classes/ForgotPasswordControllerTest.cls:
     annotations:
+      human-smola: Apex
       linguist: Apex
       pygments-filename: OpenEdge ABL
       vote: Apex
@@ -4127,6 +4168,7 @@ files:
       vote: YAML
   github.com/Shan1024/chalk/077eea314f1e42e24839d5058c6a82154c306089/chalk/resources/sample.bal:
     annotations:
+      human-smola: Ballerina
       linguist: Ballerina
       linguist-extension: Ballerina
       vote: Ballerina
@@ -4483,32 +4525,40 @@ files:
       vote: NSIS
   github.com/TCArknight/7thSea2E/65ce26c6c544254ecabd95ad8a0d342f72421e69/styles_output.aug:
     annotations:
+      human-smola: XML
       linguist: Augeas
       linguist-extension: Augeas
       linguist-xml: XML
       pygments-filename: Augeas
-      vote: Augeas
+      vote: XML
+    notes: Hero Lab
   github.com/TCArknight/Fate_Tianxia/4c20f42a5d1a327eedf997f480ff2b59645e5956/tianxia_styles_output.aug:
     annotations:
+      human-smola: XML
       linguist: Augeas
       linguist-extension: Augeas
       linguist-xml: XML
       pygments-filename: Augeas
-      vote: Augeas
+      vote: XML
+    notes: Hero Lab
   github.com/TCArknight/Fate_VentureCity/841e7b6bd2770f3674f8d7b7557f7ff07c32d2db/venturecity_style_ui.aug:
     annotations:
+      human-smola: XML
       linguist: Augeas
       linguist-extension: Augeas
       linguist-xml: XML
       pygments-filename: Augeas
-      vote: Augeas
+      vote: XML
+    notes: Hero Lab
   github.com/TCArknight/STAdventures/fb040236436b9a10ad7898a30aa8a004f66f4de7/styles_ui.aug:
     annotations:
+      human-smola: XML
       linguist: Augeas
       linguist-extension: Augeas
       linguist-xml: XML
       pygments-filename: Augeas
-      vote: Augeas
+      vote: XML
+    notes: Hero Lab
   github.com/TVTower/TVTower/5676257938b428920bbb01b05cb4649f65297ada/source/game.player.boss.bmx:
     annotations:
       linguist: BlitzMax
@@ -4534,6 +4584,7 @@ files:
       vote: FreeMarker
   github.com/TaranVH/2nd-keyboard/5e03713a12cf22037feaaa6e3729482d25fa5579/Intercept/FULL_extra_keyboard.ahk:
     annotations:
+      human-smola: AutoHotkey
       linguist: AutoHotkey
       linguist-extension: AutoHotkey
       pygments-filename: AutoHotkey
@@ -4600,6 +4651,7 @@ files:
       vote: CMake
   github.com/TheMozg/awk-raycaster/43826af19ff54e49ced2c7a20761994bf94e9b2e/awkaster.awk:
     annotations:
+      human-smola: Awk
       linguist: Awk
       linguist-extension: Awk
       pygments-filename: Awk
@@ -4623,6 +4675,7 @@ files:
       vote: Pony
   github.com/Thomas-George-T/FlumeHiveTwitterApp/b99a4d6bb1d0cdbdd4245587bcf7a0f19bc8e37b/Hive scripts/create_tweets_avro_table.q:
     annotations:
+      human-smola: HiveQL
       linguist: HiveQL
       linguist-heuristics: HiveQL
       vote: HiveQL
@@ -4707,6 +4760,7 @@ files:
       vote: FreeMarker
   github.com/Trovarius/dojo_dnasp_26_05_11/2d0a483376240a0fc34543ce4f3ad1b69bea08fc/Dojo_Troco/Class1.boo:
     annotations:
+      human-smola: Boo
       linguist: Boo
       linguist-extension: Boo
       pygments-filename: Boo
@@ -4772,6 +4826,7 @@ files:
       vote: Golo
   github.com/Uberi/Autocomplete/c5eeb780f64968862896122cea2681718a215bff/Autocomplete.ahk:
     annotations:
+      human-smola: AutoHotkey
       linguist: AutoHotkey
       linguist-extension: AutoHotkey
       pygments-filename: AutoHotkey
@@ -4920,6 +4975,7 @@ files:
       vote: Ceylon
   github.com/Vonng/Capslock/eb3fbbdbaa546d3e84c31a74ccd56eb906977338/win/CapsLock.ahk:
     annotations:
+      human-smola: AutoHotkey
       linguist: AutoHotkey
       linguist-extension: AutoHotkey
       pygments-filename: AutoHotkey
@@ -5234,18 +5290,21 @@ files:
       vote: Fortran
   github.com/aamii/Candy/52fad7c4253c3b440d4ab490c8c8b35dc7294100/Candy.ahk:
     annotations:
+      human-smola: AutoHotkey
       linguist: AutoHotkey
       linguist-extension: AutoHotkey
       pygments-filename: AutoHotkey
       vote: AutoHotkey
   github.com/aaronfreimark/Apple-ID-AppleScript/a1457690a6f98d9f4045ecaa152df85393384a6d/Enterprise iOS Apple ID Creator.applescript:
     annotations:
+      human-smola: AppleScript
       linguist: AppleScript
       linguist-extension: AppleScript
       pygments-filename: AppleScript
       vote: AppleScript
   github.com/aaronknister/augeas-lens-lvm_conf/2ad05fa693c635000b5ca691e1d2732c7a08da04/lvm_conf.aug:
     annotations:
+      human-smola: Augeas
       linguist: Augeas
       linguist-extension: Augeas
       pygments-filename: Augeas
@@ -5342,6 +5401,7 @@ files:
       vote: Unknown
   github.com/adampash/texter/5fae19b5876c68f02b8da727e6feabed2c3c521a/includes/functions/printablelist.ahk:
     annotations:
+      human-smola: AutoHotkey
       linguist: AutoHotkey
       linguist-extension: AutoHotkey
       pygments-filename: AutoHotkey
@@ -5397,11 +5457,13 @@ files:
       vote: Erlang
   github.com/afawcett/force-di/d01cc46f066fdaf761fb5c1c1b523aedf8d1469d/force-di/test/classes/di_InjectorControllerTest.cls:
     annotations:
+      human-smola: Apex
       linguist: Apex
       pygments-filename: OpenEdge ABL
       vote: Apex
   github.com/afawcett/forcedotcom-enterprise-architecture/e972503d68b58f8f609445a4d755dbee6d1c3af4/src/classes/SeasonServiceTest.cls:
     annotations:
+      human-smola: Apex
       linguist: Apex
       pygments-filename: OpenEdge ABL
       vote: Apex
@@ -5491,6 +5553,7 @@ files:
       vote: Dogescript
   github.com/ajholanda/nixus/b17119a0274f1fed07da305b55169b1760f4c43f/nixus.w:
     annotations:
+      human-smola: CWeb
       linguist: CWeb
       linguist-heuristics: CWeb
       vote: CWeb
@@ -5503,6 +5566,7 @@ files:
       vote: J
   github.com/akayambu/oozie-workflows/ba047a0f594fb97dc27256e8a24e4480dd3a4ba1/hivemapreducemultiactions/script.q:
     annotations:
+      human-smola: HiveQL
       linguist: HiveQL
       linguist-heuristics: HiveQL
       vote: HiveQL
@@ -5769,6 +5833,7 @@ files:
       vote: IGOR Pro
   github.com/amoblin/gitman/3f88b6845a95b94f8fe20c1a0ba0887fce3cc807/gitdisk-update.applescript:
     annotations:
+      human-smola: AppleScript
       linguist: AppleScript
       linguist-extension: AppleScript
       pygments-filename: AppleScript
@@ -6117,11 +6182,13 @@ files:
       vote: REALbasic
   github.com/arcfide/ChezWEB/4e15a08bda7673ab062e24246d26f09b593792d0/chezweb.w:
     annotations:
+      human-smola: CWeb
       linguist: CWeb
       linguist-heuristics: CWeb
       vote: CWeb
   github.com/archan937/jsonv.sh/9a448f8a5594f6cea41e79ce6582edcc6a91a29e/utils/json.awk:
     annotations:
+      human-smola: Awk
       linguist: Awk
       linguist-extension: Awk
       linguist-shebang: Awk
@@ -6231,15 +6298,18 @@ files:
       vote: HTML
   github.com/ascherer/cweb/f06867a45e17f15d3a29d04ca132ec82bf242de5/prod.w:
     annotations:
+      human-smola: CWeb
       linguist: CWeb
       vote: CWeb
   github.com/ascherer/mmix/f3f5ab5a593a94476321cc2d7e8b5fa59faff019/mmix-config.w:
     annotations:
+      human-smola: CWeb
       linguist: CWeb
       linguist-heuristics: CWeb
       vote: CWeb
   github.com/ascherer/sgb/6f8b707e3e3b4d60699114fcfdd1aa20512ecf64/gb_roget.w:
     annotations:
+      human-smola: CWeb
       linguist: CWeb
       linguist-heuristics: CWeb
       vote: CWeb
@@ -6443,6 +6513,7 @@ files:
       vote: Go
   github.com/aviaryan/Clipjump/6777987212bd8404c73ec27c81af4b55b4059a6f/lib/multi.ahk:
     annotations:
+      human-smola: AutoHotkey
       linguist: AutoHotkey
       linguist-extension: AutoHotkey
       pygments-filename: AutoHotkey
@@ -6507,21 +6578,25 @@ files:
       vote: VHDL
   github.com/awwx/amacx/53ffbd7a729597f396bee13ccf70704a5f92b31a/src/findfile.arc:
     annotations:
+      human-smola: Arc
       linguist: Arc
       linguist-extension: Arc
       vote: Arc
   github.com/awwx/arc/f01d3f9c661eed05511711a0f3388ca2a1d34fa2/html.arc:
     annotations:
+      human-smola: Arc
       linguist: Arc
       linguist-extension: Arc
       vote: Arc
   github.com/awwx/lib/5fdb435fb5e0009d05954e2019d6368c64ed87f9/srv-misc2.arc:
     annotations:
+      human-smola: Arc
       linguist: Arc
       linguist-extension: Arc
       vote: Arc
   github.com/awwx/match/ec1128d9b690b3900ec71e4a42975ccb70506ce2/arc.arc:
     annotations:
+      human-smola: Arc
       linguist: Arc
       linguist-extension: Arc
       vote: Arc
@@ -6561,6 +6636,7 @@ files:
       vote: Unknown
   github.com/b4b4r07/manyawk/fcc3ba31c0331165545152ccd5cb524ed82cd48f/path/filepath.awk:
     annotations:
+      human-smola: Awk
       linguist: Awk
       linguist-extension: Awk
       pygments-filename: Awk
@@ -6695,36 +6771,43 @@ files:
       vote: Lua
   github.com/ballerina-attic/connectors/ff19ae1c77ddf59deae9b3ab9a9ffb4a63a40040/salesforcerest/samples/salesforcerest/samples.bal:
     annotations:
+      human-smola: Ballerina
       linguist: Ballerina
       linguist-extension: Ballerina
       vote: Ballerina
   github.com/ballerina-guides/ballerina-demo/86f4c95bc24d6fa5b464714e77c1d1b990d91898/2_demo_annotations.bal:
     annotations:
+      human-smola: Ballerina
       linguist: Ballerina
       linguist-extension: Ballerina
       vote: Ballerina
   github.com/ballerina-guides/ballerina-with-istio/dabbf6d36e6c6ec842c54dbad4b3034841a05221/src/time_service.bal:
     annotations:
+      human-smola: Ballerina
       linguist: Ballerina
       linguist-extension: Ballerina
       vote: Ballerina
   github.com/ballerina-guides/messaging-with-kafka/275cea5444a0587c3e8a80152263eb8294f1a557/guide/franchisee2/franchisee2.bal:
     annotations:
+      human-smola: Ballerina
       linguist: Ballerina
       linguist-extension: Ballerina
       vote: Ballerina
   github.com/ballerina-guides/playground-hello-service/40a2939c5a26c9adf5546cbc0db705fd98984d53/src/hello_service.bal:
     annotations:
+      human-smola: Ballerina
       linguist: Ballerina
       linguist-extension: Ballerina
       vote: Ballerina
   github.com/ballerina-guides/restful-service/82ba3d286638f089c50319d083689442e606c13d/guide/restful_service/tests/order_mgt_service_test.bal:
     annotations:
+      human-smola: Ballerina
       linguist: Ballerina
       linguist-extension: Ballerina
       vote: Ballerina
   github.com/ballerina-guides/service-composition/afee04fbd736231642c5ec89414c5215a45e4e2d/guide/car_rental/car_rental_service.bal:
     annotations:
+      human-smola: Ballerina
       linguist: Ballerina
       linguist-extension: Ballerina
       vote: Ballerina
@@ -6736,12 +6819,14 @@ files:
       vote: Unknown
   github.com/bamboo/boojay/37c4e3f2ecb869d0dac34ef37786e9c934739c27/src/Boojay.Compilation/Steps/BoojayEmitter.boo:
     annotations:
+      human-smola: Boo
       linguist: Boo
       linguist-extension: Boo
       pygments-filename: Boo
       vote: Boo
   github.com/bamboo/unityscript/73099e73252bfbd2595c960775b85bc739c9180a/src/UnityScript/Scripting/SimpleEvaluationDomainProvider.boo:
     annotations:
+      human-smola: Boo
       linguist: Boo
       linguist-extension: Boo
       pygments-filename: Boo
@@ -6897,6 +6982,7 @@ files:
       vote: Groovy
   github.com/benahm/TDF/664cf1d1ee1b45aea122d0e4899f94b6ff1b2aef/classes/TDFTest.cls:
     annotations:
+      human-smola: Apex
       linguist: Apex
       pygments-filename: OpenEdge ABL
       vote: Apex
@@ -7186,6 +7272,7 @@ files:
       vote: MAXScript
   github.com/bluewolf-beyond/selector/b16eeb6fec13fb578f6482fb341ac4a7172aac97/src/classes/Filter.cls:
     annotations:
+      human-smola: Apex
       linguist: Apex
       pygments-filename: OpenEdge ABL
       vote: Apex
@@ -7249,6 +7336,7 @@ files:
       vote: Zephir
   github.com/boo-lang/boo-extensions/cb4c0b93ab11a5359f9b42cd13509ae1454170b1/GenerateBooParserTestFixture.boo:
     annotations:
+      human-smola: Boo
       linguist: Boo
       linguist-extension: Boo
       pygments-filename: Boo
@@ -7466,6 +7554,7 @@ files:
       vote: Grace
   github.com/camptocamp/puppet-haproxy_c2c/588a386c69a74b634e1fb42b7df26224c91bd16b/files/test_haproxy.aug:
     annotations:
+      human-smola: Augeas
       linguist: Augeas
       linguist-extension: Augeas
       pygments-filename: Augeas
@@ -7520,10 +7609,12 @@ files:
       vote: Vala
   github.com/catalindragan/minivoting-privacy/78ac6620463627fa14e5ff686adb62db6b2ea51f/proof/core/ProofSystem.ec:
     annotations:
+      human-smola: Coq
       linguist: eC
       linguist-extension: eC
       pygments-filename: eC
-      vote: eC
+      vote: Coq
+    notes: EasyCrypt Coq
   github.com/catb0t/21-game/ce2a44f1e6b7f1413156d998283b65bf5676b2a5/21-game/21-game.factor:
     annotations:
       linguist: Factor
@@ -7552,6 +7643,7 @@ files:
       vote: Objective-C
   github.com/cckpg/autoproxy2privoxy/e01e16910e938e4e865bafbf6d3d1b3a92015395/autoproxy2privoxy.awk:
     annotations:
+      human-smola: Awk
       linguist: Awk
       linguist-extension: Awk
       linguist-shebang: Awk
@@ -7914,6 +8006,7 @@ files:
       vote: PowerBuilder
   github.com/cjk8zb/CSEE5590-BigData-Labs/d8fa436083f4d5f632fcadf60950559bff507a0d/Lab2/Hive_Commands.q:
     annotations:
+      human-smola: HiveQL
       linguist: HiveQL
       linguist-heuristics: HiveQL
       vote: HiveQL
@@ -8082,6 +8175,7 @@ files:
       vote: SQL
   github.com/codez/ImportPhotoFolders/4c4c611970e9d275fef0abdb0559262757ee7eeb/ImportPhotoFolders.applescript:
     annotations:
+      human-smola: AppleScript
       linguist: AppleScript
       linguist-extension: AppleScript
       pygments-filename: AppleScript
@@ -8472,6 +8566,7 @@ files:
       vote: OpenEdge ABL
   github.com/daeken/Dotpack/dd74a2255f710d00601bd8e8cfca640e9fc64039/Dotpack.boo:
     annotations:
+      human-smola: Boo
       linguist: Boo
       linguist-extension: Boo
       pygments-filename: Boo
@@ -8587,11 +8682,13 @@ files:
       vote: Nix
   github.com/darius/awklisp/90e38228b1f98174b62a2f76a6a21520382acdf9/awklisp:
     annotations:
+      human-smola: Awk
       linguist: Awk
       linguist-shebang: Awk
       vote: Awk
   github.com/darkhorsesports/getsporty-Old/dc74220ec7f100641c27489d1fff3b739835dadd/Darkhorse/src/main/java/com/darkhorse/getsporty/domain/Job_Roo_JavaBean.aj:
     annotations:
+      human-smola: AspectJ
       linguist: AspectJ
       linguist-extension: AspectJ
       pygments-filename: AspectJ
@@ -8623,6 +8720,7 @@ files:
       vote: SQL
   github.com/dataduke/mac-taskpaper/47a3c1362274156596c7cdaf4c65295c3d842660/Scripts/Due in next 3 Days.scpt:
     annotations:
+      human-smola: AppleScript
       linguist: AppleScript
       linguist-extension: AppleScript
       vote: AppleScript
@@ -8634,6 +8732,7 @@ files:
       vote: Crystal
   github.com/dav0/fanbar/bc24de666a0d884e8f76aeb9cfda55b4c7532f0e/src/main/java/org/fanbar/cw/domain/Fan_Roo_ToString.aj:
     annotations:
+      human-smola: AspectJ
       linguist: AspectJ
       linguist-extension: AspectJ
       pygments-filename: AspectJ
@@ -8801,6 +8900,7 @@ files:
       vote: Tcl
   github.com/dbyler/omnifocus-scripts/f85728cf2644beb9b14170e49f73e42225f6048e/Shift.applescript:
     annotations:
+      human-smola: AppleScript
       linguist: AppleScript
       linguist-extension: AppleScript
       pygments-filename: AppleScript
@@ -8868,6 +8968,7 @@ files:
       vote: HTML
   github.com/dekz/augeas_nginx/93386177e017c9498d352fa28e1ee9b731043b00/tests/test_nginx.aug:
     annotations:
+      human-smola: Augeas
       linguist: Augeas
       linguist-extension: Augeas
       pygments-filename: Augeas
@@ -8933,16 +9034,20 @@ files:
       vote: Modula-2
   github.com/derele/Eimeria_Lab/f98fbfd96a65bfd1c25cca068d36d2452b73c70c/data/3_recordingTables/E7_112018_Eim_RT-qPCRs/E7_112018_Eim_RT-qPCR_template.asy:
     annotations:
+      human-smola: Unknown
       linguist: Asymptote
       linguist-heuristics: Asymptote
       pygments-filename: Asymptote
-      vote: Asymptote
+      vote: Unknown
+    notes: epRealPlex Assay File V4
   github.com/derele/Mouse_Eimeria_Databasing/1ce069d2b596e7ab037d44e07b070948df4fee65/data/Eimeria_detection/raw_qPCR/bavariaqPCR2015/raw/template0509plate2.asy:
     annotations:
+      human-smola: Unknown
       linguist: Asymptote
       linguist-heuristics: Asymptote
       pygments-filename: Asymptote
-      vote: Asymptote
+      vote: Unknown
+    notes: epRealPlex Assay File V4
   github.com/derf/Travel-Routing-DE-VRR/6d7126e170a4295347cf050023c4790455227669/t/in/e_hbf_b_hbf.ice:
     annotations:
       linguist: Slice
@@ -9045,6 +9150,7 @@ files:
       vote: Ruby
   github.com/diazmaria/HotelOasis/0999ba849dd1574cccfa56afdedfa2c6ba516a4e/src/main/java/es/uca/iw/hoteloasis/domain/Rol_Roo_Finder.aj:
     annotations:
+      human-smola: AspectJ
       linguist: AspectJ
       linguist-extension: AspectJ
       pygments-filename: AspectJ
@@ -9260,6 +9366,7 @@ files:
       vote: Idris
   github.com/domenkozar/augeas_bacula/3eabf328ad732aaec601a04d8a23654fa1995e78/bacula.aug:
     annotations:
+      human-smola: Augeas
       linguist: Augeas
       linguist-extension: Augeas
       pygments-filename: Augeas
@@ -9376,6 +9483,7 @@ files:
       vote: Brightscript
   github.com/dpk/textile/9a8ca40ddb3871c0ea71ee364c31580f02d21b85/textile.arc:
     annotations:
+      human-smola: Arc
       linguist: Arc
       linguist-extension: Arc
       vote: Arc
@@ -9393,6 +9501,7 @@ files:
       vote: REXX
   github.com/dreamhouseapp/dreamhouse-sfdx/29b464cca01e3eec929868af27849139aa5ad951/force-app/main/default/classes/SampleDataController.cls:
     annotations:
+      human-smola: Apex
       linguist: Apex
       pygments-filename: OpenEdge ABL
       vote: Apex
@@ -9426,12 +9535,14 @@ files:
       vote: TXL
   github.com/drslump/Boo.Hints/a65ce29d25b9c167395bda0a0d3a829ee1a11e3c/src/Boo.Hints/Commands.boo:
     annotations:
+      human-smola: Boo
       linguist: Boo
       linguist-extension: Boo
       pygments-filename: Boo
       vote: Boo
   github.com/drslump/BooBinding/889e712fbf87c3ec8cab2d01873ad6957ec2aa56/Editor/BooTextEditorExtension.boo:
     annotations:
+      human-smola: Boo
       linguist: Boo
       linguist-extension: Boo
       pygments-filename: Boo
@@ -9482,6 +9593,7 @@ files:
       vote: Rebol
   github.com/dumblob/mysql2sqlite/3cedfa614f44c6132de66108fa6b18c9a0998f0c/mysql2sqlite:
     annotations:
+      human-smola: Awk
       linguist: Awk
       linguist-shebang: Awk
       vote: Awk
@@ -9653,6 +9765,7 @@ files:
       vote: Shell
   github.com/e36freak/awk-libs/1cafe643cbee33a4f7881323aba2966ed50633e5/psort.awk:
     annotations:
+      human-smola: Awk
       linguist: Awk
       linguist-extension: Awk
       linguist-shebang: Awk
@@ -9912,6 +10025,7 @@ files:
       vote: Unknown
   github.com/elsassph/haxe-modular/7548e5faf39aefcc07dba470a24382748343cb77/src/Require.hx:
     annotations:
+      human-smola: Haxe
       linguist: Haxe
       linguist-extension: Haxe
       pygments-filename: Haxe
@@ -9940,6 +10054,7 @@ files:
       vote: BlitzMax
   github.com/emeryjdk/TeachX-2019/0d09ca6d8941f30ee41cf3e2334644104c2260d5/RandomWalkCarbonChain.asy:
     annotations:
+      human-smola: Asymptote
       linguist: Asymptote
       linguist-heuristics: Asymptote
       pygments-filename: Asymptote
@@ -10194,6 +10309,7 @@ files:
       vote: Squirrel
   github.com/essandess/etv-comskip/5167670162a234831fe6f9aba09190c106e213fd/src/scripts/Install.applescript:
     annotations:
+      human-smola: AppleScript
       linguist: AppleScript
       linguist-extension: AppleScript
       pygments-filename: AppleScript
@@ -10258,6 +10374,7 @@ files:
       vote: Elm
   github.com/evanrmurphy/SweetScript/6b4ed26acc9c2df6fde028f57b19ecb4661943fb/arc3.1/strings.arc:
     annotations:
+      human-smola: Arc
       linguist: Arc
       linguist-extension: Arc
       vote: Arc
@@ -10611,16 +10728,19 @@ files:
       vote: Zephir
   github.com/financialforcedev/ForceDotComSprintWall/bad7f61a5d57d57570f36cb611be40cf1d6820d3/src/classes/AgileTaskHandler.cls:
     annotations:
+      human-smola: Apex
       linguist: Apex
       pygments-filename: OpenEdge ABL
       vote: Apex
   github.com/financialforcedev/ffhttp-core/958186bcdab53b67d38b265695662553d7f82693/src/classes/ffhttp_ClientTest.cls:
     annotations:
+      human-smola: Apex
       linguist: Apex
       pygments-filename: OpenEdge ABL
       vote: Apex
   github.com/financialforcedev/fflib-apex-common-samplecode/a400ac2348dc3c33ab9a4e68617f7ff2b59153d1/fflib-sample-code/src/classes/OpportunityConsoleController.cls:
     annotations:
+      human-smola: Apex
       linguist: Apex
       pygments-filename: OpenEdge ABL
       vote: Apex
@@ -10784,6 +10904,7 @@ files:
       vote: AutoIt
   github.com/forcedotcom/user-access-visualization/4dcdb5b5084871ab13788cc353a7c6e4570cdcc9/UserAccessVisualization/src/classes/UserAccessDetailsController.cls:
     annotations:
+      human-smola: Apex
       linguist: Apex
       pygments-filename: OpenEdge ABL
       vote: Apex
@@ -10885,6 +11006,7 @@ files:
       vote: Clojure
   github.com/franzheidl/alfred-workflows/9e7a6e6e8104cd0aaff97e555ffad7de1d25a214/run-terminal-command-here/src/terminalcommandhere-newwin.applescript:
     annotations:
+      human-smola: AppleScript
       linguist: AppleScript
       linguist-extension: AppleScript
       pygments-filename: AppleScript
@@ -11065,6 +11187,7 @@ files:
       vote: ANTLR
   github.com/fuhsjr00/bug.n/767596345b2a635c9982223c431574436ca8cd79/src/Config.ahk:
     annotations:
+      human-smola: AutoHotkey
       linguist: AutoHotkey
       linguist-extension: AutoHotkey
       pygments-filename: AutoHotkey
@@ -11155,6 +11278,7 @@ files:
       vote: Agda
   github.com/gamer08/POA/df4ad4ee7f99570b9bd599a5efacb36fd7d573ed/Echec/src/edu/uqac/aop/chess/piece/ValidateMoveAspect.aj:
     annotations:
+      human-smola: AspectJ
       linguist: AspectJ
       linguist-extension: AspectJ
       pygments-filename: AspectJ
@@ -11265,6 +11389,7 @@ files:
       vote: Groovy
   github.com/geekcomputers/Applescript/29e1e61bf4be9112eb7786c63c42286f48c68247/sync_bento.applescript:
     annotations:
+      human-smola: AppleScript
       linguist: AppleScript
       linguist-extension: AppleScript
       pygments-filename: AppleScript
@@ -11288,6 +11413,7 @@ files:
       vote: Gnuplot
   github.com/geometryvn/asymptote/3b0c4283540560ae0d5efc051f90f2cf624a32ce/counttriangles.asy:
     annotations:
+      human-smola: Asymptote
       linguist: Asymptote
       linguist-heuristics: Asymptote
       pygments-filename: Asymptote
@@ -11330,6 +11456,7 @@ files:
       vote: Charity
   github.com/giginet/Tekitirs/e32b8beba1462280704547f10082abef12aa79f2/Assets/Fighter.boo:
     annotations:
+      human-smola: Boo
       linguist: Boo
       linguist-extension: Boo
       pygments-filename: Boo
@@ -11353,6 +11480,7 @@ files:
       vote: Monkey
   github.com/gipert/gedet-plots/1bc80c236f521830adba9895a70d55e8941757d0/gedetplots.asy:
     annotations:
+      human-smola: Asymptote
       linguist: Asymptote
       linguist-heuristics: Asymptote
       pygments-filename: Asymptote
@@ -11436,11 +11564,13 @@ files:
       vote: Nearley
   github.com/gizzidan/hive-practice/1af924443874dc61534cf43e3e43c77f4a4a816a/hive4.q:
     annotations:
+      human-smola: HiveQL
       linguist: HiveQL
       linguist-heuristics: HiveQL
       vote: HiveQL
   github.com/gkossakowski/scalac-aspects/a02604feb13d3392b851cbdd80a0f5bce2f09321/TraceSymbol.aj:
     annotations:
+      human-smola: AspectJ
       linguist: AspectJ
       linguist-extension: AspectJ
       pygments-filename: AspectJ
@@ -11667,6 +11797,7 @@ files:
       vote: Classic ASP
   github.com/goreliu/runz/3af89ede4e27541ff9cbc341c043e4f2ff373caa/Plugins/Kanji.ahk:
     annotations:
+      human-smola: AutoHotkey
       linguist: AutoHotkey
       linguist-extension: AutoHotkey
       pygments-filename: AutoHotkey
@@ -11810,6 +11941,7 @@ files:
       vote: Go
   github.com/gruenerBogen/Serlo-Asymptote-Commons/f3eb1f463e06154d592f8deeb5f8105450b9cfc5/serlo.asy:
     annotations:
+      human-smola: Asymptote
       linguist: Asymptote
       linguist-heuristics: Asymptote
       pygments-filename: Asymptote
@@ -12047,6 +12179,7 @@ files:
       vote: Opa
   github.com/hchbaw/swank-arc/721831aeec3db248976b75f84b86c04adff38195/swank.arc:
     annotations:
+      human-smola: Arc
       linguist: Arc
       linguist-extension: Arc
       vote: Arc
@@ -12095,12 +12228,14 @@ files:
       vote: Squirrel
   github.com/hercules-team/augeas-do-not-use/f0757b34efc67861f2d33d76d8f7283eab54ca8b/lenses/passwd.aug:
     annotations:
+      human-smola: Augeas
       linguist: Augeas
       linguist-extension: Augeas
       pygments-filename: Augeas
       vote: Augeas
   github.com/hercules-team/augeas/686e32fc1016a3e8ec68c0e354ba0ea3d663fab4/lenses/tests/test_pylonspaste.aug:
     annotations:
+      human-smola: Augeas
       linguist: Augeas
       linguist-extension: Augeas
       pygments-filename: Augeas
@@ -12527,6 +12662,7 @@ files:
       vote: OpenSCAD
   github.com/hui-Zz/RunAny/26f2e0a6783bb07f1b4df20464d5bccc0db8d224/RunPlugins/RunAny_ObjReg.ahk:
     annotations:
+      human-smola: AutoHotkey
       linguist: AutoHotkey
       linguist-extension: AutoHotkey
       pygments-filename: AutoHotkey
@@ -12637,6 +12773,7 @@ files:
       vote: COBOL
   github.com/icarroll/glyphic/c7faa4d40d953c38e5b3a17b99bc935629100155/water.asy:
     annotations:
+      human-smola: Asymptote
       linguist: Asymptote
       linguist-heuristics: Asymptote
       pygments-filename: Asymptote
@@ -12718,6 +12855,7 @@ files:
       vote: Logtalk
   github.com/igor-liferenko/goweb/30cc8ae8821203f2c46ebc0bbb649f7567cbcb40/gocommon.w:
     annotations:
+      human-smola: CWeb
       linguist: CWeb
       linguist-heuristics: CWeb
       vote: CWeb
@@ -12917,6 +13055,7 @@ files:
       vote: Nearley
   github.com/isaacspa8180/ds730/1fd61857d8bfcdf7190d47c46232f69c9b9d671f/a5/baseball.q:
     annotations:
+      human-smola: HiveQL
       linguist: HiveQL
       linguist-heuristics: HiveQL
       vote: HiveQL
@@ -12982,6 +13121,7 @@ files:
       vote: Oz
   github.com/jClarity/slow-crud-app/21300d07c15fd7446b9a68177b54f20a18aac6f7/auth-service/src/main/java/com/jclarity/auth/domain/WebUser_Roo_Jpa_ActiveRecord.aj:
     annotations:
+      human-smola: AspectJ
       linguist: AspectJ
       linguist-extension: AspectJ
       pygments-filename: AspectJ
@@ -13063,12 +13203,14 @@ files:
       vote: SuperCollider
   github.com/jan-kaspar/proton_reconstruction_validation/43dd00dec7214118cecd98a6176b9a77ae87ce94/plots/templates/th_y/th_y_RMS_vs_xi_cmp_fill.asy:
     annotations:
+      human-smola: Asymptote
       linguist: Asymptote
       linguist-heuristics: Asymptote
       pygments-filename: Asymptote
       vote: Asymptote
   github.com/jan-kaspar/proton_simulation_validation/251c2741484148fadd97a8c11a2d76a6bfedea6c/plots/settings_2016_preTS2.asy:
     annotations:
+      human-smola: Asymptote
       linguist: Asymptote
       linguist-heuristics: Asymptote
       pygments-filename: Asymptote
@@ -13195,6 +13337,7 @@ files:
       vote: KoLMafia ASH
   github.com/jcagarcia/proofs/6409903f826be9a991bf9d1907e54cb2cde1c46f/spring-controller-validation/src/main/java/org/springframework/roo/petclinic/web/PetsSearchThymeleafController_Roo_Controller.aj:
     annotations:
+      human-smola: AspectJ
       linguist: AspectJ
       linguist-extension: AspectJ
       pygments-filename: AspectJ
@@ -13224,6 +13367,7 @@ files:
       vote: Clarion
   github.com/jcouyang/TWHN/f452eb777fdb5b62fb7e4d8f4f5a62abc36cc40d/strings.arc:
     annotations:
+      human-smola: Arc
       linguist: Arc
       linguist-extension: Arc
       vote: Arc
@@ -13275,12 +13419,14 @@ files:
       vote: ColdFusion
   github.com/jefflance/asymptote-config/5915b7c21b7bb8d99a65ae24d72ef6973cc86828/edvenn_pi.asy:
     annotations:
+      human-smola: Asymptote
       linguist: Asymptote
       linguist-heuristics: Asymptote
       pygments-filename: Asymptote
       vote: Asymptote
   github.com/jeffreykegler/libmarpa/6af9871d41b9f0c6fab63d2d8c7ce99b6e3be16e/work/ami/marpa_ami.w:
     annotations:
+      human-smola: CWeb
       linguist: CWeb
       linguist-heuristics: CWeb
       vote: CWeb
@@ -13368,6 +13514,7 @@ files:
       vote: Agda
   github.com/jesperfj/sfdc-oauth-playground/3629bd6c42d37f9c43f06647922348b68eb5e45c/OAuth/src/classes/TestController.cls:
     annotations:
+      human-smola: Apex
       linguist: Apex
       pygments-filename: OpenEdge ABL
       vote: Apex
@@ -13576,12 +13723,14 @@ files:
       vote: PicoLisp
   github.com/joedf/LibCon.ahk/4d582be23abe4e11298e5035ee0ff603553a35a1/LibCon_Compiler/LibCon_Compiler.ahk:
     annotations:
+      human-smola: AutoHotkey
       linguist: AutoHotkey
       linguist-extension: AutoHotkey
       pygments-filename: AutoHotkey
       vote: AutoHotkey
   github.com/joedf/Webapp.ahk/b6b744fa8c6b42e04de53222aec271b5b1ea9be3/src/Example.ahk:
     annotations:
+      human-smola: AutoHotkey
       linguist: AutoHotkey
       linguist-extension: AutoHotkey
       pygments-filename: AutoHotkey
@@ -13756,6 +13905,7 @@ files:
       vote: LTspice Symbol
   github.com/jpginc/windows10DesktopManager/6dd6c214b4013e003a4cda38f2e52b49f84811b1/windowMover.ahk:
     annotations:
+      human-smola: AutoHotkey
       linguist: AutoHotkey
       linguist-extension: AutoHotkey
       pygments-filename: AutoHotkey
@@ -13847,6 +13997,7 @@ files:
       vote: AGS Script
   github.com/juanplopes/euler/c3741c70877d2373ca83a2d3cb0897bdca6aa5df/158.boo:
     annotations:
+      human-smola: Boo
       linguist: Boo
       linguist-extension: Boo
       pygments-filename: Boo
@@ -14074,6 +14225,7 @@ files:
       vote: SQL
   github.com/kasun04/microservices-integration-ballerina/ef15f303df9e26e79acf8a14ffedd3fe1552cf5d/catalog/InventoryService_pb.bal:
     annotations:
+      human-smola: Ballerina
       linguist: Ballerina
       linguist-extension: Ballerina
       vote: Ballerina
@@ -14121,6 +14273,7 @@ files:
       vote: XML
   github.com/kaviththiranga/ballerina-day-tooling-tutorial/d668b4155c173f1e32699a513ebf3012a7b06f01/resources/hello-service/demo/tests/hello_service_test.bal:
     annotations:
+      human-smola: Ballerina
       linguist: Ballerina
       linguist-extension: Ballerina
       vote: Ballerina
@@ -14226,6 +14379,7 @@ files:
       vote: Python
   github.com/kevinzluo/pollard-rho/285aa34c79b95e11deefd1af13b3928ccd1c0847/asy/drawGraph.asy:
     annotations:
+      human-smola: Asymptote
       linguist: Asymptote
       linguist-heuristics: Asymptote
       pygments-filename: Asymptote
@@ -14364,6 +14518,7 @@ files:
       vote: ANTLR
   github.com/knan02/hive_sample/3f36f5aaebe1a0f2752bd9919b48226c82d896e1/scripts/model-build-c.q:
     annotations:
+      human-smola: HiveQL
       linguist: HiveQL
       vote: HiveQL
   github.com/knaw-huc/backlogs/ca946919c687a8fcea28db904a55328f7b9bf4d0/src/grammar.ne:
@@ -14463,6 +14618,7 @@ files:
     notes: Forth-inspired toy language
   github.com/krimple/spring-roo-in-action-examples/1d4e83f4ad43916f246ab027621cc32b12019a34/chapter-10-email-jms/coursemanager-email-jms/src/main/java/org/rooinaction/coursemanager/web/CourseRegistrationController_Roo_Controller.aj:
     annotations:
+      human-smola: AspectJ
       linguist: AspectJ
       linguist-extension: AspectJ
       pygments-filename: AspectJ
@@ -14630,6 +14786,7 @@ files:
       vote: LFE
   github.com/lakwarus/ballerina-workshop/4203d62b3be3b3a54c2aaf9d4c0c3c94c3d5688c/tutorial-08/demo/demo.bal:
     annotations:
+      human-smola: Ballerina
       linguist: Ballerina
       linguist-extension: Ballerina
       vote: Ballerina
@@ -14740,6 +14897,7 @@ files:
   github.com/lazerwalker/hubot-imessage/ec1163b4779b75174f46d16c04bb768378295075/src/Hubot Event Handler.applescript:
     annotations:
       human-ajnavarro: AppleScript
+      human-smola: AppleScript
       linguist: AppleScript
       linguist-extension: AppleScript
       pygments-filename: AppleScript
@@ -14776,6 +14934,7 @@ files:
       vote: Red
   github.com/ldclakmal/ballerina-samples/468c6e3a0973bfdf8b55e802bd17b7cd41eb4a58/src/connectors/committer.bal:
     annotations:
+      human-smola: Ballerina
       linguist: Ballerina
       linguist-extension: Ballerina
       vote: Ballerina
@@ -15001,6 +15160,7 @@ files:
       vote: Vala
   github.com/linxinhong/ViATc/755cead6477dfc8968009f41dc7d41252fc1ac4b/actions/General.ahk:
     annotations:
+      human-smola: AutoHotkey
       linguist: AutoHotkey
       linguist-extension: AutoHotkey
       pygments-filename: AutoHotkey
@@ -15269,6 +15429,7 @@ files:
       vote: NewLisp
   github.com/luyanfei/myexam/6e34782a94250042e7d28caf7f0e5b3cd79329d8/src/main/java/cn/jhc/myexam/server/repository/CategoryRepository_Roo_Jpa_Repository.aj:
     annotations:
+      human-smola: AspectJ
       linguist: AspectJ
       linguist-extension: AspectJ
       pygments-filename: AspectJ
@@ -15611,6 +15772,7 @@ files:
       vote: Raku
   github.com/masonwheeler/RMXP-Scanner/8e8d21ff89a6094bfae05ac574992f6d8ba0bb18/RMTable.boo:
     annotations:
+      human-smola: Boo
       linguist: Boo
       linguist-extension: Boo
       pygments-filename: Boo
@@ -15712,6 +15874,7 @@ files:
       vote: Io
   github.com/mattrepl/reputator/2a62d960d34f7b23ec2011a79aabeaec9eecff14/reputator.arc:
     annotations:
+      human-smola: Arc
       linguist: Arc
       linguist-extension: Arc
       vote: Arc
@@ -15935,6 +16098,7 @@ files:
       vote: Chapel
   github.com/mhmxs/ballerina-gold-exchanger/2ee3a47bef09633b0d18d32bc86a2426af94121a/exchange-enterprise.bal:
     annotations:
+      human-smola: Ballerina
       linguist: Ballerina
       linguist-extension: Ballerina
       vote: Ballerina
@@ -16036,6 +16200,7 @@ files:
       vote: Vala
   github.com/mihaifm/screenkey.ahk/76b544456826fbb41ce18d7402887036f5361c2f/screenkey.ahk:
     annotations:
+      human-smola: AutoHotkey
       linguist: AutoHotkey
       linguist-extension: AutoHotkey
       pygments-filename: AutoHotkey
@@ -16581,11 +16746,13 @@ files:
       vote: Proguard
   github.com/mshanemc/einstein-ai/2ab7bc8b64a336690e0341fc987880e7ac4a1fb4/src/classes/InvocableLanguageFeedback.cls:
     annotations:
+      human-smola: Apex
       linguist: Apex
       pygments-filename: OpenEdge ABL
       vote: Apex
   github.com/mshanemc/processBuilderBlocks/08753cad3882d16f9341b0c337bd5f0ecc5edb24/src/classes/PBBCalloutMocks.cls:
     annotations:
+      human-smola: Apex
       linguist: Apex
       pygments-filename: OpenEdge ABL
       vote: Apex
@@ -16810,6 +16977,7 @@ files:
       vote: V
   github.com/neerogi/neerogi/197d15e077cec1cf7b9b2e9fe7552b8919fde09b/src/main/java/org/neerogi/domain/Title_Roo_DbManaged.aj:
     annotations:
+      human-smola: AspectJ
       linguist: AspectJ
       linguist-extension: AspectJ
       pygments-filename: AspectJ
@@ -16853,6 +17021,7 @@ files:
       vote: C
   github.com/newcontext-bbh/UUnit/60800d6029aa60127e0192240e34ed16434534ad/UUnitAssert.boo:
     annotations:
+      human-smola: Boo
       linguist: Boo
       linguist-extension: Boo
       pygments-filename: Boo
@@ -17016,6 +17185,7 @@ files:
       vote: Erlang
   github.com/nishantraut/SpringRoo/d49c1eadbece14ad3487e0d2a2d32994bc5355b2/HelloSpringRoo/src/main/java/com/springsource/roo/pizzashop/domain/Topping_Roo_ToString.aj:
     annotations:
+      human-smola: AspectJ
       linguist: AspectJ
       linguist-extension: AspectJ
       pygments-filename: AspectJ
@@ -17218,6 +17388,7 @@ files:
       vote: Dogescript
   github.com/nuex/zodiac/7515f68a8d8f2f0345c80874b34eeedddd3407da/lib/config.awk:
     annotations:
+      human-smola: Awk
       linguist: Awk
       linguist-extension: Awk
       pygments-filename: Awk
@@ -17336,12 +17507,14 @@ files:
       vote: OCaml
   github.com/odi-so/FaceTimeCallerInfo/1de295f50c84d0c387640f85e7003c39f7fc8662/FaceTimeCallerInfo.applescript:
     annotations:
+      human-smola: AppleScript
       linguist: AppleScript
       linguist-extension: AppleScript
       pygments-filename: AppleScript
       vote: AppleScript
   github.com/odinuge/tt-to-subrip/3670c09763d2ba534bbb572fe3790c0b4c5bc6f3/tt-to-subrip.awk:
     annotations:
+      human-smola: Awk
       linguist: Awk
       linguist-extension: Awk
       linguist-shebang: Awk
@@ -17481,6 +17654,7 @@ files:
     notes: Xiaomi ASH
   github.com/open-force/jsonparse/547b0cf62f9b5ed9f6d6ef8fc037fe3bd10cf98a/JSONParseTests.cls:
     annotations:
+      human-smola: Apex
       linguist: Apex
       pygments-filename: OpenEdge ABL
       vote: Apex
@@ -17781,6 +17955,7 @@ files:
       vote: VHDL
   github.com/paras16jul1991/aws-Emr/5559f31d69ea171da20571e334faf1c79e5cea01/hive_emr_script.q:
     annotations:
+      human-smola: HiveQL
       linguist: HiveQL
       linguist-heuristics: HiveQL
       vote: HiveQL
@@ -17902,6 +18077,7 @@ files:
       vote: Processing
   github.com/paycoguy/pet-clinic/09b0c1653716bdfac8b32eba3f622dc29cafb59e/src/test/java/com/springsource/petclinic/domain/OwnerDataOnDemand_Roo_DataOnDemand.aj:
     annotations:
+      human-smola: AspectJ
       linguist: AspectJ
       linguist-extension: AspectJ
       pygments-filename: AspectJ
@@ -18002,12 +18178,14 @@ files:
       vote: Batchfile
   github.com/peterkir/example.aspectj/0a354c099f5d722c621fce0c592bb84d1ea0d553/example.aspectj.pde.wildcard/src/example/aspectj/wildcard/AfterAspectJ.aj:
     annotations:
+      human-smola: AspectJ
       linguist: AspectJ
       linguist-extension: AspectJ
       pygments-filename: AspectJ
       vote: AspectJ
   github.com/peterldowns/iterm2-finder-tools/49b1fe78bb50329b864902850104504ccfb53b45/application/application.applescript:
     annotations:
+      human-smola: AppleScript
       linguist: AppleScript
       linguist-extension: AppleScript
       pygments-filename: AppleScript
@@ -18330,6 +18508,7 @@ files:
       vote: Nemerle
   github.com/pmb6tz/windows-desktop-switcher/62dca84f97d7be0360306bcaa0b5b38af974b93b/user_config.ahk:
     annotations:
+      human-smola: AutoHotkey
       linguist: AutoHotkey
       linguist-extension: AutoHotkey
       pygments-filename: AutoHotkey
@@ -18433,6 +18612,7 @@ files:
       vote: Glyph
   github.com/pokepetter/Speculaer_Unity/37b15964868e58cec95e952c52ef2ec21ab548ee/Assets/InputFolderChanger.boo:
     annotations:
+      human-smola: Boo
       linguist: Boo
       linguist-extension: Boo
       pygments-filename: Boo
@@ -18521,17 +18701,20 @@ files:
       vote: Nit
   github.com/pqnelson/economics-notes/149192d5f8ded995514ae9c0a77c0306bfdfcac7/sraffa/reswitching.asy:
     annotations:
+      human-smola: Asymptote
       linguist: Asymptote
       linguist-heuristics: Asymptote
       pygments-filename: Asymptote
       vote: Asymptote
   github.com/prabath/ballerina-security/2e80fa3419901b84e8e898e0da8d893d5f2b0c32/service-service-auth-with-mtls/order-processing/order_processing_service.bal:
     annotations:
+      human-smola: Ballerina
       linguist: Ballerina
       linguist-extension: Ballerina
       vote: Ballerina
   github.com/prabhakarg-dm/AWS-Training-Session9/a230a0c249a293d0309408280e3cfb0ce49c496c/Hive_CloudFront.q:
     annotations:
+      human-smola: HiveQL
       linguist: HiveQL
       linguist-heuristics: HiveQL
       vote: HiveQL
@@ -18549,6 +18732,7 @@ files:
       vote: Nim
   github.com/prelegalwonder/qpid_fabric/3ed23c6cd0ff855d9fbd01311c3cfb00c8e9a99d/lenses/qpid.aug:
     annotations:
+      human-smola: Augeas
       linguist: Augeas
       linguist-extension: Augeas
       pygments-filename: Augeas
@@ -18842,6 +19026,7 @@ files:
       vote: Io
   github.com/quanhinh9/H2P/b5458c1026cd1d55ea2172742582742c47d42678/h2geo_v1.1.asy:
     annotations:
+      human-smola: Asymptote
       linguist: Asymptote
       linguist-heuristics: Asymptote
       pygments-filename: Asymptote
@@ -19003,12 +19188,14 @@ files:
       vote: PL/SQL
   github.com/raphink/config-augeas-validator/ee8aeffb9753fcb260e6227b2ef6b785bdca77c8/lenses/tests/test_fai_diskconfig.aug:
     annotations:
+      human-smola: Augeas
       linguist: Augeas
       linguist-extension: Augeas
       pygments-filename: Augeas
       vote: Augeas
   github.com/raphink/puppet-cups/d7eea48de85d2bfc7681aedd1be3a5967072839c/files/lenses/test_cups.aug:
     annotations:
+      human-smola: Augeas
       linguist: Augeas
       linguist-extension: Augeas
       pygments-filename: Augeas
@@ -19227,6 +19414,7 @@ files:
       vote: Red
   github.com/redhat-openstack/ansible-role-tripleo-collect-logs/65abb9b2b48d34930540fa4b7b7b07cddb473554/scripts/doc_extrapolation.awk:
     annotations:
+      human-smola: Awk
       linguist: Awk
       linguist-extension: Awk
       pygments-filename: Awk
@@ -19306,12 +19494,14 @@ files:
       vote: Io
   github.com/remkes/calculus1/1c31e0f45b9bc77ebb642df30840536cf010a3a8/asy/figure07.asy:
     annotations:
+      human-smola: Asymptote
       linguist: Asymptote
       linguist-heuristics: Asymptote
       pygments-filename: Asymptote
       vote: Asymptote
   github.com/remkes/linearalgebra/1feb9ee4ca170b74bc30eeb7317336724393290d/asy/figure9.asy:
     annotations:
+      human-smola: Asymptote
       linguist: Asymptote
       linguist-heuristics: Asymptote
       pygments-filename: Asymptote
@@ -19329,6 +19519,7 @@ files:
       vote: Oxygene
   github.com/renaudhager/puppet-agent-smtp-docker-builder/62fa1e31ffff72406dc2d453b848c0dd59775685/centos/6.6/files/postfix_main.aug:
     annotations:
+      human-smola: Augeas
       linguist: Augeas
       linguist-extension: Augeas
       pygments-filename: Augeas
@@ -19609,6 +19800,7 @@ files:
       vote: XQuery
   github.com/rocketnia/penknife/8d710c8c6ec06e080a74b93931cf217699a3f4f4/pk-util.arc:
     annotations:
+      human-smola: Arc
       linguist: Arc
       linguist-extension: Arc
       vote: Arc
@@ -19627,6 +19819,7 @@ files:
       vote: Emacs Lisp
   github.com/rodjek/puppet-haproxy/c95446aa111fee4e4b0d0e31b4817952f2640c60/files/usr/share/augeas/lenses/haproxy.aug:
     annotations:
+      human-smola: Augeas
       linguist: Augeas
       linguist-extension: Augeas
       pygments-filename: Augeas
@@ -19744,6 +19937,7 @@ files:
       vote: Elixir
   github.com/rsayers/anonchat/655b339d08fc1c7f9d9224fda00724803b800c9a/chat.arc:
     annotations:
+      human-smola: Arc
       linguist: Arc
       linguist-extension: Arc
       vote: Arc
@@ -19779,6 +19973,7 @@ files:
       vote: Nemerle
   github.com/rsoesemann/salesforce-plantuml/e5bec0113cdb8e9fadb626a8ad20520cd253e96c/sfdx-source/main/default/classes/CodeMetrics.cls:
     annotations:
+      human-smola: Apex
       linguist: Apex
       pygments-filename: OpenEdge ABL
       vote: Apex
@@ -19994,6 +20189,7 @@ files:
       vote: IGOR Pro
   github.com/ryuji/epona/4462ddfa408eaed6a94015259a4a3f8220d5cf75/lib/arc/code.arc:
     annotations:
+      human-smola: Arc
       linguist: Arc
       linguist-extension: Arc
       vote: Arc
@@ -20058,6 +20254,7 @@ files:
       vote: Squirrel
   github.com/sampayo/Alfred-WorkFlows/59230ab2fbac70af4920fd105d1c691738887a62/Audio Switch/input.applescript:
     annotations:
+      human-smola: AppleScript
       linguist: AppleScript
       linguist-extension: AppleScript
       pygments-filename: AppleScript
@@ -20251,11 +20448,13 @@ files:
       vote: SAS
   github.com/scottprahl/iad/0c7f834b02ab0bb53bf6da6d7eff3a0ad93cda1b/src/ad_cone_test.w:
     annotations:
+      human-smola: CWeb
       linguist: CWeb
       linguist-heuristics: CWeb
       vote: CWeb
   github.com/scottprahl/mie/c6f6d14b51d3457ebaf270b40ff81c25aebe2806/src/mie_cylinder.w:
     annotations:
+      human-smola: CWeb
       linguist: CWeb
       linguist-heuristics: CWeb
       vote: CWeb
@@ -20363,6 +20562,7 @@ files:
       vote: NetLinx
   github.com/seoeun25/data-ex/9507410fa1518c2bb4ba61f056cdc7092110fc4c/hive/ddl/wikiticker.q:
     annotations:
+      human-smola: HiveQL
       linguist: HiveQL
       vote: HiveQL
   github.com/sephiroth74/purePDF/5a409634412fa1032b1e9937a347b344d3ccc63e/purepdf/src/org/purepdf/pdf/PdfFormXObject.as:
@@ -20568,6 +20768,7 @@ files:
       vote: ATS
   github.com/shreevatsa/knuth-literate-programs/9b46afe7e66cb1493592a6bf08adacada165fc58/programs-orig/spgraph.w:
     annotations:
+      human-smola: CWeb
       linguist: CWeb
       linguist-heuristics: CWeb
       vote: CWeb
@@ -20773,6 +20974,7 @@ files:
       vote: Fortran
   github.com/soimort/translate-shell/0115103a9289ade50c2e184b70cecae8a07a9739/include/Translators/BingTranslator.awk:
     annotations:
+      human-smola: Awk
       linguist: Awk
       linguist-extension: Awk
       pygments-filename: Awk
@@ -21041,6 +21243,7 @@ files:
       vote: ATS
   github.com/step-/JSON.awk/b0a85162b5639d95684e96e43ec2ae24978dfceb/callbacks.awk:
     annotations:
+      human-smola: Awk
       linguist: Awk
       linguist-extension: Awk
       pygments-filename: Awk
@@ -21099,6 +21302,7 @@ files:
       vote: Unknown
   github.com/stisti/jenkins-app/df19f7a254c792868a7069fc0c74cdfe755a5be7/main.applescript:
     annotations:
+      human-smola: AppleScript
       linguist: AppleScript
       linguist-extension: AppleScript
       pygments-filename: AppleScript
@@ -21216,6 +21420,7 @@ files:
       vote: NSIS
   github.com/svetlyak40wt/arc-crawler/764b950a92de93fc1b56a0581dbe54567e3ee080/crawler.arc:
     annotations:
+      human-smola: Arc
       linguist: Arc
       linguist-extension: Arc
       vote: Arc
@@ -21317,6 +21522,7 @@ files:
       vote: XML
   github.com/tak-oda/201904_DisneyReview/b831fd9020ba4f23bd44e41891191f991012b388/Codes/Q1.q:
     annotations:
+      human-smola: HiveQL
       linguist: HiveQL
       linguist-heuristics: HiveQL
       vote: HiveQL
@@ -21500,6 +21706,7 @@ files:
       vote: DM
   github.com/thakurab/shiva/6d930b637244535e8c0f1f6d40270354e26444b8/3d-octahedron.asy:
     annotations:
+      human-smola: Asymptote
       linguist: Asymptote
       linguist-heuristics: Asymptote
       pygments-filename: Asymptote
@@ -21540,6 +21747,7 @@ files:
       vote: Racket
   github.com/the-set-of-sets/lp_draw/cc1233bbbc72171525a970df80da0446a4a1cdd4/lp_draw.asy:
     annotations:
+      human-smola: Asymptote
       linguist: Asymptote
       linguist-heuristics: Asymptote
       pygments-filename: Asymptote
@@ -21594,6 +21802,7 @@ files:
       vote: CoffeeScript
   github.com/thinkingserious/omnifocus-applescripts/1d2f91833467af12e690f19d4eeefe64474712ba/Prepare task completion report.scpt:
     annotations:
+      human-smola: AppleScript
       linguist: AppleScript
       linguist-extension: AppleScript
       vote: AppleScript
@@ -21898,6 +22107,7 @@ files:
       vote: HolyC
   github.com/toursprung/iOS-Screenshot-Automator/0a628891fffe0e71fee9e0e4c241afdf537807f1/run:
     annotations:
+      human-smola: AppleScript
       linguist: AppleScript
       linguist-shebang: AppleScript
       vote: AppleScript
@@ -22033,6 +22243,7 @@ files:
       vote: Emacs Lisp
   github.com/truongdam/echat/9bb0e0285d84e125a1f2949da5043d41225ee80a/src/main/java/com/springsource/petclinic/domain/Pet_Roo_ToString.aj:
     annotations:
+      human-smola: AspectJ
       linguist: AspectJ
       linguist-extension: AspectJ
       pygments-filename: AspectJ
@@ -22301,6 +22512,7 @@ files:
       vote: LabVIEW
   github.com/uniremington/POAJava/9b3b3b65f2aff1a5f17ea555bb8398ed0bc93e5d/src/com/remington/ejercicios/BaseDeDatos.aj:
     annotations:
+      human-smola: AspectJ
       linguist: AspectJ
       linguist-extension: AspectJ
       pygments-filename: AspectJ
@@ -22358,6 +22570,7 @@ files:
       vote: Unknown
   github.com/uty/haproxy-augeas-lens/b4ff3dc2e5d7f2ab9499e9507788575927797124/test_haproxy.aug:
     annotations:
+      human-smola: Augeas
       linguist: Augeas
       linguist-extension: Augeas
       pygments-filename: Augeas
@@ -22376,6 +22589,7 @@ files:
       vote: Shell
   github.com/uwegeercken/awk_scripts/63c58f975c618ec32464fdaf42130615d8cfd6ed/field_highlow.awk:
     annotations:
+      human-smola: Awk
       linguist: Awk
       linguist-extension: Awk
       linguist-shebang: Awk
@@ -22653,6 +22867,7 @@ files:
       vote: FreeMarker
   github.com/vshn/modsecurity-docker/d53d456274e820a4ac0f40c937587994ab24d2dc/v3.1/transform-alert-message.awk:
     annotations:
+      human-smola: Awk
       linguist: Awk
       linguist-extension: Awk
       linguist-shebang: Awk
@@ -22713,6 +22928,7 @@ files:
       vote: Opa
   github.com/wanderingbort/augeas-trafficserver/028ebf15f45d1d7aac2074fc76cb47c5d976dda9/trafficserver_cache.aug:
     annotations:
+      human-smola: Augeas
       linguist: Augeas
       linguist-extension: Augeas
       pygments-filename: Augeas
@@ -22810,6 +23026,7 @@ files:
       vote: Unknown
   github.com/wernsey/d.awk/853e3a6940f193a72c7b67840bcbf822f1f476c1/wrap.awk:
     annotations:
+      human-smola: Awk
       linguist: Awk
       linguist-extension: Awk
       linguist-shebang: Awk
@@ -22908,6 +23125,7 @@ files:
       vote: Visual Basic
   github.com/wo52616111/capslock-plus/60b4ec05d27ad317602f376726aabb905959700f/CapsLock+.ahk:
     annotations:
+      human-smola: AutoHotkey
       linguist: AutoHotkey
       linguist-extension: AutoHotkey
       pygments-filename: AutoHotkey
@@ -22972,36 +23190,43 @@ files:
       vote: sed
   github.com/wso2-ballerina/module-ethereum/1d76190ec61c140f50688ef1bc761f0c00c4ee92/src/ethereum/tests/test.bal:
     annotations:
+      human-smola: Ballerina
       linguist: Ballerina
       linguist-extension: Ballerina
       vote: Ballerina
   github.com/wso2-ballerina/module-github/83a65ab2ce459c2fdc491452ed70f49a3b7c77c8/src/githubwebhook3/github_webhook.bal:
     annotations:
+      human-smola: Ballerina
       linguist: Ballerina
       linguist-extension: Ballerina
       vote: Ballerina
   github.com/wso2-ballerina/module-gmail/3a2c99c8d69d67ccfd020fd058b497bd876dcb07/src/gmail/tests/main_test.bal:
     annotations:
+      human-smola: Ballerina
       linguist: Ballerina
       linguist-extension: Ballerina
       vote: Ballerina
   github.com/wso2-ballerina/module-sonarqube/0a877c967061633182a63c7884ebc46cd997b12f/src/sonarqube/sonarqube_constants.bal:
     annotations:
+      human-smola: Ballerina
       linguist: Ballerina
       linguist-extension: Ballerina
       vote: Ballerina
   github.com/wso2-ballerina/module-twilio/39e8b99475a82b2018d2e8a9057e4f2036807dcd/src/twilio/twilio_endpoint.bal:
     annotations:
+      human-smola: Ballerina
       linguist: Ballerina
       linguist-extension: Ballerina
       vote: Ballerina
   github.com/wso2-ballerina/module-twitter/1a5e19e1caebf42a3773a6da47c5f586b96cbb77/src/twitter/twitter_types.bal:
     annotations:
+      human-smola: Ballerina
       linguist: Ballerina
       linguist-extension: Ballerina
       vote: Ballerina
   github.com/wting/hackernews/5a3296417d23d1ecc901447af63dfc27af217f40/arc.arc:
     annotations:
+      human-smola: Arc
       linguist: Arc
       linguist-extension: Arc
       vote: Arc
@@ -23159,6 +23384,7 @@ files:
       vote: Fortran
   github.com/xilopaint/alfred-things/b0473406bd5f29647385eedf51539fa68cfa5388/src/things.applescript:
     annotations:
+      human-smola: AppleScript
       linguist: AppleScript
       linguist-extension: AppleScript
       pygments-filename: AppleScript
@@ -23180,6 +23406,7 @@ files:
       vote: XC
   github.com/xnslong/yaml/27c75657c2fe9c7893cf5a98e7a7add2a9cd0723/yaml-awk/get_yaml_value.awk:
     annotations:
+      human-smola: Awk
       linguist: Awk
       linguist-extension: Awk
       pygments-filename: Awk
@@ -23341,6 +23568,7 @@ files:
       vote: QMake
   github.com/yrabbit/linkerbk/0ca0fee388a7493550f207ecdddf000877cc2e37/linker.w:
     annotations:
+      human-smola: CWeb
       linguist: CWeb
       linguist-heuristics: CWeb
       vote: CWeb
@@ -23383,11 +23611,13 @@ files:
       vote: QMake
   github.com/z-rui/boom/eb59f13c73d27b3a6c9c81befa3a5496bd356936/boom.w:
     annotations:
+      human-smola: CWeb
       linguist: CWeb
       linguist-heuristics: CWeb
       vote: CWeb
   github.com/z-rui/snake/c676a223f57e8d68f761e37b9a36b1cbb1afff24/snake.w:
     annotations:
+      human-smola: CWeb
       linguist: CWeb
       linguist-heuristics: CWeb
       vote: CWeb
@@ -23431,6 +23661,7 @@ files:
       vote: Tcl
   github.com/zdx1989/programming-hive/d64f25d460c884b59c07680f995314e185bd46fe/src/main/scala/chap4/table.q:
     annotations:
+      human-smola: HiveQL
       linguist: HiveQL
       linguist-heuristics: HiveQL
       vote: HiveQL
