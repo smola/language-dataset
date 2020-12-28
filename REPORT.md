@@ -4,7 +4,7 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 261 |
-| **Total samples** | 3861 |
+| **Total samples** | 3880 |
 | **Samples labeled by humans** | 1026 |
 
 ## Per Language
@@ -131,7 +131,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | JavaScript | 20 | 5 |
 | Jsonnet | 20 | 1 |
 | Julia | 18 | 1 |
-| Jupyter Notebook | 1 | 1 |
+| Jupyter Notebook | 20 | 1 |
 | KiCad Layout | 3 | 3 |
 | Kit | 19 | 1 |
 | KoLMafia ASH | 21 | 21 |
