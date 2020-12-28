@@ -4132,9 +4132,11 @@ files:
       vote: Ballerina
   github.com/Shanjaq/peanut/1f590eaac0c24cfc79a3c38b3a9d8be9f7e45455/phcc/inferno.hc:
     annotations:
+      human-smola: Unknown
       linguist: HolyC
       linguist-extension: HolyC
-      vote: HolyC
+      vote: Unknown
+    notes: HexenC (QuakeC-based)
   github.com/Shanjaq/uhexen2-progs/f9eb2b52316d9cdeae1acb06774ccf3b18e07786/h2/entity.hc:
     annotations:
       linguist: HolyC
@@ -5145,6 +5147,7 @@ files:
       vote: QML
   github.com/ZCXL/JsonParse/40eecb66b353ca9d25de5cd0e9f2622740ca7a93/JSON.g4:
     annotations:
+      human-smola: ANTLR
       linguist: ANTLR
       linguist-extension: ANTLR
       vote: ANTLR
@@ -5956,6 +5959,7 @@ files:
       vote: Mirah
   github.com/antlr/Antlr4Formatter/bd1b7d8f33aacf5673332bce7ce6dc64e172839a/antlr4-formatter/src/test/resources/CSharpPreprocessorParser.unformatted.g4:
     annotations:
+      human-smola: ANTLR
       linguist: ANTLR
       linguist-extension: ANTLR
       vote: ANTLR
@@ -7084,11 +7088,13 @@ files:
       vote: Factor
   github.com/bkiers/pcre-parser/6bf809a18e423bebd6548dd418075eebe655d15a/src/main/antlr4/nl/bigo/pcreparser/PCRE.g4:
     annotations:
+      human-smola: ANTLR
       linguist: ANTLR
       linguist-extension: ANTLR
       vote: ANTLR
   github.com/bkiers/rrd-antlr4/6b40ff9f613127fea205c3b7092f2065efc44a01/src/test/resources/IRI.g4:
     annotations:
+      human-smola: ANTLR
       linguist: ANTLR
       linguist-extension: ANTLR
       vote: ANTLR
@@ -8406,6 +8412,7 @@ files:
       vote: NewLisp
   github.com/cvgit/vhdlParser/35869f79fdd25a9c9ffe83a654b4c377ccad500d/vhdl.g4:
     annotations:
+      human-smola: ANTLR
       linguist: ANTLR
       linguist-extension: ANTLR
       vote: ANTLR
@@ -9397,6 +9404,7 @@ files:
       vote: Pike
   github.com/drforr/perl6-ANTLR4/ffa588bd94ccf02660a5b05c16b2199f9d58cf89/corpus/redcode.g4:
     annotations:
+      human-smola: ANTLR
       linguist: ANTLR
       linguist-extension: ANTLR
       vote: ANTLR
@@ -11051,6 +11059,7 @@ files:
       vote: NewLisp
   github.com/ftomassetti/antlr-plus/0160d44f49ad9c1c4df2195704c5b901ef2e2d0e/src/test/resources/me/tomassetti/antlrplus/python/Python3.g4:
     annotations:
+      human-smola: ANTLR
       linguist: ANTLR
       linguist-extension: ANTLR
       vote: ANTLR
@@ -11170,6 +11179,7 @@ files:
       vote: GAP
   github.com/gap-packages/orb/4320969c2f9872bf2e30b2ccecf02e0760ee457b/tst/m22f2d34p443520.g:
     annotations:
+      human-smola: GAP
       linguist: GAP
       pygments-filename: GAP
       vote: GAP
@@ -13310,6 +13320,7 @@ files:
       vote: Pony
   github.com/jeml-lang/jeml/8feaefdee5e5ded6d0ff8a97db0fb2e636c2bd6f/jeml.g4:
     annotations:
+      human-smola: ANTLR
       linguist: ANTLR
       linguist-extension: ANTLR
       vote: ANTLR
@@ -14347,6 +14358,7 @@ files:
       vote: NetLogo
   github.com/klyone/HDLObf/c8c4133b33213b2c5f16558ea45784cad7f06cfc/src/vhdl.g4:
     annotations:
+      human-smola: ANTLR
       linguist: ANTLR
       linguist-extension: ANTLR
       vote: ANTLR
@@ -14775,6 +14787,7 @@ files:
       vote: Mercury
   github.com/le-moulin-studio/java-semantic-diff/badbd873e0d5df585bd63c316f2a72c75d013796/src/main/antlr4/Java.g4:
     annotations:
+      human-smola: ANTLR
       linguist: ANTLR
       linguist-extension: ANTLR
       vote: ANTLR
@@ -14976,6 +14989,7 @@ files:
       vote: Unknown
   github.com/lincolnlau/block/a56b023ddfaaafcbcb6bfb901e859a461fa6c890/src/parser/Component.g4:
     annotations:
+      human-smola: ANTLR
       linguist: ANTLR
       linguist-extension: ANTLR
       vote: ANTLR
@@ -16931,6 +16945,7 @@ files:
       vote: Terra
   github.com/nightscape/papa-carlos-aunt/834e70850b8ddeecf4207d2e1d18402538d13d97/src/main/antlr4/ANTLRv4Parser.g4:
     annotations:
+      human-smola: ANTLR
       linguist: ANTLR
       linguist-extension: ANTLR
       vote: ANTLR
@@ -17267,11 +17282,13 @@ files:
       vote: Gnuplot
   github.com/obecebo/bdt-virtio-blk/d1cf01c98f6787cd4a555043363b4feef225d172/DskBlk2.HC:
     annotations:
+      human-smola: HolyC
       linguist: HolyC
       linguist-extension: HolyC
       vote: HolyC
   github.com/obecebo/erythros/a84dade6d460343cae4e3c5148774b8d0b8e69a9/System/Programs/Games/Cherub.exec/LCD.HC:
     annotations:
+      human-smola: HolyC
       linguist: HolyC
       linguist-extension: HolyC
       vote: HolyC
@@ -18474,6 +18491,7 @@ files:
       vote: Modula-3
   github.com/potigol/potigol-grammar/383b2bcae94a0a741705eedb42b97cfda3670340/potigol.g4:
     annotations:
+      human-smola: ANTLR
       linguist: ANTLR
       linguist-extension: ANTLR
       vote: ANTLR
@@ -19389,6 +19407,7 @@ files:
       vote: Rebol
   github.com/rgoulter/cdecl/eeb267492e3c3f19ac1245d5dda807d51d6f7767/src/main/antlr4/cdecl/C.g4:
     annotations:
+      human-smola: ANTLR
       linguist: ANTLR
       linguist-extension: ANTLR
       vote: ANTLR
@@ -20106,6 +20125,7 @@ files:
       vote: Perl
   github.com/sarahBuisson/kotlin-parser/427719a0e62783ea3e8d9d28133db0abe3257b12/src/main/antlr4/com/github/sarahbuisson/kotlinparser/KotlinLexer.g4:
     annotations:
+      human-smola: ANTLR
       linguist: ANTLR
       linguist-extension: ANTLR
       vote: ANTLR
@@ -20759,6 +20779,7 @@ files:
       vote: Awk
   github.com/solidityj/solidity-antlr4/50cf6acb3f14d5b317636f4c162562410f2c58d3/Solidity.g4:
     annotations:
+      human-smola: ANTLR
       linguist: ANTLR
       linguist-extension: ANTLR
       vote: ANTLR
