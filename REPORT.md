@@ -4,8 +4,8 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 261 |
-| **Total samples** | 3853 |
-| **Samples labeled by humans** | 1002 |
+| **Total samples** | 3862 |
+| **Samples labeled by humans** | 1010 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -103,7 +103,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | GLSL | 20 | 1 |
 | Genshi | 16 | 2 |
 | Glyph | 20 | 1 |
-| Gnuplot | 9 | 1 |
+| Gnuplot | 18 | 9 |
 | Go | 21 | 3 |
 | Golo | 20 | 0 |
 | Gosu | 5 | 0 |
