@@ -4,8 +4,8 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 261 |
-| **Total samples** | 3857 |
-| **Samples labeled by humans** | 766 |
+| **Total samples** | 3856 |
+| **Samples labeled by humans** | 785 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -15,7 +15,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | ABAP | 20 | 1 |
 | AGS Script | 19 | 19 |
 | AMPL | 17 | 15 |
-| ANTLR | 19 | 3 |
+| ANTLR | 19 | 19 |
 | API Blueprint | 5 | 1 |
 | APL | 17 | 1 |
 | ASP.NET | 20 | 0 |
@@ -98,7 +98,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | FreeMarker | 18 | 2 |
 | Frege | 13 | 2 |
 | G-code | 1 | 1 |
-| GAP | 7 | 0 |
+| GAP | 7 | 1 |
 | GDScript | 2 | 2 |
 | GLSL | 20 | 1 |
 | Genshi | 16 | 2 |
@@ -117,7 +117,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Haskell | 19 | 2 |
 | Haxe | 20 | 1 |
 | HiveQL | 14 | 2 |
-| HolyC | 9 | 1 |
+| HolyC | 8 | 3 |
 | Hy | 20 | 0 |
 | IDL | 12 | 2 |
 | IGOR Pro | 20 | 0 |
