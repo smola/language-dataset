@@ -1113,6 +1113,11 @@ files:
       linguist-extension: AspectJ
       pygments-filename: AspectJ
       vote: AspectJ
+  github.com/DKMalungu/Machine_learning_templates/840d99be5a096326624abce7f91d50f2c63374ba/computer_vision/CVND_Exercises/2_6_Attention/1_1. Attention Basics.ipynb:
+    annotations:
+      linguist: Jupyter Notebook
+      linguist-extension: Jupyter Notebook
+      vote: Jupyter Notebook
   github.com/DagF/tdt4165_progspraak_h15/26d60606ce2a3b501c2db465b707139d81c48d75/assignments/assignment_6/ParseDKL.oz:
     annotations:
       linguist: Oz
@@ -1360,6 +1365,11 @@ files:
       linguist-heuristics: Fortran
       pygments-filename: Fortran
       vote: Fortran
+  github.com/EmbraceLife/fastai_treasures/4230be915e70a7e5a22f2f7e5137cca7045754fd/my_workstation/my_vocab/.ipynb_checkpoints/fastai-vocab-checkpoint.ipynb:
+    annotations:
+      linguist: Jupyter Notebook
+      linguist-extension: Jupyter Notebook
+      vote: Jupyter Notebook
   github.com/Endurance-Robotics/ChatBots/9e957067c84fe36d517220255947a88a3bf4d910/botabout/botlibre/scripts/Orders.self:
     annotations:
       human-smola: Unknown
@@ -1717,6 +1727,11 @@ files:
       linguist: Kit
       linguist-extension: Kit
       vote: Kit
+  github.com/Gaukhar-ai/for_my_Thinkful_work/9899e871f63836c52ca3b1879fd10935ffcaa196/Financial_Sentimental_Analysis.ipynb:
+    annotations:
+      linguist: Jupyter Notebook
+      linguist-extension: Jupyter Notebook
+      vote: Jupyter Notebook
   github.com/Gaxil/Unity-InteriorMapping/78194254efe646aee5c9784dc23338a263c14343/Assets/Shaders/InteriorMapping.shader:
     annotations:
       linguist: GLSL
@@ -2018,6 +2033,11 @@ files:
       linguist: Apex
       pygments-filename: OpenEdge ABL
       vote: Apex
+  github.com/ImadDabbura/fastai-courses/053637a2dd3b4ad6c35f97a13f3fba87af1d3940/dl2/notebooks/07a_LSUV-Imad.ipynb:
+    annotations:
+      linguist: Jupyter Notebook
+      linguist-extension: Jupyter Notebook
+      vote: Jupyter Notebook
   github.com/InQuest/malware-samples/fcb42e2881c9004d5f6c2286fd91457eab374a17/CVE-2018-4878-Adobe-Flash-DRM-UAF-0day/swf-1a3269253784f76e3480e4b3de312dfee878f99045ccfd2231acb5ba57d8ed0d-dfi/5Cx1e5Cx19.as:
     annotations:
       human-smola: ActionScript
@@ -5339,6 +5359,11 @@ files:
       linguist-extension: CMake
       pygments-filename: CMake
       vote: CMake
+  github.com/abhinavkulkarni/carnd/452dcba35444fe7f127267170d1f32107fd73f61/CarND-Semantic-Segmentation/main.ipynb:
+    annotations:
+      linguist: Jupyter Notebook
+      linguist-extension: Jupyter Notebook
+      vote: Jupyter Notebook
   github.com/abo-abo/lispy/c8da3c9ed3355bcf2b427b0ee7935cfdd6e6703e/targets/interactive-init.el:
     annotations:
       human-smola: Emacs Lisp
@@ -6629,6 +6654,11 @@ files:
       linguist-extension: COBOL
       pygments-filename: COBOLFree
       vote: COBOL
+  github.com/azazeus/two-photon-FRET-image-analysis/60914765501c2f2a1aee85a0f04fd5fc80c72034/Image data analysis statistics writeup.ipynb:
+    annotations:
+      linguist: Jupyter Notebook
+      linguist-extension: Jupyter Notebook
+      vote: Jupyter Notebook
   github.com/azim4gvm/fantastic-train/6b6f92775f260e3e7dc9d375962b0170fc5fb085/ci.golo:
     annotations:
       linguist: Golo
@@ -7053,6 +7083,11 @@ files:
       linguist-extension: JavaScript
       pygments-filename: JavaScript
       vote: JavaScript
+  github.com/benzom/A-2/4f3cd74ad5a51a54c448031feaf16c75f6fba374/geo_clusters.ipynb:
+    annotations:
+      linguist: Jupyter Notebook
+      linguist-extension: Jupyter Notebook
+      vote: Jupyter Notebook
   github.com/bernerdschaefer/sgheme/5007b2763c8280668d3bb72b9e50c17a057bc8ee/sicp.lisp:
     annotations:
       human-ajnavarro: NewLisp
@@ -7349,6 +7384,11 @@ files:
       linguist-extension: Zephir
       pygments-filename: Zephir
       vote: Zephir
+  github.com/bomcclatchy/Modeling-Multimodal-TKI-ChemoRadiation/e2000c223f11a00246065db8e89c4a38b295e537/log_normal_truncated_ab.ipynb:
+    annotations:
+      linguist: Jupyter Notebook
+      linguist-extension: Jupyter Notebook
+      vote: Jupyter Notebook
   github.com/boo-lang/boo-extensions/cb4c0b93ab11a5359f9b42cd13509ae1454170b1/GenerateBooParserTestFixture.boo:
     annotations:
       human-smola: Boo
@@ -8668,6 +8708,11 @@ files:
       linguist-heuristics: PHP
       pygments-filename: PHP
       vote: PHP
+  github.com/danntapl/https-github.com-PlamenStilyianov-Python3/46cbe38e20c6f45ab0eddfe19fb2d056b2d8522e/scikit-learn-Cookbook/code/chapter4/Using Many Decisions Trees - Random Forests.ipynb:
+    annotations:
+      linguist: Jupyter Notebook
+      linguist-extension: Jupyter Notebook
+      vote: Jupyter Notebook
   github.com/danschultzer/pow/56488b6d53e0b75509b19fd51f64d2f2bb6653a5/lib/pow/ecto/schema/password.ex:
     annotations:
       human-smola: Elixir
@@ -8693,6 +8738,11 @@ files:
       linguist: Brainfuck
       pygments-filename: Brainfuck
       vote: Brainfuck
+  github.com/dapperfu/CNC3018/52b128dec1c2b6f6fbafd36bbaa0531082fdec4b/Drawing/OldDrawing/LineTypes-Copy3.ipynb:
+    annotations:
+      linguist: Jupyter Notebook
+      linguist-extension: Jupyter Notebook
+      vote: Jupyter Notebook
   github.com/dapphub/dappsys/933fb468f72f1a81ee8b6d90b17ffdf25d8e1067/default.nix:
     annotations:
       linguist: Nix
@@ -9519,6 +9569,11 @@ files:
       linguist-extension: REXX
       pygments-filename: REXX
       vote: REXX
+  github.com/drdiek/Hippocampome/38bcc37747b4ac63e313d6f1ac333aa2b35b4fc6/Python/dir_neuritesQuantified/neuritesQuantified-probabilities.ipynb:
+    annotations:
+      linguist: Jupyter Notebook
+      linguist-extension: Jupyter Notebook
+      vote: Jupyter Notebook
   github.com/dreamhouseapp/dreamhouse-sfdx/29b464cca01e3eec929868af27849139aa5ad951/force-app/main/default/classes/SampleDataController.cls:
     annotations:
       human-smola: Apex
@@ -10358,6 +10413,11 @@ files:
       linguist: PowerBuilder
       linguist-extension: PowerBuilder
       vote: PowerBuilder
+  github.com/estorrs/cell-segmentation/f214d667d7fb6822d7610f6eee94899e60453e6e/notebooks/BBBC020_preparation.ipynb:
+    annotations:
+      linguist: Jupyter Notebook
+      linguist-extension: Jupyter Notebook
+      vote: Jupyter Notebook
   github.com/etalab/taxe-fonciere/152bb1f0ba19827e3509f83a694a25a4aa52240e/src/XCOMBAT.cpy:
     annotations:
       linguist: COBOL
@@ -10619,6 +10679,11 @@ files:
       linguist-heuristics: RenderScript
       pygments-filename: Rust
       vote: RenderScript
+  github.com/fastai/nbdev/7fcc358f9a4ab7709d0d5808bfb02a7456930eac/nbs/99_search.ipynb:
+    annotations:
+      linguist: Jupyter Notebook
+      linguist-extension: Jupyter Notebook
+      vote: Jupyter Notebook
   github.com/fasterthanlime/bleep/dde9eb3df48c3aad5162fdcfb1502c81c05c5820/source/bleep.ooc:
     annotations:
       linguist: ooc
@@ -15145,6 +15210,11 @@ files:
       linguist: Brainfuck
       pygments-filename: Limbo
       vote: Brainfuck
+  github.com/liaopeiyuan/TrackML-Particle-Tracking-Challenge/acaf08665294645eab57166d460cca257816bceb/final/Production.ipynb:
+    annotations:
+      linguist: Jupyter Notebook
+      linguist-extension: Jupyter Notebook
+      vote: Jupyter Notebook
   github.com/liasomething/shapeConverter/48485e50c38ded43319a0abe16ac46648b60d35d/ShapeConverter/Button.pde:
     annotations:
       linguist: Processing
@@ -17581,6 +17651,11 @@ files:
       linguist-extension: Elm
       pygments-filename: Elm
       vote: Elm
+  github.com/oiken98/Classic-Games/0a30fbf604d99fc8a00ae787f80f8cb2ae0eed58/snake/snake_game.ipynb:
+    annotations:
+      linguist: Jupyter Notebook
+      linguist-extension: Jupyter Notebook
+      vote: Jupyter Notebook
   github.com/ojdkbuild/ojdkbuild/a021aad4af757969928e481bb13c3d42466c9cf3/src/java-1.8.0-openjdk/CMakeLists.txt:
     annotations:
       linguist: CMake
@@ -18864,6 +18939,11 @@ files:
       linguist-extension: VHDL
       pygments-filename: VHDL
       vote: VHDL
+  github.com/progressEdd/blog/f7158331f49d4e5cbfef5e0b4ce48804f2c1b98c/_notebooks/2020-08-09-Favicon-Setup-Guide.ipynb:
+    annotations:
+      linguist: Jupyter Notebook
+      linguist-extension: Jupyter Notebook
+      vote: Jupyter Notebook
   github.com/proofcert/fpccheck/6de59990bfb7762f869e0d3a4c5d0fad453a86c2/fpc/lprolog/pair.mod:
     annotations:
       human-smola: Unknown
@@ -19000,6 +19080,11 @@ files:
       linguist-extension: Haskell
       pygments-filename: Haskell
       vote: Haskell
+  github.com/puspo1997/Project_Work_II/7a4dd1f9c0689489abe8c98791d1005f7270a377/Inception_Scratch_Pytorch.ipynb:
+    annotations:
+      linguist: Jupyter Notebook
+      linguist-extension: Jupyter Notebook
+      vote: Jupyter Notebook
   github.com/pvanhoof/dir-examples/523cab5edaff99acba037218d5b95227cb2487a9/qmake-example/src/libs/qmake-example/qmake-example.pro:
     annotations:
       linguist: QMake
@@ -22285,6 +22370,11 @@ files:
       linguist-extension: Groovy
       pygments-filename: Groovy
       vote: Groovy
+  github.com/trenton3983/Learning_IPython_for_Interactive_Computing_and_Data_Visualization/e7d23a267601ca84f706ad026d0763be5754afd3/2ndEd/chapter3/32-creating.ipynb:
+    annotations:
+      linguist: Jupyter Notebook
+      linguist-extension: Jupyter Notebook
+      vote: Jupyter Notebook
   github.com/trivialmips/nontrivial-mips/f18d2bbd8216dd1783044fb677471172e2355dba/src/cpu/mmu/tlb.sv:
     annotations:
       human-smola: SystemVerilog
@@ -22731,6 +22821,11 @@ files:
       linguist-heuristics: Prolog
       pygments-filename: Prolog
       vote: Prolog
+  github.com/vanheeringen-lab/newproject/6fc10dba35998082af0f727594f1051ab18de490/{{cookiecutter.project_name}}/analysis/Jupyter_notebook_template.ipynb:
+    annotations:
+      linguist: Jupyter Notebook
+      linguist-extension: Jupyter Notebook
+      vote: Jupyter Notebook
   github.com/varda/aule-test/a99ab183f966fefc7009281289fb06e331c7dacb/templates/data_sources.hb:
     annotations:
       human-smola: Handlebars
