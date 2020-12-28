@@ -5,7 +5,7 @@ datasets:
   pygments:
     version: 2.7.3
   rosetta_code:
-    version: aac6731f2c1e30321fcfc58ac95d8203c041ee04
+    version: 9ad63ea473a958506c041077f1d810c0c7c8c18d
 languages:
   0815:
     maps_to:
@@ -481,6 +481,10 @@ languages:
     maps_to:
       rosetta_code:
       - Biferno
+  Binary Lambda Calculus:
+    maps_to:
+      rosetta_code:
+      - Binary Lambda Calculus
   Bison:
     group: Yacc
     maps_to:
@@ -5103,6 +5107,8 @@ languages:
   WebAssembly:
     maps_to:
       linguist:
+      - WebAssembly
+      rosetta_code:
       - WebAssembly
   WebIDL:
     maps_to:

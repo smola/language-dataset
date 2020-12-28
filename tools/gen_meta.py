@@ -14,7 +14,7 @@ logger = logging.getLogger("gen_meta")
 from .common import *
 
 LINGUIST_COMMIT = "3ef386bbb7d10afe2ef81d85c9911871a9f2c221"
-ROSETTA_CODE_DATA_COMMIT = "aac6731f2c1e30321fcfc58ac95d8203c041ee04"
+ROSETTA_CODE_DATA_COMMIT = "9ad63ea473a958506c041077f1d810c0c7c8c18d"
 
 
 def add_linguist_languages(commit: str, meta: Meta):
