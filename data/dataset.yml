@@ -5906,6 +5906,11 @@ files:
       linguist-extension: Common Workflow Language
       linguist-shebang: Common Workflow Language
       vote: Common Workflow Language
+  github.com/andrey-malets/opencl-usu-2009/a896419258c98853e90e25afe217b4084131bd1a/test/test.gnuplot:
+    annotations:
+      linguist: Gnuplot
+      linguist-extension: Gnuplot
+      vote: Gnuplot
   github.com/android/architecture-components-samples/b88adef417583371f3fe5a01e28983fe7170036d/PagingWithNetworkSample/app/src/main/java/com/android/example/paging/pagingwithnetwork/reddit/db/RedditDb.kt:
     annotations:
       linguist: Kotlin
@@ -6831,6 +6836,14 @@ files:
       linguist-extension: Boo
       pygments-filename: Boo
       vote: Boo
+  github.com/bangeneticalgorithms/engine-cuda/09596445effa16cb8e0b80efbc74f56586bc0ca4/test-speed/aes-ecb-encrypt.plt:
+    annotations:
+      human-smola: Gnuplot
+      linguist: Gnuplot
+      linguist-extension: Gnuplot
+      linguist-shebang: Gnuplot
+      pygments-filename: Gnuplot
+      vote: Gnuplot
   github.com/banneker-aztlan/intro-to-python/a2633812d2591c036d629265579b4b7b88ed001a/data/seds/Sc_A_0.sed:
     annotations:
       human-smola: Unknown
@@ -13663,6 +13676,12 @@ files:
       linguist: Zimpl
       linguist-extension: Zimpl
       vote: Zimpl
+  github.com/jmcourt/thesis2/5a221bf081b2f28ceae59d4cc6e2b569b47d0664/plotscripts/Diego/2/test.gnu~:
+    annotations:
+      human-smola: Gnuplot
+      linguist: Gnuplot
+      linguist-shebang: Gnuplot
+      vote: Gnuplot
   github.com/jmechner/Prince-of-Persia-Apple-II/a9e276ce886f2200985e968b6cb5bda7edf5a2bb/04 Support/MakeDisk/S/RYELLOW1.S:
     annotations:
       human-smola: Assembly
@@ -15542,6 +15561,12 @@ files:
       linguist: OpenSCAD
       linguist-extension: OpenSCAD
       vote: OpenSCAD
+  github.com/maeager/cnstellate/4eed80cb82b41ec63a885e2c6edfe31ab0153b28/ResponsesNoComp/psthsingle5090.gnu:
+    annotations:
+      human-smola: Gnuplot
+      linguist: Gnuplot
+      linguist-extension: Gnuplot
+      vote: Gnuplot
   github.com/magecoach/run.mage.coach/baf02f8cd929d212fc2629da58b1da9263246011/server/views/home.hb:
     annotations:
       human-smola: Handlebars
@@ -16264,6 +16289,12 @@ files:
       linguist: FreeMarker
       linguist-extension: FreeMarker
       vote: FreeMarker
+  github.com/mipt-genphys/labnik_iii/edd2a0cebaf9d072864ed8b347cd66ca6640c306/Images/v2.gp:
+    annotations:
+      human-smola: Gnuplot
+      linguist: Gnuplot
+      linguist-extension: Gnuplot
+      vote: Gnuplot
   github.com/mirah/dubious/5985b669e604ccb9247a7a8ad1b41bbafe5f1d53/src/dubious/text_helper.mirah:
     annotations:
       linguist: Mirah
@@ -17902,6 +17933,13 @@ files:
       linguist-xml: XML
       pygments-filename: XSLT
       vote: XSLT
+  github.com/pablisho/Gerris-Taller3/27dc5e71f71b0743cb8d57dd4d2559aae3df21aa/gerris-stable/doc/examples/column/comparison.plot:
+    annotations:
+      human-smola: Gnuplot
+      linguist: Gnuplot
+      linguist-extension: Gnuplot
+      pygments-filename: Gnuplot
+      vote: Gnuplot
   github.com/pablojorge/brainfuck/ef60abec5cd6de90f05e410741001124bc8eb275/programs/bizzfuzz.bf:
     annotations:
       linguist: Brainfuck
@@ -19759,6 +19797,13 @@ files:
       linguist-extension: LLVM
       pygments-filename: LLVM
       vote: LLVM
+  github.com/rmadisetti3/nbastatsapp/91a5d823a1cecfa8da8329e8c4c3d29f31d10e5f/node_modules 2/node-uuid/benchmark/bench.gnu:
+    annotations:
+      human-smola: Gnuplot
+      linguist: Gnuplot
+      linguist-extension: Gnuplot
+      linguist-shebang: Gnuplot
+      vote: Gnuplot
   github.com/rmartyna/LOLCODE-examples/b6eba27d1e60a14ca9f5457b0bbe857bbfc488fc/src/hello_func.lol:
     annotations:
       linguist: LOLCODE
@@ -21401,6 +21446,12 @@ files:
       linguist-extension: Augeas
       pygments-filename: Augeas
       vote: Unknown
+  github.com/suri2501/femilaro/e2a97e544785f9fcd3d2115493699c9db0f0da39/gnuplot-scripts/wcontour.gnu:
+    annotations:
+      human-smola: Gnuplot
+      linguist: Gnuplot
+      linguist-extension: Gnuplot
+      vote: Gnuplot
   github.com/surrim/osmod/1843f4b1885482361af92c6984c2488209bc3df3/MOON-C/scripts/Units/Supplier.ec:
     annotations:
       linguist: eC
@@ -22774,6 +22825,12 @@ files:
       linguist: Modula-2
       linguist-heuristics: Modula-2
       vote: Modula-2
+  github.com/vishwakftw/Cool-Compiler-for-Cool/5d09fb5e20821afc3aa357a4cfdfe75362229d5d/Mini-Assignment-Polly/plotter_run.gnuplot:
+    annotations:
+      human-smola: Gnuplot
+      linguist: Gnuplot
+      linguist-extension: Gnuplot
+      vote: Gnuplot
   github.com/visualzhou/mongo-repl-tla/7ea53f733112267522f7a72290bdc709fed09b35/RaftMongo.tla:
     annotations:
       human-smola: TLA
