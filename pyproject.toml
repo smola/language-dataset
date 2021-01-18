@@ -11,7 +11,7 @@ requests = "*"
 pyyaml = "*"
 pandas = "*"
 scikit-learn = "*"
-pygments = "2.7.3"
+pygments = "2.7.4"
 PyGithub = "^1.54"
 
 [tool.poetry.dev-dependencies]
