@@ -13,7 +13,7 @@ logger = logging.getLogger("gen_meta")
 
 from .common import *
 
-LINGUIST_COMMIT = "3ef386bbb7d10afe2ef81d85c9911871a9f2c221"
+LINGUIST_COMMIT = "9bcbcb830213eee1e5b5ee11ea39115a1da0da5c"
 ROSETTA_CODE_DATA_COMMIT = "9ad63ea473a958506c041077f1d810c0c7c8c18d"
 
 

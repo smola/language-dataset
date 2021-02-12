@@ -1,7 +1,7 @@
 datasets:
   custom: {}
   linguist:
-    version: 3ef386bbb7d10afe2ef81d85c9911871a9f2c221
+    version: 9bcbcb830213eee1e5b5ee11ea39115a1da0da5c
   pygments:
     version: 2.7.3
   rosetta_code:
@@ -41,6 +41,10 @@ languages:
       - ABAP
       rosetta_code:
       - ABAP
+  ABAP CDS:
+    maps_to:
+      linguist:
+      - ABAP CDS
   ABNF:
     maps_to:
       linguist:
@@ -458,6 +462,10 @@ languages:
     maps_to:
       rosetta_code:
       - Battlestar
+  Beef:
+    maps_to:
+      linguist:
+      - Beef
   Beeswax:
     maps_to:
       rosetta_code:
@@ -534,6 +542,8 @@ languages:
       - Boo
   Boogie:
     maps_to:
+      linguist:
+      - Boogie
       pygments:
       - Boogie
   Bori:
@@ -856,7 +866,6 @@ languages:
       pygments:
       - ClojureScript
   Closure Templates:
-    group: HTML
     maps_to:
       linguist:
       - Closure Templates
@@ -1228,7 +1237,6 @@ languages:
       rosetta_code:
       - EGL
   EJS:
-    group: HTML
     maps_to:
       linguist:
       - EJS
@@ -2135,6 +2143,10 @@ languages:
     maps_to:
       pygments:
       - Igor
+  ImageJ Macro:
+    maps_to:
+      linguist:
+      - ImageJ Macro
   Inform 6:
     maps_to:
       pygments:
@@ -2264,11 +2276,6 @@ languages:
     maps_to:
       linguist:
       - JSONiq
-  JSX:
-    group: JavaScript
-    maps_to:
-      linguist:
-      - JSX
   JScript.NET:
     maps_to:
       rosetta_code:
@@ -3078,7 +3085,6 @@ languages:
       linguist:
       - Muse
   Mustache:
-    group: HTML
     maps_to:
       linguist:
       - Mustache
@@ -3274,6 +3280,10 @@ languages:
       - NumPy
       pygments:
       - NumPy
+  Nunjucks:
+    maps_to:
+      linguist:
+      - Nunjucks
   OASYS:
     maps_to:
       rosetta_code:
@@ -4064,6 +4074,10 @@ languages:
       - REBOL
       rosetta_code:
       - REBOL
+  Record Jar:
+    maps_to:
+      linguist:
+      - Record Jar
   Red:
     maps_to:
       linguist:
@@ -4331,7 +4345,6 @@ languages:
       pygments:
       - Scalate Server Page
   Scaml:
-    group: HTML
     maps_to:
       linguist:
       - Scaml
