@@ -17,7 +17,6 @@ PyGithub = "^1.54"
 [tool.poetry.dev-dependencies]
 black = "*"
 flake8 = "*"
-ipython = "*"
 pytest = "*"
 pytest-mock = "*"
 mock = "*"
