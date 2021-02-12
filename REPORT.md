@@ -3,9 +3,9 @@
 
 | Metric | Value |
 | ------ | ----- |
-| **Languages** | 261 |
-| **Total samples** | 3880 |
-| **Samples labeled by humans** | 1026 |
+| **Languages** | 259 |
+| **Total samples** | 3879 |
+| **Samples labeled by humans** | 1044 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -56,7 +56,6 @@ For each language, the table reports total number of samples (_Samples_) and how
 | CWeb | 16 | 16 |
 | Ceylon | 20 | 1 |
 | Chapel | 18 | 0 |
-| Charity | 3 | 0 |
 | ChucK | 19 | 1 |
 | Clarion | 17 | 3 |
 | Classic ASP | 12 | 2 |
@@ -67,7 +66,6 @@ For each language, the table reports total number of samples (_Samples_) and how
 | ColdFusion CFC | 8 | 8 |
 | Common Lisp | 14 | 11 |
 | Common Workflow Language | 16 | 1 |
-| Component Pascal | 1 | 0 |
 | Coq | 21 | 10 |
 | Crystal | 19 | 0 |
 | Cycript | 16 | 11 |
@@ -106,7 +104,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Gnuplot | 18 | 9 |
 | Go | 21 | 3 |
 | Golo | 20 | 0 |
-| Gosu | 5 | 0 |
+| Gosu | 4 | 0 |
 | Gosu Template | 1 | 1 |
 | Grace | 20 | 1 |
 | Groovy | 20 | 1 |
@@ -119,7 +117,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | HiveQL | 14 | 14 |
 | HolyC | 8 | 3 |
 | Hy | 20 | 0 |
-| IDL | 12 | 2 |
+| IDL | 13 | 5 |
 | IGOR Pro | 20 | 0 |
 | INI | 2 | 2 |
 | Idris | 18 | 1 |
@@ -128,7 +126,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | J | 19 | 1 |
 | JSON | 4 | 4 |
 | Java | 21 | 2 |
-| JavaScript | 20 | 5 |
+| JavaScript | 21 | 5 |
 | Jsonnet | 20 | 1 |
 | Julia | 18 | 1 |
 | Jupyter Notebook | 20 | 1 |
@@ -151,8 +149,8 @@ For each language, the table reports total number of samples (_Samples_) and how
 | LiveScript | 20 | 2 |
 | Logtalk | 20 | 1 |
 | Lua | 21 | 2 |
-| M4 | 2 | 2 |
-| M4Sugar | 14 | 6 |
+| M4 | 3 | 2 |
+| M4Sugar | 13 | 11 |
 | MATLAB | 23 | 16 |
 | MAXScript | 17 | 1 |
 | Makefile | 17 | 1 |
@@ -184,7 +182,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | PL/SQL | 15 | 13 |
 | PL/pgSQL | 13 | 5 |
 | POV-Ray SDL | 2 | 0 |
-| Pascal | 20 | 1 |
+| Pascal | 21 | 2 |
 | Perl | 20 | 11 |
 | PicoLisp | 19 | 5 |
 | Pike | 20 | 1 |
@@ -194,7 +192,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | PowerShell | 17 | 3 |
 | Processing | 20 | 2 |
 | Proguard | 3 | 3 |
-| Prolog | 17 | 11 |
+| Prolog | 16 | 11 |
 | PureBasic | 8 | 0 |
 | PureScript | 20 | 0 |
 | Python | 21 | 3 |
@@ -227,10 +225,10 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Shell | 22 | 8 |
 | Shen | 19 | 3 |
 | Slice | 6 | 0 |
-| Smalltalk | 18 | 1 |
+| Smalltalk | 18 | 2 |
 | Squirrel | 20 | 1 |
 | Stata | 17 | 1 |
-| SuperCollider | 19 | 4 |
+| SuperCollider | 19 | 9 |
 | Swift | 19 | 2 |
 | SystemVerilog | 19 | 9 |
 | TLA | 20 | 1 |
@@ -239,11 +237,11 @@ For each language, the table reports total number of samples (_Samples_) and how
 | TXL | 18 | 0 |
 | Tcl | 18 | 4 |
 | Terra | 6 | 0 |
-| Text | 2 | 2 |
+| Text | 4 | 4 |
 | Turing | 8 | 0 |
 | TypeScript | 16 | 5 |
 | Unix Assembly | 5 | 4 |
-| V | 18 | 3 |
+| V | 18 | 4 |
 | VHDL | 18 | 4 |
 | Vala | 20 | 1 |
 | Verilog | 20 | 8 |
