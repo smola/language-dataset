@@ -1737,8 +1737,9 @@ files:
       vote: Jupyter Notebook
   github.com/Gaxil/Unity-InteriorMapping/78194254efe646aee5c9784dc23338a263c14343/Assets/Shaders/InteriorMapping.shader:
     annotations:
+      human-smola: ShaderLab
       linguist: GLSL
-      vote: GLSL
+      vote: ShaderLab
   github.com/Genymobile/scrcpy/3ea47423217775d2519fb5ac61edd55072639a64/app/tests/test_control_msg_serialize.c:
     annotations:
       human-smola: C
@@ -21061,8 +21062,9 @@ files:
       vote: Common Lisp
   github.com/smkplus/ShaderMan/f2501540e3f0ef8da4abaf8a05c98f5cb4cfa022/Assets/Shaders/Examples/Voronoi.shader:
     annotations:
+      human-smola: ShaderLab
       linguist: GLSL
-      vote: GLSL
+      vote: ShaderLab
   github.com/smmankad/float/c20b44e342dee91736e4f1cfd076bb85a13a0e8b/src/Ribbons/botao.pde:
     annotations:
       linguist: Processing
@@ -23681,8 +23683,9 @@ files:
       vote: Frege
   github.com/ya7gisa0/Unity-Raindrops/cb946d95774b2d09eea7be4ebcbcad3d86988191/Raindrop/Assets/Raindrop.shader:
     annotations:
+      human-smola: ShaderLab
       linguist: GLSL
-      vote: GLSL
+      vote: ShaderLab
   github.com/yahoo/kafka-manager/a8896d7ff07443261f599b2096bd9c6d2c24be8b/app/models/form/TopicOperation.scala:
     annotations:
       linguist: Scala
