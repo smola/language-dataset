@@ -3,9 +3,9 @@
 
 | Metric | Value |
 | ------ | ----- |
-| **Languages** | 259 |
+| **Languages** | 260 |
 | **Total samples** | 3879 |
-| **Samples labeled by humans** | 1044 |
+| **Samples labeled by humans** | 1047 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -98,7 +98,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | G-code | 1 | 1 |
 | GAP | 7 | 1 |
 | GDScript | 2 | 2 |
-| GLSL | 20 | 1 |
+| GLSL | 17 | 1 |
 | Genshi | 16 | 2 |
 | Glyph | 20 | 1 |
 | Gnuplot | 18 | 9 |
@@ -222,6 +222,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Scheme | 21 | 21 |
 | Scilab | 10 | 2 |
 | Self | 8 | 0 |
+| ShaderLab | 3 | 3 |
 | Shell | 22 | 8 |
 | Shen | 19 | 3 |
 | Slice | 6 | 0 |
