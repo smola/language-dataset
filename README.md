@@ -37,7 +37,8 @@ The `tools` directory contains various Python utilities to maintain the dataset:
 * `tools/vote.py`: Updates the `vote` annotation.
 * `tools/lint.py`: Checks the dataset for potential problems.
 * `tools/prepare_commit.py`: Updates generated files, required before any commit.
-* `tools/classify.py`: Basic classifier used to detect potentially incorrect labels.
+* `tools/classify_linguist.py`: Updates linguist labels.
+* `tools/classify_pygments.py`: Updates pygments labels.
 
 To run tools first create the virtual environment:
 
