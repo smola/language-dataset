@@ -10,7 +10,7 @@ python = "^3.8"
 requests = "*"
 pyyaml = "*"
 pygments = "2.7.3"
-PyGithub = "^1.54"
+PyGithub = "^1.55"
 
 [tool.poetry.dev-dependencies]
 black = "*"
