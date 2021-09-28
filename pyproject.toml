@@ -9,7 +9,7 @@ license = "MIT License + others"
 python = "^3.8"
 requests = "*"
 pyyaml = "*"
-pygments = "2.7.3"
+pygments = "2.10.0"
 PyGithub = "^1.54"
 
 [tool.poetry.dev-dependencies]
