@@ -3,7 +3,7 @@ datasets:
   linguist:
     version: 9bcbcb830213eee1e5b5ee11ea39115a1da0da5c
   pygments:
-    version: 2.7.3
+    version: 2.12.0
   rosetta_code:
     version: 9ad63ea473a958506c041077f1d810c0c7c8c18d
 languages:
@@ -83,6 +83,10 @@ languages:
     maps_to:
       rosetta_code:
       - ALGOL-M
+  AMDGPU:
+    maps_to:
+      pygments:
+      - AMDGPU
   AMPL:
     maps_to:
       linguist:
@@ -91,6 +95,10 @@ languages:
       - Ampl
       rosetta_code:
       - AMPL
+  ANSYS parametric design language:
+    maps_to:
+      pygments:
+      - ANSYS parametric design language
   ANTLR:
     maps_to:
       linguist:
@@ -119,6 +127,10 @@ languages:
       - APL
       rosetta_code:
       - APL
+  ASCII armored:
+    maps_to:
+      pygments:
+      - ASCII armored
   ASL:
     maps_to:
       linguist:
@@ -462,6 +474,10 @@ languages:
     maps_to:
       rosetta_code:
       - Battlestar
+  Bdd:
+    maps_to:
+      pygments:
+      - Bdd
   Beef:
     maps_to:
       linguist:
@@ -478,6 +494,10 @@ languages:
       - Befunge
       rosetta_code:
       - Befunge
+  Berry:
+    maps_to:
+      pygments:
+      - Berry
   BibTeX:
     group: TeX
     maps_to:
@@ -637,6 +657,10 @@ languages:
     maps_to:
       pygments:
       - CBM BASIC V2
+  CDDL:
+    maps_to:
+      pygments:
+      - CDDL
   CFEngine3:
     maps_to:
       pygments:
@@ -717,6 +741,10 @@ languages:
     maps_to:
       pygments:
       - CSS+Smarty
+  CSS+UL4:
+    maps_to:
+      pygments:
+      - CSS+UL4
   CSS+mozpreproc:
     maps_to:
       pygments:
@@ -1355,6 +1383,10 @@ languages:
       - Elm
       rosetta_code:
       - Elm
+  Elpi:
+    maps_to:
+      pygments:
+      - Elpi
   Emacs Lisp:
     maps_to:
       linguist:
@@ -1581,6 +1613,8 @@ languages:
     maps_to:
       linguist:
       - Futhark
+      pygments:
+      - Futhark
       rosetta_code:
       - Futhark
   FutureBasic:
@@ -1649,6 +1683,10 @@ languages:
     maps_to:
       linguist:
       - GN
+  GSQL:
+    maps_to:
+      pygments:
+      - GSQL
   GUISS:
     maps_to:
       rosetta_code:
@@ -1821,6 +1859,10 @@ languages:
     maps_to:
       linguist:
       - GraphQL
+  Graphviz:
+    maps_to:
+      pygments:
+      - Graphviz
   Graphviz (DOT):
     maps_to:
       linguist:
@@ -1960,6 +2002,10 @@ languages:
     maps_to:
       pygments:
       - HTML+Twig
+  HTML+UL4:
+    maps_to:
+      pygments:
+      - HTML+UL4
   HTML+Velocity:
     maps_to:
       pygments:
@@ -2096,18 +2142,6 @@ languages:
       - INI
       pygments:
       - INI
-  IPython:
-    maps_to:
-      pygments:
-      - IPython
-  IPython console session:
-    maps_to:
-      pygments:
-      - IPython console session
-  IPython3:
-    maps_to:
-      pygments:
-      - IPython3
   IRC log:
     maps_to:
       linguist:
@@ -2247,6 +2281,10 @@ languages:
     maps_to:
       pygments:
       - JSGF
+  JSLT:
+    maps_to:
+      pygments:
+      - JSLT
   JSON:
     maps_to:
       linguist:
@@ -2370,6 +2408,10 @@ languages:
     maps_to:
       pygments:
       - JavaScript+Smarty
+  Javascript+UL4:
+    maps_to:
+      pygments:
+      - Javascript+UL4
   Javascript+mozpreproc:
     maps_to:
       pygments:
@@ -2430,6 +2472,8 @@ languages:
       - Juttle
   K:
     maps_to:
+      pygments:
+      - K
       rosetta_code:
       - K
   KRL:
@@ -2508,6 +2552,10 @@ languages:
       - Kotlin
       rosetta_code:
       - Kotlin
+  Kuin:
+    maps_to:
+      pygments:
+      - Kuin
   L++:
     maps_to:
       rosetta_code:
@@ -2634,6 +2682,8 @@ languages:
   LilyPond:
     maps_to:
       linguist:
+      - LilyPond
+      pygments:
       - LilyPond
       rosetta_code:
       - Lilypond
@@ -2808,6 +2858,10 @@ languages:
     maps_to:
       rosetta_code:
       - MBS
+  MCFunction:
+    maps_to:
+      pygments:
+      - MCFunction
   MEL:
     maps_to:
       rosetta_code:
@@ -2883,6 +2937,8 @@ languages:
     maps_to:
       linguist:
       - Macaulay2
+      pygments:
+      - Macaulay2
   Makefile:
     maps_to:
       linguist:
@@ -2911,7 +2967,7 @@ languages:
       linguist:
       - Markdown
       pygments:
-      - markdown
+      - Markdown
   Marko:
     maps_to:
       linguist:
@@ -2948,6 +3004,8 @@ languages:
       - Max
   Maxima:
     maps_to:
+      pygments:
+      - Maxima
       rosetta_code:
       - Maxima
   MediaWiki:
@@ -2963,6 +3021,8 @@ languages:
   Meson:
     maps_to:
       linguist:
+      - Meson
+      pygments:
       - Meson
   Metafont:
     maps_to:
@@ -3175,6 +3235,10 @@ languages:
       - Nemerle
       rosetta_code:
       - Nemerle
+  NestedText:
+    maps_to:
+      pygments:
+      - NestedText
   NetLinx:
     maps_to:
       linguist:
@@ -3261,6 +3325,10 @@ languages:
       - Nix
       rosetta_code:
       - Nix
+  Node.js REPL console session:
+    maps_to:
+      pygments:
+      - Node.js REPL console session
   Notmuch:
     maps_to:
       pygments:
@@ -3300,6 +3368,10 @@ languages:
       - OCaml
       rosetta_code:
       - OCaml
+  OMG Interface Definition Language:
+    maps_to:
+      pygments:
+      - OMG Interface Definition Language
   OPL:
     maps_to:
       rosetta_code:
@@ -3765,6 +3837,10 @@ languages:
       - Processing
       rosetta_code:
       - Processing
+  Procfile:
+    maps_to:
+      pygments:
+      - Procfile
   Proguard:
     maps_to:
       linguist:
@@ -3867,6 +3943,14 @@ languages:
       pygments:
       - Python 2.x Traceback
       - Python Traceback
+  Python+UL4:
+    maps_to:
+      pygments:
+      - Python+UL4
+  Q:
+    maps_to:
+      pygments:
+      - Q
   Q#:
     maps_to:
       linguist:
@@ -3893,6 +3977,10 @@ languages:
     maps_to:
       rosetta_code:
       - Qi
+  Qlik:
+    maps_to:
+      pygments:
+      - Qlik
   Qore:
     maps_to:
       rosetta_code:
@@ -4138,6 +4226,10 @@ languages:
     maps_to:
       linguist:
       - Riot
+  Rita:
+    maps_to:
+      pygments:
+      - Rita
   Roboconf Graph:
     maps_to:
       pygments:
@@ -4235,6 +4327,10 @@ languages:
     maps_to:
       linguist:
       - SMT
+  SNBT:
+    maps_to:
+      pygments:
+      - SNBT
   SNOBOL4:
     maps_to:
       rosetta_code:
@@ -4332,6 +4428,10 @@ languages:
     maps_to:
       rosetta_code:
       - Sather
+  Savi:
+    maps_to:
+      pygments:
+      - Savi
   Scala:
     maps_to:
       linguist:
@@ -4370,6 +4470,10 @@ languages:
     maps_to:
       rosetta_code:
       - ScriptBasic
+  Sed:
+    maps_to:
+      pygments:
+      - Sed
   Seed7:
     maps_to:
       rosetta_code:
@@ -4522,6 +4626,10 @@ languages:
     maps_to:
       rosetta_code:
       - SmileBASIC
+  Smithy:
+    maps_to:
+      pygments:
+      - Smithy
   Snobol:
     maps_to:
       pygments:
@@ -4542,6 +4650,10 @@ languages:
       - Solidity
       pygments:
       - Solidity
+  Sophia:
+    maps_to:
+      pygments:
+      - Sophia
   SourcePawn:
     maps_to:
       linguist:
@@ -4552,6 +4664,10 @@ languages:
     maps_to:
       rosetta_code:
       - Sparkling
+  Spice:
+    maps_to:
+      pygments:
+      - Spice
   Spin:
     maps_to:
       rosetta_code:
@@ -4570,6 +4686,10 @@ languages:
       - Squirrel
       rosetta_code:
       - Squirrel
+  Srcinfo:
+    maps_to:
+      pygments:
+      - Srcinfo
   Stan:
     maps_to:
       linguist:
@@ -4728,6 +4848,10 @@ languages:
     maps_to:
       rosetta_code:
       - TXR
+  Tal:
+    maps_to:
+      pygments:
+      - Tal
   Tcl:
     maps_to:
       linguist:
@@ -4803,10 +4927,18 @@ languages:
       - Text
       pygments:
       - Text only
+  Text output:
+    maps_to:
+      pygments:
+      - Text output
   Textile:
     maps_to:
       linguist:
       - Textile
+  ThingsDB:
+    maps_to:
+      pygments:
+      - ThingsDB
   Thrift:
     maps_to:
       linguist:
@@ -4899,6 +5031,10 @@ languages:
     maps_to:
       rosetta_code:
       - UBASIC
+  UL4:
+    maps_to:
+      pygments:
+      - UL4
   UNIX Shell:
     maps_to:
       rosetta_code:
@@ -4933,6 +5069,10 @@ languages:
       - Unix Assembly
       pygments:
       - GAS
+  Unix/Linux config files:
+    maps_to:
+      pygments:
+      - Unix/Linux config files
   UnixPipes:
     maps_to:
       rosetta_code:
@@ -5121,6 +5261,8 @@ languages:
     maps_to:
       linguist:
       - WebAssembly
+      pygments:
+      - WebAssembly
       rosetta_code:
       - WebAssembly
   WebIDL:
@@ -5272,6 +5414,10 @@ languages:
     maps_to:
       pygments:
       - XML+Smarty
+  XML+UL4:
+    maps_to:
+      pygments:
+      - XML+UL4
   XML+Velocity:
     maps_to:
       pygments:
@@ -5461,6 +5607,10 @@ languages:
     maps_to:
       pygments:
       - cfstatement
+  cplint:
+    maps_to:
+      pygments:
+      - cplint
   desktop:
     maps_to:
       linguist:
@@ -5499,6 +5649,10 @@ languages:
       rosetta_code:
       - Fish
       - Friendly interactive shell
+  g-code:
+    maps_to:
+      pygments:
+      - g-code
   mIRC Script:
     maps_to:
       linguist:
@@ -5570,6 +5724,10 @@ languages:
     maps_to:
       pygments:
       - sqlite3con
+  teal:
+    maps_to:
+      pygments:
+      - teal
   tiddler:
     maps_to:
       pygments:
