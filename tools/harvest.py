@@ -73,13 +73,19 @@ def scan_path_for_lang(path: str, linguist_langs: T.Sequence[str]) -> T.List[str
         os.remove(bundle_config_path)
 
     result = subprocess.run(
-        "github-linguist --json", cwd=path, shell=True, check=True, capture_output=True
+        "github-linguist --json --breakdown",
+        cwd=path,
+        shell=True,
+        check=True,
+        capture_output=True,
     )
     result = result.stdout.decode("utf-8").strip()
     result = json.loads(result)
     files = []
     for lang in linguist_langs:
-        files += result.get(lang, [])
+        if lang not in result:
+            continue
+        files += result[lang]["files"]
     return files
 
 
