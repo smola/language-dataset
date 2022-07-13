@@ -129,7 +129,7 @@ def clone_tmp_repo(repo, commit=None):
     if os.path.exists(os.path.join(tmp_dir, ".git")):
         return tmp_dir
     os.makedirs(tmp_dir, exist_ok=True)
-    url = "git://github.com/%s.git" % repo
+    url = "https://github.com/%s.git" % repo
     if commit:
         subprocess.run(
             "git clone --no-progress --single-branch %s %s" % (url, tmp_dir),
