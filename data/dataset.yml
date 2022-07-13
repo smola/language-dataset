@@ -397,6 +397,7 @@ files:
       linguist: sed
       linguist-extension: sed
       linguist-shebang: sed
+      pygments-filename: sed
       vote: sed
   github.com/ApacheThunder/bfheroes42/9552615e0ffe6212a8d2cf5269bd906ed8586a6d/bf1942/levels/City_of_Aegean/StandardMesh/City_Scenery01_m1.rs:
     annotations:
@@ -408,7 +409,7 @@ files:
       human-smola: TSQL
       linguist: TSQL
       linguist-heuristics: TSQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: TSQL
   github.com/App-vNext/Polly/793eb8edac13fbdefc78978ed738481bdea1270d/src/Polly/Context.Dictionary.cs:
     annotations:
@@ -437,16 +438,19 @@ files:
     annotations:
       linguist: q
       linguist-heuristics: q
+      pygments-filename: q
       vote: q
   github.com/AquaQAnalytics/TorQ/21ab087be432e55d64ae12127b28907175c4767d/code/common/compress.q:
     annotations:
       linguist: q
       linguist-heuristics: q
+      pygments-filename: q
       vote: q
   github.com/AquaQAnalytics/kdb-utilities/509637fe65b3cc1df28725eb4abfed84a2ad3554/q-doc/qdoc/q-doc-type.q:
     annotations:
       linguist: q
       linguist-heuristics: q
+      pygments-filename: q
       vote: q
   github.com/Archinamon/AndroidAspectJExample/ec3a40603f24c361e04c976a57fabe9394d7b8e3/libAjProfiler/src/main/aspectj/com/archinamon/profiler/core/AnnotationProfiler.aj:
     annotations:
@@ -488,6 +492,7 @@ files:
     annotations:
       linguist: WebAssembly
       linguist-extension: WebAssembly
+      pygments-filename: WebAssembly
       vote: WebAssembly
   github.com/Astro-SMG/calc_mags/f08426a0831601f1c240e0b99d72d80c758b0400/vega_sed/A0V_KURUCZ_92.SED:
     annotations:
@@ -672,7 +677,7 @@ files:
       human-smola: SQLPL
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: SQLPL
   github.com/BlastarIndia/msdos/0e5f0c8f8d8d4e471358303da44486bffe48715d/v20source/SYSCALL.ASM:
     annotations:
@@ -969,16 +974,19 @@ files:
     annotations:
       linguist: APL
       linguist-extension: APL
+      pygments-filename: APL
       vote: APL
   github.com/Co-dfns/Co-dfns/9106e4e5aefbc7a6b9727d788ddc4194cce961cb/tests/t0017_tests.dyalog:
     annotations:
       linguist: APL
       linguist-extension: APL
+      pygments-filename: APL
       vote: APL
   github.com/Co-dfns/mystika/97503191facea6c6436cdf261f9738d59013a478/tests/eps_tests.dyalog:
     annotations:
       linguist: APL
       linguist-extension: APL
+      pygments-filename: APL
       vote: APL
   github.com/CoFH/cofh.github.io/97d37888cd8ecf7fbc360c977df7645a50cb348a/docs/1.12/thermal-foundation/tar/index.md:
     annotations:
@@ -1070,7 +1078,7 @@ files:
       human-smola: PL/SQL
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: PL/SQL
   github.com/Cuis-Smalltalk/Cuis-Smalltalk-Dev/590566a92743c2097567cc23caf4889fdae09083/CoreUpdates/3460-SmalltalkCompleterEnhancements-p3-HernanWilkinson-2018Sep24-08h59m-HAW.1.cs.st:
     annotations:
@@ -1137,6 +1145,7 @@ files:
       human-smola: HiveQL
       linguist: HiveQL
       linguist-heuristics: HiveQL
+      pygments-filename: q
       vote: HiveQL
   github.com/DavidFluck/factor-shell/b9bf8181ad5b626cf77904816ce91e81ba58a778/factor-shell.factor:
     annotations:
@@ -1168,7 +1177,6 @@ files:
       human-smola: TSX
       linguist: TSX
       linguist-heuristics: TSX
-      pygments-filename: TypeScript
       vote: TSX
   github.com/DelNov/Glyph-Scripts/3c5c3913d91cad96ed4e298da44fe87fb3c0ff71/with_plate.glf:
     annotations:
@@ -1289,16 +1297,19 @@ files:
     annotations:
       linguist: APL
       linguist-extension: APL
+      pygments-filename: APL
       vote: APL
   github.com/Dyalog/Math/e2ddb3ec086f33c1eab72a30ffa2466686de50bc/Math.dyalog:
     annotations:
       linguist: APL
       linguist-extension: APL
+      pygments-filename: APL
       vote: APL
   github.com/Dyalog/conga-apl/9c8d39b0a6ba7b366152a1c42769ee3110dbc612/Tests/test_websocket.dyalog:
     annotations:
       linguist: APL
       linguist-extension: APL
+      pygments-filename: APL
       vote: APL
   github.com/ELE-Clouds/RandomPasswordGenerator/b5e33c2e78c65844fdb96a7576ba6639d844ff41/randWindow.ec:
     annotations:
@@ -1611,7 +1622,7 @@ files:
     annotations:
       linguist: PL/pgSQL
       linguist-heuristics: PL/pgSQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: PL/pgSQL
   github.com/FreezeWu/intellisoft/57acd71c7fbd4970ecd473b2acbc92d6a6b2b42d/ws_objects/auto_export.pbl.src/w_table_message.srw:
     annotations:
@@ -1853,6 +1864,7 @@ files:
     annotations:
       linguist: WebAssembly
       linguist-extension: WebAssembly
+      pygments-filename: WebAssembly
       vote: WebAssembly
   github.com/Harry-Chen/fpga-virtual-console/7e7e14b8db7d299dab24095b0f6e660720715220/src/display/FontShapeRenderer.sv:
     annotations:
@@ -2024,6 +2036,7 @@ files:
       human-smola: AGS Script
       linguist: AGS Script
       linguist-heuristics: AGS Script
+      pygments-filename: Public Key
       vote: AGS Script
   github.com/IbrahimIrfan/chess/b93a80d0e69831d763ef483b95d5868813a4508b/Main.t:
     annotations:
@@ -2288,6 +2301,7 @@ files:
       human-smola: HiveQL
       linguist: HiveQL
       linguist-heuristics: HiveQL
+      pygments-filename: q
       vote: HiveQL
   github.com/JochenHeizmann/ld28/5757c43c9022d1919d53778d0eb4963861fe7607/src/level.monkey:
     annotations:
@@ -2506,6 +2520,7 @@ files:
     annotations:
       linguist: WebAssembly
       linguist-extension: WebAssembly
+      pygments-filename: WebAssembly
       vote: WebAssembly
   github.com/Kode/Kha/91400b060fafc3e5b856e299d01ed543963ff06a/Sources/kha/Sound.hx:
     annotations:
@@ -2564,11 +2579,13 @@ files:
     annotations:
       linguist: q
       linguist-heuristics: q
+      pygments-filename: q
       vote: q
   github.com/KxSystems/kdb/f7e01e8379faaccdb8306a83650f6e1618423d33/tick/chainedtick.q:
     annotations:
       linguist: q
       linguist-heuristics: q
+      pygments-filename: q
       vote: q
   github.com/KyleLavorato/TCPStream/810f0f1f3ce957882bb65bd2d1ca2007ce88634c/Application/GENERATOR/TXL/generateMake.txl:
     annotations:
@@ -2774,7 +2791,7 @@ files:
     annotations:
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: SQL
   github.com/MJVL/BTS-Zebra-Projects/1a120b7376e737b7b5d7af8248f5459fc3f71baf/ZPL files/On a Stick Scan.zpl:
     annotations:
@@ -2882,6 +2899,7 @@ files:
       human-smola: AGS Script
       linguist: AGS Script
       linguist-heuristics: AGS Script
+      pygments-filename: Public Key
       vote: AGS Script
   github.com/Manitary/advent-of-code/803f38a11d2e7980d46b42bb80bc5e0cc2c31830/2018/18_11.mg:
     annotations:
@@ -3012,7 +3030,7 @@ files:
       human-smola: TSQL
       linguist: TSQL
       linguist-heuristics: TSQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: TSQL
   github.com/Mijyuoon/Chatur-Redux/fc49bf12c51ba612ef14f5432b9daa1143769607/MijMarkup/Properties/AssemblyInfo.n:
     annotations:
@@ -3317,7 +3335,7 @@ files:
     annotations:
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: SQL
   github.com/OCSInventory-NG/Packager-for-Windows/3751643d51807aa76631be8642d6d0116b2f5211/Packager/ListBox.nsi:
     annotations:
@@ -3430,6 +3448,7 @@ files:
     annotations:
       linguist: sed
       linguist-extension: sed
+      pygments-filename: sed
       vote: sed
   github.com/OpenNC/Cuffs/89e02e6873d50ea86a551e2ad23657f0ce654ebc/right-forearm/root/OpenNC - update.lsl:
     annotations:
@@ -3463,20 +3482,21 @@ files:
       human-smola: APL
       linguist: APL
       linguist-extension: APL
+      pygments-filename: APL
       vote: APL
   github.com/OraOpenSource/OXAR/5ab2cd5ac44468f121d52d0b64f9393b7e9e724e/addons/aop/install_db_sample_obj.sql:
     annotations:
       human-smola: PL/SQL
       linguist: PL/SQL
       linguist-heuristics: PL/SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: PL/SQL
   github.com/OraOpenSource/language-oracle/f3fd20a22b5752e8c4fd17b75f089cdaa2aee2d5/utility/longfunctionlist.sql:
     annotations:
       human-smola: PL/SQL
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: PL/SQL
   github.com/OrysyaStus/UCSD_Data_Mining_Certificate/423a11cc4bead8696330683f1700243e5e52bd73/BIOL40190_SAS_ProgrammingI_DATA_Step_and_PROC_Fundamentals/A1_ReadinginData_PermanentDataSets_Formats_Labels_ConditionalProcessing_Looping_Dates/chapter4_Creating_Permanent_SAS_Data_Sets.sas:
     annotations:
@@ -3649,7 +3669,7 @@ files:
       human-smola: TSQL
       linguist: TSQL
       linguist-heuristics: TSQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: TSQL
   github.com/PavlezT/Tiva-MCU-TM4C123G-LaunchPad/88256c7ba6b5ac657f10a13b3e6cee4afd6b26b0/blinkyAlien/Debug/bme280_old.rl:
     annotations:
@@ -3681,6 +3701,7 @@ files:
     annotations:
       linguist: WebAssembly
       linguist-extension: WebAssembly
+      pygments-filename: WebAssembly
       vote: WebAssembly
   github.com/PeterJudge-PSC/abl_performance_workshop/0a7f5497c18ad345a1ef8c48f12d7b7e3662e950/profiler_labs/src/function_inline.p:
     annotations:
@@ -4381,7 +4402,7 @@ files:
       human-smola: TSQL
       linguist: TSQL
       linguist-heuristics: TSQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: TSQL
   github.com/Spartee/_MasonTest2/4bcd925330029bfd53d5befdd758703b395d9207/src/_MasonTest2.chpl:
     annotations:
@@ -4632,7 +4653,7 @@ files:
     annotations:
       linguist: TSQL
       linguist-heuristics: TSQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: TSQL
   github.com/TeamTilapia/vscode-tilapia/e237d0d770951c280b4755918fb2d88c0fd49131/example-tla/ModelingDeployments.tla:
     annotations:
@@ -4650,7 +4671,7 @@ files:
       human-smola: PL/SQL
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: PL/SQL
   github.com/ThatsNotAUsername/MEMo/9d97bd0b2e4eed22e2f9265e87dd3e50d9aefde6/MMB_github/matrix.eq:
     annotations:
@@ -4705,12 +4726,13 @@ files:
       human-smola: HiveQL
       linguist: HiveQL
       linguist-heuristics: HiveQL
+      pygments-filename: q
       vote: HiveQL
   github.com/Thomas-George-T/HackerRank-SQL-Challenges-Solutions/c5fb14ca91355e55db24c8ea54ccb2008d8b40c0/Basic Join/Ollivander's Inventory.sql:
     annotations:
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: SQL
   github.com/ThomasJaeger/VisualMASM/b809d4efa0202523333f29fb3a84122fea410b22/VisualMASM.dpr:
     annotations:
@@ -5045,42 +5067,50 @@ files:
     annotations:
       linguist: WebAssembly
       linguist-extension: WebAssembly
+      pygments-filename: WebAssembly
       vote: WebAssembly
   github.com/WebAssembly/esm-integration/884066deab4669b582269e6dddaeb9948c2ba67a/test/core/align.wast:
     annotations:
       linguist: WebAssembly
       linguist-extension: WebAssembly
+      pygments-filename: WebAssembly
       vote: WebAssembly
   github.com/WebAssembly/gc/7f3258d1dcc3f91bc0e23e863f53ac6cbdeaf4b4/test/core/call.wast:
     annotations:
       linguist: WebAssembly
       linguist-extension: WebAssembly
+      pygments-filename: WebAssembly
       vote: WebAssembly
   github.com/WebAssembly/interface-types/0930a4db3c998b495c8fea7295989266befec213/test/core/typecheck.wast:
     annotations:
       linguist: WebAssembly
       linguist-extension: WebAssembly
+      pygments-filename: WebAssembly
       vote: WebAssembly
   github.com/WebAssembly/reference-types/303c94206dd108ee210dd45377b61bebed21d57f/test/core/binary-leb128.wast:
     annotations:
       linguist: WebAssembly
       linguist-extension: WebAssembly
+      pygments-filename: WebAssembly
       vote: WebAssembly
   github.com/WebAssembly/simd/fc9c9fbbbd005f1cc9f781615e4d53124b4a662f/test/core/utf8-invalid-encoding.wast:
     annotations:
       human-smola: WebAssembly
       linguist: WebAssembly
       linguist-extension: WebAssembly
+      pygments-filename: WebAssembly
       vote: WebAssembly
   github.com/WebAssembly/spec/af825a74982dac2565359e1f4d76191307afc8bf/test/core/unreachable.wast:
     annotations:
       linguist: WebAssembly
       linguist-extension: WebAssembly
+      pygments-filename: WebAssembly
       vote: WebAssembly
   github.com/WebAssembly/threads/4cbecad0ed0af9bf3ca1b58d6dc4c6ad5c865240/test/core/br_table.wast:
     annotations:
       linguist: WebAssembly
       linguist-extension: WebAssembly
+      pygments-filename: WebAssembly
       vote: WebAssembly
   github.com/WebGHC/wasm-cross/3918e50d9cf6bf6d2177e06f02e3fb4be89cb829/llvm-head/clang/default.nix:
     annotations:
@@ -5167,7 +5197,7 @@ files:
       human-smola: SQL
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: SQL
   github.com/XKCP/XKCP/e8e6b1d45861ea6fc0957ab27a401f42aef0d033/lib/low/KeccakP-800/OptimizedAsmARM/KeccakP-800-u2-armv6m-le-armcc.s:
     annotations:
@@ -5291,6 +5321,7 @@ files:
     annotations:
       human-smola: q
       linguist: q
+      pygments-filename: q
       vote: q
   github.com/aaaSOS/scip/5c999caf95a66f64e51670a74e02748fe4e37e29/tetris.zpl:
     annotations:
@@ -5404,7 +5435,7 @@ files:
       human-smola: PL/pgSQL
       linguist: PL/pgSQL
       linguist-heuristics: PL/pgSQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: PL/pgSQL
   github.com/acaudwell/Gource/7e793c96cbfb8d742c690f4a9bec49880f985e60/src/gource.h:
     annotations:
@@ -5480,6 +5511,7 @@ files:
       human-smola: AGS Script
       linguist: AGS Script
       linguist-heuristics: AGS Script
+      pygments-filename: Public Key
       vote: AGS Script
   github.com/aeternity/aeternity/2710ff7e3a33c1e1cc1d2dbdcdcf59c028e9eea2/apps/aecontract/test/aect_create_tx_tests.erl:
     annotations:
@@ -5530,6 +5562,7 @@ files:
     annotations:
       linguist: q
       linguist-heuristics: q
+      pygments-filename: q
       vote: q
   github.com/aguimaraesduarte/challenge-lexisnexis/290af63d326c262370c865699328177801ea969c/Code_AndreDuarte.ecl:
     annotations:
@@ -5601,6 +5634,7 @@ files:
       human-smola: HiveQL
       linguist: HiveQL
       linguist-heuristics: HiveQL
+      pygments-filename: q
       vote: HiveQL
   github.com/akeefer/gosu-git/e4378814824d5de6a1d7bdc73b0771aeac4eb561/build.vark:
     annotations:
@@ -6020,6 +6054,7 @@ files:
     annotations:
       human-smola: Unknown
       linguist: AGS Script
+      pygments-filename: Public Key
       vote: Unknown
   github.com/anpar/oz-project-fsa12/a574d3bd87d59c1d74bb4d46167576c4f7407d5d/35211300-31581300/code.oz:
     annotations:
@@ -6036,12 +6071,10 @@ files:
     annotations:
       human-smola: TypeScript
       linguist: TSX
-      pygments-filename: TypeScript
       vote: TypeScript
   github.com/ant-design/ant-design/4ded5e67778065b0b4b32dee3941d1515d4821c4/components/date-picker/locale/zh_CN.tsx:
     annotations:
       linguist: TSX
-      pygments-filename: TypeScript
       vote: TSX
   github.com/antalsz/hs-to-coq/6d75eecc36ad918989f69e2471ffc1e88a76f409/base/Data/Either.v:
     annotations:
@@ -6094,7 +6127,7 @@ files:
       human-smola: SQL
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: SQL
   github.com/apache/couchdb/d60551d89100dccb5c649dd6cad3b7c7ec1371e0/src/fabric/src/fabric_dict.erl:
     annotations:
@@ -6147,10 +6180,12 @@ files:
       vote: API Blueprint
   github.com/aplteam/APLTreeUtils/3bca98c1b4bc82742ffd0e4d2c7a3aa7382b7076/APLSource/TestCases-11/FindSpecialString-811.aplf:
     annotations:
-      vote: Unknown
+      pygments-filename: APL
+      vote: APL
   "github.com/aplteam/RegExHelp/53bf8906ca7d62ab5e0ec3247812698ce5299d65/APLSource/RegExHelp/Help/PCRE_Syntax_Summary/\u2206TopicProperties.aplf":
     annotations:
-      vote: Unknown
+      pygments-filename: APL
+      vote: APL
   github.com/appeonguojun/test0619/5517acf6833a14a622817ace324fd635e6cd8bf6/ws_objects/genapp.pbl.src/genapp.sra:
     annotations:
       linguist: PowerBuilder
@@ -6203,7 +6238,7 @@ files:
       human-smola: PL/pgSQL
       linguist: PL/pgSQL
       linguist-heuristics: PL/pgSQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: PL/pgSQL
   github.com/araujokth/kth-wsn/e7d6cb37ddfe7864160989ea122f8c6018d2cad9/kth-wsn/apps.crane/MatlabFiles/outputs/data_201102100054.m:
     annotations:
@@ -6460,7 +6495,7 @@ files:
       human-smola: SQL
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: SQL
   github.com/atlas-engineer/next/eeea0838ec02b9363efbab50f5ece7890c0212d3/next.asd:
     annotations:
@@ -6523,6 +6558,7 @@ files:
     annotations:
       linguist: sed
       linguist-extension: sed
+      pygments-filename: sed
       vote: sed
   github.com/austincain22/CSCI-117/31f0c44b64d8fe02f384ae25e5bb1b2ec20ffab2/lab9.oz:
     annotations:
@@ -6886,6 +6922,7 @@ files:
       human-smola: Unknown
       linguist: sed
       linguist-extension: sed
+      pygments-filename: sed
       vote: Unknown
   github.com/baron42bba/aws-snippets/9cb1edaaa86609b51a7fbf39ec643cc5ae80eaa1/snippets/json-mode/aws-autoscaling-group-vpc:
     annotations:
@@ -7118,6 +7155,7 @@ files:
       human-smola: AGS Script
       linguist: AGS Script
       linguist-heuristics: AGS Script
+      pygments-filename: Public Key
       vote: AGS Script
   github.com/bigtweekx/h2pc_installer/697b698ecb5bd7679e3dbb8c8281df0893fb9869/setup_complete.nsi:
     annotations:
@@ -7244,7 +7282,7 @@ files:
       human-smola: SQL
       linguist: PL/pgSQL
       linguist-heuristics: PL/pgSQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: SQL
   github.com/blaceman/myRe/df1c6856db145f16c0277f14726c3986388874dc/cy/myMd.cy:
     annotations:
@@ -7457,6 +7495,7 @@ files:
     annotations:
       human-smola: Unknown
       linguist: q
+      pygments-filename: q
       vote: Unknown
   github.com/brexis/qml-bootstrap/27d6b87c25f8afcd8836f7a587797e50c140f51d/src/styles/AvatarListViewStyle.qml:
     annotations:
@@ -7716,7 +7755,7 @@ files:
     annotations:
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: SQL
   github.com/ccrisan/motioneyeos/1b59951d9b5b645c873312ca46acef6c64a98973/package/tk/tk.mk:
     annotations:
@@ -7824,6 +7863,7 @@ files:
     annotations:
       linguist: WebAssembly
       linguist-extension: WebAssembly
+      pygments-filename: WebAssembly
       vote: WebAssembly
   github.com/chall32/LDWin/f1c30a3311ae6767b4c881954d1a2ddc249333da/LDWin.au3:
     annotations:
@@ -7978,6 +8018,7 @@ files:
     annotations:
       human-smola: Unknown
       linguist: AsciiDoc
+      pygments-filename: Public Key
       vote: Unknown
   github.com/chrislgarry/Apollo-11/e7bf183694150b77d30bdb9a8ca16a49b205993f/Luminary099/DAPIDLER_PROGRAM.agc:
     annotations:
@@ -8013,7 +8054,7 @@ files:
     annotations:
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: SQL
   github.com/chumo/Schroedinger_SOLVER-IgorPRO/213cf6ef19fffb5aca329deac5a141b229faa056/Schroedinger_SOLVER.ipf:
     annotations:
@@ -8072,6 +8113,7 @@ files:
       human-smola: HiveQL
       linguist: HiveQL
       linguist-heuristics: HiveQL
+      pygments-filename: q
       vote: HiveQL
   github.com/cjkvi/cjkvi-dict/9b6e0a88bcccdfa36c6b96327a88fc900867276c/lsyj.xsl:
     annotations:
@@ -8234,7 +8276,7 @@ files:
       human-smola: SQL
       linguist: PL/pgSQL
       linguist-heuristics: PL/pgSQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: SQL
   github.com/codez/ImportPhotoFolders/4c4c611970e9d275fef0abdb0559262757ee7eeb/ImportPhotoFolders.applescript:
     annotations:
@@ -8434,6 +8476,7 @@ files:
       linguist: sed
       linguist-extension: sed
       linguist-shebang: sed
+      pygments-filename: sed
       vote: sed
   github.com/craigbarnes/showdown/9448e32cf61a96709d227b520680e3b22ea8df74/src/window.vala:
     annotations:
@@ -8445,6 +8488,7 @@ files:
     annotations:
       human-smola: R
       linguist: q
+      pygments-filename: q
       vote: R
   github.com/crocodile2u/zhandlersocket/226018a2cd1393a629dca2f968918d1c9010acfa/zhandlersocket/Command.zep:
     annotations:
@@ -8777,7 +8821,7 @@ files:
     annotations:
       linguist: PL/pgSQL
       linguist-heuristics: PL/pgSQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: PL/pgSQL
   github.com/darrenjw/smfsb/3bc38adcea5097812322599dd41d1d9511c62270/models/autoreg-3-1.mod:
     annotations:
@@ -8790,7 +8834,7 @@ files:
       human-smola: SQL
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: SQL
   github.com/dataduke/mac-taskpaper/47a3c1362274156596c7cdaf4c65295c3d842660/Scripts/Due in next 3 Days.scpt:
     annotations:
@@ -8931,6 +8975,7 @@ files:
     annotations:
       linguist: Clojure
       linguist-extension: Clojure
+      pygments-filename: Clojure
       vote: Clojure
   github.com/dbeecham/argsparser/62ec99247775c663c68af9666bc27f5ec2219446/args_parser.c.rl:
     annotations:
@@ -9257,7 +9302,7 @@ files:
       human-smola: PL/pgSQL
       linguist: PL/pgSQL
       linguist-heuristics: PL/pgSQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: PL/pgSQL
   github.com/dillonkearns/mobster/2ad66f514579a09a9679b75b6c1b2956e7879b46/src/View/Roster/Chip.elm:
     annotations:
@@ -9637,6 +9682,7 @@ files:
     annotations:
       linguist: q
       linguist-heuristics: q
+      pygments-filename: q
       vote: q
   github.com/dsanson/Pandoc.tmbundle/d397a5fb5203b8ab21d3264ac3a1a929cc9de8f4/Support/mellel2mmd.xsl:
     annotations:
@@ -9688,14 +9734,14 @@ files:
     annotations:
       linguist: TSQL
       linguist-heuristics: TSQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: TSQL
   github.com/dutc/code-or-die/446559bf598fbc1e5a9392987d2325498115863c/dummy.sql:
     annotations:
       human-smola: PL/pgSQL
       linguist: PL/pgSQL
       linguist-heuristics: PL/pgSQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: PL/pgSQL
   github.com/dvanarkel/Clyde/8fec41dd6ee03f863643aa958425c8bb4a6673ae/Cocoa/tabview.dcl:
     annotations:
@@ -9936,6 +9982,7 @@ files:
       human-smola: AGS Script
       linguist: AGS Script
       linguist-heuristics: AGS Script
+      pygments-filename: Public Key
       vote: AGS Script
   github.com/edwinb/Blodwen/9f632be50e2bbabd2d34352bcb9e8c0b33dcc153/src/TTImp/Reflect.idr:
     annotations:
@@ -9987,6 +10034,7 @@ files:
     annotations:
       linguist: sed
       linguist-extension: sed
+      pygments-filename: sed
       vote: sed
   github.com/eholk/harlan/3afd95b1c3ad02a354481774585e866857a687b8/build-benchmarks.scm:
     annotations:
@@ -10217,6 +10265,7 @@ files:
     annotations:
       linguist: WebAssembly
       linguist-extension: WebAssembly
+      pygments-filename: WebAssembly
       vote: WebAssembly
   github.com/epeterson320/ABAP-Logger/dd89f85ab6739774548ea1ae576a5904016dd598/zcl_logger.clas.locals_imp.abap:
     annotations:
@@ -10280,6 +10329,7 @@ files:
       human-smola: AGS Script
       linguist: AGS Script
       linguist-heuristics: AGS Script
+      pygments-filename: Public Key
       vote: AGS Script
   github.com/ericoporto/jsmnags/febba2c4a511b759661eab3f3cab97d06d765317/jsmn.ash:
     annotations:
@@ -10298,6 +10348,7 @@ files:
       human-smola: AGS Script
       linguist: AGS Script
       linguist-heuristics: AGS Script
+      pygments-filename: Public Key
       vote: AGS Script
   github.com/ericscharff/ProjectOberon/383ab65985d992d3f5a8825c924af48abf0569d1/Oberon.Mod:
     annotations:
@@ -10951,6 +11002,7 @@ files:
     annotations:
       linguist: APL
       linguist-extension: APL
+      pygments-filename: APL
       vote: APL
   github.com/fluent/fluentd/64a7b2781ca0d22641034f76767ada8ae8c85dd4/test/helper.rb:
     annotations:
@@ -11342,7 +11394,7 @@ files:
       human-smola: SQL
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: SQL
   github.com/gabsoftware/Progress-ABL-4GL-Regex/a0423268b01b14c5417139679c475ade28627824/Binary.cls:
     annotations:
@@ -11427,12 +11479,13 @@ files:
     annotations:
       linguist: PL/pgSQL
       linguist-heuristics: PL/pgSQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: PL/pgSQL
   github.com/gazingatnavel/ucf-spring2017-cda3103-spim-project-tests/e132e36f07a3621751cd8981b5bfa717e6e8571c/test-spim-rtype.asc:
     annotations:
       human-smola: Unknown
       linguist: AGS Script
+      pygments-filename: Public Key
       vote: Unknown
   github.com/gbdobson/cyberfit/762294d71fd268d16d499577389405378a71d453/cyberFIT.nlogo:
     annotations:
@@ -11660,6 +11713,7 @@ files:
       human-smola: HiveQL
       linguist: HiveQL
       linguist-heuristics: HiveQL
+      pygments-filename: q
       vote: HiveQL
   github.com/gkossakowski/scalac-aspects/a02604feb13d3392b851cbdd80a0f5bce2f09321/TraceSymbol.aj:
     annotations:
@@ -11696,7 +11750,7 @@ files:
     annotations:
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: SQL
   github.com/gleetbone/picolisp-fp/b65c846e193d31f309a267f35e12b1f72cd0c904/inline/fp.l:
     annotations:
@@ -12109,6 +12163,7 @@ files:
     annotations:
       linguist: WebAssembly
       linguist-extension: WebAssembly
+      pygments-filename: WebAssembly
       vote: WebAssembly
   github.com/h2non/nar/e190d9db00b574f91fd07bc2f6f1639b78f32548/src/install.ls:
     annotations:
@@ -12346,12 +12401,14 @@ files:
       human-smola: AGS Script
       linguist: AGS Script
       linguist-heuristics: AGS Script
+      pygments-filename: Public Key
       vote: AGS Script
   github.com/hewills/The-Mind/440d5e77521a684d5959d0a92f03c809fb7bf353/room2.asc:
     annotations:
       human-smola: AGS Script
       linguist: AGS Script
       linguist-heuristics: AGS Script
+      pygments-filename: Public Key
       vote: AGS Script
   github.com/hgourvest/superobject/f1c42db5efbd85ced7acaf8d53c204881fce5fad/tests/test_rpc.dpr:
     annotations:
@@ -12579,6 +12636,7 @@ files:
       linguist: sed
       linguist-extension: sed
       linguist-shebang: sed
+      pygments-filename: sed
       vote: sed
   github.com/horgh/twitter-tcl/caca55ad90a3282202b831c195636cc5321780f3/twitoauth.tcl:
     annotations:
@@ -12709,6 +12767,7 @@ files:
       human-smola: SQL
       linguist: HiveQL
       linguist-heuristics: HiveQL
+      pygments-filename: q
       vote: SQL
   github.com/huangyz0918/TankLogo/44704c398f6a5c1f1bc28d440ceb9690be4e34cb/TankLogo.nlogo:
     annotations:
@@ -13118,7 +13177,6 @@ files:
   github.com/ionic-team/ionic/ab9d3b269663987c62fe9189ea515e51443b2f77/core/src/components/refresher-content/refresher-content.tsx:
     annotations:
       linguist: TSX
-      pygments-filename: TypeScript
       vote: TSX
   github.com/iotauth/security_analysis/bb402ea8210a21935246593d704f485f69aab95a/model/Analysis.als:
     annotations:
@@ -13154,12 +13212,14 @@ files:
       human-smola: HiveQL
       linguist: HiveQL
       linguist-heuristics: HiveQL
+      pygments-filename: q
       vote: HiveQL
   github.com/isabelangelo/mcfost/a5fa2d134db90e5c999ef91ece10b503b0817473/seds/reduced_seds/SSTTAUJ042021.4+281349_reduced.sed:
     annotations:
       human-smola: Unknown
       linguist: sed
       linguist-extension: sed
+      pygments-filename: sed
       vote: Unknown
   github.com/ishoshani/GraceLogo/03ac60d730407f58cbdcf6ca9c1191a22843f463/logoTests.grace:
     annotations:
@@ -13336,7 +13396,6 @@ files:
       human-smola: TSX
       linguist: TSX
       linguist-heuristics: TSX
-      pygments-filename: TypeScript
       vote: TSX
   github.com/jaredtao/HelloCI/fda7bb12bd97e0b9816ab723689906fb7d560e8a/HelloCI.pro:
     annotations:
@@ -13489,6 +13548,7 @@ files:
       human-smola: AGS Script
       linguist: AGS Script
       linguist-heuristics: AGS Script
+      pygments-filename: Public Key
       vote: AGS Script
   github.com/jeapostrophe/exp/6458bf071f523fa4c9783cbd476b3f8ef6837f98/cbz.rkt:
     annotations:
@@ -13734,6 +13794,7 @@ files:
     annotations:
       linguist: q
       linguist-heuristics: q
+      pygments-filename: q
       vote: q
   github.com/jldbc/gunsandcrime/547aee98349ae2f9b9a2116cfe60ccfebc5c80e7/Moody Replication and Improvements.do:
     annotations:
@@ -13846,7 +13907,7 @@ files:
     annotations:
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: SQL
   github.com/jofrfu/tinyTPU/7c9a732dfd1e305fbd86b41a6fb3146ea64693de/src/vhdl/Activation/TB_ACTIVATION.vhdl:
     annotations:
@@ -13877,6 +13938,7 @@ files:
       human-smola: q
       linguist: q
       linguist-heuristics: q
+      pygments-filename: q
       vote: q
   github.com/jonenst/papersync-server/3d2747551eb71e58029c9e9d66e4eba99370b181/papersync-server.factor:
     annotations:
@@ -14004,6 +14066,7 @@ files:
     annotations:
       human-smola: LTspice Symbol
       linguist: AGS Script
+      pygments-filename: Public Key
       vote: LTspice Symbol
   github.com/jpginc/windows10DesktopManager/6dd6c214b4013e003a4cda38f2e52b49f84811b1/windowMover.ahk:
     annotations:
@@ -14096,6 +14159,7 @@ files:
       human-smola: AGS Script
       linguist: AGS Script
       linguist-heuristics: AGS Script
+      pygments-filename: Public Key
       vote: AGS Script
   github.com/juanplopes/euler/c3741c70877d2373ca83a2d3cb0897bdca6aa5df/158.boo:
     annotations:
@@ -14140,6 +14204,7 @@ files:
     annotations:
       linguist: sed
       linguist-extension: sed
+      pygments-filename: sed
       vote: sed
   github.com/justinmeza/httpd.lol/1faf08dd2f28785160494c88aa7729f7a774d85a/httpd.lol:
     annotations:
@@ -14324,6 +14389,7 @@ files:
     annotations:
       human-smola: SQL
       linguist: HiveQL
+      pygments-filename: q
       vote: SQL
   github.com/kasun04/microservices-integration-ballerina/ef15f303df9e26e79acf8a14ffedd3fe1552cf5d/catalog/InventoryService_pb.bal:
     annotations:
@@ -14629,6 +14695,7 @@ files:
     annotations:
       human-smola: HiveQL
       linguist: HiveQL
+      pygments-filename: q
       vote: HiveQL
   github.com/knaw-huc/backlogs/ca946919c687a8fcea28db904a55328f7b9bf4d0/src/grammar.ne:
     annotations:
@@ -14646,7 +14713,7 @@ files:
       human-smola: PL/SQL
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: PL/SQL
   github.com/koalaman/shellcheck/93eca1cb8e7e8c1428a1375e985a669b43c41e95/src/ShellCheck/Analyzer.hs:
     annotations:
@@ -14742,11 +14809,13 @@ files:
     annotations:
       linguist: APL
       linguist-extension: APL
+      pygments-filename: APL
       vote: APL
   github.com/krish240574/dbn_bn/5279c92e1f8f9581f19fcb4f829f6ad4df77cf9d/finetunedbn.dyalog:
     annotations:
       linguist: APL
       linguist-extension: APL
+      pygments-filename: APL
       vote: APL
   github.com/krschultz/android-proguard-snippets/c636c6c8448565e91e25a66f11fab3fca035c29c/libraries/proguard-facebook-fresco.pro:
     annotations:
@@ -14876,7 +14945,7 @@ files:
       human-smola: PL/pgSQL
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: PL/pgSQL
   github.com/laddp/ansible-stuff/d6348a84d88f6dfc65ed5d84b6a9f7496a32def8/google.yml:
     annotations:
@@ -15091,7 +15160,7 @@ files:
     annotations:
       linguist: PL/pgSQL
       linguist-heuristics: PL/pgSQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: PL/pgSQL
   github.com/lehitoskin/blight/807b0437c92ee41c68ca5a767d973817ae416b65/audio.rkt:
     annotations:
@@ -15452,6 +15521,7 @@ files:
     annotations:
       linguist: q
       linguist-heuristics: q
+      pygments-filename: q
       vote: q
   github.com/luanfujun/deep-painterly-harmonization/a33a9a70366b6baff1cc0291f857b5895b271fc1/cuda_utils.cu:
     annotations:
@@ -15488,6 +15558,7 @@ files:
       human-smola: YAML
       linguist: YAML
       linguist-extension: YAML
+      pygments-filename: sed
       vote: YAML
   github.com/lukebussey/foundationify/4d4009dbd429cbf2c4d5f4f3d6b932f2e4739a55/templates/blog.liquid:
     annotations:
@@ -16116,6 +16187,7 @@ files:
     annotations:
       linguist: WebAssembly
       linguist-extension: WebAssembly
+      pygments-filename: WebAssembly
       vote: WebAssembly
   github.com/mecon/factor/28a1573d8e2f67a47a2bc4358c00a2766d3e33d2/core/alien/syntax/syntax.factor:
     annotations:
@@ -16292,7 +16364,7 @@ files:
     annotations:
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: SQL
   github.com/microsoft/terminal/9dc922fc37a479dd560675ac4ea1ce3713ae0ada/src/host/inputBuffer.hpp:
     annotations:
@@ -16305,7 +16377,7 @@ files:
       human-smola: TSQL
       linguist: TSQL
       linguist-heuristics: TSQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: TSQL
   github.com/microsoft/vcpkg/df4773c05614eb19084ae4db1fbc1bb3295d3ec6/ports/wren/portfile.cmake:
     annotations:
@@ -16529,16 +16601,19 @@ files:
     annotations:
       linguist: APL
       linguist-extension: APL
+      pygments-filename: APL
       vote: APL
   github.com/mkromberg/qconnect/66fa9bd0853fa858f7909ec41c1310eca5490130/UT.dyalog:
     annotations:
       linguist: APL
       linguist-extension: APL
+      pygments-filename: APL
       vote: APL
   github.com/mkromberg/vending/4747b05826c9b4cd7716140728201be8ee3848bd/Dispense.dyalog:
     annotations:
       linguist: APL
       linguist-extension: APL
+      pygments-filename: APL
       vote: APL
   github.com/mlochbaum/JtoLaTeX/f84788b01af70613a2fd63431e8c68c658f33db7/jdoc.ijs:
     annotations:
@@ -16634,6 +16709,7 @@ files:
     annotations:
       linguist: WebAssembly
       linguist-extension: WebAssembly
+      pygments-filename: WebAssembly
       vote: WebAssembly
   github.com/mohemiv/TCLtools/545b2ad2a06a75eae36e1a8cc5eb77c77770be8d/tclproxy.tcl:
     annotations:
@@ -16688,6 +16764,7 @@ files:
       human-smola: AGS Script
       linguist: AGS Script
       linguist-heuristics: AGS Script
+      pygments-filename: Public Key
       vote: AGS Script
   github.com/monkeylord/XposedTemplateForAS/d5cdd502ba09161c9d233c15331ba067be51cb61/Xposed Code/root/src/app_package/ClassesEnum.java.ftl:
     annotations:
@@ -16761,6 +16838,7 @@ files:
       human-smola: YAML
       linguist: YAML
       linguist-extension: YAML
+      pygments-filename: sed
       vote: YAML
   github.com/moz-code/prez/280c19321ee037739c108dd6cdeffde9cd81767c/src/commands.nit:
     annotations:
@@ -16855,6 +16933,7 @@ files:
       human-smola: YAML
       linguist: YAML
       linguist-extension: YAML
+      pygments-filename: sed
       vote: YAML
   github.com/msabbott/log4oe/21f19e3059744efeb611746834f3cb6cc651b4e4/log4oe/Tests/Stubs/StubLogger.cls:
     annotations:
@@ -16998,7 +17077,7 @@ files:
       human-smola: SQL
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: SQL
   github.com/nPoseTeam/nPose-LM-LG-chains-plugin/1fa16a6b674677b48e58a99618beafc356829121/LSLScripts/nPose LMLG chains plugin.lslp:
     annotations:
@@ -17731,7 +17810,7 @@ files:
     annotations:
       linguist: PL/pgSQL
       linguist-heuristics: PL/pgSQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: PL/pgSQL
   github.com/ongardie/raft.tla/34cdd49d22615426ea00a6605b95be57b3cab49a/raft.tla:
     annotations:
@@ -17937,7 +18016,7 @@ files:
       human-smola: PL/SQL
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: PL/SQL
   github.com/ordogfioka/Clean/48780cb5f4cdf539534e9405d903e6c94d19574f/zh2/bintree.icl:
     annotations:
@@ -17998,7 +18077,7 @@ files:
       human-smola: PL/SQL
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: PL/SQL
   github.com/oscfdezdz/Dotfiles-WIP/fbcb800a377c3c7ae85bec90f038e54cc500a44b/config.i3:
     annotations:
@@ -18109,6 +18188,7 @@ files:
       human-smola: HiveQL
       linguist: HiveQL
       linguist-heuristics: HiveQL
+      pygments-filename: q
       vote: HiveQL
   github.com/parcel-bundler/parcel/a836a17c5a85fdc328f48755e1384d6bb4705b65/packages/core/parcel-bundler/src/visitors/globals.js:
     annotations:
@@ -18355,7 +18435,7 @@ files:
     annotations:
       linguist: PL/pgSQL
       linguist-heuristics: PL/pgSQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: PL/pgSQL
   github.com/pglatza/debug-single-xsltmode/e66decc89a65d6545f264c027cd4d1710773a071/debug-single-xsltmode.xpl:
     annotations:
@@ -18368,7 +18448,7 @@ files:
     annotations:
       linguist: PL/pgSQL
       linguist-heuristics: PL/pgSQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: PL/pgSQL
   github.com/pgrest/pgrest/85ecaf10fee7091a236a3fe91fa8f993aabe33a8/test/select.ls:
     annotations:
@@ -18612,7 +18692,7 @@ files:
       human-smola: PL/SQL
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: PL/SQL
   github.com/ploeh/ZeroToNine/3497cf64e6f78921939b3096c363317775917906/Src/Zero29.UnitTests/Properties/AssemblyInfo.fs:
     annotations:
@@ -18685,6 +18765,7 @@ files:
     annotations:
       linguist: q
       linguist-heuristics: q
+      pygments-filename: q
       vote: q
   github.com/pointwise/AircraftMesher/744b4e2c0c7d052639803322a8cec6862a0d1369/AircraftMesher.glf:
     annotations:
@@ -18868,6 +18949,7 @@ files:
       human-smola: HiveQL
       linguist: HiveQL
       linguist-heuristics: HiveQL
+      pygments-filename: q
       vote: HiveQL
   github.com/prabirshrestha/asyncomplete.vim/db3ab51ef6d42ac410afaea53fc0513afd0d5e25/autoload/asyncomplete/utils/_on_change/timer.vim:
     annotations:
@@ -19017,6 +19099,7 @@ files:
     annotations:
       linguist: q
       linguist-heuristics: q
+      pygments-filename: q
       vote: q
   github.com/psifidotos/Latte-Dock/122e6a9616d2c5f7ead97de6629514a0ec31611b/containment/package/contents/ui/VisibilityManager.qml:
     annotations:
@@ -19216,6 +19299,7 @@ files:
     annotations:
       linguist: Clojure
       linguist-extension: Clojure
+      pygments-filename: Clojure
       vote: Clojure
   github.com/quillford/config/9e482da34d4dc835d34305db773e82752cc26925/.i3:
     annotations:
@@ -19286,7 +19370,7 @@ files:
       human-smola: PL/SQL
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: PL/SQL
   github.com/rafaelcn/louv1.1x/a52dc99fde7d1f5e4ddcc99babda251bc74f4fce/Second week/primes.oz:
     annotations:
@@ -19347,7 +19431,7 @@ files:
       human-smola: PL/SQL
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: PL/SQL
   github.com/raphink/config-augeas-validator/ee8aeffb9753fcb260e6227b2ef6b785bdca77c8/lenses/tests/test_fai_diskconfig.aug:
     annotations:
@@ -19673,6 +19757,7 @@ files:
     annotations:
       linguist: WebAssembly
       linguist-extension: WebAssembly
+      pygments-filename: WebAssembly
       vote: WebAssembly
   github.com/remobjects/calendar/ba057051128e5ba993de69e4bbebc82b98abb4c1/RemObjects.Calendar.oxygene:
     annotations:
@@ -19787,7 +19872,7 @@ files:
       human-smola: SQL
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: SQL
   github.com/riemann/riemann/a1bbfc301078da62de4980c27bbfc421451546be/test/riemann/query_test.clj:
     annotations:
@@ -20043,7 +20128,7 @@ files:
       human-smola: TSQL
       linguist: TSQL
       linguist-heuristics: TSQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: TSQL
   github.com/ronsaldo/lowtalk/ed169388a9f4799b296b92ea2b0d5e7e9e59a5b8/tonel/Lowtalk-Core/LowtalkBObject.class.st:
     annotations:
@@ -20054,7 +20139,7 @@ files:
     annotations:
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: SQL
   github.com/ros-simulation/gazebo_ros_demos/64e9200749567aab9ca2289563eea987fea8cf50/gazebo_tutorials/CMakeLists.txt:
     annotations:
@@ -20482,7 +20567,7 @@ files:
     annotations:
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: SQL
   github.com/sarabander/sicp-pdf/5b3a5b2165c414a689873fd316a7293bc587b1c7/src/texi-to-latex.pl:
     annotations:
@@ -20737,6 +20822,7 @@ files:
     annotations:
       human-smola: HiveQL
       linguist: q
+      pygments-filename: q
       vote: HiveQL
   github.com/sephiroth74/purePDF/5a409634412fa1032b1e9937a347b344d3ccc63e/purepdf/src/org/purepdf/pdf/PdfFormXObject.as:
     annotations:
@@ -20847,6 +20933,7 @@ files:
     annotations:
       linguist: WebAssembly
       linguist-extension: WebAssembly
+      pygments-filename: WebAssembly
       vote: WebAssembly
   github.com/sharkdp/bat/3d23daa7b463e1dee5bd7eead6767bb25b5a4b55/src/bin/bat/app.rs:
     annotations:
@@ -21163,7 +21250,7 @@ files:
     annotations:
       linguist: PL/pgSQL
       linguist-heuristics: PL/pgSQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: PL/pgSQL
   github.com/soloworks/netlinx-global-code/8b12a1dbd41330869d0df61c6403a5b84813d8ea/ModulesNetlinx/mSim2Projector.axs:
     annotations:
@@ -21371,7 +21458,7 @@ files:
       human-smola: PL/SQL
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: PL/SQL
   github.com/status-im/nimbus/c734e959c70ab74de88f1384877a92815443fe1f/nimbus/vm_types.nim:
     annotations:
@@ -21508,6 +21595,7 @@ files:
     annotations:
       linguist: q
       linguist-heuristics: q
+      pygments-filename: q
       vote: q
   github.com/strongself/generamba-catalog/f5ab7c7b23f2c2a667c26096cbc20fa00ec36809/adkrviper_controller/Code/View/view_input.h.liquid:
     annotations:
@@ -21668,6 +21756,7 @@ files:
     annotations:
       linguist: q
       linguist-heuristics: q
+      pygments-filename: q
       vote: q
   github.com/t3h2mas/pc-hy/ad9d3e83a66efce9c81206ed296bdc71058c6c1a/db.hy:
     annotations:
@@ -21686,6 +21775,7 @@ files:
       human-smola: HiveQL
       linguist: HiveQL
       linguist-heuristics: HiveQL
+      pygments-filename: q
       vote: HiveQL
   github.com/taigaio/taiga-front/7e2e0b7cf9ac7559fd701536275819a6cd408b37/app/modules/history/comments/comments.controller.spec.coffee:
     annotations:
@@ -21709,6 +21799,7 @@ files:
       human-smola: HiveQL
       linguist: HiveQL
       linguist-heuristics: HiveQL
+      pygments-filename: q
       vote: HiveQL
   github.com/taka-no-me/android-cmake/556cc14296c226f753a3778d99d8b60778b7df4f/AndroidNdkGdb.cmake:
     annotations:
@@ -21882,6 +21973,7 @@ files:
     annotations:
       linguist: APL
       linguist-extension: APL
+      pygments-filename: APL
       vote: APL
   github.com/tgstation/tgstation/5d05c8689f41b5143f921570372316f43b665b83/code/modules/jobs/job_types/quartermaster.dm:
     annotations:
@@ -21940,6 +22032,7 @@ files:
     annotations:
       linguist: APL
       linguist-extension: APL
+      pygments-filename: APL
       vote: APL
   github.com/theos/theos/badb4240cbde4a0788e0961d6c6d1d2cfbbd4562/makefiles/instance/subproject.mk:
     annotations:
@@ -22752,7 +22845,7 @@ files:
       human-smola: PL/SQL
       linguist: SQL
       linguist-heuristics: SQL
-      pygments-filename: SQL
+      pygments-filename: TSQL
       vote: PL/SQL
   github.com/utk3995/Automotive-Expert-System/8ee8345362859fe6fd52171539d0d0fe7c767b95/automotive_expert_system.clp:
     annotations:
@@ -23395,6 +23488,7 @@ files:
     annotations:
       linguist: sed
       linguist-extension: sed
+      pygments-filename: sed
       vote: sed
   github.com/wso2-ballerina/module-ethereum/1d76190ec61c140f50688ef1bc761f0c00c4ee92/src/ethereum/tests/test.bal:
     annotations:
@@ -23874,6 +23968,7 @@ files:
       human-smola: HiveQL
       linguist: HiveQL
       linguist-heuristics: HiveQL
+      pygments-filename: q
       vote: HiveQL
   github.com/zealic/autorosvpn/3b24921342c96e1d312051dfbc3255311ef7430b/chnroutes-chinanet.rsc:
     annotations:
