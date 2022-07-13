@@ -514,7 +514,7 @@ files:
   "github.com/AweiLoveAndroid/The-pit-of-the-Android-Studio/68fd58ec7b4d7fc8cef8d296c38de9e46ab87877/\u5907\u4EFD/build.gradle.ftl":
     annotations:
       linguist: FreeMarker
-      linguist-extension: FreeMarker
+      linguist-heuristics: FreeMarker
       vote: FreeMarker
   github.com/Axford/OpenSCADMachineDesignFramework/80155e0104bb3a6d1c89bfaefa58766e24e21961/utils/surfacesolids/Renderer.scad:
     annotations:
@@ -540,7 +540,7 @@ files:
   github.com/Azure/ccodashboard/9740e2fc9f26ac4490d7a5fd7523abe0ac2a67d6/queries/AKS.m:
     annotations:
       human-smola: Unknown
-      linguist: MATLAB
+      linguist: Wolfram Language
       pygments-filename: Objective-C
       vote: Unknown
   github.com/BEEmod/BEE2-items/f2955185f09645db6c4cdf8b7962e1b8f7dd85bb/packages/valve/clean_style/resources/scripts/vscripts/BEE2/video_splitter_rand.nut:
@@ -1083,6 +1083,7 @@ files:
   github.com/Cuis-Smalltalk/Cuis-Smalltalk-Dev/590566a92743c2097567cc23caf4889fdae09083/CoreUpdates/3460-SmalltalkCompleterEnhancements-p3-HernanWilkinson-2018Sep24-08h59m-HAW.1.cs.st:
     annotations:
       linguist: Smalltalk
+      linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
       vote: Smalltalk
   github.com/CyberShadow/DustMite/e77126fd68333eb66ce9761bd1068e34304e758d/tests/one/src.d:
@@ -1240,11 +1241,9 @@ files:
       vote: Frege
   github.com/Disassembler0/mikrotik-scripts/03ec5d5cee4f9476bdbe1a57e0091faeb8eae926/automatic-upgrade/upgrade.rsc:
     annotations:
-      human-smola: Unknown
-      linguist: Rascal
-      linguist-extension: Rascal
-      vote: Unknown
-    notes: MikroTik RouterOS script
+      human-smola: RouterOS Script
+      linguist: RouterOS Script
+      vote: RouterOS Script
   github.com/DoM1niC/PlayHide/ce5e34a191f36f442c4814a77733dc5a30467081/AU3/playhide/tray.au3:
     annotations:
       linguist: AutoIt
@@ -1321,7 +1320,7 @@ files:
     annotations:
       human-smola: YAML
       linguist: YAML
-      linguist-extension: YAML
+      linguist-heuristics: YAML
       pygments-filename: YAML
       vote: YAML
   github.com/EbTech/rust-algorithms/42db8cc763bb54814b89c5d8c75e3f5f82b0cf39/src/scanner.rs:
@@ -1345,21 +1344,25 @@ files:
   github.com/EiffelSoftware/EiffelStudio/c11eba393f5c2ad3f4297743fea6c26f227d7560/Src/contrib/library/testing/framework/espec/library/es_testable.e:
     annotations:
       linguist: Eiffel
+      linguist-heuristics: Eiffel
       pygments-filename: Eiffel
       vote: Eiffel
   github.com/EiffelSoftware/EiffelStudio_old/9e167e8a222b3c98149889095ac36dcd275607d5/Src/framework/eiffel_llvm/library/testing/test_insert_value_inst.e:
     annotations:
       linguist: Eiffel
+      linguist-heuristics: Eiffel
       pygments-filename: Eiffel
       vote: Eiffel
   github.com/EiffelWebFramework/EWF/0afccef5e20e8c257c31ad9bb16f7f9eaa9cb988/library/server/wsf/extension/handler/wsf_debug_handler.e:
     annotations:
       linguist: Eiffel
+      linguist-heuristics: Eiffel
       pygments-filename: Eiffel
       vote: Eiffel
   github.com/EiffelWebFramework/HAL/90625b868fdf203d6c53e48303c6c65418e4f947/library/hal_link_attribute.e:
     annotations:
       linguist: Eiffel
+      linguist-heuristics: Eiffel
       pygments-filename: Eiffel
       vote: Eiffel
   github.com/ElCep/dion_still_alive/ca1df17bfbb2872b4423e4afec5a6ac6e81c00ce/Dion.1952V2.nlogo:
@@ -2242,18 +2245,18 @@ files:
   github.com/JessYanCoding/ArmsComponent-Template/eda7ebda29b662150e83040059a23f8d95e6056e/NewArmsComponent/recipe.xml.ftl:
     annotations:
       linguist: FreeMarker
-      linguist-extension: FreeMarker
+      linguist-heuristics: FreeMarker
       linguist-xml: XML
       vote: FreeMarker
   github.com/JessYanCoding/MVPArms-Module-Template/162950a0592232681ffcf5062edfe007ad841523/NewArmsModule/root/src/app_package/GlobalConfiguration.java.ftl:
     annotations:
       linguist: FreeMarker
-      linguist-extension: FreeMarker
+      linguist-heuristics: FreeMarker
       vote: FreeMarker
   github.com/JessYanCoding/MVPArmsTemplate/2490af5733d409e1867b09d33f8965b04d25def1/MVPArtTemplate/root/src/app_package/ArtActivity.java.ftl:
     annotations:
       linguist: FreeMarker
-      linguist-extension: FreeMarker
+      linguist-heuristics: FreeMarker
       vote: FreeMarker
   github.com/JetBrains/Nitra/b287b8a42237fac4d993444e7e3af9240b601503/Boot2/Nitra.Grammar/Model/FSM/FSM.n:
     annotations:
@@ -2638,7 +2641,8 @@ files:
   github.com/LaverdeS/Argument_Political_Membership/f127aaab83d578cc06d4fdfcd303eaa6d48669f8/Canadian-Parliament/Senate_Debates/hansard.36.2.senate.debates.2000-05-10.54.e/hansard.36.2.senate.debates.2000-05-10.54.e:
     annotations:
       human-smola: Text
-      linguist: E
+      linguist: Eiffel
+      linguist-heuristics: Eiffel
       pygments-filename: Eiffel
       vote: Text
   github.com/LeartS/loleuler/f8f508b45f07f8c59043c1e25756e369e246f965/010.lol:
@@ -2686,11 +2690,9 @@ files:
       vote: Clojure
   github.com/Lillecarl/ROS_Scripts/f58c478db9b7361c494e98ae61cb4e722c0a51b4/Tunnels/UpdateTunnelsFromComments.rsc:
     annotations:
-      human-smola: Unknown
-      linguist: Rascal
-      linguist-extension: Rascal
-      vote: Unknown
-    notes: MikroTik RouterOS script
+      human-smola: RouterOS Script
+      linguist: RouterOS Script
+      vote: RouterOS Script
   github.com/LisiLisenok/Chime/bdc7ffd652b3e34cac535d0e408f8ffd771ee26e/source/herd/schedule/chime/cron/parseCronStyle.ceylon:
     annotations:
       linguist: Ceylon
@@ -2838,7 +2840,8 @@ files:
   github.com/MagerValp/ArcadeGameSelector/e21f22ff84ca3d6014e95e2c3c45214bbeaa6c3f/AGS2Menu.e:
     annotations:
       human-smola: Unknown
-      linguist: E
+      linguist: Eiffel
+      linguist-heuristics: Eiffel
       pygments-filename: Eiffel
       vote: Unknown
   github.com/Magic-Unique/iOSJailbreakTools/79df8b2569fd22d353a7eee30b269eb2b6999a7a/Installation/usr/local/bin/Cycript.lib/libcycript.cy:
@@ -2868,6 +2871,7 @@ files:
     annotations:
       human-smola: Eiffel
       linguist: Eiffel
+      linguist-heuristics: Eiffel
       pygments-filename: Eiffel
       vote: Eiffel
   github.com/Makiah/BotW-SBFRES-to-FBX/d6552301e27eb147610afdc1ba19df9816d26d7b/fbxextraction/Libraries/WiiU_BFRESImporter/BFRES Script_R4_Debug.ms:
@@ -3435,7 +3439,8 @@ files:
   github.com/OpenEuphoria/euphoria/3c9ad415ad36db3e8f2ecbb966233f77a4464d3c/tests/t_tokenize.e:
     annotations:
       human-smola: Euphoria
-      linguist: Eiffel
+      linguist: Euphoria
+      linguist-heuristics: Euphoria
       pygments-filename: Eiffel
       vote: Euphoria
   github.com/OpenFlutter/Flutter-Notebook/817011cb39e24bbba936f9f3fc09bce823835a2a/mecury_project/example/keep_alive_demo/test/widget_test.dart:
@@ -3545,7 +3550,7 @@ files:
     annotations:
       human-smola: Elixir
       linguist: Elixir
-      linguist-extension: Elixir
+      linguist-heuristics: Elixir
       pygments-filename: Elixir
       vote: Elixir
   github.com/Paebbels/JSON-for-VHDL/80100fd6dd8c0cf27c7356391f6cbfb5efcddd42/JSONTestSuite/TopLevel.vhdl:
@@ -3932,7 +3937,7 @@ files:
     annotations:
       human-smola: FreeMarker
       linguist: FreeMarker
-      linguist-extension: FreeMarker
+      linguist-heuristics: FreeMarker
       vote: FreeMarker
   github.com/ReactiveCocoa/ReactiveCocoa/21deb683540db0d059dd7945627493275936b7db/ReactiveCocoaTests/UIKit/UIActivityIndicatorViewSpec.swift:
     annotations:
@@ -4184,7 +4189,8 @@ files:
   github.com/SeasideSt/Seaside/4ba832de34f9b54ddd3c586966d5ffcacd1df150/repository/Seaside-Welcome.package/WAWelcomeExampleFlow.class/instance/renderChooseCheeseCodeOn..st:
     annotations:
       human-smola: Smalltalk
-      linguist: HTML
+      linguist: Smalltalk
+      linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
       vote: Smalltalk
   github.com/SeeCode/mdws/d83054bf4a0c3e31dcc4aa6b3b68a16b97b820d1/mdws/Global.asax:
@@ -4272,10 +4278,10 @@ files:
       vote: Liquid
   github.com/Shougo/vimfiler.vim/26d3fec10cb8921d510064411784301794229a93/autoload/vital/_vimfiler/Vim/Buffer.vim:
     annotations:
-      linguist: Vim script
-      linguist-extension: Vim script
-      pygments-filename: VimL
-      vote: Vim script
+      linguist: Vim Script
+      linguist-extension: Vim Script
+      pygments-filename: Vim Script
+      vote: Vim Script
   github.com/SicroAtGit/PureBasic-CodeArchiv-Rebirth/27b2548b1c18738cfc00b67c0931310c19db9feb/FileSystem/CopyFilesEx.pbi:
     annotations:
       linguist: PureBasic
@@ -4455,12 +4461,13 @@ files:
     annotations:
       human-smola: Shell
       linguist: Shell
-      linguist-extension: HTML+Django
+      linguist-extension: Jinja
       linguist-shebang: Shell
       vote: Shell
   github.com/Student-projects/Eiffel-P2P/73aebedbc61a5ee53cc61fc720dced37a16ec384/Client_Interface/src/target_packet.e:
     annotations:
       linguist: Eiffel
+      linguist-heuristics: Eiffel
       pygments-filename: Eiffel
       vote: Eiffel
   github.com/SuaveIO/suave/a84ac8b93954e155fb8dc78a26d3a9a73cff45af/src/Suave/Tcp.fs:
@@ -4622,12 +4629,12 @@ files:
   github.com/TakeoffAndroid/MaterialTabsTemplate/baa697a543cf341e4777250daab0e532409d6d73/root/src/app_package/AbstractModel.java.ftl:
     annotations:
       linguist: FreeMarker
-      linguist-extension: FreeMarker
+      linguist-heuristics: FreeMarker
       vote: FreeMarker
   github.com/TakeoffAndroid/RecyclerViewTemplate/6590e98547fed5f40e37fc2170eba9d0b4cff562/root/res/layout/item_recycler_google_play.xml.ftl:
     annotations:
       linguist: FreeMarker
-      linguist-extension: FreeMarker
+      linguist-heuristics: FreeMarker
       linguist-xml: XML
       vote: FreeMarker
   github.com/TaranVH/2nd-keyboard/5e03713a12cf22037feaaa6e3729482d25fa5579/Intercept/FULL_extra_keyboard.ahk:
@@ -4804,7 +4811,7 @@ files:
   github.com/Trendyol/android-guidelines/395b78a6d47ea3379d43e4237f727f438849f83d/android_studio_live_templates/file_and_code_templates/TrendyolData/recipe.xml.ftl:
     annotations:
       linguist: FreeMarker
-      linguist-extension: FreeMarker
+      linguist-heuristics: FreeMarker
       linguist-xml: XML
       vote: FreeMarker
   github.com/Trovarius/dojo_dnasp_26_05_11/2d0a483376240a0fc34543ce4f3ad1b69bea08fc/Dojo_Troco/Class1.boo:
@@ -4829,9 +4836,9 @@ files:
       vote: VHDL
   github.com/Ttreintaysiete/chaves/9972f5b735048064f86628ce642d3d94d7502cea/v2/hardware/chaves.pro:
     annotations:
-      linguist: Prolog
+      linguist: INI
       pygments-filename: Prolog
-      vote: Prolog
+      vote: INI
   github.com/TunSafe/TunSafe/85a871c1d226956df7c1308a1e5527556fe35fe1/crypto/poly1305/poly1305-x64-linux.s:
     annotations:
       human-smola: Unix Assembly
@@ -5061,7 +5068,7 @@ files:
   github.com/WanAndroid/AndroidStudioTemplates/7808187009ba57b4acfc5bceb4c73f535c710de0/activities/ViewPagerWithTabActivity/root/src/app_package/SimpleFragment.java.ftl:
     annotations:
       linguist: FreeMarker
-      linguist-extension: FreeMarker
+      linguist-heuristics: FreeMarker
       vote: FreeMarker
   github.com/WebAssembly/binaryen/4ad7a2cfd0b3ac14fbe767d50e4994f8297d37f6/test/wasm2js/br_table_temp.wast:
     annotations:
@@ -5427,7 +5434,7 @@ files:
     annotations:
       human-smola: Elixir
       linguist: Elixir
-      linguist-extension: Elixir
+      linguist-heuristics: Elixir
       pygments-filename: Elixir
       vote: Elixir
   github.com/acani/Chats/dcf91487d0ac360d3e556b550cb818cb7883372a/Servers/Database/functions/login.sql:
@@ -5719,11 +5726,9 @@ files:
       vote: ATS
   github.com/alexanderfefelov/mikrotik-routeros-scripts/4de420da4c4757f421f6ed279b5882af7ffef618/ringtones/arkanoid.rsc:
     annotations:
-      human-smola: Unknown
-      linguist: Rascal
-      linguist-extension: Rascal
-      vote: Unknown
-    notes: MikroTik RouterOS script
+      human-smola: RouterOS Script
+      linguist: RouterOS Script
+      vote: RouterOS Script
   github.com/alexazhou/VeryNginx/b66ef2ee6a108279653316323bd8ac026dd7ccd8/verynginx/lua_script/module/browser_verify.lua:
     annotations:
       linguist: Lua
@@ -6729,11 +6734,13 @@ files:
   github.com/ba-st/Willow/fcdc80ceba43f6a10136d069a4ef40144eb63209/source/Willow/ComponentRemovingCommand.class.st:
     annotations:
       linguist: Smalltalk
+      linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
       vote: Smalltalk
   github.com/ba-st/Winter/baafa877a8e481b32e4872053ac890ae43da30ec/source/Winter-Core/WinterNonPlayer.class.st:
     annotations:
       linguist: Smalltalk
+      linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
       vote: Smalltalk
   github.com/babluboy/bookworm/9446717f97b59214a5d50e369a3eaf02eaa8091f/src/headerbar.vala:
@@ -7032,11 +7039,9 @@ files:
       vote: C
   github.com/beeyev/Mikrotik-Firmware-Auto-Updater/a7734dfcf945e8709a6d70be6b423a458633bdb8/firmware-updater.rsc:
     annotations:
-      human-smola: Unknown
-      linguist: Rascal
-      linguist-extension: Rascal
-      vote: Unknown
-    notes: MikroTik RouterOS script
+      human-smola: RouterOS Script
+      linguist: RouterOS Script
+      vote: RouterOS Script
   github.com/begoon/acm/05472eaa0fff7abb6679826085da5e0c990df4cb/ch24.org/2011/Pre-round, 2011.02.12/R/text05.tst:
     annotations:
       human-smola: Unknown
@@ -7116,7 +7121,7 @@ files:
   github.com/benoitletondor/Android-Studio-MVP-template/8ac7252bd93aaeda3a3f6d9d3c4b8ec21945599b/MVPBoilerplate/root/src/app_package/classes/BasePresenterImpl.java.ftl:
     annotations:
       linguist: FreeMarker
-      linguist-extension: FreeMarker
+      linguist-heuristics: FreeMarker
       vote: FreeMarker
   github.com/benweet/stackedit/2fdbb67c67159c4ccfddbe51fc9303c6c799dbe0/src/services/providers/helpers/zendeskHelper.js:
     annotations:
@@ -7172,6 +7177,7 @@ files:
     annotations:
       human-smola: C
       linguist: C
+      linguist-heuristics: C
       pygments-filename: C
       vote: C
   github.com/binux/pyspider/3fccfabe2b057b7a56d4a4c79dc0dd6cd2239fe9/tests/test_task_queue.py:
@@ -7237,14 +7243,14 @@ files:
     annotations:
       human-smola: Elixir
       linguist: Elixir
-      linguist-extension: Elixir
+      linguist-heuristics: Elixir
       pygments-filename: Elixir
       vote: Elixir
   github.com/bitwalker/swarm/4aee63d83ad5ee6ee095b38b3ff93a4dbb7c3400/lib/swarm/tracker/crdt.ex:
     annotations:
       human-smola: Elixir
       linguist: Elixir
-      linguist-extension: Elixir
+      linguist-heuristics: Elixir
       pygments-filename: Elixir
       vote: Elixir
   github.com/bjansen/gyokuro/a3f0db80f7029ae350bc97e33eaf7882a9182d00/source/net/gyokuro/view/api/templates.ceylon:
@@ -7809,6 +7815,7 @@ files:
     annotations:
       human-smola: C
       linguist: C
+      linguist-heuristics: C
       pygments-filename: C
       vote: C
   github.com/ceylon/ceylon-examples-spark/6ecf93917b09e6373b7c435386753e0b0103f2bc/source/todo/sparky/velocityContext.ceylon:
@@ -7964,7 +7971,7 @@ files:
   github.com/chenchengyin/android-studio-template/c096bc8fb9f987e00aa0518d7d84682388d72a9f/activities/MarshonSlideTabActivity/root/src/app_package/SimpleFragment.java.ftl:
     annotations:
       linguist: FreeMarker
-      linguist-extension: FreeMarker
+      linguist-heuristics: FreeMarker
       vote: FreeMarker
   github.com/chenenyu/img-optimizer-gradle-plugin/fc1ba8e14a65e01f33a47d84e357dd5499a33784/buildSrc/src/main/groovy/com.chenenyu/imgoptimizer/ImgOptimizerPlugin.groovy:
     annotations:
@@ -8322,7 +8329,7 @@ files:
     annotations:
       human-smola: Elixir
       linguist: Elixir
-      linguist-extension: Elixir
+      linguist-heuristics: Elixir
       pygments-filename: Elixir
       vote: Elixir
   github.com/commercialhaskell/stack/e57c0154f3a272702db515cc3520d0394231697c/src/Stack/Options/SDistParser.hs:
@@ -8500,7 +8507,6 @@ files:
     annotations:
       human-smola: Rascal
       linguist: Rascal
-      linguist-extension: Rascal
       vote: Rascal
   github.com/crossoverJie/JCSprout/60440b61560f71e862163caa6a041af587b06aff/src/main/java/com/crossoverjie/concurrent/VolatileInc.java:
     annotations:
@@ -8622,31 +8628,26 @@ files:
     annotations:
       human-smola: Rascal
       linguist: Rascal
-      linguist-extension: Rascal
       vote: Rascal
   github.com/cwi-swat/bacata-rascal/c66e69e78fdc36b408dd4a5fb85c81e048601244/src/bacata/CodeMirror.rsc:
     annotations:
       human-smola: Rascal
       linguist: Rascal
-      linguist-extension: Rascal
       vote: Rascal
   github.com/cwi-swat/php-analysis/90f153f13c809d9a76a4ca752d681a201cded715/src/lang/php/ast/System.rsc:
     annotations:
       human-smola: Rascal
       linguist: Rascal
-      linguist-extension: Rascal
       vote: Rascal
   github.com/cwi-swat/rascal-discover-ide/4ee2bb6973ad812aac44f7bde5d83fd4abbc656b/src/util/DiscoverIDE.rsc:
     annotations:
       human-smola: Rascal
       linguist: Rascal
-      linguist-extension: Rascal
       vote: Rascal
   github.com/cwi-swat/rascal-ecore/c36c05c73142f9f991016c9175b46da795d0a2d1/src/lang/ecore/hutn/Model2HUTN.rsc:
     annotations:
       human-smola: Rascal
       linguist: Rascal
-      linguist-extension: Rascal
       vote: Rascal
   github.com/cycyustc/isotracks/3d1f71b58af375db67f5cb8a77c879b50c702911/isotrack/mesa/MESA_KS_DB/ptcri_ovh0.20.ovhe0.50.z0.00555.y0.25409.HB:
     annotations:
@@ -8713,6 +8714,7 @@ files:
   github.com/dalehenrich/filetree/d7eee41d8a083180557d00e270f279f47105a565/repository/MonticelloFileTree-Tests.package/MCFileTreeFileUtilitiesTests.class/instance/testDirectoryFromEntry.st:
     annotations:
       linguist: Smalltalk
+      linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
       vote: Smalltalk
   github.com/damir-majer/ABAPKoans/38ec9b76f42e126897dfd6e46c9d118cc1b8a749/zcl_koans_about_abapunit.clas.testclasses.abap:
@@ -8766,7 +8768,7 @@ files:
     annotations:
       human-smola: Elixir
       linguist: Elixir
-      linguist-extension: Elixir
+      linguist-heuristics: Elixir
       pygments-filename: Elixir
       vote: Elixir
   github.com/danslapman/BackedProperties/be871e3470f487a0375b214190d1eea3498257e5/BackedPropertiesMacro/Properties/AssemblyInfo.n:
@@ -9529,6 +9531,7 @@ files:
   github.com/dorellang/hunter/57ae7bdc60c59ffb83202f5b347c3e0310d08221/src/Hunter.package/HNMetaModelBuilderTests.class/instance/testTryStatement.st:
     annotations:
       linguist: Smalltalk
+      linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
       vote: Smalltalk
   github.com/dotnet-architecture/eShopOnContainers/f8084f5953ce87751b4b1dcbd57c8f5989294192/src/Services/Ordering/Ordering.UnitTests/Builders.cs:
@@ -9694,12 +9697,12 @@ files:
   github.com/dsidavis/RCInterface/f62515e35180ab0c2bf852cceb3f2990e3a02e2a/CompileSteps/simpleMath.E:
     annotations:
       human-smola: C
-      linguist: E
+      linguist: Eiffel
       vote: C
   github.com/dspinellis/unix-history-repo/69f28986ad97c1e3d55279d696d1884c963f530e/adm.s:
     annotations:
       human-smola: Assembly
-      linguist: Motorola 68K Assembly
+      linguist: Unix Assembly
       pygments-filename: Unix Assembly
       vote: Assembly
   github.com/dsully/perl-crypt-openssl-pkcs12/7eed293cced197e7b1397a91f457e608999d902c/PKCS12.xs:
@@ -9752,11 +9755,9 @@ files:
       vote: Clean
   github.com/dwichan0905/telegram_bot/20fdf19e8ec0b678aa0370d3a509d6a2aaa56ec6/telegram_bot.rsc:
     annotations:
-      human-smola: Unknown
-      linguist: Rascal
-      linguist-extension: Rascal
-      vote: Unknown
-    notes: MikroTik RouterOS script
+      human-smola: RouterOS Script
+      linguist: RouterOS Script
+      vote: RouterOS Script
   github.com/dwyl/hapi-socketio-redis-chat-example/7a0f82b8dba4bb2dbf4d617e4c416b149bcaf74d/tests/TestSpec.elm:
     annotations:
       linguist: Elm
@@ -10017,13 +10018,15 @@ files:
   github.com/efratcdn/e_type_min_max/f1c17e02e980753b2f29ea7618635f1b9a81409b/type_min_max_usage_ex.e:
     annotations:
       linguist: E
+      linguist-heuristics: E
       pygments-filename: Eiffel
       vote: E
   github.com/efratcdn/igen-dist/55560ed8aa792c8c4bb1475c3b9be04c950dfb3c/dist_example.e:
     annotations:
-      linguist: E
+      linguist: Eiffel
+      linguist-heuristics: Eiffel
       pygments-filename: Eiffel
-      vote: E
+      vote: Eiffel
   github.com/egeOzpinar/csm/aab3d8ddc4accad9d8c294b7819186544bd7f592/src/csm.chpl:
     annotations:
       linguist: Chapel
@@ -10046,6 +10049,7 @@ files:
   github.com/eiffelhub/json/9c1c66ee3da0c69c7e5c8731274cc2f17f79141a/library/serialization/deserializer/basic/json_basic_serialization.e:
     annotations:
       linguist: Eiffel
+      linguist-heuristics: Eiffel
       pygments-filename: Eiffel
       vote: Eiffel
   github.com/ejrh/cpu/e53a2b9c23831921494a8ae9e80d3f21036ec309/testbench/instr_fetch_tb.v:
@@ -10101,14 +10105,14 @@ files:
     annotations:
       human-smola: Elixir
       linguist: Elixir
-      linguist-extension: Elixir
+      linguist-heuristics: Elixir
       pygments-filename: Elixir
       vote: Elixir
   github.com/elixir-lang/elixir/9a145026ebb2a08a60133ad259f3db083721b465/lib/mix/lib/mix/tasks/app.start.ex:
     annotations:
       human-smola: Elixir
       linguist: Elixir
-      linguist-extension: Elixir
+      linguist-heuristics: Elixir
       pygments-filename: Elixir
       vote: Elixir
   github.com/elliott1796/lolcode/cd40ddfaaf4d067935cef645d06aaa0f27f5f918/calculator.lol:
@@ -10818,6 +10822,7 @@ files:
   github.com/feenkcom/gtoolkit/1809c243d4cc570c40a633e8aab48f5074e1a174/src/GToolkit-Scenery/GtSceneryBuilder.class.st:
     annotations:
       linguist: Smalltalk
+      linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
       vote: Smalltalk
   github.com/felipap/sicp-code/a6644f81de21c117d4e0c294dd740687a6540ca1/code/9A.scm:
@@ -11542,7 +11547,7 @@ files:
   github.com/geerlingguy/ansible-role-jenkins/9bb2b2032c1056212ce5e00099235d86fdabd49e/templates/basic-security.groovy.j2:
     annotations:
       linguist: Groovy
-      linguist-extension: HTML+Django
+      linguist-extension: Jinja
       linguist-shebang: Groovy
       vote: Groovy
   github.com/generative-design/Code-Package-Processing-2.x/8f0fbaced94900ea0141cf986fd81127edea336e/01_P/P_4_3_3_01/P_4_3_3_01.pde:
@@ -11778,6 +11783,7 @@ files:
   github.com/gobo-eiffel/gobo/84ad68be041416460f06dbcf9a8f1b848e346586/library/tools/src/ecf/ast/et_ecf_settings.e:
     annotations:
       linguist: Eiffel
+      linguist-heuristics: Eiffel
       pygments-filename: Eiffel
       vote: Eiffel
   github.com/gocomet/snippets/93695148126eccb7b23eff70a36eb8281308bb1d/currency-converter/snippets/currencies.liquid:
@@ -11793,10 +11799,10 @@ files:
       vote: Slice
   github.com/godlygeek/tabular/339091ac4dd1f17e225fe7d57b48aff55f99b23a/plugin/Tabular.vim:
     annotations:
-      linguist: Vim script
-      linguist-extension: Vim script
-      pygments-filename: VimL
-      vote: Vim script
+      linguist: Vim Script
+      linguist-extension: Vim Script
+      pygments-filename: Vim Script
+      vote: Vim Script
   github.com/gogameguru/go-problems/eee12b2e39d59dbe81a8b9eaa7d4f103978d9224/weekly-go-problems/intermediate/ggg-intermediate-97.eps:
     annotations:
       linguist: PostScript
@@ -11921,11 +11927,9 @@ files:
       vote: Python
   github.com/googlehosts/hosts-ipv6/deebc8c196e2e1c1c05f8c027b15ab1abea40a5c/hosts-files/hosts.rsc:
     annotations:
-      human-smola: Unknown
-      linguist: Rascal
-      linguist-extension: Rascal
-      vote: Unknown
-    notes: MikroTik RouterOS script
+      human-smola: RouterOS Script
+      linguist: RouterOS Script
+      vote: RouterOS Script
   github.com/googollee/eviltransform/b911c066225716822e4a5b2cab475edcc6cf11a2/matlab/UTM/deg2utm.m:
     annotations:
       linguist: MATLAB
@@ -11959,7 +11963,7 @@ files:
     annotations:
       human-smola: Elixir
       linguist: Elixir
-      linguist-extension: Elixir
+      linguist-heuristics: Elixir
       pygments-filename: Elixir
       vote: Elixir
   github.com/gracelang/minigrace/db1564417d1656f565740442951a9ede852345ab/intrinsic.grace:
@@ -12133,6 +12137,7 @@ files:
   github.com/guillep/Scale/8590fcb02889bf5ea9d8e38a7dcf5f548dc656a1/src/ConfigurationOfScale.package/ConfigurationOfScale.class/class/ensureMetacelloBaseConfiguration.st:
     annotations:
       linguist: Smalltalk
+      linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
       vote: Smalltalk
   github.com/gunrock/gunrock/138e85b5949f971c68e1a8336a64b6e06839da61/gunrock/app/tc/tc_test.cuh:
@@ -12340,10 +12345,10 @@ files:
       vote: Tcl
   github.com/hdima/python-syntax/69760cb3accce488cc072772ca918ac2cbf384ba/syntax/python.vim:
     annotations:
-      linguist: Vim script
-      linguist-extension: Vim script
-      pygments-filename: VimL
-      vote: Vim script
+      linguist: Vim Script
+      linguist-extension: Vim Script
+      pygments-filename: Vim Script
+      vote: Vim Script
   github.com/hecrj/composable-form/a3091d5cac9ec4578e9968b9538e310a20ac15d6/src/Form/Error.elm:
     annotations:
       linguist: Elm
@@ -12603,10 +12608,10 @@ files:
       vote: GAP
   github.com/hominlinx/vim/3308379e70697fb02cff51a17681994f3ebb01cc/vimrc.b:
     annotations:
-      human-smola: Vim script
+      human-smola: Vim Script
       linguist: Limbo
       pygments-filename: Limbo
-      vote: Vim script
+      vote: Vim Script
   github.com/honix/Redraw/7df3ef17886664e58e56cd8b82cc8995dadbfe9d/canvas.red:
     annotations:
       linguist: Red
@@ -12660,6 +12665,7 @@ files:
   github.com/howardthomson/gobo-guide-2/a4e853ffd42edabb025a98ef8c9fce41eac5f594/library/lexical/error/lx_incomplete_name_definition_error.e:
     annotations:
       linguist: Eiffel
+      linguist-heuristics: Eiffel
       pygments-filename: Eiffel
       vote: Eiffel
   github.com/hpcc-systems/DataPatterns/be9bbbd84692bb3dd47e80caa09fc06dd26c35d7/BestRecordStructure.ecl:
@@ -12743,7 +12749,7 @@ files:
   github.com/hs-web/hsweb-demo/cae347fe74c1a6c8227f3d00c92353261f300342/src/main/resources/templates/admin/index.ftl:
     annotations:
       linguist: FreeMarker
-      linguist-extension: FreeMarker
+      linguist-heuristics: FreeMarker
       vote: FreeMarker
   github.com/hsluv/hsluv/04a757f09d5dd8d4f30643cd5eeb55e5daa17f1a/haxe/src/hsluv/Geometry.hx:
     annotations:
@@ -12949,10 +12955,10 @@ files:
       vote: Turing
   github.com/id774/scripts/0d1996da7f5c1eeaac07a72e76dc8e91ecb2987f/dot_files/dot_vim/plugin/rainbow_csv.vim:
     annotations:
-      linguist: Vim script
-      linguist-extension: Vim script
-      pygments-filename: VimL
-      vote: Vim script
+      linguist: Vim Script
+      linguist-extension: Vim Script
+      pygments-filename: Vim Script
+      vote: Vim Script
   github.com/idelsink/qtcreator_sub_dir_example/38f099015a30ff5d63efd04bbe6e4eadafd6cffb/SubTestProject/common.pri:
     annotations:
       linguist: QMake
@@ -13037,8 +13043,7 @@ files:
   github.com/iguana-parser/grammars/d001f904037f7b16da2ca9c1ded9fb0155c2195f/src/scala/specification/XML.rsc:
     annotations:
       human-smola: Rascal
-      linguist: Rascal
-      linguist-extension: Rascal
+      linguist: RouterOS Script
       vote: Rascal
   github.com/iina/iina/4720a9e2fc1eabc70ecb87fd8db547bc3998a858/iina/FontPickerWindowController.swift:
     annotations:
@@ -13341,10 +13346,10 @@ files:
       vote: Squirrel
   github.com/jamessan/vim-gnupg/f663d0e857bd88cb39c16ca45c37a27488648562/autoload/gnupg.vim:
     annotations:
-      linguist: Vim script
-      linguist-extension: Vim script
-      pygments-filename: VimL
-      vote: Vim script
+      linguist: Vim Script
+      linguist-extension: Vim Script
+      pygments-filename: Vim Script
+      vote: Vim Script
   github.com/jamieowen/glsl-blend/3c5fc9377ec493f6ac479ba1aa74dd27dfe0334d/source/PhotoshopMathFP.glsl:
     annotations:
       linguist: GLSL
@@ -13558,10 +13563,10 @@ files:
       vote: Racket
   github.com/jearbear/dotfiles/9eae706575253d5c4e8b5f4be0d167b8ce9acf50/config/nvim/init.vim:
     annotations:
-      linguist: Vim script
-      linguist-extension: Vim script
-      pygments-filename: VimL
-      vote: Vim script
+      linguist: Vim Script
+      linguist-extension: Vim Script
+      pygments-filename: Vim Script
+      vote: Vim Script
   github.com/jeffThompson/PixelSorting/df13f0a19cf833168bd9438695fbf3f622cb5865/AutomaticVersions/SeedSorting_AutoIterate/SeedSorting_AutoIterate.pde:
     annotations:
       linguist: Processing
@@ -13694,13 +13699,13 @@ files:
   github.com/jevi-me/k8s_on_openstack_kilo/f9c410ce808daf69074fa3c82f4e5968858ace53/kompose_files/patchbay-deployment.yaml:
     annotations:
       linguist: YAML
-      linguist-extension: YAML
+      linguist-heuristics: YAML
       pygments-filename: YAML
       vote: YAML
   github.com/jgallowa07/SLiMSimulations/fda6455968359235cf4dcb443b3be4984708e3e3/MyRecipes1/MyRecipe9_0_1.E:
     annotations:
       human-smola: Unknown
-      linguist: E
+      linguist: Eiffel
       vote: Unknown
   github.com/jgarber/redcloth/dd7ee6caaa6c899f4d5389c1b2fe4a17f1e5f326/ragel/redcloth_scan.rb.rl:
     annotations:
@@ -13745,10 +13750,10 @@ files:
       vote: Scheme
   github.com/jiangmiao/simple-javascript-indenter/b1cbd5b147b15245b02c5a9a6789a06950de6482/indent/javascript.vim:
     annotations:
-      linguist: Vim script
-      linguist-extension: Vim script
-      pygments-filename: VimL
-      vote: Vim script
+      linguist: Vim Script
+      linguist-extension: Vim Script
+      pygments-filename: Vim Script
+      vote: Vim Script
   github.com/jiaodaxiaozi/npphighlight/84d93dda2fdbc327403c73b94d57031895135578/localsolver/test/kmeans.lsp:
     annotations:
       human-ajnavarro: NewLisp
@@ -13855,16 +13860,19 @@ files:
   github.com/jocelyn-old/EiffelWebReloaded/939d92f3bed039b370baedde1d499427ad7a2b0f/library/server/rest/tests/src/app/app_account_verify_credential.e:
     annotations:
       linguist: Eiffel
+      linguist-heuristics: Eiffel
       pygments-filename: Eiffel
       vote: Eiffel
   github.com/jocelyn/eel/f573b30fec6eece84d36d4210b554d81df34577d/tests/sha256_test.e:
     annotations:
       linguist: Eiffel
+      linguist-heuristics: Eiffel
       pygments-filename: Eiffel
       vote: Eiffel
   github.com/jocelyn/eiffel_code/b0f9d80b373d6f50f351eb91515c043e561c69b9/library/utility/large_raw_file/src/modified_raw_file_i.e:
     annotations:
       linguist: Eiffel
+      linguist-heuristics: Eiffel
       pygments-filename: Eiffel
       vote: Eiffel
   github.com/joebo/j-fork-server/30fe475a5f342eac1dc401f985c2d227ae0134c6/spawn.ijs:
@@ -14237,11 +14245,13 @@ files:
   github.com/jvelilla/RosettaCode/d0ed0d5fff2957dcfb6a378cadcae769a790ec87/src/tokenize_string/tokenize_string_example.e:
     annotations:
       linguist: Eiffel
+      linguist-heuristics: Eiffel
       pygments-filename: Eiffel
       vote: Eiffel
   github.com/jvelilla/eCouchDB/edb1919a72885667b670bd2c45d0b7d6b1d8e02e/test/application.e:
     annotations:
       linguist: Eiffel
+      linguist-heuristics: Eiffel
       pygments-filename: Eiffel
       vote: Eiffel
   github.com/jvimal/boxopa/eb4b5b03b52401b8a297bbd24d3a1a58a92b75f0/box.opa:
@@ -14365,7 +14375,7 @@ files:
   github.com/kanytu/Android-studio-material-template/361ba3efc5de5b193bf9955b2ee577c5045529b4/MaterialNavigationDrawerActivity/root/src/app_package/ScrimInsetsFrameLayout.java.ftl:
     annotations:
       linguist: FreeMarker
-      linguist-extension: FreeMarker
+      linguist-heuristics: FreeMarker
       vote: FreeMarker
   github.com/karlrupp/microprocessor-trend-data/7bbd582ba1376015f6cf24498f46db62811a2919/40yrs/plot.gnuplot:
     annotations:
@@ -14380,11 +14390,9 @@ files:
       vote: Lua
   github.com/karrots/ROS-DDNS/e83304ab3b821dc68ba1a54f31f287ddbd611557/DDNS-DHCP.rsc:
     annotations:
-      human-smola: Unknown
-      linguist: Rascal
-      linguist-extension: Rascal
-      vote: Unknown
-    notes: MikroTik RouterOS script
+      human-smola: RouterOS Script
+      linguist: RouterOS Script
+      vote: RouterOS Script
   github.com/karthikgade77/performance-test-apache-drill/4c40292cf7031e8c770c4df0cbb541f7c62d0637/TPCDS/Queries/74.q:
     annotations:
       human-smola: SQL
@@ -14468,10 +14476,10 @@ files:
       vote: Ada
   github.com/kchmck/vim-coffee-script/9e3b4de2a476caeb6ff21b5da20966d7c67a98bb/syntax/coffee.vim:
     annotations:
-      linguist: Vim script
-      linguist-extension: Vim script
-      pygments-filename: VimL
-      vote: Vim script
+      linguist: Vim Script
+      linguist-extension: Vim Script
+      pygments-filename: Vim Script
+      vote: Vim Script
   github.com/kcloze/medoo-zephir/e2cc0cb811009eec095835ca7eacc9e579f5cd81/medoo/medoo.zep:
     annotations:
       linguist: Zephir
@@ -15147,10 +15155,11 @@ files:
       vote: DataWeave
   github.com/learnbyexample/scripting_course/37b501884a4677495baaa0ced1892c2f04198820/.vimrc:
     annotations:
-      linguist: Vim script
-      linguist-filename: Vim script
-      pygments-filename: VimL
-      vote: Vim script
+      linguist: Vim Script
+      linguist-extension: Vim Script
+      linguist-filename: Vim Script
+      pygments-filename: Vim Script
+      vote: Vim Script
   github.com/learnroku/crash-course/fdce9023c75198b95657389c22e032bf54e4628b/lesson_6/components/screens/content_screen.brs:
     annotations:
       linguist: Brightscript
@@ -15388,9 +15397,10 @@ files:
       vote: MATLAB
   github.com/ljepson74/svsc/84df9d4ce0f956a70fd0150c47ec04c09dcf2b9d/my_sysverilog_examples/svs_lessons/lesson000X_mluvm_svsc/uvm_examples/xcore/e/xcore_port_config.e:
     annotations:
-      linguist: E
+      linguist: Eiffel
+      linguist-heuristics: Eiffel
       pygments-filename: Eiffel
-      vote: E
+      vote: Eiffel
   github.com/ljun20160606/blog/e2994de802f814031f87ab0fb85b5b1db3a6bde8/directory/tcp.md:
     annotations:
       linguist: Markdown
@@ -15642,10 +15652,10 @@ files:
       vote: Ragel
   github.com/lymslive/vimllearn/de5056511465305e1ef94a934a7f4d166194f2a7/example/funcref.vim:
     annotations:
-      linguist: Vim script
-      linguist-extension: Vim script
-      pygments-filename: VimL
-      vote: Vim script
+      linguist: Vim Script
+      linguist-extension: Vim Script
+      pygments-filename: Vim Script
+      vote: Vim Script
   github.com/m-yac/tt-in-cagda/d2c1c36cb3e09d8c3c73b8a043dbe36865765bce/src/DTLC/Base.agda:
     annotations:
       linguist: Agda
@@ -15666,10 +15676,10 @@ files:
       vote: KoLMafia ASH
   github.com/machakann/vim-Verdin/11e2deeb01b3aa0de93685a02eabf9f1ccc90976/test/Dictionary.vim:
     annotations:
-      linguist: Vim script
-      linguist-extension: Vim script
-      pygments-filename: VimL
-      vote: Vim script
+      linguist: Vim Script
+      linguist-extension: Vim Script
+      pygments-filename: Vim Script
+      vote: Vim Script
   github.com/machineagency/jubilee/61c863b8147d2bf7c510df376cbd499c32062899/software/duet_config_files/sys/tpost1.g:
     annotations:
       human-smola: G-code
@@ -15975,11 +15985,9 @@ files:
       vote: Boo
   github.com/massimo-filippi/mikrotik/0d2e5f4a3acbdeacc3ac337cd543df92109a7556/backup-config.rsc:
     annotations:
-      human-smola: Unknown
-      linguist: Rascal
-      linguist-extension: Rascal
-      vote: Unknown
-    notes: MikroTik RouterOS script
+      human-smola: RouterOS Script
+      linguist: RouterOS Script
+      vote: RouterOS Script
   github.com/massiveinteractive/MassiveUnit/2fef211fded516f97afc49f31698b1a59cf22c53/test/massive/munit/client/URLRequestTest.hx:
     annotations:
       linguist: Haxe
@@ -16430,10 +16438,10 @@ files:
       vote: Clarion
   github.com/mileszs/ack.vim/36e40f9ec91bdbf6f1adf408522a73a6925c3042/autoload/ack.vim:
     annotations:
-      linguist: Vim script
-      linguist-extension: Vim script
-      pygments-filename: VimL
-      vote: Vim script
+      linguist: Vim Script
+      linguist-extension: Vim Script
+      pygments-filename: Vim Script
+      vote: Vim Script
   github.com/millerc3/Marching-Cubes/eb9f29658dacb79e91a9e3264404fc5a40696e8e/build_0_1_Data/Mono/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx:
     annotations:
       linguist: ASP.NET
@@ -16461,7 +16469,7 @@ files:
     annotations:
       human-smola: FreeMarker
       linguist: FreeMarker
-      linguist-extension: FreeMarker
+      linguist-heuristics: FreeMarker
       vote: FreeMarker
   github.com/mipt-genphys/labnik_iii/edd2a0cebaf9d072864ed8b347cd66ca6640c306/Images/v2.gp:
     annotations:
@@ -16636,11 +16644,9 @@ files:
       vote: Unknown
   github.com/mmastrac/snippets/4fe8455d9e39901b1ef41afde671dbb02aa7c816/mikrotik/dhcp-dns.rsc:
     annotations:
-      human-smola: Unknown
-      linguist: Rascal
-      linguist-extension: Rascal
-      vote: Unknown
-    notes: MikroTik RouterOS script
+      human-smola: RouterOS Script
+      linguist: RouterOS Script
+      vote: RouterOS Script
   github.com/mmatyas/GridWars/229dcf7c53a2e28afbafb5c8dada9c6c9f8f885f/sound.bmx:
     annotations:
       linguist: BlitzMax
@@ -16769,7 +16775,7 @@ files:
   github.com/monkeylord/XposedTemplateForAS/d5cdd502ba09161c9d233c15331ba067be51cb61/Xposed Code/root/src/app_package/ClassesEnum.java.ftl:
     annotations:
       linguist: FreeMarker
-      linguist-extension: FreeMarker
+      linguist-heuristics: FreeMarker
       vote: FreeMarker
   github.com/morbos/STM32/2f87e26aacdf90ba9d8d1ca64ae12d2c8528a964/WB/WB55/client_wb55/src/comm/comm-shci.adb:
     annotations:
@@ -16824,7 +16830,7 @@ files:
   github.com/moshowgame/SpringBootCodeGenerator/b7861ca9fc2ea542d4fc446953c8964b691d61f5/generator-web/src/main/resources/templates/code-generator/mybatis/mybatis.ftl:
     annotations:
       linguist: FreeMarker
-      linguist-extension: FreeMarker
+      linguist-heuristics: FreeMarker
       linguist-xml: XML
       vote: FreeMarker
   github.com/mothdragon/CardCreator/31053b5d09aa4df666cfd5107a6b2a39f5b3529a/attribDialog.ec:
@@ -16854,14 +16860,14 @@ files:
   github.com/mozilla-services/screenshots/33eeff19d361e2a12f5474cf9a0d5ef409082c99/locales/zh-TW/server.ftl:
     annotations:
       human-smola: Unknown
-      linguist: FreeMarker
-      linguist-extension: FreeMarker
+      linguist: Fluent
+      linguist-heuristics: Fluent
       vote: Unknown
   github.com/mozilla/blurts-server/39de9a07442a3c0e4240c22066fcc3cf817f2104/locales/zh-TW/bento.ftl:
     annotations:
       human-smola: Unknown
-      linguist: FreeMarker
-      linguist-extension: FreeMarker
+      linguist: Fluent
+      linguist-heuristics: Fluent
       vote: Unknown
   github.com/mperham/sidekiq.cr/25b1abcb4791d2b33d76286cd5ee049fcf45bbfd/src/sidekiq/middleware.cr:
     annotations:
@@ -17612,6 +17618,7 @@ files:
     annotations:
       human-smola: C
       linguist: C
+      linguist-heuristics: C
       pygments-filename: C
       vote: C
   github.com/nvbn/thefuck/fdea32b47d4b941fce7a9d538d00c1484e31feb5/thefuck/specific/git.py:
@@ -17786,6 +17793,7 @@ files:
   github.com/oligot/epm/a28b7311d55e2a77de70f9eaba368f082973cca0/lib/epm_package.e:
     annotations:
       linguist: Eiffel
+      linguist-heuristics: Eiffel
       pygments-filename: Eiffel
       vote: Eiffel
   github.com/oliverit/express.abap/ff37cde6eb2b54ba2f68c015eec81298173887d1/yea_unit_test_response.clas.abap:
@@ -17888,7 +17896,8 @@ files:
   github.com/openEHR/adl-tools/1b55f2d44868874025482f51023af7b453183405/apps/resources/icons/compiled/icon_rm_cimi_item_group.e:
     annotations:
       human-smola: Eiffel
-      linguist: E
+      linguist: Eiffel
+      linguist-heuristics: Eiffel
       pygments-filename: Eiffel
       vote: Eiffel
   github.com/openai/baselines/665b888eeb688396894455a0d94febc4f712e0c0/baselines/common/wrappers.py:
@@ -17925,13 +17934,13 @@ files:
   github.com/opencrypto-io/data/78956f7f756f414a91e28cd16fb1337e2c456165/db/projects/binance/project.yaml:
     annotations:
       linguist: YAML
-      linguist-extension: YAML
+      linguist-heuristics: YAML
       pygments-filename: YAML
       vote: YAML
   github.com/opencrypto-io/schema/29363ef2c7f446b66f9267fd62261a40fec4cee2/models/exchange.yaml:
     annotations:
       linguist: YAML
-      linguist-extension: YAML
+      linguist-heuristics: YAML
       pygments-filename: YAML
       vote: YAML
   github.com/opencv/opencv/417034518c0884743e79ea7828eee0b6724287bc/modules/imgcodecs/src/grfmt_base.hpp:
@@ -18161,9 +18170,10 @@ files:
       vote: Python
   github.com/pannous/english-script-samples/2a03a41634c15007a4c78183f89c755a8fb97bdf/fibonaccis2.e:
     annotations:
-      linguist: E
+      linguist: Euphoria
+      linguist-heuristics: Euphoria
       pygments-filename: Eiffel
-      vote: E
+      vote: Euphoria
   github.com/papyros/qml-material/80e0294cec30fd9ca794ed0c545d3e4be511291c/src/extras/CircleImage.qml:
     annotations:
       linguist: QML
@@ -18466,11 +18476,13 @@ files:
   github.com/pharo-project/pharo-launcher/a3894e183044b2f91d159dc77cf7927111cfd2e0/src/PharoLauncher-Core/PhLJenkins2Entity.class.st:
     annotations:
       linguist: Smalltalk
+      linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
       vote: Smalltalk
   github.com/pharo-project/pharo/44ab73c423c2e8d8b8a5762361bb5b0364bc1214/src/Calypso-SystemTools-FullBrowser/ClyMethodContextOfFullBrowser.class.st:
     annotations:
       linguist: Smalltalk
+      linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
       vote: Smalltalk
   github.com/philc/vimium/8c9404f84fd4310b89818e132c0ef0822cbcd059/content_scripts/vomnibar.coffee:
@@ -18522,7 +18534,7 @@ files:
     annotations:
       human-smola: Elixir
       linguist: Elixir
-      linguist-extension: Elixir
+      linguist-heuristics: Elixir
       pygments-filename: Elixir
       vote: Elixir
   github.com/php/php-src/abc382e885fff83d059e5c3fe3762c8e8497510c/sapi/fpm/fpm/fpm_events.c:
@@ -18637,6 +18649,7 @@ files:
   github.com/pillar-markup/pillar/3a801e439fe7426d00caa9d79851733891313e63/src/Pillar-Tests-Model/PRVisitorTest.class.st:
     annotations:
       linguist: Smalltalk
+      linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
       vote: Smalltalk
   github.com/pingcap/tla-plus/e3714440dba348bf2e2a19c41c201374ab6c36ee/CollapseRollbacks/CollapseRollbacks.tla:
@@ -18953,10 +18966,10 @@ files:
       vote: HiveQL
   github.com/prabirshrestha/asyncomplete.vim/db3ab51ef6d42ac410afaea53fc0513afd0d5e25/autoload/asyncomplete/utils/_on_change/timer.vim:
     annotations:
-      linguist: Vim script
-      linguist-extension: Vim script
-      pygments-filename: VimL
-      vote: Vim script
+      linguist: Vim Script
+      linguist-extension: Vim Script
+      pygments-filename: Vim Script
+      vote: Vim Script
   github.com/pragmagic/karax/1911a1cfe0db08d840fcfd245e541342f6289836/karax/autocomplete.nim:
     annotations:
       linguist: Nim
@@ -19515,10 +19528,10 @@ files:
       vote: MATLAB
   github.com/rbtnn/vimconsole.vim/ad4fe23165e24ddc79607e2f09c4609fc4bc3fbf/autoload/vital/_vimconsole.vim:
     annotations:
-      linguist: Vim script
-      linguist-extension: Vim script
-      pygments-filename: VimL
-      vote: Vim script
+      linguist: Vim Script
+      linguist-extension: Vim Script
+      pygments-filename: Vim Script
+      vote: Vim Script
   github.com/rcdmk/aspJSON/a169daa6b903d574703b37cf08c1275c2cbcd471/test.asp:
     annotations:
       linguist: Classic ASP
@@ -19668,14 +19681,13 @@ files:
       vote: Awk
   github.com/redjumper/geo2addresslist/4667d3f39fd80a8dc2dc874ac1520e0a68ab6854/freedom-addresslist.rsc:
     annotations:
-      human-smola: Unknown
-      linguist: Rascal
-      linguist-extension: Rascal
-      vote: Unknown
-    notes: MikroTik RouterOS script
+      human-smola: RouterOS Script
+      linguist: RouterOS Script
+      vote: RouterOS Script
   github.com/redline-smalltalk/redline-smalltalk/14d92a2cac8311837810b87e2dd434436430108d/src/main/smalltalk/st/redline/kernel/Transcript.st:
     annotations:
       linguist: Smalltalk
+      linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
       vote: Smalltalk
   github.com/redox-os/redox/e39b0bdf77c9c2ad927fbaf7e38e45849bcf143c/mk/prefix.mk:
@@ -19852,10 +19864,10 @@ files:
       vote: ANTLR
   github.com/rhysd/8cc.vim/228bea2f983dc4e68e716093d89b76e2b83dcc71/autoload/eightcc/command.vim:
     annotations:
-      linguist: Vim script
-      linguist-extension: Vim script
-      pygments-filename: VimL
-      vote: Vim script
+      linguist: Vim Script
+      linguist-extension: Vim Script
+      pygments-filename: Vim Script
+      vote: Vim Script
   github.com/richard-roberts/GraceLibrary/c2018498bdd6a4b06d07b4d413fd2e6a22a44a00/Benchmarks/PyStone.grace:
     annotations:
       linguist: Grace
@@ -20133,6 +20145,7 @@ files:
   github.com/ronsaldo/lowtalk/ed169388a9f4799b296b92ea2b0d5e7e9e59a5b8/tonel/Lowtalk-Core/LowtalkBObject.class.st:
     annotations:
       linguist: Smalltalk
+      linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
       vote: Smalltalk
   github.com/rorydavidson/SNOMED-CT-Database/c2b75bbd8d56ff95d3d357b6cb58aaa59302deb4/PostgreSQL/load-postgresql.sql:
@@ -20364,9 +20377,9 @@ files:
       vote: Rust
   github.com/rust-lang/www.rust-lang.org/e770231372604486abd995fcf1532e28b5ea0611/locales/pt-BR/licenses.ftl:
     annotations:
-      linguist: FreeMarker
-      linguist-extension: FreeMarker
-      vote: FreeMarker
+      linguist: Fluent
+      linguist-heuristics: Fluent
+      vote: Fluent
   github.com/rust-unofficial/awesome-rust/b945661634e8a2d345c0e55c71d33024b9d44820/cleanup.rs:
     annotations:
       linguist: Rust
@@ -20639,6 +20652,7 @@ files:
   github.com/sbragagnolo/taskit/3b78424adde348ce6daeeda2cf38f8af481e237f/TaskIt-Tests/TKTWorkerMemoryLeakTests.class.st:
     annotations:
       linguist: Smalltalk
+      linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
       vote: Smalltalk
   github.com/sbsdev/sbs-braille-tables/ad8b4d3b898d228cce81d72ac2e8038d931db747/tables/sbs-de-g2-name.mod:
@@ -21008,7 +21022,8 @@ files:
   github.com/shihyu/MyTool/541771d9bc10d32a54baa48eb62992b4bcb9353f/mybin/se/macros/ctviews.e:
     annotations:
       human-smola: Unknown
-      linguist: E
+      linguist: Eiffel
+      linguist-heuristics: Eiffel
       pygments-filename: Eiffel
       vote: Unknown
   github.com/shinh/bflisp/4e702438612f659fa2c668f18400babda5355723/test/cal.bf:
@@ -21122,6 +21137,7 @@ files:
   github.com/sl4m/gnu_smalltalk_koans/1b52dcdc9dd6f6e61706d0fa68d2c30ae9da6f47/src/koans/TestMessage.st:
     annotations:
       linguist: Smalltalk
+      linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
       vote: Smalltalk
   github.com/slackhq/hack-sql-fake/e35f696bdc73b23f83ab7ec7b350402a060e0350/src/Expressions/CaseOperatorExpression.php:
@@ -21401,7 +21417,7 @@ files:
   github.com/sredmond/stanford-karel/0cd5e64cbc9cd5930bddaacaf8bc0b175fd3e26c/worlds/StoneMasonSmall.w:
     annotations:
       human-smola: Unknown
-      linguist: CWeb
+      linguist: OpenEdge ABL
       vote: Unknown
   github.com/sriniiyer/nl2sql/652edf4814dce2cddf1661e05a18602161c65e8f/data/geo/geo_train.nl:
     annotations:
@@ -21614,6 +21630,7 @@ files:
   github.com/studio/studio/b653144046b775ea8bddc391a4ba29625936e282/frontend/Studio-RaptorJIT/RJITBlIRFragment.class.st:
     annotations:
       linguist: Smalltalk
+      linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
       vote: Smalltalk
   github.com/submersibletoaster/povray-planets-build/25e266f8ed0641dd13a42f477f7dcbe9a8ad5cf0/share/povray/cm/cm_camera.inc:
@@ -21682,6 +21699,7 @@ files:
   github.com/svenvc/ston/049da2fad16df1a470da5fd8c4f748562250b7f5/repository/STON-Tests.package/STONTestDomainObject.class/class/dummy.st:
     annotations:
       linguist: Smalltalk
+      linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
       vote: Smalltalk
   github.com/sverrirs/XboxBigButton/7135144f8374bd6cc4e6504eeb8556415782c598/XboxBigButton_WinUsbDriver/installer/setup.nsi:
@@ -21704,11 +21722,9 @@ files:
       vote: Hy
   github.com/svlsResearch/ha-mikrotik/36153605d2f311ba715688be593f58e86ee9cb0e/HA_init.rsc:
     annotations:
-      human-smola: Unknown
-      linguist: Rascal
-      linguist-extension: Rascal
-      vote: Unknown
-    notes: MikroTik RouterOS script
+      human-smola: RouterOS Script
+      linguist: RouterOS Script
+      vote: RouterOS Script
   github.com/swannodette/mori/46c9194b3c4bc93fc4b402925b9417add3b0a3ba/project.clj:
     annotations:
       linguist: Clojure
@@ -21886,11 +21902,9 @@ files:
       vote: Clojure
   github.com/teckerpro/MikroTik-pptpBan/63e7cfb668a2805fc0419d571916b8acb87e00b0/pptpBan.rsc:
     annotations:
-      human-smola: Unknown
-      linguist: Rascal
-      linguist-extension: Rascal
-      vote: Unknown
-    notes: MikroTik RouterOS script
+      human-smola: RouterOS Script
+      linguist: RouterOS Script
+      vote: RouterOS Script
   github.com/tedhagos/android-mirah/d0d976d8ee5226cb1771ce98e1cc523a12fd392e/call-activity/src/com/thelogbox/MainActivity.mirah:
     annotations:
       linguist: Mirah
@@ -22191,12 +22205,14 @@ files:
   github.com/tioui/Eiffel_Game2/7220b2bbf74c98e8955853f2ee28571fbd64915e/game_image_file/img_image_cpf.e:
     annotations:
       linguist: Eiffel
+      linguist-heuristics: Eiffel
       pygments-filename: Eiffel
       vote: Eiffel
   github.com/tioui/eiffel_game_lib/251340ff2df264bb2bd451af4b045351915f4e4c/audio_snd_files_lib/audio_sound_snd_cpf.e:
     annotations:
       human-smola: Eiffel
       linguist: Eiffel
+      linguist-heuristics: Eiffel
       pygments-filename: Eiffel
       vote: Eiffel
   github.com/titon/framework/cbf44729173d3a83b91a2b0a217c6b3827512e44/src/Titon/Context/Definition.hh:
@@ -22311,7 +22327,7 @@ files:
   github.com/tommybennett/slickc/e53694b21f15d0695b2b6e1e37dd2a0931936bb8/cpp/make_func.e:
     annotations:
       human-smola: Unknown
-      linguist: E
+      linguist: Eiffel
       pygments-filename: Eiffel
       vote: Unknown
   github.com/tomsoftware/VI-Explorer-VI/dbcf88ffbf8c653839f99a92e73c12e29884ce38/vi-File-Explorer.lvproj:
@@ -22409,10 +22425,10 @@ files:
       vote: Tcl
   github.com/tpope/vim-endwise/996f6bdba06bdd497306df042637d5b3e352d08b/plugin/endwise.vim:
     annotations:
-      linguist: Vim script
-      linguist-extension: Vim script
-      pygments-filename: VimL
-      vote: Vim script
+      linguist: Vim Script
+      linguist-extension: Vim Script
+      pygments-filename: Vim Script
+      vote: Vim Script
   github.com/trailheadapps/purealoe/f9495bd08b1f486915f01f9c7ec8cbbb6c03e30d/force-app/main/default/classes/Einstein_Dataset.cls:
     annotations:
       human-smola: Apex
@@ -22565,6 +22581,7 @@ files:
   github.com/ttencate/aoc2017/94a9618ef1617b74144e7c98b5d446d592db5307/18_eiffel/18a/state.e:
     annotations:
       linguist: Eiffel
+      linguist-heuristics: Eiffel
       pygments-filename: Eiffel
       vote: Eiffel
   github.com/ttroy50/cmake-examples/a62b62eee4ae554fe1ee94627b2063c47ded22fd/04-static-analysis/cppcheck/cmake/analysis.cmake:
@@ -22575,9 +22592,9 @@ files:
       vote: CMake
   github.com/tudortimi/vscale_tb-e/8828954570cb8c7d085c517675339f810b894307/tests/test_mem.e:
     annotations:
-      linguist: E
+      linguist: Eiffel
       pygments-filename: Eiffel
-      vote: E
+      vote: Eiffel
   github.com/tum-ens/mathprog-energy-models/df7e652585550ad39f0635ca1b2c06b90f00986c/intertemporal.mod:
     annotations:
       human-smola: AMPL
@@ -22674,10 +22691,10 @@ files:
       vote: Makefile
   github.com/tyru/eskk.vim/207d05cd50d126a84271aca7f02b3f839dab27c3/plugin/eskk.vim:
     annotations:
-      linguist: Vim script
-      linguist-extension: Vim script
-      pygments-filename: VimL
-      vote: Vim script
+      linguist: Vim Script
+      linguist-extension: Vim Script
+      pygments-filename: Vim Script
+      vote: Vim Script
   github.com/uC137/uCreative/9c1083e40f9b034af78501f6dda5fffda9ab1d2a/Obsidian___0.icl:
     annotations:
       human-smola: XML
@@ -22727,7 +22744,7 @@ files:
     annotations:
       human-smola: Elixir
       linguist: Elixir
-      linguist-extension: Elixir
+      linguist-heuristics: Elixir
       pygments-filename: Elixir
       vote: Elixir
   github.com/ufologist/onekey-decompile-apk/efd54a34d0d065f97cba45f714a740483cf44450/onekey-decompile-apk/_tools/dex2jar/dex2jar.bat:
@@ -22812,9 +22829,10 @@ files:
       vote: Elm
   github.com/uobdv/Design-Verification/6acb2241f659912aace4f507fe96e91ba4cfe04d/SN-CPU-Tutorial/cpu/e/gold/cpu_instr.e:
     annotations:
-      linguist: E
+      linguist: Eiffel
+      linguist-heuristics: Eiffel
       pygments-filename: Eiffel
-      vote: E
+      vote: Eiffel
   github.com/urlysses/1991/b1f03d4e4175658606153cdb66d41df1075525ba/1991.fs:
     annotations:
       linguist: Forth
@@ -22864,10 +22882,10 @@ files:
       vote: Augeas
   github.com/utylee/dotfiles-hc/44723b028851b7a9451842efa8d5d80be699f15c/.vimrc.hc:
     annotations:
-      human-smola: Vim script
+      human-smola: Vim Script
       linguist: HolyC
       linguist-extension: HolyC
-      vote: Vim script
+      vote: Vim Script
   github.com/utylee/dotfiles-odroid/60393e840e0512ecb2554fc78c7c49b10ef925dc/.bashrc.hc:
     annotations:
       human-smola: Shell
@@ -22916,7 +22934,7 @@ files:
   github.com/v-community/v_by_example/5c0602c3ba900749a98e5d52e05e726036b1530f/code/hello_world/hello.v:
     annotations:
       human-smola: V
-      linguist: Verilog
+      linguist: V
       pygments-filename: Verilog
       vote: V
   github.com/vacancy/PreciseRoIPooling/8ee2a646d096f63c15b75680361d712802391ed1/src/prroi_pooling_gpu_impl.cu:
@@ -23051,10 +23069,10 @@ files:
       vote: MAXScript
   github.com/vim-scripts/indentpython.vim/6aaddfde21fe9e7acbe448b92b3cbb67f2fe1fc1/indent/python.vim:
     annotations:
-      linguist: Vim script
-      linguist-extension: Vim script
-      pygments-filename: VimL
-      vote: Vim script
+      linguist: Vim Script
+      linguist-extension: Vim Script
+      pygments-filename: Vim Script
+      vote: Vim Script
   github.com/virtix/cfmongodb/214c58592d402bb4a31fb9cbf125e2d53360482c/core/MapReduceResult.cfc:
     annotations:
       human-smola: ColdFusion CFC
@@ -23161,7 +23179,7 @@ files:
   github.com/vsay01/Android-Studio-MVP-Template-Google-Architecture/619808c4df67e3a6da9cdbca04aa39057088a80f/MVPTemplateKotlin/root/src/app_package/layout/activity_layout.xml.ftl:
     annotations:
       linguist: FreeMarker
-      linguist-extension: FreeMarker
+      linguist-heuristics: FreeMarker
       linguist-xml: XML
       vote: FreeMarker
   github.com/vshn/modsecurity-docker/d53d456274e820a4ac0f40c937587994ab24d2dc/v3.1/transform-alert-message.awk:
@@ -23972,11 +23990,9 @@ files:
       vote: HiveQL
   github.com/zealic/autorosvpn/3b24921342c96e1d312051dfbc3255311ef7430b/chnroutes-chinanet.rsc:
     annotations:
-      human-smola: Unknown
-      linguist: Rascal
-      linguist-extension: Rascal
-      vote: Unknown
-    notes: MikroTik RouterOS script
+      human-smola: RouterOS Script
+      linguist: RouterOS Script
+      vote: RouterOS Script
   github.com/zefhemel/nix-docker/8c176483705d0129f40928761a34d54e41fdac87/nix-docker/modules/config/docker.nix:
     annotations:
       linguist: Nix

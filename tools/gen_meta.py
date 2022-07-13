@@ -13,7 +13,7 @@ logger = logging.getLogger("gen_meta")
 
 from .common import *
 
-LINGUIST_COMMIT = "9bcbcb830213eee1e5b5ee11ea39115a1da0da5c"
+LINGUIST_COMMIT = "c0b49c1cc6e1667484c291aabd50c21340ddc9ef"
 ROSETTA_CODE_DATA_COMMIT = "9ad63ea473a958506c041077f1d810c0c7c8c18d"
 
 
@@ -27,7 +27,9 @@ def add_linguist_languages(commit: str, meta: Meta):
 
     norm_langs = {
         "Cuda": "CUDA",
+        "Debian Package Control File": "Debian Control file",
         "Fortran Free Form": "Fortran",  # TODO: We might want to split this.
+        "FreeBasic": "FreeBASIC",
         "JSONLD": "JSON-LD",
         "PLSQL": "PL/SQL",
         "PLpgSQL": "PL/pgSQL",
@@ -87,6 +89,7 @@ def add_rosetta_code_languages(commit: str, meta: Meta):
         "FRISC Assembly": "Assembly",
         "Friendly interactive shell": "fish",
         "GML": "Game Maker Language",
+        "Jq": "jq",
         "LC3 Assembly": "Assembly",
         "lilypond": "LilyPond",
         "Lilypond": "LilyPond",
@@ -111,7 +114,6 @@ def add_rosetta_code_languages(commit: str, meta: Meta):
         "SPARC Assembly": "Assembly",
         "TI-83 Hex Assembly": "Assembly",
         "Transact-SQL": "TSQL",
-        "Vim Script": "Vim script",
         "XSLT 1.0": "XSLT",
         "XSLT 2.0": "XSLT",
         "Object Pascal": "Pascal",
@@ -207,6 +209,7 @@ def add_pygments_languages(meta: Meta):
         "RPMSpec": "RPM Spec",
         "systemverilog": "SystemVerilog",
         "Transact-SQL": "TSQL",
+        "VimL": "Vim Script",
         "verilog": "Verilog",
         "VB.net": "Visual Basic .NET",
         "vhdl": "VHDL",

@@ -3,9 +3,9 @@
 
 | Metric | Value |
 | ------ | ----- |
-| **Languages** | 260 |
-| **Total samples** | 3881 |
-| **Samples labeled by humans** | 1047 |
+| **Languages** | 262 |
+| **Total samples** | 3894 |
+| **Samples labeled by humans** | 1060 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -78,22 +78,23 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Dockerfile | 1 | 1 |
 | Dogescript | 19 | 1 |
 | Dylan | 20 | 0 |
-| E | 8 | 0 |
+| E | 3 | 0 |
 | ECL | 20 | 1 |
 | EQ | 13 | 0 |
-| Eiffel | 19 | 3 |
+| Eiffel | 23 | 3 |
 | Elixir | 20 | 20 |
 | Elm | 20 | 1 |
 | Emacs Lisp | 20 | 3 |
 | Erlang | 19 | 0 |
-| Euphoria | 1 | 1 |
+| Euphoria | 2 | 1 |
 | F# | 20 | 4 |
 | Factor | 19 | 0 |
 | Fancy | 16 | 1 |
 | Fantom | 20 | 0 |
+| Fluent | 1 | 0 |
 | Forth | 16 | 2 |
 | Fortran | 20 | 5 |
-| FreeMarker | 18 | 2 |
+| FreeMarker | 17 | 2 |
 | Frege | 13 | 2 |
 | G-code | 1 | 1 |
 | GAP | 7 | 1 |
@@ -119,7 +120,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Hy | 20 | 0 |
 | IDL | 13 | 5 |
 | IGOR Pro | 20 | 0 |
-| INI | 2 | 2 |
+| INI | 3 | 2 |
 | Idris | 18 | 1 |
 | Io | 17 | 0 |
 | Ioke | 14 | 0 |
@@ -192,7 +193,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | PowerShell | 17 | 3 |
 | Processing | 20 | 2 |
 | Proguard | 3 | 3 |
-| Prolog | 16 | 11 |
+| Prolog | 15 | 11 |
 | PureBasic | 8 | 0 |
 | PureScript | 20 | 0 |
 | Python | 21 | 3 |
@@ -211,6 +212,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | RenderScript | 4 | 1 |
 | Ring | 20 | 2 |
 | Roff | 1 | 1 |
+| RouterOS Script | 13 | 13 |
 | Ruby | 20 | 3 |
 | Rust | 23 | 5 |
 | SAS | 20 | 4 |
@@ -246,7 +248,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | VHDL | 18 | 4 |
 | Vala | 20 | 1 |
 | Verilog | 20 | 8 |
-| Vim script | 20 | 2 |
+| Vim Script | 20 | 2 |
 | Visual Basic | 1 | 1 |
 | Visual Basic .NET | 1 | 0 |
 | WebAssembly | 19 | 1 |
