@@ -4,8 +4,8 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 262 |
-| **Total samples** | 3891 |
-| **Samples labeled by humans** | 1061 |
+| **Total samples** | 3889 |
+| **Samples labeled by humans** | 1064 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -44,7 +44,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Boo | 15 | 14 |
 | Brainfuck | 20 | 1 |
 | Brightscript | 20 | 1 |
-| C | 21 | 21 |
+| C | 22 | 22 |
 | C# | 22 | 5 |
 | C++ | 20 | 7 |
 | CLIPS | 18 | 2 |
@@ -116,7 +116,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Haskell | 19 | 2 |
 | Haxe | 20 | 8 |
 | HiveQL | 14 | 14 |
-| HolyC | 8 | 3 |
+| HolyC | 5 | 5 |
 | Hy | 20 | 0 |
 | IDL | 13 | 5 |
 | IGOR Pro | 20 | 0 |
