@@ -7558,6 +7558,7 @@ files:
       vote: Groovy
   github.com/brunoruviaro/SCLOrkSynths/00d7f33c2c04b0b4f5b464f2921ae0cd4407860e/pbind-demos/FMRhodes1-demo.scd:
     annotations:
+      human-smola: SuperCollider
       linguist: SuperCollider
       pygments-filename: SuperCollider
       vote: SuperCollider
@@ -7676,11 +7677,13 @@ files:
       vote: Augeas
   github.com/cappelnord/BenoitLib/e3743d839beee746e7075700ea5305670ad85a12/patterns/Pkr.sc:
     annotations:
+      human-smola: SuperCollider
       linguist: SuperCollider
       pygments-filename: SuperCollider
       vote: SuperCollider
   github.com/cappelnord/CNToolsSC3/452eb734e1ad5624d0ef6d2306dfdd234c7e370e/ReChorder.sc:
     annotations:
+      human-smola: SuperCollider
       linguist: SuperCollider
       linguist-heuristics: SuperCollider
       pygments-filename: SuperCollider
@@ -8531,6 +8534,7 @@ files:
       vote: REXX
   github.com/crucialfelix/API/4bab7b5513082c8c9cca9be7391f657d6c1ecbb1/deprec-2.0.sc:
     annotations:
+      human-smola: SuperCollider
       linguist: SuperCollider
       linguist-heuristics: SuperCollider
       pygments-filename: SuperCollider
@@ -11008,6 +11012,7 @@ files:
       vote: Java
   github.com/florian-grond/SC-HOA/fcae2bccba39dd4acaba025f78299e50b8bac511/classes/HOASphericalHarmonics.sc:
     annotations:
+      human-smola: SuperCollider
       linguist: SuperCollider
       linguist-heuristics: SuperCollider
       pygments-filename: SuperCollider
@@ -17126,6 +17131,7 @@ files:
       vote: C
   github.com/nanc-in-a-can/canon-generator/3e00abce4d2ddeef8c69f483ea6fb70f87c35316/Can/register-synthdefs.sc:
     annotations:
+      human-smola: SuperCollider
       linguist: SuperCollider
       pygments-filename: SuperCollider
       vote: SuperCollider
@@ -17215,6 +17221,7 @@ files:
       vote: AspectJ
   github.com/neilcosgrove/LNX_Studio/a6b4c05b7eed6e710487c417b3b9115ddcdcc4e5/SCClassLibrary/LNX_Studio Library/10. by others/wslib_reduced/Various/SegWarp.sc:
     annotations:
+      human-smola: SuperCollider
       linguist: SuperCollider
       linguist-heuristics: SuperCollider
       pygments-filename: SuperCollider
@@ -21246,6 +21253,7 @@ files:
       vote: JavaScript
   github.com/sofakid/Skoarcery/e4fece84792e1979bdac8abaeb76a117ad8f3965/SuperCollider/Skoar/toker.sc:
     annotations:
+      human-smola: SuperCollider
       linguist: SuperCollider
       linguist-heuristics: SuperCollider
       pygments-filename: SuperCollider
@@ -21686,6 +21694,7 @@ files:
       vote: E
   github.com/supercollider-quarks/downloaded-quarks/3b0d2f1e405587613e3e5f43103184f231552c42/redSys/redEffects/RedEfxTape.sc:
     annotations:
+      human-smola: SuperCollider
       linguist: SuperCollider
       pygments-filename: SuperCollider
       vote: SuperCollider
@@ -22132,6 +22141,7 @@ files:
       vote: Xojo
   github.com/thormagnusson/ixilang/58334bd92ed069b295104f781874d0a4e2e7cdbc/XiiLangRecord.sc:
     annotations:
+      human-smola: SuperCollider
       linguist: SuperCollider
       linguist-heuristics: SuperCollider
       pygments-filename: SuperCollider
