@@ -5,7 +5,7 @@
 | ------ | ----- |
 | **Languages** | 262 |
 | **Total samples** | 3889 |
-| **Samples labeled by humans** | 1064 |
+| **Samples labeled by humans** | 1074 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -231,7 +231,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Smalltalk | 18 | 2 |
 | Squirrel | 20 | 1 |
 | Stata | 17 | 1 |
-| SuperCollider | 19 | 9 |
+| SuperCollider | 19 | 19 |
 | Swift | 19 | 2 |
 | SystemVerilog | 19 | 9 |
 | TLA | 20 | 1 |
