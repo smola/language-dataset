@@ -1830,6 +1830,7 @@ files:
       vote: Wollok
   github.com/Gulkbag/BrainfuckTOS/db02e5efe776b1dd3b6dea6bb3872391a1357718/Brainfuck.HC:
     annotations:
+      human-smola: HolyC
       linguist: HolyC
       linguist-extension: HolyC
       vote: HolyC
@@ -4236,9 +4237,11 @@ files:
     notes: HexenC (QuakeC-based)
   github.com/Shanjaq/uhexen2-progs/f9eb2b52316d9cdeae1acb06774ccf3b18e07786/h2/entity.hc:
     annotations:
+      human-smola: Unknown
       linguist: HolyC
       linguist-extension: HolyC
-      vote: HolyC
+      vote: Unknown
+    notes: HexenC (QuakeC-based)
   github.com/ShaoqingRen/faster_rcnn/49ad0990512a5d6e34f56e3c6596eb5fbf22f651/utils/prep_im_for_blob.m:
     annotations:
       human-smola: MATLAB
@@ -4301,9 +4304,10 @@ files:
       vote: Dogescript
   github.com/Sleepwalking/libgvps/2f1b4106d72f8f8138dc447bf0123820c0772cbd/gvps_sampled.hc:
     annotations:
+      human-smola: C
       linguist: HolyC
       linguist-extension: HolyC
-      vote: HolyC
+      vote: C
   github.com/SlimerDude/afBedSheet/27fb6fee4ab672022f27d625856b3a50435fc5e2/fan/Main.fan:
     annotations:
       linguist: Fantom
@@ -16684,9 +16688,10 @@ files:
       vote: Prolog
   github.com/mne-tools/mne-testing-data/cc40c2964c81c83b9af317fc3cf9a9634a05f095/CTF/testdata_ctf_mc.ds/testdata_ctf_mc.hc:
     annotations:
+      human-smola: Unknown
       linguist: HolyC
       linguist-extension: HolyC
-      vote: HolyC
+      vote: Unknown
   github.com/mntmn/amiga2000-gfxcard/a8d21e93363febaabfb9dca5496db47b8b55a222/va2000-spartan6/xilinx_modules/tmds_out_fifo.v:
     annotations:
       linguist: Verilog
@@ -22404,6 +22409,7 @@ files:
       vote: Lua
   github.com/tosrevive/ShrineTextMode/5db8e502956c13c08e758e4cba091c8df93f6ea0/Kernel/KExcept.HC:
     annotations:
+      human-smola: HolyC
       linguist: HolyC
       linguist-extension: HolyC
       vote: HolyC
