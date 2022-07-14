@@ -5,7 +5,7 @@
 | ------ | ----- |
 | **Languages** | 262 |
 | **Total samples** | 3889 |
-| **Samples labeled by humans** | 1074 |
+| **Samples labeled by humans** | 1090 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -228,7 +228,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Shell | 22 | 8 |
 | Shen | 19 | 3 |
 | Slice | 6 | 0 |
-| Smalltalk | 18 | 2 |
+| Smalltalk | 18 | 18 |
 | Squirrel | 20 | 1 |
 | Stata | 17 | 1 |
 | SuperCollider | 19 | 19 |

@@ -1082,6 +1082,7 @@ files:
       vote: PL/SQL
   github.com/Cuis-Smalltalk/Cuis-Smalltalk-Dev/590566a92743c2097567cc23caf4889fdae09083/CoreUpdates/3460-SmalltalkCompleterEnhancements-p3-HernanWilkinson-2018Sep24-08h59m-HAW.1.cs.st:
     annotations:
+      human-smola: Smalltalk
       linguist: Smalltalk
       linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
@@ -6740,12 +6741,14 @@ files:
       vote: C
   github.com/ba-st/Willow/fcdc80ceba43f6a10136d069a4ef40144eb63209/source/Willow/ComponentRemovingCommand.class.st:
     annotations:
+      human-smola: Smalltalk
       linguist: Smalltalk
       linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
       vote: Smalltalk
   github.com/ba-st/Winter/baafa877a8e481b32e4872053ac890ae43da30ec/source/Winter-Core/WinterNonPlayer.class.st:
     annotations:
+      human-smola: Smalltalk
       linguist: Smalltalk
       linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
@@ -8726,6 +8729,7 @@ files:
       vote: XProc
   github.com/dalehenrich/filetree/d7eee41d8a083180557d00e270f279f47105a565/repository/MonticelloFileTree-Tests.package/MCFileTreeFileUtilitiesTests.class/instance/testDirectoryFromEntry.st:
     annotations:
+      human-smola: Smalltalk
       linguist: Smalltalk
       linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
@@ -9543,6 +9547,7 @@ files:
       vote: Clean
   github.com/dorellang/hunter/57ae7bdc60c59ffb83202f5b347c3e0310d08221/src/Hunter.package/HNMetaModelBuilderTests.class/instance/testTryStatement.st:
     annotations:
+      human-smola: Smalltalk
       linguist: Smalltalk
       linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
@@ -10834,6 +10839,7 @@ files:
       vote: xBase
   github.com/feenkcom/gtoolkit/1809c243d4cc570c40a633e8aab48f5074e1a174/src/GToolkit-Scenery/GtSceneryBuilder.class.st:
     annotations:
+      human-smola: Smalltalk
       linguist: Smalltalk
       linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
@@ -12150,6 +12156,7 @@ files:
       vote: AutoIt
   github.com/guillep/Scale/8590fcb02889bf5ea9d8e38a7dcf5f548dc656a1/src/ConfigurationOfScale.package/ConfigurationOfScale.class/class/ensureMetacelloBaseConfiguration.st:
     annotations:
+      human-smola: Smalltalk
       linguist: Smalltalk
       linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
@@ -18492,12 +18499,14 @@ files:
       vote: Zephir
   github.com/pharo-project/pharo-launcher/a3894e183044b2f91d159dc77cf7927111cfd2e0/src/PharoLauncher-Core/PhLJenkins2Entity.class.st:
     annotations:
+      human-smola: Smalltalk
       linguist: Smalltalk
       linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
       vote: Smalltalk
   github.com/pharo-project/pharo/44ab73c423c2e8d8b8a5762361bb5b0364bc1214/src/Calypso-SystemTools-FullBrowser/ClyMethodContextOfFullBrowser.class.st:
     annotations:
+      human-smola: Smalltalk
       linguist: Smalltalk
       linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
@@ -18665,6 +18674,7 @@ files:
       vote: Clarion
   github.com/pillar-markup/pillar/3a801e439fe7426d00caa9d79851733891313e63/src/Pillar-Tests-Model/PRVisitorTest.class.st:
     annotations:
+      human-smola: Smalltalk
       linguist: Smalltalk
       linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
@@ -19703,6 +19713,7 @@ files:
       vote: RouterOS Script
   github.com/redline-smalltalk/redline-smalltalk/14d92a2cac8311837810b87e2dd434436430108d/src/main/smalltalk/st/redline/kernel/Transcript.st:
     annotations:
+      human-smola: Smalltalk
       linguist: Smalltalk
       linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
@@ -20161,6 +20172,7 @@ files:
       vote: TSQL
   github.com/ronsaldo/lowtalk/ed169388a9f4799b296b92ea2b0d5e7e9e59a5b8/tonel/Lowtalk-Core/LowtalkBObject.class.st:
     annotations:
+      human-smola: Smalltalk
       linguist: Smalltalk
       linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
@@ -20668,6 +20680,7 @@ files:
       vote: Squirrel
   github.com/sbragagnolo/taskit/3b78424adde348ce6daeeda2cf38f8af481e237f/TaskIt-Tests/TKTWorkerMemoryLeakTests.class.st:
     annotations:
+      human-smola: Smalltalk
       linguist: Smalltalk
       linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
@@ -21155,6 +21168,7 @@ files:
       vote: C
   github.com/sl4m/gnu_smalltalk_koans/1b52dcdc9dd6f6e61706d0fa68d2c30ae9da6f47/src/koans/TestMessage.st:
     annotations:
+      human-smola: Smalltalk
       linguist: Smalltalk
       linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
@@ -21649,6 +21663,7 @@ files:
       vote: Vala
   github.com/studio/studio/b653144046b775ea8bddc391a4ba29625936e282/frontend/Studio-RaptorJIT/RJITBlIRFragment.class.st:
     annotations:
+      human-smola: Smalltalk
       linguist: Smalltalk
       linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
@@ -21719,6 +21734,7 @@ files:
       vote: eC
   github.com/svenvc/ston/049da2fad16df1a470da5fd8c4f748562250b7f5/repository/STON-Tests.package/STONTestDomainObject.class/class/dummy.st:
     annotations:
+      human-smola: Smalltalk
       linguist: Smalltalk
       linguist-heuristics: Smalltalk
       pygments-filename: Smalltalk
