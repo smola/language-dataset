@@ -4,8 +4,8 @@
 | Metric | Value |
 | ------ | ----- |
 | **Languages** | 262 |
-| **Total samples** | 3894 |
-| **Samples labeled by humans** | 1060 |
+| **Total samples** | 3891 |
+| **Samples labeled by humans** | 1061 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -120,7 +120,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Hy | 20 | 0 |
 | IDL | 13 | 5 |
 | IGOR Pro | 20 | 0 |
-| INI | 3 | 2 |
+| INI | 2 | 2 |
 | Idris | 18 | 1 |
 | Io | 17 | 0 |
 | Ioke | 14 | 0 |
@@ -193,7 +193,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | PowerShell | 17 | 3 |
 | Processing | 20 | 2 |
 | Proguard | 3 | 3 |
-| Prolog | 15 | 11 |
+| Prolog | 13 | 12 |
 | PureBasic | 8 | 0 |
 | PureScript | 20 | 0 |
 | Python | 21 | 3 |

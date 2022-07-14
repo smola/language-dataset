@@ -2124,6 +2124,7 @@ files:
       vote: AutoIt
   github.com/JCumin/Brachylog/22cbc9547cf3d7ab9d1b8cd56c11276622cea17c/src/brachylog.pl:
     annotations:
+      human-smola: Prolog
       linguist: Prolog
       linguist-heuristics: Prolog
       pygments-filename: Prolog
@@ -4836,9 +4837,11 @@ files:
       vote: VHDL
   github.com/Ttreintaysiete/chaves/9972f5b735048064f86628ce642d3d94d7502cea/v2/hardware/chaves.pro:
     annotations:
+      human-sola: Unknown
       linguist: INI
       pygments-filename: Prolog
-      vote: INI
+      vote: Unknown
+    notes: EAGLE AutoRouter Statistics
   github.com/TunSafe/TunSafe/85a871c1d226956df7c1308a1e5527556fe35fe1/crypto/poly1305/poly1305-x64-linux.s:
     annotations:
       human-smola: Unix Assembly
@@ -7685,9 +7688,11 @@ files:
       vote: REALbasic
   github.com/carloop/hardware/7fe80cc13adf8100ad54f4a6c7fb054c739a4806/CarloopXL.v3/CarloopXL-v3.1.pro:
     annotations:
+      human-smola: Unknown
       linguist: Prolog
       pygments-filename: Prolog
-      vote: Prolog
+      vote: Unknown
+    notes: EAGLE AutoRouter Statistics
   github.com/carlosedp/cluster-monitoring/cdc33631f480815065ef472e751d3761c7a04cce/k3s-overrides.jsonnet:
     annotations:
       linguist: Jsonnet
@@ -20690,9 +20695,11 @@ files:
       vote: Objective-C
   github.com/sciguy14/Eagle-Tutorial-Series/2683c0f2b7aaacc525c2180436f6940eb952dfe4/02 Layout/blinky.pro:
     annotations:
+      human-smola: Unknown
       linguist: Prolog
       pygments-filename: Prolog
-      vote: Prolog
+      vote: Unknown
+    notes: EAGLE AutoRouter Statistics
   github.com/scilab/scilab/0068b70ee75ebbfd7f0201abec7a5e56df5469b0/scilab/modules/xcos/tests/nonreg_tests/bug_11821.tst:
     annotations:
       linguist: Scilab
