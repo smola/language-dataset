@@ -5,7 +5,7 @@
 | ------ | ----- |
 | **Languages** | 262 |
 | **Total samples** | 3889 |
-| **Samples labeled by humans** | 1090 |
+| **Samples labeled by humans** | 1109 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -42,7 +42,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Befunge | 2 | 2 |
 | BlitzMax | 20 | 1 |
 | Boo | 15 | 14 |
-| Brainfuck | 20 | 1 |
+| Brainfuck | 20 | 20 |
 | Brightscript | 20 | 1 |
 | C | 22 | 22 |
 | C# | 22 | 5 |
