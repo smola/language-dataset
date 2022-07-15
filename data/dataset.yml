@@ -761,9 +761,11 @@ files:
       vote: Rust
   github.com/C-Bouthoorn/i3config/de58cdbb9a1f2299182e25139b67cccd02b8a6f3/20-keys.i3/10-core.i3:
     annotations:
+      human-smola: Unknown
       linguist: Modula-3
       linguist-extension: Modula-3
-      vote: Modula-3
+      vote: Unknown
+    notes: i3 configuration
   github.com/CCBR/Pipeliner/477aecebac322aae9ed8fabee361baa2961a183f/Rules/wgs.somatic.germline.calls.rl:
     annotations:
       human-smola: Unknown
@@ -1428,9 +1430,11 @@ files:
       vote: Clean
   github.com/ErrkO/Manjaro-Desktop-Settings/3b246cfb71d467ca8131296d8518ba61e6e0a58e/config.i3:
     annotations:
+      human-smola: Unknown
       linguist: Modula-3
       linguist-extension: Modula-3
-      vote: Modula-3
+      vote: Unknown
+    notes: i3 configuration
   github.com/EvanHahn/brainfuck-web-app/487cc274f056752494d7bea7013f05a3c89f6c09/server.bf:
     annotations:
       human-smola: Brainfuck
@@ -1984,9 +1988,11 @@ files:
       vote: AutoHotkey
   github.com/HrafnkellNK/dotfiles/258c458bd82d07a7dbb697dd316069a3d0b4eff8/config.i3:
     annotations:
+      human-smola: Unknown
       linguist: Modula-3
       linguist-extension: Modula-3
-      vote: Modula-3
+      vote: Unknown
+    notes: i3 configuration
   github.com/HubSpot/BuckyClient/646ab9ebcbcaaab4e68c7fcbf66e109dd418b3b3/bucky.coffee:
     annotations:
       linguist: CoffeeScript
@@ -2238,9 +2244,11 @@ files:
       vote: Kit
   github.com/JeeJay23/dotfiles/9ef75d37851dff19f535d75daf998859fb390159/config.i3:
     annotations:
+      human-smola: Unknown
       linguist: Modula-3
       linguist-extension: Modula-3
-      vote: Modula-3
+      vote: Unknown
+    notes: i3 configuration
   github.com/JeffBezanson/femtolisp/ec7601076a976f845bc05ad6bd3ed5b8cde58a97/lib/sort.scm:
     annotations:
       human-smola: Scheme
@@ -3631,9 +3639,11 @@ files:
       vote: J
   github.com/Passw4r/dotfiles/a068dd0db007aa84d1e8c5539de129e41390305f/config.i3:
     annotations:
+      human-smola: Unknown
       linguist: Modula-3
       linguist-extension: Modula-3
-      vote: Modula-3
+      vote: Unknown
+    notes: i3 configuration
   github.com/PaulBatchelor/libline/67f99c121fb407e97c5363177a07cd4e9c79fa53/point.w:
     annotations:
       human-smola: CWeb
@@ -4083,9 +4093,11 @@ files:
       vote: V
   github.com/S25214/.dot/4a05cd1a5f830a4aa25f0b3e2bb402f7929353b2/.i3:
     annotations:
+      human-smola: Unknown
       linguist: Modula-3
       linguist-extension: Modula-3
-      vote: Modula-3
+      vote: Unknown
+    notes: i3 configuration
   github.com/SAP/abap-platform-yy/a4d240f59fe32c89c342edf0ac1f073950772d45/src/zcl_yy_data_element_structure.clas.testclasses.abap:
     annotations:
       linguist: ABAP
@@ -6703,9 +6715,11 @@ files:
       vote: REXX
   github.com/ayuryshev/config/c00693a20028eb72c7541e12159576a0b1ffc3fb/i3/src/A-main.i3:
     annotations:
+      human-smola: Unknown
       linguist: Modula-3
       linguist-extension: Modula-3
-      vote: Modula-3
+      vote: Unknown
+    notes: i3 configuration
   github.com/azac/cobol-on-wheelchair/6bce149786c3d4d29b4440be21e7695892f1ce42/cow.cbl:
     annotations:
       linguist: COBOL
@@ -8151,9 +8165,11 @@ files:
       vote: XSLT
   github.com/ckgyarmathy/debian_config/ca5f883bfe5e57218f6c62aa8528a53e011ffbcc/config_.i3:
     annotations:
+      human-smola: Unknown
       linguist: Modula-3
       linguist-extension: Modula-3
-      vote: Modula-3
+      vote: Unknown
+    notes: i3 configuration
   "github.com/ckjbug/Hacking/89a9b9c6fe8a0ab58550d0030d33d76e86deef7d/Windows-hosts\u6587\u4EF6\u7FFB\u5899\u811A\u672C\u4F7F\u7528\u8BF4\u660E\u7B49/Google\u7F51\u7AD9hosts/0114/windows\u7528\u6279\u5904\u7406/Windows\u81EA\u52A8\u66FF\u6362\u811A\u672C.bat":
     annotations:
       linguist: Batchfile
@@ -9938,9 +9954,11 @@ files:
       vote: ooc
   github.com/ebladrocher/scriptinstall/c11dce8abf84246ad9c12975bd65f654ad392948/i3/ihotkeys.i3:
     annotations:
+      human-smola: Unknown
       linguist: Modula-3
       linguist-extension: Modula-3
-      vote: Modula-3
+      vote: Unknown
+    notes: i3 configuration
   github.com/ecere/chess/08db7b73bc05007bad593d42ce97c25c58edbd03/src/promotion.ec:
     annotations:
       linguist: eC
@@ -15447,9 +15465,11 @@ files:
       vote: Brightscript
   github.com/llinaresvicent/dotfiles/535d7cb7512ed6c14a39bc0c78c44074a6476285/.i3:
     annotations:
+      human-smola: Unknown
       linguist: Modula-3
       linguist-extension: Modula-3
-      vote: Modula-3
+      vote: Unknown
+    notes: i3 configuration
   github.com/llvm-hs/llvm-hs/5eac40827f256f40fe5a13b70635ef1aff3f0f6f/llvm-hs/test/debug_metadata_2.ll:
     annotations:
       linguist: LLVM
@@ -17392,9 +17412,11 @@ files:
       vote: OpenEdge ABL
   github.com/nilp0inter/dotfiles/2af9e96e19cd23e5d22d316704ba1bd8adfd9254/.i3:
     annotations:
+      human-smola: Unknown
       linguist: Modula-3
       linguist-extension: Modula-3
-      vote: Modula-3
+      vote: Unknown
+    notes: i3 configuration
   github.com/nim-lang/Aporia/3273cb144172deb2dae615191b30a62093c365ee/suggest.nim:
     annotations:
       linguist: Nim
@@ -18129,9 +18151,11 @@ files:
       vote: PL/SQL
   github.com/oscfdezdz/Dotfiles-WIP/fbcb800a377c3c7ae85bec90f038e54cc500a44b/config.i3:
     annotations:
+      human-smola: Unknown
       linguist: Modula-3
       linguist-extension: Modula-3
-      vote: Modula-3
+      vote: Unknown
+    notes: i3 configuration
   github.com/osener/wring/8d18eee931a347e96e11a806c2838b76c6474a73/src/Uri.purs:
     annotations:
       linguist: PureScript
@@ -18954,9 +18978,11 @@ files:
       vote: Unknown
   github.com/potatoHVAC/dotfiles/4c0b80418453bbcd9679762d088b371ee1c4723b/.i3:
     annotations:
+      human-smola: Unknown
       linguist: Modula-3
       linguist-extension: Modula-3
-      vote: Modula-3
+      vote: Unknown
+    notes: i3 configuration
   github.com/potigol/potigol-grammar/383b2bcae94a0a741705eedb42b97cfda3670340/potigol.g4:
     annotations:
       human-smola: ANTLR
@@ -19359,9 +19385,11 @@ files:
       vote: Clojure
   github.com/quillford/config/9e482da34d4dc835d34305db773e82752cc26925/.i3:
     annotations:
+      human-smola: Unknown
       linguist: Modula-3
       linguist-extension: Modula-3
-      vote: Modula-3
+      vote: Unknown
+    notes: i3 configuration
   github.com/quintesse/ceylon-tako-sdk/d0890c2599fe63af499908452452b7786d8f4c23/test/test/options/test.ceylon:
     annotations:
       linguist: Ceylon
@@ -19473,9 +19501,11 @@ files:
       vote: Raku
   github.com/ramonsaraiva/cfg/41a14360bb7bda3f1689a90ea2c109059796116f/.i3:
     annotations:
+      human-smola: Unknown
       linguist: Modula-3
       linguist-extension: Modula-3
-      vote: Modula-3
+      vote: Unknown
+    notes: i3 configuration
   github.com/rampelstinskin/ParserGenerator/7eabf20f45f1dc47525fcc158653a6d363b981d3/N2/Boot.N2.Runtime/Internal/ExtensionPostfixBase.n:
     annotations:
       linguist: Nemerle
