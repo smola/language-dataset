@@ -468,6 +468,7 @@ files:
       vote: ColdFusion
   github.com/ArkArk/15puzzle-brainfuck/2f0ad206215bac1af7082d098e9972217263bf3f/src/15puzzle.bf:
     annotations:
+      human-smola: Brainfuck
       linguist: Brainfuck
       pygments-filename: Brainfuck
       vote: Brainfuck
@@ -1432,6 +1433,7 @@ files:
       vote: Modula-3
   github.com/EvanHahn/brainfuck-web-app/487cc274f056752494d7bea7013f05a3c89f6c09/server.bf:
     annotations:
+      human-smola: Brainfuck
       linguist: Brainfuck
       pygments-filename: Brainfuck
       vote: Brainfuck
@@ -1950,6 +1952,7 @@ files:
       vote: REALbasic
   github.com/HexHive/printbf/711c0ddad3d2d0bb8aeb4292de94ea94d6278257/bfprogs/life.bf:
     annotations:
+      human-smola: Brainfuck
       linguist: Brainfuck
       pygments-filename: Brainfuck
       vote: Brainfuck
@@ -3610,6 +3613,7 @@ files:
       vote: Clean
   github.com/Parou/Cocoa-Biscuit-Cake-with-Marshmallow-Cheese-Creme/6ede21dc025ec8f9daf2fb51f80f0b946a764df6/brainfuck/recipe.bf:
     annotations:
+      human-smola: Brainfuck
       linguist: Brainfuck
       pygments-filename: Brainfuck
       vote: Brainfuck
@@ -7653,6 +7657,7 @@ files:
       vote: Limbo
   github.com/cagataycali/awesome-brainfuck/1d7e330e7f9bb441a98bad94df4c0569ea94580e/self-interpreters/by-adam-domurad.bf:
     annotations:
+      human-smola: Brainfuck
       linguist: Brainfuck
       pygments-filename: Brainfuck
       vote: Brainfuck
@@ -8170,6 +8175,7 @@ files:
       vote: XSLT
   github.com/clarkzjw/one-two-three...infinity/6e51f4a16cb62ad9e60f6fbc2fed710d7dc8bbb4/sum.b:
     annotations:
+      human-smola: Brainfuck
       linguist: Brainfuck
       pygments-filename: Limbo
       vote: Brainfuck
@@ -8803,6 +8809,7 @@ files:
       vote: Unknown
   github.com/daoo/brainfuck/2eec4e077c240bc7b3dc2f0544c87ac4effe0da3/brainfuck/rot13.bf:
     annotations:
+      human-smola: Brainfuck
       linguist: Brainfuck
       pygments-filename: Brainfuck
       vote: Brainfuck
@@ -10427,6 +10434,7 @@ files:
       vote: Processing
   github.com/erwijet/BrainF.Net/20bbce54e838640427861792d95a4656fecd8b0f/BrainF_Test/bin/Debug/script.bf:
     annotations:
+      human-smola: Brainfuck
       linguist: Brainfuck
       pygments-filename: Brainfuck
       vote: Brainfuck
@@ -11529,6 +11537,7 @@ files:
       vote: PicoLisp
   github.com/gchilczuk/BrainFuck/456eb98414e5db03116d2685532d24aba43931fa/src/simple_calc.b:
     annotations:
+      human-smola: Brainfuck
       linguist: Brainfuck
       pygments-filename: Limbo
       vote: Brainfuck
@@ -12834,6 +12843,7 @@ files:
       vote: Zephir
   github.com/hugopeixoto/mergesort/6f621dba1831f48ba76d5630728337ab9ad89ddf/brainfuck/mergesort.bf:
     annotations:
+      human-smola: Brainfuck
       linguist: Brainfuck
       pygments-filename: Brainfuck
       vote: Brainfuck
@@ -13197,6 +13207,7 @@ files:
       vote: Modula-2
   github.com/iolivia/fizzbuzz/41b9bcad4fbbc0be547c1e09638e6d53682c2aaa/fizzbuzz.bf:
     annotations:
+      human-smola: Brainfuck
       linguist: Brainfuck
       pygments-filename: Brainfuck
       vote: Brainfuck
@@ -15324,6 +15335,7 @@ files:
       vote: Agda
   github.com/liancheng/brainsuck/afbdcd050c145458ee7fc528c03748381ccb4311/scripts/hanoi.b:
     annotations:
+      human-smola: Brainfuck
       linguist: Brainfuck
       pygments-filename: Limbo
       vote: Brainfuck
@@ -16068,6 +16080,7 @@ files:
       vote: Shell
   github.com/matslina/awib/eaf1d79c6b896ee156637f14cb19382611b892a6/lang_generic/backend.b:
     annotations:
+      human-smola: Brainfuck
       linguist: Brainfuck
       pygments-filename: Limbo
       vote: Brainfuck
@@ -16526,6 +16539,7 @@ files:
       vote: VHDL
   github.com/mitxela/bf-tic-tac-toe/a1551c2c7b5dca4830545358216c299f8c41e53d/tictactoe-comments.bf:
     annotations:
+      human-smola: Brainfuck
       linguist: Brainfuck
       pygments-filename: Brainfuck
       vote: Brainfuck
@@ -17019,6 +17033,7 @@ files:
       vote: LOLCODE
   github.com/mthmulders/brainfuck-jvm/0f0c608ef0c3fed14751ee4615c3a1ae1226a919/language/src/test/resources/oobrain.bf:
     annotations:
+      human-smola: Brainfuck
       linguist: Brainfuck
       pygments-filename: Brainfuck
       vote: Brainfuck
@@ -18167,6 +18182,7 @@ files:
       vote: Gnuplot
   github.com/pablojorge/brainfuck/ef60abec5cd6de90f05e410741001124bc8eb275/programs/bizzfuzz.bf:
     annotations:
+      human-smola: Brainfuck
       linguist: Brainfuck
       pygments-filename: Brainfuck
       vote: Brainfuck
@@ -21060,6 +21076,7 @@ files:
       vote: Unknown
   github.com/shinh/bflisp/4e702438612f659fa2c668f18400babda5355723/test/cal.bf:
     annotations:
+      human-smola: Brainfuck
       linguist: Brainfuck
       pygments-filename: Brainfuck
       vote: Brainfuck
@@ -23044,6 +23061,7 @@ files:
       vote: LSL
   github.com/veekxt/BrainFuck/7c27fae7461ad54ac02eb7dfd60b3c911be699fa/test_bf_file/xietao.bf:
     annotations:
+      human-smola: Brainfuck
       linguist: Brainfuck
       pygments-filename: Brainfuck
       vote: Brainfuck
@@ -24046,6 +24064,7 @@ files:
       vote: Classic ASP
   github.com/zenware/FizzBuzz/807ab8c4f346c287ca4b2b75cd01c2af5fc0b7ae/brainfuck.bf:
     annotations:
+      human-smola: Brainfuck
       linguist: Brainfuck
       pygments-filename: Brainfuck
       vote: Brainfuck
