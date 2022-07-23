@@ -2799,6 +2799,7 @@ files:
       vote: CLIPS
   github.com/MIPSfpga/schoolMIPS/986ff72cfee670b57f74fc2dafdb7f9318507dd3/src/sm_register.v:
     annotations:
+      human-smola: Verilog
       linguist: Verilog
       linguist-heuristics: Verilog
       pygments-filename: Verilog
@@ -4087,6 +4088,7 @@ files:
       vote: Chapel
   github.com/RustemB/rosetta-code-v/b61d91bb0d39f37c7bf625b786a25c129e02e774/associative_array_creation.v:
     annotations:
+      human-smola: V
       linguist: V
       linguist-heuristics: V
       pygments-filename: Verilog
@@ -4710,6 +4712,7 @@ files:
       vote: Unknown
   github.com/TheBeachMaster/v-lang/6a1d9e9a731d4464d8380710083599586288c1af/helloworld/hello.v:
     annotations:
+      human-smola: V
       linguist: V
       linguist-heuristics: V
       pygments-filename: Verilog
@@ -4740,6 +4743,7 @@ files:
       vote: Squirrel
   github.com/TheoWinterhalter/formal-type-theory/93ac197dfde912d77af9b0f4fd9f7d2422ba7dfc/src/checking_tactics.v:
     annotations:
+      human-smola: Coq
       linguist: Coq
       linguist-heuristics: Coq
       pygments-filename: Verilog
@@ -4789,6 +4793,7 @@ files:
       vote: Elm
   github.com/TiarkRompf/scala-escape/bab5b9ce005aa8aae42898231aac28ec9cb54407/coq/stlc2.v:
     annotations:
+      human-smola: Coq
       linguist: Coq
       linguist-heuristics: Coq
       pygments-filename: Verilog
@@ -4918,12 +4923,14 @@ files:
       vote: YASnippet
   github.com/UniMath/Foundations/df19211f602ab71ee44f0ae4de2a19170c5b9e4d/Current_work/semisimplicial2.v:
     annotations:
+      human-smola: Coq
       linguist: Coq
       linguist-heuristics: Coq
       pygments-filename: Verilog
       vote: Coq
   github.com/UniMath/UniMath/4ecbfc82071291d54b33d1f30f2b390c31c15dc2/UniMath/CategoryTheory/Subcategory/Limits.v:
     annotations:
+      human-smola: Coq
       linguist: Coq
       linguist-heuristics: Coq
       pygments-filename: Verilog
@@ -5333,6 +5340,7 @@ files:
       vote: LSL
   github.com/ZipCPU/zipcpu/752bcc9485609f1f094100719262a7c2d386d6b7/rtl/core/mpyop.v:
     annotations:
+      human-smola: Verilog
       linguist: Verilog
       linguist-heuristics: Verilog
       pygments-filename: Verilog
@@ -5477,6 +5485,7 @@ files:
       vote: C++
   github.com/achlipala/frap/93ef5add7a69eb8aacb5eacd37f91a5c4e104251/SepCancel.v:
     annotations:
+      human-smola: Coq
       linguist: Coq
       linguist-heuristics: Coq
       pygments-filename: Verilog
@@ -5713,6 +5722,7 @@ files:
       vote: TypeScript
   github.com/alangarf/apple-one/6df00e716144d94f0935523017fc43e6e4f7393f/rtl/boards/ice40hx8k-b-evn/apple1_hx8k.v:
     annotations:
+      human-smola: Verilog
       linguist: Verilog
       linguist-heuristics: Verilog
       pygments-filename: Verilog
@@ -6107,6 +6117,7 @@ files:
       vote: TSX
   github.com/antalsz/hs-to-coq/6d75eecc36ad918989f69e2471ffc1e88a76f409/base/Data/Either.v:
     annotations:
+      human-smola: Coq
       linguist: Coq
       pygments-filename: Verilog
       vote: Coq
@@ -13483,6 +13494,7 @@ files:
       vote: Literate CoffeeScript
   github.com/jasmin-lang/jasmin/0b895ab8975da6d6257c9c092a02b286fdcbc5fe/proofs/lang/low_memory.v:
     annotations:
+      human-smola: Coq
       linguist: Coq
       linguist-heuristics: Coq
       pygments-filename: Verilog
@@ -14318,6 +14330,7 @@ files:
       vote: Frege
   github.com/jwiegley/category-theory/d39ddffef514d2c541708c4779fb75b58d63af3d/Structure/Closed.v:
     annotations:
+      human-smola: Coq
       linguist: Coq
       linguist-heuristics: Coq
       pygments-filename: Verilog
@@ -16076,6 +16089,7 @@ files:
     notes: LAMMPS
   github.com/math-comp/math-comp/71e397e46b65c1c27a65471170d71f388c8a45f1/mathcomp/ssreflect/div.v:
     annotations:
+      human-smola: Coq
       linguist: Coq
       linguist-heuristics: Coq
       pygments-filename: Verilog
@@ -20610,6 +20624,7 @@ files:
       vote: PowerShell
   github.com/samuelgruetter/dot-calculus/5226123cf638f8e967f3294578ca3ecb7379cf96/ln/tlc/LibMap.v:
     annotations:
+      human-smola: Coq
       linguist: Coq
       linguist-heuristics: Coq
       pygments-filename: Verilog
@@ -23006,6 +23021,7 @@ files:
       vote: Alloy
   github.com/uwplse/verdi/2b94f5529eb7b8d28ef7e596383b4eec1d8343c5/core/TotalMapSimulations.v:
     annotations:
+      human-smola: Coq
       linguist: Coq
       linguist-heuristics: Coq
       pygments-filename: Verilog
@@ -23191,23 +23207,27 @@ files:
       vote: QMake
   github.com/vlang/doom/2ca6f30a99c4d90e9a385341515f163b1a053f0e/p_enemy.v:
     annotations:
+      human-smola: V
       linguist: V
       pygments-filename: Verilog
       vote: V
   github.com/vlang/v/e3ad367b805edb7d44da5bbb150821ee36034369/vlib/crypto/rand/rand_test.v:
     annotations:
+      human-smola: V
       linguist: V
       linguist-heuristics: V
       pygments-filename: Verilog
       vote: V
   github.com/vlang/vid/c0ce3ee6e092c83281b504fe780a36e760ac2fc5/view.v:
     annotations:
+      human-smola: V
       linguist: V
       linguist-heuristics: V
       pygments-filename: Verilog
       vote: V
   github.com/vlang/vorum/9f8998822fc5105eed3c7b384700354199dd62c0/oauth.v:
     annotations:
+      human-smola: V
       linguist: V
       linguist-heuristics: V
       pygments-filename: Verilog
@@ -23249,6 +23269,7 @@ files:
       vote: Batchfile
   github.com/vpervenditti/vgram/bbea3b9ee8d043612571ef77a34da6030ac5fd46/methods.v:
     annotations:
+      human-smola: V
       linguist: V
       pygments-filename: Verilog
       vote: V
@@ -23414,6 +23435,7 @@ files:
       vote: Scheme
   github.com/welldoer/v_replay/73816826b28d844e4a3bc7b7a108cfb29e02380c/vlib/builtin/map.v:
     annotations:
+      human-smola: V
       linguist: V
       linguist-heuristics: V
       pygments-filename: Verilog
