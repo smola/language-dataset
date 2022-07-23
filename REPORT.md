@@ -5,7 +5,7 @@
 | ------ | ----- |
 | **Languages** | 262 |
 | **Total samples** | 3874 |
-| **Samples labeled by humans** | 1109 |
+| **Samples labeled by humans** | 1131 |
 
 ## Per Language
 For each language, the table reports total number of samples (_Samples_) and how many of them have been labeled by a human (_Human_).
@@ -66,7 +66,7 @@ For each language, the table reports total number of samples (_Samples_) and how
 | ColdFusion CFC | 8 | 8 |
 | Common Lisp | 14 | 11 |
 | Common Workflow Language | 16 | 1 |
-| Coq | 21 | 10 |
+| Coq | 21 | 21 |
 | Crystal | 19 | 0 |
 | Cycript | 16 | 11 |
 | D | 20 | 6 |
@@ -244,10 +244,10 @@ For each language, the table reports total number of samples (_Samples_) and how
 | Turing | 8 | 0 |
 | TypeScript | 16 | 5 |
 | Unix Assembly | 5 | 4 |
-| V | 18 | 4 |
+| V | 18 | 12 |
 | VHDL | 18 | 4 |
 | Vala | 20 | 1 |
-| Verilog | 20 | 8 |
+| Verilog | 20 | 11 |
 | Vim Script | 20 | 2 |
 | Visual Basic | 1 | 1 |
 | Visual Basic .NET | 1 | 0 |
